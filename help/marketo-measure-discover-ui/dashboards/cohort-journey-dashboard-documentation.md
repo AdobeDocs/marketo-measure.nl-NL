@@ -1,0 +1,56 @@
+---
+unique-page-id: 42762648
+description: Documentatie van het dashboard van de Reis van de Cohort - [!DNL Marketo Measure] - Productdocumentatie
+title: Documentatie van Cohort Reisdashboard
+exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
+source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 0%
+
+---
+
+# Documentatie van Cohort Reisdashboard {#cohort-journey-dashboard-documentation}
+
+Met het dashboard Reis van Cohort kunnen markeertekens de voortgang van een begincohortstadium voor een geselecteerd tijdframe bekijken en de conversiesnelheid meten.
+
+Dit dashboard heeft twee tegels:
+
+* Ontvangsten cohort: De totale kans is afkomstig uit alle mogelijkheden in de fase van de deals van de Cohort Journey-tegel.
+* Cohortreis: De overgang van de begincohortfase naar elke transportfase gedurende een geselecteerd tijdsbestek.
+
+>[!NOTE]
+>
+>Op alle Discover-dashboards kan slechts één persoonlijk object, Lead of Contact, worden gerapporteerd. Deze is ingesteld in [!UICONTROL Settings] > [!UICONTROL Reporting] > [!UICONTROL Attribution Settings] > [!UICONTROL Default Dashboard Object].
+
+Dit dashboard ondersteunt de volgende filters:
+
+* Cohortwerkgebied: Selecteer het beginstadium van de cohort. De verslagen in alle volgende stadia worden geëvolueerd van de verslagen in het cohortstadium.
+* Datumbereik cohort: Selecteer het tijdkader voor het geselecteerde codewerkgebied. Samen met Cohort Stage definieert het de eerste gegevensset.
+* Afsnijddatum: Selecteer de datum waarop de recordprogressie in alle volgende fasen moet plaatsvinden. Wordt standaard ingesteld op vandaag. Dit geldt voor alle stadia behalve het cohortstadium.
+* Kanaal: filtert de records via kanalen. Een record is gekoppeld aan een kanaal als een van de aanraakpunten aan het kanaal is gekoppeld.
+* Subkanaal: filtreer de records op subkanalen. Een record is gekoppeld aan een subkanaal als een van de aanraakpunten ervan is gekoppeld aan het subkanaal.
+* Campagne: filtreer de verslagen door campagnes. Een record is gekoppeld aan een campagne als een van de aanraakpunten aan de campagne is gekoppeld.
+* Bron campagne: filtreer de verslagen door campagnebronnen. Voorbeelden van campagnebronnen zijn [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], enz. Een record wordt gekoppeld aan een campagnebron als een van de aanraakpunten aan de campagnebron is gekoppeld.
+* Segmentfilters: filtreer de records op aangepaste segmenten. Een record is gekoppeld aan een segment als een van de aanraakpunten ervan aan het segment is gekoppeld.
+
+Voor alle filters wordt de logica AND gebruikt.
+
+>[!NOTE]
+>
+>Segmentfilters zijn alleen van toepassing op LC-werkgebied en erna. Als Cohort Stage onbekend of bekend is en een van de segmentfilters een waarde heeft, retourneert het dashboard geen resultaten.
+
+![](assets/one-2.png)
+
+De stadia omvatten Onbekend, Bekend, LC, geselecteerde stadia van de Trechter in Open Lood/ContactStages (Montages > CRM > de Afbeelding van het Stadium), OC, geselecteerde stadia van de Trechter in de Stages van de Kanaal van de Open (Montages > CRM > de Afbeelding van het Stadium), en Overeenkomsten (Gesloten Kansen van de Won).
+
+>[!NOTE]
+>
+>Het aantal records voor een reisfase, gedefinieerd als een ander stadium dan het cohortstadium, omvat alle nieuwe records die betrekking hebben op de cohortrecords en die worden gemaakt na de begindatum van het geselecteerde tijdkader en vóór de afkapdatum. Dit is afgeleid oorzakelijk.
+
+U kunt vanaf elke balk omlaag boren om de records voor elk werkgebied weer te geven.
+
+* Voor Onbekend worden anonieme bezoekersgegevens weergegeven.
+* Voor Bekende, toont het bekende bezoekersdetails.
+* Voor de fasen LC en Open Lead/Contact worden de gegevens van de Lead/van het Contact weergegeven.
+* Voor OC, Open stadia van de Kans, en Overeenkomsten, toont het de details van de Kans.
