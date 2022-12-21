@@ -3,9 +3,9 @@ unique-page-id: 42762762
 description: Marketo-verbinding instellen - [!DNL Marketo Measure] - Productdocumentatie
 title: Marketo-verbinding instellen
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
-source-git-commit: 391d2f42c0ee7e0b9e36c8257d23a6e942e4a9fa
+source-git-commit: ff3ebd557ffe745e1297d053be1390093dc4033c
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Hieronder wordt beschreven hoe u verbinding maakt met Marketo.
 
 >[!PREREQUISITES]
 >
->[Een gebruikersrol met alleen API maken](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) voor de verbinding Marketo Meetlat/Marketo Engage.
+>[Een gebruikersrol met alleen API maken](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) voor de [!DNL Marketo Measure]/Marketo Engage-verbinding.
 
 1. In [!DNL Marketo Measure]klikt u op de knop **[!UICONTROL My Account]** vervolgkeuzelijst en selecteer **[!UICONTROL Settings]**.
 
