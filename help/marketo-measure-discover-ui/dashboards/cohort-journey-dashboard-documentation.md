@@ -3,18 +3,32 @@ unique-page-id: 42762648
 description: Documentatie van het dashboard van de Reis van de Cohort - [!DNL Marketo Measure] - Productdocumentatie
 title: Documentatie van Cohort Reisdashboard
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # Documentatie van Cohort Reisdashboard {#cohort-journey-dashboard-documentation}
 
-Met het dashboard Reis van Cohort kunnen markeertekens de voortgang van een begincohortstadium voor een geselecteerd tijdframe bekijken en de conversiesnelheid meten.
+Met de dashboards Cohort Impact en Funnel kunnen Marketers de voortgang van een startcohortfase voor een geselecteerd tijdframe bekijken en de conversiesnelheid meten.
 
-Dit dashboard heeft twee tegels:
+Het belangrijkste verschil is hoe we elke entiteit tellen van de cohortfase.
+
+* Cohortrechter: Het resultaat van elke fase wordt rechtstreeks afgeleid uit de vorige fase.
+
+   * Alleen records die na de ingestelde begintijd van de cohort door elke fase naar beneden zijn gegaan, worden geteld.
+
+![](assets/cohort-journey-dashboard-documentation-1.png)
+
+* Cohorteffect: Het resultaat van elke fase is afgeleid van de cohortfase, niet van de voorafgaande fase.
+
+   * Alle records in elk werkgebied worden meegeteld zolang ze na de ingestelde begintijd van het cohort zijn gemaakt. Dit dashboard zal natuurlijk meer records hebben dan het dashboard van de Trechter, omdat we bekijken hoe de entiteiten beïnvloed werden vanuit de cohortfase, niet alleen de beweging door de trechter.
+
+![](assets/cohort-journey-dashboard-documentation-2.png)
+
+Elk dashboard heeft twee tegels:
 
 * Ontvangsten cohort: De totale kans is afkomstig uit alle mogelijkheden in de fase van de deals van de Cohort Journey-tegel.
 * Cohortreis: De overgang van de begincohortfase naar elke transportfase gedurende een geselecteerd tijdsbestek.
@@ -40,7 +54,7 @@ Voor alle filters wordt de logica AND gebruikt.
 >
 >Segmentfilters zijn alleen van toepassing op LC-werkgebied en erna. Als Cohort Stage onbekend of bekend is en een van de segmentfilters een waarde heeft, retourneert het dashboard geen resultaten.
 
-![](assets/one-2.png)
+![](assets/cohort-journey-dashboard-documentation-3.png)
 
 De stadia omvatten Onbekend, Bekend, LC, geselecteerde stadia van de Trechter in Open Lood/ContactStages (Montages > CRM > de Afbeelding van het Stadium), OC, geselecteerde stadia van de Trechter in de Stages van de Kanaal van de Open (Montages > CRM > de Afbeelding van het Stadium), en Overeenkomsten (Gesloten Kansen van de Won).
 
