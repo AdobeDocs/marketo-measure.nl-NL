@@ -3,7 +3,7 @@ unique-page-id: 42762648
 description: Documentatie van het dashboard van de Reis van de Cohort - [!DNL Marketo Measure] - Productdocumentatie
 title: Documentatie van Cohort Reisdashboard
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
+source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Elk dashboard heeft twee tegels:
 >
 >Op alle Discover-dashboards kan slechts één persoonlijk object, Lead of Contact, worden gerapporteerd. Deze is ingesteld in [!UICONTROL Settings] > [!UICONTROL Reporting] > [!UICONTROL Attribution Settings] > [!UICONTROL Default Dashboard Object].
 
-Dit dashboard ondersteunt de volgende filters:
+De dashboards steunen de volgende filters:
 
 * Cohortwerkgebied: Selecteer het beginstadium van de cohort. De verslagen in alle volgende stadia worden geëvolueerd van de verslagen in het cohortstadium.
 * Datumbereik cohort: Selecteer het tijdkader voor het geselecteerde codewerkgebied. Samen met Cohort Stage definieert het de eerste gegevensset.
@@ -53,8 +53,6 @@ Voor alle filters wordt de logica AND gebruikt.
 >[!NOTE]
 >
 >Segmentfilters zijn alleen van toepassing op LC-werkgebied en erna. Als Cohort Stage onbekend of bekend is en een van de segmentfilters een waarde heeft, retourneert het dashboard geen resultaten.
-
-![](assets/cohort-journey-dashboard-documentation-3.png)
 
 De stadia omvatten Onbekend, Bekend, LC, geselecteerde stadia van de Trechter in Open Lood/ContactStages (Montages > CRM > de Afbeelding van het Stadium), OC, geselecteerde stadia van de Trechter in de Stages van de Kanaal van de Open (Montages > CRM > de Afbeelding van het Stadium), en Overeenkomsten (Gesloten Kansen van de Won).
 
