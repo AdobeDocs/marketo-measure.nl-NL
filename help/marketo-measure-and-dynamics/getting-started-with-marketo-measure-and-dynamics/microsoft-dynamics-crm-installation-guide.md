@@ -3,9 +3,9 @@ unique-page-id: 18874763
 description: "[!DNL Microsoft Dynamics] CRM Installation Guide - Marketo Measurement - Product Documentation"
 title: "[!DNL Microsoft Dynamics] CRM Installation Guide"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 9de82556ca543aa8e6c53242eacae5c87019886c
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -138,11 +138,11 @@ Wanneer u een gebruiker aan hun respectievelijke groep toevoegt, ziet u hun [Ide
 
 >[!NOTE]
 >
->Om [!DNL Marketo Measure] beheerder (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}), moet een gebruiker worden toegevoegd als een gebruiker _en_ een beheerder voor [!DNL Marketo Measure] productprofiel in de [!DNL Marketo Measure] productkaart.
+>Om [!DNL Marketo Measure] beheerder (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}), moet een gebruiker als Gebruiker worden toegevoegd _en_ een beheerder voor [!DNL Marketo Measure] productprofiel in de [!DNL Marketo Measure] productkaart.
 
 **Aanmelden bij[!DNL Marketo Measure]**
 
-Nadat een gebruiker aan een Profiel van het Product is toegevoegd, kunnen zij tot hun toegang hebben [!DNL Marketo Measure] instantie(s) door de **Aanmelden met Adobe ID** optie bij [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+Nadat een gebruiker aan een Profiel van het Product is toegevoegd, kunnen zij tot hun toegang hebben [!DNL Marketo Measure] instantie(s) door de **Aanmelden met Adobe ID** optie bij [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 ![](assets/microsoft-dynamics-crm-installation-guide-15.png)
 
@@ -217,3 +217,7 @@ Om [!DNL Marketo Measure] om uw Webactiviteiten te volgen, zijn er veelvoudige s
    >Standaard, [!DNL Marketo Measure] Hiermee exporteert u 200 records per API-credit telkens wanneer een taak gegevens naar uw CRM verzendt. Voor de meeste klanten biedt dit de optimale balans tussen API-credits die worden verbruikt door [!DNL Marketo Measure] en CPU-resourcevereisten voor de CRM. Voor klanten met complexe CRM-configuraties, zoals workflows en triggers, kan een kleinere batch-omvang echter nuttig zijn om de CRM-prestaties te verbeteren. Daartoe [!DNL Marketo Measure] staat klanten toe om de grootte van de de uitvoerpartij van CRM te vormen. Deze instelling is beschikbaar op de pagina Instellingen > CRM > Algemeen in het dialoogvenster [!DNL Marketo Measure] De webtoepassing en klanten kunnen kiezen uit batchgrootten 200 (standaard), 100, 50 of 25.
    >
    >Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het is raadzaam om de partijgrootte te verminderen slechts als u Cpu ondervindt onderbreking of hoge lading van cpu in uw CRM.
+
+   >[!NOTE]
+   >
+   >Als u het exporteren van gegevens naar Dynamics uitschakelt, worden er geen bestaande gegevens verwijderd. Neem contact op met de afdeling Dynamische ondersteuning voor hulp bij het verwijderen van bestaande gegevens.
