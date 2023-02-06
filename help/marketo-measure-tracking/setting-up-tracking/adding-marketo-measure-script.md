@@ -5,7 +5,7 @@ title: Toevoegen [!DNL Marketo Measure] Script
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Zorg ervoor dat je [alle relevante domeinen in de [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target=&quot;_blank&quot;} naast de implementatie van de [!DNL Marketo Measure] JavaScript.
+>Zorg ervoor dat je [alle relevante domeinen in de [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} naast de implementatie van de [!DNL Marketo Measure] JavaScript.
 
 Aan de slag met [!DNL Marketo Measure], er zijn twee manieren waarop u de [!DNL Marketo Measure] JavaScript naar uw website:
 
@@ -33,7 +33,7 @@ De JavaScript-code in de `<head>` van uw pagina&#39;s ervoor zorgt dat [!DNL Mar
 
 >[!TIP]
 >
->Leer hoe u ervoor kunt zorgen dat het script [GDPR-compatibel](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target=&quot;_blank&quot;}.
+>Leer hoe u ervoor kunt zorgen dat het script [GDPR-compatibel](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"}.
 
 ## Tag Management Systems {#tag-management-systems}
 
@@ -47,17 +47,17 @@ Toevoegen [!DNL Marketo Measure] via een oplossing voor tagbeheer een nieuwe tag
 
 [!DNL Marketo Measure] Het wordt aanbevolen dat de tag wordt geactiveerd in elke paginaweergave. Bovendien is het beter om [!DNL Marketo Measure] de hoogste prioriteit in de vuurorde en zorg ervoor er geen synchrone manuscripten vóór [!DNL Marketo Measure] -tags toepassen om de hoogste gegevenskwaliteit te garanderen.
 
-Meer informatie is mogelijk [hier gevonden](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target=&quot;_blank&quot;}.
+Meer informatie is mogelijk [hier gevonden](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target="_blank"}.
 
 ## Aanvullende overwegingen {#additional-considerations}
 
-[!DNL Marketo Measure] JavaScript is op domein-gebaseerd zodat kan het automatisch om het even welke subdomeinen behandelen zolang JavaScript op de pagina&#39;s is en het worteldomein het zelfde als het domein is dat wordt gebruikt om de rekening van de Meetlat van Marketo tot stand te brengen.
+[!DNL Marketo Measure] JavaScript is op domein-gebaseerd zodat kan het automatisch om het even welke subdomeinen behandelen zolang JavaScript op de pagina&#39;s is en het worteldomein het zelfde als het domein is dat wordt gebruikt om de rekening van Marketo Measure tot stand te brengen.
 
 Als u echter afzonderlijke of internationale domeinen gebruikt, moet u ervoor zorgen dat uw [!DNL Marketo Measure] Consultant kent het. Het domein of de domeinen moeten handmatig aan uw account worden toegevoegd op het tabblad [!DNL Marketo Measure] zodat [!DNL Marketo Measure] weet hoe u de gegevens van de aanvullende domeinen aan uw account kunt koppelen. Stuur dus afzonderlijke/internationale domeinen naar uw [!DNL Marketo Measure] Consultant.
 
 Als u om het even welke derdepagina&#39;s gebruikt, heb een gesprek over uw gebruiksgeval met uw [!DNL Marketo Measure] Consultant. In het algemeen wilt u weten of u een aangepaste versie van [!DNL Marketo Measure] JavaScript om deze pagina&#39;s zo nodig bij te houden. Als dit niet mogelijk is, zal het volgen via CRM Campaign touchpoints met uw worden onderzocht [!DNL Marketo Measure] Consultant.
 
-Hebt u formulieren die NIET mogen worden bijgehouden door [!DNL Marketo Measure] aangezien zij niet noodzakelijk voor attributie (b.v. unsubscribe vormen, klantenlogins, enz.) zinvol zijn? Als zo, zult u de uitsluitingscode willen toevoegen [in dit artikel](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target=&quot;_blank&quot;} aan elk formulier
+Hebt u formulieren die NIET mogen worden bijgehouden door [!DNL Marketo Measure] aangezien zij niet noodzakelijk voor attributie (b.v. unsubscribe vormen, klantenlogins, enz.) zinvol zijn? Als zo, zult u de uitsluitingscode willen toevoegen [in dit artikel](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} naar elk formulier
 
 Hebt u onveilige pagina&#39;s? Als dat het geval is, zult u ze willen beveiligen, aangezien navigatie tussen een beveiligde/niet-beveiligde pagina de volgende sessie zal verbreken.
 
@@ -72,7 +72,7 @@ Indien een [!DNL Web Application Firewall (WAF)] de waarschuwing wordt geactivee
 **Meerdere formulieren verzenden**
 
 * Probleem: Als u meerdere gekoppelde formulieren hebt als onderdeel van één verzonden formulier, is het mogelijk dat het eerste formulier een aanraakpunt genereert, zelfs als het volledige formulier niet wordt verzonden.
-* Oplossing: U moet een van de formulieren forceren om de gebruiker aan te melden [!DNL Marketo Measure] gebaseerd op caching gegevens en bespreken verlaten praktijken. In het algemeen [rapportgebruikerscode](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target=&quot;_blank&quot;} kan dit oplossen.
+* Oplossing: U moet een van de formulieren forceren om de gebruiker aan te melden [!DNL Marketo Measure] gebaseerd op caching gegevens en bespreken verlaten praktijken. In het algemeen [rapportgebruikerscode](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} kan hiervoor een oplossing bieden.
 
 **Accountaanmelding (niet gemaakt)**
 
@@ -106,7 +106,7 @@ Indien een [!DNL Web Application Firewall (WAF)] de waarschuwing wordt geactivee
 **Forms georganiseerd in `<div>` format**
 
 * Probleem: [!DNL Marketo Measure] JS heeft moeite met het herkennen van formulieren die zijn georganiseerd in `<div>` opmaak zodat aangepaste code nodig kan zijn.
-* Oplossing: Deze [rapportgebruikerssjablonen](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target=&quot;_blank&quot;} kan door uw webontwikkelingsteam worden gebruikt om de benodigde code toe te voegen.
+* Oplossing: Deze [rapportgebruikerssjablonen](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} kan door uw team van Webontwikkeling worden gebruikt om de vereiste code toe te voegen.
 
 **Chat**
 

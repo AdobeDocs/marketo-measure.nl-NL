@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874791
 description: Verlening [!DNL Salesforce] Toegang tot [!DNL Marketo Measure] Ondersteuning - [!DNL Marketo Measure] - Productdocumentatie
-title: Verlening [!DNL Salesforce] Toegang tot ondersteuning voor Marketo-maatregelen
+title: Verlening [!DNL Salesforce] Toegang tot Marketo Measure-ondersteuning
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# Verlening [!DNL Salesforce] Toegang tot ondersteuning voor Marketo-maatregelen {#granting-salesforce-access-to-marketo-measure-support}
+# Verlening [!DNL Salesforce] Toegang tot Marketo Measure-ondersteuning {#granting-salesforce-access-to-marketo-measure-support}
 
 In sommige gevallen [!DNL Marketo Measure] De steun kan toegang tot uw verzoeken [!DNL Salesforce] omgeving voor hulp bij diagnostische probleemoplossing of configuratie met Salesforce tijdens de implementatie.
 

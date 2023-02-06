@@ -5,7 +5,7 @@ title: Aanraakpuntvelden
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1942'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Houd er rekening mee dat een gebruiker drie verschillende handelingen kan uitvoe
 
 Extracten
 
-De extractoperator haalt de waarde uit een veld van een andere locatie, zoals: een Campagne-veld, Lead-veld of in een geavanceerder gebruiksgeval, [aangepaste parameters ophalen van de bestemmingspagina](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;}. Vervolgens wordt het op een aanraakpuntveld geplaatst (zie [Kaarten naar voorbeeld](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;} #2).
+De extractoperator haalt de waarde uit een veld van een andere locatie, zoals: een Campagne-veld, Lead-veld of in een geavanceerder gebruiksgeval, [aangepaste parameters ophalen van de bestemmingspagina](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Voorbeeld 1**
 
@@ -220,7 +220,7 @@ Er is extra werk nodig om de nieuwe velden in de [!DNL Marketo Measure] Schema D
 
 **Hoe kan ik valideren dat mijn extractie-expressie geldig is en de juiste waarde ophalen?**
 
-Er is een online hulpmiddel ([https://regex101.com/](https://regex101.com/){target=&quot;_blank&quot;}) die u kunt uitvoeren en uittesten. De expressie wordt groen weergegeven als deze geldig is of rood als deze ongeldig is. Ook, is de verklaringsdoos bij het hoogste recht nuttig en vertelt u wat u uithaalt.
+Er is een online hulpmiddel ([https://regex101.com/](https://regex101.com/){target="_blank"}) die u kunt uitvoeren en uittesten. De expressie wordt groen weergegeven als deze geldig is of rood als deze ongeldig is. Ook, is de verklaringsdoos bij het hoogste recht nuttig en vertelt u wat u uithaalt.
 
 ![](assets/twelve.png)
 

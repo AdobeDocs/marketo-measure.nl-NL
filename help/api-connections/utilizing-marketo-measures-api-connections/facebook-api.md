@@ -5,7 +5,7 @@ title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Vergelijkbaar met onze Advertentiewoorden &amp; [!DNL Bing Ads] integratie, onze
 
 Wat de installatie betreft, moeten er zeven stappen worden uitgevoerd binnen de [!DNL Marketo Measure] app.
 
-1. Navigeren naar [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} en meld u aan.
+1. Navigeren naar [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} en aanmelden.
 1. Onder Mijn account selecteren **[!UICONTROL Settings]**.
 1. Onder Integratie selecteren **[!UICONTROL Connections]**.
 1. Selecteren **[!UICONTROL Set Up New Ads Connection]** en wordt er een pop-up weergegeven. Selecteren **[!UICONTROL Facebook]** en meld u aan met uw Facebook-gebruikersgegevens.

@@ -1,7 +1,7 @@
 ---
 unique-page-id: 35586069
-description: Ervoor zorgen dat toestemming voor GDPR in Marketo Maatregel Js - Marketo Maatregel - Productdocumentatie
-title: Ervoor zorgen dat toestemming voor GDPR in Marketo Maatregel Js
+description: Garandeerde toestemming voor GDPR in Marketo Measure Js - Marketo Measure - Productdocumentatie
+title: Ervoor zorgen dat toestemming voor GDPR in Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 source-git-commit: c7d3bbce1f0c6a99409822c06c43961c93cd9458
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Ervoor zorgen dat toestemming voor GDPR in Marketo Maatregel Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
+# Ervoor zorgen dat toestemming voor GDPR in Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 De algemene verordening inzake gegevensbescherming (GDPR) is een wetgeving van de Europese Unie die op 25 mei 2018 in werking is getreden.
 

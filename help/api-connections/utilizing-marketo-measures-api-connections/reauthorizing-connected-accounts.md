@@ -5,7 +5,7 @@ title: Verbonden accounts opnieuw autoriseren
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Als de verbinding met uw CRM-platform wordt verbroken, [!DNL Marketo Measure] ka
 
 ## Ongekoppelde accounts opnieuw autoriseren {#re-authorizing-disconnected-accounts}
 
-1. Ga naar [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} en meld u aan.
+1. Ga naar [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} en aanmelden.
 1. Selecteren **[!UICONTROL Settings]** onder de [!UICONTROL My Account] in de linkerbovenhoek.
 1. De sectie Integratie links zoeken en klikken **[!UICONTROL Connections]**.
 1. Selecteer het symbool Rode sleutel naast het account dat opnieuw moet worden verbonden.

@@ -5,14 +5,14 @@ title: Boomerang Stages instellen
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Boomerang Stages instellen {#setting-up-boomerang-stages}
 
-Inschakelen [!UICONTROL Boomerang] Voor uw account moet u een accountbeheerder zijn. Of, kan het worden toegelaten door uit te reiken aan [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}. Nadat de functie is ingeschakeld, volgt u deze instructies om deze in te stellen.
+Inschakelen [!UICONTROL Boomerang] Voor uw account moet u een accountbeheerder zijn. Of, kan het worden toegelaten door uit te reiken aan [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Nadat de functie is ingeschakeld, volgt u deze instructies om deze in te stellen.
 
 ## Boomerang Stage Setup {#boomerang-stage-setup}
 

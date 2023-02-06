@@ -4,7 +4,7 @@ title: Aanbevolen procedures voor [!DNL Marketo Measure] CRM-pakket
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 source-git-commit: 00268f49ff6e5dfc105fa7ea21837375eae49647
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -49,12 +49,12 @@ Andere redenen daarvoor kunnen aanleiding geven tot een herziening...
 
 >[!NOTE]
 >
->Wanneer u het exporteren van gegevens naar Salesforce via Marketo Meetlat uitschakelt, worden er geen bestaande gegevens verwijderd. Volg de stappen in [dit Help-artikel voor Salesforce](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target=&quot;_blank&quot;}.
+>Wanneer u het exporteren van gegevens van Marketo Measure naar Salesforce uitschakelt, worden bestaande gegevens niet verwijderd. Volg de stappen in [dit Help-artikel voor Salesforce](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [Aanraakpuntpakket voor koper bijwerken](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [[!DNL Marketo Measure] Machtigingssets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 >* [Map Rapporten en dashboards delen](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0)
->* [Marketo-maatregel verbinden met Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+>* [Marketo Measure verbinden met Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
 

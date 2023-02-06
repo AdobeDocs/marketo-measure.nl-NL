@@ -5,14 +5,14 @@ title: Veelgestelde vragen over driverintegratie
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen over driverintegratie {#drift-integration-faq}
 
-Als onderdeel van het [!DNL Marketo Measure] Door de integratie met Drift hebben we een aantal van de meest gestelde vragen uiteengezet. Als er hieronder geen vragen zijn die niet worden beschreven, kunt u contact opnemen met uw Customer Success Manager of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Als onderdeel van het [!DNL Marketo Measure] Door de integratie met Drift hebben we een aantal van de meest gestelde vragen uiteengezet. Als er hieronder geen vragen zijn die niet worden beschreven, kunt u contact opnemen met uw Customer Success Manager of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **Hoe wordt de integratie ingeschakeld?**
 

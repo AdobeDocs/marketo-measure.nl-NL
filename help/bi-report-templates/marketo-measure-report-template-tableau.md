@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] Rapportsjabloon - Tableau"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2297'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Aan de slag {#getting-started}
 
-U hebt toegang tot de [!DNL Tableau] rapportsjabloon [hier](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}.
+U hebt toegang tot de [!DNL Tableau] rapportsjabloon [hier](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Open de [!DNL Adobe Marketo] Het dossier van de Werkboek van het Malplaatje van de Rapportering van de maatregel.
 
@@ -23,7 +23,7 @@ U moet de bestaande verbindingsgegevens bijwerken naar de specifieke verbindings
 
 ## Gegevensverbinding {#data-connection}
 
-U moet een gegevensverbinding met uw Snowflake-instantie instellen. Hiervoor hebt u de servernaam samen met uw gebruikersnaam en wachtwoord nodig. Details over waar u deze informatie kunt vinden en waar u uw wachtwoord opnieuw kunt instellen, worden gedocumenteerd [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+U moet een gegevensverbinding met uw Snowflake-instantie instellen. Hiervoor hebt u de servernaam samen met uw gebruikersnaam en wachtwoord nodig. Details over waar u deze informatie kunt vinden en waar u uw wachtwoord opnieuw kunt instellen, worden gedocumenteerd [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -109,7 +109,7 @@ De andere optie is om de naam van de kolommen rechtstreeks in het dialoogvenster
 
 Klik op de onderstaande afbeelding voor de volledige versie.
 
-[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target="_blank"}
 
 ### Relaties en gegevensstroom {#relationships-and-data-flow}
 
@@ -152,7 +152,7 @@ Er zijn definities toegevoegd aan de [!DNL Tableau model] voor parameters, aange
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-Definities weergeven voor kolommen die rechtstreeks afkomstig zijn van [!DNL Snowflake], zie de [gegevensopslagdocumentatie](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}.
+Definities weergeven voor kolommen die rechtstreeks afkomstig zijn van [!DNL Snowflake], zie de [gegevensopslagdocumentatie](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Verschillen tussen sjablonen en ontdekken {#discrepancies-between-templates-and-discover}
 

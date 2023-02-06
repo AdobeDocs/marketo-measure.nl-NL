@@ -5,7 +5,7 @@ title: Aanbevolen [!DNL Salesforce] Machtigingen voor [!DNL Marketo Measure] Ver
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,4 @@ Als de specifieke gebruiker geen toegang tot lood in rijen heeft, dan kan het ni
 
 De veiligheid van het gebiedsniveau en gebiedstoegankelijkheid zijn verwant maar hebben sommige zeer belangrijke verschillen. De Veiligheid van het Niveau van het gebied bepaalt gebiedszicht voor een bepaald profiel terwijl de Toegankelijkheid van het Gebied bepaalt of een gebied op de veiligheid van het gebiedsniveau en de configuratie van de paginalay-out editable is. Met de [!DNL Marketo Measure] de de toestemmingsreeksen van het pakket u zult de noodzakelijke montages van de de objecten van het gebied veiligheid ontvangen. In sommige gevallen zal de verbonden gebruiker, om de correcte gebiedstoegankelijkheid te hebben, moeten hebben [!DNL Marketo Measure] velden op de paginalay-outs. [!DNL Marketo Measure] de velden in de lay-out zijn geschikt voor de [!DNL Marketo Measure] gegevens die moeten worden toegewezen aan [!DNL Salesforce]. Dit hangt van uw bepaald af [!DNL Salesforce] milieu.
 
-Elke organisatie [!DNL Salesforce] heeft individuele behoeften, maar wij stellen u van onze vereisten in evenwicht [!DNL Marketo Measure] hebt toegang nodig met uw beveiligingsprotocollen. Niet aarzelen om naar [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Elke organisatie [!DNL Salesforce] heeft individuele behoeften, maar wij stellen u van onze vereisten in evenwicht [!DNL Marketo Measure] hebt toegang nodig met uw beveiligingsprotocollen. Niet aarzelen om naar [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

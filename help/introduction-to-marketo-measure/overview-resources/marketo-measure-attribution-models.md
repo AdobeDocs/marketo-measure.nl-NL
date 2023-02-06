@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874568
-description: Marketo Measurement Attribution Models - Marketo Measurement - Product Documentation
-title: Marketo-modellen voor maattoewijzing
+description: Marketo Measure Attribution Models - Marketo Measure - Productdocumentatie
+title: Marketo Measure Attribution Models
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
 workflow-type: tm+mt
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# Marketo-modellen voor maattoewijzing {#marketo-measure-attribution-models}
+# Marketo Measure Attribution Models {#marketo-measure-attribution-models}
 
-Marketo-maatregel biedt zes typen attributiemodellen:
+Marketo Measure biedt zes typen attributiemodellen:
 
 * Eerste aanraking
 * Aanmaken van lead
@@ -21,7 +21,7 @@ Marketo-maatregel biedt zes typen attributiemodellen:
 * Volledig pad
 * Aangepast model
 
-Deze modellen variëren in complexiteit. First Touch en Lead Creation zijn onze eenvoudige, single-touch modellen. De resterende vier zijn onze complexere, multi-touchmodellen. De structuur van de afschrijvingsmodellen van Marketo toont de vier belangrijkste aanraakpunten die zich voordoen op de reis van de klant:
+Deze modellen variëren in complexiteit. First Touch en Lead Creation zijn onze eenvoudige, single-touch modellen. De resterende vier zijn onze complexere, multi-touchmodellen. De structuur van de attributiemodellen van Marketo Measure weerspiegelt de vier belangrijkste aanraakpunten die zich voordoen op de reis van de klant:
 
 * Eerste aanraking (FT)
 * Lood maken (LC)
@@ -69,7 +69,7 @@ Het eerste bezoek van Kate aan www.adobe.com via een Adwords-advertentie zou 50%
 
 Drie van de mijlpalen zijn opgenomen in het W-Shaped-model. In dit model worden de FT-, LC- en OC-aanraakpunten elk toegeschreven aan 30% van het attribuut credit. De resterende 10% wordt proportioneel toegewezen aan intermediaire aanraakpunten tussen de drie mijlpalen.
 
-Kate en Austin noemen Marketo Maatregel aan hun medewerker, Hillary. Ze vindt een stuk inhoud door een Google zoekopdracht en vult een formulier in. Later ontvangt Austin een e-mail voor een webinar-registratie en vult het registratieformulier in op de website. Kate heeft een gesprek met een vertegenwoordiger van de Verkoop over het product van de Maatregel van Marketo.
+Kate en Austin noemen Marketo Measure aan hun collega Hillary. Ze vindt een stuk inhoud door een Google zoekopdracht en vult een formulier in. Later ontvangt Austin een e-mail voor een webinar-registratie en vult het registratieformulier in op de website. Kate heeft een gesprek met een verkoopvertegenwoordiger over het Marketo Measure product.
 
 Hillary ontvangt een e-mail met een koppeling naar de prijspagina en bezoekt de pagina. Vervolgens wordt een Opportunity gemaakt voor hun account. Het webbezoek van Hillary aan de prijspagina ontvangt krediet voor het maken van de opportunity, omdat dit de dichtstbijzijnde marketinginteractie was met de aanmaakdatum van Opportunity. Aan elk van de mijlpaalaanraakpunten wordt 30% van het toewijzingskrediet toegewezen en aan de intermediaire aanraakpunten wordt de resterende 10% toegewezen.
 
@@ -79,10 +79,10 @@ Hillary ontvangt een e-mail met een koppeling naar de prijspagina en bezoekt de 
 
 Het volledige padmodel bevat alle vier de mijlpaalaanraakpunten. FT, LC, OC en CW krijgen elk 22,5% van het inkomstenkrediet, en de resterende 10% wordt gelijkelijk verdeeld over de tussenpersonen.
 
-Na de opportuniteitsschepping besluiten Kate, Austin en Hillary om Marketo Meetlat te zetten voor hun GMO, Elizabeth. Elizabeth woont een conferentie bij waar Marketo Meetlat een evenement organiseert. Kate ziet een Linkedin-artikel over een casestudy en vult een formulier in om de inhoud te downloaden. Elizabeth woont een verkoopdiner bij dat wordt gehost door Marketo Meetlat. Na het diner besluit ze Marketo Meetlat te kopen en wordt ze een klant. In dit scenario zou het verkoopdiner 22,5% van het inkomstenkrediet uit de gesloten overeenkomst krijgen. Ook de FT-, LC- en OC-aanraakpunten ontvangen elk 22,5% van het krediet. Ook de overige 10% van het inkomstenkrediet wordt toegewezen aan de intermediaire aanspreekpunten.
+Nadat Kate, Austin en Hillary de kans hebben gecreëerd, beslissen ze Marketo Measure aan hun GMO te presenteren, Elizabeth. Elizabeth woont een conferentie bij waar Marketo Measure een evenement organiseert. Kate ziet een Linkedin-artikel over een casestudy en vult een formulier in om de inhoud te downloaden. Elizabeth woont een verkoopdiner bij dat wordt gehost door Marketo Measure. Na het diner besluit ze Marketo Measure te kopen en wordt ze een klant. In dit scenario zou het verkoopdiner 22,5% van het inkomstenkrediet uit de gesloten overeenkomst krijgen. Ook de FT-, LC- en OC-aanraakpunten ontvangen elk 22,5% van het krediet. Ook de overige 10% van het inkomstenkrediet wordt toegewezen aan de intermediaire aanspreekpunten.
 
 ![](assets/6.png)
 
 **Aangepast kenmerkingsmodel**
 
-De Meetlat van Marketo biedt ook een model van de Attributie van de Douane dat gebruikers toestaat om te kiezen welke aanraakpunten of douanestadia in hun model te omvatten. Bovendien kunnen gebruikers het toewijzingspercentage voor deze aanraakpunten en fasen bepalen.
+Marketo Measure biedt ook een Aangepast kenmerkingsmodel waarmee gebruikers kunnen kiezen welke aanraakpunten of aangepaste fasen ze in hun model willen opnemen. Bovendien kunnen gebruikers het toewijzingspercentage voor deze aanraakpunten en fasen bepalen.

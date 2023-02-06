@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] Onderhoud"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Vernieuw uw geheugen voor het uploaden van kostengegevens door te lezen [dit art
 
 **Lijst met te volgen domeinen bijwerken (1x/maand)**
 
-Met Marketo Meetlat worden alle pagina&#39;s en subdomeinen bijgehouden waarop Javascript actief is, maar alleen voor domeinen die bekend zijn. Als u onlangs een nieuw domein hebt uitgevochten, internationaal uitgebreid, of uw primair domein veranderd, contacteer [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} om ervoor te zorgen dat we uw account overeenkomstig bijwerken.
+Marketo Measure houdt alle pagina&#39;s en subdomeinen bij waar uw Javascript actief is, maar slechts voor domeinen die wij over kennen. Als u onlangs een nieuw domein hebt uitgevochten, internationaal uitgebreid, of uw primair domein veranderd, contacteer [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om ervoor te zorgen dat we je account dienovereenkomstig bijwerken.
 
 **Aangepaste kanaaltoewijzing controleren voor nauwkeurigheid (1x/maand)**
 
-Tijdens het instappen, plaatst u de afbeelding van het douanekanaal voor uw online en off-line marketing inspanningen. Naarmate uw marketingstrategie en het gebruik van de Marketo-maateenheid evolueren, wilt u de logica voor het toewijzen van toewijzingen in de gaten houden om ervoor te zorgen dat al uw aanraakpunten correct worden gecategoriseerd.
+Tijdens het instappen, plaatst u de afbeelding van het douanekanaal voor uw online en off-line marketing inspanningen. Naarmate uw marketingstrategie en het gebruik van Marketo Measure evolueren, wilt u die toewijzingslogica in de gaten houden om ervoor te zorgen dat al uw aanraakpunten correct worden gecategoriseerd.
 
 Onthoud, [!DNL Marketo Measure] verwerkt uw gegevens opnieuw wanneer u toewijzingslogica uitgeeft, zodat zult u deze regels niet meer dan eens om de 7 dagen kunnen veranderen.
 

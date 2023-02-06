@@ -5,7 +5,7 @@ title: Aangepast kenmerkmodel en aangepaste instellingen
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De [!DNL Marketo Measure] Met het aangepaste kenmerkingsmodel kunnen gebruikers 
 
    Om uw model van de douaneattributie te beginnen bouwen, zult u moeten selecteren welke stadia voor uw team van de Marketing belangrijk zijn. Naast de [!DNL Marketo Measure] De mijlpaalfasen (FT, LC, OC, Gesloten) u kunt tot zes extra lood/de Statussen van het Contact of stadia van de Kans in uw douanemodel toevoegen. Het is bijvoorbeeld gebruikelijk dat het MQL-werkgebied wordt opgenomen in het aangepaste model. Marketing teams willen vaak weten welke inspanningen of kanalen de overgang naar het MQL-stadium stimuleren.
 
-   Aanmelden bij [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. Ga naar [!UICONTROL My Account] > [!UICONTROL Settings] > en onder de afdeling CRM selecteert u **[!UICONTROL Stage Mapping]**.
+   Aanmelden bij [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Ga naar [!UICONTROL My Account] > [!UICONTROL Settings] > en onder de afdeling CRM selecteert u **[!UICONTROL Stage Mapping]**.
 
    Zodra hier, zult u moeten selecteren welke Leidingen/Contacten, en stadia van de Kans om te omvatten door te selecteren **[!UICONTROL Include in Model]** doos.
 

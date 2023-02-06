@@ -5,18 +5,18 @@ title: A/B Testen en rapporteren
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
 # A/B Testen en rapporteren {#a-b-testing-set-up-and-reporting}
 
-De [!DNL Marketo Measure] A/B de integratie van de Test staat u toe om het opbrengsteffect van uw te volgen [Optimizely](https://optimizely.com/){target=&quot;_blank&quot;} en VWO-siteexperimenten. In deze artikelhulplijnen vindt u instructies voor het toevoegen van [!DNL Marketo Measure] A/B-testsecties naar de lood; [!UICONTROL Contact], en [!UICONTROL Opportunity] paginalay-outs. We zullen ook algemene verslagleggingspraktijken en aanbevelingen voor het uitvoeren van [!DNL Marketo Measure] A/B rapporttypen.
+De [!DNL Marketo Measure] A/B de integratie van de Test staat u toe om het opbrengsteffect van uw te volgen [Optimizely](https://optimizely.com/){target="_blank"} experimenten met de werkomgeving VWO. In deze artikelhulplijnen vindt u instructies voor het toevoegen van [!DNL Marketo Measure] A/B-testsecties naar de lood; [!UICONTROL Contact], en [!UICONTROL Opportunity] paginalay-outs. We zullen ook algemene verslagleggingspraktijken en aanbevelingen voor het uitvoeren van [!DNL Marketo Measure] A/B rapporttypen.
 
 ## Instellen {#set-up}
 
-Voeg de [!DNL Marketo Measure] A/B de secties van de Test op Lood, Contact, Geval, en Kans. [!DNL Marketo Measure] A/B de integratie van de Test staat u toe om het opbrengsteffect van uw te volgen [Optimizely](https://optimizely.com/){target=&quot;_blank&quot;} en [VWO](https://vwo.com/){target=&quot;_blank&quot;} -site experimenteert.
+Voeg de [!DNL Marketo Measure] A/B de secties van de Test op Lood, Contact, Geval, en Kans. [!DNL Marketo Measure] A/B de integratie van de Test staat u toe om het opbrengsteffect van uw te volgen [Optimizely](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimenten op plaatsen.
 
 1. Controleren of u pakket gebruikt [!DNL Marketo Measure] v3.9 of hoger. Je kunt dit doen door naar [!UICONTROL Salesforce] >[!UICONTROL Set Up] > [!UICONTROL Installed packages].
 1. De pagina-indeling Lead bewerken en de **[!DNL Marketo Measure]A/B-tests** Verwante lijst voor de pagina.
@@ -31,7 +31,7 @@ Voeg de [!DNL Marketo Measure] A/B de secties van de Test op Lood, Contact, Geva
 
    ![](assets/3.png)
 
-1. Neem contact op met uw [!DNL Marketo Measure] rep of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} om de functie in te schakelen.
+1. Neem contact op met uw [!DNL Marketo Measure] rep of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om de functie in te schakelen.
 
 ## Rapportage {#reporting}
 

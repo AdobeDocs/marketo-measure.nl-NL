@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874763
-description: "[!DNL Microsoft Dynamics] CRM Installation Guide - Marketo Measurement - Product Documentation"
+description: "[!DNL Microsoft Dynamics] CRM Installation Guide - Marketo Measure - Productdocumentatie"
 title: "[!DNL Microsoft Dynamics] CRM Installation Guide"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 source-git-commit: 9de82556ca543aa8e6c53242eacae5c87019886c

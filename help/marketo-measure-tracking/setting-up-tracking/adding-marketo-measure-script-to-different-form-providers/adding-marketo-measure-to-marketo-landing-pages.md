@@ -5,7 +5,7 @@ title: Toevoegen [!DNL Marketo Measure] naar Marketo-bestemmingspagina's
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Voorbeeld in onderstaande schermafbeelding
 
 * Het is waarschijnlijk dat u veelvoudige het Bestaan van de Pagina malplaatjes in gebruik hebt, ben zeker om de code aan alle malplaatjes toe te voegen die vormen op hen hebben.
 
-* Soms moet u bij het bewerken van de sjabloon voor bestemmingspagina&#39;s de pagina&#39;s waarop de bestemmingspagina wordt gebruikt opnieuw goedkeuren. In dit artikel wordt uitgelegd [massagoedkeuring](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target=&quot;_blank&quot;}.
+* Soms moet u bij het bewerken van de sjabloon voor bestemmingspagina&#39;s de pagina&#39;s waarop de bestemmingspagina wordt gebruikt opnieuw goedkeuren. In dit artikel wordt uitgelegd [massagoedkeuring](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

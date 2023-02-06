@@ -5,7 +5,7 @@ title: Waarom Touchpoints nooit verwijderen
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ Wanneer een aanraakpunt wordt verwijderd, ontstaat een gat in de toewijzingsgege
 
 ![](assets/1.png)
 
-Als aanraakpunten uit uw SFDC zijn verwijderd, kunt u contact opnemen met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} als u wilt dat de gegevens opnieuw worden geïmporteerd.
+Als aanraakpunten uit uw SFDC zijn verwijderd, kunt u contact opnemen met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om opnieuw te importeren van uw gegevens aan te vragen.

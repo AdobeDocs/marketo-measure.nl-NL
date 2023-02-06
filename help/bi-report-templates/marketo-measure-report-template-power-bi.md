@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] Rapportsjabloon - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2557'
 ht-degree: 0%
 
 ---
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ## Aan de slag {#getting-started}
 
-U kunt tot het rapportmalplaatje van de Power BI toegang hebben [hier](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}.
+U kunt tot het rapportmalplaatje van de Power BI toegang hebben [hier](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 De Adobe openen [!DNL Marketo Measure] Sjabloonbestand rapporteren...
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)
 
-U kunt uw specifieke Server, Warehouse, en informatie van het Schema in vinden [!DNL Marketo Measure] UI op [!DNL Data Warehouse] informatiepagina. De instructies voor het vinden van deze pagina zijn gedetailleerd [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+U kunt uw specifieke Server, Warehouse, en informatie van het Schema in vinden [!DNL Marketo Measure] UI op [!DNL Data Warehouse] informatiepagina. De instructies voor het vinden van deze pagina zijn gedetailleerd [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 De parameters QueryFilterStartDate en QueryFilterEndDate worden gebruikt om de hoeveelheid geïmporteerde gegevens te beperken. Deze parameters moeten in SQL formaat zijn aangezien zij aan in de vragen worden gebruikt die worden verzonden naar [!DNL Snowflake]. Bijvoorbeeld, als u gegevens tot de afgelopen twee jaar wilt beperken, zou QueryFilterStartDate dateadd zijn (jaar, - 2,current_date()). Deze parameters worden vergeleken tegen datetime gegevenstypes, zodat wordt het geadviseerd om dateadd (dag,1,current_date()) voor QueryFilterEndDate te gebruiken om alle gegevens aan de huidige tijd terug te keren.
 
 ## Gegevensverbinding {#data-connection}
 
-De parameters die bij het openen van het bestand worden ingevoerd, worden gebruikt om native query&#39;s te structureren die tabellen importeren uit het gegevenspakhuis. U moet nog steeds een gegevensverbinding instellen met uw [!DNL Snowflake] -instantie. Voor dit zult u de zelfde namen van de Server en van het Pakhuis samen met uw Gebruikersnaam en Wachtwoord nodig hebben. Details over waar u uw gebruikersnaam kunt vinden en waar u uw wachtwoord opnieuw kunt instellen, worden gedocumenteerd [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+De parameters die bij het openen van het bestand worden ingevoerd, worden gebruikt om native query&#39;s te structureren die tabellen importeren uit het gegevenspakhuis. U moet nog steeds een gegevensverbinding instellen met uw [!DNL Snowflake] -instantie. Voor dit zult u de zelfde namen van de Server en van het Pakhuis samen met uw Gebruikersnaam en Wachtwoord nodig hebben. Details over waar u uw gebruikersnaam kunt vinden en waar u uw wachtwoord opnieuw kunt instellen, worden gedocumenteerd [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Gegevens importeren {#data-import}
 
@@ -105,7 +105,7 @@ Aangezien de segmentnamen klantgericht zijn, hebben zij generische kolomnamen in
 
 ### Hoofdlettergevoelige ID-omzetting {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure] gegevens hebben een paar tabellen waarin de waarden voor de primaire sleutel (ID) hoofdlettergevoelig zijn, namelijk Touchpoint en Campagne. De gegevensengine die de Power BI modelleringslaag aandrijft is niet hoofdlettergevoelig, waardoor de id-waarden &#39;dupliceren&#39; resulteren. Om de hoofdlettergevoeligheid van deze sleutelwaarden te behouden, hebben wij transformatiestappen uitgevoerd die onzichtbare karakters aan kleine hoofdletters vastmaken, die de uniciteit van identiteitskaart bewaren wanneer geëvalueerd in de laag van de gegevensmotor. Meer details over het probleem en de gedetailleerde stappen over de methode die we hebben gebruikt, zijn te vinden [hier] (https://blog.crossjoin.co.uk/2019 /10/06/power-bi-and-case-sensitive/){target=&quot;_blank&quot;}. Deze hoofdlettergevoelige id-waarden worden gelabeld als &quot;Id&#39;s samenvoegen&quot; en worden gebruikt als verbindingssleutels in de relatielaag. We hebben de samenvoegings-id&#39;s van de rapportlaag verborgen, zodat de oorspronkelijke id-waarden zichtbaar blijven voor gebruik in rapportage, aangezien de onzichtbare tekens de knip-/plakfuncties en het filteren kunnen beïnvloeden.
+[!DNL Marketo Measure] gegevens hebben een paar tabellen waarin de waarden voor de primaire sleutel (ID) hoofdlettergevoelig zijn, namelijk Touchpoint en Campagne. De gegevensengine die de Power BI modelleringslaag aandrijft is niet hoofdlettergevoelig, waardoor de id-waarden &#39;dupliceren&#39; resulteren. Om de hoofdlettergevoeligheid van deze sleutelwaarden te behouden, hebben wij transformatiestappen uitgevoerd die onzichtbare karakters aan kleine hoofdletters vastmaken, die de uniciteit van identiteitskaart bewaren wanneer geëvalueerd in de laag van de gegevensmotor. Meer details over het probleem en de gedetailleerde stappen over de methode die we hebben gebruikt, zijn te vinden [hier] (https://blog.crossjoin.co.uk/2019){target="_blank"}. Deze hoofdlettergevoelige id-waarden worden gelabeld als &quot;Id&#39;s samenvoegen&quot; en worden gebruikt als verbindingssleutels in de relatielaag. We hebben de samenvoegings-id&#39;s van de rapportlaag verborgen, zodat de oorspronkelijke id-waarden zichtbaar blijven voor gebruik in rapportage, aangezien de onzichtbare tekens de knip-/plakfuncties en het filteren kunnen beïnvloeden.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 
@@ -125,7 +125,7 @@ De tabel Conversiesnelheid die is opgeslagen in [!DNL Snowflake] bevat een datum
 
 Klik op de onderstaande afbeelding voor de volledige versie.
 
-[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
 
 ### Relaties en gegevensstroom {#relationships-and-data-flow}
 
@@ -178,7 +178,7 @@ Er zijn definities toegevoegd aan het model Power BI voor tabellen, aangepaste k
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-Definities weergeven voor kolommen die rechtstreeks afkomstig zijn van [!DNL Snowflake], zie de [gegevensopslagdocumentatie](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}
+Definities weergeven voor kolommen die rechtstreeks afkomstig zijn van [!DNL Snowflake], zie de [gegevensopslagdocumentatie](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Verschillen tussen sjablonen en ontdekken {#discrepancies-between-templates-and-discover}
 

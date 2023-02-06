@@ -5,7 +5,7 @@ title: Definitie van [!DNL Marketo Measure] Websessies
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -65,4 +65,4 @@ _Niettemin_, als Haley&#39;s eerste websessie voortkwam uit Web Direct, en dan b
 
 ## Google Analytics sessies {#google-analytics-sessions}
 
-Er zijn enkele overeenkomsten met hoe [!DNL Marketo Measure] en Google Analytics definieert sessies. Ga voor meer informatie over hoe Google Analytics sessies definiëren naar: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target=&quot;_blank&quot;}
+Er zijn enkele overeenkomsten met hoe [!DNL Marketo Measure] en Google Analytics definieert sessies. Ga voor meer informatie over hoe Google Analytics sessies definiëren naar: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}

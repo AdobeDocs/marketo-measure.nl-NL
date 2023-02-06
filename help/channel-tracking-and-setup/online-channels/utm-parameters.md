@@ -5,7 +5,7 @@ title: UTM-parameters
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Tags toewijzen aan URL&#39;s is een eenvoudige en effectieve manier om gegevens over uw digitale marketingactiviteiten vast te leggen. Het is het proces om parameters aan het eind van URLs toe te voegen die gegevens verzamelen en registreren. De meest gebruikte parameters zijn Urchin Tracking Modules (UTMs), die door Google worden gesteund. Er zijn vijf belangrijke parameters van UTMs beschikbaar: Normaal, Bron, Campagne, Inhoud, en Term. Deze worden meer gedetailleerd besproken in de volgende sectie.
 
-U kunt UTM-parameters handmatig aan URL&#39;s toevoegen of via automatische labeling toevoegen aan bepaalde platforms, zoals AdWords. Automatisch labelen automatiseert het toevoegen van parameters aan URL&#39;s. Er is ook de mogelijkheid om [URL-builders](https://ga-dev-tools.appspot.com/campaign-url-builder/){target=&quot;_blank&quot;} om het handmatig labelen van URL&#39;s te versnellen. Met een bouwer URL, moet u eenvoudig de waarden specificeren die voor elke parameters moeten worden gebruikt en de bouwer zal URL voor u formatteren.
+U kunt UTM-parameters handmatig aan URL&#39;s toevoegen of via automatische labeling toevoegen aan bepaalde platforms, zoals AdWords. Automatisch labelen automatiseert het toevoegen van parameters aan URL&#39;s. Er is ook de mogelijkheid om [URL-builders](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} om het handmatig labelen van URL&#39;s te versnellen. Met een bouwer URL, moet u eenvoudig de waarden specificeren die voor elke parameters moeten worden gebruikt en de bouwer zal URL voor u formatteren.
 
 ## Wat zijn UTM-parameters? {#what-are-utm-parameters}
 

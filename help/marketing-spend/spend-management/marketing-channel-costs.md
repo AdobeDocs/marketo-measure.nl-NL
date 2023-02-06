@@ -5,14 +5,14 @@ title: Kosten marketingkanaal
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
 
 # Kosten marketingkanaal {#marketing-channel-costs}
 
-Een van de meest fundamentele voordelen van het gebruik van [!DNL Marketo Measure] is de capaciteit om marketing inspanningen aan het effect op opbrengst-met zo veel granulariteit direct aan te sluiten zoals gewenst. Het rendement van investeringen kan op het niveau van de aanspreekpunten worden gezien. Om van dit voordeel te profiteren, moeten de kanaalkosten eenvoudig aan worden geupload [!DNL Marketo Measure] app. ROI-rapporten worden automatisch gemaakt en beschikbaar in het dialoogvenster **Marketing ROI Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+Een van de meest fundamentele voordelen van het gebruik van [!DNL Marketo Measure] is de capaciteit om marketing inspanningen aan het effect op opbrengst-met zo veel granulariteit direct aan te sluiten zoals gewenst. Het rendement van investeringen kan op het niveau van de aanspreekpunten worden gezien. Om van dit voordeel te profiteren, moeten de kanaalkosten eenvoudig aan worden geupload [!DNL Marketo Measure] app. ROI-rapporten worden automatisch gemaakt en beschikbaar in het dialoogvenster **Marketing ROI Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Klik hier om rechtstreeks naar de instructies te navigeren.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 

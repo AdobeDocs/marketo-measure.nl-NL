@@ -5,7 +5,7 @@ title: Campagneelijstweergave maken voor [!DNL Salesforce] Campagnes
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ In de keuzelijst Campagne die u kunt maken, kunt u een &#39;go-to&#39;-locatie i
 1. Geef de weergave de naam &quot;Campagnes voor synchronisatie met [!DNL Marketo Measure].&quot;
 1. We willen dat deze lijst alleen de campagnes toont waarmee we willen synchroniseren [!DNL Marketo Measure] we hebben dus een paar filters nodig :
 
-   * **Type** [EQUALS] &quot;Alle soorten campagne die wij aan uw off-line kanalen in kaart hebben gebracht&quot;. Raadpleeg het implementatieplan of het tabblad Offlinekanalen in [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} -> Mijn account -> Instellingen -> Offlinekanalen). U kunt de gewenste typen selecteren via het vergrootglaspictogram (de typen die zijn toegewezen aan een offlinemarketingkanaal).
+   * **Type** [EQUALS] &quot;Alle soorten campagne die wij aan uw off-line kanalen in kaart hebben gebracht&quot;. Raadpleeg het implementatieplan of het tabblad Offlinekanalen in [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mijn account -> Instellingen -> Offlinekanalen). U kunt de gewenste typen selecteren via het vergrootglaspictogram (de typen die zijn toegewezen aan een offlinemarketingkanaal).
 
       * Kies max. 3 typen voor elk filter. Een filterveld mag een limiet aan tekens bevatten. Begin met 3 types per filter en voeg extra rijen van &quot;Type&quot;filters indien nodig toe.
    * **Aanmaakdatum** [GROTER OF GELIJK] uw [!DNL Marketo Measure] begindatum. U kunt uw begindatum in het ROI dashboard binnen vinden [!DNL Marketo Measure] App. Selecteer gewoon &#39;Sinds aanmaakdatum&#39; in het datumbereik van het streepje en hierin wordt uw begindatum weergegeven.
@@ -39,4 +39,4 @@ In de keuzelijst Campagne die u kunt maken, kunt u een &#39;go-to&#39;-locatie i
 
 >[!MORELIKETHIS]
 >
->[Problemen met algemene problemen met Inline lijstweergave oplossen](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target=&quot;_blank&quot;}
+>[Problemen met algemene problemen met Inline lijstweergave oplossen](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}

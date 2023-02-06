@@ -26,7 +26,7 @@ Wanneer een bezoeker op uw site aankomt, [!DNL Marketo Measure] verwacht een bes
 
 Als klant maakt u een e-mailsjabloon zoals u dat normaal zou doen. Zodra het tijd is om in de landende pagina voor de actie toe te voegen die u wilt volgen, zult u of het teken, of veranderlijke markering, of macro moeten bepalen dat uw platform van de Automatisering van de Marketing goedkeurt om de waarde voor elk individu dynamisch te tonen.
 
-Marketo Meetlat accepteert de volgende waarden: E-mailadres, e-mailadres van Salesforce lead of contactpersoon voor Salesforce.
+Marketo Measure accepteert de volgende waarden: E-mailadres, e-mailadres van Salesforce lead of contactpersoon voor Salesforce.
 
 ## Voorbeelden van tags {#tag-examples}
 

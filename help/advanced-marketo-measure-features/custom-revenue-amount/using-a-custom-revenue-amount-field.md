@@ -5,7 +5,7 @@ title: Een veld Aangepaste inkomstenbedrag gebruiken
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,4 @@ Vanaf hier beginnen we de workflow te maken.
 
    Dit kan worden verwezenlijkt door uw kansen door de Lader van Gegevens binnen SFDC in werking te stellen. Meer informatie over het gebruik van Data Loader vindt u in [dit artikel](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Als er onderweg vragen zijn, aarzel dan niet om contact op te nemen met uw Customer Success Manager of [[!DNL Marketo] Ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Als er onderweg vragen zijn, aarzel dan niet om contact op te nemen met uw Customer Success Manager of [[!DNL Marketo] Ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

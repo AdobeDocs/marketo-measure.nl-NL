@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874765
-description: Het testen van de Integratie van de Maatregel van Marketo met een zandbak van Salesforce - [!DNL Marketo Measure] - Productdocumentatie
-title: Het testen van de Integratie van de Maatregel van Marketo met een zandbak van Salesforce
+description: Testen van de Marketo Measure-integratie met een Salesforce-sandbox - [!DNL Marketo Measure] - Productdocumentatie
+title: De Marketo Measure-integratie testen met een Salesforce-sandbox
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Het testen van de Integratie van de Maatregel van Marketo met een zandbak van Salesforce {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
+# De Marketo Measure-integratie testen met een Salesforce-sandbox {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
 >

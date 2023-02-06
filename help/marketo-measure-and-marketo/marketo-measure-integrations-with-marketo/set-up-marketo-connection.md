@@ -5,7 +5,7 @@ title: Marketo-verbinding instellen
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 source-git-commit: ff3ebd557ffe745e1297d053be1390093dc4033c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Hieronder wordt beschreven hoe u verbinding maakt met Marketo.
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. Stilstaand in Marketo Engage, selecteer **LaunchPoint** in de boomstructuur links. Zoek de aangepaste service waarmee u verbinding wilt maken met Marketo Meetlat en klik op **Details weergeven**.
+1. Stilstaand in Marketo Engage, selecteer **LaunchPoint** in de boomstructuur links. Zoek de aangepaste service waarmee u verbinding wilt maken met Marketo Measure en klik op **Details weergeven**.
 
    ![](assets/set-up-marketo-connection-6.png)
 

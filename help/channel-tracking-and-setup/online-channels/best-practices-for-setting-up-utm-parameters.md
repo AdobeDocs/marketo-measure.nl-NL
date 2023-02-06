@@ -5,7 +5,7 @@ title: Aanbevolen procedures voor het instellen van UTM-parameters
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 UTM-parameters zijn ideaal om uw marketinggegevens te segmenteren en te verwerken. [!DNL Marketo Measure] gebruikt en legt alle UTM-parameters vast om velden in Salesforce en de [!DNL Marketo Measure] app. Met deze informatie, zult u een korrelig inzicht in kunnen krijgen waar uw lood, kansen, en gesloten/gewonnen overeenkomsten van komen.
 
-U kunt de [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;} om uw UTM-parameters in te stellen en deze toe te voegen aan uw koppelingen binnen uw marketingactiviteiten. Gebruik deze [Google-spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;} als u een eenvoudige manier wilt om al uw UTM-koppelingen bij te houden.
+U kunt de [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} als u een gemakkelijkere manier wilt om spoor van al uw verbindingen van UTM te houden.
 
 ## Waarden op hoog niveau voor elke parameter {#high-level-values-for-each-parameter}
 
@@ -68,4 +68,4 @@ fakewebsite.com/
 
 Let op: termen/kanalen worden niet gedupliceerd en in dit geval wordt utm_term niet gebruikt.
 
-Als er vragen zijn, kunt u contact opnemen met uw Customer Success Manager of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Als er vragen zijn, kunt u contact opnemen met uw Customer Success Manager of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

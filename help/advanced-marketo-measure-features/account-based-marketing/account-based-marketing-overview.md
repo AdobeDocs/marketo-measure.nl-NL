@@ -5,16 +5,16 @@ title: Overzicht van accountgebaseerde marketing
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
 
 # Overzicht van accountgebaseerde marketing {#account-based-marketing-overview}
 
-Hieronder volgt een kort overzicht van ABM, de componenten van het [!DNL Marketo Measure] ABM-functie en hoe u deze aan uw [!DNL Salesforce] pagina-indeling. Kijk uit voor meer informatie over ABM [deze pagina](https://www.marketo.com/account-based-marketing/){target=&quot;_blank&quot;}.
+Hieronder volgt een kort overzicht van ABM, de componenten van het [!DNL Marketo Measure] ABM-functie en hoe u deze aan uw [!DNL Salesforce] pagina-indeling. Kijk uit voor meer informatie over ABM [deze pagina](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
-Ga rechtstreeks naar de instructies voor het instellen van ABM in uw [!DNL Salesforce] instantie, alstublieft [klik hier](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target=&quot;_blank&quot;}.
+Ga rechtstreeks naar de instructies voor het instellen van ABM in uw [!DNL Salesforce] instantie, alstublieft [klik hier](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## Wat is ABM {#what-is-abm}
 

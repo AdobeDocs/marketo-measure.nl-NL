@@ -5,7 +5,7 @@ title: Kosten CRM-campagne
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Elke wijziging van de kosten of de verdeling moet plaatsvinden in de BCR, zodat 
 
 **Ik heb de begindatum, einddatum en kosten ingevuld, maar waarom komen mijn kosten nog steeds niet voor [!DNL Marketo Measure]?**
 
-Controleer of u de waarde Enable Buyer Touchpoint hebt ingesteld op &quot;Include All Campaign Member&quot; of op zijn minst &quot;Include Reponded&quot; Campagneleden, of of u een aangepaste regel Campagne Sync hebt gemaakt die deze campagne omvat. Als u dit hebt bevestigd en de campagne nog steeds niet ziet, kunt u contact opnemen met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} zodat we kunnen controleren of uw campagnes correct worden geïmporteerd.
+Controleer of u de waarde Enable Buyer Touchpoint hebt ingesteld op &quot;Include All Campaign Member&quot; of op zijn minst &quot;Include Reponded&quot; Campagneleden, of of u een aangepaste regel Campagne Sync hebt gemaakt die deze campagne omvat. Als u dit hebt bevestigd en de campagne nog steeds niet ziet, kunt u contact opnemen met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} zodat kunnen wij controleren dat uw campagnes behoorlijk invoeren.
 
 **Ik moet de verdeling van mijn campagne veranderen zodat ik het in bepaalde maanden zwaarder kan wegen. Hoe doe ik dat?**
 

@@ -4,7 +4,7 @@ title: '[!DNL Marketo Measure] Integratie met Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 source-git-commit: 19f670505358b04fb26620574b71c2af8d0d9847
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,12 @@ Wanneer geïnstalleerd en gevormd in de Lancering van Adobe, [!DNL Marketo Measu
 >
 >Raadpleeg de volgende koppelingen voor meer informatie over het starten van de Adobe en de extensies van de:
 >
->* [[!DNL Marketo Measure] Extensie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target=&quot;_blank&quot;}
->* [Overzicht van Adobe starten](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target=&quot;_blank&quot;}
->* [Adobe - Overzicht van extensie starten](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target=&quot;_blank&quot;}
+>* [[!DNL Marketo Measure] Extensie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target="_blank"}
+>* [Overzicht van Adobe starten](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
+>* [Adobe - Overzicht van extensie starten](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target="_blank"}
 
 
-1. Een eigenschap maken na de stappen [in dit artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target=&quot;_blank&quot;}.
+1. Een eigenschap maken na de stappen [in dit artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Klik op de eigenschap die u zojuist hebt gemaakt.
 

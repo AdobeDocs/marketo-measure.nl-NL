@@ -5,7 +5,7 @@ title: Aangepaste segmentatie
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Voordat u deze functie gebruikt, moet u uitzoeken op welke aanraakpuntinformatie
 
 Stap 2 - Login en bepaal de plaats van de eigenschap van Segmenten.
 
-* Ga naar [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} en aanmelden
+* Ga naar [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} en aanmelden
 * Onder de [!UICONTROL My Account] tab, selecteert u [!UICONTROL Settings]
 * Selecteren [!UICONTROL Segments] van de opties op de zijbalk naar links, onder de optie [!UICONTROL Reporting] sectie
 

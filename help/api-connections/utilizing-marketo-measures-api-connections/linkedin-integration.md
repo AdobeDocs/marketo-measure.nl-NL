@@ -18,7 +18,7 @@ De [!DNL Marketo Measure] de integratie met LinkedIn bestaat uit twee delen:
 
 Gesponsorde inhoud: Door de integratie van gesponsorde inhoud is [!DNL Marketo Measure] om doel-URL&#39;s te labelen op [!DNL LinkedIn] advertenties, waardoor [!DNL Marketo Measure] om een gebruiker door hun volledige touchpoint reis te volgen en de activiteit terug te brengen naar specifiek [!DNL LinkedIn] Campagne en creatief. Dit verstrekt inzicht aan klanten over het ROI van hun [!DNL LinkedIn] activiteit.
 
-Generaal-leider Forms: Door de integratie met LinkedIn-leider Gen Forms krijgt Marketo Measurement inzicht in formulieren die via het LinkedIn-platform zijn ingediend. Deze formuliervullingen worden vergeleken met leads van uw CRM of [!DNL Marketo Engage] zodat ze in aanmerking komen voor attributie. Met inzicht in de Campagne, Creative en Form die hebben bijgedragen tot het genereren van de formulieren, kunnen teams nu hun marketing- en advertentieuitgaven voor LinkedIn verder optimaliseren.
+Generaal-leider Forms: Door de integratie met LinkedIn-leider Gen Forms krijgt Marketo Measure inzicht in formulieren die via het LinkedIn-platform zijn ingediend. Deze formuliervullingen worden vergeleken met leads van uw CRM of [!DNL Marketo Engage] zodat ze in aanmerking komen voor attributie. Met inzicht in de Campagne, Creative en Form die hebben bijgedragen tot het genereren van de formulieren, kunnen teams nu hun marketing- en advertentieuitgaven voor LinkedIn verder optimaliseren.
 
 ## Beschikbaarheid {#availability}
 

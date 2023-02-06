@@ -5,7 +5,7 @@ title: Begrijpen [!DNL Marketo Measure] Advertentietags
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Dezelfde URL levert echter korrelige gegevens vanwege de [!DNL Marketo Measure] 
 **Indien [!DNL Marketo Measure] zoekt een volgsjabloon:**
 
 * [!DNL Marketo Measure] voegt de parameters ervan toe aan het volgsjabloon.
-* Als een derde wordt gevonden omleiding in een het Volgen Malplaatje zoals Kenshoo of Marin, [!DNL Marketo Measure] geen actie ondernemen. In plaats daarvan moet u [toevoegen [!DNL Marketo Measure] parameters voor het hulpprogramma van derden in uw account](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* Als een derde wordt gevonden omleiding in een het Volgen Malplaatje zoals Kenshoo of Marin, [!DNL Marketo Measure] geen actie ondernemen. In plaats daarvan moet u [toevoegen [!DNL Marketo Measure] parameters voor het hulpprogramma van derden in uw account](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 Als er echter geen volgsjabloon wordt gevonden, [!DNL Marketo Measure] zal:
 
@@ -40,7 +40,7 @@ Als er echter geen volgsjabloon wordt gevonden, [!DNL Marketo Measure] zal:
 
 ## Sjablonen bijhouden {#tracking-templates}
 
-Zoals uiteengezet in [!DNL Google AdWords], is een volgsjabloon de URL die wordt gebruikt om een landingspagina te bereiken. De verzamelde trackinggegevens worden gebruikt om uw advertentieverkeer te begrijpen. [Klik hier](https://support.google.com/adwords/answer/7197008?hl=en){target=&quot;_blank&quot;} voor meer informatie van Google.
+Zoals uiteengezet in [!DNL Google AdWords], is een volgsjabloon de URL die wordt gebruikt om een landingspagina te bereiken. De verzamelde trackinggegevens worden gebruikt om uw advertentieverkeer te begrijpen. [Klik hier](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} voor meer informatie van Google.
 
 [!DNL Marketo Measure] Het wordt aanbevolen een sjabloon voor het bijhouden van accounts, campagnes of groepen toevoegen te gebruiken, omdat hiermee parameters voor alle advertenties kunnen worden toegevoegd en afgetrokken zonder het risico van onderbrekingen of verwijderingen in de advertentie.
 
@@ -108,6 +108,6 @@ A: 4 uur
 
 >[!NOTE]
 >
->Als de wijzigingen eenmaal zijn aangebracht, bent u klaar. Voel u vrij om uit te reiken tot [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} als er vragen zijn tijdens de installatie.
+>Als de wijzigingen eenmaal zijn aangebracht, bent u klaar. Voel u vrij om uit te reiken tot [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} als er vragen zijn tijdens de installatie.
 
-[Klik hier](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;} voor instructies van Google over het maken van trackingsjablonen op accountniveau.
+[Klik hier](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} voor instructies van Google over het maken van trackingsjablonen op accountniveau.

@@ -5,7 +5,7 @@ title: Salesforce Sandbox naar productie-migratie
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ Als u ervoor kiest om te testen [!DNL Marketo Measure] in een [!DNL Salesforce] 
 
 * De twee apparaten installeren [!DNL Marketo Measure] verpakt in Production met de &quot;[!UICONTROL All Users]&quot; instellen
 
-   * [Basispakket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;}
-   * [Dashboard Extension Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}
+   * [Basispakket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [Dashboard Extension Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * Voor meer informatie over de [!DNL Marketo Measure] relatie met [!DNL Salesforce], bekijk [dit artikel](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * Een beetje [!DNL Salesforce] configuratie is noodzakelijk. De specifieke actiepunten worden hieronder beschreven in [Stap 4 hieronder](#salesforce-configuration)
@@ -51,7 +51,7 @@ Als u ervoor kiest om te testen [!DNL Marketo Measure] in een [!DNL Salesforce] 
 
 [Machtigingssets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Rapporten delen](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target=&quot;_blank&quot;}
+[Rapporten delen](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target="_blank"}
 
 [Overbodige rapporttypen verbergen](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

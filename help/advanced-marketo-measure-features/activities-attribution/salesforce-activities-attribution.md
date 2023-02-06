@@ -5,14 +5,14 @@ title: Toewijzing Salesforce-activiteiten
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
 
 # Toewijzing Salesforce-activiteiten {#salesforce-activities-attribution}
 
-De [!DNL Marketo Measure] De integratie van de Activiteiten van Salesforce zal in specifieke taak en Gebeurtenis verslagen in uw attributiemodel brengen. Begin met het volgen van zaken zoals verkoop e-mails of telefoongesprekken die geen behoorlijk krediet ontvingen. Om uw activiteitenregel te vormen, zult u moeten gaan [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. Ga van daar naar de **[!UICONTROL Settings]** en klik op de knop **[!UICONTROL Activities]** tab.
+De [!DNL Marketo Measure] De integratie van de Activiteiten van Salesforce zal in specifieke taak en Gebeurtenis verslagen in uw attributiemodel brengen. Begin met het volgen van zaken zoals verkoop e-mails of telefoongesprekken die geen behoorlijk krediet ontvingen. Om uw activiteitenregel te vormen, zult u moeten gaan [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Ga van daar naar de **[!UICONTROL Settings]** en klik op de knop **[!UICONTROL Activities]** tab.
 
 Je staat op het punt je verkoopteam erg gelukkig te maken! Laten we u een korte zelfstudie geven.
 
@@ -61,7 +61,7 @@ Vergeet niet verschillende regels voor Taken of Gebeurtenissen in te stellen. Je
 
 ![](assets/5.png)
 
-U zult waarschijnlijk deze nieuwe touchpoints in hun aangewezen willen plaatsen [Marketingkanaal](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20 Kanalen){target=&quot;_blank&quot;}. U kunt dat doen door het Kanaal met zijn nieuwe afbeelding van de Campagne te bepalen die u enkel creeerde. Misschien zult u een nieuwe rij voor het kanaal BDR creëren waar de Campagne met Uitgaand begint.
+U zult waarschijnlijk deze nieuwe touchpoints in hun aangewezen willen plaatsen [Marketingkanaal](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20 Kanalen){target="_blank"}. U kunt dat doen door het Kanaal met zijn nieuwe afbeelding van de Campagne te bepalen die u enkel creeerde. Misschien zult u een nieuwe rij voor het kanaal BDR creëren waar de Campagne met Uitgaand begint.
 
 >[!TIP]
 >
@@ -84,7 +84,7 @@ U zult waarschijnlijk deze nieuwe touchpoints in hun aangewezen willen plaatsen 
 
 ![](assets/6.png)
 
-En last but not least, hebt u de optie om kosten voor uw nieuwe kanalen in te voeren. Ons [Uploaden marketinguitgaven](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend)Met {target=&quot;_blank&quot;} kunt u uw uitgaven invoeren op het niveau Kanaal, Subkanaal of Campagne. Met uw nieuwe [!DNL Marketo Measure] Campagnes, kunt u die verwante kosten per maand toevoegen, dan ROI voor elke Campagne zien!
+En last but not least, hebt u de optie om kosten voor uw nieuwe kanalen in te voeren. Ons [Uploaden marketinguitgaven](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} staat u toe om uw uitgaven op het niveau van het Kanaal, Subchannel, of het niveau van de Campagne in te gaan. Met uw nieuwe [!DNL Marketo Measure] Campagnes, kunt u die verwante kosten per maand toevoegen, dan ROI voor elke Campagne zien!
 
 ![](assets/7.png)
 

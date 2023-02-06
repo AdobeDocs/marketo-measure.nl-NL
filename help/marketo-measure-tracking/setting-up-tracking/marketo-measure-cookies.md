@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Marketo-meetcookies {#marketo-measure-cookies}
+# Marketo Measure Cookies {#marketo-measure-cookies}
 
 Meer informatie over de verschillende [!DNL Marketo Measure] Cookies die op uw site worden geladen wanneer u de [!DNL Marketo Measure] JavaScript naar uw bestemmingspagina&#39;s. Deze informatie kan tijdens de implementatie nuttig zijn voor het webontwikkelingsteam.
 

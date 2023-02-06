@@ -72,7 +72,7 @@ We raden u aan de [!DNL Marketo Measure] velden alleen voor uw sandbox naar uw S
 
 1. Klik op de moersleutel in het deelvenster [!DNL VisualForce] pagina, wijzigt u de hoogte in 100 en schakelt u schuifbalken in.
 
-1. Selecteer de optie [!UICONTROL Canvas Apps] en maak een nieuwe sectie met de naam &quot;Marketo Measurement Insights&quot; onder de Touchpoints [!DNL VisualForce] -sectie die u zojuist hebt gemaakt.
+1. Selecteer de optie [!UICONTROL Canvas Apps] en maak een nieuwe sectie met de naam &quot;Marketo Measure Insights&quot; onder de Touchpoints [!DNL VisualForce] -sectie die u zojuist hebt gemaakt.
 
    >[!NOTE]
    >

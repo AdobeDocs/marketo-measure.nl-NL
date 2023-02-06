@@ -25,7 +25,7 @@ Om [!DNL Marketo Measure] aan opstelling moet een direct aandeel aan het gegeven
 
 ## Snowflake-account-id invoeren {#enter-snowflake-account-id}
 
-Open de **Instellingen** in de Marketo-toepassing Meetlat en navigeer naar de **Data Warehouse** pagina. In de **Direct delen** in, voert u uw [Snowflake-account-id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in het meegeleverde vak en klik op **Verbinden**.
+Open de **Instellingen** in de Marketo Measure-app en navigeer naar de **Data Warehouse** pagina. In de **Direct delen** in, voert u uw [Snowflake-account-id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in het meegeleverde vak en klik op **Verbinden**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 

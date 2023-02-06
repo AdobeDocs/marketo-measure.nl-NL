@@ -5,7 +5,7 @@ title: Campagne en campagneleden
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ De datum van het aanraakpunt voor updates met bulkobjecten is opgenomen in de ge
 
 Als een groot aantal verslagen van het Lid van de Campagne moet worden bijgewerkt, kunt u gebruiken [!UICONTROL Bulk Update Touchpoint Date] aan massa bewerken.
 
-Als er unieke gebruiksgevallen zijn die niet door deze interface worden bestreken, kunt u ook de opdracht [Data Loader](https://dataloader.io/){target=&quot;_blank&quot;} om de records te exporteren, de wijziging aan te brengen en de records weer in te uploaden.
+Als er unieke gebruiksgevallen zijn die niet door deze interface worden bestreken, kunt u ook de opdracht [Data Loader](https://dataloader.io/){target="_blank"} als u de records wilt exporteren, brengt u de wijziging aan en uploadt u de records terug naar.
 
 Begin door naar de verslagen te zoeken en degenen te filtreren die u een Datum van het Aanraakpunt van de Koper wilt plaatsen voor.
 
@@ -117,7 +117,7 @@ Om dit probleem op te lossen, [!DNL Marketo Measure] een [!DNL Marketo Measure] 
 
 >[!CAUTION]
 >
->Houd er rekening mee dat met deze trigger geen campagnegeleden worden bijgehouden die in het verleden zijn verwijderd. Dit werkt dus alleen als u verder gaat. Als u een groot aantal aanraakpunten van leden van de campagne uit het verleden moet verwijderen, neemt u contact op met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+>Houd er rekening mee dat met deze trigger geen campagnegeleden worden bijgehouden die in het verleden zijn verwijderd. Dit werkt dus alleen als u verder gaat. Als u een groot aantal aanraakpunten van leden van de campagne uit het verleden moet verwijderen, neemt u contact op met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

@@ -1,11 +1,11 @@
 ---
 unique-page-id: 18874562
-description: PostLC Touchpoints en Lead Engagement - Marketo Maatregel - Productdocumentatie
+description: PostLC Touchpoints en Lead Engagement - Marketo Measure - Productdocumentatie
 title: PostLC-aanraakpunten en Lead Engagement
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Volg onderstaande instructies om de PostLC-aanraakpuntinstellingen voor uw leads
 
 **Leads**
 
-1. Meld u aan bij uw [!DNL Marketo Measure] account op [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} en ga naar [!UICONTROL Settings].
+1. Meld u aan bij uw [!DNL Marketo Measure] account op [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
 
 1. Selecteer onder CRM **[!UICONTROL Leads]**.
 
@@ -46,7 +46,7 @@ Volg onderstaande instructies om de PostLC-aanraakpuntinstellingen voor uw leads
 
 **Contactpersonen**
 
-1. Meld u aan bij uw [!DNL Marketo Measure] account op [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} en ga naar [!UICONTROL Settings].
+1. Meld u aan bij uw [!DNL Marketo Measure] account op [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
 
 1. Selecteer onder CRM **[!UICONTROL Contacts]**.
 

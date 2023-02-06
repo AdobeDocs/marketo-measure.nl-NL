@@ -4,7 +4,7 @@ title: Privacyverzoeken
 exl-id: 883e475f-9868-412a-b505-230556f38484
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ Dit document biedt een overzicht van het beheer van individuele privacyverzoeken
 
 U kunt individuele verzoeken indienen om tot consumentengegevens toegang te hebben en te schrappen van [!DNL Marketo Measure] op twee manieren :
 
-* Via de [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=&quot;_blank&quot;}.
-* Via de **[!DNL Privacy Service]API**. Zie de documentatie [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=&quot;_blank&quot;} en de API-referentie [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target=&quot;_blank&quot;}.
+* Via de [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Via de **[!DNL Privacy Service]API**. Zie de documentatie [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-De [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;} ondersteunt twee typen aanvragen: gegevenstoegang en gegevensverwijdering.
+De [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} ondersteunt twee typen verzoeken: gegevenstoegang en gegevensverwijdering.
 
 Zie hoe u verzoeken van de Toegang en van de Schrapping kunt tot stand brengen.
 
-## Vereiste installatie voor het verzenden van aanvragen voor Marketo-maatregel {#required-setup-to-send-requests-for-marketo-measure}
+## Vereiste installatie voor het verzenden van aanvragen voor Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
 Om tot Gegevens van de Toegang en van de Schrapping te verzoeken voor [!DNL Marketo Measure]moet u:
 

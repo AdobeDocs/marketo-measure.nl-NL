@@ -5,7 +5,7 @@ title: Vaak Gebruik
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,4 @@ Wijzig het filter Dimension om de groepering in te stellen op: Subkanaal, campag
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universiteit: Inleiding tot [!DNL Marketo Measure Discover]](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6){target=&quot;_blank&quot;}
+>[[!DNL Marketo Measure] Universiteit: Inleiding tot [!DNL Marketo Measure Discover]](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6){target="_blank"}

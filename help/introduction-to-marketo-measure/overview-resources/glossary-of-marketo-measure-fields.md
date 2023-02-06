@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874586
-description: Verklarende woordenlijst van de Gebieden van de Maatregel van Marketo - de Maatregel van Marketo - de Documentatie van het Product
-title: Woordenlijst met Marketo-meetvelden
+description: Verklarende woordenlijst van Marketo Measure Fields - Marketo Measure - Productdocumentatie
+title: Woordenlijst met Marketo Measure-velden
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
 workflow-type: tm+mt
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Woordenlijst met Marketo-meetvelden {#glossary-of-marketo-measure-fields}
+# Woordenlijst met Marketo Measure-velden {#glossary-of-marketo-measure-fields}
 
-Dit artikel verstrekt een verklarende woordenlijst van alle Gebieden van de Maatregel van Marketo die aan uw Salesforce van het Pakket van de Basis van de Meetlat van Marketo worden toegevoegd. U zult ook informatie vinden over welk Voorwerp het Gebied kan worden gevonden en hoe elk Gebied met informatie wordt bevolkt.
+Dit artikel bevat een woordenlijst met alle Marketo Measure-velden die vanuit het Marketo Measure Base Package aan uw Salesforce worden toegevoegd. U zult ook informatie vinden over welk Voorwerp het Gebied kan worden gevonden en hoe elk Gebied met informatie wordt bevolkt.
 
-Voor een kaart waarop Object elk veld Marketo Meetlat betrekking heeft, gelieve [klik hier](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Voor een kaart waarop Object elk Marketo Measure-veld betrekking heeft, gelieve [klik hier](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ J [K](#k) ・ [L](#l) ・ [M](#m) ・ N ・ [O](#o) ・ [P](#p) ・ Q ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y ・ Z
 
@@ -48,7 +48,7 @@ Als geen van bovenstaande velden wordt gebruikt, is dit veld leeg.
 
 `3)` Als het aanraakpunt afkomstig was van een Salesforce-campagne, wordt de naam van de Salesforce-campagne hier weergegeven.
 
-`4)` Dit wordt gevuld met de naam van de campagne die is gedefinieerd voor aanraakpunten die zijn gegenereerd op basis van Activiteiten die zijn gemaakt in uw Marketo-meetaccount.
+`4)` Dit wordt gevuld met de naam van de campagne die is gedefinieerd voor aanraakpunten die zijn gegenereerd op basis van Activiteiten die zijn gemaakt in uw Marketo Measure-account.
 
 Als geen van bovenstaande velden wordt gebruikt, is dit veld leeg.
 
@@ -60,7 +60,7 @@ Dit veld wordt op dezelfde manier gevuld als de naam van een advertentiecampagne
 
 Dit veld wordt op dezelfde manier gevuld als de naam van een advertentiecampagne. In dit veld wordt echter specifiek de naam getoond van de advertentiecampagne die het aanraakpunt voor het maken van leads heeft gegenereerd.
 
-**Inhoud toevoegen** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Inhoud toevoegen** | Aanraakpunt koper, aanraakpunt koper
 
 `1)` Als het aanraakpunt afkomstig is van een betaalde zoekopdracht (AdWords/Bing Ads), wordt in het veld de volledige advertentie-kopie van het advertentieplatform weergegeven.
 
@@ -76,13 +76,13 @@ Als geen van beide bovenstaande velden wordt weergegeven, is dit veld leeg.
 
 Als het aanraakpunt niet afkomstig is van een betaalde zoekopdracht, is het veld leeg.
 
-**Groep-id toevoegen** | Aanraakpunt koper, aanraakpunt koper
+**Groep-id toevoegen** | Aanraakpunt koper, aanraakpunt koperkenmerk
 
 `1)` Als het aanraakpunt afkomstig is van een betaalde zoekopdracht, wordt de advertentie-groep-id van Advertentie-woorden/Bing Ads hier weergegeven.
 
 Als het aanraakpunt niet afkomstig is van een betaalde zoekopdracht, is het veld leeg.
 
-**Naam advertentiegroep** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Naam advertentiegroep** | Aanraakpunt koper, aanraakpunt koper
 
 `1)` Als het aanraakpunt afkomstig is van een betaalde zoekopdracht, wordt hier de naam van de Advertentiegroep van Advertentiegrames/Bing Ads weergegeven.
 
@@ -126,11 +126,11 @@ In dit veld wordt het percentage weergegeven van de inkomsten die worden toegewe
 
 ## B {#b}
 
-**Hoeveelheid Marketo-maateenheid** | Salesforce Opportunity
+**Aantal Marketo Measure-kansen** | Salesforce Opportunity
 
-Als u een gebied van het Bedrag van het douanebedrag gebruikt om de opbrengst van de Kans te melden, kan de Maatregel van Marketo deze gebieden van het Bedrag niet lezen. Het bedrag van de Kans van de Kans van de Meetlat van Marketo is een verborgen gebied dat wordt gebruikt om een werkschema tot stand te brengen dat de Meetlat van Marketo toelaat om de gebieden van het douaneBedrag op de Kans te lezen.
+Als u een veld Aangepast bedrag gebruikt om inkomsten van opportunity te melden, kan Marketo Measure deze velden Aangepast bedrag niet lezen. Het Marketo Measure Opportunity Amount is een verborgen veld dat wordt gebruikt om een workflow te maken waarmee Marketo Measure aangepaste Mate-velden op de Opportunity kan lezen.
 
-**Browser** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Browser** | Aanraakpunt koper, aanraakpunt koper
 
 In dit veld wordt het type webbrowser weergegeven dat tijdens de websessie wordt gebruikt (Chrome, Safari, Firefox, enz.).
 
@@ -138,7 +138,7 @@ In dit veld wordt het type webbrowser weergegeven dat tijdens de websessie wordt
 
 ## C {#c}
 
-**Contact** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Contact** | Aanraakpunt koper, aanraakpunt koper
 
 In het veld wordt de contactpersoon weergegeven waartoe het aanraakpunt behoort.
 
@@ -196,29 +196,29 @@ In dit veld wordt, in decimale vorm, het kredietpercentage weergegeven dat aan e
 
 ## D {#d}
 
-Datum van melding | Marketo Maatregel ABTest, Marketo Meetgebeurtenis
+Datum van melding | Marketo Measure ABTest, Marketo Measure Event
 
-Gebeurtenis van de Meetlat van Marketo - de datum toen een gebruiker een specifieke actie op uw website nam, die een Gebeurtenis activeerde
+Marketo Measure-gebeurtenis - de datum waarop een gebruiker een specifieke actie op uw website heeft uitgevoerd en een gebeurtenis heeft geactiveerd
 
-Marketo Measurement ABTest - de datum waarop een gebruiker heeft deelgenomen aan een A/B Test op uw website
+Marketo Measure ABTest - de datum waarop een gebruiker heeft deelgenomen aan een A/B-test op uw website
 
 [Klik hier om terug te keren naar de bovenkant van de pagina](#top)
 
 ## E {#e}
 
-**Gebeurtenisnaam** | Marketo-meetgebeurtenis
+**Gebeurtenisnaam** | Marketo Measure-gebeurtenis
 
 In dit veld wordt de naam weergegeven van de actie die de gebeurtenis heeft geactiveerd (bijvoorbeeld Paginaweergave).
 
-**Gebeurteniswaarde** | Marketo-meetgebeurtenis
+**Gebeurteniswaarde** | Marketo Measure-gebeurtenis
 
 De beschrijving van de gebeurtenis (bijvoorbeeld Homepage)
 
-**Naam experiment** | Marketo Maatregel ABTest
+**Naam experiment** | Marketo Measure ABTest
 
 In dit veld wordt de naam van het experiment weergegeven (bijvoorbeeld de knop Proefversie)
 
-**Id van experiment** |Marketo-test maatregel AB
+**Id van experiment** |Marketo Measure AB-test
 
 De unieke identificatiecode voor elk experiment
 
@@ -230,7 +230,7 @@ URL van formulier | Aanraakpunt koper, aanraakpunt koper
 
 In dit veld wordt een verkorte versie van de URL van een pagina weergegeven waar de formuliervulling is opgetreden (geen UTM-parameters)
 
-URL formulier - Raw | Aanraakpunt koper, aanraakpunt koperkenmerk
+URL formulier - Raw | Aanraakpunt koper, aanraakpunt koper
 
 In dit veld wordt de volledige pagina-URL weergegeven waar de formuliervulling is opgetreden, inclusief UTM-parameters
 
@@ -238,11 +238,11 @@ In dit veld wordt de volledige pagina-URL weergegeven waar de formuliervulling i
 
 ## G {#g}
 
-Geo City | Aanraakpunt koper, aanraakpunt koper
+Geo City | Aanraakpunt koper, aanraakpunt koperkenmerk
 
 In dit veld wordt de naam weergegeven van de stad waar de lead/contactpersoon uw website heeft bezocht. Dit wordt gedaan via omgekeerde IP raadpleging.
 
-Geo Land | Aanraakpunt koper, aanraakpunt koper
+Geo Land | Aanraakpunt koper, aanraakpunt koperkenmerk
 
 In dit veld wordt weergegeven waar het land waar de lead/contactpersoon uw website heeft bezocht. Dit wordt gedaan via omgekeerde IP raadpleging.
 
@@ -264,7 +264,7 @@ Als dit aanraakpunt niet afkomstig is van een betaalde zoekopdracht, is dit veld
 
 Als het aanraakpunt afkomstig is van een betaalde zoekopdracht, wordt in dit veld het type van het advertentieplatform (Adwords/Bing) weergegeven.
 
-**Trefwoordtekst** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Trefwoordtekst** | Aanraakpunt koper, aanraakpunt koper
 
 `1)` Als het aanraakpunt afkomstig is van een betaalde zoekopdracht, wordt in dit veld de trefwoordtekst weergegeven van het advertentieplatform (Adwords/BingAds) OF de waarde van de parameter _bk in de URL van de bestemmingspagina.
 
@@ -280,15 +280,15 @@ Als het aanraakpunt niet afkomstig is van een betaalde zoekopdracht of als er ge
 
 ## L {#l}
 
-**Openingspagina** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Openingspagina** | Aanraakpunt koper, aanraakpunt koper
 
 In dit veld wordt de verkorte versie van de URL (geen UTM-parameters) weergegeven van de eerste webpagina die tijdens een websessie wordt bezocht.
 
-**Openingspagina - Raw** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Openingspagina - Raw** | Aanraakpunt koper, aanraakpunt koper
 
 In dit veld wordt de volledige URL (inclusief UTM-parameters) weergegeven van de eerste webpagina die tijdens een websessie wordt bezocht.
 
-**Lood** | Aanraakpunt koper, Marketo Maatpersoon
+**Lood** | Aanraakpunt koper, Marketo Measure-persoon
 
 In dit veld wordt de naam weergegeven van de lead waartoe een aanraakpunt behoort.
 
@@ -296,9 +296,9 @@ In dit veld wordt de naam weergegeven van de lead waartoe een aanraakpunt behoor
 
 ## M {#m}
 
-**Marketingkanaal** | Aanraakpunt koper, aanraakpunt koper
+**Marketingkanaal** | Aanraakpunt koper, aanraakpunt koperkenmerk
 
-In dit veld ziet u de algemene groep marketingactiviteiten of het marketingkanaal waartoe het aanraakpunt behoort (d.w.z. Betaalde zoekopdracht, Direct, Sociaal, enz.). Aanraakpunten worden gegroepeerd op basis van de manier waarop uw kanalen zijn ingesteld in de Marketo-meetapp. Voor meer informatie over marketingkanalen of hoe u uw kanalen instelt, raadpleegt u [klik hier](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+In dit veld ziet u de algemene groep marketingactiviteiten of het marketingkanaal waartoe het aanraakpunt behoort (d.w.z. Betaalde zoekopdracht, Direct, Sociaal, enz.). Aanraakpunten worden gegroepeerd op basis van de manier waarop uw kanalen zijn ingesteld in de Marketo Measure App. Voor meer informatie over marketingkanalen of hoe u uw kanalen instelt, raadpleegt u [klik hier](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **Marketingkanaal - pad** | Aanraakpunt koper, aanraakpunt koper
 
@@ -316,7 +316,7 @@ In dit veld ziet u het marketingkanaal en het subkanaal waartoe een aanraakpunt 
 
 `4)` Dit zal met de waarde van het Type van Activiteit van de verwante Activiteit bevolken die het Aanraakpunt produceerde.
 
-Als geen van de bovenstaande opties aanwezig is, stelt Marketo Meetlat automatisch een gemiddelde waarde in.
+Als geen van de bovenstaande opties aanwezig is, stelt Marketo Measure automatisch een gemiddelde waarde in.
 
 [Klik hier om terug te keren naar de bovenkant van de pagina](#top)
 
@@ -330,7 +330,7 @@ In dit veld wordt de mogelijkheid weergegeven waartoe de BBT behoort.
 
 P
 
-**Platform** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Platform** | Aanraakpunt koper, aanraakpunt koper
 
 In dit veld worden het type computer of telefoon en het type besturingssysteem weergegeven dat tijdens de websessie is gebruikt.
 
@@ -348,7 +348,7 @@ Bijvoorbeeld:
 
 - Als het aanraakpunt afkomstig is van Social, wordt in het veld de URL van de sociale website (d.w.z. LinkedIn) weergegeven.
 
-**Refereringspagina - Raw** | Aanraakpunt koper, aanraakpunt koper
+**Refereringspagina - Raw** | Aanraakpunt koper, aanraakpunt koperkenmerk
 
 In dit veld wordt dezelfde informatie weergegeven als bij Referrer Page, behalve in dit veld wordt de volledige verwijzende URL (inclusief UTM-parameters) weergegeven.
 
@@ -392,7 +392,7 @@ Als het aanraakpunt afkomstig is van betaald of biologisch zoeken, wordt in dit 
 
 **Segment** | Aanraakpunt voor koperkenmerk
 
-In dit veld worden de segmenten weergegeven waartoe het aanraakpunt behoort. Dit hangt af van de manier waarop u de segmentatieregels hebt geconfigureerd in de Marketo-app Meetlat.
+In dit veld worden de segmenten weergegeven waartoe het aanraakpunt behoort. Dit is afhankelijk van de configuratie van de segmentatieregels in de Marketo Measure-app.
 
 [Klik hier om terug te keren naar de bovenkant van de pagina](#top)
 
@@ -428,7 +428,7 @@ Opportunity Creation (OC) - De marketinginteractie die het dichtst bij het maken
 
 Gesloten - De marketinginteractie die het dichtst bij wanneer Opp wordt gesloten (Won of Verloren)
 
-**Aanraakpuntbron** | Aanraakpunt koper, aanraakpunt koper
+**Aanraakpuntbron** | Aanraakpunt koper, aanraakpunt koperkenmerk
 
 `1)` Als het aanraakpunt afkomstig is van een betaalde zoekopdracht, wordt in dit veld de naam van het advertentieplatform (AdWords/BingAds) weergegeven
 
@@ -462,7 +462,7 @@ U
 
 De unieke id die aan elk aanraakpunt is gekoppeld
 
-**Gebruikersnaam** | Marketo Maatregel ABTest
+**Gebruikersnaam** | Marketo Measure ABTest
 
 De unieke identificatiecode van optimalisatie voor elk gebruik
 
@@ -470,11 +470,11 @@ De unieke identificatiecode van optimalisatie voor elk gebruik
 
 ## V {#v}
 
-**Variatie** | Marketo Maatregel ABTest
+**Variatie** | Marketo Measure ABTest
 
 De naam van de variatie van de A/B-test
 
-**Variatie-id** | Marketo Maatregel ABTest
+**Variatie-id** | Marketo Measure ABTest
 
 De unieke identificatiecode voor elke variant van de A/B-test.
 

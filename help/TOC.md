@@ -3,11 +3,11 @@ cloud: Experience Cloud
 product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Hulplijn"
-user-guide-description: "[!DNL Marketo Measure] geeft marketeers inzicht in welke marketinginspanningen het meest effectief zijn in het aansturen van inkomsten voor hun bedrijf . "
+user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
