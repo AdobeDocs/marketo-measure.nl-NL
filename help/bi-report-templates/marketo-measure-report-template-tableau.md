@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] Rapportsjabloon - Tableau - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Rapportsjabloon - Tableau"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+source-git-commit: 1b0d043e9015f2f8e2f6a3a2a49849bb792c7f21
 workflow-type: tm+mt
-source-wordcount: '2297'
+source-wordcount: '2296'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 U hebt toegang tot de [!DNL Tableau] rapportsjabloon [hier](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
-Open de [!DNL Adobe Marketo] Het dossier van de Werkboek van het Malplaatje van de Rapportering van de maatregel.
+Open de [!DNL Adobe Marketo Measure] Werkboekbestand Sjabloon rapporteren
 
 U moet de bestaande verbindingsgegevens bijwerken naar de specifieke verbindingsgegevens van de Snowflake. Klik op de knop [!UICONTROL Edit Connection] en voert u de stappen uit die in het dialoogvenster [[!UICONTROL Data Connection]](#data-connection) van deze documentatie.
 
@@ -127,7 +127,7 @@ In dit model zijn de afmetingen voor Campagne en Kanaal gekoppeld aan het aanraa
 
 >[!NOTE]
 >
->Sommige gebeurtenissen, zoals sessies, hebben directe koppelingen naar de afmetingen Campagne en Kanaal. Als het rapporteren op het niveau van de Zitting over deze dimensies gewenst is, adviseert men dat een afzonderlijk gegevensmodel voor dit doel wordt gecreeerd.
+>Sommige gebeurtenissen, zoals sessies, hebben directe koppelingen naar de afmetingen Campagne en Kanaal. Als het rapporteren op het niveau van de Zitting over deze dimensies wordt gewenst, adviseert men dat een afzonderlijk gegevensmodel voor dit doel wordt gecreeerd.
 
 De gegevens van kosten worden opgeslagen bij verschillende samenvoegingsniveaus binnen de Snowflake gegevens pakhuisKostentabel. Voor alle advertentieleveranciers, kunnen de het niveaugegevens van de Campagne tot het niveau van het Kanaal worden uitgebreid. Om deze reden, trekt dit model kostengegevens die op de &quot;campagne_is_aggregatable_cost&quot;vlag worden gebaseerd. De zelf-gemelde kosten kunnen op het niveau van het Kanaal slechts worden voorgelegd en worden vereist niet om de gegevens van de Campagne te hebben. Om de nauwkeurigste mogelijke kostenrapportage mogelijk te maken, worden zelf-gerapporteerde kosten opgehaald op basis van de markering &quot;channel_is_aggregatable_cost&quot;. De vraag die kostengegevens invoert wordt geschreven met de volgende logica: Als ad_provider = &quot;SelfReported&quot; then channel_is_aggregatable_cost = true, else campagne_is_aggregatable_cost = true.
 
