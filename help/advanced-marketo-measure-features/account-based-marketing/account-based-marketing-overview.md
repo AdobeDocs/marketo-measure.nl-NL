@@ -3,9 +3,9 @@ unique-page-id: 18874730
 description: Overzicht van marketing op basis van account - [!DNL Marketo Measure] - Productdocumentatie
 title: Overzicht van accountgebaseerde marketing
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ Het in kaart brengen van leads naar accounts is een cruciaal onderdeel van een e
 * Bedrijfsnaam leiden naar accountnaam
 * Bedrijf leiden naar website-domein account
 * Overeenkomend het Domein op het E-mailadres van de Leider aan de Rekening via het E-mailadres van het Contact
+
+>[!NOTE]
+>
+>Elke lead probeert in de bovenstaande voorkeursvolgorde van methoden te worden gekoppeld aan een account. Zodra een gelijke wordt gemaakt, wordt AccountId onmiddellijk geplaatst op Lood en zal niet aangepast worden gebruikend een andere methode. Als de lead al een geldige account-id heeft, wordt de lead overgeslagen.
 
 ## Predictieve betrokkenheidsscore {#predictive-engagement-score}
 
