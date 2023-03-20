@@ -1,12 +1,10 @@
 ---
 description: '''[!DNL Marketo Measure] Ultieme overzicht - [!DNL Marketo Measure] - Productdocumentatie"'
 title: '[!DNL Marketo Measure] Ultimate Overview'
-hide: true
-hidefromtoc: true
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 604db0227cc48e09743db317cc72488755586a48
+source-git-commit: 59d42e5065ec0db7143208743fd053f5e6c1af7b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -28,29 +26,29 @@ ht-degree: 0%
 
 * Integratie met RTCDP (B2B of B2P Edition), die een geïntegreerde B2B-attributieoplossing biedt voor RTCDP-klanten als RTCDP en [!DNL Marketo Measure] beide werken van gecentraliseerde gegevens van Adobe Experience Platform (AEP).
 
-**Marketo Measure Tiers 1-3**
+**[!DNL Marketo Measure]Tips 1-3**
 
 ![](assets/marketo-measure-ultimate-overview-1.png)
 
-**Marketo Measure Ultimate**
+**[!DNL Marketo Measure Ultimate]**
 
 ![](assets/marketo-measure-ultimate-overview-2.png)
 
 ## Nieuwe functies in [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
-**KOPTEKSTTITEL - B2B-gegevens importeren via AEP**
+**B2B-gegevens importeren via AEP**
 
 Van markeerders wordt verwacht dat zij hun B2B-gegevens (bijv. account, opportuniteit, contactpersoon, lead, campagne, campagnelid, activiteit) via AEP doorgeven. De directe verbindingen CRM en Marketo Engage zijn niet meer beschikbaar voor Ultimate. De verkopers zullen gegevens van het Platform van de Advertentie door directe verbindingen en het volgen van Webactiviteiten door blijven brengen [!DNL Marketo Measure] javascript.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
-**KOPTEKSTTITEL - Standaardinstelling valuta**
+**Standaardinstelling voor valuta**
 
-BRIEF INTRO???
+[!DNL Marketo Measure Ultimate] wordt de standaardvaluta ingesteld op USD totdat de gebruiker deze wijzigt. Als u een nieuwe standaardvaluta instelt, worden de gegevens bijgewerkt zonder dat ze opnieuw worden verwerkt. Zolang de geselecteerde valuta als doel-ISO-code aanwezig is, is het niet nodig conversiekoersen in te dienen.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
-**HEADER TITLE - Marketo Measure Ultimate Sandbox**
+**[!DNL Marketo Measure Ultimate]Sandbox**
 
 [!DNL Marketo Measure Ultimate] instantie moet worden toegewezen aan een AEP-sandbox voordat de instantie wordt gemaakt [!DNL Marketo Measure] bestemmingsgegevensstromen in AEP.
 
@@ -64,7 +62,7 @@ Gegevens voor een bepaalde entiteit (bv. Account) uit een bepaalde gegevensbron 
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
-**KOPTEKSTTITEL - Werkgebiedtoewijzing**
+**Werkgebiedtoewijzing**
 
 Alles [!DNL Marketo Measure Ultimate] de regels zijn datasetspecifiek. Er moeten regels voor werkgebiedtoewijzing worden gemaakt voor alle gegevenssets en alle geselecteerde fasen.
 
