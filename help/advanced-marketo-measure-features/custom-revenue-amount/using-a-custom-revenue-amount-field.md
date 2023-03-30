@@ -3,9 +3,9 @@ unique-page-id: 18874793
 description: Met een veld Aangepaste inkomstenbedrag - [!DNL Marketo Measure] - Productdocumentatie
 title: Een veld Aangepaste inkomstenbedrag gebruiken
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,4 @@ Vanaf hier beginnen we de workflow te maken.
 
    Dit kan worden verwezenlijkt door uw kansen door de Lader van Gegevens binnen SFDC in werking te stellen. Meer informatie over het gebruik van Data Loader vindt u in [dit artikel](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Als er onderweg vragen zijn, aarzel dan niet om contact op te nemen met uw Customer Success Manager of [[!DNL Marketo] Ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Als er onderweg vragen zijn, aarzel dan niet contact op te nemen met het Adobe-accountteam (uw accountmanager) of [[!DNL Marketo] Ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

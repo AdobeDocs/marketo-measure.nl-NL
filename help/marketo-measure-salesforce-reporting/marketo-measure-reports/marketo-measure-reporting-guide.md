@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] Rapportagehandleiding - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Rapportagehandleiding"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '6392'
+source-wordcount: '6395'
 ht-degree: 0%
 
 ---
@@ -557,7 +557,7 @@ Wanneer het zoeken om het effect van de marketing op gesloten won Deals of geslo
 
 >[!NOTE]
 >
->Het aangepaste kenmerkingsmodel is een extra functie die niet voor alle klanten beschikbaar is. Neem contact op met uw Customer Success Manager voor meer informatie over hoe u deze functie aan uw account kunt toevoegen.
+>Het aangepaste kenmerkingsmodel is een extra functie die niet voor alle klanten beschikbaar is. Neem contact op met het accountteam van Adobe (uw accountmanager) voor meer informatie over het toevoegen van deze functie aan uw account.
 
 Marktdeelnemers moeten meestal weten: &quot;Waar komen mijn kansen vandaan?&quot; Net als bij rapportage op hoofdniveau werd deze vraag historisch beantwoord met één eendimensionale waarde (bijvoorbeeld primaire campagnebron). We weten echter dat er veel meer gaat naar de ontwikkeling van een opportunity dan één aanraakpunt van één enkele contactpersoon. Er zijn typisch verscheidene aanraakpunten van diverse kanalen en door veelvoudige belanghebbenden die een Kans in verwezenlijking beïnvloeden. Met [!DNL Marketo Measure], kunnen we alle aanraakpunten van een account bekijken om te begrijpen waar een opportunity vandaan kwam. Daarna kunnen we echter elk aanraakpunt dat zich heeft voorgedaan nadat de Opportunity is gecreëerd en tot op het moment dat de Opportunity is is gesloten, aan de oppervlakte blijven. Op die manier kunnen we niet alleen een multi-touchbenadering gebruiken om te begrijpen waar een opportuniteit vandaan kwam, maar ook wat het heeft beïnvloed om af te sluiten en uiteindelijk een gesloten eigen inkomen te vertegenwoordigen. Dit geeft inzicht in verschillende vragen zoals, &quot;wat beïnvloedt marketing de invloed op het beïnvloeden van Deals om te sluiten?&quot;, &quot;welke marketing drijft gesloten won Ontvangsten.&quot; en uiteindelijk, &quot;welke van mijn marketing inspanningen zien het grootste ROI?&quot;
 

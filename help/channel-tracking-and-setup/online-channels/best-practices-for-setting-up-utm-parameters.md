@@ -3,9 +3,9 @@ unique-page-id: 18874732
 description: Aanbevolen procedures voor het instellen van UTM-parameters - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanbevolen procedures voor het instellen van UTM-parameters
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ U kunt de [Google URL Builder](https://support.google.com/analytics/answer/10338
 
 **utm_medium**: Dit veld wordt toegewezen aan het veld Normaal. Gebruik utm_medium om het kanaal op hoog niveau aan te geven.
 
-bijv.: [!UICONTROL Social], CPC, e-mail, web, organisch
+bijv. [!UICONTROL Social], CPC, e-mail, web, organisch
 
 Gebruik dit veld niet om het subkanaal uit te roepen.
 
 **utm_source**: Dit veld wordt toegewezen aan het veld Aanraakpuntbron. Gebruik utm_source om het subkanaal te definiëren waarvan de lead afkomstig is.
 
-bijv.: Facebook, Twitter, Linkedin, Drip_email, Email_blast, nieuwsbrief.
+Bijvoorbeeld Facebook, Twitter, Linkedin, Drip_email, Email_blast, nieuwsbrief.
 
 Houd het eenvoudig. Gebruik deze parameter niet voor het aangeven van het type advertentie, zoals voor opnieuw toewijzen, sponsoren, enzovoort. Voeg geen utm_source = homepage, webdirect, website toe. [!DNL Marketo Measure] Deze gegevens worden automatisch voor u ingevuld.
 
@@ -36,17 +36,17 @@ Dit is ook een goede parameter om Geolocation, het netwerktype van de Advertenti
 
 We raden u aan onderstrepingstekens te gebruiken in plaats van spaties, en leestekens te gebruiken. Hierdoor wordt de kans op coderingsfouten bij het lezen van de parameters verkleind.
 
-bijv.: AU_Idea_for_an_App_50k
+bijv. AU_Idea_for_an_App_50k
 
 **utm_content**: Dit is toegewezen aan Advertentie-inhoud. Gebruik Titel toevoegen in de parameter utm_content. Als het een afbeeldingsadvertentie is, gebruikt u een titel en neemt u de afmetingen van de advertentie op.
 
-bijv.: [advertentitel] 200 x 400 px
+bijv. [advertentitel] 200 x 400 px
 
 **utm_term**: Dit is toegewezen aan trefwoordtekst. Gebruik deze parameter om het trefwoord aan te duiden dat betrekking heeft op het afvuren van de advertentie.
 
 Laat deze parameter leeg als er geen trefwoord is voor de advertentie.
 
-bijv.: iPhone App Ideas
+Bijvoorbeeld iPhone App Ideas
 
 **Houd het eenvoudig en beknopt. U mag inspanningen, termen en kanalen niet dupliceren.**
 
@@ -54,7 +54,7 @@ Wij stellen de UTM-hiërarchie als volgt voor:
 
 Normaal > [!UICONTROL Source] > [!UICONTROL Campaign] > [!UICONTROL Content/Term]
 
-bijv.: Indien een [!UICONTROL display] advertentie die op Facebook is geplaatst, raden we het volgende aan:
+bv. [!UICONTROL display] advertentie die op Facebook is geplaatst, raden we het volgende aan:
 
 fakewebsite.com/
 
@@ -68,4 +68,4 @@ fakewebsite.com/
 
 Let op: termen/kanalen worden niet gedupliceerd en in dit geval wordt utm_term niet gebruikt.
 
-Als er vragen zijn, kunt u contact opnemen met uw Customer Success Manager of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Neem contact op met het Adobe-accountteam (uw accountmanager) of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

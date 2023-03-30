@@ -3,16 +3,16 @@ unique-page-id: 27656441
 description: Veelgestelde vragen over driftintegratie - [!DNL Marketo Measure] - Productdocumentatie
 title: Veelgestelde vragen over driverintegratie
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen over driverintegratie {#drift-integration-faq}
 
-Als onderdeel van het [!DNL Marketo Measure] Door de integratie met Drift hebben we een aantal van de meest gestelde vragen uiteengezet. Als er hieronder geen vragen zijn die niet worden beschreven, kunt u contact opnemen met uw Customer Success Manager of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Als onderdeel van het [!DNL Marketo Measure] Door de integratie met Drift hebben we een aantal van de meest gestelde vragen uiteengezet. Neem contact op met het Adobe-accountteam (uw accountmanager) of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **Hoe wordt de integratie ingeschakeld?**
 

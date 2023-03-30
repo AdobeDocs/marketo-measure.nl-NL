@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] Integratie met Adobe Analytics - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Integratie met [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ De integratie van B2B-klantkenmerken maakt wederzijdse gebruikers van [!DNL Mark
 
 1. Klik op de knop **[!UICONTROL Set Up New Customer Attributes Connection]** en volg de instructies om de integratie van de Attributen van de Klant te vormen. De interface vraagt u naar de Alias ID- en FTP-verbindingsgegevens die u hebt verkregen bij het maken van de bron met klantkenmerken in uw Core Services Console en selecteert de set accountkenmerken die u wilt synchroniseren met uw [!DNL Adobe Analytics] account.
 
-   U moet ook uw Adobe IMS-organisatie-id invoeren. Deze id wordt weergegeven in de rechterbenedenhoek van uw Adobe Experience Cloud-Admin Console. Neem contact op met uw Customer Success Manager voor meer hulp bij het vinden van deze id.
+   U moet ook uw Adobe IMS-organisatie-id invoeren. Deze id wordt weergegeven in de rechterbenedenhoek van uw Adobe Experience Cloud-Admin Console. Neem contact op met het Adobe-accountteam (uw accountmanager) voor meer hulp bij het zoeken naar deze id.
 
 1. Nadat u de verbinding in uw [!DNL Marketo Measure] -account, moet u teruggaan naar uw Experience Cloud-console om [valideer het schema](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). U hoeft zich geen zorgen te maken over het uploaden van FTP-bestanden, [!DNL Marketo Measure] heeft dat onderdeel voor u geautomatiseerd. Alles wat u hoeft te doen, gaat u naar het schema &quot;Weergave/Bewerken&quot; voor de kenmerkbron van de klant die u in Stap 1 hebt gemaakt en vertelt u Adobe wat de gegevenstypen zijn voor elk van de kenmerken die [!DNL Marketo Measure] heeft namens u geüpload. U kunt desgewenst ook nieuwe weergavefuncties voor de geüploade kenmerken maken.
 
