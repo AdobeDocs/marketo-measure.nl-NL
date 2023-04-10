@@ -3,22 +3,24 @@ unique-page-id: 27656735
 description: Overzicht - [!DNL Marketo Measure] - Productdocumentatie
 title: Overzicht
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: bf047695c4ea82c4fbf1e9079b7443a5c9821e42
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
 
 # Overzicht {#overview}
 
-De [!DNL Marketo Measure] de toepassing steunt slechts één enkele munt (verondersteld om USD te zijn), terwijl wij weten en ons ervan bewust zijn dat wij klanten over de hele wereld hebben die over hun eigen bedrijf en gebruikersvaluta moeten rapporteren. Deze eigenschap bouwt in de capaciteit voor gebruikers om tussen verschillende valuta te schakelen wanneer zij of gemelde uitgaven of verkoopopbrengst bekijken.
+De [!DNL Marketo Measure] de toepassing steunt slechts één enkele munt (verondersteld om USD te zijn), terwijl wij weten en ons ervan bewust zijn dat wij klanten over de hele wereld hebben die over hun eigen bedrijf en gebruikersvaluta moeten rapporteren. Met deze functie kunnen gebruikers schakelen tussen dezelfde valuta&#39;s die in hun CRM worden gebruikt bij het bekijken van gerapporteerde uitgaven of omzet in [!DNL Marketo Measure].
 
 ## Beschikbaarheid {#availability}
 
 Niveau 2 en hoger.
 
 ## Vereisten {#requirements}
+
+[!DNL Marketo Measure] zal automatisch de valuta-instelling van de CRM van de klant trekken. Handmatige configuratie in [!DNL Marketo Measure] om de CRM aan te passen is niet langer vereist. De valutainstelling is te vinden op de pagina &quot;Algemeen&quot; onder &quot;CRM&quot;.
 
 In [!DNL Salesforce], moet de klant Meerdere valuta&#39;s activeren hebben ingeschakeld. De klant kan desgewenst ook &quot;Ja, ik wil Geavanceerd valutabeheer inschakelen.&quot;
 
