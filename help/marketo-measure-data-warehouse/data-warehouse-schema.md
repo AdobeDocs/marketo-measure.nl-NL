@@ -3,9 +3,9 @@ unique-page-id: 35586140
 description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: d1f1a3d1d0dd3111b984fbe9d0a8e8d3ed9289d2
+source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
 workflow-type: tm+mt
-source-wordcount: '22622'
+source-wordcount: '22610'
 ht-degree: 3%
 
 ---
@@ -4331,10 +4331,10 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
         <p>nummer (38,19)</p>
       </td>
       <td>
-        <p>De [!DNL Marketo Measure] algoritme om te schatten of een Contact een Kans zal helpen sluiten gebaseerd op de leeftijd en het stadium</p>
+        <p>Deze functie is vervangen. Gebruik deze kolom niet.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>N.v.t.</p>
       </td>
     </tr>
     <tr>
@@ -9557,10 +9557,10 @@ Leads die zijn geïmporteerd uit het bronsysteem.
         <p>nummer (38,19)</p>
       </td>
       <td>
-        <p>De [!DNL Marketo Measure] algoritme om te schatten of een Lood op de leeftijd en het stadium zal omzetten.</p>
+        <p>Deze functie is vervangen. Gebruik deze kolom niet.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>N.v.t.</p>
       </td>
     </tr>
     <tr>
@@ -10175,10 +10175,10 @@ Kansen die uit het bronsysteem worden ingevoerd.
         <p>nummer (38,19)</p>
       </td>
       <td>
-        <p>De [!DNL Marketo Measure] algoritme om te schatten of een kans zal sluiten gebaseerd op de leeftijd en het stadium.</p>
+        <p>Deze functie is vervangen. Gebruik deze kolom niet.</p>
       </td>
       <td>
-        <p>0.8225108385086060000</p>
+        <p>N.v.t.</p>
       </td>
     </tr>
     <tr>
