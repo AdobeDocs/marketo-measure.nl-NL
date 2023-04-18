@@ -3,9 +3,9 @@ unique-page-id: 18874554
 description: Aanraakpunt genereren en toewijzen - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanraakpunt genereren en toewijzen
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 950dbfacf48cbb81acad9c40033c25a765287bee
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Om optimaal te kunnen profiteren van [!DNL Marketo Measure], moet u met uw [!DNL
 Methoden voor het genereren van aanraakpunten
 
 Het aanraakpuntgeneratieproces beantwoordt de vraag: &quot;Hoe is [!DNL Marketo Measure] gaan we weten dat dit is gebeurd?&quot; Afhankelijk van uw eigenschapreeks en de types van interactie uw potentiële klanten kunnen hebben, zijn er tot drie manieren [!DNL Marketo Measure] kan een interactie oppakken en een aanraakpunt maken om deze weer te geven.
+
+>[!IMPORTANT]
+>
+>[!DNL Marketo Measure] Er wordt slechts één aanraakpunt per sessie gegenereerd. Als er meerdere formulieren zijn ingevuld, wordt alleen de eerste formuliervulling vastgelegd.
 
 | **Type interactie** | **Voorbeeld** | **Methode voor het genereren van aanraakpunten** |
 |---|---|---|
