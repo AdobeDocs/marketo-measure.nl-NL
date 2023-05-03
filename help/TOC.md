@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 279d9a18dca59de9ad99113624f4c9b2bcea0d01
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '763'
+ht-degree: 2%
 
 ---
 
@@ -51,6 +51,7 @@ ht-degree: 0%
       + [[!DNL Marketo Measure] Integratie zonder CRM](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + [!DNL Marketo Measure] en Salesforce {#marketo-measure-and-salesforce}
       + [[!DNL Marketo Measure] Installatie en installatie van het Salesforce-pakket](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
+      + [[!DNL Salesforce] Pakketconsolidatie](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
       + [Verbinden [!DNL Marketo Measure] naar Salesforce](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Aanbevolen procedures voor [!DNL Marketo Measure] CRM-pakket](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce-objecten](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
