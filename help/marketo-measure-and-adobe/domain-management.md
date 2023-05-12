@@ -2,16 +2,16 @@
 description: Domeinbeheer - [!DNL Marketo Measure] - Productdocumentatie
 title: Domeinbeheer
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
 
 # Domeinbeheer {#domain-management}
 
-Voor met IMS ingeschakelde huurders die worden uitgevoerd [!DNL Marketo Measure] in de Verenigde Shell, [!DNL Marketo Measure] verstrekt een interface die gebruikers toestaat om hun eigen lijst van domeinen te beheren. [!DNL Marketo Measure] gebruikers moeten eerst alle domeinen verifiëren die ze in de [Adobe Admin Console](https://adminconsole.adobe.com/). Zodra domeinen in de Admin Console worden geverifieerd, kunnen de gebruikers beheren als [!DNL Marketo Measure] gebruikt deze domeinen voor het volgen van websiteverkeer.
+Voor met IMS ingeschakelde huurders die worden uitgevoerd [!DNL Marketo Measure] in de Experience Cloud Interface, [!DNL Marketo Measure] verstrekt een interface die gebruikers toestaat om hun eigen lijst van domeinen te beheren. [!DNL Marketo Measure] gebruikers moeten eerst alle domeinen verifiëren die ze in de [Adobe Admin Console](https://adminconsole.adobe.com/). Zodra domeinen in de Admin Console worden geverifieerd, kunnen de gebruikers beheren als [!DNL Marketo Measure] gebruikt deze domeinen voor het volgen van websiteverkeer.
 
 ## Domeinen toevoegen in Admin Console {#adding-domains-in-admin-console}
 

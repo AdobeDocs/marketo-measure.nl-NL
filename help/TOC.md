@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: 5a27c4fc89925ae143affa2de14eca3b8a51bd11
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '770'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 2%
    + [[!DNL Marketo Measure] Integratie met Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure] Integratie met Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
    + [Domeinbeheer](marketo-measure-and-adobe/domain-management.md)
-   + [Overzicht van Unified Shell](marketo-measure-and-adobe/unified-shell-overview.md)
+   + [Overzicht Adobe Experience Cloud Interface](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
 + [!DNL Marketo Measure] en dynamiek {#marketo-measure-and-dynamics}
    + Aan de slag met [!DNL Marketo Measure] en dynamiek {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure] Dynamisch schema](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)
