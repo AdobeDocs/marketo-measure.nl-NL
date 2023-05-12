@@ -1,15 +1,15 @@
 ---
-description: Adobe Experience Cloud Interface - [!DNL Marketo Measure] - Productdocumentatie
-title: Adobe Experience Cloud Interface
+description: Overzicht Adobe Experience Cloud Interface [!DNL Marketo Measure] - Productdocumentatie
+title: Overzicht Adobe Experience Cloud Interface
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: a14b977fc4c3d2f3eccd2c03bc8d96c2a71e6bc6
+source-git-commit: dc6c66daebd10b95333d8c27c2326a95555c555b
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Cloud Interface {#unified-shell-overview}
+# Overzicht Adobe Experience Cloud Interface {#experience-cloud-interface-overview}
 
 Met Adobe Experience Cloud Interface wordt de vormgeving van Adobe Experience Cloud-toepassingen en -services op één lijn gebracht. Maar het is meer dan alleen een nieuw ontwerp. Het is een toepassing van één pagina die gebruikerservaring in één enkele instantie levert.
 
