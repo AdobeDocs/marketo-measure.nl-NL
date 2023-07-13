@@ -1,9 +1,10 @@
 ---
-description: "[!DNL Salesforce] Pakketconsolidatie - [!DNL Marketo Measure] - Productdocumentatie"
-title: "[!DNL Salesforce] Pakketconsolidatie"
-source-git-commit: e0a471a8e74cdba23a01bea02054c82ede82de9b
+description: '''[!DNL Salesforce] Pakketconsolidatie - [!DNL Marketo Measure] - Productdocumentatie"'
+title: '[!DNL Salesforce] Pakketconsolidatie'
+exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+source-git-commit: dd3795288b1d579b078a32c78c9f08fd67a5f0e1
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,11 @@ Als gevolg van deze consolidatie zullen de huidige pakketten V1, V2_EXT, V2_Secu
 ## Nieuw geconsolideerd pakket {#new-consolidated-package}
 
 Het nieuwe geconsolideerde V2-pakket bevat alle functies en functies van de vorige pakketten, waardoor de gebruiker een betere ervaring krijgt. Dit bijgewerkte pakket maakt efficiëntere marketing en verkoopprestaties het volgen mogelijk en biedt meer inzicht in het gedrag van klanten.
+
+We hebben twee nieuwe velden toegevoegd om uw rapportagemogelijkheden te verbeteren:
+
+* form_name: Nu beschikbaar in BT/BAT-objecten, kunnen gebruikers in dit veld rapporten maken op basis van formuliernamen.
+* user_touchpoint_id: Met dit veld kunnen gebruikers rapporten maken met unieke aantallen gebruikers-aanraakpunten.
 
 ## Ondersteuning en overgang {#support-and-transition}
 
