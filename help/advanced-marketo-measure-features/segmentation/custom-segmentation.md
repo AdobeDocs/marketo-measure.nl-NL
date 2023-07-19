@@ -3,9 +3,9 @@ unique-page-id: 18874604
 description: Aangepaste segmentatie - [!DNL Marketo Measure] - Productdocumentatie
 title: Aangepaste segmentatie
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+source-git-commit: 7d037783805567370daa412629d58a5dee175722
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Met de functie Aangepaste segmentatie kunt u aanraakpunten filteren op één cat
 
 >[!NOTE]
 >
->Met Aangepaste segmentatie kunt u aanraakpunten filteren op categorieën (filternaam) en regels (filterwaarden). Niveau 1 krijgt één segment, Niveau 2 en hoger krijgen tien.
+>Met Aangepaste segmentatie kunt u aanraakpunten filteren op categorieën (filternaam) en regels (filterwaarden). Klanten met Tier 1 krijgen één segment, Tiers 2 en hoger krijgen tien.
 
 **Wanneer is de functie Aangepaste segmentatie nuttig?**
 
