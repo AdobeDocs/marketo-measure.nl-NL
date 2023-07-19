@@ -3,9 +3,9 @@ unique-page-id: 18874604
 description: Aangepaste segmentatie - [!DNL Marketo Measure] - Productdocumentatie
 title: Aangepaste segmentatie
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ De segmenten verstrekken de capaciteit om gegevens in te filtreren [!DNL Marketo
 **Waarom aangepaste segmentatie?**
 
 Met de functie Aangepaste segmentatie kunt u aanraakpunten filteren op één categorie en op maximaal vijf segmenten. Afhankelijk van het object waarnaar uw ROI-streepje verwijst (Lood of Contact), kunt u segmenten maken op basis van de velden op het object Lood/Contact. Ook, zult u segmenten kunnen tot stand brengen die op om het even welke gebieden worden gebaseerd die op het Voorwerp van de Opportunity worden gevonden.
+
+>[!NOTE]
+>
+>Met Aangepaste segmentatie kunt u aanraakpunten filteren op categorieën (filternaam) en regels (filterwaarden). Niveau 1 krijgt één segment, Niveau 2 en hoger krijgen tien.
 
 **Wanneer is de functie Aangepaste segmentatie nuttig?**
 

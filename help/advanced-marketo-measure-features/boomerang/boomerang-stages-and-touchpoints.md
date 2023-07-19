@@ -3,14 +3,18 @@ unique-page-id: 18874558
 description: Boommeren en aanraakpunten - [!DNL Marketo Measure] - Productdocumentatie
 title: Boomerang Stages en Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
 
 # Boomerang Stages en Touchpoints {#boomerang-stages-and-touchpoints}
+
+>[!AVAILABILITY]
+>
+>De Boomerang-functie wordt alleen ingeschakeld voor Tier 3-klanten. Neem contact op met het Adobe-accountteam (uw accountmanager) als u een hogere accountlaag wilt aanvragen.
 
 [!DNL Marketo Measure] heeft onze functie Boomerang Stage uitgebracht! De functie van het Stadium van Boemerang werd gecreeerd om grotere zicht in de reis van de klant te verstrekken voor [!DNL Marketo Measure] klanten met lange verkoopcycli. Met deze functie kunnen marketers aanraakpunten maken voor alle werkgebiedovergangen die zich voordoen tijdens de Opportunity-reis, bijvoorbeeld wanneer een contactpersoon MQL&#39;s, vervolgens naar SAL gaat en vervolgens terugkeert naar het MQL-werkgebied. Wanneer de contacten &quot;het stadium van MQL&quot;of &quot;re-MQL&#39;s&quot;opnieuw ingaan, beschouwen wij MQL als een boemerang stadium. Het Boemerang-werkgebied functioneert naast de [!DNL Marketo Measure] Aangepaste stadia.
 

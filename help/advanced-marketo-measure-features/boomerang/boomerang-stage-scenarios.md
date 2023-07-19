@@ -3,14 +3,18 @@ unique-page-id: 18874692
 description: Boemerang Stage Scenarios - [!DNL Marketo Measure] - Productdocumentatie
 title: Boomerang Stage Scenarios
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1707'
 ht-degree: 0%
 
 ---
 
 # Boomerang Stage Scenarios {#boomerang-stage-scenarios}
+
+>[!AVAILABILITY]
+>
+>De Boomerang-functie wordt alleen ingeschakeld voor Tier 3-klanten. Neem contact op met het Adobe-accountteam (uw accountmanager) als u een hogere accountlaag wilt aanvragen.
 
 Hieronder staan enkele voorbeelden van Boomerang Stage-scenario&#39;s om te begrijpen hoe [!DNL Marketo Measure] in elke situatie aanraakpunten creëren.
 
