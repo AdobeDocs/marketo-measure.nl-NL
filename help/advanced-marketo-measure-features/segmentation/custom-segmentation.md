@@ -3,9 +3,9 @@ unique-page-id: 18874604
 description: Aangepaste segmentatie - [!DNL Marketo Measure] - Productdocumentatie
 title: Aangepaste segmentatie
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: 7d037783805567370daa412629d58a5dee175722
+source-git-commit: e3a2ef7a305fff4edb6b0f21861c1ef5516212b8
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,7 @@ De segmenten verstrekken de capaciteit om gegevens in te filtreren [!DNL Marketo
 
 **Waarom aangepaste segmentatie?**
 
-Met de functie Aangepaste segmentatie kunt u aanraakpunten filteren op één categorie en op maximaal vijf segmenten. Afhankelijk van het object waarnaar uw ROI-streepje verwijst (Lood of Contact), kunt u segmenten maken op basis van de velden op het object Lood/Contact. Ook, zult u segmenten kunnen tot stand brengen die op om het even welke gebieden worden gebaseerd die op het Voorwerp van de Opportunity worden gevonden.
-
->[!NOTE]
->
->Met Aangepaste segmentatie kunt u aanraakpunten filteren op categorieën (filternaam) en regels (filterwaarden). Klanten met Tier 1 krijgen één segment, Tiers 2 en hoger krijgen tien.
+Met Aangepaste segmentatie kunt u aanraakpunten filteren op categorieën (filternaam) en regels (filterwaarden). Klanten met Tier 1 krijgen één segment, Tiers 2 en hoger krijgen tien. Afhankelijk van het object waarnaar uw ROI-streepje verwijst (Lood of Contact), kunt u segmenten maken op basis van de velden op het object Lood/Contact. Ook, zult u segmenten kunnen tot stand brengen die op om het even welke gebieden worden gebaseerd die op het Voorwerp van de Opportunity worden gevonden.
 
 **Wanneer is de functie Aangepaste segmentatie nuttig?**
 
