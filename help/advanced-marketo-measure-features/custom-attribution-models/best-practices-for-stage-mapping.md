@@ -2,9 +2,9 @@
 description: Aanbevolen procedures voor werkgebiedtoewijzing - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanbevolen procedures voor werkgebiedtoewijzing
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: b8388c4f89734f55ec779ef23b75b34b07da6f58
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Of u nu voor het eerst de Stage Mapping evalueert of alleen de trechter-volgorde
 * Merk op dat de het werkgebiedsectie van de Kans in Verlies, Open, en Won wordt verdeeld; Controleren of de fasen zich in de juiste werkgebiedsectie bevinden
    * Als u een werkgebied in de onjuiste werkgebiedsectie hebt, kan dit leiden tot een zeer onjuiste [!DNL Marketo Measure] inkomstengegevens over inkomsten of pijpleidingen
 * Gebruik geen dubbele werkgebiednamen (uw systeem detecteert deze en verwijdert er automatisch een).
+* Als u een regel wilt instellen die NULL-waarden controleert, laat u het tekstvak Waarde leeg.
 
 ## Aanbevolen procedures voor onderhoud {#best-practices-for-maintenance}
 
