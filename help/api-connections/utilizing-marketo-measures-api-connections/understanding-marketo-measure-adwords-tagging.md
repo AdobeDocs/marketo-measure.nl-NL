@@ -3,9 +3,9 @@ unique-page-id: 18874678
 description: Begrijpen [!DNL Marketo Measure] Advertentietags - [!DNL Marketo Measure] - Productdocumentatie
 title: Begrijpen [!DNL Marketo Measure] Advertentietags
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -105,6 +105,10 @@ A: 6 uur
 **V: Hoe lang duurt het om gegevens te importeren?**
 
 A: 4 uur
+
+**V: Kunnen we voor Dynamic Search Ads de combinatie van kop, beschrijving, enzovoort volgen in de creatieve functies die werden aangeboden?**
+
+A: We kunnen geen individuele creatieve details ophalen voor dynamische zoekopdrachten, maar als automatisering is ingeschakeld, kunnen we toch de creatieve id en de kenmerkinkomsten ophalen.
 
 >[!NOTE]
 >
