@@ -2,7 +2,8 @@
 description: Beste praktijken voor Off-line Kanalen - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanbevolen procedures voor offlinekanalen
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Channels
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -35,7 +36,7 @@ Of u uw Off-line Kanalen voor het eerst in kaart brengt of enkel hen controleert
 * Werk eerst om de huidige &#39;Type&#39;-waarden van de CRM-campagne te gebruiken
    * Offlinekanalen worden gedefinieerd door CRM-campagne &#39;Type&#39;, maar de aangepaste CRM-campagne &#39;Type&#39;-waarde moet mogelijk worden gemaakt om ruimte te bieden aan ideale offlinekanaal- en subkanaalwaarden. De ideale aangepaste CRM-campagne &#39;Type&#39;-waarden moeten de onderstaande naamgevingsconventie hebben:
       * KANAAL - SUBKANAAL
-      * Voorbeeld: Gebeurtenis - Handelswijze
+      * Voorbeeld: Event - Tradeshow
       * Hierdoor is het toewijzen aan subkanaalniveau zo eenvoudig en schoon mogelijk
 * Eén subkanaal kan alleen worden toegewezen aan één CRM-campagne &#39;Type&#39;
    * De veelvoudige Campagne van CRM &quot;Types&quot;kan aan één enkel Kanaal worden in kaart gebracht, maar slechts kan één Campagne van CRM &quot;Type&quot;aan elk Subchannel binnen elk Kanaal in kaart worden gebracht
@@ -47,16 +48,16 @@ Of u uw Off-line Kanalen voor het eerst in kaart brengt of enkel hen controleert
 * Zorg ervoor dat het veld Type correct is op elke CRM-campagne
    * Het &quot;Type&quot;bepaalt het Kanaal van de Marketing en Subchannel voor om het even welke touchpoints die uit de Campagne worden gesynchroniseerd
 * Of de op CRM gebaseerde methode van de Synchronisatie van de Campagne gebruikt (laat Aanraakpunten van de Koper toe) of [!DNL Marketo Measure] Op toepassingen gebaseerde synchronisatiemethode (Aangepaste campagnesynchronisatie in de map &#39;[!UICONTROL Campaigns]&#39; tabblad van uw [!UICONTROL Marketo Measure] (Accountinstellingen), dienen offline aanraakpunten alleen te worden gemaakt als het Campagne-lid daadwerkelijk offline verbinding heeft met de campagne en uw merk:
-   * Voor offlinekanalen zoals gebeurtenissen of webinars: &quot;registraties&quot; worden doorgaans bijgehouden via formulierverzendingen op uw website en [!DNL Marketo Measure] Online functionaliteit. Daarom mogen de campagneleden met de status &quot;geregistreerd&quot; geen offline aanspreekpunt uit de campagne ontvangen om dubbeltelling te voorkomen. Offline aanraakpunten moeten alleen representatief zijn voor de &quot;aanwezigheid&quot; van de gebeurtenis of het webinar.
+   * Voor offlinekanalen zoals gebeurtenissen of webinars: &#39;registraties&#39; worden doorgaans bijgehouden via formulierverzendingen op uw website en [!DNL Marketo Measure] Online functionaliteit. Daarom mogen de campagneleden met de status &quot;geregistreerd&quot; geen offline aanspreekpunt uit de campagne ontvangen om dubbeltelling te voorkomen. Offline aanraakpunten moeten alleen representatief zijn voor de &quot;aanwezigheid&quot; van de gebeurtenis of het webinar.
    * Bepaalde offlinekanalen, zoals Content Syndication, zijn doorgaans eenvoudiger omdat elk campagnerelid dezelfde status ‘beantwoord’ heeft die aangeeft dat ze inderdaad hebben gereageerd op de campagne. In dit geval kunt u inhoud downloaden naar een externe site en daarom een offline aanraakpunt ontvangen
 * Wanneer u de methode Aangepaste campagnecynchronisatie gebruikt in het dialoogvenster [!DNL Marketo Measure] Zorg ervoor dat het veld Aanraakpuntdatum is gebaseerd op het datumveld van de Campagne- of Campagnelid dat het meest indicatief is wanneer de aanraakpuntinteractie daadwerkelijk heeft plaatsgevonden
 * Gebruik de knoop van het Aanraakpunt van de &quot;Bulk Update van de Datum&quot;als u de &quot;Datum van het Aanraakpunt&quot;voor om het even welke off-line aanraakpunten moet met voeten treden die uit een Campagne van CRM worden voortgebracht. De &quot;aanraakpuntdatum&quot; moet zo nauwkeurig mogelijk zijn om ervoor te zorgen dat het aanraakpunt de nauwkeurigst mogelijke &quot;aanraakpuntpositie&quot; heeft en dus de juiste hoeveelheid toekenningskrediet
 
-## Best Practice for Maintenance {#best-practice-for-maintenance}
+## Aanbevolen werkwijzen voor onderhoud {#best-practice-for-maintenance}
 
 Nadat u de installatie hebt gestart, blijven de offlinekanaalinstellingen dienovereenkomstig offline aanraakpunten maken. We raden u aan uw Offlineinstelling ten minste twee keer per jaar te controleren. Dit garandeert schone en nauwkeurige gegevens voor aanspreekpunten voor kopers.
 
-Bovendien, als u om het even welke veranderingen in uw het beheer of processen van de Campagne aanbrengt, zult u moeten ervoor zorgen u bijwerkt uw [!DNL Marketo Measure] Offline kanaaltoewijzing en/of synchronisatieproces.
+Bovendien, als u om het even welke veranderingen in uw het beheer of processen van de Campagne aanbrengt, zult u moeten ervoor zorgen u bijwerkt uw [!DNL Marketo Measure] Offlinekanaals toewijzen en/of synchronisatieproces.
 
 Wijzigingen die uw team kunnen aanzetten om updates uit te voeren voor de installatie van het offlinekanaal in het dialoogvenster [!DNL Marketo Measure] kan het volgende omvatten:
 
@@ -71,10 +72,9 @@ Als uw team onlangs één van het bovengenoemde heeft ervaren: [!DNL Marketo Mea
 >
 >* [Offlinekanaal instellen](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Aangepaste camerasynchronisatie - App Sync](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Offlinecampagnes synchroniseren - CRM-synchronisatie](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
->* [Offlinecampagne- en campagnegeleden - CRM-synchronisatie](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
->* [Synchronisatiedata voor campagne - CRM-synchronisatie](/help/channel-tracking-and-setup/offline-channels/campaign-sync-dates.md)
+>* [Offlinecampagnes synchroniseren - CRM-synchronisatie](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+>* [Offlinecampagne- en campagnegeleden - CRM-synchronisatie](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+>* [Synchronisatiedata voor campagne - CRM-synchronisatie](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
 >* [Configuraties voor meerdere soorten campagnerecopnamen](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Een Campagnelijstweergave maken](/help/channel-tracking-and-setup/offline-channels/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Historische gegevens synchroniseren](/help/channel-tracking-and-setup/offline-channels/syncing-historical-data.md)
-
+>* [Een Campagnelijstweergave maken](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [Historische gegevens synchroniseren](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)

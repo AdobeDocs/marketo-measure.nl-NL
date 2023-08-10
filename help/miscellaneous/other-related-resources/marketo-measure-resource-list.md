@@ -3,7 +3,8 @@ unique-page-id: 37356962
 description: "[!DNL Marketo Measure] Lijst met bronnen - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Lijst met bronnen"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Fundamentals
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Hier volgen verschillende koppelingen naar relevante artikelen/video&#39;s om u 
 **Algemene kennis**
 
 * [Wat is Marketing Attribution?](/help/introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
-* [[!DNL Marketo Measure] Attributiemodellen](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
+* [[!DNL Marketo Measure] Attributievormen](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
 
 **Configuratie**
 
@@ -28,7 +29,7 @@ Hier volgen verschillende koppelingen naar relevante artikelen/video&#39;s om u 
 * [Offlinekanaal instellen](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [Wat zijn UTM-parameters?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [Beste praktijken UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [SFDC-campagnes synchroniseren met aanraakpunten voor kopers](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
+* [SFDC-campagnes synchroniseren met aanraakpunten voor kopers](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
 * [Marketing-uitgaven uploaden](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Advertentierekeningen opnieuw verbinden](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [Toevoegen [!DNL Marketo Measure] Javascript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
@@ -55,19 +56,19 @@ Hier zijn een paar video&#39;s die u helpen om op snelheid te komen:
 
 Deze cursusreeks wordt ontworpen als algemene inleiding aan de basisconcepten u aan master zult moeten kennen [!DNL Marketo Measure]. Het geeft een inleiding aan het concept van attributie, wat [!DNL Marketo Measure] als instrument en het algemene kader waarop [!DNL Marketo Measure] werkt.
 
-Bedekte onderwerpen:
+Onderwerpen die worden behandeld:
 
 * Wat is kenmerk?
 * Wat is [!DNL Marketo Measure]
 * [!DNL Marketo Measure] Data
 * Aanraakpunten
-* Attributiemodellen
+* Attributievormen
 
 **[[!DNL Marketo Measure] Rapportage in SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45 minuten)**
 
 Deze cursusreeks is ontworpen als een inleiding op de [!DNL Marketo Measure] voorraadrapporten die in Salesforce zijn geïnstalleerd. Deze rapporten fungeren als de basis voor de meeste rapportages die u zult doen [!DNL Marketo Measure] gegevens.
 
-Bedekte onderwerpen:
+Onderwerpen die worden behandeld:
 
 * Leads per ID-rapport
 * Rapport voor leads per kanaal
@@ -80,7 +81,7 @@ Bedekte onderwerpen:
 
 Deze cursus behandelt verschillende manieren waarop u deze kunt aanpassen [!DNL Marketo Measure], in termen van online en offline volgen. Deze cursus is geavanceerder en is mogelijk niet voor alle gebruikers relevant.
 
-Bedekte onderwerpen:
+Onderwerpen die worden behandeld:
 
 * Online kanaalinstelling
 * Onlinekanaalregels maken en bewerken

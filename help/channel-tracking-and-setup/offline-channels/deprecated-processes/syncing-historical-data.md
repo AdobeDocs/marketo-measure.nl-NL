@@ -4,7 +4,7 @@ description: Historische gegevens synchroniseren - [!DNL Marketo Measure] - Prod
 title: Historische gegevens synchroniseren
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Als de gegevens elders worden gehuisvest (bijvoorbeeld nog steeds in Marketing A
 
 Dientengevolge, kunt u massa plaatsen de datum voor iedereen in die Lijst van de Marketing die voor de Datum van het Aanraakpunt zal worden gebruikt. Als u nauwkeuriger historische datums wilt, maakt u meerdere marketinglijsten voor dezelfde campagne, elk met een eigen aanraakpuntdatum. Als de Campagne een korte tijdspanne heeft, misschien zou het nuttig zijn om een Lijst van de Marketing voor elke dag tot stand te brengen. Als de Campagne een langere tijdspanne heeft, zou het steek kunnen zijn om een Lijst van de Marketing op een wekelijkse basis tot stand te brengen.
 
-Meer informatie over het synchroniseren van Marketing Lists vindt u hier: [[!DNL Dynamics] Campagnes en marketinglijsten](/help/marketo-measure-and-dynamics/dynamics-reporting/dynamics-campaigns-and-marketing-lists.md)
+Meer informatie over het synchroniseren van Marketing Lists vindt u hier: [[!DNL Dynamics] Campagnes en marketinglijsten](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
 >

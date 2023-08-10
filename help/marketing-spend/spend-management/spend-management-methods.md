@@ -2,7 +2,8 @@
 description: Beheersmethoden voor uitgaven - [!DNL Marketo Measure] - Productdocumentatie
 title: Methoden voor uitgavenbeheer
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Spend Management
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Elke [!DNL Marketo Measure] account heeft toegang tot een functie die [Kosten va
 
 Zodra toegelaten zal deze eigenschap automatisch uitgaven van om het even welk campagne/programma van CRM terugtrekken die aan de volgende criteria voldoen
 
-i. [!DNL Marketo Measure] kijkt eerst of creeert de Campagne/het Programma aanraakpunten, of van een gelijke [Campagnesynchronisatieregel](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) die is gemaakt, of een overeenkomst [Programmasynchronisatieregel](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) die is gemaakt, of de [Waarde aanraakpunten koper inschakelen](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) is &quot;Inclusief alle campagneleden&quot; of &quot;Inclusief leden van de campagne die worden geantwoord&quot;.
+i. [!DNL Marketo Measure] kijkt eerst of creeert de Campagne/het Programma aanraakpunten, of van een gelijke [Campagnesynchronisatieregel](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) die is gemaakt, of een overeenkomst [Programmasynchronisatieregel](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) die is gemaakt, of de [Waarde van aanraakpunten koper inschakelen](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) is &quot;Inclusief alle campagneleden&quot; of &quot;Inclusief leden van de campagne die worden geantwoord&quot;.
 
 ii. Een begindatum moet in de campagne/het programma worden ingevuld
 

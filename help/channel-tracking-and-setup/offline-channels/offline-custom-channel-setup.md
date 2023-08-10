@@ -3,7 +3,8 @@ unique-page-id: 18874598
 description: Offline aangepaste kanaalinstelling - [!DNL Marketo Measure] - Productdocumentatie
 title: Aangepaste kanaalinstelling offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -44,7 +45,7 @@ Hier kunt u de Kanaal/Subchannel-toewijzing maken in het dialoogvenster [!DNL Ma
 
 Stel dat u twee aanwezigen bent [!DNL Salesforce] conferenties per jaar. Elke conferentie is echter heel anders en heeft een uniek doelpubliek. U wilt weten welke van beide meer waarde hebben. In uw [!DNL Salesforce] milieu, kunt u de gebeurtenis van Januari de &quot;Conferentie van het Type van Campagne,&quot;uw kanaal &quot;noemen[!DNL Salesforce]en uw subkanaal &quot;Conferentie van januari&quot;.
 
-Nu wilt u hetzelfde doen voor de conferentie van juni. Omdat dit ook een conferentie is, kan het hetzelfde soort campagne krijgen, in dit geval &#39;Conferentie&#39;. Het kanaal is hetzelfde. [!DNL Salesforce]en het subkanaal voor deze tweede conferentie is &quot;Junilistan&quot;. Dit is logisch vanuit organisatorisch oogpunt. Het is echter zeer verwarrend voor de [!DNL Marketo Measure] logica om deze regels te lezen en toe te passen omdat beide campagnes het zelfde Type van Campagne hebben. [!DNL Marketo Measure] script kan geen gegevens van het ene type toewijzen aan twee verschillende subkanalen. Dit betekent u een nieuw Type van Campagne voor elk subkanaal zou moeten tot stand brengen, maar subkanalen kunnen het zelfde kanaal hebben.
+Nu wilt u hetzelfde doen voor de conferentie van juni. Omdat dit ook een conferentie is, kan het hetzelfde soort campagne krijgen, in dit geval &#39;Conferentie&#39;. Het kanaal is hetzelfde. [!DNL Salesforce]en het subkanaal voor deze tweede conferentie is &quot;Junilistan&quot;. Dit is logisch vanuit organisatorisch oogpunt. Het is echter zeer verwarrend voor de [!DNL Marketo Measure] logica om deze regels te lezen en toe te passen omdat beide campagnes hetzelfde campagnerype hebben. [!DNL Marketo Measure] script kan geen gegevens van het ene type toewijzen aan twee verschillende subkanalen. Dit betekent u een nieuw Type van Campagne voor elk subkanaal zou moeten tot stand brengen, maar subkanalen kunnen het zelfde kanaal hebben.
 
 Hieronder ziet u een voorbeeld van logica die [!DNL Marketo Measure] kan niet lezen:
 
@@ -58,11 +59,11 @@ Alle bestaande campagneretypen moeten in uw kanaalkaart worden opgenomen en &quo
 
 Neem de tijd om in te gaan [!DNL Salesforce] om het aantal en de aard van uw bestaande recordtypes te bepalen, die u wilt omvatten, en of u extra campagnes moet creëren die op de bovenstaande informatie worden gebaseerd. Als u alle benodigde gegevens hebt ingevuld, kunt u deze uploaden.
 
-Meer informatie over [offline synchroniseren [!DNL Salesforce] Campagnes met [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md).
+Meer informatie over [offline synchroniseren [!DNL Salesforce] Campagnes met [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md).
 
 ## SFDC-campagnes verwerken voor online marketinginspanningen {#handling-sfdc-campaigns-for-online-marketing-efforts}
 
-Het is gebruikelijk voor Marketing teams om te creëren [!DNL Salesforce] campagnes om verschillende inspanningen op het gebied van digitale marketing te volgen. Er is geen probleem met deze praktijk. het is echter van belang deze campagnes anders te behandelen dan echte offlinecampagnes zoals direct mail of conferenties . Campagnes die betrekking hebben op digitale gebeurtenissen (interacties die plaatsvinden op uw website) mogen niet worden gesynchroniseerd met [!DNL Marketo Measure]. Het synchroniseren van deze campagnes zou resulteren in dubbele aanraakpunten omdat de [!DNL Marketo Measure] JavaScript volgt de online inspanningen al.
+Het is gebruikelijk voor Marketing teams om te creëren [!DNL Salesforce] campagnes om verschillende inspanningen op het gebied van digitale marketing te volgen. Er is geen probleem met deze praktijk; het is echter belangrijk om deze campagnes anders te behandelen dan echte offlinecampagnes zoals direct mail of conferenties. Campagnes die betrekking hebben op digitale gebeurtenissen (interacties die plaatsvinden op uw website) mogen niet worden gesynchroniseerd met [!DNL Marketo Measure]. Het synchroniseren van deze campagnes zou resulteren in dubbele aanraakpunten omdat de [!DNL Marketo Measure] JavaScript volgt de online inspanningen al.
 
 Een andere tip voor het verwerken van campagnes voor online activiteiten is om de [!DNL Salesforce] Campagneringstype naar NULL. Hiertoe maakt u eerst een kanaal in het dialoogvenster [!DNL Marketo Measure] app met de naam NULL, zoals wordt getoond in de onderstaande afbeelding. Deze vindt u in het dialoogvenster [!DNL Marketo Measure] onder de **Kanalen maken** sectie. Dit is handig als een campagne die niet mag worden gesynchroniseerd per ongeluk wordt gesynchroniseerd. Het is gemakkelijk om de campagne te vinden en de synchronisatiestatus te verbeteren door alles te bekijken die onder ONGELDIG wordt gevangen.
 
@@ -84,7 +85,6 @@ Klikken **[!UICONTROL Save]** wanneer u klaar bent en [!DNL Marketo Measure] upl
 >
 >* [[!DNL Marketo Measure] Universiteit: Offlinekanalen toewijzen](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
 >
->* [[!DNL Marketo Measure] Universiteit: Offlinecampagnes synchroniseren](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
+>* [[!DNL Marketo Measure] University: Offlinecampagnes synchroniseren](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
 >
 >* [Integratie van Marketo Engage-programma&#39;s](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)
-

@@ -3,7 +3,8 @@ unique-page-id: 18874556
 description: "[!DNL Marketo Measure] Onderhoud - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Onderhoud"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Tracking
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 **Aanraakpunten voor kopers synchroniseren voor nieuwe offlinecampagnes (2 x/maand)**
 
-Zoals u tijdens het instappen leerde, [!DNL Marketo Measure] krijgt informatie over uw off-line marketing inspanningen door met de campagnes van uw CRM te synchroniseren. Als uw organisatie nieuwe campagnes start, moet u ervoor zorgen dat kopers aanraakpunten hebben voor elke campagne. Uitchecken [dit artikel](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)voor meer informatie .
+Zoals u tijdens het instappen hebt geleerd, [!DNL Marketo Measure] krijgt informatie over uw off-line marketing inspanningen door met de campagnes van uw CRM te synchroniseren. Als uw organisatie nieuwe campagnes start, moet u ervoor zorgen dat kopers aanraakpunten hebben voor elke campagne. Uitchecken [dit artikel](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)voor meer informatie .
 
 **Uploaduitgaven voor alle kanalen (1x/maand)**
 
@@ -45,10 +46,10 @@ Als je veel aanraakpunten ziet die je liever niet in je attributieartikel zou op
 
 **Aangepaste werkgebiedtoewijzing controleren op nauwkeurigheid (1x/kwart) (indien van toepassing)**
 
-Als u een aangepaste [!UICONTROL Lead], [!UICONTROL Contact], of [!UICONTROL Opportunities] de stadia, kunt u ook hebben aangepast welk deel van de pijpleiding die aan die stadia in kaart brengen en of die stadia of niet inbegrepen in een model van de douaneattributie zijn. Eenmaal per kwartaal gaat u naar [dit artikel](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md) om uw geheugen op de afbeelding van het douanewerkgebied te vernieuwen en ervoor te zorgen dat u uw douaneframes nauwkeurig volgt.
+Als u om het even welke douane gebruikt [!UICONTROL Lead], [!UICONTROL Contact], of [!UICONTROL Opportunities] de stadia, kunt u ook hebben aangepast welk deel van de pijpleiding die aan die stadia in kaart brengen en of die stadia of niet inbegrepen in een model van de douaneattributie zijn. Eenmaal per kwartaal gaat u naar [dit artikel](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md) om uw geheugen op de afbeelding van het douanewerkgebied te vernieuwen en ervoor te zorgen dat u uw douaneframes nauwkeurig volgt.
 
 **Vergelijk het leermodel machine met Aangepast modelgewicht (1x/kwart) (indien van toepassing)**
 
-Als u een licentie hebt voor de [!DNL Marketo Measure] Aangepast model, u beschikt ook over gegevens van ons Machine Learning Model (MLM) in [!UICONTROL Settings] > [!UICONTROL Attribution Settings]. Het MLM berekent het belang van elk stadium gebruikend touchpoint gegevens van uw rekening, en kan u helpen beslissen hoe te om attributiegewicht in uw Model van de Douane toe te wijzen. We raden u aan het MLM eenmaal per kwartaal te vergelijken met uw aangepaste model en de implicaties van mogelijke wijzigingen in uw aangepaste model te bespreken met uw SM.
+Als u een licentie hebt voor de [!DNL Marketo Measure] Aangepast model, u beschikt ook over gegevens van ons Machine Learning Model (MLM) in [!UICONTROL Settings] > [!UICONTROL Attribution Settings]. Het MLM berekent het belang van elk stadium gebruikend touchpoint gegevens van uw rekening, en kan u helpen beslissen hoe te om attributiegewicht in uw Model van de Douane toe te wijzen. We raden u aan het MLM eenmaal per kwartaal te vergelijken met uw aangepaste model en de gevolgen van mogelijke wijzigingen in uw aangepaste model te bespreken met uw SM.
 
 Voor meer informatie over de [!DNL Marketo Measure] Machine Learning Model, uitchecken [dit artikel](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
