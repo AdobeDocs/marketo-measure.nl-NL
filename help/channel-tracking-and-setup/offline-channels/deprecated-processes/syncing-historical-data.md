@@ -4,9 +4,9 @@ description: Historische gegevens synchroniseren - [!DNL Marketo Measure] - Prod
 title: Historische gegevens synchroniseren
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Historische gegevens synchroniseren {#syncing-historical-data}
 
 [!DNL Marketo Measure] is een oplossing die de korrelige, actiefste gegevens verstrekt. We begrijpen echter dat er bestaande gegevens zijn waarvoor u een kenmerk wilt hebben. Het is mogelijk om aanraakpunten te genereren voor historische gegevens, maar het is belangrijk om rekening te houden met een paar factoren voordat u verder gaat met dit proces.
+
+>[!NOTE]
+>
+>Dit artikel behandelt een verouderd proces. We raden gebruikers aan de [nieuw, verbeterd proces in de app](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Te overwegen factoren {#factors-to-consider}
 

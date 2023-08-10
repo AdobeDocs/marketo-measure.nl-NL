@@ -4,9 +4,9 @@ description: Campagneelijstweergave maken voor [!DNL Salesforce Campaigns] - [!D
 title: Campagneelijstweergave maken voor [!DNL Salesforce] Campagnes
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Campagneelijstweergave maken voor [!DNL Salesforce] Campagnes {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Leer hoe u een lijstweergave maakt voor de campagnes die u wilt synchroniseren met de aanraakpunten voor kopers.
+
+>[!NOTE]
+>
+>Dit artikel behandelt een verouderd proces. We raden gebruikers aan de [nieuw, verbeterd proces in de app](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 In de keuzelijst Campagne die u kunt maken, kunt u een &#39;go-to&#39;-locatie instellen voor het weergeven en beheren van de velden Type en Aanraakpunten voor kopers inschakelen om ervoor te zorgen dat elk van uw [!DNL Salesforce] campagnes die uw off-line marketing kanalen informeren zijn opstelling behoorlijk.
 

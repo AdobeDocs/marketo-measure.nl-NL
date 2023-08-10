@@ -4,9 +4,9 @@ description: Campagne en campagneleden - [!DNL Marketo Measure] - Productdocumen
 title: Campagne en campagneleden
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Campagne en campagneleden {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] De campagnes zijn bedoeld om lijsten van Leads en Contacten bij te houden die met een marketingprogramma, of activiteit worden geassocieerd. Dit zijn vaak webinars, of registraties, of beide bezoeken, bijvoorbeeld. Marketers kunnen kiezen of een campagne wordt gecrediteerd op een touchpoint-reis.
+
+>[!NOTE]
+>
+>Dit artikel behandelt een verouderd proces. We raden gebruikers aan de [nieuw, verbeterd proces in de app](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Aanraakpunten inschakelen {#enabling-touchpoints}
 
