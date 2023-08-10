@@ -3,9 +3,10 @@ unique-page-id: 18874672
 description: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie - Marketo Measure - Productdocumentatie
 title: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -20,13 +21,13 @@ Laten we eens kijken naar de relatie tussen [!DNL Marketo Measure] en Salesforce
 
 ## Salesforce en [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-Wanneer de [!DNL Marketo Measure] account is gemaakt en [!DNL Salesforce] is verbonden, [!DNL Marketo Measure] begint marketinggegevens naar de instantie CRM te duwen zolang de [!DNL Marketo Measure] het beheerde pakket is geïnstalleerd en het [!DNL Marketo Measure] De Salesforce-gebruiker heeft bewerkingsmachtigingen.
+Wanneer de [!DNL Marketo Measure] account is gemaakt en [!DNL Salesforce] is verbonden, [!DNL Marketo Measure] begint marketinggegevens naar de instantie CRM te duwen zolang de [!DNL Marketo Measure] het beheerde pakket is geïnstalleerd en [!DNL Marketo Measure] De Salesforce-gebruiker heeft bewerkingsmachtigingen.
 
 Als u de [!DNL Marketo Measure] Salesforce-pakket [!DNL Marketo Measure] geen gegevens naar uw Salesforce-instantie schrijven.
 
 ![](assets/1-3.png)
 
-Standaard, [!DNL Marketo Measure] Hiermee exporteert u 200 records per API-credit telkens wanneer een taak gegevens naar uw CRM verzendt. Voor de meeste klanten biedt dit de optimale balans tussen API-credits die worden verbruikt door [!DNL Marketo Measure] en CPU-resourcevereisten voor de CRM. Voor klanten met complexe CRM-configuraties, zoals workflows en triggers, kan een kleinere batch-omvang echter nuttig zijn om de CRM-prestaties te verbeteren. Daartoe [!DNL Marketo Measure] staat klanten toe om de grootte van de de uitvoerpartij van CRM te vormen. Deze instelling is beschikbaar op het tabblad [!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL General] pagina in de [!DNL Marketo Measure] De webtoepassing en klanten kunnen kiezen uit batchgrootten 200 (standaard), 100, 50 of 25.
+Standaard, [!DNL Marketo Measure] Hiermee exporteert u 200 records per API-credit telkens wanneer een taak gegevens naar uw CRM verzendt. Voor de meeste klanten biedt dit de optimale balans tussen API-credits die worden verbruikt door [!DNL Marketo Measure] en CPU-resourcevereisten voor de CRM. Voor klanten met complexe CRM-configuraties, zoals workflows en triggers, kan een kleinere batch-omvang echter nuttig zijn om de CRM-prestaties te verbeteren. Daartoe: [!DNL Marketo Measure] staat klanten toe om de grootte van de de uitvoerpartij van CRM te vormen. Deze instelling is beschikbaar op het tabblad [!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL General] pagina in de [!DNL Marketo Measure] De webtoepassing en klanten kunnen kiezen uit batchgrootten 200 (standaard), 100, 50 of 25.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
@@ -296,7 +297,7 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
  </tbody> 
 </table>
 
-**Case**
+**Kwestie**
 
 <table> 
  <tbody> 
@@ -721,9 +722,23 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
  </tbody> 
 </table>
 
+>[!NOTE]
+>
+>Om ervoor te zorgen dat Marketo Measure verwijderingsgebeurtenissen vastlegt binnen uw Salesforce-account, zijn reproduceerbare machtigingen voor de onderstaande objecten vereist. Repliceerbare machtigingen worden standaard geleverd met de volgende objecten:
+>
+>* Account
+>* Campagne
+>* Campagnelid
+>* Contact
+>* Gebeurtenis
+>* Lood
+>* Opportunity
+>* Taak
+
+
 ## [!DNL Marketo Measure] Aangepaste objecten in [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-Naast het maken van aangepaste velden op de standaardobjecten van SFDC, wordt [!DNL Marketo Measure] -pakket is geïnstalleerd, worden er een aantal aangepaste objecten gemaakt. Hieronder ziet u een lijst met deze aangepaste objecten en een tabel die de velden aangeeft die [!DNL Marketo Measure] zal schrijven naar.
+Naast het maken van aangepaste velden op de standaardobjecten van SFDC [!DNL Marketo Measure] -pakket is geïnstalleerd, worden er een aantal aangepaste objecten gemaakt. Hieronder ziet u een lijst met deze aangepaste objecten en een tabel die de velden aangeeft die [!DNL Marketo Measure] zal schrijven naar.
 
 **Aanraakpunt koper**
 
