@@ -4,7 +4,7 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: faa04b417c5f0512d294bf2483aef3061b10d621
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 2%
@@ -81,13 +81,13 @@ ht-degree: 2%
       + [Aangepaste kanaalinstelling offline](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [Aangepaste synchronisatie van campagnes](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
       + [Configuraties voor meerdere soorten campagnerecopnamen](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-         + Verouderde processen {#deprecated-processes}
-            + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
-            + [Synchronisatiedata voor campagne](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
-            + [Campagneelijstweergave maken voor [!DNL Salesforce] Campagnes](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-            + [Dynamische campagnes en marketinglijsten](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
-            + [Historische gegevens synchroniseren](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
-            + [Offlinecampagnes synchroniseren](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+      + Verouderde processen {#deprecated-processes}
+         + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+         + [Synchronisatiedata voor campagne](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
+         + [Campagneelijstweergave maken voor [!DNL Salesforce] Campagnes](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [Dynamische campagnes en marketinglijsten](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
+         + [Historische gegevens synchroniseren](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+         + [Offlinecampagnes synchroniseren](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
 + API-verbindingen {#api-connections}
    + Gebruikmaken [!DNL Marketo Measure]API-verbindingen van {#utilizing-marketo-measures-api-connections}
       + [Geïntegreerde AD-Platforms](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
