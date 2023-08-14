@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: faa04b417c5f0512d294bf2483aef3061b10d621
+source-git-commit: e4852d6240a64b4a1a5c979a7528485623c68eb0
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '773'
 ht-degree: 2%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 2%
          + [Offlinecampagnes synchroniseren](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
 + API-verbindingen {#api-connections}
    + Gebruikmaken [!DNL Marketo Measure]API-verbindingen van {#utilizing-marketo-measures-api-connections}
-      + [Geïntegreerde AD-Platforms](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+      + [Geïntegreerde AD-platforms](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
       + [Aanbevolen procedures voor API-verbindingen](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
       + [De invloed van Bodmanager-programma&#39;s [!DNL Marketo Measure]](api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
       + [[!DNL Marketo Measure] Parameters](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
@@ -153,7 +153,7 @@ ht-degree: 2%
       + [Documentatie van Cohort Reisdashboard](marketo-measure-discover-ui/dashboards/cohort-journey-dashboard-documentation.md)
       + [Documentatie paspoortdashboard](marketo-measure-discover-ui/dashboards/passport-dashboard-documentation.md)
       + [Documentatie van dashboard voor momentopnamen](marketo-measure-discover-ui/dashboards/snapshot-dashboard-documentation.md)
-   + Gebruiken [!DNL Marketo Measure]Rapporterend Platform {#using-marketo-measures-reporting-platform}
+   + Gebruiken [!DNL Marketo Measure]Rapportageplatform {#using-marketo-measures-reporting-platform}
       + [Vaak voorkomende gevallen](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
       + [Definities en Encyclopedie](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
       + [Boortroggen](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/drill-throughs.md)
@@ -179,8 +179,8 @@ ht-degree: 2%
 + [!DNL Marketo Measure] en Marketo {#marketo-measure-and-marketo}
    + [!DNL Marketo Measure] Integratie met Marketo {#marketo-measure-integrations-with-marketo}
       + [Instellen [!DNL Marketo] Verbinding](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
-      + [Marketo Engage Activiteiten integratie](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-activities-integration.md)
-      + [Marketo Engage Persintegratie](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-people-integration.md)
+      + [Integratie van Marketo&#39;s Engage](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-activities-integration.md)
+      + [Integratie van Marketo&#39;s Engage](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-people-integration.md)
       + [Integratie van Marketo Engage-programma&#39;s](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md)
 + [!DNL Marketo Measure] Salesforce-rapportage {#marketo-measure-salesforce-reporting}
    + Nieuwe rapporttypen {#new-report-types}
@@ -219,11 +219,12 @@ ht-degree: 2%
       + [[!DNL Marketo Measure] Onderhoud](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
       + [[!DNL Marketo Measure] Resourcelijst](miscellaneous/other-related-resources/marketo-measure-resource-list.md)
       + [Integratie van het bijhouden van oproepen](miscellaneous/other-related-resources/call-tracking-integration.md)
-      + [Verschil tussen een Google Analytics-conversie en een aanraakpunt voor kopers](miscellaneous/other-related-resources/difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint.md)
+      + [Verschil tussen een conversie van Googles Analytics en een aanraakpunt voor kopers](miscellaneous/other-related-resources/difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint.md)
       + [Parameter voor bijhouden van e-mail](miscellaneous/other-related-resources/email-tracking-parameter.md)
       + [Verlening [!DNL Salesforce] Toegang tot [!DNL Marketo Measure] Ondersteuning](miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
       + [Privacy-aanvraag](miscellaneous/other-related-resources/privacy-requests.md)
-      + [Verwijderen [!DNL Marketo Measure] Parameters van de URL van de bestemmingspagina bijhouden in Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
+      + [Verwijderen [!DNL Marketo Measure] Parameters bijhouden van de URL van de bestemmingspagina in Googles Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Overgang naar [!DNL Marketo Measure] van volledige cirkel](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
+   + [Testen](miscellaneous/test.md)
 + Aanvullende informatie {#release-notes}
    + [Opmerkingen bij de huidige release](release-notes/current.md)
