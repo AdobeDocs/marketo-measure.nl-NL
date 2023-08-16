@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874696
-description: Aanbevolen [!DNL Salesforce] Machtigingen voor [!DNL Marketo Measure] Verbonden gebruiker - [!DNL Marketo Measure] - Productdocumentatie
-title: Aanbevolen [!DNL Salesforce] Machtigingen voor [!DNL Marketo Measure] Verbonden gebruiker
+description: Aanbevolen [!DNL Salesforce] Rechten voor [!DNL Marketo Measure] Verbonden gebruiker - [!DNL Marketo Measure] - Productdocumentatie
+title: Aanbevolen [!DNL Salesforce] Rechten voor [!DNL Marketo Measure] Verbonden gebruiker
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 0%
 
 ---
 
-# Aanbevolen [!DNL Salesforce] Machtigingen voor [!DNL Marketo Measure] Verbonden gebruiker {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
+# Aanbevolen [!DNL Salesforce] Rechten voor [!DNL Marketo Measure] Verbonden gebruiker {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
 
 [!DNL Marketo Measure] verzendt en ontvangt gegevens door verbonden [!DNL Salesforce] binnen de [!DNL Marketo Measure] app.
 
@@ -42,6 +43,6 @@ Als de specifieke gebruiker geen toegang tot lood in rijen heeft, dan kan het ni
 
 * Beveiliging en toegankelijkheid op veldniveau
 
-De veiligheid van het gebiedsniveau en gebiedstoegankelijkheid zijn verwant maar hebben sommige zeer belangrijke verschillen. De Veiligheid van het Niveau van het gebied bepaalt gebiedszicht voor een bepaald profiel terwijl de Toegankelijkheid van het Gebied bepaalt of een gebied op de veiligheid van het gebiedsniveau en de configuratie van de paginalay-out editable is. Met de [!DNL Marketo Measure] de de toestemmingsreeksen van het pakket u zult de noodzakelijke montages van de de objecten van het gebied veiligheid ontvangen. In sommige gevallen zal de verbonden gebruiker, om de correcte gebiedstoegankelijkheid te hebben, moeten hebben [!DNL Marketo Measure] velden op de paginalay-outs. [!DNL Marketo Measure] de velden in de lay-out zijn geschikt voor de [!DNL Marketo Measure] gegevens die moeten worden toegewezen aan [!DNL Salesforce]. Dit hangt van uw bepaald af [!DNL Salesforce] milieu.
+De veiligheid van het gebiedsniveau en gebiedstoegankelijkheid zijn verwant maar hebben sommige zeer belangrijke verschillen. De Veiligheid van het Niveau van het gebied bepaalt gebiedszicht voor een bepaald profiel terwijl de Toegankelijkheid van het Gebied bepaalt of een gebied op de veiligheid van het gebiedsniveau en de configuratie van de paginalay-out editable is. Met de [!DNL Marketo Measure] de de toestemmingsreeksen van het pakket u zult de noodzakelijke montages van de de objecten van het gebied veiligheid ontvangen. In sommige gevallen zal de verbonden gebruiker, om de correcte gebiedstoegankelijkheid te hebben, moeten hebben [!DNL Marketo Measure] velden op de paginalay-outs. [!DNL Marketo Measure] de velden in de lay-out zijn geschikt voor de [!DNL Marketo Measure] gegevens die moeten worden toegewezen [!DNL Salesforce]. Dit hangt van uw bepaald af [!DNL Salesforce] milieu.
 
 Elke organisatie [!DNL Salesforce] heeft individuele behoeften, maar wij stellen u van onze vereisten in evenwicht [!DNL Marketo Measure] hebt toegang nodig met uw beveiligingsprotocollen. Niet aarzelen om naar [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

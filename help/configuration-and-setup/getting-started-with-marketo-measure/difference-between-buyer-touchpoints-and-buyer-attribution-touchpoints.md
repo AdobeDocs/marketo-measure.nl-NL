@@ -3,7 +3,8 @@ unique-page-id: 18874646
 description: Verschil tussen aanraakpunten voor kopers en kenmerkaanraakpunten voor kopers - [!DNL Marketo Measure] - Productdocumentatie
 title: Verschil tussen aanraakpunten voor kopers en aanraakpunten voor koperkenmerken
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -55,7 +56,7 @@ Een BT wordt een BBT zodra dit BT wordt geassocieerd met een Contact dat een bij
 
 **Kan een aanraakpunt voor kopers beschikken over een aanraakpunt positie van Opportunity Creation (OC)?**
 
-Een aanraakpunt voor kopers heeft alleen een aanraakpunt met de positie First Touch (FT), Lead Creation (LC) of Formulier verzenden (tussenliggende aanraakpunten). Aangezien BTs niet met Kansen verwant is het niet mogelijk voor BT om een Positie van het Aanraakpunt van Kans te hebben creeert of gesloten.
+Een aanraakpunt voor kopers heeft alleen een aanraakpunt met de positie First Touch (FT), Lead Creation (LC) of Form submission (intermediary touchpoints). Aangezien BTs niet met Kansen verwant is het niet mogelijk voor BT om een Positie van het Aanraakpunt van Kans te hebben creeert of gesloten.
 
 **Hoe wordt gebruikgemaakt van aanraakpuntgegevens voor kopers?**
 

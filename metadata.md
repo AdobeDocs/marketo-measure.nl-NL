@@ -1,9 +1,10 @@
 ---
 solution: Marketo Measure
+feature-set: Marketo Measure
 type: Documentation
 git-repo: https://github.com/AdobeDocs/marketo-measure.nl-NL
 index: true
-source-git-commit: 2d146e6bfcca72f48495e808275f1fb21759d1a0
+source-git-commit: ce2ce5c5652d4067f50e88b062d7d951b645d93b
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -22,5 +23,5 @@ Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven
 | oplossingsafbeelding | Hiermee wordt het oplossingspictogram weergegeven naast de titel van de oplossing. Nog niet geïmplementeerd |
 | aan de slag-url | Aan de slag met Help-pagina koppelen |
 | zelfstudies-url | Koppeling maken naar videozelfstudies: helpx-zelfstudies of KT-zelfstudies |
-| mini-toc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. default is 2 |
+| minitoc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. default is 2 |
 | git-repo | Hiermee wordt de locatie van het master repo voor intern gebruik opgegeven |

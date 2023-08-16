@@ -3,7 +3,8 @@ unique-page-id: 18874606
 description: UTM-parameters - [!DNL Marketo Measure] - Productdocumentatie
 title: UTM-parameters
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: UTM Parameters
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 0%
@@ -26,14 +27,14 @@ Nu, controleer een URL met UTMs:
 
 `http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
-Zoals u kunt zien, bevat de tweede koppeling veel meer tekst. UTM-parameters gaan altijd achter het domein op het hoogste niveau (.com in dit voorbeeld) en beginnen met een vraagteken. Hierna is de volgorde van de parameters niet van belang, maar wordt een consistente naamgevingsconventie aanbevolen. Ampersands moeten tussen elke parameter worden geplaatst om elke UTM te scheiden. Nu kunnen we meer in detail gaan over wat elke parameter vertegenwoordigt.
+Zoals u kunt zien, bevat de tweede koppeling veel meer tekst. UTM-parameters gaan altijd achter het domein op het hoogste niveau (.com in dit voorbeeld) en beginnen met een vraagteken. Hierna is de volgorde van de parameters niet van belang, maar wordt een consistente naamgevingsconventie aanbevolen. Ampersands moeten tussen elke parameter worden geplaatst om elke UTM van elkaar te scheiden. Nu kunnen we meer in detail gaan over wat elke parameter vertegenwoordigt.
 
 Meer informatie over [best practices voor het instellen van UTM-parameters](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md).
 
 **utm_medium**
 
 * Het medium identificeert de voertuigen die u gebruikt om uw bedrijf op de markt te brengen.
-* Het beantwoordt de vraag: &quot;Hoe komen ze bij je aan?&quot;
+* Het beantwoordt de vraag: &quot;Hoe komen ze bij je terecht?&quot;
 * Het geeft het kanaal op het hoogste niveau aan.
 * Sociale media, e-mail, biologisch zoeken en betaalde zoekopdrachten zijn voorbeelden van mogelijke gemiddelde waarden.
 * Deze parameter wijst gegevens toe aan de [!DNL Marketo Measure] Veld &#39;Normaal&#39;.
@@ -69,7 +70,7 @@ Meer informatie over [best practices voor het instellen van UTM-parameters](/hel
 * Deze parameter verwijst naar de [!DNL Marketo Measure] Veld &#39;Trefwoordtekst&#39; in SFDC.
 * _[!DNL Marketo Measure]Beste praktijken_: De tag UTM Term is optioneel, maar uitstekend voor het bijhouden van trefwoorden. Controleer de spelling en vermijd het gebruik van speciale tekens. Als er meer dan één woord nodig is, probeert u onderstrepingstekens of helemaal geen spaties te gebruiken.
 
-Elke parameter verzamelt informatie die relevant is voor de toegewezen waarde. Met de waarde van elke tag kunt u al uw digitale campagnes bijhouden en sorteren en de vragen beantwoorden: waar , hoe en waarom ?
+Elke parameter verzamelt informatie die relevant is voor de toegewezen waarde. Met de waarde van elke tag kunt u al uw digitale campagnes bijhouden en sorteren en de vragen beantwoorden: waar, hoe en waarom?
 
 Hier is een grafiek van de parameters UTM [!DNL Marketo Measure] parsen en het bijbehorende veld Touchpoint waaraan ze zijn gekoppeld:
 

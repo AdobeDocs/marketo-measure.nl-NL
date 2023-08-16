@@ -2,7 +2,8 @@
 description: "[!DNL Marketo Measure] Installatie en installatie van het Salesforce-pakket - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] [!DNL Salesforce] Pakketinstallatie en -installatie"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Installation, Salesforce
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -15,7 +16,7 @@ Voordat u de [!DNL Marketo Measure] [!DNL Salesforce] basispakket, moet u bepale
 
 >[!NOTE]
 >
->Eenmaal uw [!DNL Marketo Measure] account is verbonden met een [!DNL Salesforce] productie-instantie, kunt u niet achterwaarts verplaatsen en verbinding maken met een sandbox. Ook [!DNL Marketo Measure] account kan slechts met één account worden verbonden [!DNL Salesforce] productie-instantie.
+>Eenmaal uw [!DNL Marketo Measure] account is verbonden met een [!DNL Salesforce] productie-instantie, kunt u niet achterwaarts verplaatsen en verbinding maken met een sandbox. Ook een [!DNL Marketo Measure] account kan slechts met één account worden verbonden [!DNL Salesforce] productie-instantie.
 
 De [!DNL Marketo Measure] Basispakket bevat:
 
@@ -23,7 +24,7 @@ De [!DNL Marketo Measure] Basispakket bevat:
 * Aangepast [!DNL Marketo Measure] Velden
 * 25 [!DNL Stock] Rapporten
 
-[!DNL Marketo Measure] kan standaard lezen [!DNL Salesforce] Objecten, velden en records, echter [!DNL Marketo Measure] nooit gegevens bijwerken of verzenden. Alle door de [!DNL Marketo Measure] JavaScript wordt weergegeven in het dialoogvenster [!DNL Marketo Measure] Aangepaste objecten en velden.
+[!DNL Marketo Measure] kan de standaard lezen [!DNL Salesforce] Objecten, velden en records, echter [!DNL Marketo Measure] nooit gegevens bijwerken of verzenden. Alle gegevens die door de [!DNL Marketo Measure] JavaScript wordt weergegeven in het dialoogvenster [!DNL Marketo Measure] Aangepaste objecten en velden.
 
 Voer de onderstaande stappen uit om de [!DNL Marketo Measure Salesforce] basispakket.
 
@@ -41,7 +42,7 @@ Voer de onderstaande stappen uit om de [!DNL Marketo Measure Salesforce] basispa
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
-Nadat u de installatie hebt voltooid, kunt u uw [[!DNL Salesforce] paginalay-outs](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} met de [!DNL Marketo Measure] indien gewenst.
+Nadat u de installatie hebt voltooid, kunt u uw [[!DNL Salesforce] paginalay-outs](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} met de [!DNL Marketo Measure] velden, indien gewenst.
 
 >[!NOTE]
 >
@@ -65,7 +66,7 @@ Als u aanraakpuntgegevens naar uw [!DNL Salesforce] -instantie, moet de verbonde
 
 Een [!DNL Marketo Measure] -profiel om te zorgen dat er geen validatiefouten optreden wanneer u gegevens naar Salesforce verplaatst.
 
-Stap 1: Een specifieke [!DNL Marketo Measure] profiel
+Stap 1: Maak een specifieke [!DNL Marketo Measure] profiel
 
 1. Wijs de volgende machtigingen toe:
 
@@ -78,7 +79,7 @@ Stap 1: Een specifieke [!DNL Marketo Measure] profiel
 >
 >Dit profiel kan een kloon zijn van een profiel voor systeembeheer.
 
-Stap 2: Een toegewezen [!DNL Marketo Measure] gebruiker zodat u het effect van [!DNL Marketo Measure] op uw [!DNL Salesforce] instance
+Stap 2: Een speciale versie maken [!DNL Marketo Measure] gebruiker zodat u het effect van [!DNL Marketo Measure] op uw [!DNL Salesforce] instance
 
 1. Wijs de nieuwe [!DNL Marketo Measure] Profiel naar die gebruiker.
 
@@ -86,11 +87,11 @@ Stap 2: Een toegewezen [!DNL Marketo Measure] gebruiker zodat u het effect van [
 
 * De [!UICONTROL Marketing User] Met het selectievakje kan de gebruiker campagnes maken en de wizard Campagne importeren gebruiken. Als deze optie niet wordt geselecteerd, kan de gebruiker campagnes en geavanceerde campagneopstelling slechts bekijken, de Geschiedenis van de Campagne voor één enkele lood of contact uitgeven, en campagnerapporten in werking stellen. [!DNL Marketo Measure] moet het campagneobject kunnen lezen en schrijven.
 
-Stap 3: Dit profiel uitsluiten van alle triggers, workflows en processen
+Stap 3: Sluit dit profiel uit van alle triggers, workflows en processen
 
 Stap 4: Meld u aan bij uw [!DNL Marketo Measure] Account en autoriseer de [!DNL Salesforce] verbinding met de nieuwe gebruiker
 
-1. Ga naar apps.bizible.com en meld u aan met de nieuwe gebruikersproductie [!DNL Salesforce] referenties.
+1. Ga naar apps.bizible.com en login met de nieuwe gebruikersproductie [!DNL Salesforce] referenties.
 
 1. Selecteren **[!UICONTROL Settings]** binnen de **[!UICONTROL My Account]** vervolgkeuzelijst.
 

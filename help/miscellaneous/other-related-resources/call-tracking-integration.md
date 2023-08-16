@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874592
 description: Integratie van bijhouden van oproepen - [!DNL Marketo Measure] - Productdocumentatie
-title: Integratie van bijhouden van oproepen
+title: Integratie van het bijhouden van oproepen
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Tracking, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 0%
 
 ---
 
-# Integratie van bijhouden van oproepen {#call-tracking-integration}
+# Integratie van het bijhouden van oproepen {#call-tracking-integration}
 
 Onze integratie met [!DNL CallTrackingMetrics] is bedoeld om een Webzitting met een telefoongesprek samen te voegen. Een telefoongesprek wordt behandeld als een formulierverzending naar [!DNL Marketo Measure]. Het geeft krediet aan een Webzitting die anders slechts als Webbezoek zou worden beschouwd omdat er geen daadwerkelijke vormvoorlegging was geweest.
 
@@ -40,7 +41,7 @@ Hieronder ziet u een voorbeeld van een taakrecord met de [!DNL BizibleId] gevuld
 
 ![](assets/3.png)
 
-Wanneer [!DNL Marketo Measure] vindt een verslag van de Taak met bekende [!DNL BizibleId] ingevulde waarde, [!DNL Marketo Measure] kan die gebruiker aan een Webzitting met het zelfde in kaart brengen [!DNL BizibleId] en kenmerk die zitting aan een telefoongesprek in plaats van een Webbezoek.
+Wanneer [!DNL Marketo Measure] vindt een verslag van de Taak met bekende [!DNL BizibleId] ingevulde waarde, [!DNL Marketo Measure] kan die gebruiker toewijzen aan een websessie met dezelfde [!DNL BizibleId] en kenmerk die zitting aan een telefoongesprek in plaats van een Webbezoek.
 
 ## Het aanraakpunt {#the-touchpoint}
 
@@ -52,7 +53,7 @@ De [!UICONTROL Touchpoint] Het type &quot;Vraag&quot;wordt getrokken uit de Taak
 
 ## Rapportage {#reporting}
 
-De waarden van Type aanraakpunt die [!DNL Marketo Measure] typisch duwt zijn het Bezoek van het Web, de Vorm van het Web, of het Praatje van het Web, maar in het geval van CallTrackingMetrics touchpoints, zal het aanraakpunttype TelefoonVraag zijn. Dit helpt marketers zien welke kanalen in de meeste telefoongesprekken trekken en opbrengst voor hun organisatie produceren.
+Type aanraakpunt waarden die [!DNL Marketo Measure] typisch duwt zijn het Bezoek van het Web, de Vorm van het Web, of het Praatje van het Web, maar in het geval van CallTrackingMetrics touchpoints, zal het aanraakpunttype TelefoonVraag zijn. Dit helpt marketers zien welke kanalen in de meeste telefoongesprekken trekken en opbrengst voor hun organisatie produceren.
 
 ![](assets/5.png)
 

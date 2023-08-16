@@ -2,7 +2,8 @@
 description: Aanbevolen procedures voor onlinekanalen - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanbevolen procedures voor onlinekanalen
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-Om nauwkeurig te zijn [!DNL Marketo Measure] de marketingkanalen moeten correct zijn ingesteld. In het veld marketingkanaal wordt de groep marketingactiviteiten weergegeven die op het hoogste niveau door een aanraakpunt kan worden uitgevoerd (bijvoorbeeld Betaald zoeken, Direct, Sociaal, enz.).
+Om nauwkeurig te zijn [!DNL Marketo Measure] melden, moeten uw marketingkanalen correct zijn ingesteld. In het veld marketingkanaal wordt de groep marketingactiviteiten weergegeven die op het hoogste niveau door een aanraakpunt kan worden uitgevoerd (bijvoorbeeld Betaald zoeken, Direct, Sociaal, enz.).
 
 Het instellen van uw marketingkanalen kent twee aspecten: online en offline. In dit document wordt de nadruk gelegd op de [!DNL Marketo Measure] aanbevelingen voor best practices voor het instellen en onderhouden van uw onlinekanalen.
 
@@ -29,11 +30,11 @@ Denk aan de volgende zaken:
 
 * Alle digitale kanalen en subkanalen moeten met minstens één regel worden vertegenwoordigd
    * Als het kanaal geen personen naar uw site stuurt, is het geen online kanaal
-* Het is oké om veelvoudige regels voor één kanaal/subchannel te hebben
+* U hebt meerdere regels nodig voor één kanaal/subkanaal
    * Meerdere regels kunnen worden beschouwd als &quot;een breder net casting&quot; om ervoor te zorgen dat elk aanraakpunt correct wordt toegewezen. Vaak kunnen parameters verkeerd worden toegevoegd of volledig worden gemist, daarom is het hebben van veelvoudige regels om een kanaal/subchannel te vangen een goed idee om afbeeldingsnauwkeurigheid te verzekeren.
 * [!DNL Marketo Measure] logica geeft voorrang aan touchpoint mapping in aflopende volgorde, te beginnen met de bovenste rij van het spreadsheet en deze omlaag te maken
    * [!DNL Marketo Measure] leest elke regel (rij), zoekend waar en eerst passend. Het aanraakpunt wordt vervolgens toegewezen aan dat kanaal/subkanaal
-   * Sorteer het blad niet in alfabetische volgorde, omdat dit de logische regels verstoort.
+   * U moet het vel niet in alfabetische volgorde sorteren, omdat dit de logische regels verstoort.
 * Handhaaf de gehaakte regels, bewerk of voeg niet aan de gehaakte regels toe (voorbeeld; [Advertentievoorden zoekopdracht] of [Facebook Paid] )
    * Deze zijn uit de doos [!DNL Marketo Measure] regels die zijn ingebouwd in logica, die gekoppeld zijn aan de [!DNL Marketo Measure] integratie. Geef deze regels hoogste prioriteit voor die kanaal/subkanaalsectie om ervoor te zorgen dat de [!DNL Marketo Measure] de integratie kan werken zoals zij is ontworpen .
 * Nadat het bestand is geüpload, kunt u de regels gedurende zeven dagen niet meer wijzigen
@@ -58,4 +59,3 @@ Als uw team onlangs één van bovengenoemde ervaring heeft [!DNL Marketo Measure
 >* [UTM-parameters](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 >* [Marketingkanaal en Subkanaal](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
 >* [Beste praktijken UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-

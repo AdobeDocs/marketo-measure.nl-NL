@@ -2,7 +2,8 @@
 description: Uitleg van aanraakpuntposities en het genereren van BT's en BBT's - [!DNL Marketo Measure] - Productdocumentatie
 title: Uitleg van aanraakpuntposities en genereren over BT's en [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # Uitleg van aanraakpuntposities en genereren over BT&#39;s en [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
-**Opwekken van aanraakpunten en doorloop via de kopersreis**
+**Opwekken van aanraakpunten en doorlopen via de kopersreis**
 
 Een goed begrip van de posities van het aanraakpunt voor kopers en de manier waarop deze worden geactiveerd is van cruciaal belang voor een geslaagde rapportage met [!DNL Marketo Measure] gegevens. Je wilt een duidelijk inzicht hebben in wat je perspectieven deden toen ze door de reis van de koper gingen en op zijn beurt hoe dat eruit zal zien in de Touchpoint-gegevens. Voor meer context over dit onderwerp adviseren wij het herzien van [[!UICONTROL Touchpoint Generation & Mapping]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) artikel.
 
@@ -20,16 +21,16 @@ Een goed begrip van de posities van het aanraakpunt voor kopers en de manier waa
 **Aanraakpunten koper (BT&#39;s)**: Dit zijn de aanraakpunten met een individuele persoon en zijn reis en zullen uniek zijn voor dat individu. De volgende rapporten in het vak zijn samengesteld uit gegevens van het aanraakpunt voor kopers.
 
 * [!DNL Marketo Measure] 101: Leads op ID
-* [!DNL Marketo Measure] 101: Leads per kanaal
-* [!DNL Marketo Measure] 101: Lead/contactpersoon op ID
-* [!DNL Marketo Measure] 101: Lood/contact via kanaal
+* [!DNL Marketo Measure] 101: Regelafstand per kanaal
+* [!DNL Marketo Measure] 101: lood/contact op ID
+* [!DNL Marketo Measure] 101: lood/contact via kanaal
 
 Hieronder wordt een overzicht gegeven van de posities van het aanraakpunt voor kopers, waarin wordt beschreven waar een individu zich bevindt en welke acties zij hebben ondernomen om die positie te veroveren.
 
 <table> 
  <tbody>
   <tr>
-   <th>Positie aanraakpunt koper (BT's)</th> 
+   <th>Positie aanraakpunt koper</th> 
    <th>Type aanraakpunt (handeling die aanraakpunt kan activeren)</th> 
    <th>Beschrijving van aanraakpunt</th> 
   </tr>
@@ -53,13 +54,13 @@ Hieronder wordt een overzicht gegeven van de posities van het aanraakpunt voor k
 
 **Aanraakpunten voor koperkenmerken (BATS)**: Dit zijn de aanraakpunten die verbonden zijn aan een Opportunity en zijn reis. Deze aanraakpunten zullen met opbrengst worden verbonden aangezien zij met de Kans en zijn Contacten worden verbonden. De volgende rapporten in het vak zijn samengesteld uit gegevens van het aanraakpunt voor koperkenmerken.
 
-* [!DNL Marketo Measure] 101: Kansen op id
-* [!DNL Marketo Measure] 101: Kanalen op id-kanaal
+* [!DNL Marketo Measure] 101: Kansen per id
+* [!DNL Marketo Measure] 101: Kansen per id-kanaal
 
 <table> 
  <tbody>
   <tr>
-   <th>Positie van het aanraakpunt voor koperkenmerken (BBT's)</th> 
+   <th>Positie van het aanraakpunt voor koperkenmerken (BBT)</th> 
    <th>Type aanraakpunt (handeling die aanraakpunt kan activeren)</th> 
    <th>Beschrijving van aanraakpunt</th> 
   </tr>

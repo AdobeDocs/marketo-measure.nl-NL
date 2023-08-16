@@ -2,7 +2,8 @@
 description: Aanbevolen werkwijzen voor het gebruik van een Aangepast bedrag aan inkomsten - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanbevolen werkwijzen voor het gebruik van een aangepaste opbrengstwaarde
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Revenue Amount
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 De kernfunctionaliteit van [!DNL Marketo Measure] is de mogelijkheid om tijdens de gehele reis van de koper een inkomstenkrediet toe te kennen aan marketingpunten. De sleutel tot een nauwkeurige toerekening van opbrengsten is de mogelijkheid voor [!DNL Marketo Measure] het juiste inkomstenbedrag op een Opportunity te vermelden, dat op zijn beurt via de verschillende toewijzingsmodellen over de marketingaanspreekpunten wordt verdeeld.
 
-Tenzij tijdens de implementatie anders is opgegeven, kunt u [!DNL Marketo Measure] instantie wordt ingesteld om te verwijzen naar het standaardbedrag van de opportuniteit (SFDC Default) voor inkomstentoewijzing. Voor veel [!DNL Marketo Measure] rekeningen, geeft dit gebied niet het nauwkeurige opbrengstbedrag voor Kansen weer. In deze gevallen [!DNL Marketo Measure] biedt de mogelijkheid om een aangepaste opbrengstwaarde in te stellen voor [!DNL Marketo Measure] verwijzen naar en distribueren over de Attribution Touchpoints (BAT&#39;s).
+Tenzij tijdens de implementatie anders is opgegeven, kunt u [!DNL Marketo Measure] instantie wordt ingesteld om te verwijzen naar het standaardbedrag van de opportuniteit (SFDC Default) voor inkomstentoewijzing. Maar voor velen [!DNL Marketo Measure] rekeningen, geeft dit gebied niet het nauwkeurige opbrengstbedrag voor Kansen weer. In deze gevallen [!DNL Marketo Measure] biedt de mogelijkheid om een aangepaste opbrengstwaarde in te stellen voor [!DNL Marketo Measure] verwijzen naar en distribueren over de Attribution Touchpoints (BAT&#39;s).
 
 ## Beste praktijken {#best-practice}
 
@@ -30,7 +31,7 @@ Denk aan de volgende zaken:
    * De [!DNL Marketo Measure] Functionaliteit voor meerdere valuta&#39;s verwijst naar de conversiekoersen die zijn vastgesteld in [!DNL Salesforce] zo goed mogelijk te zorgen voor de onderlinge afstemming van de omrekening van valuta&#39;s. Hierdoor kunt u doorgaan met het gebruik van de standaard &#39;Amount&#39; (SFDC Default) of een ander aangepast veld Bedrag dat betrekking heeft op de [!DNL Salesforce] omrekeningskoersen.
 * Als u het veld Bedrag bijwerkt, wilt u [!DNL Marketo Measure] gebruiken om naar te verwijzen, Data Loader gebruiken om eerdere opportuniteiten bij te werken om ervoor te zorgen dat uw inkomstengegevens consistent zijn en dat het juiste veld wordt gevuld via de workflow
 
-## Best Practice for Maintenance {#best-practice-for-maintenance}
+## Aanbevolen werkwijzen voor onderhoud {#best-practice-for-maintenance}
 
 Als u jaarlijks de instellingen van uw inkomstenbedrag controleert, worden de toewijzingsgegevens correct en afgestemd op de rest van de inkomstenrapportage van uw organisatie.
 
@@ -49,8 +50,7 @@ Naast een jaarlijkse evaluatie, kunnen bepaalde organisatorische veranderingen d
 
 >[!MORELIKETHIS]
 >
->* [Een veld Aangepaste inkomstenbedrag gebruiken](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [Een veld Aangepaste omzettingsbedrag gebruiken](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
 >* [Veld voor aangepaste hoeveelheid bijwerken met gegevenslader](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 >* [Overzicht van Meervoudig Valuta](/help/advanced-marketo-measure-features/multi-currency/overview.md)
 >* [Instellingen voor meerdere valuta](/help/advanced-marketo-measure-features/multi-currency/settings.md)
-

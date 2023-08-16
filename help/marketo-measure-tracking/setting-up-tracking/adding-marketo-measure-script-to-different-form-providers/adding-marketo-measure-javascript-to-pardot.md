@@ -3,7 +3,8 @@ unique-page-id: 18874757
 description: Toevoegen [!DNL Marketo Measure] JavaScript naar [!DNL Pardot] - [!DNL Marketo Measure] - Productdocumentatie
 title: Toevoegen [!DNL Marketo Measure] JavaScript naar [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Toevoegen [!DNL Marketo Measure] JavaScript naar [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
-[!DNL Pardot] formulieren moeten binnen de formuliersjabloon verder worden verwerkt dan alleen scripts op de site plaatsen om [!DNL Marketo Measure] om formulierverzendingen te erkennen. Het proces is eenvoudig; alleen het plaatsen van de [!DNL Marketo Measure] script bijhouden in de [!DNL Pardot] formuliersjabloon.
+[!DNL Pardot] formulieren moeten binnen de formuliersjabloon verder worden verwerkt dan alleen scripts op de site plaatsen om [!DNL Marketo Measure] om formulierverzendingen te erkennen. Het proces is eenvoudig; het vereist slechts het plaatsen van [!DNL Marketo Measure] script bijhouden in de [!DNL Pardot] formuliersjabloon
 
 ## Instructies Stap voor stap {#step-by-step-instructions}
 
@@ -56,6 +57,6 @@ _en_ het IFrame zelf bevindt zich eigenlijk op een veilige pagina (HTTPS) in pla
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-Er kunnen ook al andere codefragmenten in dit gebied zijn, zoals een [!DNL Google Analytics] code. Zorg ervoor dat u ze met een puntkomma van elkaar scheidt `;` en één spatie, zoals in dit voorbeeld wordt getoond:
+Er kunnen ook al andere codefragmenten in dit gebied zijn, zoals een [!DNL Google Analytics] code. Zorg ervoor dat u ze met een puntkomma scheidt `;` en één spatie, zoals in dit voorbeeld wordt getoond:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="othercode_example" src="otherfile_example.js" ></script>`

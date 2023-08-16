@@ -3,7 +3,8 @@ unique-page-id: 18874662
 description: Definities en Encyclopedie - [!DNL Marketo Measure] - Productdocumentatie
 title: Definities en Encyclopedie
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '6083'
 ht-degree: 0%
@@ -20,17 +21,17 @@ Overzicht
 
 Groei
 
-ROI voor advertenties
+Extra ROI
 
 Op account gebaseerde marketing
 
-Marketing-uitgaven
+Marketinguitgaven
 
 Webverkeer
 
 **Weergaven op basis van rollen**
 
-GMO
+CMO
 
 Betaalde media
 
@@ -86,7 +87,7 @@ Klik om Details weer te geven en de gegevens in te boren door deze als een visua
 
 `2.` Gebruikend de Metrische dropdown van het menu van Filters, toont deze grafiek opbrengst/pijpleiding opbrengst / besteedt / deals / kansen / contacten die aan elk kanaal worden toegewezen, in tijd wordt getoond.
 
-**Spend**
+**Draaien**
 
 `3.` Het totale bedrag van geregistreerde uitgaven van zowel API kosten als zelf gemelde kosten werd opgerold op het hoogste kanaalniveau.
 
@@ -196,7 +197,7 @@ Bouw binnen om de gegevens van een kleinere datumafmeting te bekijken.
 
 **Leads**
 
-`7.` Het totale aantal leads, gebaseerd op het attributiemodel. Als het datumtype &quot;Aanraakpuntdatum&quot; is geselecteerd, zijn gedeeltelijke tellingen mogelijk omdat het mogelijk is om bepaalde aanraakpunten in een Lead-record uit te sluiten met dit datumtype. Als een attributiemodel buiten U-Vormd wordt toegepast, wordt het aantal U-Vormen gebruikt voor W-Vormd, W-Vormd, en het Model van de Douane.
+`7.` Het totale aantal leads, gebaseerd op het toewijzingsmodel. Als het datumtype &quot;Aanraakpuntdatum&quot; is geselecteerd, zijn gedeeltelijke tellingen mogelijk omdat het mogelijk is om bepaalde aanraakpunten in een Lead-record uit te sluiten met dit datumtype. Als een attributiemodel buiten U-Vormd wordt toegepast, wordt het aantal U-Vormen gebruikt voor W-Vormd, W-Vormd, en het Model van de Douane.
 
 Klik om Details weer te geven en de gegevens in te boren door deze als een visualisatie en een tabel te bekijken.
 
@@ -278,9 +279,9 @@ Bouw binnen om de gegevens van een kleinere datumafmeting te bekijken.
 
 (Dit wordt leeg weergegeven als deze functie is uitgeschakeld.)
 
-### ROI voor advertenties {#ads-roi}
+### Extra ROI {#ads-roi}
 
-ADS ROI geeft betaalde media managers een mening over hun marketing inspanningen, die hen inzicht in hun campagneprestaties aan sleutelwoordprestaties geven.
+ROI van advertenties geeft betaalde media managers een mening over hun marketing inspanningen, die hen inzicht in hun campagneprestaties aan sleutelwoordprestaties geven.
 
 **Filters**
 
@@ -354,7 +355,7 @@ Het totale aantal leads dat met succes is gekoppeld aan een account via de [!DNL
 
 Het totale aantal accounts dat een aanraakpunt heeft ontvangen. Als een lijst met doelaccounts wordt gebruikt, is dit de subset van accounts in die lijst met doelaccounts.
 
-**Kansen**
+**Kansen ingeschakeld**
 
 Het totale aantal kansen dat om het even welk aanraakpunt ontving. Als een lijst met doelaccounts wordt gebruikt, is dit de subset met mogelijkheden uit die lijst met doelaccounts.
 
@@ -376,9 +377,9 @@ Op account-id en accountnaam, het totale aantal aanraakpunten van elk account.
 
 **Aantal aanraakpunten**
 
-Het aantal aanraakpunten dat aan elke dimensie wordt toegewezen, waarbij de dimensie door het filter Groep door kan worden gewijzigd, zoals: Geen / Kanaal / Subkanaal / Campagne / Account / Advertiser / Advertentier / Advertentiegroep / Trefwoord / Plaatsing / Site.
+Het aantal aanraakpunten dat aan elke dimensie wordt toegewezen, waarbij de dimensie door het filter Groep op kan worden gewijzigd, zoals: Geen / Kanaal / Subkanaal / Campagne / Account / Advertiser / Advertiser / Advertentie / Groep toevoegen / Trefwoord / Plaatsing / Site.
 
-### Marketing-uitgaven {#marketing-spend}
+### Marketinguitgaven {#marketing-spend}
 
 Marketing Spend laat Marketers zien hoeveel ze hebben doorgebracht over een tijdsperiode, zodat ze de uitgaven per maand en per kanaal kunnen bijhouden.
 
@@ -406,7 +407,7 @@ Het totale bedrag aan inkomsten uit gesloten-winstmogelijkheden, gebaseerd op he
 
 Klik om Details weer te geven en de gegevens in te boren door deze als een visualisatie en een tabel te bekijken.
 
-**Spend**
+**Draaien**
 
 Het totale bedrag van geregistreerde uitgaven van zowel API kosten als zelf gemelde kosten werd opgerold op het hoogste kanaalniveau.
 
@@ -524,11 +525,11 @@ Het aantal paginabezoeken en unieke bezoeken die van elke verwijzende URL zijn g
 
 **Unieke bezoeken per bron**
 
-Geef in het vervolgkeuzemenu Groeperen op, de bron van de unieke bezoekers van uw site weer. Wijzig de groep met: Kanaal, Subkanaal, Campagne, Account, Advertentiegroep, Advertentier, Creative, Trefwoord, Plaatsing, Site.
+Geef in het vervolgkeuzemenu Groeperen op, de bron van de unieke bezoekers van uw site weer. Wijzig de groep in: Kanaal, Subkanaal, Campagne, Account, Advertentiegroep, Advertiser, Creative, Trefwoord, Plaatsing, Site.
 
 **Bezoekingen per bron**
 
-Geef in het vervolgkeuzemenu Groeperen op, de bron van de bezoekers van uw site weer. Wijzig de groep met: Kanaal, Subkanaal, Campagne, Account, Advertentiegroep, Advertentier, Creative, Trefwoord, Plaatsing, Site.
+Geef in het vervolgkeuzemenu Groeperen op, de bron van de bezoekers van uw site weer. Wijzig de groep in: Kanaal, Subkanaal, Campagne, Account, Advertentiegroep, Advertiser, Creative, Trefwoord, Plaatsing, Site.
 
 **Leads op bestemmingspagina**
 
@@ -540,7 +541,7 @@ Een lijst met formulier-URL&#39;s op basis van het aantal leads dat van elke URL
 
 ## Weergaven op basis van rollen {#role-based-views}
 
-### GMO {#cmo}
+### CMO {#cmo}
 
 De standpunten van de GMO geven de GMO een overzicht op hoog niveau van de prestaties van het marketingteam met betrekking tot hun impact op inkomsten, uitgaven en ROI.
 
@@ -574,7 +575,7 @@ Klik om Details weer te geven en de gegevens in te boren door deze als een visua
 
 `2.` Gebruikend de Metrische dropdown van het menu van Filters, toont deze grafiek opbrengst/pijpleiding opbrengst / besteedt / deals / kansen / contacten die aan elk kanaal worden toegewezen, in tijd wordt getoond.
 
-**Spend**
+**Draaien**
 
 `3.` Het totale bedrag van geregistreerde uitgaven van zowel API kosten als zelf gemelde kosten werd opgerold op het hoogste kanaalniveau.
 
@@ -650,7 +651,7 @@ Categorieën
 
 Klik om Details weer te geven en de gegevens in te boren door deze als een visualisatie en een tabel te bekijken.
 
-**Spend**
+**Draaien**
 
 `2.` Het totale bedrag van geregistreerde uitgaven van zowel API kosten als zelf gemelde kosten werd opgerold op het hoogste kanaalniveau.
 
@@ -816,7 +817,7 @@ Bekijk de unieke bezoeken per maand aan de geselecteerde URL.
 
 **Leads**
 
-`14.` Het totale aantal leads, gebaseerd op het attributiemodel. Als het datumtype &quot;Aanraakpuntdatum&quot; is geselecteerd, zijn gedeeltelijke tellingen mogelijk omdat het mogelijk is om bepaalde aanraakpunten in een Lead-record uit te sluiten met dit datumtype. Als een attributiemodel buiten U-Vormd wordt toegepast, wordt het aantal U-Vormen gebruikt voor W-Vormd, W-Vormd, en het Model van de Douane.
+`14.` Het totale aantal leads, gebaseerd op het toewijzingsmodel. Als het datumtype &quot;Aanraakpuntdatum&quot; is geselecteerd, zijn gedeeltelijke tellingen mogelijk omdat het mogelijk is om bepaalde aanraakpunten in een Lead-record uit te sluiten met dit datumtype. Als een attributiemodel buiten U-Vormd wordt toegepast, wordt het aantal U-Vormen gebruikt voor W-Vormd, W-Vormd, en het Model van de Douane.
 
 Klik om Details weer te geven en de gegevens in te boren door deze als een visualisatie en een tabel te bekijken.
 
@@ -854,11 +855,11 @@ Attributiemodel
 
 **Drill-Downs**
 
-Details opportunity
+Opportuniteitsgegevens
 
 Contactgegevens
 
-Details lead
+Details van lead
 
 Details aanraakpunt kenmerk
 
@@ -880,7 +881,7 @@ Klik op de geaggregeerde getallen om naar beneden te gaan voor de details van de
 
 **Contactpersonen**
 
-`3.` Lijst van alle contacten met aanraakpunten. De informatie voor elk contact omvat het aantal kenmerkaanraakpunten en het aantal aanraakpunten
+`3.` Lijst van alle contacten met aanraakpunten. De informatie voor elk contact omvat aantal kenmerkaanraakpunten en aantal aanraakpunten
 
 Klik op de geaggregeerde getallen om naar beneden te gaan voor de details van de basisgegevens.
 
@@ -898,17 +899,17 @@ Klik op de geaggregeerde getallen om naar beneden te gaan voor de details van de
 
 **Veelgestelde vragen over marketingtips**
 
-**V: Waarom is er een filter Account ID en Account Name?**
+**Q: Waarom is er zowel een &#39;Account ID&#39;- als een &#39;Account Name&#39;-filter?**
 
-A: Account-id&#39;s zijn uniek, maar accountnamen hoeven niet uniek te zijn. Bijvoorbeeld, kon u veelvoudige verschillende rekeningen voor elke bedrijfseenheid binnen een ondernemingsbedrijf tot stand hebben gebracht. Tijdens het gebruik van de accountnaam is het wellicht intuïtiever om ervoor te zorgen dat u voor een specifieke account filtert, u kunt de account-id gebruiken.
+A: Hoewel account-id&#39;s uniek zijn, hoeven accountnamen niet te zijn. Bijvoorbeeld, kon u veelvoudige verschillende rekeningen voor elke bedrijfseenheid binnen een ondernemingsbedrijf tot stand hebben gebracht. Tijdens het gebruik van de accountnaam is het wellicht intuïtiever om ervoor te zorgen dat u voor een specifieke account filtert, u kunt de account-id gebruiken.
 
-**V: Als ik filtert op Account ID, worden alle tabellen gefilterd?**
+**Q: Als ik filter door identiteitskaart van de Rekening, zullen alle lijsten door gefiltreerd?**
 
 A: Ja, het filter wordt toegepast op elke tegel in het bord. Als je bijvoorbeeld een accountfilter toepast voor &#39;Microsoft&#39;, zie je alleen de mogelijkheden voor Microsoft.
 
 **V: Wat is de kolom &#39;Betrokkenheid beoordelen&#39;?**
 
-A: De betrokkenheidsbeoordeling wordt vanuit de [!DNL Marketo Measure] Predictive Account Engagement Score, beschikbaar in [!DNL Marketo Measure] Niveau 2. Als u dit niet hebt, wordt dit veld weergegeven als null.
+A: De beoordeling van de betrokkenheid komt van de [!DNL Marketo Measure] Predictive Account Engagement Score, beschikbaar in [!DNL Marketo Measure] Niveau 2. Als u dit niet hebt, wordt dit veld weergegeven als null.
 
 **V: Kan ik wijzigen hoe de tabel wordt gesorteerd?**
 
@@ -916,7 +917,7 @@ A: Ja, als u op een van de kolomkoppen klikt, wordt de tabel gesorteerd. Als u n
 
 **V: Kan ik de gegevens exporteren?**
 
-A: Ja, wanneer u de muisaanwijzer boven de titel van het element houdt (bijvoorbeeld Accounts), klikt u op de drie verticale stippen in de rechterbovenhoek. Hierdoor kunt u de gegevens voor die tegel in de volgende indelingen downloaden: TXT, CSV, XLS, JSON, HTML en Markdown.
+A: Ja, wanneer u de tegel boven de titel houdt (bijvoorbeeld Accounts), klikt u op de drie verticale stippen in de rechterbovenhoek. Hierdoor kunt u de gegevens voor die tegel in de volgende indelingen downloaden: TXT, CSV, XLS, JSON, HTML en Markdown.
 
 **V: Kan ik meer dan 500 rijen gegevens zien?**
 
@@ -958,7 +959,7 @@ Subkanaal is gelijk aan __
 
 **Win Rate**
 
-`4.` Het totale aantal kansen van de Gesloten Won gedeeld door het totale aantal van Gesloten Verloren en Gesloten Mogelijkheden van de Won, die het win rentepercentage tonen.
+`4.` Het totale aantal kansen van de Gesloten Won gedeeld door het totale aantal van Gesloten Verloren en Gesloten Kans van de Won, die het win rentepercentage tonen.
 
 **Snelheid van opportunity door Kanaal**
 
@@ -1090,7 +1091,7 @@ Klik op Gebeurtenistype om de details van de gebeurtenis weer te geven.
 
 **V: Hoe kan ik de reis van één persoon bekijken?**
 
-A: Met het filter &#39;ID/e-mail lead&#39; of &#39;Contactpersoon-id/e-mail&#39; stelt u het filter in op &#39;contains [e-mailadres]en klik vervolgens op Uitvoeren.
+A: Met het filter &#39;ID/e-mail lead&#39; of &#39;Id/e-mail contact&#39; stelt u het filter in op &#39;contains [mailadres]en klik vervolgens op Uitvoeren.
 
 **V: Wat beïnvloedt het filter &#39;Attributiemodel&#39;?**
 
@@ -1098,15 +1099,15 @@ A: Het filter voor het toewijzingsmodel heeft invloed op de kolom &#39;Toegeweze
 
 **V: Wat is het filter &#39;Aanraaktype op de markt&#39;?**
 
-A: Het &quot;Type van Aanraking van de Marketing&quot;is het type van overeenkomst, die Web Visit, de Vorm van het Web, het Praatje van het Web, E-mail, Vraag, LinkerBericht, of CRM kan omvatten (d.w.z., campagnecollecultuur voor off-line kanalen)
+A: Het &quot;Type van Aanraking van de Marketing&quot;is het type van overeenkomst, die Web Visit, de Vorm van het Web, het Praatje van het Web, E-mail, Vraag, LinkerBericht, of CRM kan omvatten (d.w.z., campagnecollecentrum voor off-line kanalen)
 
 **V: Hoe filtreer ik alle websessies van de reis?**
 
-A: Met het filter &#39;Aanraaktype op de markt&#39; stelt u het filter in op &#39;bevat geen webbezoek&#39; OF &#39;bevat [alle aanraaktypen behalve Web Visit]en klik vervolgens op Uitvoeren
+A: Gebruik het filter &#39;Marketing Touch Type&#39; om het filter in te stellen op &#39;bevat geen webbezoek&#39; OF &#39;bevat [alle aanraaktypen behalve Web Visit]en klik vervolgens op Uitvoeren
 
 **V: Kan ik de gegevens exporteren?**
 
-A: Ja, wanneer u de muisaanwijzer boven de tabel &#39;Reis of Events&#39; houdt, klikt u op de drie verticale stippen in de rechterbovenhoek. Hierdoor kunt u de gegevens in de volgende indelingen downloaden: TXT, CSV, XLS, JSON, HTML en Markdown.
+A: Ja, wanneer u de muisaanwijzer boven de tabel &#39;Journey of Events&#39; houdt, klikt u op de drie verticale stippen in de rechterbovenhoek. Hierdoor kunt u de gegevens in de volgende indelingen downloaden: TXT, CSV, XLS, JSON, HTML en Markdown.
 
 **V: Kan ik wijzigen hoe de tabel wordt gesorteerd?**
 

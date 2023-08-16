@@ -2,7 +2,8 @@
 description: "[!DNL Marketo Measure] Rapportsjabloon - Power BI - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Rapportsjabloon - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '2557'
 ht-degree: 0%
@@ -19,7 +20,7 @@ De Adobe openen [!DNL Marketo Measure] Sjabloonbestand rapporteren...
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)
 
-U kunt uw specifieke Server, Warehouse, en informatie van het Schema in vinden [!DNL Marketo Measure] UI op [!DNL Data Warehouse] informatiepagina. De instructies voor het vinden van deze pagina zijn gedetailleerd [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+U kunt uw specifieke Server, Warehouse, en informatie van het Schema in vinden [!DNL Marketo Measure] UI op de [!DNL Data Warehouse] informatiepagina. De instructies voor het vinden van deze pagina zijn gedetailleerd [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 De parameters QueryFilterStartDate en QueryFilterEndDate worden gebruikt om de hoeveelheid geïmporteerde gegevens te beperken. Deze parameters moeten in SQL formaat zijn aangezien zij aan in de vragen worden gebruikt die worden verzonden naar [!DNL Snowflake]. Bijvoorbeeld, als u gegevens tot de afgelopen twee jaar wilt beperken, zou QueryFilterStartDate dateadd zijn (jaar, - 2,current_date()). Deze parameters worden vergeleken tegen datetime gegevenstypes, zodat wordt het geadviseerd om dateadd (dag,1,current_date()) voor QueryFilterEndDate te gebruiken om alle gegevens aan de huidige tijd terug te keren.
 
@@ -45,12 +46,12 @@ Alle query&#39;s filteren verwijderde rijen en de [!UICONTROL facts] tabellen zi
 
 ![](assets/marketo-measure-report-template-power-bi-3.png)
 
-De volgende tabellen worden behandeld als tabellen met feiten. de datumlimieten op de gewijzigde datum zijn toegevoegd aan deze vragen.
+De volgende lijsten worden behandeld als feitenlijsten; de datumgrenzen op gewijzigde datum zijn toegevoegd aan deze vragen.
 
 * Activiteit
 * Aanraakpunt
 * Aanraakpunt lead
-* Aanraakpunt kenmerk
+* Attributie-aanraakpunt
 * Kosten
 * Siteformulier
 * Sessie
@@ -60,12 +61,12 @@ De volgende tabellen worden behandeld als tabellen met feiten. de datumlimieten 
 * Werkgebiedovergang voor lead/contact
 * Overgang opportunity-werkgebied
 
-De volgende tabellen worden behandeld als dimensietabellen. er zijn geen datumlimieten ingesteld voor deze query &#39; s .
+De volgende lijsten worden behandeld als afmetingslijsten; geen datumgrenzen worden geplaatst voor deze vragen.
 
 * Account
 * Campagne
 * Contact
-* Omzetsnelheid
+* Conversiesnelheid
 * Opportunity
 * Lood
 * Werkgebied
@@ -86,7 +87,6 @@ Om het gegevensmodel te vereenvoudigen en overtollige en onnodige gegevens te ve
 >* Wees voorzichtig wanneer u extra waarden voor vreemde sleutels toevoegt. Power BI wordt vaak ingesteld op automatische detectie van relaties in het model en het toevoegen van waarden voor externe sleutels kan ongewenste koppelingen tussen tabellen tot gevolg hebben en/of bestaande relaties uitschakelen.
 >
 >* De meeste tabellen in de [!DNL Marketo Measure] data-entrepot bevat gedenormaliseerde dimensionale gegevens. We hebben er alles aan gedaan om het model zoveel mogelijk in Power BI te normaliseren en op te schonen om de prestaties en gegevensnauwkeurigheid te verbeteren. Wees voorzichtig met het opnemen van eventuele aanvullende gedenormaliseerde velden in feitentabellen, dit kan het filteren van dimensies in verschillende tabellen afbreken en kan ook leiden tot onjuiste rapportage.
-
 
 
 ![](assets/marketo-measure-report-template-power-bi-5.png)
@@ -133,13 +133,13 @@ Gebeurtenisgegevens, die worden gebruikt voor het maken van aanraakpunten, worde
 
 Aanraakpunten voor leads en kenmerkaanraakpunten worden in hun eigen tabellen opgeslagen, met een koppeling naar de aanraakpunttabel. De meeste dimensionale gegevens voor aanraakpunten Lead en Attribution worden afkomstig van de koppeling naar het overeenkomstige aanraakpunt.
 
-In dit model zijn de afmetingen voor Campagne en Kanaal gekoppeld aan het aanraakpunt. Alle rapportage over deze afmetingen vindt dus plaats via deze koppeling. Dit betekent dat dimensionale rapportage over gebeurtenisgegevens mogelijk onvolledig is. Veel gebeurtenissen hebben namelijk pas koppelingen naar deze afmetingen nadat ze zijn verwerkt tot aanraakpunten. Opmerking: Sommige gebeurtenissen, zoals sessies, hebben directe koppelingen naar de afmetingen Campagne en Kanaal. Als het rapporteren op het niveau van de Zitting over deze dimensies gewenst is, adviseert men dat een afzonderlijk gegevensmodel voor dit doel wordt gecreeerd.
+In dit model zijn de afmetingen voor Campagne en Kanaal gekoppeld aan het aanraakpunt. Alle rapportage over deze afmetingen vindt dus plaats via deze koppeling. Dit betekent dat dimensionale rapportage over gebeurtenisgegevens mogelijk onvolledig is. Veel gebeurtenissen hebben namelijk pas koppelingen naar deze afmetingen nadat ze zijn verwerkt tot aanraakpunten. Opmerking: sommige gebeurtenissen, zoals sessies, hebben directe koppelingen naar de afmetingen Campagne en Kanaal. Als het rapporteren op het niveau van de Zitting over deze dimensies wordt gewenst, adviseert men dat een afzonderlijk gegevensmodel voor dit doel wordt gecreeerd.
 
-Kostengegevens worden opgeslagen op verschillende aggregatieniveaus binnen de [!DNL Snowflake] de lijst van de Kostprijs van het gegevenspakhuis. Voor alle advertentieleveranciers, kunnen de het niveaugegevens van de Campagne tot het niveau van het Kanaal worden uitgebreid. Om deze reden, trekt dit model kostengegevens die op de &quot;campagne_is_aggregatable_cost&quot;vlag worden gebaseerd. De zelf-gemelde kosten kunnen op het niveau van het Kanaal slechts worden voorgelegd, en worden vereist niet om de gegevens van de Campagne te hebben. Om de nauwkeurigste mogelijke kostenrapportage mogelijk te maken, worden zelf-gerapporteerde kosten opgehaald op basis van de markering &quot;channel_is_aggregatable_cost&quot;. De vraag die kostengegevens invoert wordt geschreven met de volgende logica: Als ad_provider = &quot;SelfReported&quot; then channel_is_aggregatable_cost = true, else campagne_is_aggregatable_cost = true.
+Kostengegevens worden opgeslagen op verschillende aggregatieniveaus binnen de [!DNL Snowflake] de lijst van de Kostprijs van het gegevenspakhuis. Voor alle advertentieleveranciers, kunnen de het niveaugegevens van de Campagne tot het niveau van het Kanaal worden uitgebreid. Om deze reden, trekt dit model kostengegevens die op de &quot;campagne_is_aggregatable_cost&quot;vlag worden gebaseerd. De zelf-gemelde kosten kunnen op het niveau van het Kanaal slechts worden voorgelegd, en worden vereist niet om de gegevens van de Campagne te hebben. Om de nauwkeurigste mogelijke kostenrapportage mogelijk te maken, worden zelf-gerapporteerde kosten opgehaald op basis van de markering &quot;channel_is_aggregatable_cost&quot;. De vraag die kostengegevens invoert wordt geschreven met de volgende logica: Als ad_provider = &quot;SelfReported&quot; dan channel_is_aggregatable_cost = waar, else campagne_is_aggregatable_cost = waar.
 
 De gegevens van de kosten en de gegevens van het Aanraakpunt hebben sommige gemeenschappelijke dimensies, zodat hebben beide feitenlijsten verhoudingen met de de afmetingslijsten van de Campagne en van het Kanaal.
 
-In het kader van dit model [!UICONTROL Lead], [!UICONTROL Contact], [!UICONTROL Account], en [!UICONTROL Opportunity] gegevens worden beschouwd als dimensionale gegevens en rechtstreeks aan de [!UICONTROL Lead] Aanraakpunt en [!UICONTROL Attribution] Tabellen met aanraakpunten.
+In het kader van dit model [!UICONTROL Lead], [!UICONTROL Contact], [!UICONTROL Account], en [!UICONTROL Opportunity] gegevens worden beschouwd als dimensionale gegevens en worden rechtstreeks aan de [!UICONTROL Lead] Aanraakpunt en [!UICONTROL Attribution] Aanraakpunttabellen.
 
 ### Toegevoegde tabellen {#added-tables}
 
@@ -164,7 +164,7 @@ De koersen in de tabel Conversierente geven de waarde aan die nodig is om een be
 
 Omdat conversiekoersen niet statisch hoeven te zijn en kunnen worden gewijzigd met opgegeven datumbereiken, moeten alle berekeningen voor valutaomrekening op rijniveau worden uitgevoerd. Aangezien de conversiekoersen betrekking hebben op een specifiek datumbereik, moet de opzoekberekening worden uitgevoerd binnen de DAX van de maatregel, zodat de relatie kan worden gedefinieerd op zowel de valutacode als de datum.
 
-De omrekeningsmaatregelen in dit model vervangen de koers 1,0 als geen omrekeningskoers kan worden vastgesteld. Er zijn afzonderlijke maatregelen genomen om de valutawaarde voor de maatregel weer te geven en er wordt een waarschuwing gegeven als een berekening meer dan één valutawaarde bevat (een waarde kan dus niet in de geselecteerde valuta worden omgezet).
+De omrekeningsmaatregelen in dit model vervangen de koers 1,0 als geen omrekeningskoers kan worden vastgesteld. Er zijn afzonderlijke maatregelen genomen om de valutawaarde voor de maatregel weer te geven en er wordt een waarschuwing weergegeven als een berekening meer dan één valutawaarde bevat (een waarde kan dus niet in de geselecteerde valuta worden omgezet).
 
 ![](assets/marketo-measure-report-template-power-bi-13.png)
 
@@ -184,7 +184,7 @@ Definities weergeven voor kolommen die rechtstreeks afkomstig zijn van [!DNL Sno
 
 ### Toegewezen inkomsten {#attributed-revenue}
 
-Aanraakpunten met regelafstand en kenmerkaanraakpunten nemen dimensionale gegevens over van het originele aanraakpunt. Het rapportsjabloonmodel genereert alle overgeërfde dimensionale gegevens van de relatie tot het aanraakpunt, terwijl in het detectiemodel de dimensionale gegevens worden gedenormaliseerd naar de aanraakpuntrecords voor leads en Attributies. De totale toegerekende inkomsten of de toegerekende inkomsten uit pijpleidingen moeten tussen de twee verslagen worden afgestemd. Er kunnen echter discrepanties worden waargenomen wanneer de inkomsten worden uitgesplitst of gefilterd op basis van dimensionale gegevens (kanaal, subkanaal of campagne). Als de dimensionale opbrengstbedragen niet tussen het malplaatje en Discover aanpassen, is het waarschijnlijk er ontbrekende aanraakpuntverslagen in de reeks van het malplaatjerapport zijn. Dit gebeurt wanneer er een Lead- of Attribution Touchpoint-record is, maar er is geen overeenkomstige record in de Touchpoint-tabel in de gegevensset die in het rapport is geïmporteerd. Omdat deze tabellen op gewijzigde datum worden gefilterd, is het mogelijk dat de Touchpoint-record voor lead/Attribution later is gewijzigd dan de Touchpoint-record. Hierdoor is het aanraakpunt voor lead/Attribution in de gegevensset geïmporteerd terwijl de oorspronkelijke Touchpoint-record dat niet was. Als u dit probleem wilt verhelpen, vergroot u het gefilterde datumbereik voor de tabel met aanraakpunten of verwijder de datumbeperking samen. Opmerking: Het aanraakpunt is een grote tabel. Houd daarom rekening met de voordelen van een vollediger gegevensset in vergelijking met de hoeveelheid gegevens die moet worden geïmporteerd.
+Aanraakpunten met regelafstand en kenmerkaanraakpunten nemen dimensionale gegevens over van het originele aanraakpunt. Het rapportsjabloonmodel genereert alle overgeërfde dimensionale gegevens van de relatie tot het aanraakpunt, terwijl in het detectiemodel de dimensionale gegevens worden gedenormaliseerd naar de aanraakpuntrecords voor leads en Attributies. De totale toegerekende inkomsten of de toegerekende inkomsten uit pijpleidingen moeten tussen de twee verslagen worden afgestemd. Er kunnen echter discrepanties worden waargenomen wanneer de inkomsten worden uitgesplitst of gefilterd op basis van dimensionale gegevens (kanaal, subkanaal of campagne). Als de dimensionale opbrengstbedragen niet tussen het malplaatje en Discover aanpassen, is het waarschijnlijk er ontbrekende aanraakpuntverslagen in de reeks van het malplaatjerapport zijn. Dit gebeurt wanneer er een Lead- of Attribution Touchpoint-record is, maar er is geen overeenkomstige record in de Touchpoint-tabel in de gegevensset die in het rapport is geïmporteerd. Omdat deze tabellen op gewijzigde datum worden gefilterd, is het mogelijk dat de Touchpoint-record voor lead/Attribution later is gewijzigd dan de Touchpoint-record. Hierdoor is het aanraakpunt voor lead/Attribution in de gegevensset geïmporteerd terwijl de oorspronkelijke Touchpoint-record dat niet was. Als u dit probleem wilt verhelpen, vergroot u het gefilterde datumbereik voor de tabel met aanraakpunten of verwijder de datumbeperking samen. Opmerking: het aanraakpunt is een grote tabel. Houd daarom rekening met de voordelen van een vollediger gegevensset ten opzichte van de hoeveelheid gegevens die moet worden geïmporteerd.
 
 ### Kosten {#cost}
 
@@ -196,13 +196,13 @@ Aangezien het rendement van investeringen wordt berekend op basis van toegereken
 
 ### Aanraakpunten {#touchpoints}
 
-Deze metriek, zoals aangetoond in de rapporteringsmalplaatjes, wordt niet weerspiegeld in Discover. Er is momenteel geen directe vergelijking mogelijk.
+Deze metriek, zoals aangetoond in de rapporteringsmalplaatjes, wordt niet weerspiegeld in Discover. Er is momenteel geen directe vergelijking mogelijk tussen beide.
 
 ### Webverkeer {#web-traffic}
 
 Het gegevensmodel van het rapportmalplaatje normaliseert kanaal, subchannel, en campagnedimensionele gegevens via het verband tussen Zitting en Aanraakpunt. Dit is anders dan het gegevensmodel Discover, dat deze dimensies aan Zitting ontleedt. Wegens dit onderscheid, zouden de totale aantallen voor bezoeken en bezoekers tussen Discover en het rapporteringsmalplaatje moeten aanpassen, echter, zodra getoond of gefilterd door dimensie, worden deze aantallen niet verwacht om op te zetten. De reden hiervoor is dat de dimensionale gegevens in de sjabloon alleen beschikbaar zijn voor webgebeurtenissen die tot een aanraakpunt hebben geleid (d.w.z. niet-anonieme gebeurtenissen). Raadpleeg voor meer informatie de [Gegevensmodel](#data-model) van deze documentatie.
 
-Er kunnen kleine verschillen zijn tussen de tellingen van de totale site [!DNL Discover] en de sjabloon. Dit komt omdat het gegevensmodel in het rapporteringsmalplaatje dimensionele gegevens voor de Vorm van de Plaats via een verhouding aan Zitting en toen Aanraakpunt verkrijgt; er zijn enkele gevallen waarin de gegevens van het siteformulier geen gecorreleerde sessie hebben.
+Er kunnen kleine verschillen zijn tussen de tellingen van de totale site [!DNL Discover] en de sjabloon. Dit komt omdat het gegevensmodel in het rapporteringsmalplaatje dimensionele gegevens voor de Vorm van de Plaats via een verhouding aan Zitting en dan Aanraakpunt verkrijgt; er zijn een paar gevallen waar de gegevens van de plaatvorm geen gecorreleerde zitting hebben.
 
 ### Leads en accounts {#leads-and-accounts}
 

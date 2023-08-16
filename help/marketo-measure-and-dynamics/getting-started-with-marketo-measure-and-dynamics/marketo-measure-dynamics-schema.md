@@ -3,7 +3,8 @@ unique-page-id: 18874523
 description: "[!DNL Marketo Measure] Dynamisch schema - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Dynamisch schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -109,7 +110,7 @@ Dit diagram is een grote visualisatie van de relaties tussen de Dynamics Stock-e
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Lead_Conversion_Touch</p></td> 
+   <td><p>bizible2_Count_lead_conversion_touch</p></td> 
    <td><p>Aangepast</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 

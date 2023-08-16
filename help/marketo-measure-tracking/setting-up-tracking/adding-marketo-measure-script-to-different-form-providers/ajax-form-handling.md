@@ -3,7 +3,8 @@ unique-page-id: 18874745
 description: Formulierverwerking AJAX - [!DNL Marketo Measure] - Productdocumentatie
 title: Formulierverwerking AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Formulierverwerking AJAX {#ajax-form-handling}
 
-Om klantenomzettingen aan manueel te melden [!DNL Marketo Measure], hebben we een zeer eenvoudige API beschikbaar gesteld die u kunt gebruiken. Beide Javascript-API&#39;s zijn automatisch beschikbaar op uw site als er onze trackingcode op staat. Het is niet nodig om iets speciaals te doen om toegang te krijgen.
+Om klantenomzettingen aan manueel te melden [!DNL Marketo Measure]Wij hebben een eenvoudige API beschikbaar gesteld die u kunt gebruiken. Beide Javascript-API&#39;s zijn automatisch beschikbaar op uw site als er onze trackingcode op staat. Het is niet nodig om iets speciaals te doen om toegang te krijgen.
 
 ## Scenario 1 - HTML formulier met AJAX verzenden {#scenario-html-form-with-an-ajax-submit}
 

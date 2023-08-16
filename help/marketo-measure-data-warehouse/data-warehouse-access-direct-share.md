@@ -2,7 +2,8 @@
 description: Toegang tot Data Warehouse - Direct delen - Productdocumentatie
 title: Toegang tot Data Warehouse - Direct delen
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
-source-git-commit: 36ee02b2dfc2651987f72fc7f02fe629717f02a0
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Open de **Instellingen** in de Marketo Measure-app en navigeer naar de **Data Wa
 
 ## Toegang tot het delen {#accessing-the-share}
 
-Nadat het aandeel voor de opgegeven account-id is gemaakt, moet u het [stappen instellen](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} binnen uw instantie van de Snowflake om tot de gegevens toegang te hebben.
+Nadat het aandeel voor de opgegeven account-id is gemaakt, moet u het [installatiestappen](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} binnen uw instantie van de Snowflake om tot de gegevens toegang te hebben.
 
 >[!NOTE]
 >

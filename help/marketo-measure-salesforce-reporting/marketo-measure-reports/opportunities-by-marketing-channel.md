@@ -3,7 +3,8 @@ unique-page-id: 18874628
 description: Kanaal voor marketing - [!DNL Marketo Measure] - Productdocumentatie
 title: Kanalen via marketingkanaal
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Channels, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Kanalen via marketingkanaal {#opportunities-by-marketing-channel}
 
-Dit rapport behandelt het aantal kansen die door uw Kanalen van de Marketing worden geproduceerd; het omvat al uw mogelijkheden. Nochtans, kunt u dit rapport filtreren om specifieke soorten kansen te analyseren.
+Dit rapport behandelt het aantal kansen die door uw Kanalen van de Marketing worden geproduceerd; het omvat al uw kansen. Nochtans, kunt u dit rapport filtreren om specifieke soorten kansen te analyseren.
 
 1. Klik op de knop **[!UICONTROL Reports]** in Salesforce en selecteert u **[!UICONTROL New Report]**.
 
@@ -30,8 +31,8 @@ Dit rapport behandelt het aantal kansen die door uw Kanalen van de Marketing wor
 
 1. Voer nu het rapport uit en analyseer het!
 
-   Dit is een rapport van Kansen dat door het Kanaal van de Marketing wordt samengevat. Dit rapport is gericht op alle Opps, maar voelt vrij om te filtreren gebaseerd van stadium/type van kans. Bovendien, voel vrij om in om het even welke gebieden toe te voegen die u zou willen melden.
+   Dit is een rapport van Kansen samengevat door het Kanaal van de Marketing. Dit rapport is gericht op alle Opps, maar voelt vrij om te filtreren gebaseerd van stadium/type van kans. Bovendien, voel vrij om in om het even welke gebieden toe te voegen die u zou willen melden.
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universiteit: Stock SFDC-rapporten](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[[!DNL Marketo Measure] University: Stock SFDC-rapporten](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)

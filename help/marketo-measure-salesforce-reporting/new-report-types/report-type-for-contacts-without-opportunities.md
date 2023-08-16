@@ -3,7 +3,8 @@ unique-page-id: 18874616
 description: Rapporttype voor contactpersonen zonder kansen - [!DNL Marketo Measure] - Productdocumentatie
 title: Rapporttype voor contactpersonen zonder kansen
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 >
 >Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie , maar nog steeds &quot;[!DNL Bizible]&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-Om over Contacten met de Aanraakpunten van de Koper te melden die niet aan een Kans worden geassocieerd, moet u een type van douanerapport tot stand brengen.
+Om over Contacten met de Aanraakpunten van de Koper te rapporteren die niet aan een Kans worden geassocieerd, moet u een type van douanerapport tot stand brengen.
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Report Types]**.
 
@@ -26,7 +27,7 @@ Om over Contacten met de Aanraakpunten van de Koper te melden die niet aan een K
 
    ![](assets/2.jpg)
 
-1. Stel de [!UICONTROL Primary Object] als &quot;[!UICONTROL Contacts].&quot; Geef het rapporttype de naam &quot;Contactpersonen met aanraakpunten koper&quot;. Gebruik het zelfde noemen voor de Naam van het Type van Rapport. Binnen de ingevoerde beschrijving, &quot;Contacten met de Aanraakpunten van de Koper.&quot; Sla het rapport op in de &quot;[!UICONTROL Other]&quot; en stel het rapport in op &quot;[!UICONTROL Deployed].&quot;
+1. Stel de [!UICONTROL Primary Object] als &quot;[!UICONTROL Contacts].&quot; Geef het rapporttype Label de naam &quot;Contactpersonen met aanraakpunten koper&quot;. Gebruik het zelfde noemen voor de Naam van het Type van Rapport. Binnen de ingevoerde beschrijving, &quot;Contacten met de Aanraakpunten van de Koper.&quot; Sla het rapport op in de &quot;[!UICONTROL Other]&quot; en stel het rapport in op &quot;[!UICONTROL Deployed].&quot;
 
    ![](assets/3.jpg)
 

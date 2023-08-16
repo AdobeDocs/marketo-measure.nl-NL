@@ -3,7 +3,8 @@ unique-page-id: 35586140
 description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '22610'
 ht-degree: 3%
@@ -18,7 +19,6 @@ Met Data Warehouse kunt u zoveel bijhouden als u wilt, gegevens rapporteren over
 >
 >* Rijen met een waarde voor _DELETED_DATE worden 7 dagen bewaard en vervolgens uit Snowflake verwijderd.
 >* De tijdzones die in Snowflake worden gebruikt, voldoen aan de UTC (Coordinated Universal Time).
-
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
     <tr>
       <td>NAAM</td>
       <td>varchar</td>
-      <td>De naam van de account, van het bronsysteem.</td>
+      <td>De accountnaam, van het bronsysteem.</td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
@@ -127,7 +127,7 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
       <td>Aangepaste eigenschappen die [!DNL Marketo Measure] heeft vanuit het bronsysteem geïmporteerd, in JSON-indeling.</td>
-      <td>{"Account_Type__c": "Security", "Foo":"Bar"}</td>
+      <td>{"Account_Type__c": "Security", "foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -232,7 +232,7 @@ Toewijzingstabel tussen bekende e-mailadressen en accounts van leads/contactpers
         <p>boolean</p>
       </td>
       <td>
-        <p>Of de record al dan niet als verwijderd wordt beschouwd.</p>
+        <p>Of de record wordt beschouwd als verwijderd.</p>
       </td>
       <td>
         <p>false</p>
@@ -544,7 +544,7 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>varchar</p>
       </td>
       <td>
-        <p>Id van de campagne voor de advertentie.</p>
+        <p>Id van campagne voor advertentie.</p>
       </td>
       <td>
         <p>fb.106851586409075,6052044288804</p>
@@ -631,7 +631,7 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>Naam van de Advertentie, van het bronsysteem.</p>
       </td>
       <td>
-        <p>Ad 2</p>
+        <p>2 AD</p>
       </td>
     </tr>
     <tr>
@@ -643,7 +643,7 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>
         <p>Of de advertentie moet worden bijgewerkt [!DNL Marketo Measure] labelen.</p>
-        <p>(Diagnostisch veld, gebruikt door interne verwerking.)</p>
+        <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>
         <p>false</p>
@@ -656,7 +656,7 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>Diagnostisch veld, gebruikt voor interne verwerking.</td>
+      <td>Diagnostisch veld voor interne verwerking.</td>
       <td>
         <p>fb.106851586409075.605204428804.6052044290004</p>
       </td>
@@ -817,7 +817,7 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>De Advertiser-id van het bronsysteem.</td>
+      <td>De advertentie-id van het bronsysteem.</td>
       <td>9143143</td>
     </tr>
     <tr>
@@ -1011,7 +1011,7 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
       </td>
       <td>
         <p>Of de adverteerder moet worden bijgewerkt [!DNL Marketo Measure] labelen.</p>
-        <p>(Diagnostisch veld, gebruikt door interne verwerking.)</p>
+        <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>
         <p>false</p>
@@ -1024,7 +1024,7 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>Diagnostisch veld, gebruikt voor interne verwerking.</td>
+      <td>Diagnostisch veld voor interne verwerking.</td>
       <td></td>
     </tr>
     <tr>
@@ -1035,7 +1035,7 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
         <p>varchar</p>
       </td>
       <td>
-        <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval "Advertiser".</p>
+        <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval, "Advertiser".</p>
       </td>
       <td>
         <p>Adverteerder</p>
@@ -1092,7 +1092,7 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
 
 ### BIZ_AD_ACCOUNTS {#biz-ad-accounts}
 
-Advertentierekeningen die uit om het even welk verbonden Advertentierekening worden ingevoerd.
+Advertentierekeningen die van om het even welk verbonden Advertentierekening worden ingevoerd.
 
 <table>
   <tbody>
@@ -1250,7 +1250,7 @@ Advertentierekeningen die uit om het even welk verbonden Advertentierekening wor
         <p>boolean</p>
       </td>
       <td>
-        <p>Hiermee wordt aangegeven of de advertentieaccount al dan niet is verwijderd in het bronsysteem.</p>
+        <p>Hiermee wordt aangegeven of de advertentieaccount is verwijderd uit het bronsysteem.</p>
       </td>
       <td>
         <p>false</p>
@@ -1305,7 +1305,7 @@ Advertentierekeningen die uit om het even welk verbonden Advertentierekening wor
       </td>
       <td>
         <p>Of de adverteerder moet worden bijgewerkt [!DNL Marketo Measure] labelen.</p>
-        <p>(Diagnostisch veld, gebruikt door interne verwerking.)</p>
+        <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>
         <p>false</p>
@@ -1318,7 +1318,7 @@ Advertentierekeningen die uit om het even welk verbonden Advertentierekening wor
       <td>
         <p>varchar</p>
       </td>
-      <td>Diagnostisch veld, gebruikt voor interne verwerking.</td>
+      <td>Diagnostisch veld voor interne verwerking.</td>
       <td></td>
     </tr>
     <tr>
@@ -1460,7 +1460,7 @@ Advertentierekeningen die uit om het even welk verbonden Advertentierekening wor
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
       </td>
@@ -1472,7 +1472,7 @@ Advertentierekeningen die uit om het even welk verbonden Advertentierekening wor
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
     <tr>
@@ -1482,7 +1482,7 @@ Advertentierekeningen die uit om het even welk verbonden Advertentierekening wor
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
     <tr>
@@ -1765,7 +1765,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       </td>
       <td>
         <p>Of de campagne moet worden bijgewerkt voor [!DNL Marketo Measure] labelen.</p>
-        <p>(Diagnostisch veld, gebruikt door interne verwerking.)</p>
+        <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>
         <p>false</p>
@@ -1778,7 +1778,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>varchar</p>
       </td>
-      <td>Diagnostisch veld, gebruikt voor interne verwerking.</td>
+      <td>Diagnostisch veld voor interne verwerking.</td>
       <td></td>
     </tr>
     <tr>
@@ -1830,7 +1830,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
     <tr>
@@ -1840,7 +1840,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
     <tr>
@@ -1850,7 +1850,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
     <tr>
@@ -2056,7 +2056,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
         <p>varchar</p>
       </td>
       <td>
-        <p>Beschrijving van het advertentieformulier.</p>
+        <p>Beschrijving van het ADF-formulier.</p>
       </td>
       <td>
         <p>Leer hoe intelligente automatisering procesefficiency in hypotheekherfinancieringstoepassingen kan verhogen.</p>
@@ -2069,9 +2069,9 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>varchar</p>
       </td>
-      <td>Titel van het advertentieformulier.</td>
+      <td>Titel van het advertentievorm.</td>
       <td>
-        <p>Het is tijd om het herfinancieringsproces van de Toepassing te automatiseren</p>
+        <p>Het is tijd om het herfinancieringsproces te automatiseren</p>
       </td>
     </tr>
     <tr>
@@ -2081,7 +2081,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>varchar</p>
       </td>
-      <td>De landings URL van het Advertentieformulier.</td>
+      <td>De landings URL van de Advertentie Vorm.</td>
       <td>
         <p>https://adobe.com/blog/refinancing-application-process/</p>
       </td>
@@ -2319,7 +2319,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>boolean</p>
       </td>
       <td>
-        <p>Hiermee wordt aangegeven of de advertentieaccount al dan niet is verwijderd in het bronsysteem.</p>
+        <p>Hiermee wordt aangegeven of de advertentieaccount is verwijderd uit het bronsysteem.</p>
       </td>
       <td>
         <p>false</p>
@@ -2376,7 +2376,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>
         <p>Of de adverteerder moet worden bijgewerkt [!DNL Marketo Measure] labelen.</p>
-        <p>(Diagnostisch veld, gebruikt door interne verwerking.)</p>
+        <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>
         <p>false</p>
@@ -2389,7 +2389,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>Diagnostisch veld, gebruikt voor interne verwerking.</td>
+      <td>Diagnostisch veld voor interne verwerking.</td>
       <td></td>
     </tr>
     <tr>
@@ -2441,7 +2441,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
     <tr>
@@ -2451,7 +2451,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
     <tr>
@@ -2461,7 +2461,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
     <tr>
@@ -2948,7 +2948,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>Platform_NAME</p>
+        <p>PLATFORM_NAME</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2962,7 +2962,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>Platform_VERSION</p>
+        <p>PLATFORM_VERSION</p>
       </td>
       <td>
         <p>varchar</p>
@@ -3153,7 +3153,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>De waarde die de gebruiker in de browser heeft ingevoerd om naar de website te zoeken en op de website is geëindigd. Afhankelijk van het trefwoord dat wordt gekocht, komt dit mogelijk wel of niet overeen met de trefwoorden die zijn aangeschaft op het platform Betaalde zoekopdracht.</p>
       </td>
       <td>
-        <p>google [!DNL Marketo Measure]</p>
+        <p>goochelaar [!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -3670,7 +3670,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>boolean</p>
       </td>
       <td>
-        <p>Geeft aan of dit aanraakpunt wordt verwijderd.</p>
+        <p>Hiermee wordt aangegeven of dit aanraakpunt wordt verwijderd.</p>
       </td>
       <td>
         <p>false</p>
@@ -4292,7 +4292,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
         <p>Bron waarin de Lood werd gecreeerd.</p>
       </td>
       <td>
-        <p>Advertentie</p>
+        <p>Advertisatie</p>
       </td>
     </tr>
     <tr>
@@ -4334,7 +4334,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
         <p>Deze functie is vervangen. Gebruik deze kolom niet.</p>
       </td>
       <td>
-        <p>N.v.t.</p>
+        <p>NVT</p>
       </td>
     </tr>
     <tr>
@@ -4345,7 +4345,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
         <p>varchar</p>
       </td>
       <td>
-        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Voorschrift: Laat Vraag het Volgen toe: Waar</p>
+        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -4378,7 +4378,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
     <tr>
       <td>OTHER_SYSTEM_ID</td>
       <td>varchar</td>
-      <td>Zet een persoon van een integratie van Marketo met een Contact van een integratie van CRM in kaart. Als zowel een CRM als een integratie van Marketo bestaan, is de waarde overeenkomstige Identiteitskaart</td>
+      <td>Zet een persoon van een integratie van Marketo met een Contact van een integratie van CRM in kaart. Als zowel een CRM als Marketo integratie bestaan, is de waarde overeenkomstige Identiteitskaart.</td>
       <td>1234 / 00Q0Z00001OohgTUAR</td>
     </tr>
     <tr>
@@ -4455,7 +4455,7 @@ Wisselkoersen die uit het bronsysteem zijn geïmporteerd.
     <tr>
       <td>START_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Begindatum van de conversiesnelheid.</td>
+      <td>Begindatum van het conversietarief.</td>
       <td>2018-11-01 00:00:00.000</td>
     </tr>
     <tr>
@@ -4531,7 +4531,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>ID</td>
       <td>varchar</td>
       <td>Een unieke id voor de kostenrecord.</td>
-      <td>aw.6601259029.285114995.21703163075.[AdWords Display]_2018-09-06</td>
+      <td>aw.6601259029.285114995.21703163075[AdWords Display]_2018-09-06</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -4614,7 +4614,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
     <tr>
       <td>ADVERTISER_IS_AGGREGATABLE_COST</td>
       <td>boolean</td>
-      <td>Geeft aan of de rij kosten bevat die door Advertiser kunnen worden samengevat. (Als u kosten voor adverteerders wilt ophalen, telt u de som van de rijen waar deze kolom gelijk is aan true.)</td>
+      <td>Geeft aan of de rij kosten bevat die kunnen worden samengevat door Advertiser. (Als u kosten voor adverteerders wilt ophalen, telt u de som van de rijen waar deze kolom gelijk is aan true.)</td>
       <td>false</td>
     </tr>
     <tr>
@@ -4653,7 +4653,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
         <p>boolean</p>
       </td>
       <td>
-        <p>Geeft aan of de rij Kosten bevat die kunnen worden samengevat per account. (Als u bijvoorbeeld Accountkosten wilt ophalen, som de rijen waar deze kolom gelijk is aan true.)</p>
+        <p>Hiermee wordt aangegeven of de rij Kosten bevat die kunnen worden samengevat per account. (Als u bijvoorbeeld Accountkosten wilt ophalen, som de rijen waar deze kolom gelijk is aan true.)</p>
       </td>
       <td>
         <p>false</p>
@@ -4768,7 +4768,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
         <p>Naam van de advertentie die is opgehaald uit de advertentie-verbinding.</p>
       </td>
       <td>
-        <p>Advertentienaam: AD3-320x50.gif; 320 x 50</p>
+        <p>Advertentienaam: Ad3-320x50.gif; 320 x 50</p>
       </td>
     </tr>
     <tr>
@@ -5303,7 +5303,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>
         <p>Of Creative moet worden bijgewerkt voor [!DNL Marketo Measure] labelen.</p>
-        <p>(Diagnostisch veld, gebruikt door interne verwerking.)</p>
+        <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>
         <p>false</p>
@@ -5699,7 +5699,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
         <p>varchar</p>
       </td>
       <td>
-        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Voorschrift: Laat Vraag het Volgen toe: Waar</p>
+        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -5912,7 +5912,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
         <p>varchar</p>
       </td>
       <td>
-        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Voorschrift: Laat Vraag het Volgen toe: Waar</p>
+        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -7117,7 +7117,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>3</td>
     </tr>
     <tr>
-      <td>DATUM</td>
+      <td>DATE</td>
       <td>date</td>
       <td>De datum waarop de gebeurtenis heeft plaatsgevonden.</td>
       <td>2018-08-28</td>
@@ -7340,7 +7340,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Sluit datum voor de Kans, van het bronsysteem.</p>
+        <p>Dichte datum voor de Kans, van het bronsysteem.</p>
       </td>
       <td>
         <p>2018-12-31 07:00:00.000</p>
@@ -7426,7 +7426,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>boolean</p>
       </td>
       <td>
-        <p>Geeft aan of de rij kosten bevat die door Advertiser kunnen worden samengevat. (Als u kosten voor adverteerders wilt ophalen, telt u de som van de rijen waar deze kolom gelijk is aan true.)</p>
+        <p>Geeft aan of de rij kosten bevat die kunnen worden samengevat door Advertiser. (Als u kosten voor adverteerders wilt ophalen, telt u de som van de rijen waar deze kolom gelijk is aan true.)</p>
       </td>
       <td>true</td>
     </tr>
@@ -7438,7 +7438,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>boolean</p>
       </td>
       <td>
-        <p>Geeft aan of de rij Kosten bevat die kunnen worden samengevat per account. (Als u bijvoorbeeld Accountkosten wilt ophalen, som de rijen waar deze kolom gelijk is aan true.)</p>
+        <p>Hiermee wordt aangegeven of de rij Kosten bevat die kunnen worden samengevat per account. (Als u bijvoorbeeld Accountkosten wilt ophalen, som de rijen waar deze kolom gelijk is aan true.)</p>
       </td>
       <td>
         <p>false</p>
@@ -7548,7 +7548,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>boolean</p>
       </td>
       <td>
-        <p>Of de record al dan niet is verwijderd, wordt gebruikt als audittrail.</p>
+        <p>Of de record is verwijderd, wordt gebruikt als audittrail.</p>
       </td>
       <td>
         <p>false</p>
@@ -8020,7 +8020,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
         <p>varchar</p>
       </td>
       <td>
-        <p>Het opgenomen IP-adres op het moment van de depressie.</p>
+        <p>Het opgenomen IP-adres op het moment van de onderdrukking.</p>
       </td>
       <td>174.127.184.158</td>
     </tr>
@@ -8516,7 +8516,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
     </tr>
     <tr>
       <td>
-        <p>Platform_NAME</p>
+        <p>PLATFORM_NAME</p>
       </td>
       <td>
         <p>varchar</p>
@@ -8530,7 +8530,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
     </tr>
     <tr>
       <td>
-        <p>Platform_VERSION</p>
+        <p>PLATFORM_VERSION</p>
       </td>
       <td>
         <p>varchar</p>
@@ -8754,7 +8754,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
         <p>Id van Advertentiegroep voor het Sleutelwoord.</p>
       </td>
       <td>
-        <p>ba.3284209.132630532.3646889365</p>
+        <p>ba.3284209.132630532.364689365</p>
       </td>
     </tr>
     <tr>
@@ -8793,7 +8793,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
         <p>varchar</p>
       </td>
       <td>
-        <p>Naam van de Campagne voor het Sleutelwoord.</p>
+        <p>Naam van de campagne voor het trefwoord.</p>
       </td>
       <td>
         <p>Belastingkenmerk</p>
@@ -8807,7 +8807,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
         <p>boolean</p>
       </td>
       <td>
-        <p>Hiermee wordt aangegeven of het trefwoord nog steeds actief is in het bronsysteem.</p>
+        <p>Of het trefwoord nog steeds actief is in het bronsysteem.</p>
       </td>
       <td>
         <p>true</p>
@@ -8889,9 +8889,9 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>Diagnostisch veld, gebruikt voor interne verwerking.</td>
+      <td>Diagnostisch veld voor interne verwerking.</td>
       <td>
-        <p>ba.3284209.132630532.3646889365</p>
+        <p>ba.3284209.132630532.364689365</p>
       </td>
     </tr>
     <tr>
@@ -9002,7 +9002,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</td>
     </tr>
     <tr>
@@ -9012,7 +9012,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
     <tr>
@@ -9022,7 +9022,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>Wordt gebruikt voor interne diagnostiek.</td>
+      <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
     <tr>
@@ -9032,7 +9032,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>De URL-volgsjabloon [!DNL Marketo Measure] toegevoegd aan het trefwoord.</td>
+      <td>De URL-trackingsjabloon [!DNL Marketo Measure] toegevoegd aan het trefwoord.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
       </td>
@@ -9448,7 +9448,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
         <p>Bron waarin de Lood werd gecreeerd.</p>
       </td>
       <td>
-        <p>Advertentie</p>
+        <p>Advertisatie</p>
       </td>
     </tr>
     <tr>
@@ -9515,7 +9515,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
         <p>varchar</p>
       </td>
       <td>
-        <p>Id van het toegewezen account. Eisen: ABM inschakelen</p>
+        <p>Id van het toegewezen account. Vereisten: ABM inschakelen</p>
       </td>
       <td>
         <p>0010Z0000236F9GQAU</p>
@@ -9560,7 +9560,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
         <p>Deze functie is vervangen. Gebruik deze kolom niet.</p>
       </td>
       <td>
-        <p>N.v.t.</p>
+        <p>NVT</p>
       </td>
     </tr>
     <tr>
@@ -9599,7 +9599,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
         <p>varchar</p>
       </td>
       <td>
-        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Voorschrift: Laat Vraag het Volgen toe: Waar</p>
+        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -9652,7 +9652,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
     <tr>
       <td>OTHER_SYSTEM_ID</td>
       <td>varchar</td>
-      <td>Zet een persoon van een integratie van Marketo met een Lood van een integratie van CRM in kaart. Als zowel een CRM als een integratie van Marketo bestaan, is de waarde overeenkomstige Identiteitskaart</td>
+      <td>Zet een persoon van een integratie van Marketo met een Lood van een integratie van CRM in kaart. Als zowel een CRM als Marketo integratie bestaan, is de waarde overeenkomstige Identiteitskaart.</td>
       <td>1234</td>
     </tr>
     <tr>
@@ -9870,7 +9870,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
         <p>boolean</p>
       </td>
       <td>
-        <p>Hiermee wordt aangegeven of de rij is gekoppeld aan een overgang van een mijlpaal in het werkgebied. Als er bijvoorbeeld drie fasen/ingangen (FT, LC, MQL) en vier aanraakpunten zijn, wordt het 1 aanraakpunt zonder een stadium op het punt beschouwd als "niet-tijdelijk", zodat de waarde gelijk is.</p>
+        <p>Hiermee wordt aangegeven of de rij is gekoppeld aan een overgangsfase van een mijlpaal. Als er bijvoorbeeld drie fasen/ingangen (FT, LC, MQL) en vier aanraakpunten zijn, wordt het 1 aanraakpunt zonder een stadium op het punt beschouwd als "niet-tijdelijk", zodat de waarde gelijk is.</p>
       </td>
       <td>
         <p>false</p>
@@ -10118,7 +10118,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       </td>
       <td>
         <p>De id van de gerelateerde lead die is omgezet in deze opportunity.</p>
-        <p>Merk op dat dit gebied niet wordt geplaatst en ongeldig in Snowflake voor alle klanten terugkeert.</p>
+        <p>Dit veld is niet ingesteld en retourneert null in Snowflake voor alle klanten.</p>
       </td>
       <td>
         <p>null</p>
@@ -10133,7 +10133,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       </td>
       <td>
         <p>De e-mail van de gerelateerde lead die is geconverteerd naar deze opportunity.</p>
-        <p>Merk op dat dit gebied niet wordt geplaatst en ongeldig in Snowflake voor alle klanten terugkeert.</p>
+        <p>Dit veld is niet ingesteld en retourneert null in Snowflake voor alle klanten.</p>
       </td>
       <td>
         <p>null</p>
@@ -10178,7 +10178,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
         <p>Deze functie is vervangen. Gebruik deze kolom niet.</p>
       </td>
       <td>
-        <p>N.v.t.</p>
+        <p>NVT</p>
       </td>
     </tr>
     <tr>
@@ -10305,7 +10305,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Een unieke id voor de overgang.</p>
       </td>
       <td>
-        <p>ST_0060Z0000nEgjlQAC_0030Z0003IjojKQAR_Demo Scheduled-1_BAT2_0060Z0000nEgjlQAC_0030Z 00003IjojKQAR_2018-06-01:19-51-38-1685390.beec556e7757</p>
+        <p>ST_0060Z0000nEgjlQAC_0030Z0003IjojKQAR_Demo Scheduled-1_BAT2_0060Z0000nEgjlQAC_0030Z 00003IjojKQAR_2018-06-01:19-51-38-1685390.beec556e757</p>
       </td>
     </tr>
     <tr>
@@ -10480,7 +10480,7 @@ Werkgebiedovergangen voor opportunity.
         <p>boolean</p>
       </td>
       <td>
-        <p>Hiermee wordt aangegeven of de rij is gekoppeld aan een overgang van een mijlpaal in het werkgebied. Als er bijvoorbeeld drie fasen/ingangen (FT, LC, MQL) en vier aanraakpunten zijn, wordt het 1 aanraakpunt zonder een stadium op het punt beschouwd als "niet-tijdelijk", zodat de waarde gelijk is.</p>
+        <p>Hiermee wordt aangegeven of de rij is gekoppeld aan een overgangsfase van een mijlpaal. Als er bijvoorbeeld drie fasen/ingangen (FT, LC, MQL) en vier aanraakpunten zijn, wordt het 1 aanraakpunt zonder een stadium op het punt beschouwd als "niet-tijdelijk", zodat de waarde gelijk is.</p>
       </td>
       <td>
         <p>false</p>
@@ -11095,7 +11095,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       </td>
       <td>
         <p>Of de plaatsing moet worden bijgewerkt [!DNL Marketo Measure] labelen.</p>
-        <p>(Diagnostisch veld, gebruikt door interne verwerking.)</p>
+        <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>false</td>
     </tr>
@@ -11542,7 +11542,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>varchar</p>
       </td>
       <td>
-        <p>De waarde die de gebruiker in de browser heeft ingevoerd om naar de website te zoeken en op de website is geëindigd.</p>
+        <p>De waarde die de gebruiker heeft ingevoerd in de browser om te zoeken en op de website is beland.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] goochelarij</p>
@@ -11598,7 +11598,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>boolean</p>
       </td>
       <td>
-        <p>Geeft aan of de sessie een e-mailadres heeft of niet.</p>
+        <p>Of de sessie een e-mailadres heeft of niet.</p>
       </td>
       <td>
         <p>false</p>
@@ -11849,7 +11849,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Id van Creative the Ad is opgelost vanuit. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
-        <p>aw.6601259029.321586235.23182235435.8355898035</p>
+        <p>aw.6601259029.321586235.23182235435.835898035</p>
       </td>
     </tr>
     <tr>
@@ -12437,7 +12437,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>varchar</p>
       </td>
-      <td>Diagnostisch veld, gebruikt voor interne verwerking.</td>
+      <td>Diagnostisch veld voor interne verwerking.</td>
       <td></td>
     </tr>
     <tr>
@@ -12636,7 +12636,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
         <p>De id van de campagne voor de site-koppeling</p>
       </td>
       <td>
-        <p>aw.6601259029.285077795</p>
+        <p>aw.6601259029.28507795</p>
       </td>
     </tr>
     <tr>
@@ -12744,7 +12744,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       </td>
       <td></td>
       <td>
-        <p>aw.6601259029.285077795</p>
+        <p>aw.6601259029.28507795</p>
       </td>
     </tr>
     <tr>
@@ -13407,7 +13407,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>Platform_NAME</p>
+        <p>PLATFORM_NAME</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13421,7 +13421,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>Platform_VERSION</p>
+        <p>PLATFORM_VERSION</p>
       </td>
       <td>
         <p>varchar</p>
@@ -14106,7 +14106,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>boolean</p>
       </td>
       <td>
-        <p>Geeft aan of dit aanraakpunt wordt verwijderd.</p>
+        <p>Hiermee wordt aangegeven of dit aanraakpunt wordt verwijderd.</p>
       </td>
       <td>
         <p>false</p>
@@ -14584,7 +14584,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
     </tr>
     <tr>
       <td>
-        <p>Platform_NAME</p>
+        <p>PLATFORM_NAME</p>
       </td>
       <td>
         <p>varchar</p>
@@ -14598,7 +14598,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
     </tr>
     <tr>
       <td>
-        <p>Platform_VERSION</p>
+        <p>PLATFORM_VERSION</p>
       </td>
       <td>
         <p>varchar</p>
@@ -14635,7 +14635,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>De eerste openingspagina van de sessie die tot een aanraakpunt heeft geleid. Een onbewerkte bestemmingspagina bevat alle queryparameters in de URL. In de CRM aangeduid als "Landing Page - Raw".</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maat%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ markto+%maat%27s+Pipeline+Marketing+blog%29</p>
       </td>
     </tr>
     <tr>
@@ -15332,7 +15332,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe ECID 
         <p>EVENT_DATE</p>
       </td>
       <td>timestamp_ntz</td>
-      <td>Datum waarop de toewijzing is vastgelegd.</td>
+      <td>De datum waarop de toewijzing is vastgelegd.</td>
       <td>
         <p>2020-06-17 19:03:36.000</p>
       </td>

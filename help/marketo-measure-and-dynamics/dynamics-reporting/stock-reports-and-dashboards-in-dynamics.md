@@ -3,7 +3,8 @@ unique-page-id: 18874612
 description: Stock Reports and Dashboards in Dynamics - [!DNL Marketo Measure] - Productdocumentatie
 title: Stock Reports and Dashboards in Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 0%
@@ -44,7 +45,7 @@ De [!DNL Marketo Measure] De beheerde Oplossing komt met een aantal voorraaddash
   </tr> 
   <tr> 
    <td>[!DNL Marketo Measure] CMO-dashboard met multitouch</td> 
-   <td>Als GMO, bekijk de huidige gezondheid van uw marketing prestaties van grafieken zoals opbrengst door marketing kanaal, hoogste bronnen, en opbrengst in tijd. Dit dashboard rapporteert over alle belangrijke aspecten van de reis van een kans met W-Shaped weging.</td> 
+   <td>Als GMO, bekijk de huidige gezondheid van uw marketing prestaties van grafieken zoals opbrengst door marketing kanaal, hoogste bronnen, en opbrengst in tijd. Dit dashboard rapporteert over alle belangrijke aspecten van de reis van een opportuniteit met W-Shaped weging.</td> 
    <td>Alles</td> 
   </tr> 
   <tr> 
@@ -96,7 +97,7 @@ De [!DNL Marketo Measure] De beheerde Oplossing komt met een aantal voorraaddash
   </tr> 
   <tr> 
    <td>Accounts op Engagement Score</td> 
-   <td>Groepeer alle accounts met hun A-, B-, C-, D-, N/A-kwaliteit uit de [!DNL Marketo Measure] Predictive Engagement Score.</td> 
+   <td>Groepeer alle accounts met hun A-, B-, C-, D-, N/A-kwaliteit uit de [!DNL Marketo Measure] Predictieve betrokkenheidsscore.</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
@@ -136,7 +137,7 @@ De [!DNL Marketo Measure] De beheerde Oplossing komt met een aantal voorraaddash
   </tr> 
   <tr> 
    <td>[!DNL Marketo Measure] Attributie door Open Pipeline</td> 
-   <td>Zie de huidige staat van uw open verkooppijpleiding en de opbrengsttoewijzing die over elke fase wordt verdeeld.</td> 
+   <td>Zie de huidige staat van uw open verkooppijpleiding en de opbrengstattributie die over elke fase wordt verdeeld.</td> 
    <td>Alles</td> 
   </tr> 
   <tr> 
@@ -150,7 +151,7 @@ De [!DNL Marketo Measure] De beheerde Oplossing komt met een aantal voorraaddash
    <td>Alles</td> 
   </tr> 
   <tr> 
-   <td>Voorlooptekens op naam van AdvertentieWoorden (FT)</td> 
+   <td>Regelafstand op naam van Advertentie-woorden (FT)</td> 
    <td>Meet hoeveel leads een eerste aanraking hadden van elke campagne voor Advertentie.</td> 
    <td>Alles</td> 
   </tr> 
@@ -160,7 +161,7 @@ De [!DNL Marketo Measure] De beheerde Oplossing komt met een aantal voorraaddash
    <td>Alles</td> 
   </tr> 
   <tr> 
-   <td>Leads met [!DNL Marketo Measure] Marketing Channel (FT)</td> 
+   <td>Leads met [!DNL Marketo Measure] Marketingkanaal (FT)</td> 
    <td>Meet hoeveel leads een eerste aanraking van elk marketingkanaal hadden.</td> 
    <td>Alles</td> 
   </tr> 

@@ -3,7 +3,8 @@ unique-page-id: 42762648
 description: Documentatie van het dashboard van de Reis van de Cohort - [!DNL Marketo Measure] - Productdocumentatie
 title: Documentatie van Cohort Reisdashboard
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -16,13 +17,13 @@ Met de dashboards Cohort Impact en Funnel kunnen Marketers de voortgang van een 
 
 Het belangrijkste verschil is hoe we elke entiteit tellen van de cohortfase.
 
-* Cohortrechter: Het resultaat van elke fase wordt rechtstreeks afgeleid uit de vorige fase.
+* Cohort Funnel: het resultaat van elke fase is rechtstreeks afgeleid van de vorige fase.
 
    * Alleen records die na de ingestelde begintijd van de cohort door elke fase naar beneden zijn gegaan, worden geteld.
 
 ![](assets/cohort-journey-dashboard-documentation-1.png)
 
-* Cohorteffect: Het resultaat van elke fase is afgeleid van de cohortfase, niet van de voorafgaande fase.
+* Cohorteffect: het resultaat van elke fase is afgeleid van de cohortfase, niet van de voorafgaande fase.
 
    * Alle records in elk werkgebied worden meegeteld zolang ze na de ingestelde begintijd van het cohort zijn gemaakt. Dit dashboard zal natuurlijk meer records hebben dan het dashboard van de Trechter, omdat we bekijken hoe de entiteiten beïnvloed werden vanuit de cohortfase, niet alleen de beweging door de trechter.
 
@@ -30,8 +31,8 @@ Het belangrijkste verschil is hoe we elke entiteit tellen van de cohortfase.
 
 Elk dashboard heeft twee tegels:
 
-* Ontvangsten cohort: De totale kans is afkomstig uit alle mogelijkheden in de fase van de deals van de Cohort Journey-tegel.
-* Cohortreis: De overgang van de begincohortfase naar elke transportfase gedurende een geselecteerd tijdsbestek.
+* Cohort Revenue: De totale opportuniteit komt voort uit alle mogelijkheden in de fase van de transacties van de Cohort Reistiel.
+* Cohort Journey: De overgang naar elke fase van de reis vanaf het begin van de cohortfase voor een geselecteerd tijdkader.
 
 >[!NOTE]
 >
@@ -39,16 +40,16 @@ Elk dashboard heeft twee tegels:
 
 De dashboards steunen de volgende filters:
 
-* Cohortwerkgebied: Selecteer het beginstadium van de cohort. De verslagen in alle volgende stadia worden geëvolueerd van de verslagen in het cohortstadium.
-* Datumbereik cohort: Selecteer het tijdkader voor het geselecteerde codewerkgebied. Samen met Cohort Stage definieert het de eerste gegevensset.
-* Afsnijddatum: Selecteer de datum waarop de recordprogressie in alle volgende fasen moet plaatsvinden. Wordt standaard ingesteld op vandaag. Dit geldt voor alle stadia behalve het cohortstadium.
+* Cohortwerkgebied: selecteer het beginstadium van het cohort. De verslagen in alle volgende stadia worden geëvolueerd van de verslagen in het cohortstadium.
+* Datumbereik van kleur: selecteer het tijdkader voor het geselecteerde codewerkgebied. Samen met Cohort Stage definieert het de eerste gegevensset.
+* Afsnijddatum: selecteer de datum waarop de recordprogressie in alle volgende fasen moet plaatsvinden. Wordt standaard ingesteld op vandaag. Dit geldt voor alle stadia behalve het cohortstadium.
 * Kanaal: filtert de records via kanalen. Een record is gekoppeld aan een kanaal als een van de aanraakpunten aan het kanaal is gekoppeld.
-* Subkanaal: filtreer de records op subkanalen. Een record is gekoppeld aan een subkanaal als een van de aanraakpunten ervan is gekoppeld aan het subkanaal.
-* Campagne: filtreer de verslagen door campagnes. Een record is gekoppeld aan een campagne als een van de aanraakpunten aan de campagne is gekoppeld.
-* Bron campagne: filtreer de verslagen door campagnebronnen. Voorbeelden van campagnebronnen zijn [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], enz. Een record wordt gekoppeld aan een campagnebron als een van de aanraakpunten aan de campagnebron is gekoppeld.
-* Segmentfilters: filtreer de records op aangepaste segmenten. Een record is gekoppeld aan een segment als een van de aanraakpunten ervan aan het segment is gekoppeld.
+* Subkanaal: filter de records op subkanalen. Een record is gekoppeld aan een subkanaal als een van de aanraakpunten ervan is gekoppeld aan het subkanaal.
+* Campagne: filter de records door campagnes. Een record is gekoppeld aan een campagne als een van de aanraakpunten aan de campagne is gekoppeld.
+* Bron campagne: filter de verslagen door campagnebronnen. Voorbeelden van campagnebronnen zijn [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], enz. Een record wordt gekoppeld aan een campagnebron als een van de aanraakpunten aan de campagnebron is gekoppeld.
+* Segmentfilters: filtert de records op aangepaste segmenten. Een record is gekoppeld aan een segment als een van de aanraakpunten ervan aan het segment is gekoppeld.
 
-Voor alle filters wordt de logica AND gebruikt.
+Voor alle filters wordt de logica &quot;AND&quot; gebruikt.
 
 >[!NOTE]
 >

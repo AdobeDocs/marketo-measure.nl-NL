@@ -3,7 +3,8 @@ unique-page-id: 18874676
 description: "[!DNL Marketo Measure] Inzichten uitgelegd - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Inzichten beschreven"
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -24,7 +25,7 @@ U kunt de roll-up van al uw zittingen bekijken als u op &quot;allen&quot;in het 
 
 Het eerste wat je zult zien, zijn de FT- of LC-pictogrammen. Deze vertegenwoordigen de aanraakpuntpositie van de weergegeven sessies. Met name FT staat voor First Touch en LC standaard voor Lead Creation. U kunt meerdere sessies hebben, maar slechts één aanraakpunt kan de FT of LC zijn. U zult nooit veelvoudige FTs of LCs vinden verbonden aan één persoon.
 
-De pictogrammen die op papier lijken, geven aan dat er een paginaweergave is opgetreden binnen de sessie. Het is waarschijnlijk dat elke sessie dit pictogram zal bevatten.
+De pictogrammen die er als papier uitzien, geven aan dat er een paginaweergave is opgetreden binnen de sessie. Het is waarschijnlijk dat elke sessie dit pictogram zal bevatten.
 
 ![](assets/2.png)
 

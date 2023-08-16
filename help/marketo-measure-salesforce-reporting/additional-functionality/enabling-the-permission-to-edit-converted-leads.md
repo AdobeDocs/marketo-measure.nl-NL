@@ -3,7 +3,8 @@ unique-page-id: 18874700
 description: Toestaan dat de machtiging om omgezette leads te bewerken - [!DNL Marketo Measure] - Productdocumentatie
 title: Toestaan dat de machtiging voor het bewerken van omgezette leads wordt verleend
 exl-id: 00f59d98-272e-47e8-bc20-9d805b1826be
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

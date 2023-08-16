@@ -3,7 +3,8 @@ unique-page-id: 27656441
 description: Veelgestelde vragen over driftintegratie - [!DNL Marketo Measure] - Productdocumentatie
 title: Veelgestelde vragen over driverintegratie
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%

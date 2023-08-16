@@ -3,7 +3,8 @@ unique-page-id: 18874763
 description: "[!DNL Microsoft Dynamics] CRM Installation Guide - Marketo Measure - Productdocumentatie"
 title: "[!DNL Microsoft Dynamics] CRM Installation Guide"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
-source-git-commit: 7141c1f73754160707ddb0af203cadc89ef917d8
+feature: Installation, Microsoft Dynamics
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 0%
@@ -23,14 +24,14 @@ ht-degree: 0%
 * [!DNL Microsoft Dynamics 2016] (Online en op locatie)
 * [!DNL Microsoft Dynamics 365] (Online en op locatie)
 
-Voor verbinding en verificatie [!DNL Marketo Measure] steunt de volgende Actieve Verbond van de Folder van de Diensten (ADFS) versies:
+Voor verbinding en verificatie, [!DNL Marketo Measure] steunt de volgende Actieve Verbond van de Folder van de Diensten (ADFS) versies:
 
 * ADFS 4.0 - [!DNL Windows Server 2016]
 * ADFS 5.0 - [!DNL Windows Server 2019]
 
 ## De beheerde oplossing installeren {#install-the-managed-solution}
 
-[Downloaden en installeren](assets/marketo-measure-dynamics-extension.zip) het ZIP-bestand in Dynamics CRM.
+[Downloaden en installeren](assets/marketo-measure-dynamics-extension.zip) het ZIP-bestand in de Dynamics CRM.
 
 **[!UICONTROL Settings]** > **[!UICONTROL Customizations]** > **[!UICONTROL Solutions]** > **[!UICONTROL Import]** (knop) > **[!UICONTROL Choose File]**.
 
@@ -38,7 +39,7 @@ Voor verbinding en verificatie [!DNL Marketo Measure] steunt de volgende Actieve
 
 >[!NOTE]
 >
->De volgende twee schermafbeeldingen kunnen enigszins van u variëren, aangezien zij tijdens een oplossingsverbetering werden genomen.
+>De volgende twee schermafbeeldingen kunnen van u lichtjes variëren, aangezien zij tijdens een oplossingsverbetering werden genomen.
 
 ![](assets/2.png)
 
@@ -46,7 +47,7 @@ Voor verbinding en verificatie [!DNL Marketo Measure] steunt de volgende Actieve
 
 ## [!DNL Marketo Measure] Gebruikersmachtigingen {#marketo-measure-user-permissions}
 
-We raden u aan een speciale [!DNL Marketo Measure] Gebruiker binnen Dynamiek voor ons om gegevens uit te voeren en in te voeren door om het even welke kwesties met andere gebruikers in uw CRM te vermijden. Neem nota van de gebruikersbenaming en het wachtwoord evenals het eindpunt URL aangezien dit zal worden gebruikt wanneer het creëren van [!DNL Marketo Measure] account.
+We raden u aan een speciale toepassing te maken [!DNL Marketo Measure] Gebruiker binnen Dynamiek voor ons om gegevens uit te voeren en in te voeren door om het even welke kwesties met andere gebruikers in uw CRM te vermijden. Neem nota van de gebruikersbenaming en het wachtwoord evenals het eindpunt URL aangezien dit zal worden gebruikt wanneer het creëren van [!DNL Marketo Measure] account.
 
 ## Beveiligingsrollen {#security-roles}
 
@@ -62,7 +63,7 @@ Voor [!DNL Marketo Measure] aangepaste entiteiten hebben we volledige machtiging
 
 ![](assets/4.png)
 
-Raadpleeg voor dynamische standaardinstellingen de [!DNL Marketo Measure] Dynamisch schema-document. Op hoog niveau [!DNL Marketo Measure] moet alleen in bepaalde entiteiten lezen om de juiste gegevens te verzamelen en naar aangepaste velden te schrijven die met de beheerde oplossing worden geïnstalleerd. We maken geen nieuwe standaardrecords en we werken ook geen standaardvelden bij.
+Raadpleeg voor dynamische standaardeenheden de [!DNL Marketo Measure] Dynamisch schema-document. Op hoog niveau [!DNL Marketo Measure] moet alleen in bepaalde entiteiten lezen om de juiste gegevens te verzamelen en naar aangepaste velden te schrijven die met de beheerde oplossing worden geïnstalleerd. We maken geen nieuwe standaardrecords en we werken ook geen standaardvelden bij.
 
 ## Aanraakpunten opnemen op pagina-indelingen: {#include-touchpoints-on-page-layouts}
 
@@ -74,7 +75,7 @@ Raadpleeg voor dynamische standaardinstellingen de [!DNL Marketo Measure] Dynami
 
    ![](assets/5.png)
 
-1. Pagina-indelingen: Voeg eerst een &quot;[!UICONTROL One Column]&quot;Plaats de tegel in de sectie waar u de aanraakpunten wilt plaatsen. Binnen die nieuwe kolom moeten we een subraster toevoegen aan elk formulier binnen uw account-, opportunity-, contact- en leidende entiteiten.
+1. Pagina-indelingen: voeg eerst een &quot;[!UICONTROL One Column]&quot;Plaats de tegel in de sectie waar u de aanraakpunten wilt plaatsen. Binnen die nieuwe kolom moeten we een subraster toevoegen aan elk formulier binnen uw account-, opportunity-, contact- en leidende entiteiten.
 
    ![](assets/6.png)
 
@@ -101,17 +102,17 @@ Raadpleeg voor dynamische standaardinstellingen de [!DNL Marketo Measure] Dynami
 
 ## Adobe Admin Console en identiteitsprovider instellen {#set-up-your-adobe-admin-console-and-identity-provider}
 
-De eerste stap naar [!DNL Marketo Measure] is om te maken en u aan te melden bij uw Adobe Admin Console waarvoor u een abonnement hebt. Neem contact op met uw [!DNL Marketo Measure] Accountvertegenwoordiger.
+De eerste stap naar [!DNL Marketo Measure] is om te maken en u aan te melden bij uw Adobe Admin Console waarvoor u de provisioning hebt gemaakt. Neem contact op met uw [!DNL Marketo Measure] Accountvertegenwoordiger.
 
 Als product binnen de Adobe Suite [!DNL Marketo Measure] Gebruikt de volledige functionaliteit van Adobe Admin Console for Identity Management. Meer bronnen zijn mogelijk [hier gevonden](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
 
 We raden u aan alle bronnen, aanbevolen werkwijzen en beschikbare opties voor [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
-Voor hulp bij en een overzicht van het instellen van je Identity Management in de Adobe Admin Console, kun je contact opnemen met je [!DNL Marketo Measure] Accountvertegenwoordiger.
+Voor hulp bij en een overzicht van het instellen van je Identity Management in de Adobe Admin Console, raadpleeg je [!DNL Marketo Measure] Accountvertegenwoordiger.
 
 Om gebruikersverificatie en autorisatie met uw [!DNL Marketo Measure] -instantie(s), zijn de volgende stappen vereist in de Adobe Admin Console:
 
-**Het instellen van de [!DNL Marketo Measure] Productkaart**
+**Het instellen van het dialoogvenster [!DNL Marketo Measure] Productkaart**
 
 Als je de Adobe Admin Console opent, zie je je [!DNL Marketo Measure] Productvariant(en) in de sectie Overzicht.
 
@@ -138,7 +139,7 @@ Wanneer u een gebruiker aan hun respectievelijke groep toevoegt, ziet u hun [Ide
 
 >[!NOTE]
 >
->Om [!DNL Marketo Measure] beheerder (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}), moet een gebruiker als Gebruiker worden toegevoegd _en_ een beheerder voor [!DNL Marketo Measure] productprofiel in de [!DNL Marketo Measure] productkaart.
+>Om een [!DNL Marketo Measure] beheerder (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}), moet een gebruiker als Gebruiker worden toegevoegd _en_ een beheerder van een [!DNL Marketo Measure] productprofiel in de [!DNL Marketo Measure] productkaart.
 
 **Aanmelden bij[!DNL Marketo Measure]**
 
@@ -180,7 +181,7 @@ Nadat u zich bij hebt aangemeld [!DNL Marketo Measure] en zijn ingesteld als een
 
 Na het verbinden, zult u de details van uw verbinding van de Dynamica in de lijst van Verbindingen CRM/MAP zien.
 
-**Advertentieverbindingen van account**
+**Advertentieverbindingen**
 
 Je advertentiekeningen verbinden met [!DNL Marketo Measure], te beginnen door de [!UICONTROL Connections] binnen de [!DNL Marketo Measure] toepassing.
 
@@ -202,7 +203,7 @@ Om [!DNL Marketo Measure] om uw Webactiviteiten te volgen, zijn er veelvoudige s
 
    ![](assets/microsoft-dynamics-crm-installation-guide-23.png)
 
-1. Voer uw telefoonnummer in. Voer bij Website het primaire hoofddomein in waarvoor u de [!DNL Marketo Measure] volgen op uw website. Klikken **[!UICONTROL Save]** wanneer gereed.
+1. Voer uw telefoonnummer in. Voer bij Website het primaire hoofddomein in waarvoor u de opdracht [!DNL Marketo Measure] volgen op uw website. Klikken **[!UICONTROL Save]** wanneer gereed.
 
    ![](assets/microsoft-dynamics-crm-installation-guide-24.png)
 
@@ -214,7 +215,7 @@ Om [!DNL Marketo Measure] om uw Webactiviteiten te volgen, zijn er veelvoudige s
 
    >[!NOTE]
    >
-   >Standaard, [!DNL Marketo Measure] Hiermee exporteert u 200 records per API-credit telkens wanneer een taak gegevens naar uw CRM verzendt. Voor de meeste klanten biedt dit de optimale balans tussen API-credits die worden verbruikt door [!DNL Marketo Measure] en CPU-resourcevereisten voor de CRM. Voor klanten met complexe CRM-configuraties, zoals workflows en triggers, kan een kleinere batch-omvang echter nuttig zijn om de CRM-prestaties te verbeteren. Daartoe [!DNL Marketo Measure] staat klanten toe om de grootte van de de uitvoerpartij van CRM te vormen. Deze instelling is beschikbaar op de pagina Instellingen > CRM > Algemeen in het dialoogvenster [!DNL Marketo Measure] De webtoepassing en klanten kunnen kiezen uit batchgrootten 200 (standaard), 100, 50 of 25.
+   >Standaard, [!DNL Marketo Measure] Hiermee exporteert u 200 records per API-credit telkens wanneer een taak gegevens naar uw CRM verzendt. Voor de meeste klanten biedt dit de optimale balans tussen API-credits die worden verbruikt door [!DNL Marketo Measure] en CPU-resourcevereisten voor de CRM. Voor klanten met complexe CRM-configuraties, zoals workflows en triggers, kan een kleinere batch-omvang echter nuttig zijn om de CRM-prestaties te verbeteren. Daartoe: [!DNL Marketo Measure] staat klanten toe om de grootte van de de uitvoerpartij van CRM te vormen. Deze instelling is beschikbaar op de pagina Instellingen > CRM > Algemeen in het dialoogvenster [!DNL Marketo Measure] De webtoepassing en klanten kunnen kiezen uit batchgrootten 200 (standaard), 100, 50 of 25.
    >
    >Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het is raadzaam om de partijgrootte te verminderen slechts als u Cpu ondervindt onderbreking of hoge lading van cpu in uw CRM.
 

@@ -3,7 +3,8 @@ unique-page-id: 18874785
 description: Het verbergen van onnodige rapporttypes - [!DNL Marketo Measure] - Productdocumentatie
 title: Onnodige rapporttypen verbergen
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -20,7 +21,7 @@ Nadat u uw installatie hebt voltooid en rapporten hebt gebruikt, is het vaak zo 
 
 1. Typ het woord &quot;Aanraakpunt&quot; om alle rapporten te vullen.
 
-1. Selecteer **[!UICONTROL Select Report Types to Hide]** Schakel het selectievakje linksboven in.
+1. Selecteer de **[!UICONTROL Select Report Types to Hide]** Schakel het selectievakje linksboven in.
 
 1. Klik op de onderstaande rapporten met een oranje X om de rapportlijst er hetzelfde te laten uitzien als de onderstaande afbeelding.
 

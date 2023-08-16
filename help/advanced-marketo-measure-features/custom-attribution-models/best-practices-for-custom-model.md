@@ -1,8 +1,9 @@
 ---
-description: Aanbevolen procedures voor aangepast model - [!DNL Marketo Measure] - Productdocumentatie
+description: Aanbevolen werkwijzen voor aangepast model - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanbevolen procedures voor aangepast model
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Models
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -43,7 +44,7 @@ Of u uw Model van de Douane voor het eerst opstelt, of het herzien van wat eerde
       * Een lager toewijzingspercentage betekent dat de stadia voor uw team minder belangrijk zijn om te controleren
 * U moet de bovenkant van de trechterstadia definiëren op basis van de fasen Lood of Contact, niet op beide
    * Dit betekent dat u ervoor moet zorgen dat alle personen door dat stadium op het relatieve object gaan
-      * Bijvoorbeeld: Als u het MQL-werkgebied definieert vanuit het Lead-object, moeten alle personen in uw systeem gaan als een lead en zijn gemarkeerd als een MQL in de lijst met leads voor [!DNL Marketo Measure] om nauwkeurig te weerspiegelen welke aanraking met de overgang van de Lood naar MQL verwant was. Als dit niet het geval is, en sommige mensen beginnen contact op te nemen alvorens MQL als leider te worden, [!DNL Marketo Measure] zal dit niet nauwkeurig kunnen verklaren in uw gegevens van het Aanraakpunt en wij zullen moeten veronderstellen dat de persoon reeds MQL&#39;d heeft. [!DNL Marketo Measure] we kunnen geen rekening houden met het hoppingsproces in de etappes , dus we zullen concluderen dat de etappes zijn doorlopen , ook al is dat niet het geval .
+      * Bijvoorbeeld: als u het MQL-werkgebied definieert vanuit het object Lead, moeten alle personen in uw systeem als een lead gaan en zijn gemarkeerd als een MQL in de lijst met leads voor [!DNL Marketo Measure] om nauwkeurig te weerspiegelen welke aanraking met de overgang van de Lood naar MQL verwant was. Als dit niet het geval is, en sommige mensen beginnen contact op te nemen alvorens MQL als leider te worden, [!DNL Marketo Measure] zal dit niet nauwkeurig kunnen verklaren in uw gegevens van het Aanraakpunt en wij zullen moeten veronderstellen dat de persoon reeds MQL&#39;d heeft. [!DNL Marketo Measure] we kunnen geen rekening houden met het hoppingsproces in de etappes , dus we zullen concluderen dat de etappes zijn doorlopen , ook al is dat niet het geval .
 * Zorg ervoor dat het bijhouden van de veldgeschiedenis is ingeschakeld voor alle velden die worden gebruikt om aangepaste stadia te definiëren die u opneemt
 * Gebruik geen formules voor het definiëren van een aangepast werkgebied
    * Een Booleaans veld is een aanbevolen werkwijze
@@ -52,7 +53,7 @@ Of u uw Model van de Douane voor het eerst opstelt, of het herzien van wat eerde
 * Werken met je verkoopteam
    * Het in het team brengen dat het dichtst met stadia werkt en hun betekenis zal ervoor zorgen u de correcte stadia gebruikt en dat zij behoorlijk worden bepaald
 
-## Best Practice for Maintenance {#best-practice-for-maintenance}
+## Aanbevolen werkwijzen voor onderhoud {#best-practice-for-maintenance}
 
 Als u ten minste tweemaal per jaar uw aangepaste model controleert, weet u zeker dat de rapportage voor aangepaste toewijzingen correct en betrouwbaar is.
 
@@ -71,4 +72,3 @@ Andere redenen die een herziening van het aangepaste model kunnen veroorzaken, z
 >* [Aangepast kenmerkmodel en aangepaste instellingen](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 >* [Enable Field History Tracking for Custom Model](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
 >* [Machine Learning-model](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)
-

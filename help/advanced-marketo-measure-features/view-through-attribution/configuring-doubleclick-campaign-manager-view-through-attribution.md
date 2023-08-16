@@ -3,7 +3,8 @@ unique-page-id: 18874781
 description: Dubbelklik op de Campagnebeheerweergave via Attributen - [!DNL Marketo Measure] - Productdocumentatie
 title: Dubbelklik op de weergave Campagnebeheer via Attributie
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -36,7 +37,7 @@ U voegt de tag toe aan Dubbleclick onder de instelling Advertiser en u wilt een 
 
 1. Zodra het is toegevoegd, bevestig de afbakeningsapparaten als volgt in kaart worden gebracht. Deze instelling moet automatisch zijn wanneer de tag wordt toegepast:
 
-   v = %eadv! Advertentie-id uitbreiden\
+   v = %eadv! Adverteerder-id uitbreiden\
    a = %eaid! Advertentie-id uitbreiden\
    c = %ecid! Creatieve id uitbreiden\
    s = %esid! Site-id uitbreiden\
@@ -48,13 +49,13 @@ U voegt de tag toe aan Dubbleclick onder de instelling Advertiser en u wilt een 
 
 ## Veelgestelde vragen {#faq}
 
-**V: Is de afbeeldingstag veilig?**
+**V: Is de tag image veilig?**
 
 A: Ja. Het is geen JavaScript-tag, het is een afbeeldingstag.
 
 **V: Welke machtigingen heeft de verbonden gebruiker nodig?**
 
-A: doffrakhandel, foutrapportage, gebruikersnaam.email
+A: fatrakes, foutrapportage, userinfo.email
 
 **V: Hoe lang duurt het om uitgavengegevens te importeren?**
 

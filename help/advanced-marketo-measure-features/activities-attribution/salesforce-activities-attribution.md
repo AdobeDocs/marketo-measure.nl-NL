@@ -3,7 +3,8 @@ unique-page-id: 18874708
 description: Toewijzing Salesforce-activiteiten - [!DNL Marketo Measure] - Productdocumentatie
 title: Toewijzing Salesforce-activiteiten
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution, Salesforce
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%

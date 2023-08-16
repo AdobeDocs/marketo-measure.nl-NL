@@ -3,7 +3,8 @@ unique-page-id: 37356395
 description: "[!DNL Marketo Engage] Integratie van mensen - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Engage] Personen integreren"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Marketo Engage] Integratie van mensen {#marketo-engage-people-integration}
 
-De integratie van het Marketo-volk maakt het mogelijk [!DNL Marketo Measure] om te beginnen met het downloaden van mensen uit Marketo en hun bijgehouden sessies aan het individu te koppelen en aanraakpunten aan hun afspraken toe te wijzen. Historisch [!DNL Marketo Measure] kon slechts aanraakpunten toewijzen aan een persoon van de BCR, zodat kunnen marketeers hun marketinginspanningen sneller meten in plaats van te wachten op een podium of een trigger om het te synchroniseren met de BCR.
+De integratie van het Marketo-volk maakt [!DNL Marketo Measure] om te beginnen met het downloaden van mensen uit Marketo en hun bijgehouden sessies aan het individu te koppelen en aanraakpunten aan hun afspraken toe te wijzen. Historisch [!DNL Marketo Measure] kon slechts aanraakpunten toewijzen aan een persoon van de BCR, zodat kunnen marketeers hun marketinginspanningen sneller meten in plaats van te wachten op een podium of een trigger voor synchronisatie met de BCR.
 
 ## Vereisten {#requirements}
 
@@ -83,7 +84,7 @@ Bij rapportage over leads (personen) in [!DNL Marketo Measure Discover], je ziet
   </tr> 
   <tr> 
    <td><p>IS_CONVERTED</p></td> 
-   <td><p>n.v.t.</p></td> 
+   <td><p>nvt</p></td> 
   </tr> 
   <tr> 
    <td><p>ACCOUNT_ID</p></td> 
@@ -114,7 +115,7 @@ Met deze integratie worden de gegevenssets in uw huidige [!DNL Marketo Measure] 
 
 **Kan ik mijn mensen alleen laten downloaden van Marketo en de CRM-verbinding uitschakelen?**
 
-Op dit moment, nee. We hebben deze optie in de toekomst, maar we moeten andere fasen van deze Marketo-integratie uitbouwen zodat we de programma&#39;s, mogelijkheden en deals van Marketo met elkaar kunnen verbinden [!DNL Marketo Measure].
+Op dit moment, nee. We hebben deze optie in de toekomst, maar we moeten andere fasen van deze Marketo-integratie uitbouwen, zodat we de programma&#39;s, mogelijkheden en deals van Marketo met elkaar kunnen verbinden [!DNL Marketo Measure].
 
 **Importeer je AL mijn Marketo-mensen?**
 

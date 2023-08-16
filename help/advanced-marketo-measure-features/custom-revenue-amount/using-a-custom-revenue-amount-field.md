@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874793
 description: Met een veld Aangepaste inkomstenbedrag - [!DNL Marketo Measure] - Productdocumentatie
-title: Een veld Aangepaste inkomstenbedrag gebruiken
+title: Een veld Aangepaste omzettingsbedrag gebruiken
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Custom Revenue Amount
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
-# Een veld Aangepaste inkomstenbedrag gebruiken {#using-a-custom-revenue-amount-field}
+# Een veld Aangepaste omzettingsbedrag gebruiken {#using-a-custom-revenue-amount-field}
 
 Standaard halen Aanraakpunten voor koperkenmerk de opportunity Amount uit een van de volgende twee velden:
 
@@ -43,7 +44,7 @@ Vanaf hier beginnen we de workflow te maken.
 
    ![](assets/5.jpg)
 
-1. Hier kunt u veldgegevens invullen. In het veld Naam raden we u aan deze naam te gebruiken: &quot;[!DNL Marketo Measure] Hoeveelheid opp.&quot; De &quot;Unieke Naam&quot; wordt automatisch ingevuld op basis van het veld &quot;Naam&quot;. Selecteer in de keuzelijst &quot;Bij te werken veld&quot; de optie &quot;[!DNL Marketo Measure] Opportuniteitsbedrag.&quot; Nadat u het veld hebt geselecteerd, selecteert u het vak &quot;Workflowregels opnieuw toepassen na wijziging van veld&quot;. Selecteer in het vak &quot;Nieuwe veldwaarde opgeven&quot; de optie &quot;Een formule gebruiken om de nieuwe waarde in te stellen.&quot; Laat in het lege vak de API-naam van het veld Aangepast bedrag vallen. Klik op **[!UICONTROL Save]**.
+1. Hier kunt u veldgegevens invullen. In het veld Naam raden we u aan deze naam te gebruiken: &quot;[!DNL Marketo Measure] Hoeveelheid opp.&quot; De &quot;Unieke Naam&quot; wordt automatisch ingevuld op basis van het veld &quot;Naam&quot;. Selecteer in de keuzelijst &quot;Veld bijwerken&quot; de optie &quot;[!DNL Marketo Measure] Opportuniteitsbedrag.&quot; Nadat u het veld hebt geselecteerd, selecteert u het vak &quot;Workflowregels opnieuw toepassen na wijziging van veld&quot;. Selecteer in het vak &quot;Nieuwe veldwaarde opgeven&quot; de optie &quot;Een formule gebruiken om de nieuwe waarde in te stellen.&quot; Laat in het lege vak de API-naam van het veld Aangepast bedrag vallen. Klik op **[!UICONTROL Save]**.
 
    ![](assets/6.png)
 

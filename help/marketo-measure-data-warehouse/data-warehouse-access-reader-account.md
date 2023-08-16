@@ -2,7 +2,8 @@
 description: Toegang tot Data Warehouse - account Reader - productdocumentatie
 title: Toegang tot Data Warehouse - Account Reader
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -31,11 +32,11 @@ Als u toegang wilt krijgen tot uw Snowflake-gegevensopslagruimte, moet u naar de
    >
    >Dit is een alleen-lezen account dat beschikbaar is voor uw organisatie, en niet alleen voor een individuele gebruiker. Elke gebruiker binnen uw organisatie die toegang heeft tot [!DNL Marketo Measure] U kunt dit account gebruiken om u aan te melden bij het account van de Snowflake Data Warehouse reader.
 
-1. Klik op de koppeling in de URL van de Snowflake. Hiermee gaat u naar de aanmeldingspagina van de Snowflake waar u uw gebruikersnaam en wachtwoord opgeeft. _Als u uw wachtwoord niet hebt, raadpleegt u de onderstaande stappen om het opnieuw in te stellen_.
+1. Klik op de koppeling in de URL van de Snowflake. Hiermee gaat u naar de aanmeldingspagina van de Snowflake waar u uw gebruikersnaam en wachtwoord opgeeft. _Als u uw wachtwoord niet hebt, zie de stappen hieronder om het terug te stellen_.
 
    ![](assets/data-warehouse-access-reader-account-4.png)
 
-1. Nadat u zich hebt aangemeld, klikt u op **[!UICONTROL Worksheets]** boven aan de pagina.
+1. Zodra het programma geopend, klik **[!UICONTROL Worksheets]** boven aan de pagina.
 
    ![](assets/data-warehouse-access-reader-account-5.png)
 
@@ -52,7 +53,6 @@ Als u toegang wilt krijgen tot uw Snowflake-gegevensopslagruimte, moet u naar de
 >* Het wachtwoord opnieuw instellen herstelt het voor allen [!DNL Marketo Measure] gebruikers in uw organisatie, niet alleen de gebruiker die momenteel is aangemeld.
 >* Het tijdelijke wachtwoord wordt alleen weergegeven in de gebruikersinterface. Er wordt geen e-mail verzonden.
 
-
 ![](assets/data-warehouse-access-reader-account-7.png)
 
 ![](assets/data-warehouse-access-reader-account-8.png)
@@ -63,16 +63,17 @@ U zult een paar stukken van informatie moeten ingaan om uw Snowflake gegevenspak
 
 >[!NOTE]
 >
->Elk hulpmiddel heeft verschillende verbindingsvereisten; raadt u aan de documentatie te raadplegen voor het specifieke gereedschap dat u probeert te verbinden.
+>Elk hulpmiddel heeft verschillende verbindingsvereisten; het wordt geadviseerd u de documentatie voor het specifieke hulpmiddel raadpleegt u probeert om te verbinden.
 
 * **URI** (altijd vereist)
    * Dit is de domeinnaam van de Snowflake-account.  Het is bevat binnen een gedeelte van de Snowflake login verbinding.
 * **Gebruikersnaam** (altijd vereist)
    * De gebruikersnaam wordt vermeld op de pagina met informatie over de Data Warehouse in [!DNL Marketo Measure].
 * **Wachtwoord** (altijd vereist)
-   * Dit is het wachtwoord dat u instelt als u zich voor het eerst hebt aangemeld bij uw Snowflake-account.  Zie de bovenstaande stappen om uw wachtwoord opnieuw in te stellen.
+   * Dit is het wachtwoord dat u instelt als u zich voor het eerst hebt aangemeld bij uw Snowflake-account.  Als u uw wachtwoord opnieuw wilt instellen, raadpleegt u de bovenstaande stappen.
 * **Databasenaam** (niet altijd vereist)
    * De gegevens worden opgeslagen in Snowflake in de database. Het is de opslagbron. De databasenaam wordt vermeld op de pagina met informatie over de Data Warehouse in [!DNL Marketo Measure].
 * **Warehouse-naam** (niet altijd vereist)
    * Het pakhuis is wat vragen in Snowflake uitvoert. Het is de computerbron.  De pakhuisnaam wordt vermeld op de de informatiepagina van de Data Warehouse in [!DNL Marketo Measure].
-   ![](assets/data-warehouse-access-reader-account-9.png)
+
+  ![](assets/data-warehouse-access-reader-account-9.png)

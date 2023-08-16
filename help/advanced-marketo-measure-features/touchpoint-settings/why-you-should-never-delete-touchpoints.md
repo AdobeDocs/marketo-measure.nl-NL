@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874560
 description: Waarom u geen aanraakpunten wilt verwijderen - [!DNL Marketo Measure] - Productdocumentatie
-title: Waarom Touchpoints nooit verwijderen
+title: Waarom u geen aanraakpunten wilt verwijderen
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
-# Waarom Touchpoints nooit verwijderen {#why-you-should-never-delete-touchpoints}
+# Waarom u geen aanraakpunten wilt verwijderen {#why-you-should-never-delete-touchpoints}
 
 Als u vindt dat er een aanraakpunt is op een opportunity waaraan onjuist toewijzingskrediet wordt toegewezen, neemt u contact op met uw accountmanager om de volgende stappen te bepalen. In deze situaties raden we u aan de functie voor het onderdrukken van aanraakpunten van de koper te gebruiken om het aanraakpunt van SFDC en het ROI-dashboard te verwijderen. Uw accountmanager kan u helpen deze regels te maken. Verwijder deze aanraakpunten niet handmatig.
 

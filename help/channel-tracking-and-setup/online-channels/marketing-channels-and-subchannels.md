@@ -1,9 +1,10 @@
 ---
 unique-page-id: 18874682
-description: Kanalen en subkanalen op de markt brengen - [!DNL Marketo Measure] - Productdocumentatie
+description: Kanalen en subkanalen voor marketing - [!DNL Marketo Measure] - Productdocumentatie
 title: Kanalen en subkanalen voor marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -67,12 +68,12 @@ Andere voorbeelden...
 
 * Google AdWords
 * BingAds
-* Facebook-advertenties
+* Facebook Adds
 * Adroll
 * Dubbelklikken
 * Capterra
 * Drip Campaigns
-* linkedIn-advertenties
+* LinkedIn Adds
 
 **Inhoud (whitepapers, pagina-URL&#39;s, blogberichten)**
 

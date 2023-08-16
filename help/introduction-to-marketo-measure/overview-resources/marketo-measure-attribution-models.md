@@ -3,7 +3,8 @@ unique-page-id: 18874568
 description: Marketo Measure Attribution Models - Marketo Measure - Productdocumentatie
 title: Marketo Measure Attribution Models
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
-source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 0%
@@ -61,7 +62,7 @@ Multi-touchmodellen worden gebruikt voor langere, gecompliceerdere verkoopcycli.
 
 Het U-Vormd model concentreert zich op zowel de aanraak van FT als van LC. In dit model ontvangen FT en LC elk 50% van het inkomstenkrediet.
 
-Het eerste bezoek van Kate aan www.adobe.com via een Adwords-advertentie zou 50% van het attribuut credit ontvangen. De resterende 50% zou worden toegeschreven aan de linkedin post die Austin ertoe heeft gebracht een formulier in te vullen en een leidende rol te spelen.
+Kate&#39;s eerste bezoek aan www.adobe.com via een Adwords-advertentie zou 50% van het attribuut credit ontvangen. De resterende 50% zou worden toegeschreven aan de linkedin post die Austin ertoe heeft gebracht een formulier in te vullen en een leidende rol te spelen.
 
 ![](assets/4.png)
 

@@ -3,7 +3,8 @@ unique-page-id: 18874799
 description: Pagina-indelingsinstructies - [!DNL Marketo Measure] - Productdocumentatie
 title: Pagina-indelingsinstructies
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 1%
@@ -18,13 +19,13 @@ ht-degree: 1%
 
 Eenvoudig te zien [!DNL Marketo Measure] gegevens, wordt aangeraden om de pagina-indelingen bij te werken voor de [!UICONTROL Account], [!UICONTROL Contact], [!UICONTROL Lead], [!UICONTROL Opportunity], en [!UICONTROL Campaign] Objecten. De instructies worden uitgesplitst voor elke indeling van de objectpagina hieronder.
 
-Ga eerst naar uw [!DNL Salesforce] Instellingen instellen en de locatie van de [!UICONTROL Customize] tab.
+Eerst navigeert u naar uw [!DNL Salesforce] Instellingen instellen en de locatie van de [!UICONTROL Customize] tab.
 
 ## Campagneobject {#campaign-object}
 
 We raden u aan de [!DNL Marketo Measure] velden alleen voor uw sandbox naar uw SFDC-campagne. De velden kunnen worden gebruikt om het genereren van aanraakpunten te testen. In productie adviseren wij slechts het toevoegen van [!DNL Marketo Measure] Bulk Touchpoint Date-knop bijwerken. We raden u niet aan de [!DNL Marketo Measure] velden voor productie, aangezien u regels voor het synchroniseren van campagnes kunt maken.
 
-1. Selecteer in uw Build-optie de optie **[!UICONTROL Campaigns]**.
+1. Selecteer in uw Build-optie **[!UICONTROL Campaigns]**.
 
 1. Klik op **[!UICONTROL Page Layouts]**.
 
@@ -52,7 +53,7 @@ We raden u aan de [!DNL Marketo Measure] velden alleen voor uw sandbox naar uw S
 
 ## Leads {#leads}
 
-1. Selecteer in uw Build-optie de optie **[!UICONTROL Leads]**.
+1. Selecteer in uw Build-optie **[!UICONTROL Leads]**.
 
 1. Klik op **[!UICONTROL Page Layouts]**.
 
@@ -88,11 +89,11 @@ We raden u aan de [!DNL Marketo Measure] velden alleen voor uw sandbox naar uw S
    >
    >De meeste klanten gebruiken niet de gebieden die met (FT) of (LC) beëindigen omdat zij erfenisgebieden van vóór zijn [!DNL Marketo Measure] Het aanraakpunt bestond als een object.
 
-Als u gebruikmaakt van de [!DNL Marketo Measure] ABM-functie, [klik hier voor aanvullende instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Als u de [!DNL Marketo Measure] ABM-functie, [klik hier voor aanvullende instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contactpersonen {#contacts}
 
-1. Selecteer in uw Build-optie de optie **[!UICONTROL Contacts]**.
+1. Selecteer in uw Build-optie **[!UICONTROL Contacts]**.
 
 1. Klik op **[!UICONTROL Page Layouts]**.
 
@@ -109,7 +110,7 @@ Als u gebruikmaakt van de [!DNL Marketo Measure] ABM-functie, [klik hier voor aa
    * Positie aanraakpunt
    * Aanraakpuntdatum
 
-1. Sorteren op: Aanraakpuntdatum, oplopend.
+1. Sorteren op: aanraakpuntdatum, oplopend.
 
    ![](assets/6.jpg)
 
@@ -121,7 +122,7 @@ Als u gebruikmaakt van de [!DNL Marketo Measure] ABM-functie, [klik hier voor aa
 
 1. Klik op het moersleutelpictogram en voeg de volgende kolommen in deze volgorde toe:
 
-   * Aanraakpunt kenmerk
+   * Attributie-aanraakpunt
    * Marketingkanaal
    * Opportunity
    * Naam advertentiecampagne
@@ -139,7 +140,7 @@ Als u gebruikmaakt van de [!DNL Marketo Measure] ABM-functie, [klik hier voor aa
 
 ## Kansen {#opportunities}
 
-1. Selecteer in uw Build-optie de optie **[!UICONTROL Opportunities]**.
+1. Selecteer in uw Build-optie **[!UICONTROL Opportunities]**.
 
 1. Klik op **[!UICONTROL Page Layouts]**.
 
@@ -147,7 +148,7 @@ Als u gebruikmaakt van de [!DNL Marketo Measure] ABM-functie, [klik hier voor aa
 
 1. Voeg de **[!UICONTROL Buyer Attribution Touchpoint]** Verwante Lijst en klik op de moersleutel om de volgende kolommen voor Kansen toe te voegen:
 
-   * Aanraakpunt kenmerk
+   * Attributie-aanraakpunt
    * Marketingkanaal
    * Contact
    * Naam advertentiecampagne
@@ -165,7 +166,7 @@ Als u gebruikmaakt van de [!DNL Marketo Measure] ABM-functie, [klik hier voor aa
 
 ## Accounts {#accounts}
 
-1. Selecteer in uw Build-optie de optie **[!UICONTROL Accounts]**.
+1. Selecteer in uw Build-optie **[!UICONTROL Accounts]**.
 
 1. Klik op **[!UICONTROL Page Layouts]**.
 
@@ -173,7 +174,7 @@ Als u gebruikmaakt van de [!DNL Marketo Measure] ABM-functie, [klik hier voor aa
 
 1. Voeg de **[!UICONTROL Buyer Attribution Touchpoint]** Verwante lijst en klik op de moersleutel om de volgende kolommen toe te voegen:
 
-   * Aanraakpunt kenmerk
+   * Attributie-aanraakpunt
    * Marketingkanaal
    * Opportunity
    * Naam advertentiecampagne
@@ -189,4 +190,4 @@ Als u gebruikmaakt van de [!DNL Marketo Measure] ABM-functie, [klik hier voor aa
 
 1. Klik op **[!UICONTROL Save]**.
 
-Als u gebruikmaakt van de [!DNL Marketo Measure] ABM-functie,  [klik hier voor aanvullende instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Als u de [!DNL Marketo Measure] ABM-functie,  [klik hier voor aanvullende instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

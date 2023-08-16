@@ -3,7 +3,8 @@ unique-page-id: 18874648
 description: Verschil tussen een Google Analytics-conversie en een aanraakpunt voor kopers - [!DNL Marketo Measure] - Productdocumentatie
 title: Verschil tussen een Google Analytics-conversie en een aanraakpunt voor kopers
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -16,7 +17,7 @@ Meer informatie over [!DNL Google Analytics (GA)] doel is en hoe het van een Aan
 
 **Wat zijn Google Analytics Conversies?**
 
-[!UICONTROL Google Analytics] conversies worden volledig bepaald door de manier waarop een markator of webontwikkelaar &#39;doel&#39;-voltooiing op een bepaalde website codeert. Doelen zouden volgens Google kunnen worden beschouwd als &quot;het maken van een aankoop (voor een site van e-commerce), het voltooien van een gameniveau (voor een mobiele game-app), of het indienen van een contactformulier (voor een marketing- of lead generation-site).&quot; Meestal zien marketers doelen/conversies als iemand die een informatieve vorm invult.
+[!UICONTROL Google Analytics] conversies worden volledig bepaald door de manier waarop een markeerteken of een webontwikkelaar &#39;doel&#39; codeert voor een bepaalde website. Doelen zouden volgens Google kunnen worden beschouwd als &quot;het maken van een aankoop (voor een site van e-commerce), het voltooien van een gameniveau (voor een mobiele game-app), of het indienen van een contactformulier (voor een marketing- of lead generation-site).&quot; Meestal zien marketers doelen/conversies als iemand die een informatieve vorm invult.
 
 Nochtans, kunnen de doelstellingen niet worden gecodeerd om zeer specifiek gedrag te beheren. In plaats daarvan zijn er Goal Types die een webontwikkelaar kan configureren. Hieronder volgen enkele voorbeelden:
 
@@ -63,7 +64,7 @@ Aanraakpunten voor kopers functioneren echter heel anders.
 
 **Hoe verschillen de aanraakpunten van de koper?**
 
-[!DNL Marketo Measure] JavaScript houdt sessiegegevens en formulierverzendingen bij op alle vormen van een bepaalde site. Er is geen behoefte aan codedoelstellingen van a [!DNL Marketo Measure] standpunt. Dit proces is automatisch. Voor het indienen van formulieren [!DNL Marketo Measure] Hiermee wordt een formulierinvulling gerapporteerd telkens wanneer een anonieme gebruiker informatievelden invult op een bepaald formulier en ook op de knop Formulier verzenden klikt. [!DNL Marketo Measure] heeft geen pagina voor bedankt nodig om de formulierverzending op te nemen.
+[!DNL Marketo Measure] JavaScript houdt sessiegegevens en formulierverzendingen bij op alle vormen van een bepaalde site. Er is geen behoefte aan codedoelstellingen van a [!DNL Marketo Measure] standpunt. Dit proces is automatisch. Voor het indienen van formulieren: [!DNL Marketo Measure] Hiermee wordt een formulierinvulling gerapporteerd telkens wanneer een anonieme gebruiker informatievelden invult op een bepaald formulier en ook op de knop Formulier verzenden klikt. [!DNL Marketo Measure] heeft geen pagina voor bedankt nodig om de formulierverzending op te nemen.
 
 [!DNL Marketo Measure] wordt een aanraakpunt voor formulieren gemaakt wanneer:
 
@@ -71,12 +72,12 @@ Aanraakpunten voor kopers functioneren echter heel anders.
 * De [!DNL Marketo Measure] JS is aanwezig op de webpagina&#39;s die het formulier bevatten.
 * Een formulier wordt binnen 30 minuten ingediend.
 
-[!DNL Marketo Measure] zal de Analytische omzettingen van Bestemming Google negeren wanneer:
+[!DNL Marketo Measure] zal de Analytische omzettingen van de Bestemming van Google negeren wanneer:
 
 * Een bot verzendt formulieren op een website (deze bots maken het meestal niet tot de CRM van een klant).
 * Een gebruiker verzendt meer formulieren nadat het formulier voor het eerst is verzonden. [!DNL Marketo Measure] alleen de eerste conversie vanaf die sessie uitvoeren.
 * De gebruiker klikt meerdere keren op het verzenden van het formulier. [!DNL Marketo Measure] alleen de eerste formulierverzending in overweging nemen.
-* De gebruiker laadt de pagina voor bedankt meerdere keren opnieuw.
+* De gebruiker laadt de pagina Hartelijk dank meerdere keren opnieuw.
 * De gebruiker gebruikt alle gereedschappen voor het blokkeren van advertenties.
 
 Zoals u ziet, zijn er fundamentele verschillen tussen wat GA en [!DNL Marketo Measure] een conversie als zodanig beschouwen. Daarom is het zeer waarschijnlijk dat het aantal conversies en het aantal aanraakpunten van formulieren zullen verschillen.

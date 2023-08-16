@@ -3,7 +3,8 @@ unique-page-id: 18874680
 description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: APIs, Integration, UTM Parameters
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Vergelijkbaar met onze Advertentiewoorden &amp; [!DNL Bing Ads] integratie, onze [!DNL Facebook] integratie omvat twee fundamentele acties :
 
-* Alle tags automatisch labelen [!DNL Facebook] Advertenties met een [!DNL Marketo Measure] parameter (_bf)
+* Alle tags automatisch labelen [!DNL Facebook] Toevoegen met een [!DNL Marketo Measure] parameter (_bf)
 * Download- en kostengegevens over alle actieve Facebook-advertenties
 
 ## Hoe te om te vormen [!DNL Facebook] Integratie {#how-to-configure-the-facebook-integration}
@@ -136,13 +137,13 @@ A: Carrousel, enkele afbeelding. Op dit moment geen video, presentatie of verzam
 
 **V: Wat is sociaal bewijs?**
 
-A: Sociale proefdrukken zijn zichtbare betrokkenheid zoals zoals bijvoorbeeld het weergeven, klikken, opmerkingen en delen.
+A: Sociale proefdrukken is zichtbare betrokkenheid, zoals zoals bijvoorbeeld klikken, opmerkingen en shares.
 
-**V: Wat gebeurt er als [!DNL Marketo Measure] -tags toevoegen aan de advertentie?**
+**Q: Wat gebeurt er als [!DNL Marketo Measure] -tags toevoegen aan de advertentie?**
 
 A: [!DNL Facebook] staat bewerken van advertenties niet toe [!DNL Marketo Measure] moet creatief schrappen, dat de Bestemming URL bevat, en dan de advertentie met de nieuwe parameters opnieuw creëren.
 
-**V: Waarom doet [!DNL Marketo Measure] alles bijwerken [!DNL Facebook] Advertenties?**
+**Q: Waarom doet [!DNL Marketo Measure] alles bijwerken [!DNL Facebook] Advertenties?**
 
 A: De [!DNL Marketo Measure] Alle advertenties moeten worden gecodeerd als ze opnieuw worden geactiveerd.
 

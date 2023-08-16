@@ -2,7 +2,8 @@
 description: Domeinbeheer - [!DNL Marketo Measure] - Productdocumentatie
 title: Domeinbeheer
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
-source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
+feature: Integration, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -15,7 +16,7 @@ Voor met IMS ingeschakelde huurders die worden uitgevoerd [!DNL Marketo Measure]
 
 ## Domeinen toevoegen in Admin Console {#adding-domains-in-admin-console}
 
-IMS-gebruikers met toegang tot de Adobe Admin Console kunnen domeinen toevoegen en valideren die zij bezitten. De bevestiging van het domein impliceert het toevoegen van een DNS verslag voor elk domein en later het toestaan van de Admin Console om dat verslag te verifiëren.
+IMS-gebruikers met toegang tot de Adobe Admin Console kunnen domeinen die ze bezitten, toevoegen en valideren. De bevestiging van het domein impliceert het toevoegen van een DNS verslag voor elk domein en later het toestaan van de Admin Console om dat verslag te verifiëren.
 
 ![](assets/domain-management-1.png)
 
@@ -23,7 +24,7 @@ Instructies voor het toevoegen van domeinen vindt u in het dialoogvenster [Docum
 
 ## Domeinen beheren in [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
-Zodra een domein in de Admin Console wordt toegevoegd, [!DNL Marketo Measure] Deze record wordt regelmatig in onze database gesynchroniseerd. Deze synchronisatie vindt elke avond plaats, en ook elke keer dat een gebruiker de **[!UICONTROL Domains]** pagina in de [!DNL Marketo Measure] UI. Door gebrek, om het even welke verslagen die [!DNL Marketo Measure] de invoer zal worden onbruikbaar gemaakt, en de huurder moet elk domein manueel toelaten.
+Zodra een domein in de Admin Console wordt toegevoegd, [!DNL Marketo Measure] synchroniseert deze record regelmatig in onze database. Deze synchronisatie vindt elke avond plaats, en ook elke keer dat een gebruiker de **[!UICONTROL Domains]** pagina in de [!DNL Marketo Measure] UI. Standaard alle records die [!DNL Marketo Measure] de invoer zal worden onbruikbaar gemaakt, en de huurder moet elk domein manueel toelaten.
 
 ![](assets/domain-management-2.png)
 
@@ -39,7 +40,7 @@ De statussen van de Admin Console worden als volgt gecategoriseerd:
 
 * **GEVALIDEERD**: Dit domein wordt geverifieerd in Admin Console
 * **ONVERIFIEERD**: Dit domein is niet volledig geverifieerd in de Admin Console en komt niet in aanmerking voor tracking in [!DNL Marketo Measure]
-* **ONGELDIG**: Dit domein is mogelijk verlopen of verwijderd uit de Admin Console. Gegevens bijhouden in [!DNL Marketo Measure] is gemarkeerd voor verwijderen
+* **ONGELDIG**: Dit domein is mogelijk verlopen of verwijderd uit Admin Console. Gegevens bijhouden in [!DNL Marketo Measure] is gemarkeerd voor verwijderen
 * **LEGACTIE**: Dit domein is gemaakt in [!DNL Marketo Measure] en bestaat niet in de Admin Console
 
 De volgende statussen kunnen worden gebruikt:

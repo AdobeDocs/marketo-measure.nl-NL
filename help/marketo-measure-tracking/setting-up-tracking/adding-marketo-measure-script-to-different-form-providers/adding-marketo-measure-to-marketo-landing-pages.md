@@ -3,7 +3,8 @@ unique-page-id: 18874755
 description: Toevoegen [!DNL Marketo Measure] tot [!DNL Marketo] Aanlandingspagina's - [!DNL Marketo Measure] - Productdocumentatie
 title: Toevoegen [!DNL Marketo Measure] naar Marketo-bestemmingspagina's
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
-source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Toevoegen [!DNL Marketo Measure] naar Marketo-bestemmingspagina&#39;s {#adding-marketo-measure-to-marketo-landing-pages}
 
-Leer hoe u tekstspatiëring toevoegt aan [!DNL Marketo Engage] De Pagina&#39;s van de landing aangezien zij extra behandeling vereisen. [!DNL Marketo Measure] JavaScript moet aanwezig zijn op zowel de bestemmingspagina als de [!DNL Marketo Engage] zelf te vormen. Hiervoor moet u de opdracht [!DNL Marketo Measure] JavaScript in [!DNL Marketo Engage] zoals uitgelegd in de volgende aanwijzingen.
+Leer hoe u tekstspatiëring toevoegt aan [!DNL Marketo Engage] De Pagina&#39;s van de landing aangezien zij extra behandeling vereisen. [!DNL Marketo Measure] JavaScript moet aanwezig zijn op zowel de bestemmingspagina als de [!DNL Marketo Engage] zelf vorm te geven. Hiervoor moet u de opdracht [!DNL Marketo Measure] JavaScript in [!DNL Marketo Engage] zoals uitgelegd in de volgende aanwijzingen.
 
 >[!NOTE]
 >
@@ -20,7 +21,7 @@ Leer hoe u tekstspatiëring toevoegt aan [!DNL Marketo Engage] De Pagina&#39;s v
 
 ## Toevoegen [!DNL Marketo Measure] Script naar [!DNL Marketo Engage] Openingspagina&#39;s {#how-to-add-marketo-measure-script-to-marketo-engage-landing-pages}
 
-1. Meld u aan bij uw [!DNL Marketo Engage] account.
+1. Aanmelden bij uw [!DNL Marketo Engage] account.
 1. Selecteer de openingspagina en klik op **[!UICONTROL Edit Draft]**.
 1. Sleep in het element HTML.
 1. Voer de [!DNL Marketo Measure] JavaScript in de [!UICONTROL head] sectie:

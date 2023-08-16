@@ -3,7 +3,8 @@ unique-page-id: 42762729
 description: "[!DNL Marketo Engage] Integratie van programma's - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Engage] Programmaintegratie"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -44,7 +45,7 @@ Alle lagen.
 
    ![](assets/four.png)
 
-1. Kies welke datum- of datum-/tijdveld moet worden gebruikt om toe te wijzen aan de datum van het aanraakpunt. Voer een accolade in om de lijst met beschikbare waarden in Marketo weer te geven `{` en we geven de beschikbare velden weer.
+1. Kies welke datum- of datum-/tijdveld moet worden gebruikt voor toewijzing aan de datum van het aanraakpunt. Voer een accolade in om de lijst met beschikbare waarden in Marketo weer te geven `{` en we geven de beschikbare velden weer.
 
    ![](assets/five.png)
 
@@ -82,11 +83,11 @@ Nadat u sommige regels hebt gecreeerd, kunt u het willen uittesten om te verifiÃ
 
 Van de lijst van de Kanalen van het Programma van Marketo, zult u de waarden aan in kaart willen brengen [!DNL Marketo Measure] aangepaste marketingkanalen die u hebt gemaakt in Instellingen. Alle aanraakpunten die door deze programma&#39;s worden gegenereerd, nemen de Kanaal- en Subkanaalnamen over die u hier selecteert.
 
-1. Begin door naar **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Offline Channels]**.
+1. Starten door te navigeren naar **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Offline Channels]**.
 
 1. Bovenaan, zult u de optie hebben om aan uw Types van Campagne van CRM in kaart te brengen, dan onderaan, zult u de opties voor uw Kanalen van het Programma van Marketo zien.
 
-1. Selecteer eerst het kanaal dat aan de waarde zou moeten in kaart brengen, dan naar keuze Subchannel. Als u klaar bent, klikt u op **[!UICONTROL Save]** onderaan.
+1. Selecteer eerst het kanaal dat aan de waarde zou moeten in kaart brengen, dan naar keuze Subchannel. Als u klaar bent, klikt u **[!UICONTROL Save]** onderaan.
 
    ![](assets/eleven.png)
 
@@ -138,13 +139,13 @@ Via de gegevensimport van Marketo-programma&#39;s worden de kosten automatisch g
 
 ## Cookie-toewijzing {#cookie-mapping}
 
-Als gevolg van [!DNL Marketo Measure] de integratie met Marketo [!DNL Marketo Measure] De cookie-id is nu ook toegewezen en gesynchroniseerd met de [!DNL Marketo Munchkin Id]. Zo kunt u de tussenruimte dichten en de anonieme eerste aanraking toewijzen aan een websessie in plaats van zowel de FT- als de LC-aanraking toe te wijzen aan een Marketo-activiteit. Stel je dit scenario voor:
+Als gevolg van de [!DNL Marketo Measure] de integratie met Marketo [!DNL Marketo Measure] De cookie-id is nu ook toegewezen en gesynchroniseerd met de [!DNL Marketo Munchkin Id]. Zo kunt u de tussenruimte dichten en de anonieme eerste aanraking toewijzen aan een websessie in plaats van zowel de FT- als de LC-aanraking toe te wijzen aan een Marketo-activiteit. Stel je dit scenario voor:
 
-Markeren klikt op een [!DNL Facebook] en landt op wayneprises.com waar hij gekookt wordt [!DNL Marketo Measure] ID 123 en [!DNL Marketo Munchkin Id] 456 Er vindt geen formuliervulling plaats.
+Markeren klikt op een [!DNL Facebook] en landt op wayneenterprises.com waar hij gekookt wordt [!DNL Marketo Measure] ID 123 en [!DNL Marketo Munchkin Id] 456. Er vindt geen formuliervulling plaats.
 
 Het Wayne Enterprises Marketing-team stuurt een e-mailoverzicht naar specifieke beoogde leads, waarbij een van hen `mark@email.com`.
 
-`mark@email.com` ontvangt het e-mailbericht en klikt en landt op wayneprises.com. Dit wordt `mark@email.com's` tweede bezoek aan `wayneenterprise.com` met dezelfde cookie-id, maar er was geen formuliervulling, dus om [!DNL Marketo Measure], zij zijn nog steeds een anonieme bezoeker.
+`mark@email.com` ontvangt de e-mail en klikt en landt op wayneenterprises.com. Dit wordt `mark@email.com's` tweede bezoek aan `wayneenterprise.com` met dezelfde cookie-id, maar er was geen formuliervulling, dus om [!DNL Marketo Measure], zij zijn nog steeds een anonieme bezoeker.
 
 Het Wayne Enterprises Marketing-team maakt een Marketo Activity-regel om aanraakpunten te genereren voor een activity type &quot;Click Email&quot;.
 
@@ -160,7 +161,7 @@ Met deze functie voor het toewijzen van cookies gaat de FT terug en wordt deze g
 
 **Hoe stel ik de aanraakpuntdatum in op de progressiedatum, of de datum waarop de statuswijziging is gebeurd met mijn programmalid?**
 
-Als uw regel de Datum van de Activiteit, of de datum wilt vangen dat een Lid van het Programma een bepaalde status bereikte, zult u willen gebruiken [!DNL Marketo Engage] De Integratie van activiteiten en opstelling een regel voor het &quot;Status van de Verandering in de activiteitstype van de Progressie&quot;. Anders wordt [!DNL Marketo Engage] Programs Integration stelt alleen de Membership Date beschikbaar, de eerste datum waarop de Marketo Person in het Programma is opgenomen, zelfs als er meerdere statussen zijn.
+Als uw regel de Datum van de Activiteit, of de datum wilt vangen dat een Lid van het Programma een bepaalde status bereikte, zult u willen gebruiken [!DNL Marketo Engage] De Integratie van activiteiten en opstelling een regel voor het &quot;Status van de Verandering in de activiteitstype van de Progressie&quot;. Anders wordt de [!DNL Marketo Engage] Programs Integration stelt alleen de Membership Date beschikbaar, de eerste datum waarop de Marketo Person in het Programma is opgenomen, zelfs als er meerdere statussen zijn.
 
 **Kan ik een keuzelijst met datumopties voor het aanraakpunt Date krijgen?**
 
@@ -172,7 +173,7 @@ Het hangt van uw regeldefinitie af, maar misschien, ja. U zult uw regelreeks wil
 
 **Zijn aangepaste velden voor Marketo-lidmaatschap beschikbaar om te definiÃ«ren?**
 
-Vanwege technische beperkingen kunnen we op dit moment geen ondersteuning bieden voor aangepaste velden voor programmalidmaatschap. Zodra deze velden beschikbaar zijn via extra Marketo API&#39;s, worden ze voor u toegankelijk en zichtbaar.
+Vanwege technische beperkingen kunnen we momenteel geen ondersteuning bieden voor aangepaste velden voor programmalidmaatschap. Zodra deze velden beschikbaar zijn via extra Marketo API&#39;s, worden ze voor u toegankelijk en zichtbaar.
 
 **Hoe weet ik of ik Programma&#39;s of Activiteiten moet gebruiken?**
 

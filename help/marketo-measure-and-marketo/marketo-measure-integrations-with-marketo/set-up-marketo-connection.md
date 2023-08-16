@@ -3,7 +3,8 @@ unique-page-id: 42762762
 description: Marketo-verbinding instellen - [!DNL Marketo Measure] - Productdocumentatie
 title: Marketo-verbinding instellen
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
-source-git-commit: ff3ebd557ffe745e1297d053be1390093dc4033c
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -34,7 +35,7 @@ Hieronder wordt beschreven hoe u verbinding maakt met Marketo.
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. Meld u aan bij uw Marketo Engage-account op een nieuw tabblad. Ga naar **Beheer** > **Webservices**. Schuif omlaag naar REST API. Markeer en sla de URL van het eindpunt en de identiteitsservice op. Je hebt ze zo nodig.
+1. Meld u aan bij uw Marketo Engage-account op een nieuw tabblad. Ga naar **Beheerder** > **Webservices**. Schuif omlaag naar REST API. Markeer en sla de URL van het eindpunt en de identiteitsservice op. Je hebt ze zo nodig.
 
    ![](assets/set-up-marketo-connection-5.png)
 
@@ -50,7 +51,7 @@ Hieronder wordt beschreven hoe u verbinding maakt met Marketo.
 
    ![](assets/set-up-marketo-connection-8.png)
 
-1. Nadat u de waarden hebt ingevoerd, klikt u op **[!UICONTROL Authenticate]**. Uw Marketo Engage-account wordt dan verbonden met [!DNL Marketo Measure].
+1. Klik op **[!UICONTROL Authenticate]**. Uw Marketo Engage-account wordt dan verbonden met [!DNL Marketo Measure].
 
    ![](assets/set-up-marketo-connection-9.png)
 

@@ -1,16 +1,17 @@
 ---
 unique-page-id: 34406468
 description: Bloktegels - overzicht [!DNL Marketo Measure] - Productdocumentatie
-title: Bordettegels - overzicht
+title: Bordeblokken - overzicht
 exl-id: 35180928-6b75-4271-9bb5-7617bc2f9c74
-source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
 
 ---
 
-# Bordettegels - overzicht {#overview-board-tiles}
+# Bordeblokken - overzicht {#overview-board-tiles}
 
 De overzichtsraad verstrekt de meest uitvoerige mening van uw marketing prestaties, die marketingteams helpen de juiste besluiten nemen wanneer het groeien van uw team, budget, of opbrengst.
 
@@ -69,7 +70,7 @@ De overzichtsraad verstrekt de meest uitvoerige mening van uw marketing prestati
    <td><strong>X</strong></td> 
   </tr> 
   <tr> 
-   <td><p><strong>Spend</strong></p></td> 
+   <td><p><strong>Draaien</strong></p></td> 
    <td><br></td> 
    <td><strong>X</strong></td> 
    <td><br></td> 
@@ -218,10 +219,10 @@ De overzichtsraad verstrekt de meest uitvoerige mening van uw marketing prestati
 
 ![](assets/one.png)
 
-Totale toegerekende opbrengsten uit hoofde van uit gesloten overeenkomsten voortvloeiende mogelijkheden op basis van het toerekeningsmodel.
+Totale toegerekende opbrengsten uit hoofde van uit gesloten overeenkomsten voortvloeiende mogelijkheden op basis van het toewijzingsmodel.
 
--Opportunity-details: Hiermee geeft u een uitsplitsing weer van de gerelateerde opportuniteits-id&#39;s, de aanmaakdatum, de sluitingsdatum, de ISO-code en de belastingkenmerk.\
--Details tonen: Uitsplitsing naar maand.
+-Opportunity Details: geeft een uitsplitsing weer van de gerelateerde opportuniteits-id&#39;s, de aanmaakdatum, de sluitingsdatum, de ISO-code en de belastingkenmerk.\
+- Details tonen: een uitsplitsing per maand.
 
 ## Overzicht (grafiek) tegel {#overview-chart-tile}
 
@@ -229,7 +230,7 @@ Totale toegerekende opbrengsten uit hoofde van uit gesloten overeenkomsten voort
 
 De grafiek zal opbrengst tonen die aan elk kanaal wordt toegewezen, in tijd wordt getoond.
 
--Opportunity-details: Hiermee geeft u een uitsplitsing weer van de gerelateerde opportuniteits-id&#39;s, de aanmaakdatum, de sluitingsdatum, de ISO-code en de belastingkenmerk.\
+-Opportunity Details: geeft een uitsplitsing weer van de gerelateerde opportuniteits-id&#39;s, de aanmaakdatum, de sluitingsdatum, de ISO-code en de belastingkenmerk.\
 - Toont een uitsplitsing van bijdragende Opp IDs:
 
 * Op ROI Week
@@ -248,7 +249,7 @@ Het totale bedrag aan uitgaven uit zowel API-kosten als zelf-gerapporteerde kost
 >
 >Bij het inboren op minder dan een maand [!DNL Marketo Measure] gemiddeld de uitgaven voor die maand en verdeelt dat gemiddelde over elke dag.
 
--Details uitgaven: Hiermee geeft u een uitsplitsing weer van de gerelateerde unieke id van de uitgavencampagne, de naam van de campagne, het kanaal, het subkanaal, de datum, de oorspronkelijke valuta en de uitgaven.  -Details tonen: Uitsplitsing naar maand.
+-Spend Details: geeft een uitsplitsing weer van de gerelateerde unieke id van de uitgavencampagne, de naam van de campagne, het kanaal, het subkanaal, de datum, de oorspronkelijke valuta en de uitgaven.  - Details tonen: een uitsplitsing per maand.
 
 ## ROI Tile {#roi-tile}
 
@@ -266,9 +267,9 @@ Toont het totale aantal toegeschreven overeenkomsten (de Overeenkomsten zijn een
 >
 >Als het datumtype &quot;Aanraakpuntdatum&quot; is geselecteerd, zijn gedeeltelijke tellingen mogelijk omdat er bepaalde aanraakpunten kunnen zijn die niet binnen het tijdbereik vallen.
 
--Opportunity-details: Hiermee geeft u een uitsplitsing weer van de gerelateerde opportuniteits-id&#39;s, de aanmaakdatum, de einddatum en de kenmerk (aantal).  -Details tonen: Uitsplitsing naar maand.
+-Opportunity Details: geeft een uitsplitsing weer van de gerelateerde opportuniteits-id&#39;s, de aanmaakdatum, de sluitingsdatum en het kenmerk (aantal).  - Details tonen: een uitsplitsing per maand.
 
-## Kostprijs per deal-tegel {#cost-per-deal-tile}
+## Kostprijs per deal {#cost-per-deal-tile}
 
 ![](assets/six.png)
 
@@ -284,7 +285,7 @@ De totale potentiële bestemmingsontvangsten voor open Kansen
 >
 >De opbrengsten worden weergegeven voor het gespecificeerde toewijzingsmodel.
 
--Opportunity-details: Hiermee geeft u een uitsplitsing weer van de gerelateerde opportuniteits-id&#39;s, de aanmaakdatum, de sluitingsdatum, de ISO-code en de belastingkenmerk.  -Details tonen: Uitsplitsing naar maand.
+-Opportunity Details: geeft een uitsplitsing weer van de gerelateerde opportuniteits-id&#39;s, de aanmaakdatum, de sluitingsdatum, de ISO-code en de belastingkenmerk.  - Details tonen: een uitsplitsing per maand.
 
 ## Tegel voor verkoopgrootte {#deal-size-tile}
 
@@ -308,7 +309,7 @@ Toon een lijst van subkanalen die op metrische geselecteerde metrische (opbrengs
 
 ![](assets/eleven.png)
 
-Geef een lijst weer met campagnes die zijn gebaseerd op geselecteerde metrische elementen (omzet, omzet uit pijpleidingen, uitgaven, deals, kansen, leads, contacten).
+Toon een lijst van Campagnes die op metrisch geselecteerde (opbrengst, pijpleidingsopbrengst, uitgaven, overeenkomsten, kansen, lood, contacten worden gebaseerd).
 
 ## ROI-tegel (grafiek) {#roi-chart-tile}
 
@@ -322,6 +323,6 @@ Geeft ROI weer die is toegewezen aan de geselecteerde metrische waarde (kanaal, 
 
 Geeft ROI weer die is toegewezen aan de geselecteerde metrische waarde (kanaal, subkanaal, campagne, account, adgroup, advertentie, adverteerder, creative, keyword, placement, site) op basis van het geselecteerde attributiemodel.
 
--Opportunity-details: Hiermee geeft u een uitsplitsing weer van de gerelateerde opportuniteits-id&#39;s, de aanmaakdatum, de einddatum en de kenmerk (aantal).
+-Opportunity Details: geeft een uitsplitsing weer van de gerelateerde opportuniteits-id&#39;s, de aanmaakdatum, de sluitingsdatum en het kenmerk (aantal).
 
--Details tonen: Uitsplitsing naar maand.
+- Details tonen: een uitsplitsing per maand.

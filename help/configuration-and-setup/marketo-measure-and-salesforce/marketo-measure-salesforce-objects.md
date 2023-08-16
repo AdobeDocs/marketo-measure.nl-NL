@@ -3,7 +3,8 @@ unique-page-id: 18874582
 description: "[!DNL Marketo Measure] Salesforce-objecten - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Salesforce-objecten"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 >
 >Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie, maar zie nog &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-Wanneer [!DNL Marketo Measure] is geïnstalleerd in [!DNL Salesforce] (SFDC), meerdere aangepaste [!DNL Marketo Measure] Objecten worden toegevoegd. Dit artikel bevat een uitleg van verschillende van deze aangepaste [!DNL Marketo Measure] Objecten. Sommige objecten die [!DNL Marketo Measure] toevoegen aan [!DNL Salesforce] zijn:
+Wanneer [!DNL Marketo Measure] is geïnstalleerd in [!DNL Salesforce] (SFDC), meerdere aangepaste [!DNL Marketo Measure] Objecten worden toegevoegd. In dit artikel wordt een uitleg gegeven van verschillende van deze aangepaste [!DNL Marketo Measure] Objecten. Sommige objecten die [!DNL Marketo Measure] toevoegen aan [!DNL Salesforce] zijn:
 
 * [Aanraakpunt koper](#touchpoint)
 * [Aanraakpunt koperkenmerk](#attribution)
@@ -26,7 +27,7 @@ Wanneer [!DNL Marketo Measure] is geïnstalleerd in [!DNL Salesforce] (SFDC), me
 
 Aanraakpunten die zijn vastgelegd door de dingen die u wilt bijhouden, schrijven naar de aangepaste objecten die zijn gemaakt door de installatie van de [!DNL Bizible Salesforce] pakket.
 
-[!DNL Marketo Measure] Objecten hebben betrekking op specifieke norm [!DNL Salesforce] Objecten. Op deze manier kunt u rapporteren over [!DNL Marketo Measure] en [!DNL Salesforce] Objecten bij elkaar. In de onderstaande tabel wordt aangegeven welke [!DNL Salesforce] Object [!DNL Marketo Measure] Object heeft betrekking op.
+[!DNL Marketo Measure] Objecten hebben betrekking op specifieke norm [!DNL Salesforce] Objecten. Op deze manier kunt u rapporteren over [!DNL Marketo Measure] en [!DNL Salesforce] Objecten bij elkaar. In de onderstaande tabel wordt aangegeven welke [!DNL Salesforce] Object van [!DNL Marketo Measure] Object heeft betrekking op.
 
 ![](assets/1-1.png)
 
@@ -54,7 +55,7 @@ Het BBT-object is zichtbaar op het tabblad [!UICONTROL Opportunity], [!UICONTROL
 
 ## [!DNL Marketo Measure] Persoon {#marketo-measure-person}
 
-De [!DNL Marketo Measure] Persoonsobject koppelt de objecten Lead en Contact. Uit de doos, verstrekt Salesforce niet de optie om rapporten tot stand te brengen gebruikend het Lood en voorwerp van het Contact in het zelfde rapport. Door het object Lead en Contact te koppelen, [!DNL Marketo Measure] Met Persoon kunt u in hetzelfde rapport over beide objecten rapporteren. Dit is vooral handig wanneer een lead is omgezet in een contactpersoon. Op een [!DNL Marketo Measure] Persoonsrecord dat u ziet, wordt weergegeven met een zoekopdracht naar de bijbehorende lijst met leads en/of contactpersonen, een verwante lijst met de aan de persoon gekoppelde aanraakpunten en de persoon-id (dit is altijd het e-mailadres van de lead/contactpersoon). Aangezien [!DNL Marketo Measure] Persoon heeft betrekking op het object Lead &amp; Contact, er zal nooit een [!DNL Marketo Measure] Persoonsrecord die is gekoppeld aan een aanraakpunt voor koperkenmerken. Hieronder ziet u een voorbeeld van een [!DNL Marketo Measure] Persoonsregistratie in Salesforce:
+De [!DNL Marketo Measure] Persoonsobject koppelt de objecten Lead en Contact. Salesforce beschikt niet over de optie om rapporten te maken met het object Lead en Contact in hetzelfde rapport. Door het object Lead en Contact te koppelen, [!DNL Marketo Measure] Met Persoon kunt u in hetzelfde rapport over beide objecten rapporteren. Dit is vooral handig wanneer een lead is omgezet in een contactpersoon. Op een [!DNL Marketo Measure] Persoonsrecord dat u ziet, wordt weergegeven met een zoekopdracht naar de bijbehorende lijst met leads en/of contactpersonen, een verwante lijst met de aan de persoon gekoppelde aanraakpunten en de persoon-id (dit is altijd het e-mailadres van de lead/contactpersoon). Aangezien de [!DNL Marketo Measure] Persoon heeft betrekking op het object Lead &amp; Contact, er zal nooit een [!DNL Marketo Measure] Persoonsrecord die is gekoppeld aan een aanraakpunt voor koperkenmerken. Hieronder ziet u een voorbeeld van een [!DNL Marketo Measure] Persoonsregistratie in Salesforce:
 
 ![](assets/4.png)
 

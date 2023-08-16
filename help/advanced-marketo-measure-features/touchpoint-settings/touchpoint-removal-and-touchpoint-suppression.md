@@ -3,7 +3,8 @@ unique-page-id: 18874710
 description: Aanraakpunt verwijderen en onderdrukking aanraakpunt - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanraakpunt verwijderen en onderdrukking aanraakpunt
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%

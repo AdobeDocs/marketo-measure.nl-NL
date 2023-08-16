@@ -2,7 +2,8 @@
 description: "[!UICONTROL Discover Data Download] Toegangsbeheer - Marketo Measure - Productdocumentatie"
 title: "[!UICONTROL Discover Data Download] Toegangsbeheer"
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
-source-git-commit: 3d2d250933d16e3e8ab14f4863a76559b4349dbf
+feature: Discover
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -27,7 +28,7 @@ ht-degree: 0%
      <td>Alle gebruikers kunnen gegevens downloaden, inclusief de PDF- en CSV-indeling.</td>
     </tr>
     <tr>
-     <td><strong>Alleen Admin-gebruikers</strong></td>
+     <td><strong>Alleen gebruikers beheren</strong></td>
      <td>Alleen Admin-gebruikers kunnen gegevens downloaden, waaronder zowel de PDF- als de CSV-indeling.</td>
     </tr>
     <tr>

@@ -3,7 +3,8 @@ unique-page-id: 30082018
 description: Vertraagde synchronisatie van cookies - [!DNL Marketo Measure] - Productdocumentatie
 title: Vertraagde synchronisatie van cookies
 exl-id: 394053ed-5642-48e4-b83c-c483a58ebbd7
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -12,11 +13,11 @@ ht-degree: 0%
 
 # Vertraagde synchronisatie van cookies {#delayed-cookie-sync}
 
-Deze wijziging in de standaardinstelling [!DNL Marketo Measure] JavaScript biedt [!DNL bizible.js] API-ondersteuning, zodat u de JS kunt configureren om gebruikersactiviteiten van bezoekers tijdelijk op te slaan, maar de informatie niet naar de [!DNL Marketo Measure] tot de gebruiker hiermee instemt.
+Deze wijziging in de standaardinstelling [!DNL Marketo Measure] Javascript biedt [!DNL bizible.js] API-ondersteuning, zodat u de JS kunt configureren om gebruikersactiviteiten van bezoekers tijdelijk op te slaan, maar de informatie niet naar de [!DNL Marketo Measure] tot de gebruiker hiermee instemt.
 
 ## Procedure {#how-to}
 
-De standaardwaarde vervangen [!DNL bizible.js] scripttag met het volgende:
+De standaardinstelling vervangen [!DNL bizible.js] scripttag met het volgende:
 
 `<script id="bizible-settings" type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" data-consent-button-id="ConsentButtonId"></script>`
 
@@ -35,4 +36,4 @@ Als alternatief kunnen klanten de [!UICONTROL data-consent-button-id] niet besta
 
 Omdat [!DNL bizible.js] tijdelijke opslag van niet-verzonden webactiviteiten in cookies van de eerste partij van de klant en de grootte van cookies van de eerste partij zijn beperkt, zodat op elk moment slechts drie niet-verzonden aanvragen kunnen worden opgeslagen.
 
-Indien er al drie verzoeken in behandeling zijn, worden alle verdere activiteiten genegeerd; dit is om de eerste voorvertoning te behouden , die waardevolle informatie over de referentie bevat .
+Als er al drie verzoeken in behandeling zijn, worden alle volgende activiteiten genegeerd. Dit betekent dat de eerste pagina behouden blijft, die waardevolle informatie over de verwijzende persoon bevat.

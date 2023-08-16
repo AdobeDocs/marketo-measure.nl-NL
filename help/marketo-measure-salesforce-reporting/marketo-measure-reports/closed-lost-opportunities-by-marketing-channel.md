@@ -3,7 +3,8 @@ unique-page-id: 18874632
 description: Gesloten verliesmogelijkheden per marketingkanaal - [!DNL Marketo Measure] - Productdocumentatie
 title: Gesloten verliesmogelijkheden per marketingkanaal
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Channels, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -46,4 +47,4 @@ Hoewel dit rapport van uw Stages van de Kans zou kunnen afhangen, zal dit rappor
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universiteit: Aanvullende SFDC-rapporten](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)
+>[[!DNL Marketo Measure] University: aanvullende SFDC-rapporten](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)

@@ -3,7 +3,8 @@ unique-page-id: 18874726
 description: Het vormen van [!DNL Marketo Measure] A/B-testintegratie - [!DNL Marketo Measure] - Productdocumentatie
 title: Het vormen van [!DNL Marketo Measure] A/B-testintegratie
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: A/B Testing, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Het vormen van [!DNL Marketo Measure] A/B-testintegratie {#configuring-the-marketo-measure-a-b-test-integration}
 
-Voeg de [!DNL Marketo Measure] A/B de secties van de Test op Lood, Contact, Geval, en Kans. [!DNL Marketo Measure] A/B de integratie van de Test staat u toe om het opbrengsteffect van uw te volgen [Optimizely](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimenten op plaatsen.
+Voeg de [!DNL Marketo Measure] A/B de secties van de Test op Lood, Contact, Geval, en Kans. [!DNL Marketo Measure] A/B de integratie van de Test staat u toe om het opbrengsteffect van uw te volgen [Optimizely](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimenten op locaties.
 
 1. Controleren of je pakket gebruikt [[!DNL Marketo Measure] v3.9 of hoger](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}.
 1. Voeg de optie &quot;[!DNL Marketo Measure] Verwante lijst van ABTests aan uw Pagina-lay-outs en klik dan **Instellingen** (moersleutel).

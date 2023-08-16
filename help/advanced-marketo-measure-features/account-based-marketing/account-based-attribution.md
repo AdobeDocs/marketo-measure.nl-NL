@@ -3,7 +3,8 @@ unique-page-id: 18874650
 description: Kenmerk op basis van account - [!DNL Marketo Measure] - Productdocumentatie
 title: Attributie op basis van account
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%

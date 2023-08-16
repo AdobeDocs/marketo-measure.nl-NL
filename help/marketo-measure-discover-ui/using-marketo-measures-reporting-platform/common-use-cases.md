@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874658
 description: Vaak voorkomende gevallen - [!DNL Marketo Measure] - Productdocumentatie
-title: Vaak Gebruik
+title: Vaak voorkomende gevallen
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
-# Vaak Gebruik {#common-use-cases}
+# Vaak voorkomende gevallen {#common-use-cases}
 
 Hieronder vindt u enkele algemene gebruikswijzen [!DNL Marketo Measure Discover] om waardevolle inzichten in uw marketing prestaties te verkrijgen.
 
@@ -60,7 +61,7 @@ Om een totaal aantal overeenkomsten te zien of tendensen in tijd te zien, gebrui
 
 Wilt u zien welke gevolgen de marketing heeft gehad voor de pijpleiding en welke kanalen het meest effectief zijn geweest om dit te doen? Gebruik het overzicht of het dashboard van CMO binnen Discover en pas het Metrische filter aan de Ontvangsten van de Pijpleiding en het Type van Datum aan AanraakpuntDatum aan om totale pijpleiding te bekijken die door een dimensie wordt gegroepeerd.
 
-Om een totale waarde voor pijpleiding te krijgen of de totale pijpleidingsopbrengst te zien die in tijd trending, gebruik het dashboard van de Groei en pas het Type van Datum aan de Datum van het Aanraakpunt aan. Het Type van datum kan ook in Dichte Datum worden veranderd om de hoeveelheid pijpleiding te tonen die van toekomstige dichte data wordt gebaseerd.
+Om een totale waarde voor pijpleiding te krijgen of de totale pijpleidingsopbrengst te zien die in tijd trending, gebruik het dashboard van de Groei en pas het Type van Datum aan AanraakpuntDatum aan. Het Type van datum kan ook in Dichte Datum worden veranderd om de hoeveelheid pijpleiding te tonen die van toekomstige dichte data wordt gebaseerd.
 
 Wanneer het bekijken van de Inkomsten van de Pijpleiding, adviseren wij veranderend de data in een datumwaaier in de toekomst.
 
@@ -76,8 +77,8 @@ Navigeer naar het dashboard Overzicht en pas het filter Metrisch aan Spend aan o
 
 U kunt ook naar het dashboard marketinguitgaven gaan, waar in de hoofdtegel een uitgavenoverzicht van de afgelopen 12 maanden wordt weergegeven, gegroepeerd per marketingkanaal.
 
-Wijzig het filter Dimension om de groepering in te stellen op: Subkanaal, campagne, adverteerder, advertentiegroep, trefwoord, plaatsing of site.
+Wijzig het filter Dimension om de groepering te wijzigen in Subchannel, Campagne, Advertiser, Advertentiegroep, Trefwoord, Plaatsing of Site.
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universiteit: Inleiding tot [!DNL Marketo Measure Discover]](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6){target="_blank"}
+>[[!DNL Marketo Measure] University: Inleiding tot [!DNL Marketo Measure Discover]](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6){target="_blank"}

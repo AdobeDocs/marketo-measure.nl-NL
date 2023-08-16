@@ -1,26 +1,27 @@
 ---
 unique-page-id: 18874572
-description: Records dupliceren en [!DNL Marketo Measure] - [!DNL Marketo Measure] - Productdocumentatie
-title: Records dupliceren en [!DNL Marketo Measure]
+description: Records dupliceren [!DNL Marketo Measure] - [!DNL Marketo Measure] - Productdocumentatie
+title: Records dupliceren [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-# Records dupliceren en [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
+# Records dupliceren [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
 >
 >Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie, maar zie nog &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-[!DNL Marketo Measure] Gebruikt het e-mailadres als onze unieke id wanneer gegevens worden vergeleken met een gerelateerde lead of contactpersoon in de CRM. Wanneer [!DNL Marketo Measure] Als u meerdere leads of contactpersonen met hetzelfde e-mailadres zoekt, worden dezelfde gegevens in alle records weergegeven. Dit heeft gevolgen wanneer u rapporteert over de leads of contactpersonen met [!DNL Marketo Measure] en kan ten onrechte de hoeveelheid unieke personen opblazen die aanraakpunten voor kopers hebben.
+[!DNL Marketo Measure] Gebruikt het e-mailadres als onze unieke id wanneer gegevens worden vergeleken met een gerelateerde lead of contactpersoon in de CRM. Wanneer [!DNL Marketo Measure] Als u meerdere leads of contactpersonen met hetzelfde e-mailadres zoekt, worden dezelfde gegevens in alle records weergegeven. Dit heeft gevolgen wanneer u rapporteert over de leads of de contactpersonen met [!DNL Marketo Measure] en kan ten onrechte de hoeveelheid unieke personen opblazen die aanraakpunten voor kopers hebben.
 
 Hoe ziet dit eruit in [!DNL Marketo Measure] Rapportage?
 
-_Voorbeeld: [!DNL Marketo Measure] Personen met aanraakpunten voor kopers._
+_Voorbeeld van rapport: [!DNL Marketo Measure] Personen met aanraakpunten voor kopers._
 
 ![](assets/1-1.png)
 

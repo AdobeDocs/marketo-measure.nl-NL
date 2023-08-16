@@ -3,7 +3,8 @@ unique-page-id: 18874602
 description: Kosten marketingkanaal - [!DNL Marketo Measure] - Productdocumentatie
 title: Kosten marketingkanaal
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Channels, Spend Management
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Op het hoogste niveau kunnen klanten uitgaven per kanaal invoeren. Als u op dit 
 
 **Datumkiezer**
 
-Het standaarddatumbereik begint op uw begindatum met [!DNL Marketo Measure] tot en met de huidige maand. Om ervoor te zorgen dat de kosten correct blijven, kunt u geen kosten voor toekomstige maanden ingaan, maar u kunt kosten voor maanden vóór uw partnerschap ingaan met [!DNL Marketo Measure].
+Het standaarddatumbereik begint op uw begindatum met [!DNL Marketo Measure] tot de huidige maand. Om ervoor te zorgen dat de kosten correct blijven, kunt u geen kosten voor toekomstige maanden ingaan, maar u kunt kosten voor maanden vóór uw partnerschap ingaan met [!DNL Marketo Measure].
 
 **Filter**
 
@@ -66,25 +67,25 @@ De gemeenschappelijkste fout wij onder ogen zien is het formaat van de datumkolo
 
 [!DNL Marketo Measure] wordt geleverd met 13 standaardkanalen die kunnen worden gebruikt of uitgebreid. Daarnaast kunnen maximaal 40 online- en offlinekanalen worden gemaakt om uw unieke marketingstructuur te kunnen aanpassen. Voortbouwend op dit, kunnen in totaal 200 subkanalen worden gecreeerd om deze online en off-line kanalen eveneens te steunen.
 
-[!DNL Marketo Measure] worden de kosten van marketingkanalen automatisch gedownload van platforms waarmee de software is geïntegreerd, zoals Bing Ads en Google AdWords. Kosten voor platforms die niet zijn geïntegreerd met [!DNL Marketo Measure] moet handmatig worden geüpload. De afzetkanalen moeten worden opgezet voordat de kostengegevens worden geüpload.
+[!DNL Marketo Measure] worden de kosten van marketingkanalen automatisch gedownload van platforms waarmee de software is geïntegreerd, zoals Bing Ads en Google AdWords. Kosten voor platforms die niet zijn geïntegreerd met [!DNL Marketo Measure] moet u handmatig uploaden. De afzetkanalen moeten worden opgezet voordat de kostengegevens worden geüpload.
 
 ## Marketingkosten uploaden {#uploading-marketing-costs}
 
 Zodra afzetkanalen en regels zijn opgezet of bijgewerkt, kunnen de bijbehorende kosten worden geüpload. Hiervoor voert u de volgende stappen uit:
 
-**Stap 1: Ga naar de pagina Marketing Spend in het dialoogvenster [!DNL Marketo Measure] App.**
+**Stap 1: Navigeer naar de pagina Marketing Spend in het dialoogvenster [!DNL Marketo Measure] App.**
 
 Ga naar de **[!UICONTROL My Account]** menu, klik op **[!UICONTROL Settings]** en navigeer vervolgens naar de **[!UICONTROL Marketing Spend]** optie op de linkerzijbalk onder de optie **[!UICONTROL Reporting]** sectie.
 
 ![](assets/1.png)
 
-**Stap 2: Huidige CSV-kosten downloaden**
+**Stap 2: Download de huidige CSV-kosten**
 
 Navigeer rechts van het scherm en klik op **[!UICONTROL Download Current Costs].** Met deze optie kunt u een werkblad in CSV-indeling downloaden.
 
 ![](assets/2.png)
 
-**Stap 3: Het CSV-bestand openen en wijzigingen aanbrengen**
+**Stap 3: Open het CSV-bestand en breng wijzigingen aan**
 
 U kunt het bestand importeren en openen met Google Sheets, Apple Numbers, Microsoft Excel of de software die u kiest. [!DNL Marketo Measure] raadt u aan Google Sheets te gebruiken.
 
@@ -92,7 +93,7 @@ Nadat u het blad hebt geïmporteerd, brengt u de gewenste wijzigingen aan, zoals
 
 Controleer de logische regels in uw vel. Elke rij moet een kanaal en een van de subkanalen bevatten, gescheiden door een (.) punt aan het einde. Het is belangrijk deze indeling consistent te gebruiken.
 
-Als u bijvoorbeeld Facebook als subkanaal en sociaal kanaal wilt aanduiden als kanaal, moet de regel als volgt worden geschreven: &quot;Social.Facebook.&quot; Op dezelfde manier moet de kanaalsyntaxis voor het bijhouden van een offlinegebeurtenis als volgt zijn: &quot;Gebeurtenissen.Grote Conferentie.&quot; In de onderstaande afbeelding worden voorbeelden weergegeven:
+Als u bijvoorbeeld Facebook als subkanaal en sociaal kanaal wilt aanduiden als kanaal, moet de regel als volgt worden geschreven: &quot;Social.Facebook&quot;. Op dezelfde manier moet de kanaalsyntaxis voor het bijhouden van een offlinegebeurtenis &#39;Events.Big Conference&#39; zijn. In de onderstaande afbeelding worden voorbeelden weergegeven:
 
 ![](assets/3.png)
 
@@ -116,7 +117,7 @@ Ga naar de **[!UICONTROL Cost]** van de [!DNL Marketo Measure] app en klik op **
 
 **Waarom worden getallen weergegeven in de CSV**
 
-Als er geen waarde wordt ingevoerd op een hoger niveau, zoals Kanaal of Subkanaal, [!DNL Marketo Measure] De som van de onderliggende niveaus voor u wordt automatisch berekend. Deze niveaus worden weergegeven wanneer het bestand is geüpload. Als de som van de onderliggende items lager is dan een waarde die voor de bovenliggende toepassing is ingevoerd, [!DNL Marketo Measure] voegt een rij &quot;Overige&quot; toe om het verschil in het totaal aan te geven.
+Als geen waarde op een hoger niveau zoals Kanaal of Subkanaal is ingegaan, [!DNL Marketo Measure] De som van de onderliggende niveaus voor u wordt automatisch berekend. Deze niveaus worden weergegeven wanneer het bestand is geüpload. Als de som van de onderliggende items lager is dan een waarde die voor de bovenliggende toepassing is ingevoerd, [!DNL Marketo Measure] voegt een rij &quot;Overige&quot; toe om het verschil in het totaal aan te geven.
 
 **Hoe worden de campagnes bepaald in de lijst die ik zie?**
 

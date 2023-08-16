@@ -3,7 +3,8 @@ unique-page-id: 18874732
 description: Aanbevolen procedures voor het instellen van UTM-parameters - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanbevolen procedures voor het instellen van UTM-parameters
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: UTM Parameters
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -38,11 +39,11 @@ We raden u aan onderstrepingstekens te gebruiken in plaats van spaties, en leest
 
 bijv. AU_Idea_for_an_App_50k
 
-**utm_content**: Dit is toegewezen aan Advertentie-inhoud. Gebruik Titel toevoegen in de parameter utm_content. Als het een afbeeldingsadvertentie is, gebruikt u een titel en neemt u de afmetingen van de advertentie op.
+**utm_content**: Dit is toegewezen aan Inhoud toevoegen. Gebruik Titel toevoegen in de parameter utm_content. Als het een afbeeldingsadvertentie is, gebruikt u een titel en neemt u de afmetingen van de advertentie op.
 
-bijv. [advertentitel] 200 x 400 px
+bijv. [advertentietak] 200 x 400 px
 
-**utm_term**: Dit is toegewezen aan trefwoordtekst. Gebruik deze parameter om het trefwoord aan te duiden dat betrekking heeft op het afvuren van de advertentie.
+**utm_term**: Dit is toegewezen aan Trefwoordtekst. Gebruik deze parameter om het trefwoord aan te duiden dat betrekking heeft op het afvuren van de advertentie.
 
 Laat deze parameter leeg als er geen trefwoord is voor de advertentie.
 
@@ -54,7 +55,7 @@ Wij stellen de UTM-hiërarchie als volgt voor:
 
 Normaal > [!UICONTROL Source] > [!UICONTROL Campaign] > [!UICONTROL Content/Term]
 
-bv. [!UICONTROL display] advertentie die op Facebook is geplaatst, raden we het volgende aan:
+Bijvoorbeeld als een [!UICONTROL display] advertentie die op Facebook is geplaatst, raden we het volgende aan:
 
 fakewebsite.com/
 

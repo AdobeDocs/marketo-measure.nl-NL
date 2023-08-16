@@ -3,7 +3,8 @@ unique-page-id: 18874722
 description: Beste praktijken voor het Testen - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanbevolen procedures voor het testen
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
-source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 1%
@@ -22,7 +23,7 @@ U moet alle verschillende typen formulieren testen om te controleren of de [!DNL
    >
    >De beste manier is om een nep-e-mail te gebruiken die iets bevat dat aangeeft dat het een test is, en de tijd van de dag. Bijvoorbeeld: `testing830am@test.com`.
 
-1. Begin uw onderzoek bij een onderzoeksmotor (b.v., `google.com`) of rechtstreeks naar een formulier navigeren.
+1. Start uw zoekopdracht bij een zoekmachine (bijvoorbeeld `google.com`) of rechtstreeks naar een formulier navigeren.
 
 1. Verzend het formulier op uw website met een uniek e-mailadres.
 

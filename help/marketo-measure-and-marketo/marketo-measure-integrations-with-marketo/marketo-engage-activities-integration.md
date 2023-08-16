@@ -3,7 +3,8 @@ unique-page-id: 42762749
 description: "[!DNL Marketo Engage] Integratie van activiteiten - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Engage] Activiteitenintegratie"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Als onderdeel van het algemene [!DNL Marketo Measure] en [!DNL Marketo Engage] I
 
 ## Instellen {#setup}
 
-1. Als u Marketo-activiteiten wilt instellen, navigeert u naar **Mijn account** > **Instellingen** > **Activiteiten**.
+1. Ga naar om Marketo-activiteiten op te zetten **Mijn account** > **Instellingen** > **Activiteiten**.
 
    ![](assets/one-1.png)
 
@@ -33,7 +34,7 @@ Als onderdeel van het algemene [!DNL Marketo Measure] en [!DNL Marketo Engage] I
 
    Het eerste vereiste ding is de lijst van de Types van Activiteit te selecteren die u van plan bent om regels op te bouwen. Er is geen hard aantal vereiste activiteitstypen, maar wij adviseren ook dat u uw touchpoints niet overlaadt en het belang van significante mijlpalen sleept. Met dat gezegd, hebt u misschien niet meer dan vijf soorten activiteit nodig om de relevante overeenkomsten te volgen.
 
-1. Klik op het vervolgkeuzemenu onder [!UICONTROL Select Activities Types] om de verschillende typen te kiezen.
+1. Klik op de vervolgkeuzelijst onder [!UICONTROL Select Activities Types] om de verschillende typen te kiezen.
 
    ![](assets/three-1.png)
 
@@ -57,7 +58,7 @@ Als onderdeel van het algemene [!DNL Marketo Measure] en [!DNL Marketo Engage] I
 
    ![](assets/seven-1.png)
 
-1. Tot slot kiest u wat u als aanraakpunt moet gebruiken. Alle beschikbare datum- of datum-/tijdvelden worden hier weergegeven vanuit Marketo. Tenzij u aangepaste datumvelden hebt, wordt &quot;[!UICONTROL Activity Date].&quot;
+1. Tot slot kiest u wat we als aanraakpunt Datum moeten gebruiken. Alle beschikbare datum- of datum-/tijdvelden worden hier weergegeven vanuit Marketo. Tenzij u aangepaste datumvelden hebt, wordt &quot;[!UICONTROL Activity Date].&quot;
 
    ![](assets/eight-1.png)
 
@@ -71,9 +72,9 @@ Als onderdeel van het algemene [!DNL Marketo Measure] en [!DNL Marketo Engage] I
 
 1. Voor elk type activiteit dat u hebt geselecteerd, kunt u extra Marketo-kenmerken toewijzen aan aanraakpuntvelden zodat u deze waarden kunt weergeven en melden in [!DNL Marketo Measure Discover] of in de CRM.
 
-   Veel van de velden zijn automatisch toegewezen en kunnen niet worden gewijzigd om consistent te zijn met onze andere integraties. Verwijs naar de sectie Veldtoewijzingen hieronder om die waarden te vinden. Voor bepaalde typen activiteiten bevat Marketo kenmerken voor een openingspagina of een verwijzingspagina, of een browser die u optioneel kunt toewijzen aan een aanraakpuntveld. In het onderstaande voorbeeld hebben we enkele aanvullende suggesties gedaan die kunnen worden verwijderd.
+   Veel van de velden zijn automatisch toegewezen en kunnen niet worden gewijzigd om consistent te zijn met onze andere integraties. Verwijs naar de sectie van de Toewijzingen van het Gebied hieronder om die waarden te vinden. Voor bepaalde typen activiteiten bevat Marketo kenmerken voor een openingspagina of een verwijzingspagina, of een browser die u optioneel kunt toewijzen aan een aanraakpuntveld. In het onderstaande voorbeeld hebben we enkele aanvullende suggesties gedaan die kunnen worden verwijderd.
 
-1. Selecteer het veld Aanraakpunt koper in de linkerkolom waarnaar u wilt toewijzen. Kies vervolgens het Marketo-kenmerk dat u wilt vullen in het veld Aanraakpunt koper. Vergeet niet dat dit optionele extra toewijzingen zijn boven op die welke [!DNL Marketo Measure] heeft vastgesteld.
+1. Selecteer het veld Aanraakpunt koper in de linkerkolom waarnaar u wilt toewijzen. Kies vervolgens het Marketo-kenmerk dat u wilt vullen in het veld Aanraakpunt koper. Vergeet niet dat dit optionele extra toewijzingen zijn boven op de toewijzingen die [!DNL Marketo Measure] heeft vastgesteld.
 
    Toewijzbare velden:
 
@@ -143,11 +144,11 @@ Verkoop-e-mail teruggestuurd (48)\
 Opbrengstfase wijzigen (101)\
 Werkgebied voor inkomsten handmatig wijzigen (102)\
 Segment wijzigen (108)\
-De Webhaak van de vraag (110)\
+Webhaak bellen (110)\
 Doorsturen naar e-mail vriend(in) (111)\
-Doorgestuurd naar e-mail vriend(in) (112)\
+Doorgestuurd naar e-mail vriend (112)\
 Cursustrack wijzigen (114)\
-Push Lead naar Marketo (145)\
+Uitloop naar Marketo (145)\
 Lead synchroniseren naar Microsoft (300)\
 Inhoud delen (400) Dialoogvenster ingesloten (158) Document heeft interactie gehad met (159) Dialoogaanduiding gepland (160) Dialoogoogvenster bereikt (161) Aangepaste activiteit (xxx)
 
@@ -165,9 +166,9 @@ Via de gegevensimport van Marketo-programma&#39;s worden de kosten automatisch g
 
 ## Cookie-toewijzing {#cookie-mapping}
 
-Als gevolg van [!DNL Marketo Measure] de integratie met Marketo [!DNL Marketo Measure] De cookie-id is nu ook toegewezen en gesynchroniseerd met de [!DNL Marketo Munchkin Id]. Zo kunt u de tussenruimte dichten en de anonieme eerste aanraking toewijzen aan een websessie in plaats van zowel de FT- als de LC-aanraking toe te wijzen aan een Marketo-activiteit. Stel je dit scenario voor:
+Als gevolg van de [!DNL Marketo Measure] de integratie met Marketo [!DNL Marketo Measure] De cookie-id is nu ook toegewezen en gesynchroniseerd met de [!DNL Marketo Munchkin Id]. Zo kunt u de tussenruimte dichten en de anonieme eerste aanraking toewijzen aan een websessie in plaats van zowel de FT- als de LC-aanraking toe te wijzen aan een Marketo-activiteit. Stel je dit scenario voor:
 
-Mark klikt op een Facebook-advertentie en landt op wayneprises.com waar hij mee overweldigd wordt [!DNL Marketo Measure] ID 123 en [!DNL Marketo Munchkin Id] 456 Er vindt geen formuliervulling plaats.
+Mark klikt op een Facebook advertentie en landt op wayneenterprises.com waar hij gekookt wordt [!DNL Marketo Measure] ID 123 en [!DNL Marketo Munchkin Id] 456. Er vindt geen formuliervulling plaats.
 
 Het Wayne Enterprises Marketing-team stuurt een e-mailoverzicht naar specifieke beoogde leads, waarbij een van hen `mark@email.com`.
 

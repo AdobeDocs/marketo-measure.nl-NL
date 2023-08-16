@@ -1,8 +1,9 @@
 ---
-description: "[!DNL Marketo Measure] Rapportsjabloon - Tableau - [!DNL Marketo Measure] - Productdocumentatie"
-title: "[!DNL Marketo Measure] Rapportsjabloon - Tableau"
+description: "[!DNL Marketo Measure] Rapportsjabloon - Tabel - [!DNL Marketo Measure] - Productdocumentatie"
+title: "[!DNL Marketo Measure] Rapportsjabloon - Tabel"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
-source-git-commit: 1b0d043e9015f2f8e2f6a3a2a49849bb792c7f21
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '2296'
 ht-degree: 0%
@@ -13,9 +14,9 @@ ht-degree: 0%
 
 ## Aan de slag {#getting-started}
 
-U hebt toegang tot de [!DNL Tableau] rapportsjabloon [hier](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
+U hebt toegang tot [!DNL Tableau] rapportsjabloon [hier](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
-Open de [!DNL Adobe Marketo Measure] Werkboekbestand Sjabloon rapporteren
+Open de [!DNL Adobe Marketo Measure] Werkboekbestand Sjabloon rapporteren.
 
 U moet de bestaande verbindingsgegevens bijwerken naar de specifieke verbindingsgegevens van de Snowflake. Klik op de knop [!UICONTROL Edit Connection] en voert u de stappen uit die in het dialoogvenster [[!UICONTROL Data Connection]](#data-connection) van deze documentatie.
 
@@ -73,7 +74,7 @@ Om het gegevensmodel te vereenvoudigen en overtollige en onnodige gegevens te ve
 
 >[!NOTE]
 >
->De meeste tabellen in het gegevenspakhuis bevatten gedenormaliseerde dimensionale gegevens. We hebben gewerkt om het model te normaliseren en op te schonen in [!DNL Tableau] de prestaties en gegevensnauwkeurigheid zoveel mogelijk te verbeteren. Wees voorzichtig met het opnemen van eventuele aanvullende gedenormaliseerde velden in feitentabellen, dit kan het filteren van dimensies in verschillende tabellen afbreken en kan ook leiden tot onjuiste rapportage.
+>De meeste tabellen in het gegevenspakhuis bevatten gedenormaliseerde dimensionale gegevens. We hebben gewerkt om het model te normaliseren en op te schonen in [!DNL Tableau] de prestaties en de nauwkeurigheid van de gegevens zoveel mogelijk verbeteren. Wees voorzichtig met het opnemen van eventuele aanvullende gedenormaliseerde velden in feitentabellen, dit kan het filteren van dimensies in verschillende tabellen afbreken en kan ook leiden tot onjuiste rapportage.
 
 ### Naam van kolommen wijzigen {#renamed-columns}
 
@@ -119,7 +120,7 @@ Aanraakpunten voor leads en kenmerkaanraakpunten worden in dit model gecombineer
 
 De overgangen van het Stadium van de kans en van het Stadium van de Lood worden gecombineerd in één lijst in dit model, met een verbinding aan [!UICONTROL Lead and Attribution] Aanraakpunttabel. De kolom Overgangstype is toegevoegd om aan te geven of een rij een opportunity- of Lead-werkgebiedovergang is.
 
-Zowel de kosten als de gegevens van het Aanraakpunt delen het Kanaal en de afmetingen van de Campagne. Maar Tableau is beperkt in het vermogen om gedeelde dimensies tussen feitenlijsten te modelleren. Aangezien wij tot één gedeelde afmetinglijst beperkt zijn, zijn de gegevens van het Kanaal en van de Campagne gecombineerd in één lijst. Zij worden gecombineerd gebruikend een kruis van de twee dimensies in één lijst in Tableau: Kanaal en campagne. De unieke id wordt gemaakt door de kanaal- en campagne-id samen te voegen. Dezelfde id-waarde wordt toegevoegd aan de tabellen Touchpoint en Cost om een relatie met deze gecombineerde dimensie-tabel te maken.
+Zowel de kosten als de gegevens van het Aanraakpunt delen het Kanaal en de afmetingen van de Campagne. Maar Tableau is beperkt in het vermogen om gedeelde dimensies tussen feitenlijsten te modelleren. Aangezien wij tot één gedeelde afmetinglijst beperkt zijn, zijn de gegevens van het Kanaal en van de Campagne gecombineerd in één lijst. Ze worden gecombineerd met een kruis van de twee dimensies in één tabel in Tableau: Kanaal en Campagne. De unieke id wordt gemaakt door de kanaal- en campagne-id samen te voegen. Dezelfde id-waarde wordt toegevoegd aan de tabellen Touchpoint en Cost om een relatie met deze gecombineerde dimensie-tabel te maken.
 
 ![](assets/marketo-measure-report-template-tableau-12.png)
 
@@ -129,7 +130,7 @@ In dit model zijn de afmetingen voor Campagne en Kanaal gekoppeld aan het aanraa
 >
 >Sommige gebeurtenissen, zoals sessies, hebben directe koppelingen naar de afmetingen Campagne en Kanaal. Als het rapporteren op het niveau van de Zitting over deze dimensies wordt gewenst, adviseert men dat een afzonderlijk gegevensmodel voor dit doel wordt gecreeerd.
 
-De gegevens van kosten worden opgeslagen bij verschillende samenvoegingsniveaus binnen de Snowflake gegevens pakhuisKostentabel. Voor alle advertentieleveranciers, kunnen de het niveaugegevens van de Campagne tot het niveau van het Kanaal worden uitgebreid. Om deze reden, trekt dit model kostengegevens die op de &quot;campagne_is_aggregatable_cost&quot;vlag worden gebaseerd. De zelf-gemelde kosten kunnen op het niveau van het Kanaal slechts worden voorgelegd en worden vereist niet om de gegevens van de Campagne te hebben. Om de nauwkeurigste mogelijke kostenrapportage mogelijk te maken, worden zelf-gerapporteerde kosten opgehaald op basis van de markering &quot;channel_is_aggregatable_cost&quot;. De vraag die kostengegevens invoert wordt geschreven met de volgende logica: Als ad_provider = &quot;SelfReported&quot; then channel_is_aggregatable_cost = true, else campagne_is_aggregatable_cost = true.
+De gegevens van kosten worden opgeslagen bij verschillende samenvoegingsniveaus binnen de Snowflake gegevens pakhuisKostentabel. Voor alle advertentieleveranciers, kunnen de het niveaugegevens van de Campagne tot het niveau van het Kanaal worden uitgebreid. Om deze reden, trekt dit model kostengegevens die op de &quot;campagne_is_aggregatable_cost&quot;vlag worden gebaseerd. De zelf-gemelde kosten kunnen op het niveau van het Kanaal slechts worden voorgelegd en worden vereist niet om de gegevens van de Campagne te hebben. Om de nauwkeurigste mogelijke kostenrapportage mogelijk te maken, worden zelf-gerapporteerde kosten opgehaald op basis van de markering &quot;channel_is_aggregatable_cost&quot;. De vraag die kostengegevens invoert wordt geschreven met de volgende logica: Als ad_provider = &quot;SelfReported&quot; dan channel_is_aggregatable_cost = waar, else campagne_is_aggregatable_cost = waar.
 
 In het kader van dit model: [!UICONTROL Contact], [!UICONTROL Account], en [!UICONTROL Opportunity] gegevens worden beschouwd als dimensionale gegevens en worden rechtstreeks gekoppeld aan de tabel met het aanraakpunt voor lead en Attribution.
 
@@ -174,13 +175,13 @@ Aangezien het rendement van investeringen wordt berekend op basis van toegereken
 
 ### Aanraakpunten {#touchpoints}
 
-Deze metriek, zoals aangetoond in de rapporteringsmalplaatjes, wordt niet weerspiegeld in Discover. Er is momenteel geen directe vergelijking mogelijk.
+Deze metriek, zoals aangetoond in de rapporteringsmalplaatjes, wordt niet weerspiegeld in Discover. Er is momenteel geen directe vergelijking mogelijk tussen beide.
 
 ### Webverkeer {#web-traffic}
 
 Het gegevensmodel van het rapportmalplaatje normaliseert kanaal, subchannel, en campagnedimensionele gegevens via het verband tussen Zitting en Aanraakpunt. Dit is anders dan het gegevensmodel Discover, dat deze dimensies aan Zitting ontleedt. Wegens dit onderscheid, zouden de totale aantallen voor bezoeken en bezoekers tussen Discover en het rapporteringsmalplaatje moeten aanpassen, echter, zodra getoond of gefilterd door dimensie, worden deze aantallen niet verwacht om op te zetten. De reden hiervoor is dat de dimensionale gegevens in de sjabloon alleen beschikbaar zijn voor webgebeurtenissen die tot een aanraakpunt hebben geleid (d.w.z. niet-anonieme gebeurtenissen). Raadpleeg voor meer informatie de [Gegevensmodel](#data-model) van deze documentatie.
 
-Er kunnen kleine verschillen zijn tussen de tellingen van de totale site [!DNL Discover] en de sjabloon. Dit komt omdat het gegevensmodel in het rapporteringsmalplaatje dimensionele gegevens voor de Vorm van de Plaats via een verhouding aan Zitting en toen Aanraakpunt verkrijgt; er zijn enkele gevallen waarin de gegevens van het siteformulier geen gecorreleerde sessie hebben.
+Er kunnen kleine verschillen zijn tussen de tellingen van de totale site [!DNL Discover] en de sjabloon. Dit komt omdat het gegevensmodel in het rapporteringsmalplaatje dimensionele gegevens voor de Vorm van de Plaats via een verhouding aan Zitting en dan Aanraakpunt verkrijgt; er zijn een paar gevallen waar de gegevens van de plaatvorm geen gecorreleerde zitting hebben.
 
 ### Leads en accounts {#leads-and-accounts}
 

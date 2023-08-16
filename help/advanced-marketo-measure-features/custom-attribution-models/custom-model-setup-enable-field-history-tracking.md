@@ -3,7 +3,8 @@ unique-page-id: 18874777
 description: Aangepaste modelinstelling - Enable Field History Tracking - [!DNL Marketo Measure] - Productdocumentatie
 title: Aangepaste modelinstelling - Enable Field History Tracking
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Models
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Als u besluit een aangepast veld als een werkgebied op te nemen in het aangepaste toewijzingsmodel, wordt de historie van het veld gevolgd **moet worden ingeschakeld** voor dit veld. Het bijhouden van de veldgeschiedenis wordt ingeschakeld [!DNL Salesforce] als u wilt bijhouden wanneer het aangepaste veld wordt bewerkt, maakt u een record in de tabel Historie bijhouden. [!DNL Marketo Measure] U kunt die tabel downloaden en deze informatie gebruiken om de tijd en de dag te meten waarop een &quot;overgang&quot; heeft plaatsgevonden. Zonder bijhouden van veldgeschiedenis, [!DNL Marketo Measure] kan de wijzigingen met betrekking tot dit veld niet bijhouden.
 
-Alleen [!UICONTROL Lead Status] Of Opportunity-fasen worden gebruikt in het aangepaste model, het is niet nodig om het bijhouden van veldgeschiedenis in te schakelen, omdat dit automatisch wordt bijgehouden als een werkgebiedovergang.
+Alleen als [!UICONTROL Lead Status] Of Opportunity-fasen worden gebruikt in het aangepaste model, het is niet nodig om het bijhouden van veldgeschiedenis in te schakelen, omdat dit automatisch wordt bijgehouden als een overgang in het werkgebied.
 
 Volg onderstaande instructies om het bijhouden van veldgeschiedenis in te schakelen.
 
@@ -34,4 +35,4 @@ Volg onderstaande instructies om het bijhouden van veldgeschiedenis in te schake
 
    ![](assets/2.png)
 
-[!DNL Marketo Measure] kan een record alleen opnieuw importeren als het ziet dat de record onlangs is gewijzigd. Formulervelden wijzigen technisch geen record wanneer deze verandert omdat de berekening op de achtergrond wordt uitgevoerd. We hebben problemen gezien waarbij een regel wordt overgeslagen omdat [!DNL Marketo Measure] heeft de recordwijziging niet gezien, dus wordt aangeraden **geen gebruik van formuleringsgebieden in regeldefinities**. U kunt een tekstveld maken en een workflow gebruiken om dat veld te vullen met de juiste waarde of berekening wanneer de record wordt bewerkt of aan de criteria voldoet. Dit vereist dat alle verslagen worden uitgegeven zodat kan het werkschema met terugwerkende kracht aan oude verslagen werken.
+[!DNL Marketo Measure] kan een record alleen opnieuw importeren als het ziet dat de record onlangs is gewijzigd. Formulervelden wijzigen technisch geen record wanneer deze verandert omdat de berekening op de achtergrond wordt uitgevoerd. We hebben problemen gezien waarbij een regel wordt overgeslagen omdat [!DNL Marketo Measure] de recordwijziging niet zag, wordt aangeraden **geen gebruik van formuleringsgebieden in regeldefinities**. U kunt een tekstveld maken en een workflow gebruiken om dat veld te vullen met de juiste waarde of berekening wanneer de record wordt bewerkt of aan de criteria voldoet. Dit vereist dat alle verslagen worden uitgegeven zodat kan het werkschema met terugwerkende kracht aan oude verslagen werken.

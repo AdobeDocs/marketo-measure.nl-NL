@@ -1,9 +1,10 @@
 ---
 unique-page-id: 42762628
-description: Documentatie van het Paspoort-dashboard - [!DNL Marketo Measure] - Productdocumentatie
+description: Documentatie voor het paspoort - [!DNL Marketo Measure] - Productdocumentatie
 title: Documentatie paspoortdashboard
 exl-id: 43cb01a8-d02e-4086-af57-d7ec9275f87a
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -16,8 +17,8 @@ Het dashboard van het paspoort laat de Verkopers toe om Hoofd/Contacten en Kanse
 
 Dit dashboard heeft twee tegels:
 
-* Kansen: Het aantal opportuniteitsrecords dat tijdens het opgegeven tijdframe door elk werkgebied wordt doorgegeven.
-* Leads/contactpersonen: Het aantal lead- of contactrecords dat tijdens het opgegeven tijdkader door elk werkgebied is doorgegeven.
+* Opportuniteiten: het aantal opportuniteitsrecords dat tijdens het opgegeven tijdframe door elk werkgebied wordt doorgegeven.
+* Leads/Contacten: Het aantal lood- of contactverslagen die door elk stadium tijdens het bepaalde tijdkader worden overgegaan.
 
 >[!NOTE]
 >
@@ -27,13 +28,13 @@ Dit dashboard ondersteunt de volgende filters (alle filters zijn van toepassing 
 
 * Datum: selecteer het tijdkader.
 * Kanaal: filtert de records via kanalen. Een record is gekoppeld aan een kanaal als een van de aanraakpunten aan het kanaal is gekoppeld.
-* Subkanaal: filtreer de records op subkanalen. Een record is gekoppeld aan een subkanaal als een van de aanraakpunten ervan is gekoppeld aan het subkanaal.
-* Campagne: filtreer de verslagen door campagnes. Een record is gekoppeld aan een campagne als een van de aanraakpunten aan de campagne is gekoppeld.
-* Bron campagne: filtreer de verslagen door campagnebronnen. Voorbeelden van campagnebronnen zijn Adwords, BingAds, Facebook, LinkedIn enz. Een record wordt gekoppeld aan een campagnebron als een van de aanraakpunten aan de campagnebron is gekoppeld.
-* Naam CRM-account: filtert de verslagen door de Namen van de Rekening van CRM.
-* Segmentfilters: filtreer de records op aangepaste segmenten. Een record is gekoppeld aan een segment als een van de aanraakpunten ervan aan het segment is gekoppeld.
+* Subkanaal: filter de records op subkanalen. Een record is gekoppeld aan een subkanaal als een van de aanraakpunten ervan is gekoppeld aan het subkanaal.
+* Campagne: filter de records door campagnes. Een record is gekoppeld aan een campagne als een van de aanraakpunten aan de campagne is gekoppeld.
+* Bron campagne: filter de verslagen door campagnebronnen. Voorbeelden van campagnebronnen zijn Adwords, BingAds, Facebook, LinkedIn enz. Een record wordt gekoppeld aan een campagnebron als een van de aanraakpunten aan de campagnebron is gekoppeld.
+* CRM-accountnaam: filtert de records op CRM-accountnamen.
+* Segmentfilters: filtert de records op aangepaste segmenten. Een record is gekoppeld aan een segment als een van de aanraakpunten ervan aan het segment is gekoppeld.
 
-Voor alle filters wordt de logica AND gebruikt.
+Voor alle filters wordt de logica &quot;AND&quot; gebruikt.
 
 >[!NOTE]
 >

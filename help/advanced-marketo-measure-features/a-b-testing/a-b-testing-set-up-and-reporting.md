@@ -3,7 +3,8 @@ unique-page-id: 18874773
 description: Testopstelling en rapportage van A/B - [!DNL Marketo Measure] - Productdocumentatie
 title: A/B Testen en rapporteren
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: A/B Testing
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -16,7 +17,7 @@ De [!DNL Marketo Measure] A/B de integratie van de Test staat u toe om het opbre
 
 ## Instellen {#set-up}
 
-Voeg de [!DNL Marketo Measure] A/B de secties van de Test op Lood, Contact, Geval, en Kans. [!DNL Marketo Measure] A/B de integratie van de Test staat u toe om het opbrengsteffect van uw te volgen [Optimizely](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimenten op plaatsen.
+Voeg de [!DNL Marketo Measure] A/B de secties van de Test op Lood, Contact, Geval, en Kans. [!DNL Marketo Measure] A/B de integratie van de Test staat u toe om het opbrengsteffect van uw te volgen [Optimizely](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimenten op locaties.
 
 1. Controleren of u pakket gebruikt [!DNL Marketo Measure] v3.9 of hoger. Je kunt dit doen door naar [!UICONTROL Salesforce] >[!UICONTROL Set Up] > [!UICONTROL Installed packages].
 1. De pagina-indeling Lead bewerken en de **[!DNL Marketo Measure]A/B-tests** Verwante lijst voor de pagina.
@@ -46,7 +47,7 @@ Klanten hebben toegang tot een aantal [!DNL Marketo Measure] A/B rapporttypes di
 
 De A/B rapporttypes worden gebruikt om te rapporteren over welke Lood of Contact of Kans aan een A/B test is blootgesteld. Bovendien, kunnen deze rapporten u de hoeveelheid opbrengst tonen verbonden aan een Kans die aan een A/B test werd blootgesteld.
 
-Het is belangrijk om op te merken dat Optimizely/VWO een platform van de inhoudvariatie en niet een marketing kanaal is. Deze [!DNL Marketo Measure] De rapporttypen A/B worden anders gebruikt dan de rapporten van het Aanraakpunt van de Koper. De types van rapporten van het aanraakpunt van de koper worden gebruikt om te begrijpen welke marketing kanaal (b.v. betaalde reclame, Web direct, sociaal) een Lood of Contact naar een specifieke pagina dreef. Maar [!DNL Marketo Measure] A/B rapporttypes kunnen niet worden gebruikt om over te rapporteren hoe een variatie een Lood of Kans beïnvloedde. Aangezien een A/B-testvariatie geen kanaal is, worden bovendien geen details over de variatie weergegeven op het aanraakpunt voor kopers.
+Het is belangrijk om op te merken dat Optimizely/VWO een platform van de inhoudvariatie en niet een marketing kanaal is. Deze [!DNL Marketo Measure] De rapporttypen A/B worden anders gebruikt dan de rapporten van het Aanraakpunt van de Koper. De types van rapporten van het aanraakpunt van de koper worden gebruikt om te begrijpen welke marketing kanaal (b.v. betaalde reclame, Web direct, sociaal) een Lood of een Contact naar een specifieke pagina dreef. Maar [!DNL Marketo Measure] A/B-rapporttypen kunnen niet worden gebruikt om te rapporteren hoe een variatie een lead of opportunity heeft beïnvloed. Aangezien een A/B-testvariatie geen kanaal is, worden bovendien geen details over de variatie weergegeven op het aanraakpunt voor kopers.
 
 Hier zijn enkele veelvoorkomende velden die we aanraden te gebruiken bij het rapporteren van A/B-tests om de duidelijkheid en het inzicht te vergroten:
 

@@ -1,9 +1,10 @@
 ---
 unique-page-id: 18874660
-description: Veelgestelde vragen - [!DNL Marketo Measure] - Productdocumentatie
+description: FAQ - [!DNL Marketo Measure] - Productdocumentatie
 title: Veelgestelde vragen
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -60,7 +61,7 @@ Dit zijn alleen bijgehouden formuliervullingen.
 
 **Wat is het voordeel van Discover boven Meetlat?**
 
-[!DNL Marketo Measure Discover] biedt een betere functionaliteit, zoals doorlopen via boorapparaten, en betere filtering, zoals Subkanalen en kanalen. Ook in 2019 zijn we bezig met het meten van zonvorming.
+[!DNL Marketo Measure Discover] biedt een betere functionaliteit, zoals doorlopen via boorapparaten, en beter filteren, zoals Subkanalen en Kanalen. Ook in 2019 zijn we bezig met het meten van zonvorming.
 
 **In Maatregel kon ik filteren op Advertentiegroep en Rekening wanneer gefilterd in Advertentierekeningen - hoe kan ik dit in Discover zien?**
 

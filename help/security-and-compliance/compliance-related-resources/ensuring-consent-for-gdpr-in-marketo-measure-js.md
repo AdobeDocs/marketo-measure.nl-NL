@@ -3,7 +3,8 @@ unique-page-id: 35586069
 description: Garandeerde toestemming voor GDPR in Marketo Measure Js - Marketo Measure - Productdocumentatie
 title: Ervoor zorgen dat toestemming voor GDPR in Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
-source-git-commit: c7d3bbce1f0c6a99409822c06c43961c93cd9458
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -16,13 +17,13 @@ De algemene verordening inzake gegevensbescherming (GDPR) is een wetgeving van d
 
 ## Overzicht {#overview}
 
-Het doel van de GDPR is de rechten van betrokkenen binnen de Europese Unie (EU) en de Europese Economische Ruimte (EER) te versterken met betrekking tot de wijze waarop hun persoonsgegevens worden gebruikt en beschermd. &quot;Persoonsgegevens&quot; zijn gegevens die betrekking hebben op een geïdentificeerde of identificeerbare natuurlijke persoon. De GDPR is van toepassing op elke organisatie binnen of buiten de EU die goederen of diensten verkoopt aan en/of het gedrag volgt van betrokkenen binnen de EU en de EER. Als je zaken doet met betrokkenen in Europa die de verwerking van hun persoonsgegevens impliceren, dan is deze wetgeving op jou van toepassing. De sancties wegens niet-naleving zijn aanzienlijk, met grote boetes voor degenen die de verordening overtreden; de maximumboete voor één enkele inbreuk bedraagt 20 miljoen eur of 4 % van de wereldwijde jaaromzet , afhankelijk van welk bedrag het grootst is .
+Het doel van de GDPR is de rechten van betrokkenen binnen de Europese Unie (EU) en de Europese Economische Ruimte (EER) te versterken met betrekking tot de wijze waarop hun persoonsgegevens worden gebruikt en beschermd. &quot;Persoonsgegevens&quot; zijn gegevens die betrekking hebben op een geïdentificeerde of identificeerbare natuurlijke persoon. De GDPR is van toepassing op elke organisatie binnen of buiten de EU die goederen of diensten verkoopt aan en/of het gedrag volgt van betrokkenen binnen de EU en de EER. Als je zaken doet met betrokkenen in Europa die de verwerking van hun persoonsgegevens impliceren, dan is deze wetgeving op jou van toepassing. De sancties wegens niet-naleving zijn aanzienlijk, met grote boetes voor degenen die de verordening overtreden; de maximumboete voor één enkele inbreuk bedraagt 20 miljoen euro of 4% van de wereldwijde jaaromzet, afhankelijk van wat het grootst is.
 
 Standaard, [!DNL bizible.js] verzamelt analysegegevens van gebruikers tenzij het specifiek wordt gevormd om op toestemming te wachten. Wanneer [!DNL bizible.js] is geconfigureerd om te wachten op toestemming van de gebruiker, worden er pas cookies gemaakt of analytische gegevens verzonden nadat de toestemming is bereikt.
 
 ## Hoe te op Toestemming wachten {#how-to-wait-for-consent}
 
-Er zijn twee manieren om in te stellen [!DNL bizible.js] wachten op toestemming.
+U kunt op twee manieren instellen [!DNL bizible.js] wachten op toestemming.
 
 Optie 1 - De standaardinstelling vervangen [!DNL bizible.js] scripttag met:
 
@@ -47,7 +48,7 @@ Optie 2 - De standaardinstelling vervangen [!DNL bizible.js] scripttag met:
 
 Dit vertelt [!DNL bizible.js] om niet te volgen tot de toestemming wordt bereikt, wat met de volgende JS API kan worden gedaan:
 
-*venster[&quot;Bizible&quot;] = venster[&quot;Bizible&quot;] || {_queue: [], Ingedrukt: function (o, p) { this._queue.push({ type: o, gegevens: p }); } };*
+*venster[&quot;Bizible&quot;] = venster[&quot;Bizible&quot;] || {_queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); };*
 
 *Bizible.Push(&#39;Consent&#39;, true);*
 

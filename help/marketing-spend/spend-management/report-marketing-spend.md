@@ -3,7 +3,8 @@ unique-page-id: 27656737
 description: Marketingbestedingen rapporteren - [!DNL Marketo Measure] - Productdocumentatie
 title: Marketingbestedingen rapporteren
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Reporting, Spend Management
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%

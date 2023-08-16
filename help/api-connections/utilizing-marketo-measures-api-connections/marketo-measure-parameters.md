@@ -3,7 +3,8 @@ unique-page-id: 18874608
 description: "[!DNL Marketo Measure] Parameters - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Parameters"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
-source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
+feature: APIs, Integration, UTM Parameters
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Voorbeeld van een URL met [!DNL Marketo Measure] parameters:
 * `_bm={matchtype}`
    * Geeft aan hoe nauw het trefwoord is gevonden.
    * Trefwoordmatch-typen helpen u te bepalen welke zoekopdrachten uw advertentie activeren. U kunt bijvoorbeeld een brede overeenkomst gebruiken om uw advertentie voor een groot publiek weer te geven of u kunt een exacte overeenkomst gebruiken voor één in specifieke groepen klanten.
-   * De drie typen overeenkomsten zijn: breed, vaag en precies.
+   * De drie typen overeenkomsten zijn: breed, vaag en exact.
 
 >[!TIP]
 >

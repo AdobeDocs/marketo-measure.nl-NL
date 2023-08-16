@@ -3,7 +3,8 @@ unique-page-id: 18874586
 description: Verklarende woordenlijst van Marketo Measure Fields - Marketo Measure - Productdocumentatie
 title: Woordenlijst met Marketo Measure-velden
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
-source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
+feature: Fundamentals
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '3211'
 ht-degree: 0%
@@ -24,9 +25,9 @@ Voor een kaart waarop Object elk Marketo Measure-veld betrekking heeft, gelieve 
 
 In dit veld wordt de accountnaam ingevuld die is gekoppeld aan de BBT.
 
-**Campagne-id toevoegen** | Aanraakpunt voor koperkenmerk gevonden op aanraakpunt voor koper
+**Campagne-id toevoegen** | Aanraakpunt koper, kenmerk van koper
 
-U kunt dit veld op drie manieren invullen:
+Er zijn drie manieren waarop dit veld kan worden ingevuld:
 
 `1)` Als het aanraakpunt afkomstig is van een betaalde zoekactie (AdWords of BingAds), wordt de campagne-id voor advertenties van het advertentieplatform hier weergegeven.
 
@@ -76,7 +77,7 @@ Als geen van beide bovenstaande velden wordt weergegeven, is dit veld leeg.
 
 Als het aanraakpunt niet afkomstig is van een betaalde zoekopdracht, is het veld leeg.
 
-**Groep-id toevoegen** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Groep-id toevoegen** | Aanraakpunt koper, aanraakpunt koper
 
 `1)` Als het aanraakpunt afkomstig is van een betaalde zoekopdracht, wordt de advertentie-groep-id van Advertentie-woorden/Bing Ads hier weergegeven.
 
@@ -150,15 +151,15 @@ Als u geen aangepast model gebruikt, is dit veld leeg.
 
 **Tellen - aangepast model** | Aanraakpunt koper
 
-Als u een Aangepast kenmerkingsmodel gebruikt, wordt in dit veld, in decimale vorm, het percentage van het toewijzingskrediet weergegeven dat aan een aanraakpunt wordt gegeven volgens de waarden die zijn ingesteld in het Aangepaste model. Aangezien dit veld betrekking heeft op het object Aanraakpunt koper, is het geen weerspiegeling van inkomstenkrediet, alleen maar een toeschrijving.
+Als u een Aangepast kenmerkingsmodel gebruikt, wordt in dit veld, in decimale vorm, het percentage van het toewijzingskrediet weergegeven dat aan een aanraakpunt wordt gegeven op basis van de waarden die zijn ingesteld in het Aangepaste model. Aangezien dit veld betrekking heeft op het object Aanraakpunt koper, is het geen weerspiegeling van inkomstenkrediet, alleen maar een toeschrijving.
 
 Als u geen aangepast model gebruikt, is dit veld leeg.
 
-**Aantal - eerste aanraking** | Aanraakpunt voor koperkenmerk
+**Tellen - eerste aanraking** | Aanraakpunt voor koperkenmerk
 
 In dit veld wordt, in decimale vorm, het percentage weergegeven van de aan een aanraakpunt toegekende inkomsten volgens het First Touch-model.
 
-**Aantal - eerste aanraking** | Aanraakpunt koper
+**Tellen - eerste aanraking** | Aanraakpunt koper
 
 In dit veld wordt, in decimale vorm, het percentage van het toewijzingskrediet weergegeven dat aan een aanraakpunt wordt gegeven volgens een First Touch Model. Als het aanraakpunt de Eerste aanraking is, is dit veld altijd 1,0 (100% toewijzingskrediet). Als het aanraakpunt niet de First Touch is, is dit veld altijd 0 (0 % toewijzingskrediet).
 
@@ -228,7 +229,7 @@ De unieke identificatiecode voor elk experiment
 
 URL van formulier | Aanraakpunt koper, aanraakpunt koper
 
-In dit veld wordt een verkorte versie van de URL van een pagina weergegeven waar de formuliervulling is opgetreden (geen UTM-parameters)
+In dit veld wordt een verkorte versie van de URL van een pagina weergegeven waar het formulier is ingevuld (geen UTM-parameters)
 
 URL formulier - Raw | Aanraakpunt koper, aanraakpunt koper
 
@@ -238,11 +239,11 @@ In dit veld wordt de volledige pagina-URL weergegeven waar de formuliervulling i
 
 ## G {#g}
 
-Geo City | Aanraakpunt koper, aanraakpunt koperkenmerk
+Geo City | Aanraakpunt koper, aanraakpunt koper
 
 In dit veld wordt de naam weergegeven van de stad waar de lead/contactpersoon uw website heeft bezocht. Dit wordt gedaan via omgekeerde IP raadpleging.
 
-Geo Land | Aanraakpunt koper, aanraakpunt koperkenmerk
+Geo Land | Aanraakpunt koper, aanraakpunt koper
 
 In dit veld wordt weergegeven waar het land waar de lead/contactpersoon uw website heeft bezocht. Dit wordt gedaan via omgekeerde IP raadpleging.
 
@@ -296,7 +297,7 @@ In dit veld wordt de naam weergegeven van de lead waartoe een aanraakpunt behoor
 
 ## M {#m}
 
-**Marketingkanaal** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Marketingkanaal** | Aanraakpunt koper, aanraakpunt koper
 
 In dit veld ziet u de algemene groep marketingactiviteiten of het marketingkanaal waartoe het aanraakpunt behoort (d.w.z. Betaalde zoekopdracht, Direct, Sociaal, enz.). Aanraakpunten worden gegroepeerd op basis van de manier waarop uw kanalen zijn ingesteld in de Marketo Measure App. Voor meer informatie over marketingkanalen of hoe u uw kanalen instelt, raadpleegt u [klik hier](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
@@ -346,9 +347,9 @@ Bijvoorbeeld:
 
 - Als het aanraakpunt afkomstig is van een zoekopdracht in het veld Betaald/Organic, wordt de URL van het zoekprogramma weergegeven
 
-- Als het aanraakpunt afkomstig is van Social, wordt in het veld de URL van de sociale website (d.w.z. LinkedIn) weergegeven.
+- Als het aanraakpunt afkomstig is van Social, wordt in het veld de URL van de sociale website (d.w.z. LinkedIn) weergegeven
 
-**Refereringspagina - Raw** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Refereringspagina - Raw** | Aanraakpunt koper, aanraakpunt koper
 
 In dit veld wordt dezelfde informatie weergegeven als bij Referrer Page, behalve in dit veld wordt de volledige verwijzende URL (inclusief UTM-parameters) weergegeven.
 
@@ -368,7 +369,7 @@ In dit veld wordt het bedrag aan dollaropbrengsten weergegeven dat wordt toegewe
 
 **Ontvangsten - Aanraakvlak met lead** | Aanraakpunt voor koperkenmerk
 
-In dit veld wordt het bedrag aan dollaropbrengsten weergegeven dat wordt toegewezen aan een aanraakpunt volgens het toewijzingspercentage in het Aanmaakmodel voor lead.
+In dit veld wordt het bedrag aan dollaropbrengsten weergegeven dat aan een aanraakpunt wordt toegewezen op basis van het toewijzingspercentage in het Aanmaakmodel voor lead.
 
 **Inkomsten - U-vorm** | Aanraakpunt voor koperkenmerk
 
@@ -386,13 +387,13 @@ S
 
 In dit veld wordt de Salesforce-campagne weergegeven waartoe het aanraakpunt behoort.
 
-**Zoekwoordgroep** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Zoekwoordgroep** | Aanraakpunt koper, aanraakpunt koper
 
 Als het aanraakpunt afkomstig is van betaald of biologisch zoeken, wordt in dit veld de zoekuitdrukking weergegeven die in het zoekprogramma is getypt. Vanwege privacyredenen is deze informatie echter meestal niet beschikbaar.
 
 **Segment** | Aanraakpunt voor koperkenmerk
 
-In dit veld worden de segmenten weergegeven waartoe het aanraakpunt behoort. Dit is afhankelijk van de configuratie van de segmentatieregels in de Marketo Measure-app.
+In dit veld worden de segmenten weergegeven waartoe het aanraakpunt behoort. Dit hangt af van de manier waarop u de segmentatieregels in de Marketo Measure-app hebt geconfigureerd.
 
 [Klik hier om terug te keren naar de bovenkant van de pagina](#top)
 
@@ -422,13 +423,13 @@ First Touch (FT) - De allereerste marketinginteractie die iemand heeft met uw me
 
 Lood Creation (LC) - De allereerste bekende marketinginteractie (meestal een formulierverzending of een Salesforce Campaign-opname)
 
-Formulier - Wanneer een bezoeker een onlineformulier invult
+Formulier - Wanneer een bezoeker een online formulier invult
 
 Opportunity Creation (OC) - De marketinginteractie die het dichtst bij het maken van de Opp ligt
 
 Gesloten - De marketinginteractie die het dichtst bij wanneer Opp wordt gesloten (Won of Verloren)
 
-**Aanraakpuntbron** | Aanraakpunt koper, aanraakpunt koperkenmerk
+**Aanraakpuntbron** | Aanraakpunt koper, aanraakpunt koper
 
 `1)` Als het aanraakpunt afkomstig is van een betaalde zoekopdracht, wordt in dit veld de naam van het advertentieplatform (AdWords/BingAds) weergegeven
 
@@ -452,7 +453,7 @@ Dit is hetzelfde veld als Touchpoint Source, maar in dit veld wordt specifiek de
 
 **Type aanraakpunt** | Aanraakpunt voor kopers en kenmerk Aanraakpunt voor kopers gevonden.
 
-In dit veld wordt het type interactie van het aanraakpunt weergegeven. Deze wordt weergegeven als: Webbezoek, Webformulier of Webchat voor JavaScript-aanraakpunten. Voor CRM Campaign Touchpoints wordt deze weergegeven als CRM. Het zal met het Type van Taak of van de Gebeurtenis voor de Aanraakpunten van de Activiteit bevolken.
+In dit veld wordt het type interactie van het aanraakpunt weergegeven. Het wordt weergegeven als: Webbezoek, Webformulier of Webchat voor JavaScript-aanraakpunten. Voor CRM Campaign Touchpoints wordt deze weergegeven als CRM. Het wordt gevuld met het taak- of gebeurtenistype voor de aanraakpunten met activiteit.
 
 [Klik hier om terug te keren naar de bovenkant van de pagina](#top)
 

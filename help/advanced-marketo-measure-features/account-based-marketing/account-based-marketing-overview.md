@@ -3,7 +3,8 @@ unique-page-id: 18874730
 description: Overzicht van marketing op basis van account - [!DNL Marketo Measure] - Productdocumentatie
 title: Overzicht van accountgebaseerde marketing
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
+feature: Account-based Marketing
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -23,11 +24,11 @@ Op account gebaseerde marketing, ABM, is een marketingstrategie waarbij je je ri
 Als u wilt dat ons marketingmodel op basis van account uw CRM invult, [!DNL Marketo Measure] moet aan de volgende criteria worden voldaan:
 
 * Uw CRM heeft minstens 25 Rekeningen nodig die minstens één Gesloten Kans van de Won op hen hebben, zodat kunnen wij beter de gemeenschappelijkheden van een &quot;succesvolle&quot;Rekening/Kans aan uw zaken meten.
-* Aan de andere kant van de munt heeft uw CRM minstens 25 Accounts nodig zonder gesloten Won Opportunity (alle opps moeten ofwel in onze categorie &quot;Open&quot; staan, ofwel in de categorie &quot;Closed Lost&quot;. Dit helpt ons te bepalen wat een lagere-kwaliteit-account in uw organisatie maakt.
+* Aan de andere kant van de munt heeft uw CRM minstens 25 Accounts nodig zonder gesloten Won Opportunity (alle opps moeten ofwel in onze categorie &quot;Open&quot; staan, ofwel in de categorie &quot;Closed Lost&quot;. Dit helpt ons om te bepalen wat een lagere account in uw organisatie maakt.
 
 >[!NOTE]
 >
->Bovenstaande &quot;slechte&quot; rekeningen moeten ten minste twaalf maanden geopend zijn zonder dat een &quot;closed-on&quot;-transactie wordt geaccumuleerd; dat is ons basisrichtsnoer voor de vraag of een Opp al dan niet in de val is gegaan voor de doeleinden van het model.
+>De bovenstaande &quot;slechte&quot; rekeningen moeten minstens 12 maanden open zijn zonder een gesloten Won-opp te accumuleren; dat is ons basisrichtsnoer voor al dan niet een Opp voor de doeleinden van het model is verkocht.
 
 ## Toewijzing van regel naar account {#lead-to-account-mapping}
 
@@ -36,7 +37,7 @@ Het in kaart brengen van leads naar accounts is een cruciaal onderdeel van een e
 * Website naar account leiden
 * E-maildomein naar website-domein van account leiden
 * Bedrijfsnaam leiden naar accountnaam
-* Bedrijf leiden naar website-domein account
+* Bedrijf leiden naar accountwebsitedomein
 * Overeenkomend het Domein op het E-mailadres van de Leider aan de Rekening via het E-mailadres van het Contact
 
 >[!NOTE]

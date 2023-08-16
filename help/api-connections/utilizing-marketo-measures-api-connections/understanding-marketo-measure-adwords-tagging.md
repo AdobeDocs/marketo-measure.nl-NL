@@ -3,7 +3,8 @@ unique-page-id: 18874678
 description: Begrijpen [!DNL Marketo Measure] Advertentietags - [!DNL Marketo Measure] - Productdocumentatie
 title: Begrijpen [!DNL Marketo Measure] Advertentietags
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
-source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
+feature: APIs, Integration, UTM Parameters
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -56,7 +57,7 @@ Er zijn twee volgsjablonen [!DNL Marketo Measure] raadt u aan deze functie te ge
 
 ## Een sjabloon voor bijhouden instellen op accountniveau {#setting-up-a-tracking-template-at-the-account-level}
 
-1. Meld u aan bij uw [!DNL Google AdWords] Account.
+1. Aanmelden bij uw [!DNL Google AdWords] Account.
 
 1. Klikken **[!UICONTROL All campaigns]** en vervolgens **[!UICONTROL Settings]** in het uitbreidende venster.
 
@@ -108,7 +109,7 @@ A: 4 uur
 
 **V: Kunnen we voor Dynamic Search Ads de combinatie van kop, beschrijving, enzovoort volgen in de creatieve functies die werden aangeboden?**
 
-A: We kunnen geen individuele creatieve details ophalen voor dynamische zoekopdrachten, maar als automatisering is ingeschakeld, kunnen we toch de creatieve id en de kenmerkinkomsten ophalen.
+A: We kunnen geen individuele creatieve details ophalen voor dynamische zoekopdrachten, maar als automatisering is ingeschakeld, krijgen we nog steeds de creatieve id en kenmerkinkomsten.
 
 >[!NOTE]
 >

@@ -3,7 +3,8 @@ unique-page-id: 18874652
 description: "[!DNL Marketo Measure] Veelgestelde vragen over weergave door kenmerk - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Veelgestelde vragen over kenmerk bekijken"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 7%
@@ -18,7 +19,7 @@ De [!DNL Marketo Measure] De functie Weergeven via kenmerk biedt de mogelijkheid
 
 ## Waarom is Weergeven via kenmerk belangrijk? {#why-is-view-through-attribution-important}
 
-In het verleden was het voor de marktpartijen moeilijk om reclame te heroriënteren of de indruk te wekken bij de attributieanalyse. Potentiële klanten kunnen na verloop van tijd worden blootgesteld aan opnieuw plaatsen van advertenties, maar het is onwaarschijnlijk dat ze daadwerkelijk op een van deze advertenties klikken en een formulier binnen dezelfde sessie invullen. Onze oplossing Weergeven door kenmerk heeft nu de mogelijkheid om te traceren of iemand al dan niet werd blootgesteld aan een impressie. Dit aanraakpunt zal aan het individuele verslag worden toegevoegd en zal door tot het vooruitzicht een cliënt worden. Met deze informatie krijgt de markt nu meer inzicht in de prestaties van hun heroriënterende reclame.
+In het verleden was het voor de marktpartijen moeilijk om reclame te heroriënteren of de indruk te wekken bij de analyse van de toeschouwers. Potentiële klanten kunnen na verloop van tijd worden blootgesteld aan opnieuw plaatsen van advertenties, maar het is onwaarschijnlijk dat ze daadwerkelijk op een van deze advertenties klikken en een formulier binnen dezelfde sessie invullen. Onze oplossing Weergeven door kenmerk heeft nu de mogelijkheid om te traceren of iemand al dan niet werd blootgesteld aan een impressie. Dit aanraakpunt zal aan het individuele verslag worden toegevoegd en zal door tot het vooruitzicht een cliënt worden. Met deze informatie krijgt de markt nu meer inzicht in de prestaties van hun heroriënterende reclame.
 
 ## Wat is de rol van de Commissie bij het opzetten van dit project? {#what-is-involved-in-setting-this-up}
 

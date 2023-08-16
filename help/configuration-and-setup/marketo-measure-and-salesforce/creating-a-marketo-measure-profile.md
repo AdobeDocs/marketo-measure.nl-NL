@@ -3,7 +3,8 @@ unique-page-id: 18874698
 description: Een [!DNL Marketo Measure] Profiel - [!DNL Marketo Measure] - Productdocumentatie
 title: Een [!DNL Marketo Measure] Profiel
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Leer hoe u een [!DNL Marketo Measure] profiel. Een [!DNL Marketo Measure] -profiel zorgt ervoor dat er geen validatiefouten optreden wanneer gegevens naar uw CRM worden verplaatst.
 
-1. Een specifieke [!DNL Marketo Measure] profiel:
+1. Maak een specifieke [!DNL Marketo Measure] profiel:
 
    * Wijs het [!DNL Marketo Measure] Beheerdermachtigingen instellen
    * De machtiging voor het weergeven en bewerken van omgezette leads inschakelen
@@ -23,13 +24,13 @@ Leer hoe u een [!DNL Marketo Measure] profiel. Een [!DNL Marketo Measure] -profi
    >
    >Dit profiel kan een kloon zijn van een [!DNL System Admin] profiel
 
-1. Een speciale [!DNL Marketo Measure] gebruiker:
+1. Een speciaal gemaakt [!DNL Marketo Measure] gebruiker:
 
    * Wijs de nieuwe [!DNL Marketo Measure] Profiel naar die gebruiker
    * &quot;Marketing User&quot; inschakelen als machtiging op gebruikersniveau
 
 1. Sluit dit profiel uit van alle triggers, workflows en processen.
-1. Meld u aan bij uw [!DNL Marketo Measure] Account en autoriseer de [!DNL Salesforce] verbinding met de nieuwe gebruiker:
+1. Aanmelden bij uw [!DNL Marketo Measure] Account en autoriseer de [!DNL Salesforce] verbinding met de nieuwe gebruiker:
 
    * Ga naar [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} en meld u aan met de nieuwe gebruikersproductie van Salesforce.
    * Selecteren &quot;[!UICONTROL Settings]&quot; in de &quot;[!UICONTROL My Account]&quot; vervolgkeuzelijst

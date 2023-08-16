@@ -3,7 +3,8 @@ unique-page-id: 34406495
 description: OPS-blokken voor marketing - [!DNL Marketo Measure] - Productdocumentatie
 title: OPS-blokken marketing
 exl-id: e7978a79-6f6e-4bfd-9962-b35b7d46a9ac
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -132,37 +133,37 @@ Hier worden de volgende gegevens weergegeven met betrekking tot de opgegeven acc
 
 **Accounts moeten aanraakpuntgegevens hebben (alleen van toepassing als ABM is ingeschakeld)**
 
--Account-ID: Account ID in CRM
+-Account ID: Account ID in CRM
 
--Accountnaam: Rekeningnaam in CRM
+-Accountnaam: rekeningnaam in CRM
 
--Aanmaakdatum: Aanmaakdatum van de rekening in de CRM
+-Gemaakt op: Aanmaakdatum van de rekening in de CRM
 
-* Drill-down: Zie Aanmaakdatum per uur, minuut, tijd
+* Boor-down: Zie Gemaakt Datum door Uur, Minuut, Tijd
 
--Website: Waarde gevonden in het veld Website op de account
+-Web Site: waarde in het veld Website op de account
 
--Betrokkenheidsscore: Predictive Engagement Score (PES), gevuld door [!DNL Marketo Measure]^1
+- Betrokkenheidsscore: voorspellende betrokkenheidsscore (PSE) gevuld door [!DNL Marketo Measure]^1
 
--Opportuniteiten: Aantal Kansen verbonden met de rekening
+-Opportunity: Number of Opportunity connected to the account
 
-* Drill-down: Zie details voor de bijbehorende Opportunity(s)
+* Drill-down: Zie details voor de bijbehorende Kans(en)
 
--Contacten: Aantal contactpersonen op deze account
+-Contacten: Aantal Contacten die op deze rekening worden vermeld
 
-* Drill-down: Zie details voor de bijbehorende contacten
+* Boor-down: Zie details voor de bijbehorende contacten
 
--Leads: Aantal leads dat aan dit account is toegewezen via lead in accounttoewijzing^1
+-Leads: aantal leads dat aan dit account is toegewezen via lead in accounttoewijzing^1
 
-* Drill-down: Zie details voor de leads die aan de account zijn toegewezen
+* Inboor-down: Zie details voor de lood die aan de rekening in kaart zijn gebracht
 
--Attributie-aanraakpunten: Aantal aanraakpunten voor koperkenmerken voor de account
+-Attribution Touchpoints: Number of Buyer Attribution Touchpoints for the account
 
-* Drill-down: Zie Aanraakpuntgegevens voor koperkenmerken (ID, e-mail, aanraakpuntdatum, accountnaam, campagne, kanaal, subkanaal, type marketingaanraking, kenmerkmodel)
+* Drill-down: Zie details van het aanraakpunt voor koperkenmerken (ID, e-mail, aanraakpunt, datum, accountnaam, campagne, kanaal, subkanaal, type marketingaanraking, kenmerkmodel)
 
--Aanraakpunten: Aantal aanraakpunten dat de contactpersonen op dit account hebben^2
+-Touchpoints: Het aantal aanraakpunten dat de contactpersonen op dit account hebben^2
 
-* Drill-down: Zie Aanraakpunten op de aanraakpuntgegevens van de account (ID, E-mail, Aanraakpuntdatum, Accountnaam, Campagne, Kanaal, Subkanaal, Type marketingaanraking)
+* Drill-down: Zie Touchpoints op de gegevens van het aanraakpunt van de account (ID, E-mail, Aanraakpunt Datum, Accountnaam, Campagne, Kanaal, Subkanaal, Type marketingaanraking)
 
 >[!NOTE]
 >
@@ -174,29 +175,29 @@ Hier worden de volgende gegevens weergegeven met betrekking tot de opgegeven acc
 
 Geeft de volgende gegevens weer met betrekking tot de opgegeven opportunity(en).
 
--Opportunity-id: Opportunity-id in CRM
+-Opportunity ID: Opportunity ID in CRM
 
--Naam opportunity: Naam van opportunity in CRM
+-Opportunity Name: Opportunity name in CRM
 
--Accountnaam: Accountnaam gekoppeld aan de opportuniteit
+-Accountnaam: accountnaam gekoppeld aan de opportuniteit
 
--Aanmaakdatum: Aanmaakdatum van de opportuniteit in de CRM
+-Gemaakt op: Aanmaakdatum van de opportuniteit in de CRM
 
-Drill-down: Zie Aanmaakdatum per uur, minuut, tijd
+Boor-down: Zie Gemaakt Datum door Uur, Minuut, Tijd
 
--Close Date: Gesloten datum van de opportuniteit in de CRM
+-Close Date: Closed Date of the Opportunity in the CRM
 
-Drill-down: Zie Datum sluiten op Uur, Minuut, Tijd
+Inleiding: Zie Datum sluiten op Uur, minuut, tijd
 
--Hoeveelheid: Het totale bedrag van de opportuniteit
+-Amount: The total amount of the Opportunity
 
 -Contacten: Aantal Contacten verbonden aan de Kans
 
-Drill-down: Zie details voor de bijbehorende contacten
+Boor-down: Zie details voor de bijbehorende contacten
 
--Attributie-aanraakpunten: Aantal verwante aanraakpunten voor koperkenmerken
+-Attributie-aanraakpunten: Aantal gerelateerde aanraakpunten voor koperkenmerken
 
-Drill-down: Zie Aanraakpuntgegevens voor koperkenmerken (ID, e-mail, aanraakpuntdatum, accountnaam, campagne, kanaal, subkanaal, type marketingaanraking, kenmerkmodel)
+Drill-down: Zie details van het aanraakpunt voor koperkenmerken (ID, e-mail, aanraakpunt, datum, accountnaam, campagne, kanaal, subkanaal, type marketingaanraking, kenmerkmodel)
 
 ## Contactegel {#contacts-tile}
 
@@ -204,25 +205,25 @@ Drill-down: Zie Aanraakpuntgegevens voor koperkenmerken (ID, e-mail, aanraakpunt
 
 Hier worden de volgende gegevens weergegeven met betrekking tot de opgegeven contactpersoon of contactpersonen.
 
--Contactpersoon-id: Contactpersoon-id in CRM
+-Contact-ID: contactpersoon-ID in CRM
 
--E-mail: E-mailadres contactpersoon
+-Email: Contact opnemen met e-mailadres
 
--Aanmaakdatum: Aanmaakdatum van de contactpersoon bij de CRM
+-Aanmaakdatum: aanmaakdatum van de contactpersoon in de CRM
 
-* Drill-down: Zie Aanmaakdatum per uur, minuut, tijd
+* Boor-down: Zie Gemaakt Datum door Uur, Minuut, Tijd
 
--Accountnaam: Accountnaam gekoppeld aan de contactpersoon
+-Accountnaam: accountnaam die is gekoppeld aan de contactpersoon
 
--Attributie-aanraakpunten: Aantal aanraakpunten koper voor de contactpersoon
+-Attribution Touchpoints: Number of Buyer Attribution Touchpoints for the contact
 
-* Drill-down: Zie Aanraakpuntgegevens voor koperkenmerken (ID, e-mail, aanraakpuntdatum, accountnaam, campagne, kanaal, subkanaal, type marketingaanraking, kenmerkmodel)
+* Drill-down: Zie details van het aanraakpunt voor koperkenmerken (ID, e-mail, aanraakpunt, datum, accountnaam, campagne, kanaal, subkanaal, type marketingaanraking, kenmerkmodel)
 
--Aanraakpunten: Aantal aanraakpunten koper voor de contactpersoon
+-Touchpoints: Number of Buyer Touchpoints for the contact
 
-* Drill-down: Zie Contacten op de gegevens van het aanraakpunt van de account (ID, E-mail, Aanraakpunt Datum, Accountnaam, Campagne, Kanaal, Subkanaal, Type marketingaanraking)
+* Boor-down: Zie Contacten op de gegevens van het aanraakpunt van de rekening (identiteitskaart, E-mail, Aanraakpunt Datum, de Naam van de Rekening, Campagne, Kanaal, Subchannel, het Type van Aanraak van de Marketing)
 
-## Leadblok {#leads-tile}
+## Leadtegel {#leads-tile}
 
 ![](assets/four-1.png)
 
@@ -230,19 +231,19 @@ Hiermee geeft u de volgende gegevens weer met betrekking tot de opgegeven lead(s
 
 -ID lead: ID lead in CRM
 
--E-mail: E-mailadres voor lead-record
+-Email: e-mailadres voor eerste record
 
--Aanmaakdatum: Toen de lead werd gecreëerd in de CRM
+-Aanmaakdatum: wanneer de lead is gemaakt in de CRM
 
-* Drill-down: Zie Aanmaakdatum per uur, minuut, tijd
+* Boor-down: Zie Gemaakt Datum door Uur, Minuut, Tijd
 
--Bedrijf (uit Lead): Het bedrijf dat op het verslag in CRM vermeld is bevolkt door klant
+-Company (van Lood): Het bedrijf dat op het verslag in CRM vermeld is bevolkt door klant
 
--Accountnaam: De accountnaam [!DNL Marketo Measure] wordt gevuld op basis van onze toewijzing van leads voor account
+-Account Name: The account name [!DNL Marketo Measure] wordt gevuld op basis van onze toewijzing van leads voor account
 
--Aanraakpunten: Het aantal aanraakpunten dat is gekoppeld aan de lead(s)
+-Touchpoints: Het aantal aanraakpunten dat is gekoppeld aan de lead(s)
 
-* Drill-down: Zie Contacten op de gegevens van het aanraakpunt van de account (ID, E-mail, Aanraakpunt Datum, Accountnaam, Campagne, Kanaal, Subkanaal, Type marketingaanraking)
+* Boor-down: Zie Contacten op de gegevens van het aanraakpunt van de rekening (identiteitskaart, E-mail, Aanraakpunt Datum, de Naam van de Rekening, Campagne, Kanaal, Subchannel, het Type van Aanraak van de Marketing)
 
 ## Campagne Tile {#campaigns-tile}
 
@@ -250,18 +251,18 @@ Hiermee geeft u de volgende gegevens weer met betrekking tot de opgegeven lead(s
 
 Hiermee geeft u de volgende gegevens weer met betrekking tot de opgegeven campagne(s).
 
--Campagne-id: Campagne-id in CRM
+-Campagne-id: campagne-id in CRM
 
 -Campagnenaam: Campagnenaam in CRM
 
 -Campagne-uitgaven: De uitgaven [!DNL Marketo Measure] heeft opgenomen met betrekking tot de campagne
 
--Attributiemodel: Hiermee wordt de juiste toewijzing weergegeven op basis van het geselecteerde model
+-Attributiemodel: hiermee wordt de juiste toewijzing weergegeven op basis van het geselecteerde model
 
--Attributie-aanraakpunten: Het aantal aanraakpunten voor koperkenmerken dat aan de campagne (en) is gekoppeld
+-Attribution Touchpoints: The number of Buyer Attribution Touchpoints associated to the campagne(s)
 
-* Drill-down: Zie Aanraakpuntgegevens voor koperkenmerken (ID, e-mail, aanraakpuntdatum, accountnaam, campagne, kanaal, subkanaal, type marketingaanraking, kenmerkmodel)
+* Drill-down: Zie details van het aanraakpunt voor koperkenmerken (ID, e-mail, aanraakpunt, datum, accountnaam, campagne, kanaal, subkanaal, type marketingaanraking, kenmerkmodel)
 
--Aanraakpunten: Het aantal aanraakpunten dat is gekoppeld aan de campagne(s)
+-Touchpoints: Het aantal aanraakpunten dat is gekoppeld aan de campagne(s)
 
-* Drill-down: Zie Contacten op de gegevens van het aanraakpunt van de account (ID, E-mail, Aanraakpunt Datum, Accountnaam, Campagne, Kanaal, Subkanaal, Type marketingaanraking)
+* Boor-down: Zie Contacten op de gegevens van het aanraakpunt van de rekening (identiteitskaart, E-mail, Aanraakpunt Datum, de Naam van de Rekening, Campagne, Kanaal, Subchannel, het Type van Aanraak van de Marketing)

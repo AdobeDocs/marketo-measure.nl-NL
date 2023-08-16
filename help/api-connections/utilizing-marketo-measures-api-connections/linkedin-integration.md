@@ -1,24 +1,25 @@
 ---
 unique-page-id: 35586080
-description: linkedIn-integratie - [!DNL Marketo Measure] - Productdocumentatie
-title: linkedIn-integratie
+description: LinkedIn-integratie - [!DNL Marketo Measure] - Productdocumentatie
+title: LinkedIn-integratie
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: APIs, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '2594'
 ht-degree: 0%
 
 ---
 
-# linkedIn-integratie {#linkedin-integration}
+# LinkedIn-integratie {#linkedin-integration}
 
 ## Overzicht {#overview}
 
 De [!DNL Marketo Measure] de integratie met LinkedIn bestaat uit twee delen:
 
-Gesponsorde inhoud: Door de integratie van gesponsorde inhoud is [!DNL Marketo Measure] om doel-URL&#39;s te labelen op [!DNL LinkedIn] advertenties, waardoor [!DNL Marketo Measure] om een gebruiker door hun volledige touchpoint reis te volgen en de activiteit terug te brengen naar specifiek [!DNL LinkedIn] Campagne en creatief. Dit verstrekt inzicht aan klanten over het ROI van hun [!DNL LinkedIn] activiteit.
+Gesponsorde inhoud: de integratie van gesponsorde inhoud maakt de integratie van gesponsorde inhoud mogelijk [!DNL Marketo Measure] om doel-URL&#39;s te labelen op [!DNL LinkedIn] advertenties, die uiteindelijk [!DNL Marketo Measure] om een gebruiker door hun volledige touchpoint reis te volgen en de activiteit terug te brengen naar specifiek [!DNL LinkedIn] Campagne en creatief. Dit verstrekt inzicht aan klanten over het ROI van hun [!DNL LinkedIn] activiteit.
 
-Generaal-leider Forms: Door de integratie met LinkedIn-leider Gen Forms krijgt Marketo Measure inzicht in formulieren die via het LinkedIn-platform zijn ingediend. Deze formuliervullingen worden vergeleken met leads van uw CRM of [!DNL Marketo Engage] zodat ze in aanmerking komen voor attributie. Met inzicht in de Campagne, Creative en Form die hebben bijgedragen tot het genereren van de formulieren, kunnen teams nu hun marketing- en advertentieuitgaven voor LinkedIn verder optimaliseren.
+Generaal-leider Forms: Door de integratie met generaal-president Forms van LinkedIn krijgt Marketo Measure inzicht in formulieren die zijn ingediend via het LinkedIn-platform. Deze formuliervullingen worden vergeleken met leads van uw CRM of [!DNL Marketo Engage] zodat ze in aanmerking komen voor attributie. Met inzicht in de Campagne, Creative en Form die hebben bijgedragen tot het genereren van de formulieren, kunnen teams nu hun marketing- en advertentieuitgaven voor LinkedIn verder optimaliseren.
 
 ## Beschikbaarheid {#availability}
 
@@ -43,7 +44,7 @@ Voor [!DNL Marketo Measure] Als u Gesponsorde Creative Cloud wilt maken/bijwerke
 * Poster met gesponsorde inhoud
 * Generaal-leider Forms Manager
 
-Meer informatie: [linkedIn-rollen voor paginabeheer](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
+Meer informatie: [LinkedIn-rollen voor paginabeheer](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
 Er zijn andere [!DNL LinkedIn] rollen die wij vervullen **niet** vereist voor onze integratie. Deze rollen worden vaak verward met de vereiste rollen, dus let op een verschil!
 
@@ -53,15 +54,15 @@ Voor [!DNL Marketo Measure] als u leads wilt kunnen downloaden/integreren van ho
 
 * Super Admin
 
-Meer informatie: [linkedIn-rollen voor paginabeheer](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
+Meer informatie: [LinkedIn-rollen voor paginabeheer](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
-## linkedIn-advertentietypen {#linkedin-ad-types}
+## LinkedIn-advertentietypen {#linkedin-ad-types}
 
 [!DNL Marketo Measure] ondersteunt:
 
-**Gesponsorde inhoud:** Met gesponsorde inhoud kunt u inhoud leveren aan de [!DNL LinkedIn] voer van leden buiten degenen die uw bedrijf volgen. De gesponsorde Inhoud kan aan een specifiek publiek worden gericht en kan adverteerders helpen bereiken [!DNL LinkedIn] leden, waar en wanneer zij zich inzetten voor de [!DNL LinkedIn] platform op alle desktopcomputers, mobiele apparaten en tablets. Gesponsorde inhoud wordt ondersteund door Lead Gen Forms.
+**Gesponsorde inhoud:** Met gesponsorde inhoud kunt u inhoud leveren aan de [!DNL LinkedIn] voer van leden buiten degenen die uw bedrijf volgen. De gesponsorde Inhoud kan aan een specifiek publiek worden gericht en kan adverteerders helpen bereiken [!DNL LinkedIn] leden, waar en wanneer zij zich inzetten voor de [!DNL LinkedIn] platform op alle desktopcomputers, mobiele apparaten en tablets. Gesponsorde inhoud wordt ondersteund door Gen Forms.
 
-De typen gesponsorde inhoud en indelingen die worden ondersteund door [!DNL Marketo Measure] Dit zijn Single Image Ads en Video Ads (via Lead Gen Forms). Vanwege de complexiteit van het schema bieden we geen ondersteuning voor Carousel-advertenties.
+De typen gesponsorde inhoud en indelingen die worden ondersteund door [!DNL Marketo Measure] Dit zijn Single Image Ads en Video Ads (via Lead Gen Forms). Vanwege de complexiteit van het schema ondersteunen we Carousel-advertenties niet.
 
 [!DNL Marketo Measure] biedt geen ondersteuning voor gesponsorde berichten, tekstadvertenties of dynamische advertenties.
 
@@ -71,7 +72,7 @@ De typen gesponsorde inhoud en indelingen die worden ondersteund door [!DNL Mark
 >
 >Voor al uw campagnes/uitgaven die afkomstig zijn van een niet-gesponsorde inhoudsbron (zoals Campagneringstype &quot;Tekst toevoegen&quot; of &quot;Gesponsorde InMail&quot;), [!DNL Marketo Measure] doet _niet_ Het bijhouden van deze typen campagnes ondersteunen. Als u de uitgaven voor campagnes zoals deze naast uw &quot;Gesponsorde Inhoud&quot;uitgaven wilt volgen, ben zeker om van onze uitgave van de Marketing CSV gebruik te maken om gezegd uitgaven manueel te registreren.
 
-## Hoe het werkt: Gesponsorde inhoud {#how-it-works-sponsored-content}
+## Hoe het werkt: gesponsorde inhoud {#how-it-works-sponsored-content}
 
 >[!NOTE]
 >
@@ -87,7 +88,7 @@ De typen gesponsorde inhoud en indelingen die worden ondersteund door [!DNL Mark
 
 Met deze [!DNL Marketo Measure/LinkedIn] Bij de integratie vragen we dat klanten bestaande Creative Clone niet kopiëren/klonen/dupliceren. Als er aandelen worden gevonden en waarvan wordt vastgesteld dat deze slechts op één Creative Cloud worden gebruikt, [!DNL Marketo Measure] U kunt de tag voor Delen op dezelfde manier plaatsen zonder dat u Creative Cloud of Share opnieuw hoeft te maken. Alle advertentiehistorie (indrukken, klikken, delen) blijft dan ongewijzigd.
 
-Zodra is vastgesteld dat een aandeel door meerdere Creative Cloud wordt gedeeld, [!DNL Marketo Measure] moet een proces van pauzeren, kopiëren en opnieuw labelen doorlopen om een unieke set te maken. [!DNL Marketo Measure] onderbreekt en archiveert levende creatieve producten en wist daarom de geschiedenis van de advertentie, inclusief indrukken, klikken en sociale aandelen, om alles op de juiste manier te labelen.
+Zodra is vastgesteld dat een aandeel door meerdere Creative Cloud wordt gedeeld [!DNL Marketo Measure] moet een proces van pauzeren, kopiëren en opnieuw labelen doorlopen om een unieke set te maken. [!DNL Marketo Measure] onderbreekt en archiveert levende creatieve producten en wist daarom de geschiedenis van de advertentie, inclusief indrukken, klikken en sociale aandelen, om alles op de juiste manier te labelen.
 
 Vooruit beweegt, [!DNL Marketo Measure] raadt u aan geen [!DNL LinkedIn] Deelt en bewaart alle creatieve partijen en aandelen zo uniek mogelijk, zodat we eenvoudig onze tracering kunnen toevoegen zonder dat we advertentiegeschiedenis hoeven te wissen.
 
@@ -99,18 +100,18 @@ Als u veel gebruik maakt van verkorte URL&#39;s, kan dit ernstige gevolgen hebbe
 
 **Het proces**
 
-Laten we beginnen met een paar voorbeelden. Laten we zeggen dat we....
+Laten we beginnen met een paar voorbeelden. Laten we zeggen dat we...
 
-Creatief A: Aandeel 123\
-Creatief B: Aandeel 234\
-Creative C: Aandeel 234\
-Creative D: Aandeel 234
+Creative A: Share 123\
+Creative B: Share 234\
+Creative C: Share 234\
+Creative D: Share 234
 
 ![](assets/two.png)
 
-`1)` [!DNL Marketo Measure] zal eerst alle campagnes, creatieve projecten en aandelen met de status &quot;Actief&quot; doornemen. [!DNL Marketo Measure] geen tags toevoegen aan gepauzeerde, gearchiveerde of geannuleerde advertenties. Als een advertentie is gepauzeerd, stelt u deze in op [!UICONTROL active]We labelen het zodra het programma weer actief is. Als wij een uniek Aandeel kunnen vinden, betekenend het niet over veelvoudige Creative of Campagnes (b.v., Creative A wordt gebruikt: Aandeel 123), [!DNL Marketo Measure] voegt onze aangepaste parameter toe `>> ?_bl={creativeId}` naar de gedeelde URL.
+`1)` [!DNL Marketo Measure] zal eerst alle campagnes, creatieve projecten en aandelen met de status &quot;Actief&quot; doornemen. [!DNL Marketo Measure] geen tags toevoegen aan gepauzeerde, gearchiveerde of geannuleerde advertenties. Als een advertentie is gepauzeerd, stelt u deze in op [!UICONTROL active]We labelen het zodra het programma weer actief is. Als wij een uniek Aandeel kunnen vinden, betekenend het niet over veelvoudige Creative of Campagnes (b.v., Creative A: Aandeel 123) wordt gebruikt, [!DNL Marketo Measure] voegt onze aangepaste parameter toe `>> ?_bl={creativeId}` naar de gedeelde URL.
 
-`2)` Nu als het Delen is gedeeld en zijn uniciteit (bijvoorbeeld Creative B: Delen 234 en Creative C: Delen 234 en Creative D: Aandeel 234), [!DNL Marketo Measure] pauzeren en archiveren alle vergelijkbare creatieve objecten (creatief B, Creative C en Creative D).
+`2)` Nu als het Aandeel is gedeeld en zijn uniciteit (bijvoorbeeld, Creative B: Share 234 en Creative C: Share 234 en Creative D: Share 234) verliest, [!DNL Marketo Measure] pauzeren en archiveren alle vergelijkbare creatieve objecten (creatief B, Creative C en Creative D).
 
 `3)` [!DNL Marketo Measure] maakt drie nieuwe creatieve projecten, Creative E, Creative F en Creative G, die de gearchiveerde inhoud van Creative B kopiëren.
 
@@ -120,23 +121,23 @@ Creative D: Aandeel 234
 
 >[!NOTE]
 >
->Als u dit implementeert, verliezen onze klanten de advertentiegeschiedenis van Creative B: Share 234, Creative C: Delen 234 en Creative D: Deel 234 omdat het nu opnieuw wordt gemaakt met Creative E: Aandeel 345, Aandeel F: Delen 456 en Creative G: Aandeel 567.
+>Als u dit implementeert, verliezen onze klanten de advertentiegeschiedenis van Creative B: Share 234, Creative C: Share 234 en Creative D: Share 234 omdat deze nu opnieuw wordt gemaakt met Creative E: Share 345, Share F: Share 456 en Creative G: Share 567.
 
 ![](assets/three.png)
 
-## Hoe het werkt: Generaal-leider Forms {#how-it-works-lead-gen-forms}
+## Hoe het werkt: Gen-leider Forms {#how-it-works-lead-gen-forms}
 
 **Het proces**
 
 Doorheen [!DNL LinkedIn's] Met de API voor formulieren en de API voor formulierreacties kunnen we formulierverzendgegevens verzamelen voor een advertentieaccount en het e-mailadres koppelen aan een lead van de CRM of Marketo.
 
-linkedIn-formulieren kunnen meerdere e-mailadressen bevatten. Wanneer we formulierreacties downloaden, zoeken we naar e-mailadressen met de volgende prioriteit: Werk-e-mail, E-mailadres (primair formulierveld) of aangepaste velden met een geldige e-mailwaarde.
+LinkedIn-formulieren kunnen meerdere e-mailadressen bevatten. Wanneer we formulierreacties downloaden, zoeken we naar e-mailadressen met de volgende prioriteit: Werk-e-mail, E-mailadres (primair formulierveld) of aangepaste velden met een geldige e-mailwaarde.
 
 Ongeacht de Campagne- of Creatieve status, zullen alle Reacties van het Vorm in een aanraakpunt resulteren. [!DNL Marketo Measure] heeft een terugzoekbeperking van 90 dagen, dus [!DNL Marketo Measure] heeft geen toegang tot formulierreacties ouder dan 90 dagen, maar hoe langer [!DNL Marketo Measure] en [!DNL LinkedIn] integratie is ingeschakeld, zullen de meer toonaangevende Gen Form-aanraakpunten zichtbaar zijn via [!DNL Marketo Measure].
 
 >[!NOTE]
 >
->linkedIn-kosten worden nog steeds gedownload als onderdeel van campagnes voor gesponsorde inhoud.
+>LinkedIn-kosten worden nog steeds gedownload als onderdeel van campagnes voor gesponsorde inhoud.
 
 **Gen.-trainingsleider Forms volgen in CRM of Marketo**
 
@@ -255,7 +256,7 @@ Eenmaal [!DNL Marketo Measure] heeft met succes uw landingspagina op de LinkedIn
 
 Omdat [!DNL Marketo Measure] heeft een directe integratie met [!DNL LinkedIn]We downloaden de opgenomen uitgaven voor elke campagne en Creative elke dag. Een klant hoeft geen melding te maken van [!DNL LinkedIn] binnen de [!DNL Marketo Measure] niet meer worden toegepast.
 
-Net als bij andere vormen van integratie [!DNL Marketo Measure] heeft een marketingkanaalregel gedefinieerd om alles te plaatsen [!DNL LinkedIn] campagnes, creatieven en kosten. Om de regel te gebruiken, zal de klant een nieuwe rij voor hun Betaald willen opnemen [!DNL LinkedIn] inspanningen. Het kan een nieuw of bestaand kanaal zijn. Gebruik in de kolom Referenter de definitie &quot;[[!DNL LinkedIn] Betaald]&quot; [!DNL Marketo Measure] heeft gedefinieerd als een aanraakpunt met een [!DNL Marketo Measure] tag.
+Net als bij andere vormen van integratie [!DNL Marketo Measure] heeft een marketingkanaalregel gedefinieerd om alles te plaatsen [!DNL LinkedIn] campagnes, creatieven en kosten. Om de regel te gebruiken, zal de klant een nieuwe rij voor hun Betaald willen opnemen [!DNL LinkedIn] inspanningen. Het kan een nieuw of bestaand kanaal zijn. Gebruik in de kolom Referenter de definitie &quot;[[!DNL LinkedIn] Betaald]&quot; [!DNL Marketo Measure] heeft gedefinieerd als een aanraakpunt met een [!DNL Marketo Measure] -tag.
 
 ![](assets/four.png)
 
@@ -269,7 +270,7 @@ Generaal-leider Forms-tegel: Nieuwe tegel die het aantal LinkedIn-formuliervulli
 
 **Padkaart voor betrokkenheid**
 
-Reis van gebeurtenissen: Omvat het gebeurtenistype &quot;Activiteit&quot; en het gemiddelde lead Gen-formulier voor formulieren die door de integratie worden ontvangen. Tot de uitgebreide weergave behoren Campagne, Creatief en Formuliergegevens.
+Reis of Events: Omvat het gebeurtenistype &quot;Activiteit&quot; en het gemiddelde &quot;Lead Gen Form&quot; voor formulieren die door de integratie heen komen. Tot de uitgebreide weergave behoren Campagne, Creatief en Formuliergegevens.
 
 ## Veelgestelde vragen over gesponsorde inhoud {#sponsored-content-faq}
 
@@ -283,11 +284,11 @@ Er zijn vier verschillende statussen op een [!DNL LinkedIn] Campagne en creatief
 
 **Wat is de waarde van [!DNL Marketo Measure] gebruikt u de tag?**
 
-Aan het einde van de doel-URL: [!DNL Marketo Measure] voegt de parameter toe `&_bl={creativeId}`, waarbij `{creativeId}` is de Creative ID uit LinkedIn. Met de Creative-id [!DNL Marketo Measure] kan ook de campagne-id bepalen sinds [!DNL LinkedIn] heeft een tamelijk basisstructuur voor advertenties, omdat elk creatief slechts tot één campagne kan behoren.
+Aan het einde van de doel-URL: [!DNL Marketo Measure] voegt de parameter toe `&_bl={creativeId}`, waarbij de `{creativeId}` is de Creative ID uit LinkedIn. Met de Creative-id [!DNL Marketo Measure] kan ook de campagne-id bepalen sinds [!DNL LinkedIn] heeft een tamelijk basisstructuur voor advertenties, omdat elk creatief slechts tot één campagne kan behoren.
 
 **Wat gebeurt er eens met mijn oude creatieve [!DNL Marketo Measure] een nieuwe versie ervan maken?**
 
-Wanneer [!DNL Marketo Measure] Hiermee maakt u een Delen opnieuw en plaatst u deze in een nieuw Creative Suite-archief. Daarom [!DNL Marketo Measure] gearchiveerde campagnes of Creative Cloud worden niet van tags voorzien. Anders wordt er een lus uitgevoerd met [!DNL Marketo Measure] proberen het oneindig te labelen.
+Wanneer [!DNL Marketo Measure] Hiermee maakt u een Delen opnieuw en plaatst u deze in een nieuw Creative Suite-archief. Daarom [!DNL Marketo Measure] gearchiveerde campagnes of Creative Cloud worden niet van tags voorzien. Anders wordt er een lus uitgevoerd met [!DNL Marketo Measure] proberen het voor onbepaalde tijd te labelen.
 
 **Waarom komt de doel-URL van de gemaakte advertentie niet overeen met mijn oorspronkelijke advertentie?**
 
@@ -299,11 +300,11 @@ We hebben gezien dat sommige marketers een afbeeldingskoppeling in de doel-URL z
 
 **Oh nee, iemand in mijn team heeft per ongeluk een aandeel gekloond. Kan ik het pauzeren?**
 
-Geen zorgen. [!DNL Marketo Measure] controleert programmatisch op aandelen die niet meer uniek zijn, wat betekent dat het sindsdien naar een ander Creative-bestand is gekopieerd. Zodra die kopie is gevonden, [!DNL Marketo Measure] volgt de gebruikelijke workflow om tags aan toe te wijzen en nieuwe advertenties te maken.
+Geen zorgen. [!DNL Marketo Measure] controleert programmatisch op aandelen die niet meer uniek zijn, wat betekent dat het sindsdien naar een ander Creative-bestand is gekopieerd. Zodra die kopie is gedetecteerd, [!DNL Marketo Measure] volgt de gebruikelijke workflow om tags aan toe te wijzen en nieuwe advertenties te maken.
 
 **Mijn advertentie was eerder in behandeling. Waarom is de herziening in behandeling na [!DNL Marketo Measure] gelabeld?**
 
-linkedIn vereist dat alle advertenties die zijn gemaakt of gewijzigd, door het normale beveiligingsproces worden geleid voordat ze worden gepost. [!DNL Marketo Measure] probeert de advertentie zo snel mogelijk te onderscheppen, omdat deze elke 6 uur op nieuwe advertenties scant, maar met [!DNL LinkedIn's] een extra stap, kan de lancering met een paar uren vertragen.
+LinkedIn vereist dat alle advertenties die zijn gemaakt of gewijzigd, door het normale beveiligingsproces worden geleid voordat ze worden gepost. [!DNL Marketo Measure] probeert de advertentie zo snel mogelijk te onderscheppen, aangezien deze elke 6 uur op nieuwe advertenties scant, maar met [!DNL LinkedIn's] een extra stap, kan de lancering met een paar uren vertragen.
 
 **Er staan twee URL&#39;s op mijn advertentie. Welke wordt er getagd?**
 
@@ -333,7 +334,7 @@ Ja, we downloaden historische reacties op advertentievormen van LinkedIn, maar w
 
 Er is geen optie om een specifieke datum voor download in te stellen, maar u kunt desgewenst regels voor het verwijderen van aanraakpunten instellen als er aanraakpunten zijn die u moet onderdrukken.
 
-**Wordt automatisch ingeschakeld als ik de opdracht [!DNL Marketo Measure] linkedIn en integratie?**
+**Wordt automatisch ingeschakeld als ik de opdracht [!DNL Marketo Measure] LinkedIn en integratie?**
 
 Nee, we beginnen het niet automatisch voor alle klanten te downloaden, maar het is een heel eenvoudige switch om deze functie in te schakelen in instellingen.
 

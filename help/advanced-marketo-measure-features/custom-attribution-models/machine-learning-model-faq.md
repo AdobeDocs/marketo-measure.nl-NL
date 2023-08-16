@@ -3,7 +3,8 @@ unique-page-id: 18874775
 description: Veelgestelde vragen over het leermodel voor machines - [!DNL Marketo Measure] - Productdocumentatie
 title: Veelgestelde vragen over het leermodel voor machines
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Models
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -22,9 +23,9 @@ Hoe wordt het leermodel van de Machine berekend?
 
 [!DNL Marketo Measure] berekent het belang van elke aangepaste fase met behulp van de aanraakpuntgegevens van uw account. De criteria om het belang van elke fase te bepalen zijn:
 
-* Nauwkeurigheid model: Als we een voorspellend model bouwen met de touchpoint data om te voorspellen of we uiteindelijk een deal zullen winnen, hoe accuraat zal het model dan zijn? Hogere voorspellende nauwkeurigheid betekent dat de details van dit stadium meer correleren met of een overeenkomst zal sluiten
-* Conversiesnelheid: Als Leads of Opportunity in dit stadium in een hoog tempo naar de volgende fase worden omgeschakeld, lijkt het erop dat de marketingactiviteiten die in deze fase plaatsvonden, niet erg belangrijk waren. Omgekeerd kan, als een bepaalde fase in een laag tempo naar de volgende fase wordt omgeschakeld, dit erop wijzen dat de marketingactiviteiten die in deze fase hebben plaatsgevonden, van invloed waren op het sturen van de conversie.
-* Uniquisitiegewicht aanraakpunt: Als een werkgebied als een standalone overgang voorkomt, wat betekent dat er geen andere werkgebiedovergangen zijn die tegelijkertijd plaatsvonden, zou dit werkgebied een hoger attributiegewicht kunnen krijgen. Wanneer daarentegen een aanraakpunt voor een werkgebied wordt gedeeld met andere stadia (het aanraakpunt deelt bijvoorbeeld de fasen First Touch, Lead Conversion en Opportunity Conversion), kan dit werkgebied een lagere toewijzingsweging krijgen.
+* Model Accuracy: Als we een voorspellend model bouwen met de aanraakpuntgegevens om te voorspellen of we uiteindelijk een deal zullen winnen, hoe nauwkeurig zal het model zijn? Hogere voorspellende nauwkeurigheid betekent dat de details van dit stadium meer correleren met of een overeenkomst zal sluiten
+* Conversietarief: als Leads of Opportunity in dit stadium in een hoog tempo naar de volgende fase converteren, geeft dit aan dat de marketingactiviteiten die in dit stadium hebben plaatsgevonden, niet erg belangrijk waren. Omgekeerd kan, als een bepaalde fase in een laag tempo naar de volgende fase wordt omgeschakeld, dit erop wijzen dat de marketingactiviteiten die in deze fase hebben plaatsgevonden, van invloed waren op het sturen van de conversie.
+* Uniquisitiegewicht aanraakpunt: als een werkgebied optreedt als een stand-alone overgang, wat betekent dat er geen andere werkgebiedovergangen zijn die tegelijkertijd hebben plaatsgevonden, kan dit werkgebied een hoger toewijzingsgewicht krijgen. Wanneer daarentegen een aanraakpunt voor een werkgebied wordt gedeeld met andere stadia (het aanraakpunt deelt bijvoorbeeld de fasen First Touch, Lead Conversion en Opportunity Conversion), kan dit werkgebied een lagere toewijzingsweging krijgen.
 
 Het uiteindelijke gewicht van een aangepaste fase wordt als volgt berekend:
 

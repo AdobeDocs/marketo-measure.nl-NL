@@ -3,7 +3,8 @@ unique-page-id: 18874558
 description: Boommeren en aanraakpunten - [!DNL Marketo Measure] - Productdocumentatie
 title: Boomerang Stages en Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+feature: Boomerang, Touchpoints
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 >
 >De Boomerang-functie wordt alleen ingeschakeld voor Tier 3-klanten. Neem contact op met het Adobe-accountteam (uw accountmanager) als u een hogere accountlaag wilt aanvragen.
 
-[!DNL Marketo Measure] heeft onze functie Boomerang Stage uitgebracht! De functie van het Stadium van Boemerang werd gecreeerd om grotere zicht in de reis van de klant te verstrekken voor [!DNL Marketo Measure] klanten met lange verkoopcycli. Met deze functie kunnen marketers aanraakpunten maken voor alle werkgebiedovergangen die zich voordoen tijdens de Opportunity-reis, bijvoorbeeld wanneer een contactpersoon MQL&#39;s, vervolgens naar SAL gaat en vervolgens terugkeert naar het MQL-werkgebied. Wanneer de contacten &quot;het stadium van MQL&quot;of &quot;re-MQL&#39;s&quot;opnieuw ingaan, beschouwen wij MQL als een boemerang stadium. Het Boemerang-werkgebied functioneert naast de [!DNL Marketo Measure] Aangepaste stadia.
+[!DNL Marketo Measure] heeft onze functie Boomerang Stage uitgebracht! De functie van het Stadium van Boemerang werd gecreeerd om grotere zicht in de reis van de klant te verstrekken voor [!DNL Marketo Measure] klanten met lange verkoopcycli. Met deze functie kunnen marketers aanraakpunten maken voor alle werkgebiedovergangen die zich voordoen tijdens de Opportunity-reis, bijvoorbeeld wanneer een contactpersoon MQL&#39;s, vervolgens naar SAL gaat en vervolgens terugkeert naar het MQL-werkgebied. Wanneer de contacten &quot;het stadium van MQL&quot;of &quot;re-MQL&#39;s&quot;opnieuw ingaan, beschouwen wij MQL als een boemerang stadium. Het Boemerang-werkgebied functioneert naast [!DNL Marketo Measure] Aangepaste stadia.
 
 ## Wat doet deze functie? {#what-this-feature-does}
 
@@ -67,7 +68,7 @@ Boomerang Stages zal gevolgen hebben voor:
 
 U kunt maximaal 15 fasen selecteren.
 
-**V: Hoeveel &quot;boemerang&quot;aanraakpunten kan ik per stadium hebben?**
+**V: Hoeveel &quot;boemerang&quot;-aanraakpunten kan ik per stadium hebben?**
 
 U kunt maximaal 10 boemerang-aanraakpunten per werkgebied selecteren.
 
@@ -79,8 +80,8 @@ U kunt maximaal 10 boemerang-aanraakpunten per werkgebied selecteren.
 
 Het maximum geldt voor Data Warehouse en BCR vanwege de verwerkingsbeperkingen die [!DNL Marketo Measure] heeft bestaan. De Data Warehouse zal ook de limiet van 10 aanraakpunten per fase zien.
 
-**V: Wat is het voordeel om de Stages van Boomerang met de Modellering van de Douane te gebruiken?**
+**Q: Wat is het voordeel om Stages Boomerang met Aangepaste Modellering te gebruiken?**
 
 Gebruiken [!UICONTROL Boomerang] Met Fases met aangepaste modellering kunt u toewijzingsweging toewijzen aan [!UICONTROL Boomerang] touchpoints, die inkomstenkrediet aan deze fasen zullen toekennen.
 
-Zonder aangepaste modellering [!DNL Marketo Measure] voor elke boemerang- en werkgebiedovergang aanraakpunten creëren, maar aan deze aanraakpunten geen toeslagen toekennen. De enige boemerang-aanraakpunten die attribuutcredits zullen ontvangen, zijn aanraakpunten voor verzending. Zonder aangepast model [!DNL Boomerang] aanraakpunten worden als hetzelfde beschouwd als een &quot;middelste aanraking&quot; en krijgen dienovereenkomstig toeschrijvingen.
+Zonder aangepaste modellen [!DNL Marketo Measure] voor elke boemerang- en werkgebiedovergang aanraakpunten creëren, maar aan deze aanraakpunten geen toeslagen toekennen. De enige boemerang-aanraakpunten die attribuutcredits zullen ontvangen, zijn aanraakpunten voor verzending. Zonder aangepast model [!DNL Boomerang] aanraakpunten worden als hetzelfde beschouwd als een &quot;middelste aanraking&quot; en krijgen dienovereenkomstig toeschrijvingen.

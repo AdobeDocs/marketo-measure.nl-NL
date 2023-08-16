@@ -2,7 +2,8 @@
 description: "[!DNL Marketo Measure] Integratie met Adobe Analytics - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Integratie met [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -31,7 +32,7 @@ De integratie van B2B-klantkenmerken maakt wederzijdse gebruikers van [!DNL Mark
 
 1. Klik op de knop **[!UICONTROL Set Up New Customer Attributes Connection]** en volg de instructies om de integratie van de Attributen van de Klant te vormen. De interface vraagt u naar de Alias ID- en FTP-verbindingsgegevens die u hebt verkregen bij het maken van de bron met klantkenmerken in uw Core Services Console en selecteert de set accountkenmerken die u wilt synchroniseren met uw [!DNL Adobe Analytics] account.
 
-   U moet ook uw Adobe IMS-organisatie-id invoeren. Deze id wordt weergegeven in de rechterbenedenhoek van uw Adobe Experience Cloud-Admin Console. Neem contact op met het Adobe-accountteam (uw accountmanager) voor meer hulp bij het zoeken naar deze id.
+   U moet ook uw Adobe IMS-organisatie-id invoeren. Deze id wordt rechtsonder in de Adobe Experience Cloud-Admin Console weergegeven. Neem contact op met het Adobe-accountteam (uw accountmanager) voor meer hulp bij het zoeken naar deze id.
 
 1. Nadat u de verbinding in uw [!DNL Marketo Measure] -account, moet u teruggaan naar uw Experience Cloud-console om [valideer het schema](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). U hoeft zich geen zorgen te maken over het uploaden van FTP-bestanden, [!DNL Marketo Measure] heeft dat onderdeel voor u geautomatiseerd. Alles wat u hoeft te doen, gaat u naar het schema &quot;Weergave/Bewerken&quot; voor de kenmerkbron van de klant die u in Stap 1 hebt gemaakt en vertelt u Adobe wat de gegevenstypen zijn voor elk van de kenmerken die [!DNL Marketo Measure] heeft namens u geüpload. U kunt desgewenst ook nieuwe weergavefuncties voor de geüploade kenmerken maken.
 
@@ -41,7 +42,7 @@ De integratie van B2B-klantkenmerken maakt wederzijdse gebruikers van [!DNL Mark
 
 ## Kenmerkbeschrijvingen {#attribute-descriptions}
 
-Wanneer u een nieuwe Verbinding van Attributen van de Klant B2B creeert, [!DNL Marketo Measure] automatisch een standaardset B2B-klantkenmerken voor u maken. Deze kenmerken worden in de onderstaande tabel beschreven.
+Als u een nieuwe B2B-klantkenmerkverbinding maakt, [!DNL Marketo Measure] automatisch een standaardset B2B-klantkenmerken voor u maken. Deze kenmerken worden in de onderstaande tabel beschreven.
 
 Naast de kenmerken die hieronder worden vermeld, kunt u ook alle kenmerken uploaden die aan het accountobject in uw CRM zijn gekoppeld. Als er meer dan één account is gekoppeld aan de opgegeven gebruiker, [!DNL Marketo Measure] Hiermee worden alle overeenkomende accountkenmerkwaarden ingevuld in een lijst met door puntkomma&#39;s gescheiden waarden.
 
@@ -92,6 +93,6 @@ Gezien het bovenstaande, adviseert men hoogst dat wanneer het vormen van de attr
 
 **Wat zijn voorbeelden van gevallen voor deze integratie?**
 
-1. Op account gebaseerde verkeerscijfers: Gebruikend de attributen van de rekeningsnaam, kunt u segmenten van één of meerdere doelrekeningen in Adobe Analytics tot stand brengen en de metriek van het plaatsverkeer voor enkel de ondergroep van verkeer analyseren die uit doelrekeningen voortkomt.
-1. Inhoud analyseren: Gebruik de opbrengstmetrische informatie om te analyseren welke plaatsinhoud het meest aansprekend aan klanten die uiteindelijk uw product of dienst kopen, of die een specifieke treinstand van belang bereiken.
-1. Live-deal ondersteuning: Verdeel uw verkoopteam met actionable inzicht door plaatsgedrag voor gebruikers te analyseren verbonden aan een specifieke open kans in uw CRM.
+1. Op rekening-Gebaseerde Metriek van het Verkeer: Gebruikend de attributen van de rekeningsnaam, kunt u segmenten van één of meerdere doelrekeningen in Adobe Analytics tot stand brengen en de metriek van het plaatsverkeer voor enkel de ondergroep van verkeer analyseren die uit doelrekeningen voortkomt.
+1. Content Analytics: Gebruik de omzetmaatstaf om te analyseren welke site-inhoud het meest aantrekkelijk is voor klanten die uiteindelijk uw product of service aanschaffen of voor klanten die een specifieke tintfase bereiken.
+1. Live-deal-ondersteuning: vergroot uw verkoopteam met actionabel inzicht door het gedrag van de site te analyseren voor gebruikers die zijn gekoppeld aan een specifieke open mogelijkheid in uw CRM.

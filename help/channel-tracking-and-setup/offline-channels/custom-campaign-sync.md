@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874588
 description: Aangepaste campagnecorrectie - [!DNL Marketo Measure] - Productdocumentatie
-title: Aangepaste campagnecorrectie
+title: Aangepaste synchronisatie van campagnes
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-# Aangepaste campagnecorrectie {#custom-campaign-sync}
+# Aangepaste synchronisatie van campagnes {#custom-campaign-sync}
 
-Vandaag, met geïnstalleerd [!DNL Marketo Measure] pakket, kunt u aangeven welke campagnes moeten worden opgenomen als een geschikt aanraakpunt. Er zijn meerdere obstakels. Wanneer de [!DNL Marketo Measure] wordt geïnstalleerd in CRM, kan het tijd vergen om door uw veiligheidsteam worden goedgekeurd. Bovendien is er een gebrek aan flexibiliteit in het gebruiken van één enkele picklist op het voorwerp van de Campagne. Met deze nieuwe functie hoeft u geen pakket te installeren om de records voor Campagne en Campagne-leden te gaan gebruiken. De regels kunnen worden gebouwd om precies te bepalen welke verslagen kunnen worden gebouwd om precies te bepalen welke verslagen in aanmerking komen.
+Vandaag, met geïnstalleerd [!DNL Marketo Measure] -pakket, kunt u aangeven welke campagnes moeten worden opgenomen als een geschikt aanraakpunt. Er zijn meerdere obstakels. Wanneer de [!DNL Marketo Measure] wordt geïnstalleerd in CRM, kan het tijd vergen om door uw veiligheidsteam worden goedgekeurd. Bovendien is er een gebrek aan flexibiliteit in het gebruiken van één enkele picklist op het voorwerp van de Campagne. Met deze nieuwe functie hoeft u geen pakket te installeren om de records voor Campagne en Campagne-leden te gaan gebruiken. De regels kunnen worden gebouwd om precies te bepalen welke verslagen kunnen worden gebouwd om precies te bepalen welke verslagen in aanmerking komen.
 
 ## Vereisten {#requirements}
 
@@ -22,7 +23,7 @@ Vandaag, met geïnstalleerd [!DNL Marketo Measure] pakket, kunt u aangeven welke
 ## Hoe het werkt {#how-it-works}
 
 1. Met AccountAdmin-machtigingen kunt u naar **[!UICONTROL Settings]** > **[!UICONTROL Campaigns]** en raadpleegt u de gebruikersinterface van Campagneleden synchroniseren.
-1. Klik op de knop **+** pictogram om een regel te maken.
+1. Klik op de knop **+** pictogram om een regel te beginnen maken.
 
    ![](assets/1-1.png)
 
@@ -34,7 +35,7 @@ Vandaag, met geïnstalleerd [!DNL Marketo Measure] pakket, kunt u aangeven welke
    >
    >Formulervelden kunnen niet worden gebruikt binnen uw regels en worden niet weergegeven in de keuzelijst. Omdat formules op de achtergrond berekenen en een record niet wijzigen, [!DNL Marketo Measure] kan niet ontdekken of een verslag een regel past of niet.
 
-1. Kies de datum van het aanraakpunt. De lijst met mogelijke datums wordt weergegeven nadat u een accolade hebt ingevoerd `{` - selecteert u vervolgens de datum die u wilt toepassen op alle aanraakpunten die op basis van de regel zijn gemaakt.
+1. Kies de aanraakpuntdatum. De lijst met mogelijke datums wordt weergegeven nadat u een accolade hebt ingevoerd `{` - selecteert u vervolgens de datum die u wilt toepassen op alle aanraakpunten die met de regel zijn gemaakt.
 
    ![](assets/3-1.png)
 
@@ -54,7 +55,7 @@ Vandaag, met geïnstalleerd [!DNL Marketo Measure] pakket, kunt u aangeven welke
 
    >[!NOTE]
    >
-   >Als u overweegt de gebruiker uiteindelijk te stoppen [!UICONTROL CRM Sync Type], is het ideaal om regels te maken die niet verwijzen naar het &quot;Type synchroniseren&quot;, maar _nog steeds_ de huidige CRM-aanraakpunten onderhouden. Zo werken de regels nog steeds als/wanneer die omschakeling plaatsvindt.
+   >Als u overweegt de gebruiker uiteindelijk te stoppen [!UICONTROL CRM Sync Type], is het ideaal om regels te maken die niet verwijzen naar het &quot;Type synchroniseren&quot;, maar _nog steeds_ de huidige CRM-aanraakpunten onderhouden. Op die manier werken de regels nog steeds als/wanneer die omschakeling plaatsvindt.
 
 Hier is een voorbeeld van hoe dat eruit zou zien, zodat geen bestaande aanraakpunten van CRM worden verloren:
 

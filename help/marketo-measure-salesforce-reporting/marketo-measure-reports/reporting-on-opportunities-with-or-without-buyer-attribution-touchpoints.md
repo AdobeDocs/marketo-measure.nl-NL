@@ -3,7 +3,8 @@ unique-page-id: 18874618
 description: Rapportage over opportuniteiten met of zonder aanraakpunten voor koperkenmerken - [!DNL Marketo Measure] - Productdocumentatie
 title: Rapportage over opportuniteiten met of zonder aanraakpunten voor koperkenmerken
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Touchpoints, Attribution, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Maak een nieuw rapporttype waarin alle mogelijkheden worden opgenomen met of zon
 
 1. Het primaire object instellen als &quot;[!UICONTROL Opportunities].&quot;
 
-   * Geef het rapporttypelabel een naam als: &quot;Opportunity with or without Buyer Attribution.&quot;
+   * Geef het rapporttype de naam Label als: &quot;Opportunity with or without Buyer Attribution.&quot;
    * Gebruik het zelfde noemen voor de Naam van het Type van Rapport. Binnen de ingevoerde beschrijving &quot;Opportunity with or without Buyer Attribution Touchpoints&quot;.
    * Sla het rapport op in de &quot;[!UICONTROL Other]&quot; en stel het rapport in op &quot;[!UICONTROL Deployed].&quot;
 
@@ -40,4 +41,4 @@ Maak een nieuw rapporttype waarin alle mogelijkheden worden opgenomen met of zon
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universiteit: Aanvullende SFDC-rapporten](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)
+>[[!DNL Marketo Measure] University: aanvullende SFDC-rapporten](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)

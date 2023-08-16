@@ -2,7 +2,8 @@
 description: Privacyverzoeken - [!DNL Marketo Measure] - Productdocumentatie
 title: Privacyverzoeken
 exl-id: 883e475f-9868-412a-b505-230556f38484
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: APIs, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -13,18 +14,18 @@ ht-degree: 0%
 
 Dit document biedt een overzicht van het beheer van individuele privacyverzoeken voor gegevens die u kunt verzenden naar [!DNL Marketo Measure] via de [!DNL Privacy Service] UI en de **[!DNL Privacy Service]API**.
 
-U kunt individuele verzoeken indienen om tot consumentengegevens toegang te hebben en te schrappen van [!DNL Marketo Measure] op twee manieren :
+U kunt individuele verzoeken indienen om tot consumentengegevens toegang te hebben en te schrappen [!DNL Marketo Measure] op twee manieren :
 
 * Via de [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
 * Via de **[!DNL Privacy Service]API**. Zie de documentatie [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-De [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} ondersteunt twee typen verzoeken: gegevenstoegang en gegevensverwijdering.
+De [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} ondersteunt twee soorten verzoeken: toegang tot gegevens en verwijdering van gegevens.
 
 Zie hoe u verzoeken van de Toegang en van de Schrapping kunt tot stand brengen.
 
 ## Vereiste installatie voor het verzenden van aanvragen voor Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
-Om tot Gegevens van de Toegang en van de Schrapping te verzoeken voor [!DNL Marketo Measure]moet u:
+Om tot Gegevens van de Toegang en van de Schrapping te verzoeken voor [!DNL Marketo Measure], moet u:
 
 1. Vermeld het volgende:
 
@@ -45,21 +46,21 @@ Om tot Gegevens van de Toegang en van de Schrapping te verzoeken voor [!DNL Mark
 
 &quot;gebruikers&quot;:
 
-* &quot;actie&quot;: ofwel [!UICONTROL access] of verwijderen
+* &quot;actie&quot;: [!UICONTROL access] of verwijderen
 * &quot;userIDs&quot;:
-   * &quot;namespace&quot;: email
+   * &quot;namespace&quot;: e-mail
    * &quot;type&quot;: standaard
    * &quot;waarde&quot;: `<Data Subject's Email Address>`
 
 &quot;include&quot;:
 
-* **marketoMeetlat** (dit is het product van de Adobe dat op het verzoek van toepassing is)
+* **marketoMeas** (dit is het product van de Adobe dat op het verzoek van toepassing is)
 
 &quot;verordening&quot;:
 
 * **gdpr**, **ccpa**, **pdpa**, **lgpd_bra**, of **nzpa_nzl** (dit is de privacyverordening die van toepassing is op het verzoek)
 
-## Voorbeeld één: GDPR-verzoek verwijderen {#gdpr-delete-request}
+## Voorbeeld één: GDPR-aanvraag verwijderen {#gdpr-delete-request}
 
 JSON-aanvraag
 

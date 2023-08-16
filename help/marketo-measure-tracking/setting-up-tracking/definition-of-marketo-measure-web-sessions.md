@@ -3,7 +3,8 @@ unique-page-id: 18874564
 description: Definitie van [!DNL Marketo Measure] Websessies - [!DNL Marketo Measure] - Productdocumentatie
 title: Definitie van [!DNL Marketo Measure] Websessies
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -33,9 +34,9 @@ Er zijn een paar dingen die bepalen wanneer een zitting beëindigt, en wanneer e
 
 [!DNL Marketo Measure] de sessies eindigen na 30 minuten inactiviteit op de website . Bijvoorbeeld:
 
-Wanneer Haley op adobe.com komt, wordt een sessie gestart. Ze verkent de website een paar minuten en stapt weg van haar computer, maar laat de website open. Na 30 minuten inactiviteit wordt de sessie beëindigd.
+Wanneer Haley adobe.com bezoekt, wordt een sessie gestart. Ze verkent de website een paar minuten en stapt weg van haar computer, maar laat de website open. Na 30 minuten inactiviteit wordt de sessie beëindigd.
 
-Momenteel [!DNL Marketo Measure] beschouwt paginanavigatie en formulierverzendingen alleen als activiteit. Schuiven door de webpagina of het boven een element op de pagina plaatsen wordt niet als activiteit beschouwd. Dus als Haley op adobe.com een blogbericht gaat lezen en het één uur duurt om te lezen, eindigt haar websessie nog steeds na 30 minuten, zelfs als ze door de inhoud op de pagina schuift.
+Momenteel [!DNL Marketo Measure] beschouwt paginanavigatie en formulierverzendingen alleen als activiteit. Schuiven door de webpagina of het boven een element op de pagina plaatsen wordt niet als activiteit beschouwd. Dus als Haley een bezoek brengt aan adobe.com om een blogbericht te lezen, en haar één uur nodig heeft om te lezen, eindigt haar websessie nog steeds na 30 minuten, zelfs als ze door de inhoud op de pagina scrolt.
 
 ## Vervaldatum op basis van kanalen {#channel-based-expiration}
 
@@ -49,7 +50,7 @@ Momenteel [!DNL Marketo Measure] beschouwt paginanavigatie en formulierverzendin
 
 Elke keer dat een bezoeker via een verwijzende website of een sociaal kanaal naar uw website komt, wordt een nieuwe sessie gestart.
 
-Zeg dat Haley op LinkedIn is, klikt op een [!DNL Marketo Measure] post en wordt omgeleid naar de website van Adobe. Daarna, terwijl u doorbladert [!DNL Facebook]Haley ziet er een [!DNL Marketo Measure] post. Wanneer ze op dit bericht klikt en naar de site Adobe wordt omgeleid, veroorzaakt dit de eerste websessie die te maken heeft met [!DNL LinkedIn] en een nieuwe sessie met betrekking tot [!DNL Facebook] begint.
+Zeg dat Haley op LinkedIn is, klikt op een [!DNL Marketo Measure] post en wordt omgeleid naar de website van Adobe. Daarna, terwijl u doorbladert [!DNL Facebook], Haley ziet er een [!DNL Marketo Measure] post. Wanneer ze op dit bericht klikt en naar de site Adobe wordt omgeleid, veroorzaakt dit de eerste websessie die te maken heeft met [!DNL LinkedIn] om te beëindigen, en een nieuwe zitting met betrekking tot [!DNL Facebook] begint.
 
 **Betaalde of organische zoekkanalen**
 
@@ -61,7 +62,7 @@ Als een bezoeker naar uw website komt door de URL van uw website in de adresbalk
 
 Als Haley&#39;s eerste websessie begint als resultaat van een bezoek van een verwijzingssite, een sociaal kanaal of een betaald/biologisch zoekkanaal en vervolgens de site bezoekt via web direct, wordt er geen nieuwe sessie gestart.
 
-_Niettemin_, als Haley&#39;s eerste websessie voortkwam uit Web Direct, en dan bezoekt ze de website via _een externe/verwijzingslocatie_, eindigt de eerste sessie en wordt een nieuwe sessie geopend met betrekking tot de externe site/verwijzingssite.
+_Echter_, als Haley&#39;s eerste websessie voortkwam uit Web Direct, en dan bezoekt ze de website via _een externe/verwijzingslocatie_, eindigt de eerste sessie en wordt een nieuwe sessie geopend met betrekking tot de externe site/verwijzingssite.
 
 ## Google Analytics sessies {#google-analytics-sessions}
 

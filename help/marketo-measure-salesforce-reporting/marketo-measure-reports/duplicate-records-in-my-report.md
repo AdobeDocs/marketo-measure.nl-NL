@@ -3,7 +3,8 @@ unique-page-id: 18874634
 description: Records dupliceren in Mijn rapport - [!DNL Marketo Measure] - Productdocumentatie
 title: Records dupliceren in Mijn rapport
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 >
 >Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie , maar nog steeds &quot;[!DNL Bizible]&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-Terwijl u in de [!DNL Marketo Measure] Rapporten in [!DNL Salesforce], kun je naar dubbele records in je rapporten gaan zoeken. U zult dit gevoel waarschijnlijk ervaren wanneer u een beoordeling uitvoert [!DNL Marketo Measure] out-of-the-box rapporten.
+Terwijl u in de [!DNL Marketo Measure] Rapporten in [!DNL Salesforce], kun je beginnen naar dubbele records in je rapporten te zoeken. U zult dit gevoel waarschijnlijk ervaren wanneer u een beoordeling uitvoert [!DNL Marketo Measure] out-of-the-box rapporten.
 
 Wanneer u rapporteert met het object Aanraakpunten koper of het object Aanraakpunt koperkenmerk, is het belangrijk om te begrijpen dat u niet langer rapporteert over het aantal leads, contactpersonen of mogelijkheden, maar dat u wel rapporteert over het aantal aanraakpunten voor kopers of aanraakpunten voor koperkenmerken die aan die standaardobjecten zijn gekoppeld (leads, contactpersonen, mogelijkheden).
 
@@ -34,4 +35,4 @@ Als u het &quot;aantal contacten&quot;wilt begrijpen kunt u de gebieden &quot;Te
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universiteit: Stock SFDC-rapporten](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[[!DNL Marketo Measure] University: Stock SFDC-rapporten](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)

@@ -3,7 +3,8 @@ unique-page-id: 18874596
 description: Online aangepaste kanaalinstelling - [!DNL Marketo Measure] - Productdocumentatie
 title: Online aangepaste kanaalinstelling
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 0%
@@ -16,7 +17,7 @@ Voor een juiste rapportage moeten de afzetkanalen zodanig zijn ingesteld dat ze 
 
 ## Voordat u begint {#before-you-begin}
 
-Voordat u begint met het maken van de kanaalregels voor [!DNL Marketo Measure], neemt u de tijd om na te denken over de organisatie van uw marketingcampagnes en hoe deze passen in de [!DNL Marketo Measure] kader. U moet bepalen welke kanalen, subkanalen, campagnes en websites u wilt bijhouden.
+Voordat u begint met het maken van de kanaalregels voor [!DNL Marketo Measure], neemt u de tijd om na te denken over de organisatie van uw marketingcampagnes en de manier waarop deze in de [!DNL Marketo Measure] kader. U moet bepalen welke kanalen, subkanalen, campagnes en websites u wilt bijhouden.
 
 Denk aan de volgende zaken:
 
@@ -24,7 +25,7 @@ Denk aan de volgende zaken:
 * Uw organisatie kan tot 200 subkanalen tot stand brengen.
 * Elke inzameling, of emmer, van gegevens heeft zijn eigen regel (rij in spreadsheet) nodig om te specificeren hoe de gegevens zullen worden georganiseerd. Wees zo specifiek mogelijk.
 * [!DNL Marketo Measure] de logica geeft aan gegevens in dalende orde voorrang die met de hoogste rij van spreadsheet begint en zijn weg neer maakt. Het leest elke emmer, of cel, in rij door rij op zoek naar eerste pasvorm. De gegevens worden vervolgens gesorteerd op basis van de waarden in deze emmers. Hieronder vindt u meer informatie.
-* Sorteer het blad niet in alfabetische volgorde, omdat dit de logische regels verstoort.
+* U moet het vel niet in alfabetische volgorde sorteren, omdat dit de logische regels verstoort.
 * Nadat het bestand is geüpload, kunt u de regels gedurende zeven dagen niet meer wijzigen. [!DNL Marketo Measure] gebruikt deze tijd om de aanraakpunten te verwerken en bij te werken.
 
 ## [!DNL Marketo Measure] Logica en prioriteiten {#marketo-measure-logic-and-priorities}
@@ -57,7 +58,7 @@ De rijen vertegenwoordigen regels en de orde waarin [!DNL Marketo Measure] geeft
 
 De structuur van de regels is ook belangrijk. De regels kunnen op herhaalde informatie en ontbrekende gegevens kijken maar deze structuur is opzettelijk. Voor nauwkeurige gegevenssortering, is het noodzakelijk om elke individuele bron aan het aangewezen kanaal afzonderlijk-zelfs bronnen in kaart te brengen die subkanalen en kanalen delen. Hoe gedetailleerder en gedetailleerder de regels zijn, des te meer inzicht de resultaten zullen krijgen. In feite, is het beste praktijken om een gedetailleerde regel voor elke enige marketing inspanning te schrijven u wilt volgen.
 
-Houd rekening met het volgende: u hebt andere advertenties die u om een of andere reden niet wilt bijhouden, of u ontvangt bezoeken aan uw website via een bekend kanaal, maar niet via een vertrouwde bron. Deze situatie kan leiden tot gegevensverlies als [!DNL Marketo Measure] kan niet de aangewezen regel vinden om de gegevens te gebruiken te sorteren. Om dit te voorkomen, [!DNL Marketo Measure] Hiermee wordt u aangeraden de regel over meerdere rijen te verbreken.
+Denk aan de volgende situatie: u hebt andere advertenties die u om een of andere reden niet wilt bijhouden, of u ontvangt bezoeken aan uw website via een bekend kanaal, maar niet via een bekende bron. Deze situatie kan leiden tot gegevensverlies als [!DNL Marketo Measure] kan niet de aangewezen regel vinden om de gegevens te gebruiken te sorteren. Om dit te voorkomen, [!DNL Marketo Measure] Hiermee wordt u aangeraden de regel over meerdere rijen te verbreken.
 
 Elke parameter of component van de regel wordt afzonderlijk toegewezen aan het kanaal. Bijvoorbeeld wanneer [!DNL Marketo Measure] heeft [!DNL Facebook] gegevens die moeten worden gesorteerd, zoekt het naar regels met betrekking tot [!DNL Facebook]. Het scant van boven naar beneden. In het onderstaande voorbeeld: [!DNL Marketo Measure] zou begrijpen dat [!DNL Facebook] subchannel, alles moet lezen is de bronparameter om gegevens in het emmertje van die regel te laten vallen.
 
@@ -81,7 +82,7 @@ Als u een subkanaal maakt voor een van uw kanalen, moet u bovendien een subkanaa
 
 ## De regels voor aangepaste kanalen instellen {#setting-up-your-custom-channels-rules}
 
-Zodra u hebt beslist hoe u uw gegevens wilt organiseren en voorrang geven, bent u bereid om uw regels aan spreadsheet toe te voegen. Hieronder volgen enkele aanbevolen procedures:
+Zodra u hebt beslist hoe u uw gegevens wilt organiseren en voorrang geven, bent u bereid om uw regels aan spreadsheet toe te voegen. Hieronder vindt u een aantal aanbevolen procedures:
 
 * Houd je regels zo eenvoudig mogelijk vanaf het begin. U kunt altijd voortbouwen op de regels terwijl u verdergaat.
 * Voeg geen speciale tekens toe aan de kanaalnamen (bijvoorbeeld $%#&amp;&#42;@)

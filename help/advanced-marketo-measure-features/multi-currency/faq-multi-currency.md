@@ -1,9 +1,10 @@
 ---
 unique-page-id: 27656745
-description: Veelgestelde vragen (meerdere valuta's) - [!DNL Marketo Measure] - Productdocumentatie
+description: Veelgestelde vragen (meerdere valuta) - [!DNL Marketo Measure] - Productdocumentatie
 title: Veelgestelde vragen (meerdere valuta's)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Multi-Currency
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 **Hoe weet ik welke functiebit moet worden ingeschakeld?**
 
-Onthoud dat deze functie twee verschillende functiebits heeft. Beide bevinden zich op het tabblad Algemeen van de sectie CRM in Instellingen: Meerdere valuta&#39;s en geavanceerde valuta&#39;s. Meerdere valuta&#39;s moeten zijn ingeschakeld als de klant meer dan één valuta gebruikt, terwijl de extra functie Geavanceerde valuta&#39;s kan inschakelen als de klant deze gebruikt [!DNL Salesforce]&#39;s &#39;Advanced Currency Management&#39; functie waar de gebruiker een op tijd gebaseerd bereik voor conversiekoersen kan instellen.
+Onthoud dat deze functie twee verschillende functiebits heeft. Beide bevinden zich op het tabblad Algemeen van het gedeelte CRM in Instellingen: Meerdere valuta&#39;s en Geavanceerde valuta&#39;s. Meerdere valuta&#39;s moeten zijn ingeschakeld als de klant meer dan één valuta gebruikt, terwijl de extra functie Geavanceerde valuta&#39;s kan inschakelen als de klant deze gebruikt [!DNL Salesforce]&#39;s &#39;Advanced Currency Management&#39; functie waar de gebruiker een op tijd gebaseerd bereik voor conversiekoersen kan instellen.
 
 Helaas weten we niet wanneer een klant schakelt tussen Eenvoudig of Geavanceerd als Geavanceerd al is ingeschakeld. Daarom moet de klant de instelling Geavanceerde valuta&#39;s handmatig op hun CRM-instelling uitlijnen. Dit zou aan de klant moeten duidelijk zijn als de omzettingen onjuist zijn, wat betekent wij niet wisten welk niveau van omzetting van toepassing was.
 

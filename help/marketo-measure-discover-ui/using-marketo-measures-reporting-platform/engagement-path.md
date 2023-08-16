@@ -3,7 +3,8 @@ unique-page-id: 35586105
 description: Pad voor betrokkenheid - [!DNL Marketo Measure] - Productdocumentatie
 title: Pad voor betrokkenheid
 exl-id: 104d803f-9f40-4ab6-872d-6432f8c087e9
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Met het Betrokkenheidspad kunt u vanaf het eerste aanraken tot het sluiten een v
 
 **Aanraakpunt voor koperkenmerk:** Aanraakpunt positie van koperkenmerk van opportunity
 
-**Aanraakpuntdatum:** Voor onlinebronnen: datum en tijd waarop de betrokkenheid plaatsvond. Voor offlinegebeurtenissen: datum en tijd ingesteld in de Salesforce-campagne. Voor het aanraakpunt voor activiteiten: aanraakpuntdatumveld dat wordt vermeld in de activiteitenconfiguratie
+**Aanraakpuntdatum:** Voor onlinebronnen: datum en tijd waarop de betrokkenheid plaatsvond. Voor offlinegebeurtenissen: datum en tijd ingesteld in de Salesforce-campagne. Voor activiteiten-aanraakpunt: wordt verwezen naar het aanraakpuntdatumveld in de activiteitenconfiguratie
 
 **E-mail:** De e-mail die aan de service is gekoppeld
 
@@ -64,19 +65,19 @@ Met het Betrokkenheidspad kunt u vanaf het eerste aanraken tot het sluiten een v
   </tr> 
   <tr> 
    <td><p>Accountnaam/ID</p></td> 
-   <td><p>Hiermee staat u meerdere waarden toe door filters toe te voegen via het plusteken (+) aan de rechterkant. Meerdere filterwaarden hebben een relatie "of", wat betekent dat de tegel resultaten voor beide filterwaarden weergeeft. Als een van de filterwaarden niet geldig is, levert het dashboard geen resultaten op voor de ongeldige waarde, maar filtert het toch naar de geldige filterwaarden. Niet hoofdlettergevoelig.</p></td> 
+   <td><p>Hiermee staat u meerdere waarden toe door filters toe te voegen via het plusteken (+) aan de rechterkant. Meerdere filterwaarden hebben een relatie "of", wat betekent dat er voor beide filterwaarden resultaten worden weergegeven. Als een van de filterwaarden niet geldig is, levert het dashboard geen resultaten op voor de ongeldige waarde, maar filtert het toch naar de geldige filterwaarden. Niet hoofdlettergevoelig.</p></td> 
   </tr> 
   <tr> 
    <td><p>Naam/id van opportunity</p></td> 
-   <td><p>Hiermee staat u meerdere waarden toe door filters toe te voegen via het plusteken (+) aan de rechterkant. Meerdere filterwaarden hebben een relatie "of", wat betekent dat de tegel resultaten voor beide filterwaarden weergeeft. Als een van de filterwaarden niet geldig is, levert het dashboard geen resultaten op voor de ongeldige waarde, maar filtert het toch naar de geldige filterwaarden. Niet hoofdlettergevoelig.</p></td> 
+   <td><p>Hiermee staat u meerdere waarden toe door filters toe te voegen via het plusteken (+) aan de rechterkant. Meerdere filterwaarden hebben een relatie "of", wat betekent dat er voor beide filterwaarden resultaten worden weergegeven. Als een van de filterwaarden niet geldig is, levert het dashboard geen resultaten op voor de ongeldige waarde, maar filtert het toch naar de geldige filterwaarden. Niet hoofdlettergevoelig.</p></td> 
   </tr> 
   <tr> 
    <td><p>ID lead/email</p></td> 
-   <td><p>Hiermee staat u meerdere waarden toe door filters toe te voegen via het plusteken (+) aan de rechterkant. Meerdere filterwaarden hebben een relatie "of", wat betekent dat de tegel resultaten voor beide filterwaarden weergeeft. Als een van de filterwaarden niet geldig is, levert het dashboard geen resultaten op voor de ongeldige waarde, maar filtert het toch naar de geldige filterwaarden. Niet hoofdlettergevoelig.</p></td> 
+   <td><p>Hiermee staat u meerdere waarden toe door filters toe te voegen via het plusteken (+) aan de rechterkant. Meerdere filterwaarden hebben een relatie "of", wat betekent dat er voor beide filterwaarden resultaten worden weergegeven. Als een van de filterwaarden niet geldig is, levert het dashboard geen resultaten op voor de ongeldige waarde, maar filtert het toch naar de geldige filterwaarden. Niet hoofdlettergevoelig.</p></td> 
   </tr> 
   <tr> 
    <td><p>Contactpersoon-id/e-mail</p></td> 
-   <td><p>Hiermee staat u meerdere waarden toe door filters toe te voegen via het plusteken (+) aan de rechterkant. Meerdere filterwaarden hebben een relatie "of", wat betekent dat de tegel resultaten voor beide filterwaarden weergeeft. Als een van de filterwaarden niet geldig is, levert het dashboard geen resultaten op voor de ongeldige waarde, maar filtert het toch naar de geldige filterwaarden. Niet hoofdlettergevoelig.</p><p>Accountnaam/id, lead-id/e-mail, contact-id/e-mailfilter zijn 'of'-relatie. Dit betekent dat als zowel het hoofdfilter als het contactfilter waarde hebben, alle records voor een van de id's worden weergegeven.</p></td> 
+   <td><p>Hiermee staat u meerdere waarden toe door filters toe te voegen via het plusteken (+) aan de rechterkant. Meerdere filterwaarden hebben een relatie "of", wat betekent dat er voor beide filterwaarden resultaten worden weergegeven. Als een van de filterwaarden niet geldig is, levert het dashboard geen resultaten op voor de ongeldige waarde, maar filtert het toch naar de geldige filterwaarden. Niet hoofdlettergevoelig.</p><p>Accountnaam/id, lead-id/e-mail, contact-id/e-mailfilter zijn 'of'-relatie. Dit betekent dat als zowel het hoofdfilter als het contactfilter waarde hebben, alle records voor een van de id's worden weergegeven.</p></td> 
   </tr> 
   <tr> 
    <td><p>Attributiemodel</p></td> 
@@ -104,7 +105,7 @@ Met het Betrokkenheidspad kunt u vanaf het eerste aanraken tot het sluiten een v
   </tr> 
   <tr> 
    <td><p>Type marketingaanraking</p></td> 
-   <td><p>De reis van de filter door het aanraaktype op de markt te brengen.</p></td> 
+   <td><p>De reis van de filter door het aanraaktype op te merken.</p></td> 
   </tr> 
   <tr> 
    <td><p>Kanaal</p></td> 

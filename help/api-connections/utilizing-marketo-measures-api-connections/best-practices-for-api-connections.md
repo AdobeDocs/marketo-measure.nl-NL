@@ -2,7 +2,8 @@
 description: Aanbevolen procedures voor API-verbindingen - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanbevolen procedures voor API-verbindingen
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: APIs, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
@@ -56,13 +57,13 @@ Er bestaat geen risico dat advertentiegeschiedenis verloren gaat wanneer u uw [!
 
 Door onze aanbevelingen voor beste praktijken na te leven, [!DNL Marketo Measure] Bing API kan:
 * Alle Bing Ads automatisch labelen met de volgende parameters van `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`
-* Downloaden en kostengegevens over alle actieve Bing-advertenties
+* Downloaden en kostengegevens over alle actieve blogadvertenties
 
-**linkedIn**: Verbinding maken met automatische labeling
+**LinkedIn**: Verbinding maken met automatische labeling
 
 Als u automatische labeling inschakelt, wordt een Delen opnieuw gemaakt en in een nieuw Creative-programma geplaatst. De oude Creative-code wordt dan gearchiveerd.
 
-Door onze aanbevelingen voor beste praktijken na te leven, [!DNL Marketo Measure] linkedIn API kan:
+Door onze aanbevelingen voor beste praktijken na te leven, [!DNL Marketo Measure] LinkedIn API kan:
 
 * Automatisch alle LinkedIn-advertenties van het type Gesponsorde inhoud voorzien van de vereiste tags [!DNL Marketo Measure] parameter _bl={creativeId}. Deze parameter haalt de creatieve id uit die [!DNL Marketo Measure] om de campagne en de creatieve informatie op te lossen.
 * Download- en kostengegevens over alle actieve en ondersteunde [!DNL LinkedIn] advertenties
@@ -71,11 +72,11 @@ Door onze aanbevelingen voor beste praktijken na te leven, [!DNL Marketo Measure
 >
 >Er is geen volgsjabloon voor [!DNL LinkedIn], baseert de API zich op de auto-geëtiketteerde (_bl) parameter om alle mogelijke ad details te verzamelen.
 
-## Best Practice for Maintenance {#best-practice-for-maintenance}
+## Aanbevolen werkwijzen voor onderhoud {#best-practice-for-maintenance}
 
 Terwijl het volgen van onze beste praktijken u zal beschermen tegen het verliezen van gegevens als losgemaakt, adviseren wij nog dat u regelmatig, maandelijks indien mogelijk uw verbinding herziet. Dit is een eenvoudige visuele controle van de [!UICONTROL Connections] in uw [!DNL Marketo Measure] om er zeker van te zijn dat er geen rode-sleutelpictogrammen aanwezig zijn, wordt een losgekoppelde account gesignaleerd.
 
-Wanneer de verbinding met een API-verbonden account wordt verbroken, [!DNL Marketo Measure] kan geen gegevens ophalen in of tags toewijzen aan nieuwe advertenties. Daarom adviseren wij altijd uitvoerend een het volgen malplaatje indien mogelijk. De sjabloon zorgt ervoor dat zelfs als de advertentie-account wordt losgekoppeld, [!DNL Marketo Measure] kan de advertenties nog steeds labelen en de details in de vorm van korrelige advertenties opvragen. Zodra opnieuw aangesloten, zullen de uitgavengegevens terugvullen en de verstoring aan uw Betaalde Kanaalrapportering is minimaal.
+Wanneer een API-verbonden account wordt losgekoppeld, [!DNL Marketo Measure] kan geen gegevens ophalen in of tags toewijzen aan nieuwe advertenties. Daarom adviseren wij altijd het uitvoeren van een het volgen malplaatje als mogelijk. De sjabloon zorgt ervoor dat zelfs als de advertentie-account wordt losgekoppeld, [!DNL Marketo Measure] kan de advertenties nog steeds labelen en de details van de granulaire advertentie eruit halen. Zodra opnieuw aangesloten, zullen de uitgavengegevens terugvullen en de verstoring aan uw Betaalde Kanaalrapportering is minimaal.
 
 Redenen voor het verbreken en opnieuw autoriseren zijn onder meer..
 
@@ -94,4 +95,3 @@ Controleer uw API-verbindingen in het dialoogvenster [!DNL Marketo Measure] om e
 >* [[!DNL LinkedIn] Overzicht van integratie](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
 >* [Overzicht van AdWords-integratie](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
 >* [Aangesloten API-accounts opnieuw autoriseren](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
-

@@ -2,7 +2,8 @@
 description: Beste praktijken voor Activiteiten Attributie - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanbevolen procedures voor kenmerk Activiteiten
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Voor veel [!DNL Salesforce] instanties, kan het voorwerp van de Activiteit een v
 Of u de regels van de Activiteit voor het eerst bepaalt of enkel het herzien van de regels van de Activiteit die eerder opstelling zijn geweest, houd de volgende beste praktijken in mening.
 
 * Eenvoudig starten
-   * Identificeer een paar zeer belangrijke types van Activiteiten u in uw wilt opnemen [!DNL Marketo Measure] gegevens, dan voeg meer types toe aangezien u met hoe deze touchpoints wordt vertrouwd comfortabel wordt
+   * Identificeer een paar zeer belangrijke types van Activiteiten u in uw wilt opnemen [!DNL Marketo Measure] gegevens, dan voeg meer types toe aangezien u met hoe deze touchpoints wordt vertrouwd vertrouwd
    * Zoals vermeld, is het primaire gebruiksgeval van deze eigenschap touchpoints te creëren die de doeltreffendheid van uw team van de Ontwikkeling van de Verkoop, specifiek de Uitgaande Vraag van de Telefoon en Uitgaande E-mail volgen
 
 >[!NOTE]
@@ -33,13 +34,13 @@ Of u de regels van de Activiteit voor het eerst bepaalt of enkel het herzien van
 
 * Gebruik geen formulervelden om uw regels te definiëren
 * Specifieke en nauwkeurige regels maken
-   * U wilt dat de drempel voor het maken van een Activity-aanraakpunt gelijk is aan (of vergelijkbaar is) het lidmaatschap van een formulier of campagne, d.w.z. (Antwoordt aan een Uitgaande E-mail of Voltooide Gesprek van de Telefoon)
+   * U wilt dat de drempel voor het maken van een Activity-aanraakpunt gelijk is aan (of vergelijkbaar is) het lidmaatschap van een formuliervulling of campagne, dat wil zeggen (reageert op een uitgaande e-mail of voltooide telefoongesprekken)
 * Nieuwe regels altijd valideren in [!DNL Salesforce] vóór opslaan en verwerken
    * Als u uw activiteitsregel(s) dupliceert in een rapporttype &quot;Taken en gebeurtenissen&quot;, krijgt u een duidelijk inzicht in het aantal aanraakpunten dat op basis van die regel wordt gemaakt.
 * Werken met je verkoopteam
    * Het brengen in het team dat het dichtst met uw verslagen van de Activiteit of het hulpmiddel van de verkoopenablement werkt zal ervoor zorgen u de correcte gebieden gebruikt om uw regels te bepalen
 
-## Best Practice for Maintenance {#best-practice-for-maintenance}
+## Aanbevolen werkwijzen voor onderhoud {#best-practice-for-maintenance}
 
 Als u ten minste tweemaal per jaar uw regels voor activiteitskenmerken controleert, weet u zeker dat uw Activity-aanraakpunten correct en up-to-date zijn. U wilt ervoor zorgen dat deze regels geen ongewenste aanraakpunten maken die de gegevens van de koperkenmerk verwateren. Een overzicht van hoe uw regels worden bepaald zal u en uw team vertrouwen in uw Attributen van Activiteiten en zijn rol in uw voelen [!DNL Marketo Measure] gegevens.
 
@@ -53,5 +54,4 @@ Andere redenen die kunnen leiden tot een herziening van de activiteitenregels zi
 >
 >* [Activiteitenkenmerk](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
 >* [Veelgestelde vragen over kenmerken van verkoopactiviteiten](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
-
 

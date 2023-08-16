@@ -2,9 +2,10 @@
 description: '''[!DNL Marketo Measure] Ultieme overzicht - [!DNL Marketo Measure] - Productdocumentatie"'
 title: '[!DNL Marketo Measure] Ultimate Overview'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 4a5e720a91e8b229ad2f2889dbf87f5c43767411
+feature: Integration, Tracking, Attribution
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ Van markeerders wordt verwacht dat zij hun B2B-gegevens (bijv. account, opportun
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
-**Standaardinstelling voor valuta**
+**Standaardinstelling valuta**
 
 [!DNL Marketo Measure Ultimate] wordt de standaardvaluta ingesteld op USD totdat de gebruiker deze wijzigt. Als u een nieuwe standaardvaluta instelt, worden de gegevens bijgewerkt zonder dat ze opnieuw worden verwerkt. Zolang de geselecteerde valuta als doel-ISO-code aanwezig is, is het niet nodig conversiekoersen in te dienen.
 
@@ -89,7 +90,7 @@ Vier ingebouwde stappen moeten met regels worden in kaart gebracht (toewijzingsr
 
 De voorwaarden van de regel zijn datasetspecifiek. Er moeten regels voor werkgebiedtoewijzing worden gemaakt voor alle gegevenssets en alle stadia, behalve Lead Lost en Lead Converted.
 
-Geen selectie voor trechter versus boemerang versus aangepast model. Alle stadia worden geselecteerd voor trechter, boemerang, en douanemodel. Er is een limiet voor het aantal fases dat we ondersteunen: 15 aangepaste plus 6 ingebouwde stappen.
+Geen selectie voor trechter versus boemerang versus aangepast model. Alle stadia worden geselecteerd voor trechter, boemerang, en douanemodel. Er is een limiet voor het aantal fasen dat we ondersteunen: 15 aangepaste plus 6 ingebouwde stappen.
 
 ![](assets/marketo-measure-ultimate-overview-6.png)
 

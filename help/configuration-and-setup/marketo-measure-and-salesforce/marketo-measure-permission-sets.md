@@ -3,7 +3,8 @@ unique-page-id: 18874789
 description: "[!DNL Marketo Measure] Machtigingssets - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Machtigingssets"
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Om tot de Reeksen van de Toestemming in Salesforce toegang te hebben en toe te w
 
 1. Klik op **[!UICONTROL Setup]**.
 1. Klik in de linkermarge op **[!UICONTROL Users]** vervolgens **[!UICONTROL Permission Sets]**.
-1. Selecteer [!DNL Marketo Measure] Machtigingsset die u wilt toewijzen.
+1. Selecteer de [!DNL Marketo Measure] Machtigingsset die u wilt toewijzen.
 1. Klikken **[!UICONTROL Manage Assignments]** vervolgens **[!UICONTROL Add Assignments]**.
 1. Selecteer de gebruikers voor de rechtenset en klik op **[!UICONTROL Assign]**.
 
@@ -34,7 +35,7 @@ Om tot de Reeksen van de Toestemming in Salesforce toegang te hebben en toe te w
  <tbody> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Beheerder</strong></span></td> 
-   <td><span>Biedt een SFDC-beheerder de mogelijkheid om records te maken, lezen, schrijven, verwijderen uit [!DNL Marketo Measure] objecten. De vergunning op grond waarvan [!DNL Marketo Measure] deze machtigingsset moet zijn ingeschakeld wanneer gegevens naar SFDC worden gestuurd. Bovendien wordt aangeraden dat deze licentie geconverteerde leads kan bewerken in de scenario's waarin de lead wordt geconverteerd voordat [!DNL Marketo Measure] gegevens toepassen op de record. Dit zorgt voor een correcte rapportage tussen Salesforce en [!DNL Marketo Measure]. <a href="http://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_sales_leads_view_converted.htm">Meer hier lezen</a>.</span></td> 
+   <td><span>Biedt een SFDC-beheerder de mogelijkheid om records te maken, lezen, schrijven, verwijderen uit [!DNL Marketo Measure] objecten. De vergunning waarbij [!DNL Marketo Measure] deze machtigingsset moet zijn ingeschakeld wanneer gegevens naar SFDC worden gestuurd. Bovendien wordt aangeraden dat deze licentie geconverteerde leads kan bewerken in de scenario's waarin de lead wordt geconverteerd voordat [!DNL Marketo Measure] gegevens toepassen op de record. Dit zorgt voor een correcte rapportage tussen Salesforce en [!DNL Marketo Measure]. <a href="http://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_sales_leads_view_converted.htm">Meer hier lezen</a>.</span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Gebruiker van marketing</strong></span></td> 

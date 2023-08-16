@@ -3,7 +3,8 @@ unique-page-id: 18874584
 description: "[!DNL Marketo Measure] Object- en veldtaxonomie - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Object en veldtaxonomie"
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Hieronder ziet u een stroomdiagram dat aangeeft hoe [!DNL Marketo Measure] Aange
 
 Voor de afbeelding op volledige grootte: [klik hier](assets/bizible-object-and-field-taxonomy-graph-full.png).
 
-Definities van de [!DNL Marketo Measure] velden die in elk object actief zijn [hier te vinden](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
+Definities van de [!DNL Marketo Measure] velden die in elk object leven [hier te vinden](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
 
 ## Veelgestelde vragen {#faq}
 

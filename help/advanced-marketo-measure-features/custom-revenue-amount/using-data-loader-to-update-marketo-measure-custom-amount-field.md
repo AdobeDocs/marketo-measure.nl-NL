@@ -3,7 +3,8 @@ unique-page-id: 18874771
 description: Bijwerken met gegevenslader [!DNL Marketo Measure] Veld voor aangepaste hoeveelheid - [!DNL Marketo Measure] - Productdocumentatie
 title: Veld voor aangepaste hoeveelheid in Marketo Measure bijwerken met gegevenslader
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Revenue Amount
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
    * Veld Aangepast opportuniteitsbedrag (uw voorkeursveld voor inkomsten)
    * [!DNL Marketo Measure] Opportunity Amount, veld
 
-1. Kopieer en plak de waarden van het veld van uw voorkeursinkomsten naar het [!UICONTROL [!DNL Marketo Measure] Opportunity Amount] veld. Werk deze Opps vervolgens bij met behulp van het .csv-bestand.
+1. Kopieer en plak de waarden van het veld van uw voorkeursinkomsten naar het [!UICONTROL [!DNL Marketo Measure] Opportunity Amount] veld. Werk deze Opps vervolgens bij met behulp van het CSV-bestand.
 
 **_U kunt ook naar Salesforce gaan en een aangepaste lijstweergave gebruiken om alle mogelijkheden op grote schaal te bewerken..._**
 

@@ -3,7 +3,8 @@ unique-page-id: 18874769
 description: "[!DNL Marketo Measure] Configuratie met inzichten - [!DNL Marketo Measure] - Productdocumentatie"
 title: "[!DNL Marketo Measure] Configuratie met inzichten"
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -16,9 +17,9 @@ De [!DNL Marketo Measure] De Insights Canvas-app moet worden toegevoegd aan de L
 
 1. Navigeren naar [!DNL Salesforce] Instellen en klikken **[!UICONTROL Connected Apps]** onder de [!UICONTROL Manage Apps] tab.
 
-1. Selecteer [!DNL Marketo Measure Insights] in de lijst die wordt gevuld.
+1. Selecteer de [!DNL Marketo Measure Insights] in de lijst die wordt gevuld.
 
-1. Onder de [!UICONTROL OAuth] In de sectie Beleid wijzigt u de instelling Gebruikers met bevoegdheden in &quot;Gebruikers met beheerdersrechten zijn vooraf geautoriseerd.&quot; Er wordt een pop-up weergegeven. Klik op **[!UICONTROL OK]** en vervolgens **[!UICONTROL Save]**.
+1. Onder de [!UICONTROL OAuth] In de sectie Beleid wijzigt u de instelling Gebruikers met bevoegdheden in &quot;Gebruikers met beheerdersrechten zijn vooraf geautoriseerd.&quot; Er verschijnt een pop-up met de **[!UICONTROL OK]** en vervolgens **[!UICONTROL Save]**.
 
    ![](assets/1-1.png)
 

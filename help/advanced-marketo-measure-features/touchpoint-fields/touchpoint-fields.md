@@ -3,7 +3,8 @@ unique-page-id: 37355835
 description: Aanraakpuntvelden - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanraakpuntvelden
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Aanraakpuntvelden {#touchpoint-fields}
 
-Historisch, wanneer klanten aan boord met [!DNL Marketo Measure] en in het geval dat wij geen directe codering hebben, leidt ons team van Klantsucces onze klanten op de hoogte van hoe zij hun landingspagina&#39;s op de juiste manier kunnen labelen zodat zij de juiste UTM-indeling gebruiken en wij hun advertenties kunnen oplossen. Sommige van deze klanten gebruiken geen UTMs maar eerder gebruiken hun eigen het etiketteren parameters, wat het zeer tijdrovend kan betekenen om al hun landingspagina&#39;s over al hun advertentienetwerken met een nieuwe etiketteringsstructuur uit te geven die [!DNL Marketo Measure] handhaven. Om zich aan hun het etiketteren structuur aan te passen, aanvaarden wij nu douaneparameters die met onze regeldefinities kunnen worden in kaart gebracht. Het doel is om aan het gebruik van klanten van hun douane het volgen parameters aan te passen zodat moeten wij hen niet vereisen om hun structuur URL te veranderen.
+Historisch, wanneer klanten aan boord met [!DNL Marketo Measure] en in het geval dat we geen directe codering hebben, leidt ons team van Klantsucces onze klanten op de hoogte van de manier waarop ze hun landingspagina&#39;s op de juiste manier kunnen labelen, zodat ze de juiste UTM-indeling gebruiken en we hun advertenties kunnen oplossen. Sommige van deze klanten gebruiken geen UTMs maar eerder gebruiken hun eigen het etiketteren parameters, wat het zeer tijdrovend kan betekenen om al hun landingspagina&#39;s over al hun advertentienetwerken met een nieuwe etiketteringsstructuur uit te geven die [!DNL Marketo Measure] handhaven. Om zich aan hun het etiketteren structuur aan te passen, aanvaarden wij nu douaneparameters die met onze regeldefinities kunnen worden in kaart gebracht. Het doel is om aan het gebruik van klanten van hun douane het volgen parameters aan te passen zodat moeten wij hen niet vereisen om hun structuur URL te veranderen.
 
 >[!AVAILABILITY]
 >
@@ -30,19 +31,19 @@ Van de [!DNL Marketo Measure] Ga in het menu Instellingen naar de pagina Touchpo
 
 ## Procedure {#how-to}
 
-Houd er rekening mee dat een gebruiker drie verschillende handelingen kan uitvoeren om een berekend veld te maken: extraheert, koppelt aan en voegt samen. Deze worden ook wel de operatoren voor het definiëren van een berekend veld genoemd.
+Houd er rekening mee dat een gebruiker drie verschillende handelingen kan uitvoeren om een berekend veld te maken: extraheren, toewijzen en aaneenschakelen. Deze worden ook wel de operatoren voor het definiëren van een berekend veld genoemd.
 
 Extracten
 
-De extractoperator haalt de waarde uit een veld van een andere locatie, zoals: een Campagne-veld, Lead-veld of in een geavanceerder gebruiksgeval, [aangepaste parameters ophalen van de bestemmingspagina](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+De extractoperator haalt de waarde uit een veld van een andere locatie, zoals: een Campagneveld, Lead-veld of in een geavanceerder gebruiksgeval, [aangepaste parameters ophalen van de bestemmingspagina](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Voorbeeld 1**
 
 Er is een douanegebied op het Contact, campagne_source__c, dat de klant op het Aanraakpunt voor rapporteringsdoeleinden wenst te laten vallen. U kunt een regel definiëren om een Berekend veld met de naam &quot;Campagnebron&quot; te maken en de waarde in dat veld neer te zetten.
 
-Doel: Gebruik de waarde van een aangepast veld en plaats dit op het Touchpoint-object voor een eenvoudigere rapportage.
+Doel: gebruik de waarde van een aangepast veld en plaats dit in het Touchpoint-object om de melding eenvoudiger te maken.
 
-* Een berekend veld maken en dit veld het label &quot;Campagnebron&quot; geven
+* Een berekend veld maken en dit veld het label Campagnebron geven
 * Bepaal de regel door uit te beginnen met het zoeken naar het gebied Contact.Campaign_Source__c
 * Gebruik de operator &quot;extracts&quot; omdat we de waarde uit de parameter moeten halen
 * Als u de volledige tekenreeks uit het veld wilt extraheren, gebruiken we de expressie &quot;(.&#42;)&quot;
@@ -68,7 +69,7 @@ Een veel voorkomend geval waarin deze functie wordt ingeschakeld, is het uittrek
    * **(** markeert het begin van de extractie
    * **)** markeert het einde van de extractie
    * **\w** vertelt ons dat we een &quot;woord&quot; halen dat 0-9 omvat
-   * **+** wordt de volledige waarde van de parameter zonder limiet voor tekens geëxtraheerd
+   * **+** haalt de volledige waarde van de parameter zonder limiet op tekens uit
    * Let op: je gebruikt een slash in plaats van een slash
 
 ![](assets/three.png)
@@ -105,13 +106,13 @@ Aangezien uw landingspagina&#39;s ingewikkelder worden en u veelvoudige het volg
 
    * **(** markeert het begin van de extractie
    * **)** markeert het einde van de extractie
-   * **\w** vertelt ons dat we een &quot;woord&quot; extraheren
+   * **\w** vertelt ons dat we een &quot;woord&quot; halen
    * **{2}** is het aantal tekens dat we extraheren
 
 * Een berekend veld maken en dit veld het label &quot;Aangepaste campagne-id&quot; geven
 * Definieer de regel door te beginnen met zoeken naar het veld Touchpoint.Session.LandingPage
 * Gebruik de operator &quot;extracts&quot; omdat we de waarde uit de parameter moeten halen
-* Als u de waarde &quot;123456&quot; wilt extraheren, definiëren we de waarde als &quot;campagne_ID=(\d{6})&quot;
+* Als u de waarde 123456 wilt extraheren, definiëren we de waarde als &quot;campagne_ID=(\d{6})&quot;
 
    * **(** markeert het begin van de extractie
    * **)** markeert het einde van de extractie
@@ -144,19 +145,19 @@ Nu we hebben geleerd hoe we die acties kunnen extraheren en toewijzen aan velden
    * **(** markeert het begin van de extractie
 
       * Let op: aangezien we alleen de 4 cijfers extraheren, hebben alleen de eerste cijfers het haakje openen
+
    * **)** markeert het einde van de extractie
 
-      * Let op: aangezien we alleen de 4 extraheren, hebben alleen de eerste cijfers het gesloten haakje
+      * Let op: aangezien we alleen de 4 extraheren, hebben alleen de eerste cijfers het haakje gesloten
+
    * **\d** vertelt ons dat wij een &quot;cijfer&quot;halen
    * **{2}** is het aantal tekens dat we extraheren
 
-
-
 * Klik op [!UICONTROL Save]. U moet het nieuwe veld opslaan voordat het beschikbaar is voor de volgende regel.
-* Daarna, zullen wij alle mogelijke waarden voor de eerste cijfers aan zijn vriendschappelijke namen in kaart willen brengen
+* Vervolgens willen we alle mogelijke waarden voor de eerste cijfers toewijzen aan de vriendelijke namen
 * Een berekend veld maken en dit veld het label Regio_Naam geven
 * Bepaal de regel door uit te beginnen met het zoeken naar uw geëxtraheerde veld. In dit geval, Touchpoint.Region
-* De operator &quot;[!UICONTROL maps to]&quot; omdat wij een afbeelding voor elk aantal aan zijn waarde willen tot stand brengen
+* De operator &quot;[!UICONTROL maps to]&quot; omdat wij een afbeelding voor elk aantal aan zijn waarde willen creëren
 * U zult met een lijst worden voorgesteld om van elke afbeelding een lijst te maken. Uiteindelijk zal het er ongeveer als volgt uitzien:
 * Op basis van de toewijzing en de bovenstaande URL zou &quot;Region_Value&quot; voor een aanraakpunt met deze landingspagina &quot;EMEA&quot; zijn
 * Herhaal de extractie en de toewijzing voor de resterende vier cijfersets
@@ -216,7 +217,7 @@ Net als in Voorbeeld nr. 4 van het Uittreksel, zult u veelvoudige gebieden moete
 
 **Waarom zie ik mijn nieuwe velden niet in de [!DNL Marketo Measure] schema?**
 
-Er is extra werk nodig om de nieuwe velden in de [!DNL Marketo Measure] Schema Data Warehouse. Op dit ogenblik, worden de gebieden blootgesteld door montages en configuratie zodat kunt u de Gebieden van het Aanraakpunt in de bouw van Segmenten gebruiken of het creëren van de regels van de Schrapping van het Aanraakpunt.
+Er is extra werk nodig om de nieuwe velden in de [!DNL Marketo Measure] Schema Data Warehouse. Op dit ogenblik, worden de gebieden blootgesteld door montages en configuratie zodat kunt u de Gebieden van het Aanraakpunt in de bouw van Segmenten gebruiken of het creëren van de regels van de Schrapping van het Punt.
 
 **Hoe kan ik valideren dat mijn extractie-expressie geldig is en de juiste waarde ophalen?**
 

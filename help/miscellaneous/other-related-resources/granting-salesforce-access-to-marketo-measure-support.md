@@ -3,7 +3,8 @@ unique-page-id: 18874791
 description: Verlening [!DNL Salesforce] Toegang tot [!DNL Marketo Measure] Ondersteuning - [!DNL Marketo Measure] - Productdocumentatie
 title: Verlening [!DNL Salesforce] Toegang tot Marketo Measure-ondersteuning
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 1%
@@ -20,11 +21,11 @@ Het verlenen van login toegang verschilt lichtjes afhankelijk van of u gebruikt 
 
 Afhankelijk van uw organisatie [!UICONTROL Setup] wordt naast uw naam in de rechterbovenhoek van de pagina weergegeven of wordt weergegeven als een vervolgkeuzelijst wanneer u op uw naam klikt.
 
-1. Om toegang te krijgen tot **Toegang tot aanmelding verlenen** pagina in [!DNL Salesforce Classic] Gebruikersinterface:
+1. Als u toegang wilt krijgen tot **Toegang tot aanmelding verlenen** pagina in [!DNL Salesforce Classic] Gebruikersinterface:
 
    * Klikken op **[!UICONTROL Setup]** > **[!UICONTROL My Personal Information]** > **[!UICONTROL Grant Login Access]**.
 
-      OF
+     OF
 
    * Klikken op `<your name>` > **[!UICONTROL My Settings]** > **[!UICONTROL Personal]** > **[!UICONTROL Grant Account Login Access]**.
 

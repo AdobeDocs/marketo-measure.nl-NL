@@ -3,7 +3,8 @@ unique-page-id: 18874688
 description: Kosten van CRM-campagne - [!DNL Marketo Measure] - Productdocumentatie
 title: Kosten CRM-campagne
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Spend Management
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Deze functie is beschikbaar voor alle [!DNL Salesforce] en Dynamics-klanten.
 
 **[!DNL Salesforce]**: ActualCost, StartDate, EndDate
 
-**[!DNL Microsoft Dynamics]**: totale actualkostprijs, actualstart, actualend
+**[!DNL Microsoft Dynamics]**: totale actualcost, actualstart, actualend
 
 Als in een van de drie velden een waarde ontbreekt, [!DNL Marketo Measure] zal de kosten niet invoeren. U kunt dit verbeteren door het verslag van de Campagne in CRM bij te werken. Ook belangrijk om op te merken dat wij de kosten niet zullen invoeren als het uitdrukkelijk aan $0 wordt geplaatst omdat [!DNL Salesforce] behandelt leeg en $0 als het zelfde.
 
@@ -36,13 +37,13 @@ In dit voorbeeld hebben we een campagne die 109 dagen duurt, dus met een totale 
 
 Op basis van het aantal dagen per maand krijgen we deze maandelijkse totalen, zoals u in de tabel kunt zien:
 
-jul. 2018: ($ 18.000/109) x 31 = $ 5.119,27
+Juli 2018: ($18.000/109) x 31 = $5.119.27
 
-aug. 2018: ($ 18.000/109) x 31 = $ 5.119,27
+aug 2018: ($18,000/109) x 31 = $5,119,27
 
-sep. 2018: ($ 18.000/109) x 30 = $ 4.954,13
+Sept 2018: ($18,000/109) x 30 = $4,954.13
 
-okt. 2018: ($ 18.000/109) x 17 = $ 2.807,34
+okt 2018: ($ 18.000/109) x 17 = $ 2.807,34
 
 ## Historische gerapporteerde uitgave {#historical-reported-spend}
 
@@ -90,7 +91,7 @@ Omdat wij op CRM als enige bron van waarheid vertrouwen, moeten alle verandering
 
 **In welk scenario zou een Campagne in de Lijst van de Uitgaven van de Marketing verschijnen, dan niet meer verschijnen?**
 
-Wij zullen blijven eisen dat alle drie de sleutelgebieden een waarde hebben: Begindatum, Einddatum en Kosten. Ons standaardgedrag is dat we alleen campagnes importeren met een waarde groter dan $0. In het ideale geval zouden we campagnes importeren waar expliciet $0 is en geen campagnes die leeg blijven importeren, maar de Salesforce-API importeert beide als $0, ongeacht de waarde. Als de waarde van het aanraakpunt voor kopers inschakelen verandert van Alles opnemen of Inclusief &#39;Alle geantwoord&#39; in Alles uitsluiten, worden bovendien de campagne en de kosten verwijderd uit de tabel met marketinguitgaven.
+We blijven vereisen dat alle drie de sleutelvelden een waarde hebben: Begindatum, Einddatum en Kosten. Ons standaardgedrag is dat we alleen campagnes importeren met een waarde groter dan $0. In het ideale geval zouden we campagnes importeren waar expliciet $0 is en geen campagnes die leeg blijven importeren, maar de Salesforce-API importeert beide als $0, ongeacht de waarde. Als de waarde van het aanraakpunt voor kopers inschakelen verandert van Alles opnemen of Inclusief &#39;Alle geantwoord&#39; in Alles uitsluiten, worden bovendien de campagne en de kosten verwijderd uit de tabel met marketinguitgaven.
 
 **Welke kosten zouden prioriteit nemen als een rij reeds van CRM werd gedownload en ik een andere rij in CSV met zelfde campagneId inging?**
 

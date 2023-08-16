@@ -1,7 +1,9 @@
 ---
 description: Opmerkingen bij de huidige release - [!DNL Marketo Measure] - Productdocumentatie
 title: Opmerkingen bij de huidige release
-source-git-commit: 8e8ddd80d69102455fa678a32f31a9fe8319822c
+exl-id: 64b8fce8-af7d-4991-b01e-3fcf375d14e7
+feature: Release Notes
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 Hieronder vindt u alle nieuwe en bijgewerkte functies voor onze 2023-releases.
 
-## Versie Q2 {#q2-release}
+## V2-release {#q2-release}
 
 <p>
 
