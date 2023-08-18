@@ -1,10 +1,8 @@
 ---
 description: ROI-dashboard - [!DNL Marketo Measure] - Product
 title: ROI Dashboard
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -26,8 +24,8 @@ De antwoorden van de raad vragen:
  <tr> 
    <th>Component</th> 
    <th>Beschrijving</th>
+   <th>Datumtype</th>
    <th>Velden doorlopen</th>
-   <th>Gegevenstype</th>
    <th>Filters</th>
   </tr>
   <tr>

@@ -1,10 +1,8 @@
 ---
 description: Toegewezen belastingdashboard - [!DNL Marketo Measure] - Product
 title: Toegewezen belastingdashboard
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -26,7 +24,7 @@ Wat is het totale bedrag van onze toegerekende inkomsten en het aantal van onze 
    <th>Component</th> 
    <th>Beschrijving</th>
    <th>Velden doorlopen</th>
-   <th>Gegevenstype</th>
+   <th>Datumtype</th>
    <th>Filters</th>
   </tr>
   <tr>

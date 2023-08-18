@@ -1,10 +1,8 @@
 ---
 description: Dashboard overzicht van inkomsten - [!DNL Marketo Measure] - Product
 title: Dashboard overzicht van inkomsten
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -26,7 +24,7 @@ De antwoorden van de raad vragen:
    <th>Component</th> 
    <th>Beschrijving</th>
    <th>Velden doorlopen</th>
-   <th>Gegevenstype</th>
+   <th>Datumtype</th>
    <th>Filters</th>
   </tr>
   <tr>
