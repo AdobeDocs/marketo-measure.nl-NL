@@ -4,9 +4,9 @@ title: Toegewezen belastingdashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
+source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,8 @@ Wat is het totale bedrag van onze toegerekende inkomsten en het aantal van onze 
    <th>Filters</th>
   </tr>
   <tr>
-    <td>Totaal inkomstenblok</td>
-    <td>Totale inkomsten uit de BCR, met inbegrip van toegerekende opbrengsten.</td>
+    <td>Toegewezen inkomstentegel</td>
+    <td>Totale toerekenbare inkomsten uit "Closed Won"-mogelijkheden met geregistreerde aanraakpunten.</td>
     <td rowspan="6"><li>Opportunity-id</li>
 <li>Naam opportunity</li>
 <li>Aanmaakdatum van opportunity</li>
@@ -39,32 +39,32 @@ Wat is het totale bedrag van onze toegerekende inkomsten en het aantal van onze 
 <li>Is gesloten (J/N)</li>
 <li>Is gewonnen (Y/N)</li>
 <li>Huidig werkgebied</li>
-<li>Ontvangsten</li></td>
+<li>Attributiemodel</li>
+<li>Toegewezen inkomsten</li>
+<li>Geregistreerde inkomsten</li></td>
     <td rowspan="6">Gesloten datum</td>
-    <td rowspan="6">Datum</td>
-  </tr>
-  <tr>
-    <td>Totaal aantal overeenkomsten</td>
-    <td>Totaal aantal transacties gemarkeerd als "Gesloten loon" in de CRM.</td>
-  </tr>
-  <tr>
-    <td>Toegewezen inkomstentegel</td>
-    <td>Totale toerekenbare inkomsten uit "Closed Won"-mogelijkheden met geregistreerde aanraakpunten.</td>
+    <td rowspan="6"><li>Datum</li>
+<li>Attributiemodel</li>
+<li>Kanaal</li>
+<li>Subkanaal</li>
+<li>Campagne</li>
+<li>Segmenten</li></td>
   </tr>
   <tr>
     <td>Attributable Deals Tile</td>
     <td>Het totale aantal "Gesloten overeenkomsten"van toe te schrijven kansen.</td>
   </tr>
   <tr>
-    <td>Opbrengsten en toegerekende inkomsten</td>
-    <td>Deze staafgrafiek van de tijdreeks naast elkaar biedt een uitgebreid overzicht van uw toewijzingsdekking door de totalen van de totale inkomsten uit de toegerekende opbrengsten samen te voegen.
-    <br/>PICC</td>
+    <td>Toegewezen opbrengsten per kanaal over tijd</td>
+    <td>Gestapelde staafgrafiek met de totale toegerekende opbrengsten, gesegmenteerd door bijbehorend kanaal, voor elk kwartaal/maand.
+    <br/><img src="assets/attributed-revenue-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
-    <td>Attribuutdekking</td>
-    <td>Dit cirkeldiagram verschaft een duidelijke visuele vergelijking tussen Attributed Revenue en Non-Attributed Revenue. De taart dekt de totale inkomsten.
-    <br/>
-    PICC</td>
+    <td>Toegewezen inkomstentabel</td>
+    <td>De totale toegewezen opbrengst die door Kanaal, Subchannel, en Campagne wordt gesegmenteerd, in zowel de formaten van Tabular als van de Boom wordt voorgesteld.
+    <br/><img src="assets/attributed-revenue-dashboard-2.png" width="600">
+    <br/><img src="assets/attributed-revenue-dashboard-3.png" width="600"></td>
+  </tr>
   </tr>
 </tbody>
 </table>
