@@ -4,7 +4,7 @@ title: Dashboard overzicht van inkomsten
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
+source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -20,8 +20,8 @@ De antwoorden van de raad vragen:
 * Welk percentage van onze inkomsten is toe te schrijven aan onze marketinginspanningen?
 * Welk percentage van onze &quot;Closed Won&quot;-deals is beïnvloed door onze marketinginspanningen?
 
-<table>
-<tbody> 
+<table style="table-layout:auto"> 
+<tbody>
   <tr> 
    <th>Component</th> 
    <th>Beschrijving</th>
@@ -58,13 +58,13 @@ De antwoorden van de raad vragen:
   <tr>
     <td>Opbrengsten en toegerekende inkomsten</td>
     <td>Deze staafgrafiek van de tijdreeks naast elkaar biedt een uitgebreid overzicht van uw toewijzingsdekking door de totalen van de totale inkomsten uit de toegerekende opbrengsten samen te voegen.
-    <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
+    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
     <td>Attribuutdekking</td>
     <td>Dit cirkeldiagram verschaft een duidelijke visuele vergelijking tussen Attributed Revenue en Non-Attributed Revenue. De taart dekt de totale inkomsten.
     <br/>
-    <img src="assets/revenue-overview-dashboard-2.png"></td>
+    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
   </tr>
 </tbody>
 </table>
