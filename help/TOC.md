@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: e4852d6240a64b4a1a5c979a7528485623c68eb0
+source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '788'
 ht-degree: 2%
 
 ---
@@ -150,9 +150,15 @@ ht-degree: 2%
       + [Veelgestelde vragen (meerdere valuta&#39;s)](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
 + [!DNL Marketo Measure] Interface van Discover {#marketo-measure-discover-ui}
    + Dashboards {#dashboards}
-      + [Documentatie van Cohort Reisdashboard](marketo-measure-discover-ui/dashboards/cohort-journey-dashboard-documentation.md)
-      + [Documentatie paspoortdashboard](marketo-measure-discover-ui/dashboards/passport-dashboard-documentation.md)
-      + [Documentatie van dashboard voor momentopnamen](marketo-measure-discover-ui/dashboards/snapshot-dashboard-documentation.md)
+      + [Basisprincipes van dashboard ontdekken](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [Dashboard overzicht van inkomsten](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Toegewezen belastingdashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Paspoort-dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+   + Verouderde dashboards {#legacy-dashboards}
+      + [Documentatie van Cohort Reisdashboard](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
+      + [Documentatie paspoortdashboard](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
+      + [Documentatie van dashboard voor momentopnamen](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
    + Gebruiken [!DNL Marketo Measure]Rapportageplatform {#using-marketo-measures-reporting-platform}
       + [Vaak voorkomende gevallen](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
       + [Definities en Encyclopedie](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
