@@ -4,7 +4,7 @@ title: Dashboard overzicht van inkomsten
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: a90a3c7a8ed7ec83bc50060da8b7ca1e69bd37bd
+source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -46,30 +46,25 @@ De antwoorden van de raad vragen:
   <tr>
     <td>Totaal aantal overeenkomsten</td>
     <td>Totaal aantal transacties gemarkeerd als "Gesloten loon" in de CRM.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Toegewezen inkomstentegel</td>
     <td>Totale toerekenbare inkomsten uit "Closed Won"-mogelijkheden met geregistreerde aanraakpunten.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Attributable Deals Tile</td>
     <td>Het totale aantal "Gesloten overeenkomsten"van toe te schrijven kansen.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Opbrengsten en toegerekende inkomsten</td>
     <td>Deze staafgrafiek van de tijdreeks naast elkaar biedt een uitgebreid overzicht van uw toewijzingsdekking door de totalen van de totale inkomsten uit de toegerekende opbrengsten samen te voegen.
     <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
-    <td> </td>
   </tr>
   <tr>
     <td>Attribuutdekking</td>
     <td>Dit cirkeldiagram verschaft een duidelijke visuele vergelijking tussen Attributed Revenue en Non-Attributed Revenue. De taart dekt de totale inkomsten.
     <br/>
     <img src="assets/revenue-overview-dashboard-2.png"></td>
-    <td> </td>
   </tr>
 </tbody>
 </table>
