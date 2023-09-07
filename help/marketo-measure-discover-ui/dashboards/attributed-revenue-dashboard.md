@@ -4,70 +4,79 @@ title: Toegewezen belastingdashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # Toegewezen belastingdashboard {#attributed-revenue-dashboard}
 
-Het dashboard Toegewezen Inkomsten biedt een gericht perspectief op de inkomsten die rechtstreeks verband houden met uw marketingactiviteiten. Ontdek diepgaand hoe uw marketingstrategieën van nut zijn geweest bij het verzegelen van deals.
+Het dashboard Toegewezen Inkomsten biedt een gericht perspectief op de inkomsten die rechtstreeks verband houden met uw marketingactiviteiten. Ontdek hoe uw marketingstrategieën van nut zijn geweest bij het verzegelen van deals.
 
-De antwoorden van de raad vragen:
+>[!NOTE]
+>
+>Dit dashboard bevindt zich momenteel in bètaversie. Tijdens deze overgangsfase zullen zowel de huidige als de nieuwe dashboards toegankelijk zijn. Het huidige dashboard wordt vervangen zodra we volledig zijn overgeschakeld en optimale functionaliteit hebben gegarandeerd.
 
-Welke kanalen, subkanalen, of campagnes zijn het hoogst in termen van toegeschreven inkomsten?
-Wat is het totale bedrag van onze toegerekende inkomsten en het aantal van onze toegeschreven gesloten overeenkomsten?
+**De antwoorden van de raad vragen:**
 
-<table style="table-layout:auto"> 
-<tbody>
-  <tr> 
-   <th>Component</th> 
-   <th>Beschrijving</th>
-   <th>Velden doorlopen</th>
-   <th>Datumtype</th>
-   <th>Filters</th>
-  </tr>
-  <tr>
-    <td>Toegewezen inkomstentegel</td>
-    <td>Totale toerekenbare inkomsten uit "Closed Won"-mogelijkheden met geregistreerde aanraakpunten.</td>
-    <td rowspan="6"><li>Opportunity-id</li>
-<li>Naam opportunity</li>
-<li>Aanmaakdatum van opportunity</li>
-<li>Datum van sluiting opportunity</li>
-<li>Is gesloten (J/N)</li>
-<li>Is gewonnen (Y/N)</li>
-<li>Huidig werkgebied</li>
-<li>Attributiemodel</li>
-<li>Toegewezen inkomsten</li>
-<li>Geregistreerde inkomsten</li></td>
-    <td rowspan="6">Gesloten datum</td>
-    <td rowspan="6"><li>Datum</li>
-<li>Attributiemodel</li>
-<li>Kanaal</li>
-<li>Subkanaal</li>
-<li>Campagne</li>
-<li>Segmenten</li></td>
-  </tr>
-  <tr>
-    <td>Attributable Deals Tile</td>
-    <td>Het totale aantal "Gesloten overeenkomsten"van toe te schrijven kansen.</td>
-  </tr>
-  <tr>
-    <td>Toegewezen opbrengsten per kanaal over tijd</td>
-    <td>Gestapelde staafgrafiek met de totale toegerekende opbrengsten, gesegmenteerd door bijbehorend kanaal, voor elk kwartaal/maand.
-    <br/><img src="assets/attributed-revenue-dashboard-1.png" width="600"></td>
-  </tr>
-  <tr>
-    <td>Toegewezen inkomstentabel</td>
-    <td>De totale toegewezen opbrengst die door Kanaal, Subchannel, en Campagne wordt gesegmenteerd, in zowel de formaten van Tabular als van de Boom wordt voorgesteld.
-    <br/><img src="assets/attributed-revenue-dashboard-2.png" width="600">
-    <br/><img src="assets/attributed-revenue-dashboard-3.png" width="600"></td>
-  </tr>
-  </tr>
-</tbody>
-</table>
+* Welke kanalen, subkanalen, of campagnes zijn het hoogst in termen van toegeschreven inkomsten?
+* Wat is het totale bedrag van onze toegerekende inkomsten en het aantal van onze toegeschreven gesloten overeenkomsten?
+
+## Dashboardcomponenten {#dashboard-components}
+
+### KPI-tegels {#kpi-tiles}
+
+* **Toegewezen inkomsten**: De totale inkomstenbijdrage, gebaseerd op het gekozen toewijzingsmodel, van Opportunity met aanraakpunten die binnen de gefilterde datumperiode zijn gesloten
+* **Toegewezen overeenkomsten**: Het aantal &#39;Closed Won&#39;-kansen met aanraakpunten.
+
+### Toegewezen opbrengsten per kanaal in tijdgrafiek {#attributed-revenue-by-channel-over-time-chart}
+
+Gestapelde staafgrafiek met de totale toegerekende opbrengsten, gesegmenteerd door kanaal, voor elke Maand/Kwartaal/Jaar.
+
+* Gebruik de functies voor het uitvouwen en Omhoog om de gegevens te categoriseren op maand, kwartaal of jaar.
+* Houd de cursor boven een staafsegment of de ruimte tussen de staven om gedetailleerde informatie weer te geven.
+
+**Vragen in de grafiek:**
+
+* Welke kanalen produceerden de meest toegeschreven inkomsten elk kwartaal?
+* Wat was de uitsplitsing van de bestemmingsontvangsten per kanaal vorige maand?
+
+![](assets/attributed-revenue-dashboard-1.png)
+
+### Toegewezen inkomstentabel {#attributed-revenue-table}
+
+De totale toegewezen opbrengst die door Kanaal, Subchannel, en Campagne wordt gesegmenteerd, in zowel de formaten van Tabular als van de Boom wordt voorgesteld. Klik op de knop in de rechterbovenhoek om te schakelen tussen de weergaven.
+
+**De antwoorden van de raad vragen:**
+
+* Hoe varieert de toegewezen inkomstenverdeling tussen verschillende subkanalen binnen een kanaal?
+* Welke campagnes onder een bepaald subkanaal drijven de meest toegeschreven inkomsten?
+
+**Tabellarische weergave**
+
+* De tabelweergave biedt duidelijke en georganiseerde inzichten in de verdeling van de toegewezen inkomsten. Gebruikers kunnen snel prestatiepatronen herkennen en marketingstrategieën met een hoog effect aanwijzen door gegevens te categoriseren in kanalen, subkanalen en campagnes.
+* Klik op het pictogram &quot;+&quot; naast elk kanaal om de uitsplitsing naar subkanaal en campagne weer te geven.
+
+![](assets/attributed-revenue-dashboard-2.png)
+
+**Boomstructuurweergave**
+
+* De boomweergave maakt een interactieve en korrelere gegevensverkenning mogelijk, zodat marketeers trends, anomalieën of vooraanstaande personen kunnen identificeren in hun marketingactiviteiten.
+* Klik op een vertakking om dieper naar de volgende hiërarchische laag te gaan.
+
+![](assets/attributed-revenue-dashboard-3.png)
+
+## Filtervenster {#filter-pane}
+
+Dit dashboard is uitgerust met de volgende instellingen en filters:
+
+* Datum (gebaseerd op einddatum)
+* Attributiemodel
+* Kanaal, subkanaal
+* Campagne
+* Segmenten
 
 >[!MORELIKETHIS]
 >
