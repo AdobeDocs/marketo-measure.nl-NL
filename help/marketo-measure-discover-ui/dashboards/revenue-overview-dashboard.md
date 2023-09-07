@@ -4,9 +4,9 @@ title: Dashboard overzicht van inkomsten
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: 09748b8ba76a89b2d955c8384ae926bb995c2171
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -15,59 +15,54 @@ ht-degree: 0%
 
 Het dashboard van het Overzicht van Ontvangsten verstrekt inzicht in de totale opbrengst die uit uw CRM wordt afgeleid, die licht op de rol van uw marketing strategieën werpt. Het biedt een overzicht van hoe marketing uw algemene opbrengst beïnvloedt en tot de succesvolle sluiting van overeenkomsten bijdraagt.
 
-De antwoorden van de raad vragen:
+>[!NOTE]
+>
+>Dit dashboard bevindt zich momenteel in bètaversie. Tijdens deze overgangsfase zullen zowel de huidige als de nieuwe dashboards toegankelijk zijn. Het huidige dashboard wordt vervangen zodra we volledig zijn overgeschakeld en optimale functionaliteit hebben gegarandeerd.
+
+**De antwoorden van de raad vragen:**
 
 * Welk percentage van onze inkomsten is toe te schrijven aan onze marketinginspanningen?
 * Welk percentage van onze &quot;Closed Won&quot;-deals is beïnvloed door onze marketinginspanningen?
 
-<table style="table-layout:auto"> 
-<tbody>
-  <tr> 
-   <th>Component</th> 
-   <th>Beschrijving</th>
-   <th>Velden doorlopen</th>
-   <th>Datumtype</th>
-   <th>Filters</th>
-  </tr>
-  <tr>
-    <td>Totaal inkomstenblok</td>
-    <td>Totale inkomsten uit de BCR, met inbegrip van toegerekende opbrengsten.</td>
-    <td rowspan="6"><li>Opportunity-id</li>
-<li>Naam opportunity</li>
-<li>Aanmaakdatum van opportunity</li>
-<li>Datum van sluiting opportunity</li>
-<li>Is gesloten (J/N)</li>
-<li>Is gewonnen (Y/N)</li>
-<li>Huidig werkgebied</li>
-<li>Ontvangsten</li></td>
-    <td rowspan="6">Gesloten datum</td>
-    <td rowspan="6">Datum</td>
-  </tr>
-  <tr>
-    <td>Totaal aantal overeenkomsten</td>
-    <td>Totaal aantal transacties gemarkeerd als "Gesloten loon" in de CRM.</td>
-  </tr>
-  <tr>
-    <td>Toegewezen inkomstentegel</td>
-    <td>Totale toerekenbare inkomsten uit "Closed Won"-mogelijkheden met geregistreerde aanraakpunten.</td>
-  </tr>
-  <tr>
-    <td>Attributable Deals Tile</td>
-    <td>Het totale aantal "Gesloten overeenkomsten"van toe te schrijven kansen.</td>
-  </tr>
-  <tr>
-    <td>Opbrengsten en toegerekende inkomsten</td>
-    <td>Deze staafgrafiek van de tijdreeks naast elkaar biedt een uitgebreid overzicht van uw toewijzingsdekking door de totalen van de totale inkomsten uit de toegerekende opbrengsten samen te voegen.
-    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
-  </tr>
-  <tr>
-    <td>Attribuutdekking</td>
-    <td>Dit cirkeldiagram verschaft een duidelijke visuele vergelijking tussen Attributed Revenue en Non-Attributed Revenue. De taart dekt de totale inkomsten.
-    <br/>
-    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
-  </tr>
-</tbody>
-</table>
+## Dashboardcomponenten {#dashboard-components}
+
+### KPI-tegels {#kpi-tiles}
+
+* Totale inkomsten: de totale inkomsten uit &quot;Closed Won&quot;-kansen, inclusief Opportunity zonder aanraakpunten.
+* Totaal Aantal Overeenkomsten: Het aantal &quot;Gesloten Kansen van de Won&quot;, met inbegrip van Kansen zonder touchpoints.
+* Toegewezen inkomsten: de totale inkomsten uit &quot;Closed Won&quot;-kansen met aanraakpunten.
+* Attributed Deals: Het aantal &quot;Gesloten Kans van de Won&quot;die touchpoints hebben.
+
+### Opbrengsten en toegerekende inkomsten {#revenue-and-attributed-revenue-chart}
+
+Deze side-by-side grafiek van de tijdreeksgrafiek contrasteert Total Revenue met Attributed Revenue, die duidelijk uw marketingeffect op algemene inkomsten visualiseert.
+
+* Gebruik de functies voor het uitnemen en bijwerken van boor-down om de gegevens op Kwart en Jaar te categoriseren.
+* Houd de muisaanwijzer boven een gedeelte van het staafdiagram om de gedetailleerde informatie ervan weer te geven.
+
+**Vragen in de grafiek:**
+
+* Welk percentage van onze inkomsten uit augustus 2022 kan worden toegeschreven aan onze marketinginitiatieven?
+* Hoe stapelen de toegerekende ontvangsten in het derde kwartaal van vorig jaar zich op ten opzichte van het vierde kwartaal?
+
+![](assets/revenue-overview-dashboard-1.png)
+
+### Attribuutdekking {#attribution-coverage-chart}
+
+Dit cirkeldiagram visualiseert duidelijk uw attributiedekking door totale opbrengst in Attributed en Niet-Attributed opbrengst te segmenteren, benadrukkend het nauwkeurige percentage van opbrengst die door uw marketing inspanningen wordt beïnvloed.
+
+**Vragen in de grafiek:**
+
+* Wat was het percentage van de inkomstendekking dat vorig jaar aan onze marketinginspanningen werd toegeschreven?
+
+![](assets/revenue-overview-dashboard-2.png)
+
+## Filtervenster {#filter-pane}
+
+Dit dashboard is uitgerust met de volgende instellingen en filters:
+
+* Attributiemodel
+* Datum (gebaseerd op einddatum)
 
 >[!MORELIKETHIS]
 >
