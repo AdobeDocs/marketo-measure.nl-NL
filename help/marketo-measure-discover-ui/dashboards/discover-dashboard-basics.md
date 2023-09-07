@@ -4,16 +4,20 @@ title: Basisprincipes van dashboard ontdekken
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
 # Basisprincipes van dashboard ontdekken {#discover-dashboard-basics}
 
-Dit artikel begeleidt u door de basismogelijkheden van de opnieuw ontworpen interface, zodat u uw gegevens moeiteloos kunt openen en interpreteren. Schrap in de dynamiek van de filterruit en ontdek de ingewikkeldheid van onze verbeterde rapporteringsfunctionaliteit, zoals de boor, dwars filtreren, en tooltips.
+Dit artikel begeleidt u door de basismogelijkheden van de opnieuw ontworpen interface, zodat u uw gegevens moeiteloos kunt openen en interpreteren. Schrap in de dynamiek van de filterruit en ontdek de ingewikkeldheid van onze verbeterde rapporteringsfunctionaliteit, zoals boor eigenschappen, dwars filtreren, en tooltips.
+
+>[!NOTE]
+>
+>Dit dashboard bevindt zich momenteel in bètaversie. Tijdens deze overgangsfase zullen zowel de huidige als de nieuwe dashboards toegankelijk zijn. Het huidige dashboard wordt vervangen zodra we volledig zijn overgeschakeld en optimale functionaliteit hebben gegarandeerd.
 
 ## Filtervenster {#filter-pane}
 
@@ -23,26 +27,36 @@ Elk dashboard heeft een reeks filters, vergezeld van de volgende besturingseleme
  <tbody> 
   <tr> 
    <th>Naam</th> 
-   <th>Pictogram</th>
    <th>Beschrijving</th>
   </tr> 
   <tr> 
-   <td>Hamburger Button</td> 
-   <td><img src="assets/discover-dashboard-basics-1.png"></td>
-   <td>Hiermee schakelt u het filtervenster in of uit.</td>
+   <td>Knop Filterschakelen</td>
+   <td>Hiermee schakelt u het filtervenster in of uit.
+   <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Herstellen</td> 
-   <td><img src="assets/discover-dashboard-basics-2.png"></td>
-   <td>Hiermee herstelt u de standaardinstellingen van de filters.</td>
+   <td>Knop Opnieuw instellen</td>
+   <td>Hiermee herstelt u de standaardinstellingen van de filters.
+   <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Filters op visueel</td> 
-   <td><img src="assets/discover-dashboard-basics-3.png"></td>
-   <td>Houd de cursor boven de rechterbovenhoek van een visuele afbeelding en klik op de knop om de actieve filters weer te geven.</td>
+   <td>Knop toepassen</td>
+   <td>Klik om de filterwijzigingen op het dashboard te bevestigen en te implementeren.
+   <p><img src="assets/discover-dashboard-basics-3.png"></td>
+  </tr>
+  <tr> 
+   <td>Segmentknop</td>
+   <td>Op dashboards met de filters van het Segment, klik de knoop van het Segment bij de bodem van de filterruit aan overgang aan Segmenten.
+   <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
 </table>
+
+## Filters op visueel {#filters-on-visual}
+
+Houd de muisaanwijzer boven de rechterbovenhoek van een visuele afbeelding om een alleen-lezen lijst met toegepaste filters weer te geven.
+
+![](assets/discover-dashboard-basics-3b.png)
 
 ## Rapportmogelijkheden {#report-capabilities}
 
@@ -70,21 +84,24 @@ Gebruik het vorkachtige pictogram om een extra hiërarchisch niveau in uw huidig
 
 ### Doorboor {#drill-through}
 
-* Als u de gegevens achter het visuele element wilt verkennen, klikt u met de rechtermuisknop op het visuele element en selecteert u de optie &quot;boor-through&quot;.
+Als u de gegevens achter het visuele element wilt verkennen, klikt u met de rechtermuisknop op het visuele element en selecteert u de optie &quot;boor-through&quot;.
 
-![](assets/discover-dashboard-basics-9.png)
+![](assets/discover-dashboard-basics-9.gif)
 
-* Als u de onderliggende gegevens wilt exporteren, houdt u de muisaanwijzer boven de rechterbovenhoek van de doorlooppagina, klikt u op de knop &quot;Meer opties&quot; en selecteert u &quot;Gegevens exporteren&quot;.
+### Gegevens exporteren {#export-data}
 
-![](assets/discover-dashboard-basics-10.png)
+Als u de onderliggende gegevens vanuit een visuele achtergrond wilt exporteren, houdt u de muisaanwijzer boven de rechterbovenhoek. Klik op de knop &quot;Meer opties&quot;, kies &quot;Gegevens exporteren&quot;, selecteer de gewenste indeling en klik op &quot;Exporteren&quot;.
+![](assets/discover-dashboard-basics-10.gif)
 
-* Als u wilt inzoomen op een bepaald visueel of naast elkaar geplaatste tegel, beweegt u de muisaanwijzer over de rechterbovenhoek en selecteert u de knop &quot;Focus&quot;.
+### Focusmodus {#focus-mode}
 
-![](assets/discover-dashboard-basics-11.png)
+Als u wilt inzoomen op een bepaald visueel of naast elkaar geplaatste tegel, beweegt u de muisaanwijzer over de rechterbovenhoek en selecteert u de knop &quot;Focus&quot;.
+
+![](assets/discover-dashboard-basics-11.gif)
 
 ### Gekruist filteren {#cross-filtering}
 
-Door gebrek, zal het selecteren van een waarde of een asetiket in één visualisatie andere visuals op de rapportpagina kruisen, die ervoor zorgen zij slechts de relevante, gefilterde gegevens tonen.
+Als u een waarde- of aslabel in één visualisatie selecteert, worden andere visuele elementen op de rapportpagina kruisgefilterd, zodat alleen de relevante, gefilterde gegevens worden weergegeven.
 
 ![](assets/discover-dashboard-basics-12.gif)
 
