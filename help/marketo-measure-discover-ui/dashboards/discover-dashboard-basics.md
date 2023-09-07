@@ -4,9 +4,9 @@ title: Basisprincipes van dashboard ontdekken
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
+source-git-commit: db435a669ca9a24a0661191bef9e14a8f8c78eb6
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,23 @@ Elk dashboard heeft een reeks filters, vergezeld van de volgende besturingseleme
    <th>Beschrijving</th>
   </tr> 
   <tr> 
-   <td>Knop Filterschakelen</td>
+   <td><b>Knop Filterschakelen</b></td>
    <td>Hiermee schakelt u het filtervenster in of uit.
    <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Knop Opnieuw instellen</td>
-   <td>Hiermee herstelt u de standaardinstellingen van de filters.
+   <td><b>Zoekbalk</b></td>
+   <td>Gebruik het onderzoek bij de bovenkant van de filterruit aan onderzoek naar een specifiek filter. Elk filter heeft ook een eigen zoekbalk.
    <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Knop toepassen</td>
-   <td>Klik om de filterwijzigingen op het dashboard te bevestigen en te implementeren.
+   <td><b>Filterknop wissen</b></td>
+   <td>Als u een filter wilt wissen, klikt u op het gummetje in de rechterbovenhoek van elk filter.
    <p><img src="assets/discover-dashboard-basics-3.png"></td>
   </tr>
   <tr> 
-   <td>Segmentknop</td>
-   <td>Op dashboards met de filters van het Segment, klik de knoop van het Segment bij de bodem van de filterruit aan overgang aan Segmenten.
+   <td><b>Knop toepassen</b></td>
+   <td>Klik om de filterwijzigingen op het dashboard te bevestigen en te implementeren.
    <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
