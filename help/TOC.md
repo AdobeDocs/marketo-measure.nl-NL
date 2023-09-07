@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
@@ -151,6 +151,7 @@ ht-degree: 2%
 + [!DNL Marketo Measure] Interface van Discover {#marketo-measure-discover-ui}
    + Dashboards {#dashboards}
       + [Basisprincipes van dashboard ontdekken](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [Nieuwe Discover-dashboardgids](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [Dashboard overzicht van inkomsten](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [Toegewezen belastingdashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
