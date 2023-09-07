@@ -4,9 +4,9 @@ title: Paspoort-dashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -15,61 +15,47 @@ ht-degree: 0%
 
 Het Paspoort-dashboard biedt marketers een dynamische weergave van leads, contactpersonen en opportuniteiten terwijl ze verschillende fasen binnen een bepaalde periode doorlopen. Door voor een specifieke datum te filteren, kunnen de gebruikers een momentopname van verslagen voor die dag ook verkrijgen.
 
-De antwoorden van de raad vragen:
+>[!NOTE]
+>
+>Dit dashboard bevindt zich momenteel in bètaversie. Tijdens deze overgangsfase zullen zowel de huidige als de nieuwe dashboards toegankelijk zijn. Het huidige dashboard wordt vervangen zodra we volledig zijn overgeschakeld en optimale functionaliteit hebben gegarandeerd.
+
+**De antwoorden van de raad vragen:**
 
 * Hoeveel lood, contacten, of kansen bestonden in elke niet-eindfase op om het even welke gekozen dag?
 * Hoeveel verschillende leads of contactpersonen zijn er gedurende een bepaalde periode doorgegaan in elk overgangsstadium?
    * _Voorbeeld_: Indien Lood A op 1 januari 2023 in de eerste fase was en op 3 december 2023 naar fase 5 was gevorderd, zou de analyse van het paspoort Q1 2023 in de eerste fase tot en met 5 leiden tot Lood A.
-* Hoeveel unieke Kansen ging door elk transient stadium tijdens een bepaald tijdkader over?
+* Hoeveel unieke kansen gingen door elk transient stadium tijdens een bepaald tijdkader over?
 
-<table style="table-layout:auto"> 
-<tbody>
-<tr> 
-   <th>Component</th> 
-   <th>Beschrijving</th>
-   <th>Datumtype</th>
-   <th>Velden doorlopen</th>
-   <th>Filters</th>
-  </tr>
-  <tr>
-    <td>Kansen</td>
-    <td><li>Elk stadium toont het aantal Kansen met BBTs die door hen in een bepaald tijdsbestek zijn overgegaan.</li>
-<ul style="padding-left: 30px;"><li>Als een Kans door veelvoudige stadia binnen die spanwijdte vordert, worden zij geteld in elk stadium het overging.</li></ul>
-<li>Eindfasen zoals "Closed Won" en "Closed Lost" zijn uitgesloten.</li>
-<li>Zowel begin- als einddatum zijn inclusief.</li>
-<br/><img src="assets/passport-dashboard-1.png" width="600"></td>
-    <td rowspan="2">Overgangsdatum</td>
-    <td><li>Opportunity-id</li>
-<li>Naam opportunity</li>
-<li>Aanmaakdatum</li>
-<li>Gesloten datum</li>
-<li>Is gesloten (J/N)</li>
-<li>Is gewonnen (Y/N)</li>
-<li>Huidig werkgebied</li>
-<li>Overgang in datum</li>
-<li>Verouderingsdatum overgang</li></td>
-    <td rowspan="2"><li>Datum</li>
-<li>Kanaal</li>
-<li>Subkanaal</li>
-<li>Campagne</li>
-<li>Segmenten</li></td>
-  </tr>
-  <tr>
-    <td>Leads/contactpersonen</td>
-    <td><li>In elk stadium wordt het aantal leads of contactpersonen met BT's weergegeven dat ze binnen een bepaald tijdsbestek hebben doorlopen.</li>
-<ul style="padding-left: 30px;"><li>Of ''Lead'' of ''Contact'' wordt weergegeven, wordt bepaald door de voorkeursinstelling die is ingesteld in: Instellingen &gt; Kenmerken &gt; Standaarddashboardobject.</li></ul>
-<li>Eindfasen zoals "Closed Won" en "Closed Lost" zijn uitgesloten.</li>
-<li>Zowel begin- als einddatum zijn inclusief.</li>
-<br/><img src="assets/passport-dashboard-2.png" width="600"></td>
-    <td><li>Id van lead/contactpersoon</li>
-<li>E-mailadres voor lead/contact</li>
-<li>Aanmaakdatum</li>
-<li>Huidig werkgebied</li>
-<li>Overgang in datum</li>
-<li>Verouderingsdatum overgang</li></td>
-  </tr>
-</tbody>
-</table>
+## Dashboardcomponenten {#dashboard-components}
+
+### Kansen in werkgebied op werkgebiednaam {#opportunities-in-stage-by-stage-name}
+
+* In elk werkgebied wordt het aantal opportuniteiten weergegeven met aanraakpunten dat binnen een bepaald tijdsbestek door de aanraakpunten is gegaan.
+   * Als een kans door veelvoudige stadia binnen die spanwijdte vordert, wordt het geteld in elk stadium het overgaat.
+* Eindfasen zoals &quot;Closed Won&quot; en &quot;Closed Lost&quot; zijn uitgesloten.
+* Zowel begin- als einddatum zijn inclusief.
+
+![](assets/passport-dashboard-1.png)
+
+### Contactpersonen in werkgebied op werkgebiednaam {#contacts-in-stage-by-stage-name}
+
+* In elk werkgebied wordt het aantal leads of contactpersonen met aanraakpunten weergegeven dat binnen een bepaald tijdsbestek door de aanraakpunten is gegaan.
+   * Of &#39;&#39;Lead&#39;&#39; of &#39;&#39;Contact&#39;&#39; wordt weergegeven, wordt bepaald door de voorkeursinstelling die is ingesteld in: Instellingen > Kenmerken > Standaarddashboardobject.
+   * Als een lead of contactpersoon meerdere stappen binnen die reeks doorloopt, wordt deze meegeteld in elk stadium dat deze passeert.
+* Eindfasen zoals &quot;Closed Won&quot; en &quot;Closed Lost&quot; zijn uitgesloten.
+* Zowel begin- als einddatum zijn inclusief.
+
+![](assets/passport-dashboard-2.png)
+
+## Filtervenster {#filter-pane}
+
+Dit dashboard is uitgerust met de volgende instellingen en filters:
+
+* Datum (gebaseerd op de overgangsdatum)
+* Attributiemodel
+* Kanaal, subkanaal
+* Campagne
+* Segmenten
 
 >[!MORELIKETHIS]
 >

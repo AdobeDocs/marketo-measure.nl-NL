@@ -4,9 +4,9 @@ title: ROI Dashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -15,210 +15,133 @@ ht-degree: 0%
 
 Het Dashboard van ROI voorziet marketers van een korrelige mening van rendementen op investering over kanalen, subkanalen, en campagnes. Het schort zorgvuldig kosten en opbrengstpatronen, terwijl ook het belichten van metriek zoals kosten-per-lood, overeenkomst, en kans, die een uitvoerig inzicht van marketing attributie verzekeren.
 
-De antwoorden van de raad vragen:
+>[!NOTE]
+>
+>Dit dashboard bevindt zich momenteel in bètaversie. Tijdens deze overgangsfase zullen zowel de huidige als de nieuwe dashboards toegankelijk zijn. Het huidige dashboard wordt vervangen zodra we volledig zijn overgeschakeld en optimale functionaliteit hebben gegarandeerd.
+
+**De antwoorden van de raad vragen:**
 
 * Wat waren de ROI waarden voor elk kanaal, subchannel, en campagne?
 * Hoe verdeelden de kosten en de opbrengsten over elk kanaal, subchannel, en campagne?
 * Wat waren de kosten per lead, de kosten per deal en de kosten per kans?
 
-<table style="table-layout:auto"> 
-<tbody>
- <tr> 
-   <th>Component</th> 
-   <th>Beschrijving</th>
-   <th>Datumtype</th>
-   <th>Velden doorlopen</th>
-   <th>Filters</th>
-  </tr>
-  <tr>
-    <td>Kostenverdeling</td>
-    <td>Totale gemaakte kosten</td>
-    <td>Kostendatum</td>
-    <td><li>Campagne-id</li>
-<li>Campagnenaam</li>
-<li>Kanaal</li>
-<li>Subkanaal</li>
-<li>Datum</li>
-<li>Draaien</li></td>
-    <td rowspan="15"><li>Datum</li>
-<li>Attributiemodel (instelling)</li>
-<li>Kanaal</li>
-<li>Subkanaal</li>
-<li>Campagne</li></td>
-  </tr>
-  <tr>
-    <td>Toegewezen inkomstentegel</td>
-    <td>Totaal toegerekende inkomsten</td>
-    <td>Gesloten datum</td>
-    <td><li>Opportunity-id</li>
-<li>Naam opportunity</li>
-<li>Aanmaakdatum van opportunity</li>
-<li>Datum van sluiting opportunity</li>
-<li>Is gesloten (J/N)</li>
-<li>Is gewonnen (Y/N)</li>
-<li>Attributiemodel</li>
-<li>Toegewezen inkomsten</li>
-<li>Geregistreerde inkomsten</li></td>
-  </tr>
-  <tr>
-    <td>Eenvoudige ROI-tegel</td>
-    <td>Oudere ROI: inkomsten gedeeld door kosten in een bepaald tijdsbestek. 
-    <li>Kosten: kosten in gefilterde datumperiode.</li>
-    <li>Ontvangsten: inkomsten uit "Closed Won"-kansen in die periode.</li></td>
-    <td>Gesloten datum</td>
-    <td>NVT</td>
-  </tr>
-  <tr>
-    <td>Realized ROI Tile</td>
-    <td>Realized ROI: Vertegenwoordigt de tastbare resultaten van touchpoints die door campagnes binnen een gespecificeerd tijdkader worden geproduceerd.
-    <li>Kosten: kosten in gefilterde datumperiode.</li>
-    <li>Ontvangsten: gerealiseerde inkomsten uit alle "Closed Won"-transacties, met name die welke binnen de vastgestelde termijn door aanraakpunten worden beïnvloed.</li>
-    <br/><img src="assets/roi-dashboard-1.png" width="600"></td>
-    <td>Kostendatum</td>
-    <td>NVT</td>
-  </tr>
-  <tr>
-    <td>Totaal aantal nieuwe leadblokken</td>
-    <td>Het totale aantal nieuwe leads (hele telling) dat binnen een opgegeven periode wordt gegenereerd, inclusief zowel aangeraakt als onaangeroerde leads.</td>
-    <td>Aanmaakdatum</td>
-    <td rowspan="2">
-    <li>ID lead</li>
-    <li>E-mailadres voor lead</li>
-    <li>LC-datum</li></td>
-  </tr>
-  <tr>
-    <td>Kosten per nieuwe leadtegel</td>
-    <td>Totaal aantal nieuwe leads (totaal aantal) gedeeld door de kosten.</td>
-    <td>Aanmaakdatum</td>
-  </tr>
-  <tr>
-    <td>Totaal aantal nieuwe kansen</td>
-    <td>Het totale aantal nieuwe kansen (hele telling) die binnen een gespecificeerde periode, met inbegrip van zowel aangeraakt als onaangeroerde lood worden geproduceerd.</td>
-    <td>Aanmaakdatum</td>
-    <td rowspan="2">
-    <li>Opportunity-id</li>
-    <li>Naam opportunity</li>
-    <li>Aanmaakdatum van opportunity</li>
-    <li>Datum van sluiting opportunity</li>
-    <li>Is gesloten (J/N)</li>
-    <li>Is gewonnen (Y/N)</li>
-    <li>Huidig werkgebied</li></td>
-  </tr>
-  <tr>
-    <td>Kosten per nieuwe opportunitytegel</td>
-    <td>Totaal aantal nieuwe kansen (totaal aantal) gedeeld door kosten.</td>
-    <td>Aanmaakdatum</td>
-  </tr>
-  <tr>
-    <td>Totaal aantal overeenkomsten</td>
-    <td>Het totale aantal transacties dat binnen een bepaalde periode wordt afgesloten, inclusief transacties zonder bijbehorende aanraakpunten.</td>
-    <td>Gesloten datum</td>
-    <td><li>Opportunity-id</li>
-<li>Naam opportunity</li>
-<li>Aanmaakdatum van opportunity</li>
-<li>Datum van sluiting opportunity</li>
-<li>Is gesloten (J/N)</li>
-<li>Is gewonnen (Y/N)</li>
-<li>Huidig werkgebied</li>
-<li>Valuta</li>
-<li>Attributiemodel</li>
-<li>Toegewezen inkomsten</li>
-<li>Geregistreerde inkomsten</li></td>
-  </tr>
-  <tr>
-    <td>Kosten en opbrengsten per kanaalgrafiek</td>
-    <td>Staafdiagram dat zowel de kosten als de inkomsten illustreert en dat is ontworpen om een vergelijkend perspectief op hun grootte te bieden ten opzichte van verschillende kanalen, subkanalen en campagnes.
-    <br/><img src="assets/roi-dashboard-2.png" width="600"></td>
-    <td>Gesloten datum</td>
-    <td>Kosten:
-<br/>
-<li>Campagne-id</li>
-<li>Campagnenaam</li>
-<li>Kanaal</li>
-<li>Subkanaal</li>
-<li>Kostendatum</li>
-<li>Valuta</li>
-<li>Draaien</li>
-<p>
-Ontvangsten:
-<br/>
-<li>Opportunity-id</li>
-<li>Naam opportunity</li>
-<li>Aanmaakdatum van opportunity</li>
-<li>Datum van sluiting opportunity</li>
-<li>Is gesloten (J/N)</li>
-<li>Is gewonnen (Y/N)</li>
-<li>Toegewezen inkomsten</li>
-<li>Attributiemodel</li>
-<li>Toegewezen inkomsten</li>
-<li>Geregistreerde inkomsten</li></td>
-  </tr>
-  <tr>
-    <td>Geïsoleerd versus eenvoudig rendement van investeringen in de loop der tijd</td>
-    <td>De lijngrafiek van de tijdreeks die de vergelijking tussen Geregistreerde en Eenvoudige ROI toont, die hun vooruitgang in tijd volgen.
-    <br/><img src="assets/roi-dashboard-3.png" width="600"></td>
-    <td>Eenvoudig rendement: Kostendatum en einddatum
-    <p>Rendement van gerealiseerde investeringen: Kostprijs op datum en aanraakpunt</td>
-    <td>NVT</td>
-  </tr>
-  <tr>
-    <td>Kosten in de loop van de tijd Grafiek</td>
-    <td>Gestapelde staafgrafiek met de totale kosten op kwartaal- en maandbasis, uitgesplitst naar afzonderlijke kanalen voor een gedetailleerde uitsplitsing.
-    <br/><img src="assets/roi-dashboard-4.png" width="600"></td>
-    <td>Kostendatum</td>
-    <td rowspan="2"><li>Campagne-id</li>
-<li>Campagnenaam</li>
-<li>Kanaal</li>
-<li>Subkanaal</li>
-<li>Kostendatum</li>
-<li>Valuta</li>
-<li>Draaien</li></td>
-  </tr>
-  <tr>
-    <td>Kosten per kanaalgrafiek</td>
-    <td>Staafdiagram waarin marketinguitgaven worden weergegeven, gesegmenteerd door kanalen.
-    <br/><img src="assets/roi-dashboard-5.png" width="600"></td>
-    <td>Kostendatum</td>
-  </tr>
-  <tr>
-    <td>Overzichtstabel ROI</td>
-    <td>Tabel met de toegerekende inkomsten, kosten en investeringsrendement, opgesplitst naar afzonderlijke kanalen voor een gedetailleerde uitsplitsing.
-<p>
-<b>Kolommen:</b>
-<p>
-<li>Kanaal/Subkanaal/Campagne</li>
-<li>Kosten</li>
-<li>Toegewezen inkomsten</li>
-<li>Eenvoudig rendement</li>
-<li>Realized ROI</li>
-<li>Ongerealiseerde pijplijn</li>
-<ul style="padding-left: 30px;"><li>Pijpleiding van aanraakpunten (open kansen) verbonden aan campagnes binnen een bepaald tijdsbestek</li></ul></td>
-    <td>Eenvoudig rendement: Kostendatum en einddatum
-    <p>Rendement van gerealiseerde investeringen: Kostprijs op datum en aanraakpunt</td>
-    <td>NVT</td>
-  </tr>
-  <tr>
-    <td>Tabel met marketinguitgaven</td>
-    <td>De lijst die kosten, nieuwe lood, kansen, en overeenkomsten toont gesloten die door individuele kanalen voor een gedetailleerde uitsplitsing worden gesegmenteerd.
-<p>
-<b>Kolommen:</b>
-<p>
-<li>Kanaal/Subkanaal/Campagne</li>
-<li>Kosten</li>
-<li>Nieuwe leads</li>
-<li>Kosten per nieuwe lead</li>
-<li>Nieuwe mogelijkheden</li>
-<li>Kosten per Nieuwe Kans</li>
-<li>Overeenkomsten gesloten</li>
-<li>Kosten per Gesloten Overeenkomst</li></td>
-    <td><li>Kosten: datum kosten</li>
-<li>Nieuwe leads: Aanmaakdatum</li>
-<li>Nieuwe kansen: aanmaakdatum</li>
-<li>Overeenkomsten gesloten: gesloten datum</li></td>
-    <td>NVT</td>
-  </tr>
-</tbody>
-</table>
+## Dashboardcomponenten {#dashboard-components}
+
+### KPI-tegels {#kpi-tiles}
+
+* **Kosten**: Totale kosten van verbonden gegevensbronnen en handmatig geüploade kosten.
+* **Toegewezen inkomsten**: De totale inkomstenbijdrage, gebaseerd op het gekozen toewijzingsmodel, van Opportunity met aanraakpunten die binnen de gefilterde datumperiode zijn gesloten
+* **Geregistreerde toegerekende inkomsten**: De totale inkomstenbijdrage, gebaseerd op het gekozen toewijzingsmodel, van Opportunity with touchpoints binnen de gefilterde datumperiode, ongeacht wanneer ze werden gesloten.
+* **Totaal aantal nieuwe leads**: Het totale aantal nieuwe leads dat wordt gegenereerd, inclusief zowel aangeraakt als onaangeroerde leads.
+* **Kosten per nieuwe lead**: De gemiddelde kosten per nieuwe lood, afgeleid van de totale kosten gedeeld door het totale aantal nieuwe lood.
+* **Totaal aantal nieuwe kansen**: Het totale aantal nieuwe kansen dat wordt gegenereerd, met inbegrip van zowel aangeroerde als onaangeroerde Kansen.
+* **Kosten per Nieuwe Kans**: De gemiddelde kosten per nieuwe Kans, die van de totale kosten worden afgeleid gedeeld door het totale aantal nieuwe Kansen.
+* **Totaal aantal transacties**: Het aantal &#39;Closed Won&#39;-kansen, inclusief Opportunity zonder aanraakpunten.
+* **Eenvoudig rendement**: Toegewezen ontvangsten gedeeld door kosten in de gefilterde datumperiode.
+* **Realized ROI**: Geregistreerde toegerekende opbrengsten gedeeld door kosten in de gefilterde datumperiode.
+
+![](assets/roi-dashboard-1.png)
+
+### Kosten en opbrengsten per kanaalgrafiek {#cost-and-revenue-by-channel-graph}
+
+Staafdiagram dat de kosten en opbrengsten weergeeft en dat is ontworpen om een vergelijkend perspectief te bieden op hun grootte ten opzichte van verschillende kanalen, subkanalen en campagnes.
+
+* Gebruik de functies voor uitboren en Omhoog om de gegevens te categoriseren op Subchannel en Campagne.
+* Houd de muisaanwijzer boven elke balk om de eenvoudige en gerealiseerde ROI&#39;s weer te geven.
+
+**Vragen in de grafiek:**
+
+* Wat waren de ROI waarden voor elk kanaal, subchannel, en campagne?
+* Zijn er uitbijters of subkanalen met ongewoon hoge of lage kosten in verhouding tot hun inkomsten?
+
+![](assets/roi-dashboard-2.png)
+
+### Gegraaliseerd versus eenvoudig rendement in de loop der tijd {#realized-vs-simple-roi-over-time}
+
+De lijngrafiek van de tijdreeks die de vergelijking tussen Geregistreerde en Eenvoudige ROI toont, die hun vooruitgang in tijd volgen.
+
+* Houd de muis boven een sectie in de grafiek om de eenvoudige en gerealiseerde ROI&#39;s weer te geven.
+
+**Vragen in de grafiek:**
+
+* Hoe vergelijk het gerealiseerde ROI met het Eenvoudige ROI over specifieke tijdsperiodes?
+* Hoe verhoudt de trend van het RoI zich tot significante marketinggebeurtenissen in dezelfde periode?
+
+![](assets/roi-dashboard-3.png)
+
+### Kosten in tijdsgrafiek {#cost-over-time-graph}
+
+Gestapelde staafgrafiek die de Totale Kosten toont, die door bijbehorende Kanalen voor elke Maand/Kwartaal/Jaar wordt gesegmenteerd.
+
+* Gebruik de functies voor het uitvouwen en Omhoog om de gegevens te categoriseren op maand, kwartaal of jaar.
+* Houd de cursor boven een staafsegment of de ruimte tussen de staven om gedetailleerde informatie weer te geven.
+
+**Vragen in de grafiek:**
+
+* Hoe vergelijken de gecombineerde kosten van alle kanalen van één kwartaal/maand aan volgende?
+* Hoe zijn de kosten voor een specifiek kanaal in de loop der tijd geëvolueerd?
+
+![](assets/roi-dashboard-4.png)
+
+### Kosten per kanaalgrafiek {#cost-by-channel-graph}
+
+Staafdiagram met marketinguitgaven die zijn gesegmenteerd door Kanaal/Subkanaal/Campagne.
+
+* Gebruik de functies voor uitboren en Omhoog om de gegevens te categoriseren via Kanaal/Subkanaal/Campagne.
+
+**Vragen in de grafiek:**
+
+* Welke subkanalen of campagnes binnen een primair kanaal hebben de hoogste toewijzing?
+* Welke marketingmiddelen (kanaal, subkanaal of campagne) lijken ondergefinancierd in vergelijking met andere?
+
+![](assets/roi-dashboard-5.png)
+
+### Overzichtstabel ROI {#roi-summary-table}
+
+Tabel met de toegerekende inkomsten, kosten en investeringsrendement, opgesplitst naar afzonderlijke kanalen voor een gedetailleerde uitsplitsing.
+
+* Klik op het pictogram &quot;+&quot; naast elk kanaal om de uitsplitsing naar subkanaal en campagne weer te geven.
+
+**Kolommen:**
+
+* Kanaal/Subkanaal/Campagne
+* Kosten
+* Toegewezen inkomsten
+* Geregistreerde toegerekende inkomsten
+* Eenvoudig rendement
+* Realized ROI
+* Ongerealiseerde Attributed Pipeline Revenue: Pipeline Revenue linked to linked to touchpoints (Open Opportunity) created within the filtered date period.
+
+### Tabel met marketinguitgaven {#marketing-spend-table}
+
+Tabel met kosten, nieuwe leads, Opportunity en deals die zijn afgesloten per kanaal voor een gedetailleerde uitsplitsing.
+
+* Klik op het pictogram &quot;+&quot; naast elk kanaal om de uitsplitsing naar subkanaal en campagne weer te geven.
+
+**Kolommen:**
+
+* Kanaal/Subkanaal/Campagne
+* Kosten
+* Nieuwe leads
+* Kosten per nieuwe lead
+* Nieuwe mogelijkheden
+* Kosten per Nieuwe Kans
+* Overeenkomsten
+* Kosten per Overeenkomst
+
+## Filtervenster {#filter-pane}
+
+Dit dashboard is uitgerust met de volgende instellingen en filters:
+
+* Datum
+   * Gebaseerd op:
+      * Aanmaakdatum: nieuwsleiders, nieuwe kansen
+      * Kostendatum: kosten
+      * Gesloten datum: bestemmingsontvangsten (eenvoudig rendement van investeringen), transacties
+      * Aanraakpuntdatum: aanraakpunten van gerealiseerde toegerekende inkomsten (gerealiseerde ROI)
+* Attributiemodel
+* Kanaal, subkanaal
+* Campagne
 
 >[!MORELIKETHIS]
 >
