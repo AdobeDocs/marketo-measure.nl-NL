@@ -4,7 +4,7 @@ title: Dashboard overzicht van inkomsten
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -28,10 +28,10 @@ Het dashboard van het Overzicht van Ontvangsten verstrekt inzicht in de totale o
 
 ### KPI-tegels {#kpi-tiles}
 
-* Totale inkomsten: de totale inkomsten uit &quot;Closed Won&quot;-kansen, inclusief Opportunity zonder aanraakpunten.
-* Totaal Aantal Overeenkomsten: Het aantal &quot;Gesloten Kansen van de Won&quot;, met inbegrip van Kansen zonder touchpoints.
-* Toegewezen inkomsten: de totale inkomsten uit &quot;Closed Won&quot;-kansen met aanraakpunten.
-* Attributed Deals: Het aantal &quot;Gesloten Kans van de Won&quot;die touchpoints hebben.
+* **Totaal ontvangsten**: De totale inkomsten uit &quot;Closed Won&quot;-kansen, inclusief Opportunity zonder aanraakpunten.
+* **Totaal aantal transacties**: Het aantal &#39;Closed Won&#39;-kansen, inclusief Opportunity zonder aanraakpunten.
+* **Toegewezen inkomsten**: De totale inkomsten uit &quot;Closed Won&quot;-mogelijkheden met aanraakpunten.
+* **Toegewezen overeenkomsten**: Het aantal &#39;Closed Won&#39;-kansen met aanraakpunten.
 
 ### Opbrengsten en toegerekende inkomsten {#revenue-and-attributed-revenue-chart}
 

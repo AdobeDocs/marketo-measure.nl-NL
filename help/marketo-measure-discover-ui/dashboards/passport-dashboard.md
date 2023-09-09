@@ -4,9 +4,9 @@ title: Paspoort-dashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Het Paspoort-dashboard biedt marketers een dynamische weergave van leads, contac
 
 ![](assets/passport-dashboard-1.png)
 
-### Contactpersonen in werkgebied op werkgebiednaam {#contacts-in-stage-by-stage-name}
+### Leads of contactpersonen in werkgebied op werkgebiednaam {#leads-or-contacts-in-stage-by-stage-name}
 
 * In elk werkgebied wordt het aantal leads of contactpersonen met aanraakpunten weergegeven dat binnen een bepaald tijdsbestek door de aanraakpunten is gegaan.
    * Of &#39;&#39;Lead&#39;&#39; of &#39;&#39;Contact&#39;&#39; wordt weergegeven, wordt bepaald door de voorkeursinstelling die is ingesteld in: Instellingen > Kenmerken > Standaarddashboardobject.
