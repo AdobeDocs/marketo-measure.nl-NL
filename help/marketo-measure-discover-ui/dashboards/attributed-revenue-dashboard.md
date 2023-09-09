@@ -4,9 +4,9 @@ title: Toegewezen belastingdashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Het dashboard Toegewezen Inkomsten biedt een gericht perspectief op de inkomsten
 
 ### KPI-tegels {#kpi-tiles}
 
-* **Toegewezen inkomsten**: De totale inkomstenbijdrage, gebaseerd op het gekozen toewijzingsmodel, van Opportunity met aanraakpunten die binnen de gefilterde datumperiode zijn gesloten
+* **Toegewezen inkomsten**: De totale inkomstenbijdrage, gebaseerd op het gekozen toewijzingsmodel, van Opportunity with touchpoints.
 * **Toegewezen overeenkomsten**: Het aantal &#39;Closed Won&#39;-kansen met aanraakpunten.
 
 ### Toegewezen opbrengsten per kanaal in tijdgrafiek {#attributed-revenue-by-channel-over-time-chart}

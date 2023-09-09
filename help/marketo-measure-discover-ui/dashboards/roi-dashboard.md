@@ -4,9 +4,9 @@ title: ROI Dashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Het Dashboard van ROI voorziet marketers van een korrelige mening van rendemente
 ### KPI-tegels {#kpi-tiles}
 
 * **Kosten**: Totale kosten van verbonden gegevensbronnen en handmatig geüploade kosten.
-* **Toegewezen inkomsten**: De totale inkomsten uit &quot;Closed Won&quot;-mogelijkheden met aanraakpunten.
+* **Toegewezen inkomsten**: De totale inkomstenbijdrage, gebaseerd op het gekozen toewijzingsmodel, van Opportunity met aanraakpunten die binnen de gefilterde datumperiode zijn gesloten.
 * **Geregistreerde toegerekende inkomsten**: De totale inkomstenbijdrage, gebaseerd op het gekozen toewijzingsmodel, van Opportunity with touchpoints binnen de gefilterde datumperiode, ongeacht wanneer ze werden gesloten.
 * **Totaal aantal nieuwe leads**: Het totale aantal nieuwe leads dat wordt gegenereerd, inclusief zowel aangeraakt als onaangeroerde leads.
 * **Kosten per nieuwe lead**: De gemiddelde kosten per nieuwe lood, afgeleid van de totale kosten gedeeld door het totale aantal nieuwe lood.
