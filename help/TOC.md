@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
+source-git-commit: d65b850e3210ff35b0dedb8e20f4ec91fdfed965
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 2%
+source-wordcount: '796'
+ht-degree: 3%
 
 ---
 
@@ -156,19 +156,20 @@ ht-degree: 2%
       + [Toegewezen belastingdashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Paspoort-dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Zichtbaarheidsbeleid dashboardgegevens](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
    + Verouderde dashboards {#legacy-dashboards}
       + [Documentatie van Cohort Reisdashboard](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Documentatie paspoortdashboard](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
       + [Documentatie van dashboard voor momentopnamen](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
-   + Gebruiken [!DNL Marketo Measure]Rapportageplatform {#using-marketo-measures-reporting-platform}
-      + [Vaak voorkomende gevallen](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
-      + [Definities en Encyclopedie](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
-      + [Boortroggen](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/drill-throughs.md)
-      + [Filters](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/filters.md)
-      + [Veelgestelde vragen](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/faq.md)
-      + [Pad voor betrokkenheid](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/engagement-path.md)
-      + [OPS-blokken marketing](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
-      + [Bordeblokken - overzicht](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/overview-board-tiles.md)
+      + Gebruiken [!DNL Marketo Measure]Rapportageplatform {#using-marketo-measures-reporting-platform}
+         + [Vaak voorkomende gevallen](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/common-use-cases.md)
+         + [Definities en Encyclopedie](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
+         + [Boortroggen](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/drill-throughs.md)
+         + [Filters](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/filters.md)
+         + [Veelgestelde vragen](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/faq.md)
+         + [Pad voor betrokkenheid](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/engagement-path.md)
+         + [OPS-blokken marketing](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
+         + [Bordeblokken - overzicht](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/overview-board-tiles.md)
 + [!DNL Marketo Measure] en Adobe {#marketo-measure-and-adobe}
    + [[!DNL Marketo Measure] Integratie met Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure] Integratie met Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
