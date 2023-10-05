@@ -2,9 +2,10 @@
 description: Dashboard overzicht van inkomsten - [!DNL Marketo Measure] - Product
 title: Dashboard overzicht van inkomsten
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -59,9 +60,9 @@ Dit cirkeldiagram visualiseert duidelijk uw attributiedekking door totale opbren
 
 Dit dashboard is uitgerust met de volgende instellingen en filters:
 
-* Attributiemodel
 * Datum (gebaseerd op einddatum)
 
 >[!MORELIKETHIS]
 >
->[Basisprincipes van dashboard ontdekken](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Basisprincipes van dashboard ontdekken](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Zichtbaarheidsbeleid dashboardgegevens](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
