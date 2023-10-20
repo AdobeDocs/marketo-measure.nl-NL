@@ -4,9 +4,9 @@ description: LinkedIn-integratie - [!DNL Marketo Measure] - Productdocumentatie
 title: LinkedIn-integratie
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2644'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Generaal-leider Forms: Door de integratie met generaal-president Forms van Linke
 
 ## Beschikbaarheid {#availability}
 
-Beschikbaar voor alle klanten.
+Beschikbaar voor alle gebruikers.
 
 ## Vereisten {#requirements}
 
@@ -127,6 +127,12 @@ Creative D: Share 234
 
 ## Hoe het werkt: Gen-leider Forms {#how-it-works-lead-gen-forms}
 
+**[!DNL LinkedIn's]Unieke vereisten voor automatische labeling**
+
+[!DNL Marketo Measure] kan u helpen uw [!DNL LinkedIn] door uw bestemmingspagina&#39;s automatisch te labelen.
+
+[!DNL Marketo Measure] zoekt u naar creatieve producten met een unieke LinkedIn Share en voegt u een `?_bl={creativeId}` aan het einde van de parameter.
+
 **Het proces**
 
 Doorheen [!DNL LinkedIn's] Met de API voor formulieren en de API voor formulierreacties kunnen we formulierverzendgegevens verzamelen voor een advertentieaccount en het e-mailadres koppelen aan een lead van de CRM of Marketo.
@@ -162,95 +168,99 @@ Eenmaal [!DNL Marketo Measure] heeft met succes uw landingspagina op de LinkedIn
  </colgroup> 
  <tbody> 
   <tr> 
-   <th>Aanraakpuntveld</th> 
+   <th style="width:30%">Aanraakpuntveld</th> 
    <th>Samplewaarde</th> 
   </tr> 
   <tr> 
-   <td><p>Advertentie-id </p></td> 
-   <td><p>84186224 </p></td> 
+   <td>Advertentie-id</td>
+   <td>84186224</td>
   </tr> 
   <tr> 
-   <td><p>Inhoud toevoegen </p></td> 
-   <td><p>copy-1-image-2-man 95% van de #B2B-marketers beschouwt de strategie voor het creëren van vraag als succesvol. Meer informatie: [!DNL https]/lnkd.in/jgdi50vKrgv</p></td> 
+   <td>Inhoud toevoegen</td>
+   <td>copy-1-image-2-man 95% van de #B2B-marketers beschouwt de strategie voor het creëren van vraag als succesvol. Meer informatie: [!DNL https]/lnkd.in/jgdi50vKrgv</td>
   </tr> 
   <tr> 
-   <td><p>Groep-id toevoegen </p></td> 
-   <td><p>(leeg) </p></td> 
+   <td>Groep-id toevoegen</td>
+   <td>(leeg)</td>
   </tr> 
   <tr> 
-   <td><p>Naam advertentiegroep </p></td> 
-   <td><p>(leeg) </p></td> 
+   <td>Naam advertentiegroep</td>
+   <td>(leeg)</td>
   </tr> 
   <tr> 
-   <td><p>Campagne-id toevoegen </p></td> 
-   <td><p>138949954 </p></td> 
+   <td>Campagne-id toevoegen</td>
+   <td>138949954</td>
   </tr> 
   <tr> 
-   <td><p>Naam advertentiecampagne </p></td> 
-   <td><p>SU - COM-accounts - vraagvaardigheden </p></td> 
+   <td>Naam advertentiecampagne</td>
+   <td>SU - COM-accounts - vraagvaardigheden</td>
   </tr> 
   <tr> 
-   <td><p>Doel-URL toevoegen </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>Doel-URL toevoegen <b>*</b></td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>URL van formulier </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>URL van formulier</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>URL formulier - Raw </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>URL formulier - Raw</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>Trefwoord-id </p></td> 
-   <td><p>(leeg) </p></td> 
+   <td>Trefwoord-id</td> 
+   <td>(leeg)</td> 
   </tr> 
   <tr> 
-   <td><p>Type trefwoordovereenkomst </p></td> 
-   <td><p>(leeg) </p></td> 
+   <td>Type trefwoordovereenkomst</td> 
+   <td>(leeg)</td> 
   </tr> 
   <tr> 
-   <td><p>Openingspagina </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders </p></td> 
+   <td>Openingspagina</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
   </tr> 
   <tr> 
-   <td><p>Openingspagina - Raw </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>Openingspagina - Raw</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>Marketingkanaal </p></td> 
-   <td><p>Betaald sociaal </p></td> 
+   <td>Marketingkanaal</td> 
+   <td>Betaald sociaal</td> 
   </tr> 
   <tr> 
-   <td><p>Marketingkanaal - pad </p></td> 
-   <td><p>Betaald sociaal.LinkedIn </p></td> 
+   <td>Marketingkanaal - pad</td> 
+   <td>Betaald sociaal.LinkedIn</td> 
   </tr> 
   <tr> 
-   <td><p>Normaal </p></td> 
-   <td><p>"cpc" of "Lead Gen Form"</p></td> 
+   <td>Normaal</td> 
+   <td>"cpc" of "Lead Gen Form"</td> 
   </tr> 
   <tr> 
-   <td><p>Referentiepagina </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Referentiepagina</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Refereringspagina - Raw </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Refereringspagina - Raw</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Serach Phrase </p></td> 
-   <td><p>(leeg) </p></td> 
+   <td>Serach Phrase</td> 
+   <td>(leeg)</td> 
   </tr> 
   <tr> 
-   <td><p>Type aanraakpunt </p></td> 
-   <td><p>Webformulier </p></td> 
+   <td>Type aanraakpunt</td> 
+   <td>Webformulier</td>
   </tr> 
   <tr> 
-   <td><p>Aanraakpuntbron </p></td> 
-   <td><p>LinkedIn </p></td> 
+   <td>Aanraakpuntbron</td>
+   <td>LinkedIn</td>
   </tr> 
  </tbody> 
 </table>
+
+**&#42;** _Het veld &#39;URL van bestemming toevoegen&#39; wordt alleen gevuld voor gesponsorde inhoud. Het is niet gevuld voor generaal-leider Forms._
+
+<br>
 
 ## Kosten {#costs}
 
@@ -340,7 +350,7 @@ Nee, we beginnen het niet automatisch voor alle klanten te downloaden, maar het 
 
 **Zijn er formuliergegevens beschikbaar?**
 
-Formuliergegevens zijn beschikbaar via [!DNL Marketo Measure] Zie onder andere Formulier-id en Formuliernaam. Formulierdetails zijn nog niet beschikbaar op de aanraakpuntobjecten in de CRM-toepassing.
+Formuliergegevens zijn beschikbaar via [!DNL Marketo Measure] Zie onder andere Formulier-id en Formuliernaam. Formulierdetails zijn nog niet beschikbaar voor de aanraakpuntobjecten in de CRM-toepassing.
 
 **Wat gebeurt er met [!DNL LinkedIn] leads die eerder zijn gesynchroniseerd met Marketo-programma&#39;s of CRM-campagnes?**
 

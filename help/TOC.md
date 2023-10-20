@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: 2d2fe74998abd853f6592c5e65edfe2ce39d7ce6
+source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '793'
 ht-degree: 3%
 
 ---
@@ -128,7 +128,6 @@ ht-degree: 3%
    + Aangepast inkomstenbedrag {#custom-revenue-amount}
       + [Aanbevolen werkwijzen voor het gebruik van een aangepaste opbrengstwaarde](advanced-marketo-measure-features/custom-revenue-amount/best-practices-for-utilizing-a-custom-revenue-amount.md)
       + [Een veld Aangepaste omzettingsbedrag gebruiken](advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
-      + [Doc testen](advanced-marketo-measure-features/custom-revenue-amount/doc.md)
       + [Bijwerken met gegevenslader [!DNL Marketo Measure] Veld voor aangepaste hoeveelheid](advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
    + Kenmerken bekijken {#view-through-attribution}
       + [[!DNL Marketo Measure] Veelgestelde vragen over weergave door kenmerk](advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md)
