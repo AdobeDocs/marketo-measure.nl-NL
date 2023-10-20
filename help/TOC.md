@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: d65b850e3210ff35b0dedb8e20f4ec91fdfed965
+source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '793'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 3%
       + [[!DNL Marketo Measure] Cookies](marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md)
       + [Definitie van [!DNL Marketo Measure] Websessies](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
       + [Aanbevolen procedures voor het testen](marketo-measure-tracking/setting-up-tracking/best-practices-for-testing.md)
-      + [Vertraagde synchronisatie van cookies](marketo-measure-tracking/setting-up-tracking/delayed-cookie-sync.md)
 + Configuratie en installatie {#configuration-and-setup}
    + Aan de slag met [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [Aanraakpunt genereren en toewijzen](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
