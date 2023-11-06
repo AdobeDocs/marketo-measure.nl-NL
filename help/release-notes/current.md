@@ -1,5 +1,5 @@
 ---
-description: Opmerkingen bij de huidige release - [!DNL Marketo Measure] - Productdocumentatie
+description: Actuele aanvullende informatie -  [!DNL Marketo Measure]  - Productdocumentatie
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
