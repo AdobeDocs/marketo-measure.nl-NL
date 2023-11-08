@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '797'
 ht-degree: 3%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 3%
    + Aan de slag met [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [Aanraakpunt genereren en toewijzen](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
       + [Methodologie voor toewijzing van kenmerken](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
+      + [Adobe Admin Console Setup](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [Verschil tussen aanraakpunten voor kopers en aanraakpunten voor koperkenmerken](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
       + [Uitleg van aanraakpuntposities en genereren over BT&#39;s en [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [[!DNL Marketo Measure] Integratie zonder CRM](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
@@ -80,13 +81,13 @@ ht-degree: 3%
       + [Aangepaste kanaalinstelling offline](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [Aangepaste synchronisatie van campagnes](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
       + [Configuraties voor meerdere soorten campagnerecopnamen](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-      + Verouderde processen {#deprecated-processes}
-         + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
-         + [Synchronisatiedata voor campagne](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
-         + [Campagneelijstweergave maken voor [!DNL Salesforce] Campagnes](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-         + [Dynamische campagnes en marketinglijsten](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
-         + [Historische gegevens synchroniseren](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
-         + [Offlinecampagnes synchroniseren](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+      + Oudere processen {#legacy-processes}
+         + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+         + [Synchronisatiedata voor campagne](channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+         + [Campagneelijstweergave maken voor [!DNL Salesforce] Campagnes](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [Dynamische campagnes en marketinglijsten](channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
+         + [Historische gegevens synchroniseren](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
+         + [Offlinecampagnes synchroniseren](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 + API-verbindingen {#api-connections}
    + Gebruikmaken [!DNL Marketo Measure]API-verbindingen van {#utilizing-marketo-measures-api-connections}
       + [Geïntegreerde AD-platforms](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)

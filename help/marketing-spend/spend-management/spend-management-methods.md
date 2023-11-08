@@ -3,7 +3,7 @@ description: Beheersmethoden voor uitgaven - [!DNL Marketo Measure] - Productdoc
 title: Methoden voor uitgavenbeheer
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Er zijn drie manieren om gegevens in te brengen [!DNL Marketo Measure]. Elke met
 
 **1) API Connected Accounts**
 
-Een advertentierekening waarmee u verbinding hebt [!DNL Marketo Measure] via een API wordt de uitgave automatisch aangevuld [!DNL Marketo Measure] voor ROI-rapportage. Ga naar uw [!DNL Marketo Measure] App en selecteer de [!UICONTROL Connections] onder de [!UICONTROL Integrations] sectie. Voor meer informatie over het instellen van uw API-verbindingen raadpleegt u onze [Geïntegreerde AD-Platforms](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) artikel.
+Een advertentierekening waarmee u verbinding hebt [!DNL Marketo Measure] via een API wordt de uitgave automatisch aangevuld [!DNL Marketo Measure] voor ROI-rapportage. Ga naar uw [!DNL Marketo Measure] App en selecteer de [!UICONTROL Connections] onder de [!UICONTROL Integrations] sectie. Voor meer informatie over het instellen van uw API-verbindingen raadpleegt u onze [Geïntegreerde AD-platforms](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) artikel.
 
 **2) CRM-campagne kostensynchronisatie**
 
@@ -28,7 +28,7 @@ Elke [!DNL Marketo Measure] account heeft toegang tot een functie die [Kosten va
 
 Zodra toegelaten zal deze eigenschap automatisch uitgaven van om het even welk campagne/programma van CRM terugtrekken die aan de volgende criteria voldoen
 
-i. [!DNL Marketo Measure] kijkt eerst of creeert de Campagne/het Programma aanraakpunten, of van een gelijke [Campagnesynchronisatieregel](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) die is gemaakt, of een overeenkomst [Programmasynchronisatieregel](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) die is gemaakt, of de [Waarde van aanraakpunten koper inschakelen](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) is &quot;Inclusief alle campagneleden&quot; of &quot;Inclusief leden van de campagne die worden geantwoord&quot;.
+i. [!DNL Marketo Measure] kijkt eerst of creeert de Campagne/het Programma aanraakpunten, of van een gelijke [Campagnesynchronisatieregel](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) die is gemaakt, of een overeenkomst [Programmasynchronisatieregel](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) die is gemaakt, of de [Waarde van aanraakpunten koper inschakelen](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) is &quot;Inclusief alle campagneleden&quot; of &quot;Inclusief leden van de campagne die worden geantwoord&quot;.
 
 ii. Een begindatum moet in de campagne/het programma worden ingevuld
 

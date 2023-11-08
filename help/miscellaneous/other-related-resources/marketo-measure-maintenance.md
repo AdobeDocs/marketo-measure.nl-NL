@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Onderhoud - [!DNL Marketo Measure] - Produc
 title: "[!DNL Marketo Measure] Onderhoud"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 **Aanraakpunten voor kopers synchroniseren voor nieuwe offlinecampagnes (2 x/maand)**
 
-Zoals u tijdens het instappen hebt geleerd, [!DNL Marketo Measure] krijgt informatie over uw off-line marketing inspanningen door met de campagnes van uw CRM te synchroniseren. Als uw organisatie nieuwe campagnes start, moet u ervoor zorgen dat kopers aanraakpunten hebben voor elke campagne. Uitchecken [dit artikel](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)voor meer informatie .
+Zoals u tijdens het instappen hebt geleerd, [!DNL Marketo Measure] krijgt informatie over uw off-line marketing inspanningen door met de campagnes van uw CRM te synchroniseren. Als uw organisatie nieuwe campagnes start, moet u ervoor zorgen dat kopers aanraakpunten hebben voor elke campagne. Uitchecken [dit artikel](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)voor meer informatie .
 
 **Uploaduitgaven voor alle kanalen (1x/maand)**
 

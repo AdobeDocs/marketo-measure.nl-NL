@@ -4,7 +4,7 @@ description: Offline aangepaste kanaalinstelling - [!DNL Marketo Measure] - Prod
 title: Aangepaste kanaalinstelling offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Alle bestaande campagneretypen moeten in uw kanaalkaart worden opgenomen en &quo
 
 Neem de tijd om in te gaan [!DNL Salesforce] om het aantal en de aard van uw bestaande recordtypes te bepalen, die u wilt omvatten, en of u extra campagnes moet creëren die op de bovenstaande informatie worden gebaseerd. Als u alle benodigde gegevens hebt ingevuld, kunt u deze uploaden.
 
-Meer informatie over [offline synchroniseren [!DNL Salesforce] Campagnes met [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md).
+Meer informatie over [offline synchroniseren [!DNL Salesforce] Campagnes met [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
 
 ## SFDC-campagnes verwerken voor online marketinginspanningen {#handling-sfdc-campaigns-for-online-marketing-efforts}
 

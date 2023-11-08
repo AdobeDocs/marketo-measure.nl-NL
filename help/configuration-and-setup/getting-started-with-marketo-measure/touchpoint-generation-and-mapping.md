@@ -4,7 +4,7 @@ description: Aanraakpunt genereren en toewijzen - [!DNL Marketo Measure] - Produ
 title: Aanraakpunt genereren en toewijzen
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Het proces van de touchpoint afbeelding beantwoordt de vraag, &quot;Zodra dit aa
 >[!MORELIKETHIS]
 >
 >* [Online aanraakpunten toewijzen aan [!DNL Marketo Measure] Kanalen/Subkanalen](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [CRM-campagnes synchroniseren vanuit SFDC](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+>* [CRM-campagnes synchroniseren vanuit SFDC](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 >* [CRM-campagnes synchroniseren vanuit [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 >* [CRM-campagnes toewijzen aan [!DNL Marketo Measure] Kanalen/Subkanalen](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Aanraakpunten maken van verkoopactiviteiten](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
