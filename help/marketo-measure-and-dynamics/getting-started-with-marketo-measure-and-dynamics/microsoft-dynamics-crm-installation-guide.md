@@ -4,9 +4,9 @@ description: "[!DNL Microsoft Dynamics] CRM Installation Guide - Marketo Measure
 title: "[!DNL Microsoft Dynamics] CRM Installation Guide"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
+source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ Voor verbinding en verificatie, [!DNL Marketo Measure] steunt de volgende Actiev
 
 ![](assets/3.png)
 
-## [!DNL Marketo Measure] Gebruikersmachtigingen {#marketo-measure-user-permissions}
+## Een [!DNL Marketo Measure] Gebruiker {#creating-a-marketo-measure-user}
 
-We raden u aan een speciale toepassing te maken [!DNL Marketo Measure] Gebruiker binnen Dynamiek voor ons om gegevens uit te voeren en in te voeren door om het even welke kwesties met andere gebruikers in uw CRM te vermijden. Neem nota van de gebruikersbenaming en het wachtwoord evenals het eindpunt URL aangezien dit zal worden gebruikt wanneer het creëren van [!DNL Marketo Measure] account.
+We raden u aan een speciale Marketo Measure-gebruiker als een &#39;Application User&#39; in Dynamics te stellen, zodat we gegevens kunnen exporteren en importeren om problemen met andere gebruikers in uw CRM te voorkomen. Neem nota van de gebruikersbenaming en het wachtwoord, evenals het eindpunt URL, aangezien zij zullen worden gebruikt wanneer het creëren van [!DNL Marketo Measure] account.
 
 ## Beveiligingsrollen {#security-roles}
 

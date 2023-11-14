@@ -4,9 +4,9 @@ description: Salesforce Sandbox naar productie-migratie - [!DNL Marketo Measure]
 title: Salesforce Sandbox naar productie-migratie
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,6 @@ Als u ervoor kiest om te testen [!DNL Marketo Measure] in een [!DNL Salesforce] 
 * De twee apparaten installeren [!DNL Marketo Measure] verpakt in Production met de &quot;[!UICONTROL All Users]&quot;-instelling
 
    * [Basispakket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
-   * [Dashboard Extension Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * Voor meer informatie over de [!DNL Marketo Measure] relatie met [!DNL Salesforce], bekijk [dit artikel](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * Een beetje [!DNL Salesforce] configuratie is noodzakelijk. De specifieke actiepunten worden hieronder beschreven in [Stap 4 hieronder](#salesforce-configuration)
