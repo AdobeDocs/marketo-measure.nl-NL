@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: bae0246c655d1778658da0845f31de599ea6263f
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '800'
 ht-degree: 3%
 
 ---
@@ -222,6 +222,7 @@ ht-degree: 3%
       + [Beperkingen van de Zitting van de veiligheid: IP Adressen aan Lijst van gewenste personen](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + [!DNL Marketo Measure] Ultieme {#marketo-measure-ultimate}
    + [[!DNL Marketo Measure] Ultieme overzicht](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
+   + [Vereiste gegevensintegriteit](marketo-measure-ultimate/data-integrity-requirement.md)
 + Overige {#miscellaneous}
    + Overige gerelateerde bronnen {#other-related-resources}
       + [[!DNL Marketo Measure] Onderhoud](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
