@@ -4,10 +4,10 @@ description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
 workflow-type: tm+mt
-source-wordcount: '22610'
-ht-degree: 3%
+source-wordcount: '20697'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Met Data Warehouse kunt u zoveel bijhouden als u wilt, gegevens rapporteren over
 
 >[!IMPORTANT]
 >
->* Rijen met een waarde voor _DELETED_DATE worden 7 dagen bewaard en vervolgens uit Snowflake verwijderd.
+>* Rijen met een waarde voor _DELETED_DATE worden 7 dagen bewaard en vervolgens uit de Snowflake verwijderd.
 >* De tijdzones die in Snowflake worden gebruikt, voldoen aan de UTC (Coordinated Universal Time).
 
 >[!NOTE]
@@ -79,13 +79,13 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De aanmaakdatum van de account, vanaf het bronsysteem.</td>
-      <td>2016-08-28 00:32:55.000</td>
+      <td>28 00:32:55,000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De laatste gewijzigde datum van de account, van het bronsysteem.</td>
-      <td>2018-08-01 17:38:30.000</td>
+      <td>2018-08-01 17:38:30 000</td>
     </tr>
     <tr>
       <td>NAAM</td>
@@ -109,7 +109,7 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
       <td>ENGAGEMENT_SCORE</td>
       <td>nummer (38,19)</td>
       <td>Een numerieke score berekend met [!DNL Marketo Measure] Machine Learning to generate the Predictive Engagement Score (Engagement_Rating). Dit is null als ABM is uitgeschakeld.</td>
-      <td>0.1417350147058800000</td>
+      <td>0,1417350147058800000</td>
     </tr>
     <tr>
       <td>DOMEIN</td>
@@ -133,19 +133,19 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -179,7 +179,7 @@ Toewijzingstabel tussen bekende e-mailadressen en accounts van leads/contactpers
         <p>Account-ID bronsysteem.</p>
       </td>
       <td>
-        <p>0013100001phrBAAAY</p>
+        <p>001310001phrBAAAY</p>
       </td>
     </tr>
     <tr>
@@ -207,7 +207,7 @@ Toewijzingstabel tussen bekende e-mailadressen en accounts van leads/contactpers
         <p>De laatste gewijzigde datum van de account, van het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-31 23:53:39.000</p>
+        <p>2018-08-31:53:39,000</p>
       </td>
     </tr>
     <tr>
@@ -221,7 +221,7 @@ Toewijzingstabel tussen bekende e-mailadressen en accounts van leads/contactpers
         <p>De aanmaakdatum van de account, vanaf het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-18 22:01:32.000</p>
+        <p>22-08-18 22:01:32,000</p>
       </td>
     </tr>
     <tr>
@@ -242,19 +242,19 @@ Toewijzingstabel tussen bekende e-mailadressen en accounts van leads/contactpers
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -337,13 +337,13 @@ Activiteiten die zijn geïmporteerd uit een bronsysteem of een aangesloten adver
       <td>START_DATE</td>
       <td>timestamp_ntz</td>
       <td>Begindatum van de activiteit, vanaf het bronsysteem.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>END_DATE</td>
       <td>timestapm_ntz</td>
       <td>Einddatum van de activiteit, vanaf het bronsysteem.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>CAMPAIGN_ID</td>
@@ -363,13 +363,13 @@ Activiteiten die zijn geïmporteerd uit een bronsysteem of een aangesloten adver
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de rij is gemaakt in het bronsysteem.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum waarop de rij voor het laatst is gewijzigd in het bronsysteem.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>IS_DELETD</td>
@@ -387,19 +387,19 @@ Activiteiten die zijn geïmporteerd uit een bronsysteem of een aangesloten adver
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -603,7 +603,7 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:59.000</p>
+        <p>2018-08-02 06:35:59,000</p>
       </td>
     </tr>
     <tr>
@@ -617,7 +617,7 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:59.000</p>
+        <p>2018-08-02 06:35:59,000</p>
       </td>
     </tr>
     <tr>
@@ -759,19 +759,19 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -971,7 +971,7 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:59.000</p>
+        <p>2018-08-02 06:35:59,000</p>
       </td>
     </tr>
     <tr>
@@ -985,7 +985,7 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:59.000</p>
+        <p>2018-08-02 06:35:59,000</p>
       </td>
     </tr>
     <tr>
@@ -1073,19 +1073,19 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -1267,7 +1267,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-09-06 12:54:37.000</p>
+        <p>2018-09-06 12:54:37,000</p>
       </td>
     </tr>
     <tr>
@@ -1281,7 +1281,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58.000</p>
+        <p>2018-08-02 06:35:58,000</p>
       </td>
     </tr>
     <tr>
@@ -1382,7 +1382,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       </td>
       <td>Geparseerd van URL van utm_source.</td>
       <td>
-        <p>Sociaal</p>
+        <p>Social</p>
       </td>
     </tr>
     <tr>
@@ -1408,7 +1408,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
         <p>De hoeveelheid uitgaven die in de laatste 30 dagen is ingevoerd, alleen van toepassing op Advertentie-woorden.</p>
       </td>
       <td>
-        <p>17260.000000000000000000</p>
+        <p>17260,000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -1517,19 +1517,19 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -1725,7 +1725,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58.000</p>
+        <p>2018-08-02 06:35:58,000</p>
       </td>
     </tr>
     <tr>
@@ -1739,7 +1739,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58.000</p>
+        <p>2018-08-02 06:35:58,000</p>
       </td>
     </tr>
     <tr>
@@ -1817,10 +1817,10 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
         <p>nummer (38,19)</p>
       </td>
       <td>
-        <p>Het dagelijkse budget dat is vastgelegd in het Advertentiecampagne Platform.</p>
+        <p>De dagelijkse begroting die is vastgelegd in het advertentieplatform voor de campagne.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -1885,19 +1885,19 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -1989,7 +1989,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58.000</p>
+        <p>2018-08-02 06:35:58,000</p>
       </td>
     </tr>
     <tr>
@@ -2003,7 +2003,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58.000</p>
+        <p>2018-08-02 06:35:58,000</p>
       </td>
     </tr>
     <tr>
@@ -2116,19 +2116,19 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>SOURCE_ID</td>
@@ -2336,7 +2336,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:14.000</p>
+        <p>2018-08-02 06:36:14 000</p>
       </td>
     </tr>
     <tr>
@@ -2350,7 +2350,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:14.000</p>
+        <p>2018-08-02 06:36:14 000</p>
       </td>
     </tr>
     <tr>
@@ -2496,19 +2496,19 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -2579,19 +2579,19 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -2641,7 +2641,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-09-01 04:53:53.000</p>
+        <p>2018-09-01 04:53:53,000</p>
       </td>
     </tr>
     <tr>
@@ -2669,7 +2669,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Id voor de contactpersoon die bij de BBT hoort.</p>
       </td>
       <td>
-        <p>0030Z00003K5bpKQAR</p>
+        <p>0030Z0003K5bpKQAR</p>
       </td>
     </tr>
     <tr>
@@ -2717,7 +2717,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Datum van het aanraakpunt.</p>
       </td>
       <td>
-        <p>2017-06-20 01:05:20.000</p>
+        <p>01-06-20:05:20 000</p>
       </td>
     </tr>
     <tr>
@@ -2756,7 +2756,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY1</p>
+        <p>CATEGORIE1</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2770,7 +2770,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY2</p>
+        <p>CATEGORIE2</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2784,7 +2784,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY3</p>
+        <p>CATEGORIE3</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2798,7 +2798,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY4</p>
+        <p>CATEGORIE4</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2810,7 +2810,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY5</p>
+        <p>CATEGORIE5</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2820,7 +2820,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY6</p>
+        <p>CATEGORIE6</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2830,7 +2830,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY7</p>
+        <p>CATEGORIE7</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2840,7 +2840,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY8</p>
+        <p>CATEGORIE8</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2850,7 +2850,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY9</p>
+        <p>CATEGORIE9</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2860,7 +2860,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY10</p>
+        <p>CATEGORIE10</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2870,7 +2870,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY11</p>
+        <p>CATEGORIE11</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2880,7 +2880,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY12</p>
+        <p>CATEGORIE12</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2890,7 +2890,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY13</p>
+        <p>CATEGORIE13</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2900,7 +2900,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY14</p>
+        <p>CATEGORIE14</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2910,7 +2910,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY15</p>
+        <p>CATEGORIE15</p>
       </td>
       <td>
         <p>varchar</p>
@@ -3069,7 +3069,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
       <td>
-        <p>2017-06-20 01:06:41.000</p>
+        <p>01-06-20:06:41,000</p>
       </td>
     </tr>
     <tr>
@@ -3595,7 +3595,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Het berekende percentage dat aan dit aanraakpunt is toegewezen omdat het een eerste aanraking is (Zie Is_First_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -3609,7 +3609,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Het berekende percentage dat is toegewezen aan dit aanraakpunt, omdat het een aanraakaanraakaanraakaanraakvlak is (zie Is_Lead_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -3623,7 +3623,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Het berekende percentage dat aan dit aanraakpunt is toegewezen omdat het deel uitmaakt van een u-vormige aanraking (zie Is_First_Touch en Is_Lead_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -3637,7 +3637,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Het berekende percentage dat aan dit aanraakpunt is toegewezen omdat het deel uitmaakt van een w-vormige aanraking (zie Is_First_Touch, Is_Lead_Creation_Touch en Is_Opp_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0153374234214425</p>
+        <p>0,0153374234214425</p>
       </td>
     </tr>
     <tr>
@@ -3651,7 +3651,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Het berekende percentage dat aan dit aanraakpunt wordt toegewezen omdat het deel uitmaakt van een volledig padmodel (zie Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</p>
       </td>
       <td>
-        <p>0.0143061513081193</p>
+        <p>0,0143061513081193</p>
       </td>
     </tr>
     <tr>
@@ -3660,7 +3660,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>nummer(22,19)</td>
       <td>Het berekende percentage dat aan dit aanraakpunt wordt toegewezen omdat het deel uitmaakt van een aangepast model (zie Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</td>
-      <td>0.0143061513081193</td>
+      <td>0,0143061513081193</td>
     </tr>
     <tr>
       <td>
@@ -3778,19 +3778,19 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -3826,7 +3826,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
         <p>De id van het Lid van de Campagne van het bronsysteem.</p>
       </td>
       <td>
-        <p>00v0Z00001VVzdLQAT</p>
+        <p>00v0Z0001VVzdLQAT</p>
       </td>
     </tr>
     <tr>
@@ -3840,7 +3840,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
         <p>De laatste gewijzigde datum van het campagnelid, uit het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-31 20:49:54.000</p>
+        <p>2018-08-31 20:49:54,000</p>
       </td>
     </tr>
     <tr>
@@ -3854,7 +3854,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
         <p>De gecreeerde datum van het Lid van de Campagne, van het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-31 20:49:54.000</p>
+        <p>2018-08-31 20:49:54,000</p>
       </td>
     </tr>
     <tr>
@@ -3868,7 +3868,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
         <p>Datum en tijd die de klant instelt om de datum van de campagne te overschrijven en in plaats daarvan deze waarde voor de aanraakpuntdatum te gebruiken.</p>
       </td>
       <td>
-        <p>2018-08-30 18:00:00.000</p>
+        <p>2018-08-30 18:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -3966,7 +3966,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
         <p>Datum waarop het Campagne Lid voor het eerst antwoordde.</p>
       </td>
       <td>
-        <p>2018-08-30 07:00:00.000</p>
+        <p>2018-08-30 07:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -3994,7 +3994,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
         <p>Id van de gerelateerde campagne van het campagnelid maakt deel uit van.</p>
       </td>
       <td>
-        <p>7010Z000001TcKlQAK</p>
+        <p>7010Z00001TcKlQAK</p>
       </td>
     </tr>
     <tr>
@@ -4091,19 +4091,19 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -4173,20 +4173,20 @@ Marketingkanalen, zoals gemaakt in het dialoogvenster [!DNL Marketo Measure] toe
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record in Snowflake is gemaakt.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -4222,7 +4222,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
         <p>De contact-id van het bronsysteem.</p>
       </td>
       <td>
-        <p>0030Z00003OzioeQAB</p>
+        <p>0030Z00003OZOQAB</p>
       </td>
     </tr>
     <tr>
@@ -4236,7 +4236,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
         <p>Datum waarop de contactrecord voor het laatst is gewijzigd, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-09-05 05:17:53.000</p>
+        <p>2018-09-05 05:17:53,000</p>
       </td>
     </tr>
     <tr>
@@ -4250,7 +4250,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
         <p>De datum waarop de contactpersoonrecord is gemaakt, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-09-05 05:17:51.000</p>
+        <p>2018-09-05 05:17:51,000</p>
       </td>
     </tr>
     <tr>
@@ -4278,7 +4278,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
         <p>Identiteitskaart van de Rekening met betrekking tot het Contact.</p>
       </td>
       <td>
-        <p>0013100001b44aGAAQ</p>
+        <p>001310001b44aGAAQ</p>
       </td>
     </tr>
     <tr>
@@ -4405,19 +4405,19 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -4456,19 +4456,19 @@ Wisselkoersen die uit het bronsysteem zijn geïmporteerd.
       <td>START_DATE</td>
       <td>timestamp_ntz</td>
       <td>Begindatum van het conversietarief.</td>
-      <td>2018-11-01 00:00:00.000</td>
+      <td>2018-11-01:00:00,000</td>
     </tr>
     <tr>
       <td>END_DATE</td>
       <td>timestamp_ntz</td>
       <td>De volgende begindatum voor het Tarief van de Omzetting. (De einddatum voor het Tarief van de Omzetting is end_date minus 1 dag.)</td>
-      <td>2018-09-01 00:00:00.000</td>
+      <td>2018-09-01:00:00,000</td>
     </tr>
     <tr>
       <td>CONVERSION_RATE</td>
       <td>getal (38,0)</td>
       <td>De koers die wordt gebruikt om de valuta om te zetten in de bedrijfsvaluta.</td>
-      <td>0.76728300</td>
+      <td>0,76728300</td>
     </tr>
     <tr>
       <td>IS_CURRENT</td>
@@ -4480,13 +4480,13 @@ Wisselkoersen die uit het bronsysteem zijn geïmporteerd.
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in het bronsysteem.</td>
-      <td>2019-03-30 00:54:50.000</td>
+      <td>2019-03-30 00:54:50 000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum waarop de record voor het laatst is gewijzigd in het bronsysteem.</td>
-      <td>2019-03-30 00:54:50.000</td>
+      <td>2019-03-30 00:54:50 000</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
@@ -4498,19 +4498,19 @@ Wisselkoersen die uit het bronsysteem zijn geïmporteerd.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -4537,13 +4537,13 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst is gewijzigd.</td>
-      <td>2018-09-06 12:22:45.000</td>
+      <td>2018-09-06 12:22:45,000</td>
     </tr>
     <tr>
       <td>COST_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum waarop de kosten zijn gemaakt (of toegerekend aan).</td>
-      <td>2018-09-06 00:00:00.000</td>
+      <td>2018-09-06 00:00:00,000</td>
     </tr>
     <tr>
       <td>BRON</td>
@@ -5055,19 +5055,19 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -5263,7 +5263,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:25.000</p>
+        <p>2018-08-02 06:36:25,000</p>
       </td>
     </tr>
     <tr>
@@ -5277,7 +5277,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:25.000</p>
+        <p>2018-08-02 06:36:25,000</p>
       </td>
     </tr>
     <tr>
@@ -5556,19 +5556,19 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -5618,7 +5618,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
         <p>De datum waarop de gebeurtenis is gemaakt, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2016-12-12 19:32:53.000</p>
+        <p>2016-12-12 19:32:53,000</p>
       </td>
     </tr>
     <tr>
@@ -5632,7 +5632,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
         <p>Datum waarop de gebeurtenis voor het laatst is gewijzigd, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-09-03 08:39:51.000</p>
+        <p>2018-09-03 08:39:51,000</p>
       </td>
     </tr>
     <tr>
@@ -5646,7 +5646,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
         <p>Id voor de lead die aan de gebeurtenis is gekoppeld.</p>
       </td>
       <td>
-        <p>00Q0Z000013eVrxUAE</p>
+        <p>00Q0Z00013eVrxUAE</p>
       </td>
     </tr>
     <tr>
@@ -5730,7 +5730,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
         <p>Begindatum voor de gebeurtenis, een van de opties die wordt gebruikt om de datum van het aanraakpunt te bepalen.</p>
       </td>
       <td>
-        <p>2016-12-16 19:30:00.000</p>
+        <p>2016-12-16 19:30:00,000</p>
       </td>
     </tr>
     <tr>
@@ -5744,7 +5744,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
         <p>Einddatum voor de gebeurtenis, een van de opties die wordt gebruikt om de datum van het aanraakpunt te bepalen.</p>
       </td>
       <td>
-        <p>2016-12-16 21:30:00.000</p>
+        <p>2016-12-16:30:00,000</p>
       </td>
     </tr>
     <tr>
@@ -5769,19 +5769,19 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -5817,7 +5817,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
         <p>De Taak-id van het bronsysteem.</p>
       </td>
       <td>
-        <p>00T0Z00004Rf62rUAB</p>
+        <p>00T0Z0004Rf62rUAB</p>
       </td>
     </tr>
     <tr>
@@ -5831,7 +5831,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
         <p>Datum de Taak werd gecreeerd, van het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-27 18:30:25.000</p>
+        <p>2018-08-27 18:30:25,000</p>
       </td>
     </tr>
     <tr>
@@ -5845,7 +5845,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
         <p>Datum de Taak werd het laatst gewijzigd, van het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-27 18:31:53.000</p>
+        <p>2018-08-27 18:31:53,000</p>
       </td>
     </tr>
     <tr>
@@ -5859,7 +5859,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
         <p>Id voor de lood verbonden aan de Taak.</p>
       </td>
       <td>
-        <p>00Q0Z000013eVrxUAE</p>
+        <p>00Q0Z00013eVrxUAE</p>
       </td>
     </tr>
     <tr>
@@ -5943,7 +5943,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
         <p>De datum waarop de taak is uitgevoerd, is een van de opties die zijn gebruikt om de datum van het aanraakpunt te bepalen.</p>
       </td>
       <td>
-        <p>2018-08-27 07:00:00.000</p>
+        <p>2018-08-27 07:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -5968,19 +5968,19 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -6029,25 +6029,25 @@ Tabel van alle ISO-valuta&#39;s.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum waarop de record voor het laatst is gewijzigd in [!DNL Marketo Measure].</td>
-      <td>2018-08-27 18:30:25.000</td>
+      <td>2018-08-27 18:30:25,000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE_CRM</td>
       <td>timestamp_ntz</td>
       <td>Datum waarop de record voor het laatst is gewijzigd in het bronsysteem.</td>
-      <td>2018-08-27 18:30:25.000</td>
+      <td>2018-08-27 18:30:25,000</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in [!DNL Marketo Measure]</td>
-      <td>2018-08-27 18:30:25.000</td>
+      <td>2018-08-27 18:30:25,000</td>
     </tr>
     <tr>
       <td>CREATED_DATE_CRM</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in het bronsysteem.</td>
-      <td>2018-08-27 18:30:25.000</td>
+      <td>2018-08-27 18:30:25,000</td>
     </tr>
     <tr>
       <td>ISO_NUMERIC</td>
@@ -6071,19 +6071,19 @@ Tabel van alle ISO-valuta&#39;s.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -6140,13 +6140,13 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>
         <p>De datum waarop de chat is geregistreerd.</p>
       </td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst is gewijzigd.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
@@ -6234,19 +6234,19 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -6303,13 +6303,13 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
       <td>
         <p>De datum waarop de gebeurtenis is geactiveerd vanuit het aangepaste javascript.</p>
       </td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De laatste datum waarop de record is gewijzigd.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>
@@ -6363,19 +6363,19 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -6648,19 +6648,19 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -6732,7 +6732,7 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
         <p>De laatste gewijzigde datum van de rij</p>
       </td>
       <td>
-        <p>2018-08-14 23:55:03.000</p>
+        <p>2018-08-14:55:03,000</p>
       </td>
     </tr>
     <tr>
@@ -6746,7 +6746,7 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
         <p>De gemaakte datum van de rij</p>
       </td>
       <td>
-        <p>2018-08-14 23:55:03.000</p>
+        <p>2018-08-14:55:03,000</p>
       </td>
     </tr>
     <tr>
@@ -6773,19 +6773,19 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -7120,13 +7120,13 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>DATE</td>
       <td>date</td>
       <td>De datum waarop de gebeurtenis heeft plaatsgevonden.</td>
-      <td>2018-08-28</td>
+      <td>28-08-2018</td>
     </tr>
     <tr>
       <td>TIJDSTEMPEL</td>
       <td>timestamp_ntz</td>
       <td>Datum en tijd waarop de gebeurtenis heeft plaatsgevonden.</td>
-      <td>2018-08-28 19:39:15.000</td>
+      <td>2018-08-28 19:39:15 000</td>
     </tr>
     <tr>
       <td>
@@ -7139,7 +7139,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>De datum waarop de rij voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-29 00:46:47.000</p>
+        <p>2018-08-29:46:47,000</p>
       </td>
     </tr>
     <tr>
@@ -7192,7 +7192,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>
         <p>Het berekende percentage dat aan dit aanraakpunt is toegewezen omdat het een eerste aanraking is.</p>
       </td>
-      <td>0.0000000000000000000</td>
+      <td>0,0000000000000000000</td>
     </tr>
     <tr>
       <td>
@@ -7204,7 +7204,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>
         <p>Het berekende percentage dat is toegewezen aan dit aanraakpunt omdat het een aanraakaanraakaanraakaanraakaanraakpunt is.</p>
       </td>
-      <td>100.0000000000000000000</td>
+      <td>100,0000000000000000000</td>
     </tr>
     <tr>
       <td>
@@ -7217,7 +7217,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>Het berekende percentage dat wordt toegewezen aan dit aanraakpunt omdat het deel uitmaakt van een u-vormige aanraking.</p>
       </td>
       <td>
-        <p>100.0000000000000000000</p>
+        <p>100,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -7231,7 +7231,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>Het berekende percentage dat wordt toegewezen aan dit aanraakpunt omdat het deel uitmaakt van een w-vormige aanraking.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -7245,7 +7245,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>Het berekende percentage dat aan dit aanraakpunt wordt toegewezen omdat het deel van een volledig wegmodel uitmaakt.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -7259,7 +7259,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>Het berekende percentage dat aan dit aanraakpunt wordt toegewezen omdat het deel van een douanemodel uitmaakt.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -7273,7 +7273,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>Hoeveelheid van de Kans, van het bronsysteem.</p>
       </td>
       <td>
-        <p>42000.00000000</p>
+        <p>42000,00000000</p>
       </td>
     </tr>
     <tr>
@@ -7315,7 +7315,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>Opportunity-id van het bronsysteem.</p>
       </td>
       <td>
-        <p>0060Z00000nFEfEQAW</p>
+        <p>0060Z0000nFEfEQAW</p>
       </td>
     </tr>
     <tr>
@@ -7329,7 +7329,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>De datum waarop de Opportunity is gemaakt, vanuit het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-31 15:45:47.000</p>
+        <p>2018-08-31 15:45:47,000</p>
       </td>
     </tr>
     <tr>
@@ -7343,7 +7343,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>Dichte datum voor de Kans, van het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-12-31 07:00:00.000</p>
+        <p>12-31-07:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -7356,7 +7356,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>
         <p>De datum waarop de contactpersoonrecord is gemaakt, via het bronsysteem.</p>
       </td>
-      <td>2017-04-28 00:21:52.000</td>
+      <td>2017-04-28 00:21:52,000</td>
     </tr>
     <tr>
       <td>
@@ -7389,7 +7389,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
         <p>De datum waarop de lead-record is gemaakt, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2017-04-28 00:21:52.000</p>
+        <p>2017-04-28 00:21:52,000</p>
       </td>
     </tr>
     <tr>
@@ -7564,19 +7564,19 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -7668,7 +7668,7 @@ Vastgelegde formulierverzendingen.
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
       <td>
-        <p>2018-08-06 01:35:21.000</p>
+        <p>2018-08-06:35:21 000</p>
       </td>
     </tr>
     <tr>
@@ -7682,7 +7682,7 @@ Vastgelegde formulierverzendingen.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-07 23:09:52.000</p>
+        <p>2018-08-07 23:09:52,000</p>
       </td>
     </tr>
     <tr>
@@ -7724,7 +7724,7 @@ Vastgelegde formulierverzendingen.
         <p>Het opgenomen IP-adres op het moment dat het formulier werd verzonden.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174 127 184 158</p>
       </td>
     </tr>
     <tr>
@@ -7774,7 +7774,7 @@ Vastgelegde formulierverzendingen.
       </td>
       <td>Wordt gebruikt voor interne controle en verwerking.</td>
       <td>
-        <p>20042b6b7af44512b43f6244d86faf4c</p>
+        <p>20042b6b7af4512b43f6244d86faf4c</p>
       </td>
     </tr>
     <tr>
@@ -7877,19 +7877,19 @@ Vastgelegde formulierverzendingen.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -7974,7 +7974,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>De datum waarop de depressie is opgetreden.</p>
       </td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>
@@ -7986,7 +7986,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>
@@ -8022,7 +8022,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>Het opgenomen IP-adres op het moment van de onderdrukking.</p>
       </td>
-      <td>174.127.184.158</td>
+      <td>174 127 184 158</td>
     </tr>
     <tr>
       <td>
@@ -8069,7 +8069,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       </td>
       <td>Wordt gebruikt voor interne controle en verwerking.</td>
       <td>
-        <p>20042b6b7af44512b43f6244d86faf4c</p>
+        <p>20042b6b7af4512b43f6244d86faf4c</p>
       </td>
     </tr>
     <tr>
@@ -8628,19 +8628,19 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -8837,7 +8837,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
-      <td>2018-08-02 06:37:29.000</td>
+      <td>2018-08-02 06:37:29,000</td>
     </tr>
     <tr>
       <td>
@@ -8850,7 +8850,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:37:29.000</p>
+        <p>2018-08-02 06:37:29,000</p>
       </td>
     </tr>
     <tr>
@@ -9053,19 +9053,19 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -9320,19 +9320,19 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -9382,7 +9382,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
         <p>De datum waarop de lead-record voor het laatst is gewijzigd, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-27 21:52:10.000</p>
+        <p>2018-08-27:52:10 000</p>
       </td>
     </tr>
     <tr>
@@ -9395,7 +9395,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>De datum waarop de lead-record is gemaakt, via het bronsysteem.</p>
       </td>
-      <td>2018-08-27 21:52:10.000</td>
+      <td>2018-08-27:52:10 000</td>
     </tr>
     <tr>
       <td>
@@ -9476,7 +9476,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
         <p>Id van de gerelateerde opportunity zodra de lead is omgezet.</p>
       </td>
       <td>
-        <p>0013100001b44aGAAQ</p>
+        <p>001310001b44aGAAQ</p>
       </td>
     </tr>
     <tr>
@@ -9490,7 +9490,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
         <p>De datum waarop de lead is omgezet in een contactpersoon.</p>
       </td>
       <td>
-        <p>2018-08-27 07:00:00.000</p>
+        <p>2018-08-27 07:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -9504,7 +9504,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
         <p>Identiteitskaart van het verwante Contact zodra de Lood is omgezet.</p>
       </td>
       <td>
-        <p>0030Z00003Oyp25QAB</p>
+        <p>0030Z0003OYP25QAB</p>
       </td>
     </tr>
     <tr>
@@ -9659,19 +9659,19 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -9735,7 +9735,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
         <p>Id voor de lead die aan de overgang is gekoppeld.</p>
       </td>
       <td>
-        <p>00Q3100001Fx6AlEAJ</p>
+        <p>00Q310001Fx6AlEAJ</p>
       </td>
     </tr>
     <tr>
@@ -9777,7 +9777,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
         <p>Datum waarop de record naar het werkgebied is overgebracht.</p>
       </td>
       <td>
-        <p>2018-08-27 16:05:34.000</p>
+        <p>2018-08-27 16:05:34,000</p>
       </td>
     </tr>
     <tr>
@@ -9887,7 +9887,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
         <p>Overgangsdatum voor de vorige fase, volgens de positie van het werkgebied.</p>
       </td>
       <td>
-        <p>2017-11-28 21:26:44.000</p>
+        <p>2017-11-28:26:44,000</p>
       </td>
     </tr>
     <tr>
@@ -9901,7 +9901,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
         <p>Overgangsdatum voor de volgende fase, volgens de positie van het werkgebied.</p>
       </td>
       <td>
-        <p>2017-12-11 22:39:17.000</p>
+        <p>22-12-11 22:39:17 000</p>
       </td>
     </tr>
     <tr>
@@ -9915,7 +9915,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
         <p>Datum van laatste wijziging van de record.</p>
       </td>
       <td>
-        <p>2018-08-28 15:31:10.000</p>
+        <p>2018-08-28 15:31:10 000</p>
       </td>
     </tr>
     <tr>
@@ -9936,19 +9936,19 @@ Werkgebiedovergangen voor leads of contactpersonen.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -9984,7 +9984,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
         <p>De opportunity-id van het bronsysteem.</p>
       </td>
       <td>
-        <p>0060Z00000o89I4QAI</p>
+        <p>0060Z0000o89I4QAI</p>
       </td>
     </tr>
     <tr>
@@ -9997,7 +9997,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>De laatste gewijzigde datum van de Kans, van het bronsysteem.</p>
       </td>
-      <td>2017-11-28 21:26:44.000</td>
+      <td>2017-11-28:26:44,000</td>
     </tr>
     <tr>
       <td>
@@ -10009,7 +10009,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>De gecreeerde datum van de Kans, van het bronsysteem.</p>
       </td>
-      <td>2017-11-28 21:26:44.000</td>
+      <td>2017-11-28:26:44,000</td>
     </tr>
     <tr>
       <td>
@@ -10022,7 +10022,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
         <p>Id van de verwante account.</p>
       </td>
       <td>
-        <p>001i000000qbyeoAAA</p>
+        <p>001i00000qbyeoAAA</p>
       </td>
     </tr>
     <tr>
@@ -10078,7 +10078,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
         <p>Verwacht of daadwerkelijke sluitingsdatum van de Kans, van het bronsysteem.</p>
       </td>
       <td>
-        <p>2019-08-28 07:00:00.000</p>
+        <p>2019-08-28 07:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -10106,7 +10106,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
         <p>Het bedrag van de overeenkomst dat van de Kans, van het bronsysteem wordt verwacht of gesloten.</p>
       </td>
       <td>
-        <p>8988.00000000</p>
+        <p>8988,00000000</p>
       </td>
     </tr>
     <tr>
@@ -10257,19 +10257,19 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -10319,7 +10319,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Id voor de account die aan de opportunity is gekoppeld.</p>
       </td>
       <td>
-        <p>0013100001b44nTAAQ</p>
+        <p>001310001b44nTAAK</p>
       </td>
     </tr>
     <tr>
@@ -10333,7 +10333,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Id voor de Opportunity die aan de overgang is gekoppeld.</p>
       </td>
       <td>
-        <p>0060Z00000nEgjlQAC</p>
+        <p>0060Z0000nEgjlQAC</p>
       </td>
     </tr>
     <tr>
@@ -10347,7 +10347,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Id voor de contactpersoon die aan de overgang is gekoppeld.</p>
       </td>
       <td>
-        <p>0030Z00003IjojKQAR</p>
+        <p>0030Z0003IjojKQAR</p>
       </td>
     </tr>
     <tr>
@@ -10389,7 +10389,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Datum waarop de record naar het werkgebied is overgebracht.</p>
       </td>
       <td>
-        <p>2018-05-26 07:29:43.000</p>
+        <p>2018-05-26:29:43,000</p>
       </td>
     </tr>
     <tr>
@@ -10497,7 +10497,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Overgangsdatum voor de vorige fase, volgens de positie van het werkgebied.</p>
       </td>
       <td>
-        <p>2015-07-16 17:41:49.000</p>
+        <p>2015-07-16 17:41:49,000</p>
       </td>
     </tr>
     <tr>
@@ -10511,7 +10511,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Overgangsdatum voor de volgende fase, volgens de positie van het werkgebied.</p>
       </td>
       <td>
-        <p>2018-08-27 19:40:52.000</p>
+        <p>2018-08-27 19:40:52,000</p>
       </td>
     </tr>
     <tr>
@@ -10525,7 +10525,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Datum van laatste wijziging van de record.</p>
       </td>
       <td>
-        <p>2018-08-28 03:53:33.000</p>
+        <p>2018-08-28 03:53:33,000</p>
       </td>
     </tr>
     <tr>
@@ -10546,19 +10546,19 @@ Werkgebiedovergangen voor opportunity.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -10650,7 +10650,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
         <p>De datum waarop de paginaweergave is opgetreden.</p>
       </td>
       <td>
-        <p>2018-08-19 16:49:58.000</p>
+        <p>2018-08-19 16:49:58,000</p>
       </td>
     </tr>
     <tr>
@@ -10664,7 +10664,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-19 16:55:37.000</p>
+        <p>2018-08-19 16:55:37,000</p>
       </td>
     </tr>
     <tr>
@@ -10706,7 +10706,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
         <p>Het opgenomen IP-adres op het moment dat het formulier werd verzonden.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174 127 184 158</p>
       </td>
     </tr>
     <tr>
@@ -10871,19 +10871,19 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -11060,7 +11060,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
-      <td>2018-08-02 06:36:25.000</td>
+      <td>2018-08-02 06:36:25,000</td>
     </tr>
     <tr>
       <td>
@@ -11072,7 +11072,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
-      <td>2018-08-02 06:36:25.000</td>
+      <td>2018-08-02 06:36:25,000</td>
     </tr>
     <tr>
       <td>
@@ -11148,20 +11148,20 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>Door de Snowflake gemaakte datum van de record</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>Gewijzigde datum van de record van de Snowflake</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake verwijderd</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>Snowflake heeft de verwijderde datum van de record indien deze verwijderd is</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -11232,19 +11232,19 @@ Segmentwaarden zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] t
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -11294,7 +11294,7 @@ Wijst de naam van het douanesegment aan het zijn categoriewaarde toe. (Hiermee w
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2022-02-28 18:12:35.000</p>
+        <p>2022-02-28 18:12:35,000</p>
       </td>
     </tr>
     <tr>
@@ -11327,19 +11327,19 @@ Wijst de naam van het douanesegment aan het zijn categoriewaarde toe. (Hiermee w
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -11413,7 +11413,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Datum van de sessie.</p>
       </td>
       <td>
-        <p>2016-08-01 14:24:21.000</p>
+        <p>2016-08-01 14:24:21 000</p>
       </td>
     </tr>
     <tr>
@@ -11427,7 +11427,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-09-01 03:49:10.000</p>
+        <p>2018-09-01 03:49:10 000</p>
       </td>
     </tr>
     <tr>
@@ -11461,7 +11461,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Naam van de webpagina.</p>
       </td>
       <td>
-        <p>Salesforce Google Analytics | [!DNL Marketo Measure]</p>
+        <p>Salesforce-Googles Analytics | [!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -11811,7 +11811,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Naam van de advertentiegroep waaruit de advertentie is opgelost. Dit geldt alleen voor Google Adwords.</p>
       </td>
       <td>
-        <p>Salesforce - Google Analytics</p>
+        <p>Salesforce - Googles Analytics</p>
       </td>
     </tr>
     <tr>
@@ -12003,7 +12003,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Geparseerd van URL van utm_medium.</p>
       </td>
       <td>
-        <p>Sociaal</p>
+        <p>Social</p>
       </td>
     </tr>
     <tr>
@@ -12095,7 +12095,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Het opgenomen IP-adres op het moment dat de sessie wordt gehouden.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174 127 184 158</p>
       </td>
     </tr>
     <tr>
@@ -12196,19 +12196,19 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -12391,7 +12391,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
-      <td>2018-08-02 06:37:29.000</td>
+      <td>2018-08-02 06:37:29,000</td>
     </tr>
     <tr>
       <td>
@@ -12403,7 +12403,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
-      <td>2018-08-02 06:37:29.000</td>
+      <td>2018-08-02 06:37:29,000</td>
     </tr>
     <tr>
       <td>
@@ -12482,19 +12482,19 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -12692,7 +12692,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
         <p>De laatste gewijzigde datum van de rij</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:50.000</p>
+        <p>2018-08-02 06:36:50 000</p>
       </td>
     </tr>
     <tr>
@@ -12706,7 +12706,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
         <p>De datum waarop de sitekoppeling voor het eerst is gedownload [!DNL Marketo Measure]</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:50.000</p>
+        <p>2018-08-02 06:36:50 000</p>
       </td>
     </tr>
     <tr>
@@ -12820,20 +12820,20 @@ Plaatst koppelingen van een verbonden advertentiekader.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>Door de Snowflake gemaakte datum van de record</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>Gewijzigde datum van de record van de Snowflake</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake verwijderd</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>Snowflake heeft de verwijderde datum van de record indien deze verwijderd is</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -12869,7 +12869,7 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
         <p>Een unieke id voor het werkgebied.</p>
       </td>
       <td>
-        <p>01J3100000QE753EAD</p>
+        <p>01J310000QE753EAD</p>
       </td>
     </tr>
     <tr>
@@ -12883,7 +12883,7 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-22 17:27:27.000</p>
+        <p>2018-08-22 17:27:27 000</p>
       </td>
     </tr>
     <tr>
@@ -12963,7 +12963,7 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
         <p>Status van het werkgebied, zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] werkgebiedtoewijzing van de toepassing.</p>
       </td>
       <td>
-        <p>Open</p>
+        <p>Openen</p>
       </td>
     </tr>
     <tr>
@@ -13024,19 +13024,19 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -13078,7 +13078,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-29 22:29:30.000</p>
+        <p>22-08-29 22:29:30 000</p>
       </td>
     </tr>
     <tr>
@@ -13103,7 +13103,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>Id voor de contactpersoon die aan het BT is gekoppeld.</p>
       </td>
-      <td>0030Z00003K5bpKQAR</td>
+      <td>0030Z0003K5bpKQAR</td>
     </tr>
     <tr>
       <td>
@@ -13116,7 +13116,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>Id voor de account die aan het BT is gekoppeld.</p>
       </td>
       <td>
-        <p>0013100001lSLScAAO</p>
+        <p>001310001lSLScAO</p>
       </td>
     </tr>
     <tr>
@@ -13130,7 +13130,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>Id voor de lead die aan het BT is gekoppeld.</p>
       </td>
       <td>
-        <p>00Q0Z000013e2PYUAY</p>
+        <p>00Q0Z00013e2PYUAY</p>
       </td>
     </tr>
     <tr>
@@ -13178,7 +13178,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>Datum van het aanraakpunt.</p>
       </td>
       <td>
-        <p>2018-08-27 20:04:40.000</p>
+        <p>2018-08-27:04:40 000</p>
       </td>
     </tr>
     <tr>
@@ -13209,7 +13209,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY1</p>
+        <p>CATEGORIE1</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13221,7 +13221,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY2</p>
+        <p>CATEGORIE2</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13235,7 +13235,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY3</p>
+        <p>CATEGORIE3</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13249,7 +13249,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY4</p>
+        <p>CATEGORIE4</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13263,7 +13263,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY5</p>
+        <p>CATEGORIE5</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13275,7 +13275,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY6</p>
+        <p>CATEGORIE6</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13287,7 +13287,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY7</p>
+        <p>CATEGORIE7</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13297,7 +13297,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY8</p>
+        <p>CATEGORIE8</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13307,7 +13307,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY9</p>
+        <p>CATEGORIE9</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13317,7 +13317,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY10</p>
+        <p>CATEGORIE10</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13327,7 +13327,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY11</p>
+        <p>CATEGORIE11</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13337,7 +13337,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY12</p>
+        <p>CATEGORIE12</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13347,7 +13347,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY13</p>
+        <p>CATEGORIE13</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13357,7 +13357,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY14</p>
+        <p>CATEGORIE14</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13369,7 +13369,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     </tr>
     <tr>
       <td>
-        <p>CATEGORY15</p>
+        <p>CATEGORIE15</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13516,7 +13516,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
       <td>
-        <p>2017-06-20 01:06:41.000</p>
+        <p>01-06-20:06:41,000</p>
       </td>
     </tr>
     <tr>
@@ -13572,7 +13572,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>Hiermee definieert u het medium dat tot het aanraakpunt heeft geleid. Dit kan worden geparseerd vanaf de URL vanaf utm_medium. Of, als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "cpc" of "display".</p>
       </td>
       <td>
-        <p>Sociaal</p>
+        <p>Social</p>
       </td>
     </tr>
     <tr>
@@ -14222,19 +14222,19 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -14246,120 +14246,70 @@ Samenvoeging van URL&#39;s van bestemmingspagina&#39;s, verwijzingspagina&#39;s,
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>De volledige URL.</p>
-      </td>
-      <td>
-        <p>https://www.adobe.com/blog/strategic-marketing-plangoals</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>De volledige URL.</td>
+      <td>https://www.adobe.com/blog/strategic-marketing-plangoals</td>
     </tr>
     <tr>
-      <td>
-        <p>SCHEMA</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>De veilige communicatie van de webpagina via het netwerk.</p>
-      </td>
-      <td>
-        <p>https</p>
-      </td>
+      <td>SCHEMA</td>
+      <td>varchar</td>
+      <td>De veilige communicatie van de webpagina via het netwerk.</td>
+      <td>https</td>
     </tr>
     <tr>
-      <td>
-        <p>HOST</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Het domein van de URL, met alle subdomeinen.</p>
-      </td>
-      <td>
-        <p>www.adobe.com</p>
-      </td>
+      <td>HOST</td>
+      <td>varchar</td>
+      <td>Het domein van de URL, met alle subdomeinen.</td>
+      <td>www.adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>POORT</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>De poort van een internethost, optioneel in een URL.</p>
-      </td>
-      <td>
-        <p>584</p>
-      </td>
+      <td>PAGINA_TITEL</td>
+      <td>varchar</td>
+      <td>Titel van de pagina.</td>
+      <td>De Gids van de GMO aan de Download van de Attributen van de Marketing B2B</td>
     </tr>
     <tr>
-      <td>
-        <p>PAD</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Het gedeelte van de URL dat naar een specifieke locatie op de host verwijst.</p>
-      </td>
-      <td>
-        <p>/blog/strategische-marketing-planGoals</p>
-      </td>
+      <td>PAD</td>
+      <td>varchar</td>
+      <td>Het gedeelte van de URL dat naar een specifieke locatie op de host verwijst.</td>
+      <td>/blog/strategische-marketing-planGoals</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>getal (38,0)</p>
-      </td>
-      <td>
-        <p>Foreign Key to the Biz_Facts view.</p>
-      </td>
-      <td>
-        <p>5686109553536636820</p>
-      </td>
+      <td>POORT</td>
+      <td>varchar</td>
+      <td>De poort van een internethost, optioneel in een URL.</td>
+      <td>584</td>
+    </tr>
+    <tr>
+      <td>ROW_KEY</td>
+      <td>getal (38,0)</td>
+      <td>Foreign Key to the Biz_Facts view.</td>
+      <td>5686109553536636820</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -14409,7 +14359,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-09-05 23:30:53.000</p>
+        <p>2018-09-05 23:30:53,000</p>
       </td>
     </tr>
     <tr>
@@ -14451,7 +14401,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>Id voor het Campagne Lid dat tot het Aanraakpunt van de Gebruiker leidde.</p>
       </td>
       <td>
-        <p>00v0Z00001VTgv1QAD</p>
+        <p>00v0Z0001VTgv1QAD</p>
       </td>
     </tr>
     <tr>
@@ -14471,7 +14421,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>Id voor de gebeurtenis die het aanraakpunt voor de gebruiker heeft gemaakt.</p>
       </td>
       <td>
-        <p>00U0Z00000pCZmyUAG</p>
+        <p>00U0Z0000pCZmyUAG</p>
       </td>
     </tr>
     <tr>
@@ -14485,7 +14435,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>TId voor de Taak die tot het Aanraakpunt van de Gebruiker leidde.</p>
       </td>
       <td>
-        <p>00T0Z00004Qbd1jUAB</p>
+        <p>00T0Z0004Qbd1jUAB</p>
       </td>
     </tr>
     <tr>
@@ -14498,7 +14448,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>Id voor de Indruk die tot het Aanraakpunt van de Gebruiker leidde.</p>
       </td>
-      <td>00T0Z00004Qbd1jUAB</td>
+      <td>00T0Z0004Qbd1jUAB</td>
     </tr>
     <tr>
       <td>IS_FIRST_KNOWN_TOUCH</td>
@@ -14523,7 +14473,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>De datum waarop het aanraakpunt voor de gebruiker is opgetreden.</p>
       </td>
       <td>
-        <p>2018-01-05 16:47:02.000</p>
+        <p>2018-01-05 16:47:02,000</p>
       </td>
     </tr>
     <tr>
@@ -14705,7 +14655,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
       <td>
-        <p>2015-06-03 17:49:10.000</p>
+        <p>2015-06-03 17:49:10 000</p>
       </td>
     </tr>
     <tr>
@@ -15248,26 +15198,26 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_WEB_HOST_MAPPINGS {#biz-web-host-mappings}
 
-Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe ECID en Munckin-id.
+Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID en Munckin-id.
 
 <table>
   <tbody>
@@ -15334,7 +15284,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe ECID 
       <td>timestamp_ntz</td>
       <td>De datum waarop de toewijzing is vastgelegd.</td>
       <td>
-        <p>2020-06-17 19:03:36.000</p>
+        <p>2020-06-17 19:03:36,000</p>
       </td>
     </tr>
     <tr>
@@ -15346,7 +15296,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe ECID 
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2020-06-17 19:03:36.000</p>
+        <p>2020-06-17 19:03:36,000</p>
       </td>
     </tr>
     <tr>
@@ -15376,7 +15326,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe ECID 
       </td>
       <td>Het opgenomen IP-adres.</td>
       <td>
-        <p>159.203.142.127</p>
+        <p>15.203.142.127</p>
       </td>
     </tr>
     <tr>
@@ -15445,19 +15395,19 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe ECID 
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>01-01-01:01:00,000</td>
     </tr>
   </tbody>
 </table>
