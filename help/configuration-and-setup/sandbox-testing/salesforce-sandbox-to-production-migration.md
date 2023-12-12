@@ -4,9 +4,9 @@ description: Salesforce Sandbox naar productie-migratie - [!DNL Marketo Measure]
 title: Salesforce Sandbox naar productie-migratie
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: ad658a513b01dc7a51299abcb7313ff1877e49f3
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Als u ervoor kiest om te testen [!DNL Marketo Measure] in een [!DNL Salesforce] De zandbakomgeving, volg deze instructies om naar Productie te migreren zodra u klaar bent. In de volgende instructies wordt ervan uitgegaan dat u de [!DNL Marketo Measure] in uw Sandbox-org, heeft de vereiste test uitgevoerd en is klaar om te drukken [!DNL Marketo Measure] naar Productie.
 
-## Stap 1: installeren [!DNL Marketo Measure] Pakketten in uw productie [!DNL Salesforce] Instantie {#install-marketo-measure-packages-into-your-production-salesforce-instance}
+## Stap 1: Installeer de [!DNL Marketo Measure] Pakket maken in uw productie [!DNL Salesforce] Instantie
 
-* De twee apparaten installeren [!DNL Marketo Measure] verpakt in Production met de &quot;[!UICONTROL All Users]&quot;-instelling
+* Installeer de [!DNL Marketo Measure] in Productie inpakken met &quot;[!UICONTROL All Users]&quot;-instelling
 
    * [Basispakket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
@@ -39,9 +39,9 @@ Als u ervoor kiest om te testen [!DNL Marketo Measure] in een [!DNL Salesforce] 
 ## Stap 3: Verbind de Instantie van CRM van de Productie in [!DNL Marketo Measure] App {#connect-the-production-crm-instance-in-marketo-measure-app}
 
 * Aanmelden bij de [!DNL Marketo Measure] toepassing op experience.adobe.com/marketo-measure
-* Ga naar [!UICONTROL My Account] >[!UICONTROL Settings] > [!UICONTROL Connections]
+* Navigeren naar [!UICONTROL My Account] >[!UICONTROL Settings] > [!UICONTROL Connections]
 * Als het verwijderen van de Sandbox-verbinding is voltooid, verdwijnt de verbinding van de pagina. Als dit niet het geval is, blijft de verbinding aanwezig met de status &quot;Deletion in progress&quot;
-* Klik op &quot;[!UICONTROL Set up New CRM connection]&quot;
+* Klik op ‘[!UICONTROL Set up New CRM connection]&quot;
 * In het veld &quot;[!UICONTROL Select CRM Connection]&quot;, klikt u op de knop &quot;[!UICONTROL Connect]&quot; Actie naast de [!DNL Salesforce] Platform, selecteer &quot;[!UICONTROL Production]&quot;, optie
 * U wordt gevraagd uw referenties in te voeren. Geef aanmeldingsgegevens voor de productie op
 
