@@ -3,11 +3,11 @@ cloud: Experience Cloud
 product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
-user-guide-description: "[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen."
-source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
+user-guide-description: "[!DNL Marketo Measure] geeft marketeers inzicht in welke marketinginspanningen het meest effectief zijn in het aansturen van inkomsten voor hun bedrijf . "
+source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 3%
+source-wordcount: '806'
+ht-degree: 0%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 3%
       + [Aanbevolen werkwijzen voor aanraakpuntinstellingen](advanced-marketo-measure-features/touchpoint-settings/best-practices-for-touchpoint-settings.md)
       + [Aanraakpunt verwijderen en onderdrukking aanraakpunt](advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
       + [Waarom u geen aanraakpunten wilt verwijderen](advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
-   + Segmentatie {#segmentation}
+   + Segmentering {#segmentation}
       + [Beste praktijken voor Segmentatie](advanced-marketo-measure-features/segmentation/best-practices-for-segmentation.md)
       + [Aangepaste segmentatie](advanced-marketo-measure-features/segmentation/custom-segmentation.md)
    + Activiteitenkenmerk {#activities-attribution}
@@ -154,6 +154,7 @@ ht-degree: 3%
       + [Nieuwe Discover-dashboardgids](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [Dashboard overzicht van inkomsten](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [Toegewezen belastingdashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+        [Betrokkenheidsdashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
       + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Paspoort-dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
       + [Webverkeersdashboard](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
@@ -236,5 +237,5 @@ ht-degree: 3%
       + [Verwijderen [!DNL Marketo Measure] Parameters bijhouden van de URL van de bestemmingspagina in Googles Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Overgang naar [!DNL Marketo Measure] van volledige cirkel](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
    + [Testen](miscellaneous/test.md)
-+ Aanvullende informatie {#release-notes}
++ Opmerkingen bij de release {#release-notes}
    + [Opmerkingen bij de huidige release](release-notes/current.md)
