@@ -1,11 +1,11 @@
 ---
-description: Actuele aanvullende informatie -  [!DNL Marketo Measure]  - Productdocumentatie
+description: Opmerkingen bij de huidige release - [!DNL Marketo Measure] - Productdocumentatie
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
+source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,69 @@ Hieronder vindt u alle nieuwe en bijgewerkte functies voor onze 2023-releases.
 ## Versie Q4 {#q4-release}
 
 <p>
+
+**Webverkeersdashboard**
+
+Het nieuwe ontwerp [Webverkeersdashboard](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} is nu toegankelijk voor alle klanten. Dit dashboard biedt een volledig overzicht van de interactie van de bezoeker van uw website. U kunt metingen analyseren, zoals het aantal unieke bezoekers per URL, algemene bezoeken, paginaweergaven en formulierverzendingen van specifieke formulier-URL&#39;s of landingspagina&#39;s. U kunt ook de maandelijkse verkeerstendensen volgen en high-performance betaalde media identificeren, die u zullen helpen uw strategieën voor optimale opbrengstgeneratie verfijnen.
+
+De nieuwe set van vooraf gebouwde dashboards zal naar verwachting in golven worden geïntroduceerd, die voor het eind van het jaar zullen aflopen.
+
+>[!NOTE]
+>
+>Hoewel de huidige dashboards tegen medio Januari 2024 zullen worden verouderd, kunt u beide versies tot dan gebruiken, die een vlotte overgang verzekeren.
+
+**IP-adresgegevens verwijderen**
+
+Wij verwijderen IP adresgegevens uit onze opslag op lange termijn om naleving van de gegevensprivacy te verzekeren. Momenteel, bevatten de volgende lijsten en de meningen van de Snowflake IP adressen, en wij zijn van plan om deze gegevens te verwijderen en nieuwe geolocatieinformatie toe te voegen:
+
+<table style="width:400px">
+<thead>
+  <tr>
+    <th style="width:50%">Tabellen</th>
+    <th>Weergaven</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>CUSTOMER_AB_TESTS</td>
+    <td>BIZ_CUSTOMER_AB_TESTS</td>
+  </tr>
+  <tr>
+    <td>CUSTOMER_EVENTS</td>
+    <td>BIZ_CUSTOMER_EVENTS</td>
+  </tr>
+  <tr>
+    <td>FORM_SUBMITS</td>
+    <td>BIZ_FORM_SUBMITS</td>
+  </tr>
+  <tr>
+    <td>IMPRESSIES</td>
+    <td>BIZ_IMPRESSIONS</td>
+  </tr>
+  <tr>
+    <td>PAGE_VIEWS</td>
+    <td>BIZ_PAGE_VIEWS</td>
+  </tr>
+  <tr>
+    <td>SESSIES</td>
+    <td>BIZ_SESSIONS</td>
+  </tr>
+  <tr>
+    <td>WEB_HOST_MAPPINGS</td>
+    <td>BIZ_WEB_HOST_MAPPINGS</td>
+  </tr>
+</tbody>
+</table>
+
+* Vanaf nu downloaden we landcode, plaatsnaam en regiocode in plaats van de landnaam, plaatsnaam en gebiedsnaam.
+* Tijdens de verwerking van alle historische webactiviteiten kunnen zich inconsistenties in locatiegegevens tussen records voordoen. Deze inconsistenties kunnen de aanwezigheid van IP-adressen zonder geolocatiegegevens, bijgewerkte geolocatiegegevens zonder IP-adressen of een combinatie van land- of regionamen en codes omvatten.
+* _**Deze periode van gemengde gegevens zal naar verwachting plaatsvinden van 01/04/2023 tot en met 02/29/2023.**_
+
+**Gegevens paginatitel in URL-tabel**
+
+De URL-tabel in het dialoogvenster [data-entrepot](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} bevat nu naast webgegevenstabellen ook een veld voor de paginatitel.
+
+De paginatitel in de URL-tabel komt mogelijk niet altijd overeen met de paginatitel in andere webtabellen. De URL-tabel krijgt de titel van de meest recente pagina. Als de titel voor de URL is gewijzigd nadat de webactiviteit heeft plaatsgevonden, komt deze niet overeen met de titel in de URL-tabel.
 
 **Opnieuw ontwerpen van dashboard detecteren**
 
@@ -39,15 +102,54 @@ De nieuwe set van vooraf gebouwde dashboards zal naar verwachting in golven word
 
 <p>
 
-* **Veld &quot;custom_properties&quot;**
+* **Salesforce-veldvervorming**
 
-In ons gegevenspakhuis, heeft het gebied &quot;custom_properties&quot;dienst als opslag voor extra gegevenspunten die niet door ons vaste schema worden behandeld. Opgeslagen in JSON-indeling is het gebruik van dit veld beperkt en kan de integratie ervan met SQL-query&#39;s ingewikkeld zijn, wat van invloed is op de prestaties. Gezien deze factoren hebben we besloten dit veld af te schaffen. Deze verandering zal hoofdzakelijk de gegevensverwerkingslaag binnen onze Azure lijstopslag en de gegevens beïnvloeden die naar ons gegevenspakhuis worden uitgevoerd.
+We zullen onze exporttaken geleidelijk afschaffen naar objecten Lead/Contact om onze integratie te vereenvoudigen en de noodzaak om te exporteren naar standaardobjecten van Salesforce te elimineren. De hieronder vermelde gedenormaliseerde velden worden ook afgekeurd, omdat klanten dezelfde gegevens kunnen verkrijgen van hun Touchpoint-objecten. _**De tijdslijn van afschrijving is juni 2024.**_
+
+<table style="width:300px">
+<tbody>
+  <tr>
+    <td>bizible2_Ad_Campaign_Name_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_ad_Campaign_Name_LC_c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Landing_Page_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Landing_Page_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Touchpoint_Date_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Touchpoint_Date_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Touchpoint_Source_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Touchpoint_Source_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Marketing_Channel_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Marketing_Channel_LC__c</td>
+  </tr>
+</tbody>
+</table>
 
 * **Dynamisch pakket gerelateerd**
 
    * Installeer onze nieuwste pakketversie, v6.12, om verbinding te blijven maken met Dynamics. Oude versies `(<v6.12)` wordt niet meer ondersteund. Deze update optimaliseert het maken van historische records om opslaggebruik te beperken.
 
    * De verouderde methode van OAuth met een RefreshToken zal worden afgekeurd. Zie [deze handleiding](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} voor het bijwerken van uw geloofsbrieven om aan Microsoft toe te passen beste praktijken van het gebruiken van ClientSecret.
+
+* **Veld &quot;custom_properties&quot;**
+
+In ons gegevenspakhuis, heeft het gebied &quot;custom_properties&quot;dienst als opslag voor extra gegevenspunten die niet door ons vaste schema worden behandeld. Opgeslagen in JSON-indeling is het gebruik van dit veld beperkt en kan de integratie ervan met SQL-query&#39;s ingewikkeld zijn, wat van invloed is op de prestaties. Gezien deze factoren hebben we besloten dit veld af te schaffen. Deze verandering zal hoofdzakelijk de gegevensverwerkingslaag binnen onze Azure lijstopslag en de gegevens beïnvloeden die naar ons gegevenspakhuis worden uitgevoerd.
 
 ### Wat komt er? {#q4-whats-coming}
 
