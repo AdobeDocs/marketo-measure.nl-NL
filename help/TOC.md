@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] geeft marketeers inzicht in welke marketinginspanningen het meest effectief zijn in het aansturen van inkomsten voor hun bedrijf . "
-source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
+source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -152,13 +152,16 @@ ht-degree: 0%
    + Dashboards {#dashboards}
       + [Basisprincipes van dashboard ontdekken](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Nieuwe Discover-dashboardgids](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [Dashboard overzicht van inkomsten](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [Toegewezen belastingdashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-        [Betrokkenheidsdashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [Paspoort-dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [Webverkeersdashboard](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
       + [Zichtbaarheidsbeleid dashboardgegevens](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Toegewezen belastingdashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Betrokkenheidsdashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Snelheidsdashboard voor lead](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Opportunity Velocity-dashboard](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Paspoort-dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Dashboard overzicht van inkomsten](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Webverkeersdashboard](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+
    + Verouderde dashboards {#legacy-dashboards}
       + [Documentatie van Cohort Reisdashboard](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Documentatie paspoortdashboard](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
