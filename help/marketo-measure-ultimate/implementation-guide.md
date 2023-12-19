@@ -4,9 +4,9 @@ title: '[!DNL Marketo Measure] Ultieme implementatiegids'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
+source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 INTRO SENTENCE
 
-Belangrijkste verschillen bij gebruik van Ultimate via standaardtiers {#main-differences-when-using-ultimate-over-standard-tiers}
+## Belangrijkste verschillen bij gebruik van Ultimate via standaardtiers {#main-differences-when-using-ultimate-over-standard-tiers}
 
 B2B-gegevens importeren via AEP: Van markers wordt verwacht dat ze hun B2B-gegevens (bijvoorbeeld account, opportunity, Contact, lead, campagne, campagnerelid, activiteit) via AEP doorgeven. Maak gebruik van vrijwel elke gegevensbron en van meerdere gegevensbronnen van hetzelfde type om al uw gegevens voor attributie in te voeren.
 
@@ -36,42 +36,42 @@ Meer informatie over [Marketo Measure Ultimate](/help/marketo-measure-ultimate/m
 
 ## Schema&#39;s en gegevenssets {#schemas-and-datasets}
 
->[!TIP]
+>[!NOTE]
 >
 >Uitchecken [Bouwstenen van een schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) voor een overzicht van schema&#39;s, klassen, en gebiedsgroepen.
 
-XDM Schema = Class + Schema Field Group*
+**XDM Schema = Class + Schema veldgroep&#42;**
 
 * De vereiste velden kunnen niet worden gewijzigd. Klanten kunnen aangepaste velden maken en toevoegen.
 * Voorbeeld van een veldnaam op basis van hiërarchie: accountOrganisation.annualRevenue.amount
 
 &#42; _Een schema bestaat uit een klasse en nul of meer groepen schemavelden. Dit betekent u een datasetschema kon samenstellen zonder gebiedsgroepen te gebruiken._
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-ExL: Overzicht van gegevenssets: Alle gegevens die succesvol in AEP zijn opgenomen, blijven in het Data Lake bestaan als gegevenssets. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
+[Overzicht van gegevenssets](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): Alle gegevens die met succes in AEP worden opgenomen, blijven in het Data Lake als gegevenssets bestaan. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
 
 ## Een schema maken {#creating-a-schema}
 
-Wij adviseren klanten een auto-generatienut gebruiken om 10 standaardB2B- schema&#39;s tot stand te brengen.
+Wij adviseren gebruikend een auto-generatienut om 10 standaardB2B- schema&#39;s tot stand te brengen.
 
-De stappen om het nut te downloaden en te plaatsen kunnen in de &quot;van de Opstelling B2B namespaces en schema auto-generatie nut&quot;sectie in ExL worden gevonden: B2B namespaces en schema&#39;s
+* Stappen om het hulpprogramma te downloaden en in te stellen [hier te vinden](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
 
-Voor klanten met een CDP bevoegdheid: Creeer schema&#39;s door naar de Bronpagina te gaan
+Voor degenen met een _**CDP-machtiging**_: Maak schema&#39;s door naar de pagina Bronnen te gaan.
 
-Selecteer Gegevens toevoegen > Sjablonen gebruiken in een bron
+* Selecteer Gegevens toevoegen > Sjablonen gebruiken in een bron
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-Selecteer een account en alle B2B-sjablonen om 10 standaard B2B-schema&#39;s te maken.
+* Selecteer een account en alle B2B-sjablonen om 10 standaard B2B-schema&#39;s te maken.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## Gegevensstromen {#dataflows}
 
-Voorbeeld: Overzicht van gegevensstromen
+[Overzicht van gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
 
-Stappen om een gegevensstroom te maken:
+**Stappen om een gegevensstroom te maken:**
 
 1. Selecteer een bron.
 1. Selecteer een bestaand account of maak een account.
@@ -91,23 +91,30 @@ Stappen om een gegevensstroom te maken:
    >* U kunt een gegevensstroom bewerken, maar er wordt geen back-up van de gegevens gemaakt wanneer een toewijzing wordt gewijzigd.
    >* Als een vereist veld NULL is, wordt de volledige flow geweigerd.
 
-ExL: Marketo Measure Ultimate Data Integrity-vereiste
+   >[!NOTE]
+   >
+   >[Marketo Measure vereist voor ultieme gegevensintegriteit](help/marketo-measure-ultimate/data-integrity-requirement.md)
 
 1. Stel een cadence voor gegevensbelasting in.
 1. Controleren en voltooien.
 1. Controleer de pagina &quot;Accountstatus&quot; in de instellingen voor maatgebruikersinterface voor de status van de gegevensstroom.
 
-Controle: Bronnen → Dataflows pagina om de status van gegevensstromen te controleren om de activiteitendetails van een dataset te bekijken, eenvoudig op de dataset klikken om dataflow fouten te bekijken, een dataflow te selecteren, een dataflow looppas te kiezen, en &quot;de voorproef van de diagnostiek van de Fout te klikken&quot;
+**Controle:**
+
+Bronnen > Gegevensstroom pagina om de status van gegevensstromen te controleren
+
+* Om de activiteitendetails van een dataset te bekijken, klik eenvoudig op de dataset.
+* Als u gegevensstroomfouten wilt weergeven, selecteert u een gegevensstroom, kiest u een gegevensstroomuitvoering en klikt u op Voorvertoning van foutdiagnose.
 
 ## Gegevenscontrole {#data-inspection}
 
-ExL: Marketo Measure Ultimate Data Integrity-vereiste Dit document bevat vereiste velden voor elke XDM en inspectievragen. Het zal in ExL worden gepubliceerd.
+ExL: Marketo Measure Ultimate Data Integrity-vereiste Dit document bevat vereiste velden voor elke XDM en inspectievragen. Het zal in ExL worden gepubliceerd. - HET IS AL BOVENGENOEMD - POST HET OPNIEUW??
 
 Optie 1: Om vragen van UI direct in werking te stellen, heb toegang tot het lusje van Vragen onder het Beheer van Gegevens.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Optie 2: PSQL (sneller en betrouwbaarder) downloaden en gebruiken: PSQL aansluiten op Query Service
+Optie 2: [PSQL downloaden en gebruiken](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (sneller en betrouwbaarder)
 
 ## Dataset activeren voor Marketo Measure {#activate-dataset-for-marketo-measure}
 
@@ -118,35 +125,46 @@ Voordat u begint, gaat u naar het gedeelte &quot;Experience Platform > Sandbox-t
 >Dit kan niet worden gewijzigd als de optie eenmaal is geselecteerd.
 
 1. Ga in AEP naar &quot;Doelen > Marketo Measure-pagina&quot; om gegevenssets te exporteren.
-
 1. Vorm bestemming.
-
 1. Gegevensset activeren.
-
 1. Controleer de pagina &quot;Accountstatus&quot; in de instellingen voor maatgebruikersinterface voor de status van de gegevensstroom.
 
-Opmerkingen: gegevens voor een bepaalde entiteit (bijvoorbeeld Account) van een bepaalde bron kunnen slechts in één gegevensset worden opgenomen. Elke dataset kan slechts in één gegevensstroom worden omvat. Overtredingen zullen de gegevensstroom tijdens runtime stoppen.
-Verwijder de volledige bestemming in AEP om gegevens in Meetlat te verwijderen. Als u deze optie uitschakelt, worden alleen nieuwe gegevens geëxporteerd en blijven de oude gegevens behouden.
-De configuratie Meetlat ziet er meestal hetzelfde uit, maar sommige onderdelen, zoals Werkgebiedtoewijzing, zien er anders uit.
-Het vergt een paar uren voor een nieuwe dataflow om een stroomlooppas te produceren, en dan komen zij met regelmatige uurintervallen voor.
+>[!NOTE]
+>
+>* Gegevens voor een bepaalde entiteit (bijvoorbeeld een rekening) uit een bepaalde bron kunnen slechts in één gegevensset worden opgenomen. Elke dataset kan slechts in één gegevensstroom worden omvat. Overtredingen zullen de gegevensstroom tijdens runtime stoppen.
+>* Verwijder de volledige bestemming in AEP om gegevens in Meetlat te verwijderen. Als u deze optie uitschakelt, worden alleen nieuwe gegevens geëxporteerd en blijven de oude gegevens behouden.
+>* De configuratie Meetlat ziet er meestal hetzelfde uit, maar sommige onderdelen, zoals Werkgebiedtoewijzing, zien er anders uit.
+>* Het vergt een paar uren voor een nieuwe dataflow om een stroomlooppas te produceren, en dan komen zij met regelmatige uurintervallen voor.
 
-Bij Maatregel moet de standaardvaluta worden ingesteld in de sectie &quot;Valuta&quot;. Als klanten meerdere valuta&#39;s gebruiken, moet het schema voor de omrekeningskoers van de valuta in AEP worden ingevuld om te kunnen lezen en gebruiken voor omrekeningen.
+In Maatregel moet de standaardvaluta worden ingesteld in de sectie &quot;Valuta&quot;
 
-Werkgebiedtoewijzing We importeren geen fasen automatisch uit klantgegevens, zodat alle fasen handmatig moeten worden toegewezen.
+* Als u meerdere valuta&#39;s gebruikt, moet het schema voor de omrekeningskoers van de valuta in AEP worden ingevuld om voor conversies te kunnen lezen en gebruiken.
 
-Gebruikers kunnen fasen toewijzen uit verschillende bronnen.
+**Werkgebiedtoewijzing:**
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+We importeren stadia niet automatisch uit gebruikersgegevens, zodat alle fasen handmatig moeten worden toegewezen.
+
+* Gebruikers kunnen fasen toewijzen uit verschillende bronnen.
+
+![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 Als de fases niet in kaart worden gebracht, zal het systeem niet functioneren omdat er nergens gegevens zullen zijn om te gaan.
-De Regels van het Lid van de campagne moeten een dataset selecteren en regels voor elk plaatsen.
 
-De Regels van de Gebeurtenissen van de ervaring moeten een dataset selecteren en activiteitentypes selecteren.
-Aangepaste activiteiten worden nog niet ondersteund.
-Als de klant activiteiten heeft die niet op de beschikbare opties passen, stellen wij voor deze te categoriseren als &quot;Interessmoment&quot; en aangepaste velden te gebruiken om ze te onderscheiden.
+**Regels voor campagneleden:**
 
-Offline Kanalen wij doen dataset-specifieke regels van de kanaalafbeelding niet, zodat zou dit globaal zijn.
-We moeten uiteindelijk zowel het Campagnertype van CRM als het Kanaal aanpassen, maar voor nu, kunnen wij de kanaalnaam aan beide gebieden als tussenoplossing in kaart brengen.
-Kanaalregels: de gegevens in de back-up hebben geen gegevens over de werkgebiedovergang.
+Behoefte om een dataset te kiezen en regels voor elk te plaatsen.
+
+**regels voor ervaringsgebeurtenissen:**
+
+Moet een dataset selecteren en activiteitstypen selecteren.
+
+* Aangepaste activiteiten worden nog niet ondersteund.
+* Als de klant activiteiten heeft die niet op de beschikbare opties passen, stellen wij voor deze te categoriseren als &quot;Interessmoment&quot; en aangepaste velden te gebruiken om ze te onderscheiden.
+
+**Offlinekanalen:**
+
+* We doen geen dataset-specifieke kanaalkaartregels, dus dit zou globaal zijn.
+* We moeten uiteindelijk zowel het Campagnertype van CRM als het Kanaal aanpassen, maar voor nu, kunnen wij de kanaalnaam aan beide gebieden als tussenoplossing in kaart brengen.
+* **Kanaalregels: de gegevens in de back-up hebben geen gegevens over de werkgebiedovergang.**
 
 De instellingen voor aanraakpunten en segmenten blijven ongewijzigd.
