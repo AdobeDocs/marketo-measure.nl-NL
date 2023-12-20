@@ -4,7 +4,7 @@ title: Overzicht van integratierechten
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
+source-git-commit: 1c3cd5ac9999550003765a9e1ed8d538224fe8a9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -33,24 +33,24 @@ In deze handleiding worden de benodigde machtigingen beschreven voor naadloze in
     <td>B2B-systeemgegevens    
 </td>
     <td>Marketo Measure volgt:
-    <br>
+    <p>
     <li>Account</li>
-<li>Campagne</li>
-<li>CampaignMember</li>
-<li>Contact</li>
-<li>CurrencyConversionRange</li>
-<li>CurrencyStatus</li>
-<li>Gebeurtenissen</li>
-<li>FieldHistory (lead, contact en opportunity)</li>
-<li>Lood</li>
-<li>Opportunity</li>
-<li>OpportunityContactRole</li>
-<li>OpportunityHistory</li>
-<li>Taken</li>
-<br>
+    <li>Campagne</li>
+    <li>CampaignMember</li>
+    <li>Contact</li>
+    <li>CurrencyConversionRange</li>
+    <li>CurrencyStatus</li>
+    <li>Gebeurtenissen</li>
+    <li>FieldHistory (lead, contact en opportunity)</li>
+    <li>Lood</li>
+    <li>Opportunity</li>
+    <li>OpportunityContactRole</li>
+    <li>OpportunityHistory</li>
+    <li>Taken</li>
+<p>
 Aanraakpunten en andere gegevens worden in aangepaste, bizible velden geschreven op account, campagne, CampaignMember, case, contact, lead en opportunity.</td>
-    <td><b>Machtigingen voor met Salesforce verbonden gebruikers (vereist)</b>
-    <br>
+    <td><b>Machtigingen voor Salesforce Connected-gebruiker (vereist)</b>
+    <p>
     <b>Marketo Measure Administrator Permission Set voor specifieke gebruiker:</b> SFDC-beheerder toestaan om CRUD-bewerkingen uit te voeren op marketing om objecten te meten.
     <br>
     <b>Reeks met geconverteerde leads weergeven en bewerken:</b> Op deze manier kan Marketo Measure leads versieren nadat ze zijn omgezet in contactpersonen.
