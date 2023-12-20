@@ -4,7 +4,7 @@ title: '[!DNL Marketo Measure] Ultieme implementatiegids'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
+source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -32,13 +32,13 @@ Ultieme gebruikers worden ingericht voor AEP. Als ze al een AEP hebben, zullen w
 
 * De geleverde versie AEP zal alle bronschakelaars, schema gegevensmodellering, datasets, ad hoc vraagdienst, en een bestemming voor slechts Marketo Measure omvatten.
 
-Meer informatie over [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md).
+Meer informatie over [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
 ## Schema&#39;s en gegevenssets {#schemas-and-datasets}
 
 >[!NOTE]
 >
->Uitchecken [Bouwstenen van een schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) voor een overzicht van schema&#39;s, klassen, en gebiedsgroepen.
+>Uitchecken [Bouwstenen van een schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} voor een overzicht van schema&#39;s, klassen, en gebiedsgroepen.
 
 **XDM Schema = Class + Schema veldgroep&#42;**
 
@@ -49,13 +49,13 @@ Meer informatie over [Marketo Measure Ultimate](/help/marketo-measure-ultimate/m
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[Overzicht van gegevenssets](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): Alle gegevens die met succes in AEP worden opgenomen, blijven in het Data Lake als gegevenssets bestaan. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
+[Overzicht van gegevenssets](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}: Alle gegevens die met succes in AEP worden opgenomen, blijven in het Data Lake als gegevenssets bestaan. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
 
 ## Een schema maken {#creating-a-schema}
 
 Wij adviseren gebruikend een auto-generatienut om 10 standaardB2B- schema&#39;s tot stand te brengen.
 
-* Stappen om het hulpprogramma te downloaden en in te stellen [hier te vinden](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
+* Stappen om het hulpprogramma te downloaden en in te stellen [hier te vinden](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
 Voor degenen met een _**CDP-machtiging**_: Maak schema&#39;s door naar de pagina Bronnen te gaan.
 
@@ -69,7 +69,7 @@ Voor degenen met een _**CDP-machtiging**_: Maak schema&#39;s door naar de pagina
 
 ## Gegevensstromen {#dataflows}
 
-[Overzicht van gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
+[Overzicht van gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
 **Stappen om een gegevensstroom te maken:**
 
@@ -93,7 +93,7 @@ Voor degenen met een _**CDP-machtiging**_: Maak schema&#39;s door naar de pagina
 
    >[!NOTE]
    >
-   >[Marketo Measure vereist voor ultieme gegevensintegriteit](help/marketo-measure-ultimate/data-integrity-requirement.md)
+   >[Marketo Measure vereist voor ultieme gegevensintegriteit](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
 1. Stel een cadence voor gegevensbelasting in.
 1. Controleren en voltooien.
@@ -114,7 +114,7 @@ Optie 1: Om vragen van UI direct in werking te stellen, heb toegang tot het lusj
 
 ![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Optie 2: [PSQL downloaden en gebruiken](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (sneller en betrouwbaarder)
+Optie 2: [PSQL downloaden en gebruiken](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (sneller en betrouwbaarder).
 
 ## Dataset activeren voor Marketo Measure {#activate-dataset-for-marketo-measure}
 
