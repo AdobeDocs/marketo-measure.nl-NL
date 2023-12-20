@@ -4,7 +4,7 @@ title: Overzicht van integratierechten
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
+source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -18,13 +18,13 @@ In deze handleiding worden de benodigde machtigingen beschreven voor naadloze in
 <table>
 <thead>
   <tr>
-    <th>Integratie</th>
-    <th>Gegevenstype
+    <th style="width:10%">Integratie</th>
+    <th style="width:20%">Gegevenstype
     <li>Interactiegegevens web</li>
     <li>B2B-systeemgegevens</li>
     <li>Platformgegevens toevoegen</li></th>
-    <th>Wat we bijhouden</th>
-    <th>Machtigingsvereisten</th>
+    <th style="width:30%">Wat we bijhouden</th>
+    <th style="width:40%">Machtigingsvereisten</th>
   </tr>
 </thead>
 <tbody>
