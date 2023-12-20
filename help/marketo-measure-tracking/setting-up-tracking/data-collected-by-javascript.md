@@ -2,7 +2,7 @@
 description: Gegevens verzameld door JavaScript - [!DNL Marketo Measure] - Productdocumentatie
 title: Gegevens verzameld door JavaScript
 feature: Tracking
-source-git-commit: 2be08b96fb9f6d027e80751db64f16a7f2893764
+source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
@@ -49,25 +49,25 @@ Marketo Measure verzamelt de volgende algemene gegevens voor alle typen aanvrage
     <td>Query-parameter</td>
     <td>_biz_u</td>
     <td>string</td>
-    <td>Bizible cookie ID</td>
+    <td>Bizible cookie ID.</td>
   </tr>
   <tr>
     <td>Query-parameter</td>
     <td>_biz_l</td>
     <td>string</td>
-    <td>Huidige pagina-URL</td>
+    <td>Huidige pagina-URL.</td>
   </tr>
   <tr>
     <td>Query-parameter</td>
     <td>_biz_t</td>
     <td>lang</td>
-    <td>Tijdstempel voor activiteit</td>
+    <td>Tijdstempel voor activiteit.</td>
   </tr>
   <tr>
     <td>Query-parameter</td>
     <td>_biz_i</td>
     <td>string</td>
-    <td>Huidige paginatitel</td>
+    <td>Huidige paginatitel.</td>
   </tr>
 </tbody>
 </table>
@@ -104,7 +104,7 @@ Naast de bovenstaande algemene gegevens voegt bizible.js ook aanvullende gegeven
     <td></td>
     <td>_biz_c</td>
     <td>string</td>
-    <td>Optionele parameter. Als deze parameter aanwezig is, wijst het erop dat de huurder bizible.js vormt om op gebruikerstoestemming te wachten alvorens te volgen, en dat bizible.js de toestemming van de gebruiker heeft ontvangen om worden gevolgd.</td>
+    <td>Optionele parameter. Als deze parameter aanwezig is, wijst het erop dat de huurder bizible.js vormt om op de toestemming van de gebruiker te wachten alvorens te volgen, en dat bizible.js de toestemming van de gebruiker heeft ontvangen om worden gevolgd.</td>
   </tr>
   <tr>
     <td>Formulier verzenden</td>
@@ -118,7 +118,7 @@ Naast de bovenstaande algemene gegevens voegt bizible.js ook aanvullende gegeven
     <td>/u</td>
     <td>mapType</td>
     <td>enum</td>
-    <td>Welk type gebruikersidentificatie bizible.js gedetecteerd (Marketo munchkin id en Adobe ECID)</td>
+    <td>Welk type gebruikersidentificatie bizible.js gedetecteerd (Marketo Munchkin id en Adobe ECID)</td>
   </tr>
   <tr>
     <td></td>
