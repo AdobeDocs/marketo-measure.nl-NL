@@ -1,19 +1,17 @@
 ---
 description: '''[!DNL Marketo Measure] Ultieme implementatiehandleiding - [!DNL Marketo Measure] - Productdocumentatie"'
 title: '[!DNL Marketo Measure] Ultieme implementatiegids'
-hide: true
-hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
+source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Measure] Ultieme implementatiegids {#marketo-measure-ultimate-implementation-guide}
 
-INTRO SENTENCE
+Dit artikel fungeert als implementatiegids voor Marketo Measure Ultimate en biedt duidelijke stappen en inzichten om een succesvolle integratie en toepassing te waarborgen.
 
 ## Belangrijkste verschillen bij gebruik van Ultimate via standaardtiers {#main-differences-when-using-ultimate-over-standard-tiers}
 
@@ -84,7 +82,7 @@ Voor degenen met een _**CDP-machtiging**_: Maak schema&#39;s door naar de pagina
    >* Als u één schematype aan een andere identieke kaart toewijst, zal het automatisch worden gedaan.
    >* U kunt ook toewijzingen importeren uit een andere flow in het systeem.
    >* U kunt één Bronveld toewijzen aan meerdere doelvelden, maar u kunt niet het tegenovergestelde doen.
-   >* U kunt berekende velden maken (bijvoorbeeld Data Prep-toewijzingsfuncties).
+   >* U kunt berekende velden maken ([Toewijzingsfuncties van Data Prep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Bronnen > Gegevensstroom pagina om de status van gegevensstromen te controleren
 * Als u gegevensstroomfouten wilt weergeven, selecteert u een gegevensstroom, kiest u een gegevensstroomuitvoering en klikt u op Voorvertoning van foutdiagnose.
 
 ## Gegevenscontrole {#data-inspection}
-
-ExL: Marketo Measure Ultimate Data Integrity-vereiste Dit document bevat vereiste velden voor elke XDM en inspectievragen. Het zal in ExL worden gepubliceerd. - HET IS AL BOVENGENOEMD - POST HET OPNIEUW??
 
 Optie 1: Om vragen van UI direct in werking te stellen, heb toegang tot het lusje van Vragen onder het Beheer van Gegevens.
 
