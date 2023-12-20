@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] geeft marketeers inzicht in welke marketinginspanningen het meest effectief zijn in het aansturen van inkomsten voor hun bedrijf . "
-source-git-commit: 1fc0b98c0aa1273e5aa70ba7b89672d689e734e1
+source-git-commit: 4d91899f6126a83b29170c7c5bbe146ed49ad9b0
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 0%
       + [Beste praktijken voor het Uitvoeren [!DNL Marketo Measure] JavaScript](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
       + [Toevoegen [!DNL Marketo Measure] Script](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Toevoegen [!DNL Marketo Measure] Script via Google-tagbeheer](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
+      + [Gegevens verzameld door JavaScript](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
       + Toevoegen [!DNL Marketo Measure] Script naar verschillende formulierproviders {#adding-marketo-measure-script-to-different-form-providers}
          + [Toevoegen [!DNL Marketo Measure] JavaScript naar pardot](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
          + [Toevoegen [!DNL Marketo Measure] Script naar lichtbak Forms](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
