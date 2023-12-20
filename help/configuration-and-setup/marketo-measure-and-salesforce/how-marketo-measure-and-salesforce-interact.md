@@ -4,9 +4,9 @@ description: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie - Market
 title: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
+source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -42,148 +42,148 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Velden</p></th> 
-   <th><p>Standaard/Aangepast</p></th> 
-   <th><p>Lezen</p></th> 
-   <th><p>Schrijven</p></th> 
+   <th>Velden</th> 
+   <th>Standaard/Aangepast</th> 
+   <th>Lezen</th> 
+   <th>Schrijven</th> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Id</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>E-mail</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>E-mail</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Status</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Status</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedContactId</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedContactId</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedOpportunityId</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedOpportunityId</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDelted</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDelted</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Website</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Website</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Bedrijf</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Bedrijf</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Account__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Account__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ad_Campaign_Name_LC_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_ad_Campaign_Name_LC_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Source_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -193,106 +193,106 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Velden</p></th> 
-   <th><p>Standaard/Aangepast</p></th> 
-   <th><p>Lezen</p></th> 
-   <th><p>Schrijven</p></th> 
+   <th>Velden</th> 
+   <th>Standaard/Aangepast</th> 
+   <th>Lezen</th> 
+   <th>Schrijven</th> 
   </tr> 
   <tr> 
-   <td><p>Account</p></td> 
-   <td><p>Standaard</p></td> 
+   <td>Account</td> 
+   <td>Standaard</td> 
    <td><span>x</span></td> 
    <td><br></td> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Id</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>E-mail</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>E-mail</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Aanmaakdatum</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Aanmaakdatum</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDelted</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDelted</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ad_Campaign_Name_LC_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_ad_Campaign_Name_LC_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Source_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,100 +302,100 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Velden</p></th> 
-   <th><p>Standaard/Aangepast</p></th> 
-   <th><p>Lezen</p></th> 
-   <th><p>Schrijven</p></th> 
+   <th>Velden</th> 
+   <th>Standaard/Aangepast</th> 
+   <th>Lezen</th> 
+   <th>Schrijven</th> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Id</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SuppliedEmail</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>SuppliedEmail</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDelted</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDelted</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ad_Campaign_Name_LC_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_ad_Campaign_Name_LC_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source_FT__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Source_LC__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,40 +405,40 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Velden</p></th> 
-   <th><p>Standaard/Aangepast</p></th> 
-   <th><p>Lezen</p></th> 
-   <th><p>Schrijven</p></th> 
+   <th>Velden</th> 
+   <th>Standaard/Aangepast</th> 
+   <th>Lezen</th> 
+   <th>Schrijven</th> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Id</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Website</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Website</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDelted</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDelted</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Engagement_Score__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2_Engagement_Score__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -448,76 +448,144 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Velden</p></th> 
-   <th><p>Standaard/Aangepast</p></th> 
-   <th><p>Lezen</p></th> 
-   <th><p>Schrijven</p></th> 
+   <th>Velden</th> 
+   <th>Standaard/Aangepast</th> 
+   <th>Lezen</th> 
+   <th>Schrijven</th> 
   </tr> 
   <tr> 
-   <td><p>Account</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Naam</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td><br></td> 
-  </tr> 
+  </tr>
   <tr> 
-   <td><p>Id</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Account</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
+   <td><br></td> 
+  </tr>
+  <tr> 
+   <td>Id</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsWon</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsWon</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsClosed</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsClosed</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDelted</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDelted</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CloseDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>CloseDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>StageName</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>StageName</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Hoeveelheid</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Hoeveelheid</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Bizible_Opportunity_Amount__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2_Bizible_Opportunity_Amount__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Functie contactpersoon opportunity**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th>Velden</th> 
+   <th>Standaard/Aangepast</th> 
+   <th>Lezen</th> 
+   <th>Schrijven</th> 
+  </tr> 
+  <tr> 
+   <td>Id</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>CreatedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>IsDelted</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>LastModifiedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>OpportunityId</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>ContactId</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+
+<tr> 
+   <td>IsPrimary</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Functie</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -533,87 +601,87 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
  </colgroup> 
  <tbody> 
   <tr> 
-   <th><p>Velden</p></th> 
-   <th><p>Standaard/Aangepast</p></th> 
-   <th><p>Lezen</p></th> 
-   <th><p>Schrijven</p></th> 
+   <th>Velden</th> 
+   <th>Standaard/Aangepast</th> 
+   <th>Lezen</th> 
+   <th>Schrijven</th> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Id</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>E-mail</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>E-mail</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Status</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Status</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedContactId</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedContactId</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedOpportunityId</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedOpportunityId</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDelted</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDelted</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Website</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Website</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Bedrijf</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Bedrijf</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Type</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Type</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td><br></td> 
   </tr> 
  </tbody> 
@@ -624,100 +692,100 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Velden</p></th> 
-   <th><p>Standaard/Aangepast</p></th> 
-   <th><p>Lezen</p></th> 
-   <th><p>Schrijven</p></th> 
+   <th>Velden</th> 
+   <th>Standaard/Aangepast</th> 
+   <th>Lezen</th> 
+   <th>Schrijven</th> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>Id</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDelted</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDelted</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>FirstRespondedDate</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>FirstRespondedDate</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>HasResponded</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>HasResponded</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ContactId</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>ContactId</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LeadId</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>LeadId</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CampagneId</p></td> 
-   <td><p>Standaard</p></td> 
-   <td><p>x</p></td> 
+   <td>CampagneId</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Bizible_Touchpoint_Date_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Bizible_Touchpoint_Date_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Date__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Status_Date__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Contact__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Status_Contact__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Leade_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Status_Leade_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Opportunity__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Status_Opportunity__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -747,262 +815,262 @@ Het aanraakpunt voor kopers is een [!DNL Marketo Measure] Aangepast object om de
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Velden</p></th> 
-   <th><p>Standaard/Aangepast</p></th> 
-   <th><p>Lezen</p></th> 
-   <th><p>Schrijven</p></th> 
+   <th>Velden</th> 
+   <th>Standaard/Aangepast</th> 
+   <th>Lezen</th> 
+   <th>Schrijven</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Bizible_Person__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Bizible_Person__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_SF_Campaign_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_SF_Campaign_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_Path__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_Path__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Type__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Type__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_id__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__ad_id__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Content__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Content__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ad_Group_id__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_ad_Group_id__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Group_Name__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Group_Name__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ad_Campaign_id_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_ad_Campaign_id_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ad_Campaign_Name__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_ad_Campaign_Name__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_id__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_id__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_Name__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_Name__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Id__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Id__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Name__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Name__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Form_URL_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL_Raw__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Form_URL_Raw__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Platform__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Platform__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Browser__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Browser__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_City__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Geo_City__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Country__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Country__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_Region__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Geo_Region__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_trefwoord_id__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_trefwoord_id__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_MatchType__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_MatchType__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Position__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Position__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_Text__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_Text__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_Raw__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Medium__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Medium__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Referrer_Page__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Referrer_Page_Raw__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Referrer_Page_Raw__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_search_Phrase_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_search_Phrase_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Segment__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Segment__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_First_Touch__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_First_Touch__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_count_Lead_Creation_Touch_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_count_Lead_Creation_Touch_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_U_Shaped__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_U_Shaped__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Destination_URL__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Destination_URL__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Case__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Case__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1014,34 +1082,34 @@ De [!DNL Marketo Measure] Persoon is een [!DNL Marketo Measure] Aangepast object
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Velden</p></th> 
-   <th><p>Standaard/Aangepast</p></th> 
-   <th><p>Lezen</p></th> 
-   <th><p>Schrijven</p></th> 
+   <th>Velden</th> 
+   <th>Standaard/Aangepast</th> 
+   <th>Lezen</th> 
+   <th>Schrijven</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Lead__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Lead__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Case__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Case__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1055,352 +1123,352 @@ Het aanraakpunt voor koperkenmerken is een [!DNL Marketo Measure] Aangepast obje
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Velden</p></th> 
-   <th><p>Standaard/Aangepast</p></th> 
-   <th><p>Lezen</p></th> 
-   <th><p>Schrijven</p></th> 
+   <th>Velden</th> 
+   <th>Standaard/Aangepast</th> 
+   <th>Lezen</th> 
+   <th>Schrijven</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Account__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Account__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_SF_Campaign_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_SF_Campaign_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Opportunity__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Opportunity__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_Path__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_Path__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Type__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Type__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_id__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__ad_id__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Content__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Content__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ad_Group_id__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_ad_Group_id__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Group_Name__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Group_Name__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ad_Campaign_id_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_ad_Campaign_id_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ad_Campaign_Name__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_ad_Campaign_Name__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_id__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_id__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_Name__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_Name__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Id__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Id__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Name__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Name__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Form_URL_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL_Raw__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Form_URL_Raw__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Platform__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Platform__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Browser__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Browser__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_City__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Geo_City__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Country__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Country__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_Region__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Geo_Region__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_trefwoord_id__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_trefwoord_id__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_MatchType__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_MatchType__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Position__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Position__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_Text__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_Text__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_Raw__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Medium__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Medium__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Referrer_Page__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Referrer_Page_Raw__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Referrer_Page_Raw__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_search_Phrase_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_search_Phrase_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Segment__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Segment__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_First_Touch__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_First_Touch__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Lead_Conversion_Touch__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_Lead_Conversion_Touch__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_U_Shaped__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_U_Shaped__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_W_Shaped__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_W_Shaped__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Custom_Model__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_Custom_Model__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Custom_Model_2_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_Custom_Model_2_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_First_Touch__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_First_Touch__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_count_Lead_Creation_Touch_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_count_Lead_Creation_Touch_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_U_Shaped__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_U_Shaped__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_W_Shaped__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_W_Shaped__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Custom_Model__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_Custom_Model__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Custom_Model_2_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_Custom_Model_2_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Destination_URL__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Destination_URL__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_First_Touch__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_First_Touch__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Lead_Creation_Touch_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Revenue_Lead_Creation_Touch_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_U_Shaped__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_U_Shaped__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_W_Shaped__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Revenue_W_Shaped__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Custom_Model__c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Revenue_Custom_Model__c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Custom_Model_2_c</p></td> 
-   <td><p>Aangepast</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Revenue_Custom_Model_2_c</td> 
+   <td>Aangepast</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
  </tbody> 
 </table>
