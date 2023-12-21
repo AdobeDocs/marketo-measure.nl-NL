@@ -4,9 +4,9 @@ title: Overzicht van integratierechten
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 1c3cd5ac9999550003765a9e1ed8d538224fe8a9
+source-git-commit: d7ded9075f7f5831314d59294327f1e4928baf8a
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -68,55 +68,118 @@ Aanraakpunten en andere gegevens worden in aangepaste, bizible velden geschreven
     </td>
   </tr>
   <tr>
-    <td></td>
+    <td>Dynamiek</td>
+    <td>B2B-systeemgegevens</td>
+    <td>Marketo Measure volgt:
+    <p>
+    <li>Account
+<li>ActivityParty
+<li>ActivityPointer
+<li>Campagne
+<li>CampaignItem (CampaignList in ons systeem)
+<li>CampaignResponse (CampaignMember in ons systeem)
+<li>Contact
+<li>Lood
+<li>Lijst (MarketingList in ons systeem)
+<li>ListMember (MarketingListMember in ons systeem)
+<li>Opportunity
+<li>Organisatie
+<li>TransactionCurrency (CurrencyConversionRange en CurrencyStatus in ons systeem)
+<li>Benoeming, CampaignActivity, E-mail, Fax, IncidentResolution, Letter, PhoneCall, RecurringAppointmentMaster, ServiceAppointment, Task
+<li>bizible2_bizible_abtest
+<li>bizible2_bizible_attribution_touchpoint
+<li>bizible2_bizible_event
+<li>bizible2_bizible_history
+<li>bizible2_bizible_touchpoint
+<p>
+Aanraakpunten die zijn gemaakt en andere gegevens worden geschreven naar aangepaste bizible-velden op account, campagne, CampagneResponse, Contact, Lead, List, Opportunity en PhoneCall</td>
+    <td><b>Marketo Measure-gebruikersmachtigingen</b>
+<p>
+We raden u aan een speciale Marketo Measure-gebruiker in Dynamics te maken, zodat we gegevens kunnen exporteren en importeren om problemen met andere gebruikers in uw CRM te voorkomen. Neem nota van de gebruikersbenaming en het wachtwoord evenals het eindpunt URL aangezien dit zal worden gebruikt wanneer het creëren van de rekening van Marketo Measure.
+<p>
+<b>Beveiligingsrollen</b>
+<p>
+Als uw organisatie Dynamics Security Roles gebruikt, moet u ervoor zorgen dat de verbonden gebruiker of de toegewijde Marketo Measure-gebruiker over voldoende lees-/schrijfmachtigingen voor de vereiste entiteiten beschikt.
+<br>
+Beveiligingsrollen bevinden zich hier: Instellingen &gt; Beveiliging &gt; Beveiligingsrollen
+<br>
+Voor aangepaste Marketo Measure-entiteiten hebben we volledige machtigingen voor al onze entiteiten nodig.
+<p>
+<b>Dynamische standaardveldmachtigingen</b>
+<br>
+<a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics Schema</a>
+<p>
+<b>Dynamische veldmachtigingen</b>
+<br>
+Wij hebben LEZEN toegang voor om het even welk gebied op de Leiding of entiteit van het Contact nodig die de klant voor de regels van de Montages van de Douane wil gebruiken onderdrukken/verwijderen Touchpoint.
+<br>
+Wij hebben LEZEN toegang voor om het even welk gebied op de LEIDING of entiteit van de Kans nodig die de klant voor de regels van het Segment of de Afbeelding van het Stadium wil gebruiken.
+<br>
+Wij hebben LEZEN toegang voor om het even welk gebied op de Campagne, CampaignResponse, en de entiteiten van de Lijst nodig die de klant voor het Syncen Campagne/MarketingList leden wil gebruiken.
+</td>
+  </tr>
+  <tr>
+    <td>Facebook</td>
+    <td>Platformgegevens toevoegen</td>
+    <td>We integreren met Facebook in:
+<p>
+<li>Klantenadvertenties importeren</li>
+<li>Klantenadvertenties importeren</li>
+<li>Clientadvertenties bijwerken door URL-parameters toe te voegen</li>
+<p>
+Marketo Measure volgt accounts, campagnes, advertentiegroepen, advertenties, filter-id's en URL's.</td>
+    <td><li>De machtiging ads_management is vereist voor het maken van campagnes, het beheren van advertenties of het ophalen van Advertentiemetriek.</li>
+<li>De e-mailmachtiging is vereist om gebruikers toe te staan zich aan te melden bij hun Facebook-e-mail.</li>
+<p>
+<b>Segmenten</b>
+<p>
+<a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
+<br>
+<li>Maak programmatisch campagnes, beheer advertenties en haal metriek op.</li>
+<li>Stel hulpmiddelen voor advertentiebeheer samen die innovatieve oplossingen en gedifferentieerde waarde voor adverteerders bieden.</li>
+<p>
+<a href="https://developers.facebook.com/docs/permissions/reference/email">email</a>
+<br>
+<li>Communiceren met mensen en ze aanmelden bij uw app met het e-mailadres dat is gekoppeld aan hun Facebook-profiel.</li></td>
+  </tr>
+  <tr>
+    <td>LinkedIn</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>DoubleClick</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>AdWords</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>Bing</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
+    <td>Marketo Engage</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
+    <td>Adobe Analytics</td>
     <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bizible Javascript</td>
     <td></td>
     <td></td>
     <td></td>
