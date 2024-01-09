@@ -4,9 +4,9 @@ title: Overzicht van integratierechten
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: d7ded9075f7f5831314d59294327f1e4928baf8a
+source-git-commit: 3d4ee7c71ed241c8e3885b4db57168f753dcdf65
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ In deze handleiding worden de benodigde machtigingen beschreven voor naadloze in
 <thead>
   <tr>
     <th style="width:10%">Integratie</th>
-    <th style="width:20%">Gegevenstype
+    <th style="width:25%">Gegevenstype
     <li>Interactiegegevens web</li>
     <li>B2B-systeemgegevens</li>
     <li>Platformgegevens toevoegen</li></th>
-    <th style="width:30%">Wat we bijhouden</th>
+    <th style="width:25%">Wat we bijhouden</th>
     <th style="width:40%">Machtigingsvereisten</th>
   </tr>
 </thead>
@@ -60,6 +60,7 @@ Aanraakpunten en andere gegevens worden in aangepaste, bizible velden geschreven
     <b>Marketo Measure Standard-gebruiker:</b> Hiermee kan een gebruiker records lezen van Marketo Measure-objecten.
     <p>
     <b>Salesforce Standard-veldmachtigingen</b>
+    <br>
     <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Standaardobjecten Salesforce en toegang</a>
     <p>
     <b>Aangepaste bevoegdheden Salesforce-veld</b>
@@ -94,11 +95,11 @@ Aanraakpunten en andere gegevens worden in aangepaste, bizible velden geschreven
 <p>
 Aanraakpunten die zijn gemaakt en andere gegevens worden geschreven naar aangepaste bizible-velden op account, campagne, CampagneResponse, Contact, Lead, List, Opportunity en PhoneCall</td>
     <td><b>Marketo Measure-gebruikersmachtigingen</b>
-<p>
+<br>
 We raden u aan een speciale Marketo Measure-gebruiker in Dynamics te maken, zodat we gegevens kunnen exporteren en importeren om problemen met andere gebruikers in uw CRM te voorkomen. Neem nota van de gebruikersbenaming en het wachtwoord evenals het eindpunt URL aangezien dit zal worden gebruikt wanneer het creëren van de rekening van Marketo Measure.
 <p>
 <b>Beveiligingsrollen</b>
-<p>
+<br>
 Als uw organisatie Dynamics Security Roles gebruikt, moet u ervoor zorgen dat de verbonden gebruiker of de toegewijde Marketo Measure-gebruiker over voldoende lees-/schrijfmachtigingen voor de vereiste entiteiten beschikt.
 <br>
 Beveiligingsrollen bevinden zich hier: Instellingen &gt; Beveiliging &gt; Beveiligingsrollen
@@ -132,21 +133,36 @@ Marketo Measure volgt accounts, campagnes, advertentiegroepen, advertenties, fil
 <li>De e-mailmachtiging is vereist om gebruikers toe te staan zich aan te melden bij hun Facebook-e-mail.</li>
 <p>
 <b>Segmenten</b>
-<p>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
 <br>
 <li>Maak programmatisch campagnes, beheer advertenties en haal metriek op.</li>
 <li>Stel hulpmiddelen voor advertentiebeheer samen die innovatieve oplossingen en gedifferentieerde waarde voor adverteerders bieden.</li>
-<p>
+<br>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/email">email</a>
 <br>
 <li>Communiceren met mensen en ze aanmelden bij uw app met het e-mailadres dat is gekoppeld aan hun Facebook-profiel.</li></td>
   </tr>
   <tr>
     <td>LinkedIn</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Platformgegevens toevoegen
+    <p>
+    B2B-systeemgegevens (lead Gen-formuliergegevens, inclusief formulieren en inzendingen, die zijn gecategoriseerd als CRM-activiteit).</td>
+    <td>Marketo Measure volgt LinkedIn Ads Campaigns, Creative, en kostengegevens, en lead Gen Forms en reacties. Op basis van geïmporteerde gegevens kunnen we LinkedIn-aanraakpunten genereren en reacties op leads koppelen aan klanten.</td>
+    <td><li>Voor Marketo Measure is de rol Campagnebeheer of Accountmanager vereist om kostengegevens te downloaden. (Toepassingsgebied, rij 1)</li>
+    <br>
+    <li>Super Admin (Page Admin Role, Scopes row 2) of Lead Gen Forms Manager (Paid Media Admin Role, Scopes row 3) is vereist voor Marketo Measure om toegang te krijgen tot de gegevens van het loodgen-formulier</li>
+    <br>
+    <li>Super Admin (de Rol van het Admin van de Pagina, Scopes rij 2) of Gesponsorde Poster van de Inhoud (Betaalde Rol van Media Admin, Scopes row 3) wordt vereist voor Marketo Measure om auto het etiketteren te manipuleren</li>
+    <p>
+    <b>Segmenten</b>
+    <br>
+    <a href="https://www.linkedin.com/campaignmanager/accounts">Gebruikersrol instellen in portal (aanmelden bij LinkedIn-account is vereist)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">Overzicht gebruikersrollen</a>: Gebruikersrol, gebruikersmachtigingen weergeven en beheren, rollen toewijzen zoals accountmanager of campagnemanager
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Paginabeheerrol instellen - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">Definities van functies voor paginabeheer</a>: Paginadmin-rol, op de gewenste beheerpagina
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Paid Media Admin-rol instellen (zoek naar Paid Media Admin) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">Definities voor Betaalde media-beheer</a>: Betaalde rollen voor mediabeheer</td>
   </tr>
   <tr>
     <td>DoubleClick</td>
