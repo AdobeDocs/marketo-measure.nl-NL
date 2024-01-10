@@ -1,10 +1,8 @@
 ---
 description: Snelheidsdashboard voor lead - [!DNL Marketo Measure] - Product
 title: Snelheidsdashboard voor lead
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f0e6ba1166e86eeb50812914afb4116f0e0eb372
+source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -47,7 +45,7 @@ Vragen in de grafiek:
 
 ![](assets/lead-velocity-dashboard-2.png)
 
-## Snelheid lood/contact via kanaal {#lead-contact-velocity-by-channel}
+### Snelheid lood/contact via kanaal {#lead-contact-velocity-by-channel}
 
 In het staafdiagram wordt de gemiddelde duur in dagen weergegeven die de contacten/leads in elk treinstation blijven, gesegmenteerd door Kanaal.
 
