@@ -2,7 +2,7 @@
 description: Betrokkenheidsdashboard - [!DNL Marketo Measure] - Product
 title: Betrokkenheidsdashboard
 feature: Reporting
-source-git-commit: 96a10a202e72f43c45041a4cb37a244d1722db17
+source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Hiermee worden vragen gesteld aan het dashboard:
 * Mensen die werden geraakt: het totale aantal mensen met aanraakpunten.
 * Aanraakpunten per persoon: gemiddeld aantal aanraakpunten per persoon dat is aangeraakt.
 
-## Aanraakpunten en personen die in de loop der tijd aanraken {#touchpoints-and-people-touched-over-time}
+### Aanraakpunten en personen die in de loop der tijd aanraken {#touchpoints-and-people-touched-over-time}
 
 In het staafdiagram van de tijdreeks wordt het aantal aanraakpunten, Personen met aanraakpunten en aanraakpunten per persoon voor elke maand, elk kwartaal en elk jaar weergegeven.
 
@@ -46,7 +46,7 @@ Vragen in de grafiek:
 
 ![](assets/engagement-dashboard-1.png)
 
-## Aanraakpunten/Personen met Kanaal {#touchpoints-people-touched-by-channel}
+### Aanraakpunten/Personen met Kanaal {#touchpoints-people-touched-by-channel}
 
 Staafdiagram waarin aanraakpunten of Personen met aanraakpunten worden weergegeven die zijn gesegmenteerd door Kanaal/Subkanaal/Campagne.
 
