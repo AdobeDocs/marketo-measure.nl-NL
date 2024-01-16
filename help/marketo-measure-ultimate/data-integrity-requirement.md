@@ -3,10 +3,10 @@ description: '''[!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit -
 title: '''[!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit"'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 034c4639e6054118052524c457995f4caf7a4bf2
+source-git-commit: e1c401ae41b5aeedf0c3c8b75a82f680a0dcbefb
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 7%
+source-wordcount: '1493'
+ht-degree: 0%
 
 ---
 
@@ -407,7 +407,7 @@ ht-degree: 7%
       <td>b2b.personStatus</td>
       <td>string</td>
       <td>Status</td>
-      <td>Alleen voor Lead personType</td>
+      <td><font color="red">Alleen voor Lead personType</font></td>
       <td>Alleen vereist als b2b.personType "Lead" is</td>
     </tr>
     <tr>
@@ -431,7 +431,7 @@ ht-degree: 7%
       <td>b2b.isConverted</td>
       <td>boolean</td>
       <td>IsConverted</td>
-      <td>Alleen voor Lead personType</td>
+      <td><font color="red">Alleen voor Lead personType</font></td>
       <td>Alleen vereist als b2b.personType "Lead" is</td>
     </tr>
     <tr>
