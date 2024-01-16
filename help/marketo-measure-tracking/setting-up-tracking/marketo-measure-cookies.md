@@ -4,16 +4,20 @@ description: "[!DNL Marketo Measure] Cookies - [!DNL Marketo Measure] - Productd
 title: "[!DNL Marketo Measure] Cookies"
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
+source-git-commit: 327daa56fe1b346d067f2e0fb39006b91e6849ee
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 1%
+source-wordcount: '397'
+ht-degree: 0%
 
 ---
 
 # Marketo Measure Cookies {#marketo-measure-cookies}
 
 Meer informatie over de verschillende [!DNL Marketo Measure] Cookies die op uw site worden geladen wanneer u de [!DNL Marketo Measure] JavaScript naar uw bestemmingspagina&#39;s. Deze informatie kan tijdens de implementatie nuttig zijn voor het webontwikkelingsteam.
+
+>[!IMPORTANT]
+>
+>Vanwege privacyproblemen zijn cookies van derden op weg. Google Chrome kondigde in het derde kwartaal van 2024 de afleiding van cookies van derden aan, en markeert in feite het einde van deze vorm van bijhouden. Als gevolg hiervan worden Marketo Measure-functies die afhankelijk zijn van cookies van derden afgekeurd, met name Cross-Domain Tracking en View-through Attribution, die gebruikmaken van het Google/DoubleClick-imitatiecookie. Geen enkele andere functie van Marketo Measure wordt beïnvloed. Het cookie-gebruik van de eerste partij wordt ook niet beïnvloed. In het licht van het Google-schema is de verwachte vervaldatum voor de twee bovenstaande functies 16-01-2024. Gerelateerde gegevens die vóór deze datum zijn verzameld, blijven beschikbaar voor klanten van de Adobe.
 
 <table>
 <thead>
