@@ -3,7 +3,7 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure] - Produ
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
+source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -26,7 +26,7 @@ De nieuwe set van vooraf gebouwde dashboards zal naar verwachting in golven word
 
 >[!NOTE]
 >
->Hoewel de huidige dashboards tegen medio Januari 2024 zullen worden verouderd, kunt u beide versies tot dan gebruiken, die een vlotte overgang verzekeren.
+>Terwijl de huidige dashboards tegen Maart 2024 zullen worden verouderd, kunt u beide versies tot dan gebruiken, die een vlotte overgang verzekeren.
 
 **IP-adresgegevens verwijderen**
 
@@ -96,7 +96,7 @@ De nieuwe set van vooraf gebouwde dashboards zal naar verwachting in golven word
 
 >[!NOTE]
 >
->Hoewel de huidige dashboards tegen medio Januari 2024 zullen worden verouderd, kunt u beide versies tot dan gebruiken, die een vlotte overgang verzekeren.
+>Terwijl de huidige dashboards tegen Maart 2024 zullen worden verouderd, kunt u beide versies tot dan gebruiken, die een vlotte overgang verzekeren.
 
 ### Afwijkingen {#deprecations}
 
