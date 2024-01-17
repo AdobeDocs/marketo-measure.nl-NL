@@ -2,9 +2,9 @@
 description: '''[!DNL Marketo Measure] Ultieme implementatiehandleiding - [!DNL Marketo Measure] - Productdocumentatie"'
 title: '[!DNL Marketo Measure] Ultieme implementatiegids'
 feature: Integration, Tracking, Attribution
-source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,11 @@ We importeren stadia niet automatisch uit gebruikersgegevens, zodat alle fasen h
 ![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 Als de fases niet in kaart worden gebracht, zal het systeem niet functioneren omdat er nergens gegevens zullen zijn om te gaan.
+
+Als u een Marketo Measure Ultimate-klant bent en uw standaarddashboard-object als contactpersoon hebt ingesteld, gebruikt u de onderstaande twee velden niet die specifiek zijn voor Lead ([meer informatie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+
+* b2b.personStatus
+* b2b.isConverted
 
 **Regels voor campagneleden:**
 

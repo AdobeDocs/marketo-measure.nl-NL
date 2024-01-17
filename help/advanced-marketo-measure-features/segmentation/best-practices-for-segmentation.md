@@ -3,9 +3,9 @@ description: Beste praktijken voor Segmentatie - [!DNL Marketo Measure] - Produc
 title: Beste praktijken voor Segmentatie
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,9 @@ Of u segmentatie voor het eerst bepaalt of enkel de segmentatie herziet die eerd
 * Richt uw segmentnaam aan de nomenclatuur van uw organisatie, d.w.z., de categorie = filternaam, segment = filterwaarde
 * Gebruik geen formulervelden in uw regels
 * Maak waar mogelijk de segmentatie op zowel de lead/contactpersoon als de opportunity, zodat u deze over de gehele trechter kunt gebruiken
+   * Als u een Marketo Measure Ultimate-klant bent en uw standaarddashboard-object als contactpersoon hebt ingesteld, gebruikt u de onderstaande twee velden niet die specifiek zijn voor Lead ([meer informatie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+      * b2b.personStatus
+      * b2b.isConverted
    * Niet zal elke categorie van het Segment zich door het volledige trechter richten
       * Een segmentcategorie van &#39;Opportunity Type&#39; heeft bijvoorbeeld geen betrekking op Leads, maar een segment met betrekking tot &#39;Regio&#39; is waarschijnlijk een categorie die in de gehele trechter kan worden gedefinieerd
 * Denk aan de manieren u momenteel uw gegevens wilt segmenteren, of het in CRM of een hulpmiddel van BI is, denk na bouwend dit als Segment in [!DNL Marketo Measure] zodat u dezelfde rapportage kunt uitvoeren in Discover

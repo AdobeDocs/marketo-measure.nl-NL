@@ -4,9 +4,9 @@ description: Aangepaste segmentatie - [!DNL Marketo Measure] - Productdocumentat
 title: Aangepaste segmentatie
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,11 @@ Stap 4 - voeg de Regels van de Filter toe.
 Als de regels niet opstelling voor zowel Leads/Contacten als Kansen zijn, zult u slechts een gedeelte van uw gegevens zien. Om uit te werken, als u niet opstelling de regels van Kansen, zult u slechts lood/contactgegevens zonder de Kansen verbonden aan het zien. Het zelfde is waar als u opstelling geen regels voor lood/Contacten-u slechts Kansen zonder de bijbehorende Leads/Contacten zult zien.
 
 Als u klaar bent, klikt u [!UICONTROL Save] eerst, controleer alles tweemaal en klik dan [!UICONTROL Save and Process]. Houd er rekening mee dat u de instellingen zeven dagen lang niet kunt bewerken wanneer u het bestand opslaat en verwerkt, zoals [!DNL Marketo Measure] maakt uw gegevens tijdens deze tijd opnieuw op.
+
+Als u een Marketo Measure Ultimate-klant bent en uw standaarddashboard-object als contactpersoon hebt ingesteld, gebruikt u de onderstaande twee velden niet die specifiek zijn voor Lead ([meer informatie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+
+* b2b.personStatus
+* b2b.isConverted
 
 **Hoe kan ik de gegenereerde rapporten opslaan?**
 
