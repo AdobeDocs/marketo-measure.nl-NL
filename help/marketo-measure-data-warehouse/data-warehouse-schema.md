@@ -4,9 +4,9 @@ description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
+source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
 workflow-type: tm+mt
-source-wordcount: '20697'
+source-wordcount: '20757'
 ht-degree: 1%
 
 ---
@@ -147,8 +147,23 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
       <td>01-01-01:01:00,000</td>
     </tr>
+    <tr>
+      <td><b>*</b> INDUSTRIE</td>
+      <td>varchar</td>
+      <td>Primaire bedrijfsvoering van de account.</td>
+      <td>Detailhandel, telecommunicatie</td>
+    </tr>
+    <tr>
+      <td><b>*</b> LAND</td>
+      <td>varchar</td>
+      <td>Landgedeelte van het adres van de account.</td>
+      <td>VS, Canada</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Alleen beschikbaar in Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
 
@@ -169,74 +184,34 @@ Toewijzingstabel tussen bekende e-mailadressen en accounts van leads/contactpers
       <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13 000</td>
     </tr>
     <tr>
-      <td>
-        <p>ACCOUNT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Account-ID bronsysteem.</p>
-      </td>
-      <td>
-        <p>001310001phrBAAAY</p>
-      </td>
+      <td>ACCOUNT_ID</td>
+      <td>varchar</td>
+      <td>Account-ID bronsysteem.</td>
+      <td>001310001phrBAAAY</td>
     </tr>
     <tr>
-      <td>
-        <p>EMAIL</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>E-mailadres dat aan de account is toegewezen, via Contactpersoon of Toewijzing van account.</p>
-      </td>
-      <td>
-        <p>person@adobe.com</p>
-      </td>
+      <td>EMAIL</td>
+      <td>varchar</td>
+      <td>E-mailadres dat aan de account is toegewezen, via Contactpersoon of Toewijzing van account.</td>
+      <td>person@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>De laatste gewijzigde datum van de account, van het bronsysteem.</p>
-      </td>
-      <td>
-        <p>2018-08-31:53:39,000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>De laatste gewijzigde datum van de account, van het bronsysteem.</td>
+      <td>2018-08-31:53:39,000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>De aanmaakdatum van de account, vanaf het bronsysteem.</p>
-      </td>
-      <td>
-        <p>22-08-18 22:01:32,000</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>De aanmaakdatum van de account, vanaf het bronsysteem.</td>
+      <td>22-08-18 22:01:32,000</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Of de record wordt beschouwd als verwijderd.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
+      <td>Of de record wordt beschouwd als verwijderd.</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -272,58 +247,29 @@ Activiteiten die zijn geïmporteerd uit een bronsysteem of een aangesloten adver
     <th><strong>Voorbeeldgegevens</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>De activiteit-id van het bronsysteem.</p>
-      </td>
-      <td>
-        <p>1678625515</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>De activiteit-id van het bronsysteem.</td>
+      <td>1678625515</td>
     </tr>
     <tr>
-      <td>
-        <p>LEAD_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>LEAD_ID</td>
+      <td>varchar</td>
       <td>Id voor de lead die aan de activiteit is gekoppeld.</td>
-      <td>
-        <p>15530482</p>
-      </td>
+      <td>15530482</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
+      <td>Id voor de contactpersoon die aan de activiteit is gekoppeld.
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id voor de contactpersoon die aan de activiteit is gekoppeld.</p>
-      </td>
-      <td>
-        <p>13792552</p>
-      </td>
+      <td>13792552</td>
     </tr>
     <tr>
-      <td>
-        <p>ACTIVITY_TYPE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id voor het Type van Activiteit, van het bronsysteem.</p>
-      </td>
-      <td>
-        <p>104</p>
-      </td>
+      <td>ACTIVITY_TYPE_ID</td>
+      <td>varchar</td>
+      <td>Id voor het Type van Activiteit, van het bronsysteem.</td>
+      <td>104</td>
     </tr>
     <tr>
       <td>ACTIVITY_TYPE_NAME</td>
@@ -372,7 +318,7 @@ Activiteiten die zijn geïmporteerd uit een bronsysteem of een aangesloten adver
       <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
-      <td>IS_DELETD</td>
+      <td>IS_DELETED</td>
       <td>boolean</td>
       <td>Of de record wordt beschouwd als verwijderd in het bronsysteem.</td>
       <td>false</td>
@@ -4388,18 +4334,10 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>getal (38,0)</p>
-      </td>
-      <td>
-        <p>Foreign Key to the Biz_Facts view.</p>
-      </td>
-      <td>
-        <p>3263982503087870000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>getal (38,0)</td>
+      <td>Foreign Key to the Biz_Facts view.</td>
+      <td>3263982503087870000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -4419,8 +4357,17 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
       <td>01-01-01:01:00,000</td>
     </tr>
+    <tr>
+      <td><b>*</b> JOB_TITLE</td>
+      <td>varchar</td>
+      <td>Functietitel van de contactpersoon.</td>
+      <td>CEO, Vice President</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Alleen beschikbaar in Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
 
@@ -10271,8 +10218,17 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
       <td>01-01-01:01:00,000</td>
     </tr>
+    <tr>
+      <td><b>*</b> OPPORTUNITY_TYPE</td>
+      <td>varchar</td>
+      <td>Type van Kans, zoals Nieuwe Zaken, Verlenging, enz.</td>
+      <td>Verlenging, vooruitzichten</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Alleen beschikbaar in Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
 
