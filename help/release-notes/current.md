@@ -3,7 +3,7 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure] - Produ
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
+source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -102,7 +102,7 @@ De nieuwe set van vooraf gebouwde dashboards zal naar verwachting in golven word
 
 <p>
 
-#### Salesforce-veldvervorming {#salesforce-field-deprecations}
+#### Salesforce-veldvervorming
 
 We zullen onze exporttaken geleidelijk afschaffen naar objecten Lead/Contact om onze integratie te vereenvoudigen en de noodzaak om te exporteren naar standaardobjecten van Salesforce te elimineren. De hieronder vermelde gedenormaliseerde velden worden ook afgekeurd, omdat klanten dezelfde gegevens kunnen verkrijgen van hun Touchpoint-objecten. _**De tijdslijn van afschrijving is juni 2024.**_
 
@@ -175,13 +175,13 @@ De velden die dezelfde informatie bevatten over de Touchpoint- en Attribution To
 
 <p>
 
-* **Dynamisch pakket gerelateerd**
+#### Dynamisch pakket gerelateerd
 
-   * Installeer onze nieuwste pakketversie, v6.12, om verbinding te blijven maken met Dynamics. Oude versies `(<v6.12)` wordt niet meer ondersteund. Deze update optimaliseert het maken van historische records om opslaggebruik te beperken.
+* Installeer onze nieuwste pakketversie, v6.12, om verbinding te blijven maken met Dynamics. Oude versies `(<v6.12)` wordt niet meer ondersteund. Deze update optimaliseert het maken van historische records om opslaggebruik te beperken.
 
-   * De verouderde methode van OAuth met een RefreshToken zal worden afgekeurd. Zie [deze handleiding](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} voor het bijwerken van uw geloofsbrieven om aan Microsoft toe te passen beste praktijken van het gebruiken van ClientSecret.
+* De verouderde methode van OAuth met een RefreshToken zal worden afgekeurd. Zie [deze handleiding](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} voor het bijwerken van uw geloofsbrieven om aan Microsoft toe te passen beste praktijken van het gebruiken van ClientSecret.
 
-* **Veld &quot;custom_properties&quot;**
+#### Veld &quot;custom_properties&quot;
 
 In ons gegevenspakhuis, heeft het gebied &quot;custom_properties&quot;dienst als opslag voor extra gegevenspunten die niet door ons vaste schema worden behandeld. Opgeslagen in JSON-indeling is het gebruik van dit veld beperkt en kan de integratie ervan met SQL-query&#39;s ingewikkeld zijn, wat van invloed is op de prestaties. Gezien deze factoren hebben we besloten dit veld af te schaffen. Deze verandering zal hoofdzakelijk de gegevensverwerkingslaag binnen onze Azure lijstopslag en de gegevens beïnvloeden die naar ons gegevenspakhuis worden uitgevoerd.
 
