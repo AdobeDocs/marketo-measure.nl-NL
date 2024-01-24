@@ -3,7 +3,7 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure] - Produ
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
+source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -102,7 +102,7 @@ De nieuwe set van vooraf gebouwde dashboards zal naar verwachting in golven word
 
 <p>
 
-* **Salesforce-veldvervorming**
+#### Salesforce-veldvervorming {#salesforce-field-deprecations}
 
 We zullen onze exporttaken geleidelijk afschaffen naar objecten Lead/Contact om onze integratie te vereenvoudigen en de noodzaak om te exporteren naar standaardobjecten van Salesforce te elimineren. De hieronder vermelde gedenormaliseerde velden worden ook afgekeurd, omdat klanten dezelfde gegevens kunnen verkrijgen van hun Touchpoint-objecten. _**De tijdslijn van afschrijving is juni 2024.**_
 
