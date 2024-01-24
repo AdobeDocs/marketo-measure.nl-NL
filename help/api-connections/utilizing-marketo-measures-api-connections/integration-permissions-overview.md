@@ -4,9 +4,9 @@ title: Overzicht van integratierechten
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 3d4ee7c71ed241c8e3885b4db57168f753dcdf65
+source-git-commit: 95bdfe7c95111b6c6430e2de2b5eef050183fb0b
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -166,38 +166,74 @@ Marketo Measure volgt accounts, campagnes, advertentiegroepen, advertenties, fil
   </tr>
   <tr>
     <td>DoubleClick</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Platformgegevens toevoegen</td>
+    <td>Marketo Measure volgt accounts, adverteerders, campagnes, (aangepaste) bestemmingspagina's, advertenties, Creative Sites, Placements en Sites.</td>
+    <td><li>Het primaire e-mailadres van de Google-account van de gebruiker is vereist</li>
+<li>De toestemmingen van de Manager van de campagne die worden vereist om tot Manager 360 van de Campagne rekening toegang te hebben</li>
+<ul>
+<li>Dubbelklikadvertenties weergeven en beheren</li>
+<li>Weergave- en campagnes voor het beheren van Double Click Campaign Manager</li>
+<p>
+    <b>Segmenten</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: Zie je primaire e-mailadres voor Google-account
+    <p>
+     <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a>: DoubleClick voor Advertisers-rapporten weergeven en beheren
+    <p>
+     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>: Weergave-en-campagnes van de DoubleClick Campaign Manager (DCM) weergeven en beheren</td>
   </tr>
   <tr>
     <td>AdWords</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Platformgegevens toevoegen</td>
+    <td>We integreren met Advertentie-woorden in:
+<p>
+<li>Klantenadvertenties importeren</li>
+<li>Klantenadvertenties importeren</li>
+<li>Clientadvertenties bijwerken door URL-parameters toe te voegen/URL-trackingsjablonen bij te werken</li>
+<p>
+Marketo Measure volgt campagnes, ad-hocgroepen, Creative Cloud, Site Links en Trefwoorden.</td>
+    <td><li>Het primaire e-mailadres van de Google-account van de gebruiker is vereist</li>
+<p>
+    <b>Segmenten</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: Zie je primaire e-mailadres voor Google-account</td>
   </tr>
   <tr>
     <td>Bing</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Platformgegevens toevoegen</td>
+    <td>Marketo Measure volgt accounts, campagnes, advertentiegroepen, creatieve projecten en trefwoorden.</td>
+    <td><li>De gebruiker moet "off-line toegang"via hun Rekening van Microsoft verlenen (wat Marketo Measure toegang tot de Gebruiker van het Eind verleent - gebruikerInfo zelfs wanneer niet het programma geopend). Zie <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoft-pagina</a> hoe dat moet gebeuren .</li>
+<p>
+    <b>Segmenten</b>
+    <br>
+    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>: Toegang tot gegevens behouden die u toegang hebt verleend.</td>
   </tr>
   <tr>
     <td>Marketo Engage</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>B2B-systeemgegevens</td>
+    <td>Dankzij de Marketo-integratie kan Marketo Measure Marketo-activiteiten, -mensen, -programma's en -programmamakers verzamelen. Daarnaast houdt Marketo Measure Marketo cookies (Munchkin-id's) bij voor het koppelen van Marketo-webactiviteiten aan Marketo Measure lead touchpoints. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">zoals hier beschreven</a>:
+    <p>
+    <i>Dankzij de Marketo Measure-integratie met Marketo is de Marketo Measure Cookie-id nu ook toegewezen en gesynchroniseerd met de Marketo Munchkin-id. Zo kunt u de tussenruimte dichten en de anonieme eerste aanraking toewijzen aan een websessie in plaats van zowel de FT- als de LC-aanraking toe te wijzen aan een Marketo-activiteit.</i>
+    </td>
+    <td>De klant moet een specifieke Marketo Engage-API-gebruiker maken en de referenties aan Marketo Measure leveren. Er is geen configuratie met extra machtigingen vereist. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md#configuring-the-integration">Meer informatie</a>.</td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>B2B-systeemgegevens</td>
+    <td>Dankzij de integratie van B2B-klantkenmerken kunnen wederzijdse gebruikers van Marketo Measure en Adobe Analytics hun Adobe Analytics-gebruikersprofielen verrijken met waardevolle metagegevens die zijn afgeleid van de Marketo Measure-toewijzingsengine en via de synchronisatiefunctie met CRM's (Microsoft Dynamics en Salesforce). <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Meer informatie</a>.</td>
+    <td>De klant moet Marketo Measure een alias-id en FTP-serverreferenties verstrekken op een locatie waar de gegevens naar de instantie Analytics worden geüpload.
+    <p>
+    Neem nota van de volgende informatie, aangezien u het voor enkele recentere stappen in het proces zult nodig hebben:
+    <p>
+    <li>De alias-id. Dit kan elke gewenste waarde zijn. We raden 'marketeasure_id' aan</li>
+    <li>De hostnaam en referenties van de FTP-server (gebruikersnaam en wachtwoord)</li>
+    <p>
+    <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md#configuring-the-integration">Meer informatie</a></td>
   </tr>
   <tr>
     <td>Bizible Javascript</td>
     <td></td>
-    <td></td>
+    <td><a href="/help/marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md">Welke gegevens worden verzameld door bizible.js</a>.</td>
     <td></td>
   </tr>
 </tbody>
