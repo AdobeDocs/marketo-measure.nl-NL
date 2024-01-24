@@ -3,9 +3,9 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure] - Produ
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
+source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ De nieuwe set van vooraf gebouwde dashboards zal naar verwachting in golven word
 
 We zullen onze exporttaken geleidelijk afschaffen naar objecten Lead/Contact om onze integratie te vereenvoudigen en de noodzaak om te exporteren naar standaardobjecten van Salesforce te elimineren. De hieronder vermelde gedenormaliseerde velden worden ook afgekeurd, omdat klanten dezelfde gegevens kunnen verkrijgen van hun Touchpoint-objecten. _**De tijdslijn van afschrijving is juni 2024.**_
 
-<table style="width:300px">
+<table style="width:350px">
 <tbody>
   <tr>
     <td>bizible2_Ad_Campaign_Name_FT__c</td>
@@ -140,6 +140,40 @@ We zullen onze exporttaken geleidelijk afschaffen naar objecten Lead/Contact om 
   </tr>
 </tbody>
 </table>
+
+De velden die dezelfde informatie bevatten over de Touchpoint- en Attribution Touchpoint-objecten zijn:
+
+* bizible2_ad_Campaign_Name__c
+* bizible2_Landing_Page__c
+* bizible2_Marketing_Channel__c
+* bizible2_Touchpoint_Date__c
+* bizible2__Touchpoint_Source__c
+
+**Vereiste handelingen**
+
+* Maak nieuwe rapporttypen voor leads en contactpersonen met of zonder aanraakpunten.
+
+![](assets/release-notes-2023-1.png)
+
+* Creeer rapporten die de functionaliteit van om het even welk bestaand rapport vangen dat de verwijderde gebieden gebruikt. Als onderdeel van dit proces wilt u de velden in het rapport wijzigen, zoals hieronder is aangegeven:
+
+   * Verwijder de velden Lood/Contact FT/LC:
+
+![](assets/release-notes-2023-2.png)
+
+* Velden voor aanraakpunten toevoegen:
+
+![](assets/release-notes-2023-3.png)
+
+* Het aanraakpuntpositiefilter en alle filters die gebruikmaken van de FT/LC-velden, inclusief het datumveld, moeten als volgt worden bijgewerkt:
+
+![](assets/release-notes-2023-4.png)
+
+![](assets/release-notes-2023-5.png)
+
+* Verwijder eventuele bestaande rapporten waarin de verwijderde velden uit het object Lead/Contact zijn gebruikt om niet langer naar deze velden te verwijzen.
+
+<p>
 
 * **Dynamisch pakket gerelateerd**
 
