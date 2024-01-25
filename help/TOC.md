@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] geeft marketeers inzicht in welke marketinginspanningen het meest effectief zijn in het aansturen van inkomsten voor hun bedrijf . "
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
+source-git-commit: 969cb2b4fb85aeb5c3a3aa21ead3eb5f4ff15ad9
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 0%
       + [Methodologie voor toewijzing van kenmerken](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
       + [Adobe Admin Console Setup](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [Verschil tussen aanraakpunten voor kopers en aanraakpunten voor koperkenmerken](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+      + [Foutmeldingen](configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
       + [Uitleg van aanraakpuntposities en genereren over BT&#39;s en [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [[!DNL Marketo Measure] Integratie zonder CRM](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + [!DNL Marketo Measure] en Salesforce {#marketo-measure-and-salesforce}
