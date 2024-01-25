@@ -4,7 +4,7 @@ title: Foutmeldingen
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 656c84090c93adb55a661869061e9e0771ede03d
+source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de ap
           </ul>
           <p>U kunt de CRM-credits die Marketo Measure gebruikt ook aanpassen door de volgende stappen uit te voeren:</p>
           <ul>
-            <li>Navigeren naar Instellingen → CRM → Algemeen</li>
+            <li>Navigeren naar <b>Instellingen</b> &gt; <b>CRM</b> &gt; <b>Algemeen</b></li>
             <li>De API-limiet voor dagelijkse CRM bijwerken<br/>
               <ul>
-                <li><b>Opmerking</b>: Standaard is 100.000</li>
+                <li><b>Opmerking: de standaardwaarde is 100.000</b></li>
               </ul>
             </li>
           </ul>
