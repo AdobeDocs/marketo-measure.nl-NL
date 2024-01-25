@@ -4,7 +4,7 @@ title: Foutmeldingen
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
+source-git-commit: b4fadc6519761975736ce7a0e4f99a30c589c9af
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -18,10 +18,10 @@ Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de ap
 <table>
   <tbody>
     <tr>
-      <th>Foutcode</th>
-      <th>Voorbeeld van melding</th>
-      <th>Beschrijving</th>
-      <th>Stappen voor probleemoplossing</th>
+      <th style="width:31%">Foutcode</th>
+      <th style="width:23%">Voorbeeld van melding</th>
+      <th style="width:23%">Beschrijving</th>
+      <th style="width:23%">Stappen voor probleemoplossing</th>
     </tr>
     <tr>
       <td>API_DISABLED</td>
