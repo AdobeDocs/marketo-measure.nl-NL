@@ -2,9 +2,9 @@
 description: Overzicht van integratierechten - [!DNL Marketo Measure] - Productdocumentatie
 title: Overzicht van integratierechten
 feature: APIs, Integration
-source-git-commit: e427f5e9f234917c033188116602d4798701118c
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -236,3 +236,7 @@ Marketo Measure volgt campagnes, ad-hocgroepen, Creative Cloud, Site Links en Tr
   </tr>
 </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Foutmeldingen](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

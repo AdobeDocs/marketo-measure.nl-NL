@@ -4,9 +4,9 @@ description: Veelgestelde vragen (meerdere valuta) - [!DNL Marketo Measure] - Pr
 title: Veelgestelde vragen (meerdere valuta's)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,7 @@ Voor de geïnteresseerde lezer is dit de reden waarom het zo werkt. Onze aanraak
 **Als mijn klant een workflow heeft gebruikt om een geconverteerd veld te vullen, hoe moeten ze dit veld dan verder gebruiken?**
 
 Omdat onze aanbieding nu de omzettingen voor de klant zal behandelen, adviseren wij zij de werkschema&#39;s en het douanegebied verwijderen en ons toestaan om hun ruwe waarde van het Bedrag in te voeren.
+
+>[!MORELIKETHIS]
+>
+>[Foutmeldingen](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

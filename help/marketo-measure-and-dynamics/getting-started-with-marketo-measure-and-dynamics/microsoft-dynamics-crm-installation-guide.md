@@ -4,9 +4,9 @@ description: "[!DNL Microsoft Dynamics] CRM Installation Guide - Marketo Measure
 title: "[!DNL Microsoft Dynamics] CRM Installation Guide"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -175,3 +175,7 @@ Om [!DNL Marketo Measure] om uw Webactiviteiten te volgen, zijn er veelvoudige s
    >[!NOTE]
    >
    >Als u het exporteren van gegevens naar Dynamics uitschakelt, worden er geen bestaande gegevens verwijderd. Neem contact op met de afdeling Dynamische ondersteuning voor hulp bij het verwijderen van bestaande gegevens.
+
+   >[!MORELIKETHIS]
+   >
+   >[Foutmeldingen](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
