@@ -3,7 +3,7 @@ description: '''[!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit -
 title: '''[!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit"'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: b5277eef02d22b1f8cc10c184f232adb2ad7ac06
+source-git-commit: 23890f24412e234f9ab7c08b684b6064eac5d0ed
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -1366,7 +1366,7 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 Wij adviseren gebruikend een berekend gebied in gebiedstoewijzing om het gebied aan een niet-ONGELDIGE waarde in gebreke te blijven. Hieronder volgen twee voorbeelden:
 
 * Als OpportunityName van sommige opportunityrecords null is, maakt en gebruikt u het volgende berekende veld in veldtoewijzing
-   * `iif(name != null && name != "", name, "Unknown")`
+   * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * Als leadOperation.campagneProgression.campagneID van sommige ervaringsgebeurtenisrecords null is, maakt en gebruikt u het volgende berekende veld in veldtoewijzing
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
