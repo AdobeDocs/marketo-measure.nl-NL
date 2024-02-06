@@ -4,9 +4,9 @@ description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
+source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
 workflow-type: tm+mt
-source-wordcount: '20757'
+source-wordcount: '20781'
 ht-degree: 1%
 
 ---
@@ -6740,6 +6740,10 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
 ### BIZ_FACTS {#biz-facts}
 
 Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formulieren, aanraakpunten voor gebruikers, aanraakpunten (BT), kenmerkaanraakpunten (BAT) en kostengegevens. Wordt intern gebruikt voor ondersteuning [!DNL Marketo Measure] rapportage.
+
+>[!IMPORTANT]
+>
+>Marketo Measure zal deze tabel medio 2024 afschaffen. Als u deze aan uw zijde wilt maken, voert u [deze SQL-query](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
