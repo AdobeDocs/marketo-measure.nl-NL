@@ -4,9 +4,9 @@ description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
 workflow-type: tm+mt
-source-wordcount: '20781'
+source-wordcount: '20777'
 ht-degree: 1%
 
 ---
@@ -8120,9 +8120,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>De naam van de internetprovider, die wordt gebruikt door klanten met geavanceerde Geo IP-tracking.</p>
-      </td>
+      <td>Null verwacht omdat het veld verouderd is.</td>
       <td>
         <p>&amp;Omgekeerd</p>
       </td>
@@ -12037,9 +12035,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>De internetprovider van de gebruiker</p>
-      </td>
+      <td>Null verwacht omdat het veld verouderd is.</td>
       <td>
         <p>&amp;Omgekeerd</p>
       </td>
