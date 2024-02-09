@@ -4,7 +4,7 @@ description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: b7675bb771c41f6d0e0b2718e64a152c78e405af
+source-git-commit: 6cc1c20c2fa0e801b2c245a5a0473f0546b15da4
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 1%
@@ -357,349 +357,164 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p><strong>Kolom</strong></p>
-      </th>
-      <th>
-        <p><strong>Gegevenstype</strong></p>
-      </th>
-      <th>
-        <p><strong>Beschrijving</strong></p>
-      </th>
-      <th>
-        <p><strong>Voorbeeldgegevens</strong></p>
-      </th>
+      <th><strong>Kolom</strong></th>
+      <th><strong>Gegevenstype</strong></th>
+      <th><strong>Beschrijving</strong></th>
+      <th><strong>Voorbeeldgegevens</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Een unieke id voor de advertentie.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075.605204428804.6052044290004.6053457 66804</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>Een unieke id voor de advertentie.</td>
+      <td>fb.106851586409075.605204428804.6052044290004.6053457 66804</td>
     </tr>
     <tr>
-      <td>
-        <p>DISPLAY_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Advertentie ID van het bronsysteem.</p>
-      </td>
-      <td>
-        <p>6053457066804</p>
-      </td>
+      <td>DISPLAY_ID</td>
+      <td>varchar</td>
+      <td>Advertentie ID van het bronsysteem.</td>
+      <td>6053457066804</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id voor de advertentieaccount waaruit de advertentie is geïmporteerd.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075</p>
-      </td>
+      <td>AD_ACCOUNT_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Id voor de advertentieaccount waaruit de advertentie is geïmporteerd.</td>
+      <td>fb.106851586409075</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Naam van de advertentierekening waaruit de advertentie is geïmporteerd.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Account</p>
-      </td>
+      <td>AD_ACCOUNT_NAME</td>
+      <td>varchar</td>
+      <td>Naam van de advertentierekening waaruit de advertentie is geïmporteerd.</td>
+      <td>[!DNL Marketo Measure] Account</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id van Advertiser voor Advertentie, specifiek voor Doubleclick.</p>
-      </td>
-      <td>
-        <p>300181641</p>
-      </td>
+      <td>ADVERTISER_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Id van Advertiser voor Advertentie, specifiek voor Doubleclick.</td>
+      <td>300181641</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Naam van Advertiser voor Advertentie, specifiek voor Doubleclick.</p>
-      </td>
-      <td>
-        <p>Marketinganalyses</p>
-      </td>
+      <td>ADVERTISER_NAME</td>
+      <td>varchar</td>
+      <td>Naam van Advertiser voor Advertentie, specifiek voor Doubleclick.</td>
+      <td>Marketinganalyses</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id van Advertentiegroep voor Advertentie.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075.605204428804.6052044290004</p>
-      </td>
+      <td>AD_GROUP_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Id van Advertentiegroep voor Advertentie.</td>
+      <td>fb.106851586409075.605204428804.6052044290004</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Naam van de Advertentiegroep voor Advertentie.</p>
-      </td>
-      <td>
-        <p>Advertentieset voor advertentie B</p>
-      </td>
+      <td>AD_GROUP_NAME</td>
+      <td>varchar</td>
+      <td>Naam van de Advertentiegroep voor Advertentie.</td>
+      <td>Advertentieset voor advertentie B</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id van campagne voor advertentie.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075,6052044288804</p>
-      </td>
+      <td>AD_CAMPAIGN_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Id van campagne voor advertentie.</td>
+      <td>fb.106851586409075,6052044288804</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Naam van de campagne voor de advertentie.</p>
-      </td>
-      <td>
-        <p>Campagne voor het genereren van leads</p>
-      </td>
+      <td>AD_CAMPAIGN_NAME</td>
+      <td>varchar</td>
+      <td>Naam van de campagne voor de advertentie.</td>
+      <td>Campagne voor het genereren van leads</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_ACTIVE</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Of de advertentie al dan niet nog actief is in het bronsysteem.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_ACTIVE</td>
+      <td>boolean</td>
+      <td>Of de advertentie al dan niet nog actief is in het bronsysteem.</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Of de advertentie al dan niet is verwijderd in het bronsysteem.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
+      <td>Of de advertentie al dan niet is verwijderd in het bronsysteem.</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>De datum waarop de record voor het laatst is gewijzigd.</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59,000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>De datum waarop de record voor het laatst is gewijzigd.</td>
+      <td>2018-08-02 06:35:59,000</td>
     </tr>
     <tr>
-      <td>
-        <p>FIRST_IMPORTED</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59,000</p>
-      </td>
+      <td>FIRST_IMPORTED</td>
+      <td>timestamp_ntz</td>
+      <td>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</td>
+      <td>2018-08-02 06:35:59,000</td>
     </tr>
     <tr>
-      <td>
-        <p>NAAM</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Naam van de Advertentie, van het bronsysteem.</p>
-      </td>
-      <td>
-        <p>2 AD</p>
-      </td>
+      <td>NAAM</td>
+      <td>varchar</td>
+      <td>Naam van de Advertentie, van het bronsysteem.</td>
+      <td>2 AD</td>
     </tr>
     <tr>
-      <td>
-        <p>NEEDS_UPDATE</p>
+      <td>NEEDS_UPDATE</td>
+      <td>boolean</td>
+      <td>Of de advertentie moet worden bijgewerkt [!DNL Marketo Measure] labelen.
+      <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)
       </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Of de advertentie moet worden bijgewerkt [!DNL Marketo Measure] labelen.</p>
-        <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>GROUPING_KEY</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>GROUPING_KEY</td>
+      <td>varchar</td>
       <td>Diagnostisch veld voor interne verwerking.</td>
-      <td>
-        <p>fb.106851586409075.605204428804.6052044290004</p>
-      </td>
+      <td>fb.106851586409075.605204428804.6052044290004</td>
     </tr>
     <tr>
-      <td>
-        <p>ENTITY_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval, "Ad".</p>
-      </td>
-      <td>
-        <p>Advertentie</p>
-      </td>
+      <td>ENTITY_TYPE</td>
+      <td>varchar</td>
+      <td>Het hoofdobject of de entiteit voor deze tabel. In dit geval, "Ad".</td>
+      <td>Advertentie</td>
     </tr>
     <tr>
-      <td>
-        <p>PROVIDER_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Naam van de advertentieprovider voor de advertentie.</p>
-      </td>
-      <td>
-        <p>Facebook</p>
-      </td>
+      <td>PROVIDER_TYPE</td>
+      <td>varchar</td>
+      <td>Naam van de advertentieprovider voor de advertentie.</td>
+      <td>Facebook</td>
     </tr>
     <tr>
-      <td>
-        <p>URL_CURRENT</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>De URL voor de landingspagina.</p>
-        <p>(Diagnostisch veld, voor interne verwerking.)</p>
+      <td>URL_CURRENT</td>
+      <td>varchar</td>
+      <td>De URL voor de landingspagina.
+        <p>(Diagnostisch veld, voor interne verwerking.)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL_OLD</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Vorige waarde voor URL_CURRENT.</p>
-        <p>(Diagnostisch veld, voor interne verwerking.)</p>
+      <td>URL_OLD</td>
+      <td>varchar</td>
+      <td>Vorige waarde voor URL_CURRENT.
+      <p>(Diagnostisch veld, voor interne verwerking.)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL_REQUESTED</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Waarmee wordt de URL ingericht [!DNL Marketo Measure] parameters.</p>
-        <p>(Diagnostisch veld, voor interne verwerking.)</p>
+      <td>URL_REQUESTED</td>
+      <td>varchar</td>
+      <td>Waarmee wordt de URL ingericht [!DNL Marketo Measure] parameters.
+      <p>(Diagnostisch veld, voor interne verwerking.)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL_ALTENATIVES</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Geïmporteerd uit het bronsysteem.</p>
-        <p>(Diagnostisch veld, voor interne verwerking.)</p>
+      <td>URL_ALTENATIVES</td>
+      <td>varchar</td>
+      <td>Geïmporteerd uit het bronsysteem.
+      <p>(Diagnostisch veld, voor interne verwerking.)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>getal (38,0)</p>
-      </td>
-      <td>
-        <p>Foreign Key to the Biz_Facts view.</p>
-      </td>
-      <td>
-        <p>6008900572523230000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>getal (38,0)</td>
+      <td>Foreign Key to the Biz_Facts view.</td>
+      <td>6008900572523230000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -735,277 +550,126 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Een unieke id voor de adverteerder.</p>
-      </td>
-      <td>
-        <p>dc.6114,9143143</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>Een unieke id voor de adverteerder.</td>
+      <td>dc.6114,9143143</td>
     </tr>
     <tr>
-      <td>
-        <p>DISPLAY_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>DISPLAY_ID</td>
+      <td>varchar</td>
       <td>De advertentie-id van het bronsysteem.</td>
       <td>9143143</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id voor de advertentieaccount waaruit de advertentie is geïmporteerd.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075</p>
-      </td>
+      <td>AD_ACCOUNT_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Id voor de advertentieaccount waaruit de advertentie is geïmporteerd.</td>
+      <td>fb.106851586409075</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Naam van de advertentierekening waaruit de advertentie is geïmporteerd.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Account</p>
-      </td>
+      <td>AD_ACCOUNT_NAME</td>
+      <td>varchar</td>
+      <td>Naam van de advertentierekening waaruit de advertentie is geïmporteerd.</td>
+      <td>[!DNL Marketo Measure] Account</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id van de Adverteerder, met name voor Doubleclick.</p>
-      </td>
-      <td>
-        <p>300181641</p>
-      </td>
+      <td>ADVERTISER_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Id van de Adverteerder, met name voor Doubleclick.</td>
+      <td>300181641</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Naam van de adverteerder, met name voor Doubleclick.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Marketinganalyses</p>
-      </td>
+      <td>ADVERTISER_NAME</td>
+      <td>varchar</td>
+      <td>Naam van de adverteerder, met name voor Doubleclick.</td>
+      <td>[!DNL Marketo Measure] Marketinganalyses</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Null verwacht omdat er geen Advertentiegroep is boven de Advertiser in een advertentiehiërarchie.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_GROUP_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Null verwacht omdat er geen Advertentiegroep is boven de Advertiser in een advertentiehiërarchie.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Null verwacht omdat er geen Advertentiegroep is boven de Advertiser in een advertentiehiërarchie.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_GROUP_NAME</td>
+      <td>varchar</td>
+      <td>Null verwacht omdat er geen Advertentiegroep is boven de Advertiser in een advertentiehiërarchie.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Null verwacht omdat er geen advertentiecampagne boven de adverteerder in een advertentiehiërarchie is.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_CAMPAIGN_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Null verwacht omdat er geen advertentiecampagne boven de adverteerder in een advertentiehiërarchie is.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Null verwacht omdat er geen campagne boven Advertiser in een advertentiehiërarchie is.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_CAMPAIGN_NAME</td>
+      <td>varchar</td>
+      <td>Null verwacht omdat er geen campagne boven Advertiser in een advertentiehiërarchie is.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_ACTIVE</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Of de Advertiser al dan niet nog actief is in het bronsysteem.</p>
-      </td>
-      <td>
-        <p>true</p>
-      </td>
+      <td>IS_ACTIVE</td>
+      <td>boolean</td>
+      <td>Of de Advertiser al dan niet nog actief is in het bronsysteem.</td>
+      <td>true</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Of de Advertiser al dan niet in het bronsysteem is verwijderd.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
+      <td>Of de Advertiser al dan niet in het bronsysteem is verwijderd.</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>De datum waarop de record voor het laatst is gewijzigd.</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59,000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>De datum waarop de record voor het laatst is gewijzigd.</td>
+      <td>2018-08-02 06:35:59,000</td>
     </tr>
     <tr>
-      <td>
-        <p>FIRST_IMPORTED</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59,000</p>
-      </td>
+      <td>FIRST_IMPORTED</td>
+      <td>timestamp_ntz</td>
+      <td>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</td>
+      <td>2018-08-02 06:35:59,000</td>
     </tr>
     <tr>
-      <td>
-        <p>NAAM</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Naam van de Advertiser, van het bronsysteem.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Marketinganalyses</p>
-      </td>
+      <td>NAAM</td>
+      <td>varchar</td>
+      <td>Naam van de Advertiser, van het bronsysteem.</td>
+      <td>[!DNL Marketo Measure] Marketinganalyses</td>
     </tr>
     <tr>
-      <td>
-        <p>NEEDS_UPDATE</p>
+      <td>NEEDS_UPDATE</td>
+      <td>boolean</td>
+      <td>Of de adverteerder moet worden bijgewerkt [!DNL Marketo Measure] labelen.
+      <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)
       </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Of de adverteerder moet worden bijgewerkt [!DNL Marketo Measure] labelen.</p>
-        <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>GROUPING_KEY</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>GROUPING_KEY</td>
+      <td>varchar</td>
       <td>Diagnostisch veld voor interne verwerking.</td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>ENTITY_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval, "Advertiser".</p>
-      </td>
-      <td>
-        <p>Adverteerder</p>
-      </td>
+      <td>ENTITY_TYPE</td>
+      <td>varchar</td>
+      <td>Het hoofdobject of de entiteit voor deze tabel. In dit geval, "Advertiser".</td>
+      <td>Adverteerder</td>
     </tr>
     <tr>
-      <td>
-        <p>PROVIDER_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>De advertentieprovider voor de adverteerder.</p>
-      </td>
-      <td>
-        <p>Doubleclick</p>
-      </td>
+      <td>PROVIDER_TYPE</td>
+      <td>varchar</td>
+      <td>De advertentieprovider voor de adverteerder.</td>
+      <td>Doubleclick</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>getal (38,0)</p>
-      </td>
-      <td>
-        <p>Foreign Key to the Biz_Facts view.</p>
-      </td>
-      <td>
-        <p>6008900572523230000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>getal (38,0)</td>
+      <td>Foreign Key to the Biz_Facts view.</td>
+      <td>6008900572523230000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
