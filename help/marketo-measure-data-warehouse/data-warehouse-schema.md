@@ -4,9 +4,9 @@ description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
+source-git-commit: 999758c34b0264b8dac06fd0675e26b312fa58d6
 workflow-type: tm+mt
-source-wordcount: '20777'
+source-wordcount: '20775'
 ht-degree: 1%
 
 ---
@@ -729,18 +729,10 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -1043,18 +1035,10 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -1487,18 +1471,10 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -2092,18 +2068,10 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -2466,18 +2434,10 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -2548,18 +2508,10 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -3748,18 +3700,10 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -4061,18 +4005,10 @@ Marketingkanalen, zoals gemaakt in het dialoogvenster [!DNL Marketo Measure] toe
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -4144,18 +4080,10 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -5026,18 +4954,10 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -5527,18 +5447,10 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -5740,18 +5652,10 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -6042,15 +5946,9 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
@@ -6205,15 +6103,9 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
@@ -6334,15 +6226,9 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
@@ -6619,18 +6505,10 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -7540,17 +7418,11 @@ Vastgelegde formulierverzendingen.
   <tbody>
     <tr>
       <th>
-        <p>Kolom</p>
+        Kolom
       </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -7852,18 +7724,10 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -8121,9 +7985,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
         <p>varchar</p>
       </td>
       <td>Null verwacht omdat het veld verouderd is.</td>
-      <td>
-        <p>&amp;Omgekeerd</p>
-      </td>
+      <td>NULL</td>
     </tr>
     <tr>
       <td>
@@ -8601,18 +8463,10 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -9026,15 +8880,9 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
@@ -9293,18 +9141,10 @@ Leads die zijn geïmporteerd uit het bronsysteem.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -9632,18 +9472,10 @@ Werkgebiedovergangen voor leads of contactpersonen.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -9909,18 +9741,10 @@ Kansen die uit het bronsysteem worden ingevoerd.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -10239,18 +10063,10 @@ Werkgebiedovergangen voor opportunity.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -10528,18 +10344,10 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -10853,15 +10661,9 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
@@ -11131,18 +10933,10 @@ Segmentwaarden zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] t
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -11214,18 +11008,10 @@ Wijst de naam van het douanesegment aan het zijn categoriewaarde toe. (Hiermee w
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -11309,18 +11095,10 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -12037,7 +11815,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       </td>
       <td>Null verwacht omdat het veld verouderd is.</td>
       <td>
-        <p>&amp;Omgekeerd</p>
+        <p>NULL</p>
       </td>
     </tr>
     <tr>
@@ -12176,18 +11954,10 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -12462,18 +12232,10 @@ Plaatst koppelingen van een verbonden advertentiekader.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -12801,18 +12563,10 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -14277,18 +14031,10 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
@@ -15178,18 +14924,10 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolom</p>
-      </th>
-      <th>
-        <p>Gegevenstype</p>
-      </th>
-      <th>
-        <p>Beschrijving</p>
-      </th>
-      <th>
-        <p>Voorbeeldgegevens</p>
-      </th>
+      <th>Kolom</th>
+      <th>Gegevenstype</th>
+      <th>Beschrijving</th>
+      <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
       <td>
