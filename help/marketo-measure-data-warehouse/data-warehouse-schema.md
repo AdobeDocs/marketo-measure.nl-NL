@@ -4,9 +4,9 @@ description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 6cc1c20c2fa0e801b2c245a5a0473f0546b15da4
+source-git-commit: 79ac3c82c1b67cebc26fedb5e698e531537cce7f
 workflow-type: tm+mt
-source-wordcount: '20775'
+source-wordcount: '21115'
 ht-degree: 1%
 
 ---
@@ -705,12 +705,8 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de advertentieaccount.</p>
       </td>
@@ -722,9 +718,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De accountid toevoegen van het bronsysteem.</td>
       <td>
         <p>6601259029</p>
@@ -734,9 +728,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Er wordt een null-waarde verwacht omdat dit de record is voor de advertentierekeningen in de hiërarchie van advertenties.</td>
       <td>null</td>
     </tr>
@@ -744,9 +736,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Er wordt een null-waarde verwacht omdat dit de record is voor de advertentierekeningen in de hiërarchie van advertenties.</td>
       <td>null</td>
     </tr>
@@ -754,9 +744,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen adverteerder is boven de advertentierapporten in een advertentiehiërarchie.</p>
       </td>
@@ -766,9 +754,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen adverteerder is boven de advertentierapporten in een advertentiehiërarchie.</p>
       </td>
@@ -778,9 +764,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen Advertentiegroep is boven Advertentierekeningen in om het even welke advertentiehiërarchie.</p>
       </td>
@@ -790,9 +774,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen Advertentiegroep is boven Advertentierekeningen in om het even welke advertentiehiërarchie.</p>
       </td>
@@ -802,9 +784,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen advertentiecampagne is boven de advertentierekeningen in een advertentiehiërarchie.</p>
       </td>
@@ -814,9 +794,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen advertentiecampagne is boven de advertentierekeningen in een advertentiehiërarchie.</p>
       </td>
@@ -851,12 +829,8 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -868,9 +842,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
@@ -882,9 +854,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Naam van de advertentierekening, van het bronsysteem.</td>
       <td>
         <p>[!DNL Marketo Measure] Advertentierekening</p>
@@ -909,9 +879,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostisch veld voor interne verwerking.</td>
       <td></td>
     </tr>
@@ -919,9 +887,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval "Account".</p>
       </td>
@@ -933,9 +899,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de advertentieprovider voor de advertentierekening.</p>
       </td>
@@ -947,9 +911,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>ACCOUNT_CURRENCY_UNIT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De valutacode die voor de Advertentierekening, van het bronsysteem wordt gebruikt.</p>
       </td>
@@ -961,9 +923,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>COMPANY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne verwerking.</td>
       <td>1933789</td>
     </tr>
@@ -971,9 +931,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>BRON</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Geparseerd van URL van utm_source.</td>
       <td>
         <p>Social</p>
@@ -983,9 +941,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Geparseerd van URL van utm_medium.</td>
       <td>
         <p>lisu07261601</p>
@@ -1051,9 +1007,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -1063,9 +1017,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
@@ -1073,9 +1025,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
@@ -1083,9 +1033,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLICAED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De sjabloon voor bijhouden die op het niveau Advertentieaccount voor AdWords of Bing is toegevoegd voor het labelen van bestemmingspagina's.</p>
       </td>
@@ -1141,12 +1089,8 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Unieke id voor de campagne.</p>
       </td>
@@ -1158,9 +1102,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De campagne-id van het bronsysteem.</td>
       <td>
         <p>285114995</p>
@@ -1170,9 +1112,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de advertentierekening waaruit de Campagne werd ingevoerd.</p>
       </td>
@@ -1184,9 +1124,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam voor de advertentierekening waaruit de Campagne werd ingevoerd.</p>
       </td>
@@ -1198,9 +1136,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van Advertiser voor de Campagne, specifiek voor Doubleclick.</p>
       </td>
@@ -1212,9 +1148,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Advertiser voor de Campagne, specifiek voor Doubleclick.</p>
       </td>
@@ -1226,9 +1160,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen Advertentiegroep boven de Campagne in om het even welke advertentiehiërarchie is.</p>
       </td>
@@ -1240,9 +1172,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen Advertentiegroep boven de Campagne in om het even welke advertentiehiërarchie is.</p>
       </td>
@@ -1252,9 +1182,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Unieke ID voor de campagne, gebruik in plaats daarvan het gebied van Id.</p>
       </td>
@@ -1264,9 +1192,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Gebruik in plaats daarvan de naam van de campagne in het veld Naam.</p>
       </td>
@@ -1301,12 +1227,8 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -1318,9 +1240,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
@@ -1332,9 +1252,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de campagne.</p>
       </td>
@@ -1361,9 +1279,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostisch veld voor interne verwerking.</td>
       <td></td>
     </tr>
@@ -1371,9 +1287,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval, "Campaign".</p>
       </td>
@@ -1385,9 +1299,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentieprovider voor de campagne.</p>
       </td>
@@ -1413,9 +1325,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
@@ -1423,9 +1333,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
@@ -1433,9 +1341,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
@@ -1443,9 +1349,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLICAED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De sjabloon voor tekstspatiëring die op campagnereniveau is toegevoegd voor AdWords of Bing voor het labelen van bestemmingspagina's.</p>
       </td>
@@ -1509,12 +1413,8 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
   </tr>
   <tbody>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor het advertentieformulier.</p>
       </td>
@@ -1526,9 +1426,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de advertentieaccount waaruit het advertentieformulier is geïmporteerd.</p>
       </td>
@@ -1540,9 +1438,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentierekening waaruit het Advertentieformulier werd ingevoerd.</p>
       </td>
@@ -1565,12 +1461,8 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -1582,9 +1474,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
@@ -1596,9 +1486,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het advertentieformulier.</p>
       </td>
@@ -1610,9 +1498,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval, "AdForm".</p>
       </td>
@@ -1624,9 +1510,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentieprovider voor het advertentieformulier.</p>
       </td>
@@ -1638,9 +1522,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>BESCHRIJVING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Beschrijving van het ADF-formulier.</p>
       </td>
@@ -1652,9 +1534,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>HEADLINE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Titel van het advertentievorm.</td>
       <td>
         <p>Het is tijd om het herfinancieringsproces te automatiseren</p>
@@ -1664,9 +1544,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>LANDING_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De landings URL van de Advertentie Vorm.</td>
       <td>
         <p>https://adobe.com/blog/refinancing-application-process/</p>
@@ -1676,9 +1554,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>VRAGEN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Lijst met vragen voor het advertentieformulier.</td>
       <td>
         <p>voornaam:achternaam:e-mailadres:Land/regio:functie, titel:Bedrijfsnaam</p>
@@ -1688,9 +1564,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>
         <p>STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Status van het advertentieformulier.</p>
       </td>
@@ -1738,12 +1612,8 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de advertentiegroep.</p>
       </td>
@@ -1755,9 +1625,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De Advertentiegroep ID van het bronsysteem.</td>
       <td>
         <p>23105326115</p>
@@ -1767,9 +1635,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de advertentieaccount waaruit de advertentiegroep is geïmporteerd.</p>
       </td>
@@ -1781,9 +1647,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam voor de advertentierekening waaruit de Advertentiegroep werd ingevoerd.</p>
       </td>
@@ -1795,9 +1659,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Er wordt een null-waarde verwacht omdat de hiërarchie voor dubbelklikken geen Advertentiegroep bevat.</p>
       </td>
@@ -1809,9 +1671,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Er wordt een null-waarde verwacht omdat de hiërarchie voor dubbelklikken geen Advertentiegroep bevat.</p>
       </td>
@@ -1823,9 +1683,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat dit de record is voor de advertentiegroep in de hiërarchie.</p>
       </td>
@@ -1837,9 +1695,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat dit de record is voor de advertentiegroep in de hiërarchie.</p>
       </td>
@@ -1851,9 +1707,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne voor de advertentiegroep.</p>
       </td>
@@ -1865,9 +1719,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de campagne voor de advertentiegroep.</p>
       </td>
@@ -1904,12 +1756,8 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -1921,9 +1769,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
@@ -1935,9 +1781,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentiegroep.</p>
       </td>
@@ -1964,9 +1808,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostisch veld voor interne verwerking.</td>
       <td></td>
     </tr>
@@ -1974,9 +1816,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval, "AdGroup".</p>
       </td>
@@ -1988,9 +1828,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentieprovider voor de advertentiegroep.</p>
       </td>
@@ -2002,9 +1840,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_NETWORK_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het medium waarop de advertentiegroep wordt uitgevoerd.</p>
       </td>
@@ -2016,9 +1852,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
@@ -2026,9 +1860,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
@@ -2036,9 +1868,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
@@ -2046,9 +1876,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLICAED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De sjabloon voor bijhouden die op het niveau Advertentieaccount voor AdWords of Bing is toegevoegd voor het labelen van bestemmingspagina's.</p>
       </td>
@@ -2104,12 +1932,8 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de advertentieprovider.</p>
       </td>
@@ -2121,9 +1945,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentieprovider.</p>
       </td>
@@ -2178,12 +2000,8 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor het aanraakpunt voor koperkenmerken (BAT).</p>
       </td>
@@ -2193,12 +2011,8 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -2210,9 +2024,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de opportuniteit waaraan de BBT is toegewezen.</p>
       </td>
@@ -2221,12 +2033,8 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>Id voor de contactpersoon die bij de BBT hoort.</p>
       </td>
@@ -2244,9 +2052,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de account waaraan de BBT is toegewezen.</p>
       </td>
@@ -2258,9 +2064,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>USER_TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor het aanraakpunt van de gebruiker dat de BBT heeft gegenereerd.</p>
       </td>
@@ -2272,9 +2076,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum van het aanraakpunt.</p>
       </td>
@@ -2292,9 +2094,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het type van activiteit, het Bezoek van het Web, de Vorm van het Web, het Praatje van het Web, de Vraag van de Telefoon, [CRM] Campagne, of [CRM] Activiteit. Wordt in de CRM aangeduid als "aanraakpunttype".</p>
       </td>
@@ -2306,9 +2106,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>KANAAL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het kanaal waarin het aanraakpunt valt, zoals gedefinieerd in de aangepaste kanaaldefinities in het dialoogvenster [!DNL Marketo Measure] App. Wordt in de CRM aangeduid als "Marketing Channel - Path".</p>
       </td>
@@ -2320,9 +2118,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De segmentwaarde voor de eerste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
       </td>
@@ -2334,9 +2130,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De segmentwaarde voor de tweede categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
       </td>
@@ -2348,9 +2142,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE3</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De segmentwaarde voor de derde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
       </td>
@@ -2362,9 +2154,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE4</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de vierde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td>
         <p>Nieuwe bedrijven</p>
@@ -2374,9 +2164,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE5</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de vijfde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -2384,9 +2172,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE6</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de zesde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -2394,9 +2180,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE7</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de zevende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -2404,9 +2188,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE8</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de achtste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -2414,9 +2196,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE9</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de 9de categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -2424,9 +2204,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE10</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de tiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -2434,9 +2212,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE11</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de 11e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -2444,9 +2220,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE12</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de 12e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -2454,9 +2228,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE13</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de dertiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -2464,9 +2236,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE14</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de 14e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -2474,9 +2244,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CATEGORIE15</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de 15e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -2484,9 +2252,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, ontdekte browser dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -2498,9 +2264,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, de ontdekte versie van browser die de gebruiker tijdens de zitting was.</p>
       </td>
@@ -2512,9 +2276,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, het ontdekte platform dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -2526,9 +2288,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, de ontdekte versie van het platform dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -2540,9 +2300,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste openingspagina van de sessie die tot een aanraakpunt heeft geleid. Wordt in de CRM aangeduid als "Landing Page".</p>
       </td>
@@ -2554,9 +2312,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste openingspagina van de sessie die tot een aanraakpunt heeft geleid. Een onbewerkte bestemmingspagina bevat alle queryparameters in de URL. In de CRM aangeduid als "Landing Page - Raw".</p>
       </td>
@@ -2568,9 +2324,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doorgaans de externe bestemmingspagina vlak voordat de gebruiker op de website komt. Wordt in de CRM aangeduid als "Referrer Page".</p>
       </td>
@@ -2582,9 +2336,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doorgaans de externe bestemmingspagina vlak voordat de gebruiker op de website komt. Een onbewerkte verwijzingspagina kan queryparameters in de URL bevatten. Wordt in de CRM aangeduid als "Referrer Page - Raw".</p>
       </td>
@@ -2596,9 +2348,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het eerste formulier dat is opgenomen in een sessie en dat heeft geresulteerd in een aanraakpunt. Verdere formulierverzendingen worden niet weergegeven in de tabel Attribution_Touchpoints, maar in de tabel Form_Submits. Wordt in de CRM aangeduid als "formulier-URL".</p>
       </td>
@@ -2610,9 +2360,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>FORM_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het eerste formulier dat is opgenomen in een sessie en dat heeft geresulteerd in een aanraakpunt. Verdere formulierverzendingen worden niet weergegeven in de tabel Attribution_Touchpoints, maar in de tabel Form_Submits. Een onbewerkte formulierpagina kan queryparameters in de URL bevatten. Wordt in de CRM aangeduid als "Form URL - Raw".</p>
       </td>
@@ -2624,9 +2372,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
@@ -2638,9 +2384,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>STAD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, de ontdekte plaats de gebruiker binnen tijdens de zitting was.</p>
       </td>
@@ -2652,9 +2396,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>REGIO</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, het ontdekte gebied de gebruiker binnen tijdens de zitting was.</p>
       </td>
@@ -2666,9 +2408,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>LAND</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, het ontdekte land de gebruiker binnen tijdens de zitting was.</p>
       </td>
@@ -2680,9 +2420,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Hiermee definieert u het medium dat tot het aanraakpunt heeft geleid. Dit kan worden geparseerd vanaf de URL vanaf utm_medium. Of, als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "cpc" of "display".</p>
       </td>
@@ -2694,9 +2432,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campagne van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "Google AdWords" of "Facebook". In de CRM wordt "aanraakpuntbron" genoemd.</p>
       </td>
@@ -2708,9 +2444,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De waarde die de gebruiker in de browser heeft ingevoerd om naar de website te zoeken en op de website is geëindigd. Afhankelijk van het trefwoord dat wordt gekocht, komt dit mogelijk wel of niet overeen met de trefwoorden die zijn aangeschaft op het platform Betaalde zoekopdracht.</p>
       </td>
@@ -2722,9 +2456,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Advertentieplatform [!DNL Marketo Measure] was in staat om op te lossen van, typisch één van onze integratiepartners.</p>
       </td>
@@ -2736,9 +2468,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van advertentierekening waarvan de advertentie is opgelost.</p>
       </td>
@@ -2750,9 +2480,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentierekening waaruit de advertentie is opgelost.</p>
       </td>
@@ -2764,9 +2492,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de adverteerder van de advertentierekening waarin de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -2778,9 +2504,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de adverteerder van de advertentierekening waarin de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -2792,9 +2516,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de site van de advertentieaccount waaruit de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -2806,9 +2528,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de site van de advertentierekening waaruit de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -2820,9 +2540,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Plaatsing van de Advertentierekening waarin de Advertentie van werd opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -2834,9 +2552,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Plaatsing van de Advertentierekening waarin de Advertentie van werd opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -2848,9 +2564,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne van de advertentierekening waar de Advertentie van werd opgelost.</p>
       </td>
@@ -2862,9 +2576,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de campagne van de advertentierekening waarin Advertentie werd opgelost van.</p>
       </td>
@@ -2876,9 +2588,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Advertentiegroep van de Advertentierekening waarin de Advertentie van werd opgelost. Dit geldt alleen voor Google Adwords.</p>
       </td>
@@ -2890,9 +2600,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Advertentiegroep van de Advertentierekening waarin de Advertentie werd opgelost van. Dit geldt alleen voor Google AdWords.</p>
       </td>
@@ -2904,9 +2612,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
       </td>
@@ -2918,9 +2624,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
       </td>
@@ -2932,9 +2636,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van Creative van de advertentie-account waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -2946,9 +2648,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de Creative vanuit het advertentieaccount waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -2960,9 +2660,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -2974,9 +2672,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De tweede regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -2988,9 +2684,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De landingspagina die door van de onderzoekAdvertentie klikt, die van de Advertentierekening wordt getrokken waarin Advertentie werd opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -3002,9 +2696,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De vriendelijke URL-naam die wordt weergegeven in de zoekadvertentie en die wordt opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -3016,9 +2708,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De id van het trefwoord dat is aangeschaft bij de aankoop van de Betaalde zoekopdracht, is opgehaald van de advertentieaccount waarvan de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -3030,9 +2720,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het trefwoord dat is aangeschaft bij de aankoop van de Betaalde zoekopdracht en dat is opgehaald van de advertentieaccount waarvan de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht)</p>
       </td>
@@ -3044,9 +2732,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het type overeenkomst dat wordt gevonden tussen de zoekuitdrukking en het aangekochte trefwoord.</p>
       </td>
@@ -3357,6 +3043,163 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
   </tbody>
 </table>
 
+## BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
+
+Gegevens die zijn gegenereerd door de Attribution AI-integratie. Deze velden worden alleen ingevuld voor Marketo Measure Ultimate-klanten.
+
+<table>
+<thead>
+  <tr>
+    <th>Kolom</th>
+    <th>Gegevenstype</th>
+    <th>Beschrijving</th>
+    <th>Voorbeeldgegevens</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>CONVERSION_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>datum van omzetting</td>
+    <td>01-01-01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_NAME</td>
+    <td>varchar</td>
+    <td>naam van de conversiegebeurtenis (zoals opgegeven door de klant in de UI-instelling)</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>CONVERSION_ID</td>
+    <td>varchar</td>
+    <td>id voor de conversiegebeurtenis (dit is de oorspronkelijke unieke id-waarde die is verzonden met de record met gebeurtenisgegevens in de brondataset)</td>
+    <td>001310001b44aGAAQ</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_EVENT_ID</td>
+    <td>varchar</td>
+    <td>original MM event id for the conversion event 
+    <br>wordt toegewezen aan een gebruikersaanraakpunt of een werkgebiedovergang</td>
+    <td>00U0Z0000pCZmyUAG</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_ACCOUNT_ID</td>
+    <td>varchar</td>
+    <td>original MM account id for the conversion event</td>
+    <td>0013100001kpAZxAAM</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_OPPORTUNITY_ID</td>
+    <td>varchar</td>
+    <td>oorspronkelijke kansen-id voor de conversiegebeurtenis</td>
+    <td>0060Z00000lFHtOQAW</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_LEAD_ID</td>
+    <td>varchar</td>
+    <td>original MM lead id for the conversion event <br>waarschijnlijk het grootste deel van de tijd null zijn</td>
+    <td>00Q0Z000013dw4GUAQ</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_CONTACT_ID</td>
+    <td>varchar</td>
+    <td>oorspronkelijke MM-contactpersoon voor de conversiegebeurtenis
+    <br>waarschijnlijk het grootste deel van de tijd null zijn</td>
+    <td>00331000032hMxRAAU</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_EVENT_TYPE</td>
+    <td>varchar</td>
+    <td>type conversiegebeurtenis (b2b = lead conversie, b2c = opportuniteitsconversie)</td>
+    <td>b2b</td>
+  </tr>
+  <tr>
+    <td>SCORE_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>datum waarop de aanraakpunten voor het laatst zijn vermeld</td>
+    <td>01-01-01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>INFLUENCED_PERCENT</td>
+    <td>nummer (38,35)</td>
+    <td>het gedeelte van de conversie dat door elk aanraakpunt wordt veroorzaakt</td>
+    <td>0,10</td>
+  </tr>
+  <tr>
+    <td>INCREMENTAL_PERCENT</td>
+    <td>nummer (38,35)</td>
+    <td>de hoeveelheid marginale impact die rechtstreeks door een aanraakpunt wordt veroorzaakt</td>
+    <td>0,25</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>de datum van het aanraakpunt of de overgangsfase</td>
+    <td>01-01-01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_EVENT_ID</td>
+    <td>varchar</td>
+    <td>id voor de gebeurtenis die het aanraakpunt heeft gegenereerd</td>
+    <td>00U3100000VLUnEEAX</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_OPPORTUNITY_ID</td>
+    <td>varchar</td>
+    <td>id voor de kans die het aanraakpunt biedt</td>
+    <td>0060Z00000lFHtOQAW</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_ACCOUNT_ID</td>
+    <td>varchar</td>
+    <td>id voor de account die is gekoppeld aan het aanraakpunt</td>
+    <td>0013100001kpAZxAAM</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_LEAD_ID</td>
+    <td>varchar</td>
+    <td>id voor de lood die is gekoppeld aan het aanraakpunt</td>
+    <td>00Q0Z000013dw4GUAQ</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_CONTACT_ID</td>
+    <td>varchar</td>
+    <td>ID voor het contact verbonden met het touchpoint</td>
+    <td>00331000032hMxRAAU</td>
+  </tr>
+  <tr>
+    <td>COUNT_TO_CONVERSION</td>
+    <td>getal (38,0)</td>
+    <td>de rangorde of rangorde van het aanraakpunt in de keten die tot de conversiegebeurtenis leidt</td>
+    <td>10000</td>
+  </tr>
+  <tr>
+    <td>AAI_SOURCE_ID</td>
+    <td>varchar</td>
+    <td>vreemde sleutel voor de tabel met toewijzingsbronnen</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>_CREATED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>datum waarop de record is gemaakt in Snowflake</td>
+    <td>01-01-01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>_MODIFIED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>datum waarop de record voor het laatst is gewijzigd in Snowflake</td>
+    <td>01-01-01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>_DELETED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>datum waarop de record is verwijderd in Snowflake</td>
+    <td>01-01-01:01:00,000</td>
+  </tr>
+</tbody>
+</table>
+
 ### BIZ_CAMPAIGN_MEMBERS {#biz-campaign-members}
 
 Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als Campagne Sync is uitgeschakeld.
@@ -3370,26 +3213,14 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>De id van het Lid van de Campagne van het bronsysteem.</p>
-      </td>
-      <td>
-        <p>00v0Z0001VVzdLQAT</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
+      <td>De id van het Lid van de Campagne van het bronsysteem.</td>
+      <td>00v0Z0001VVzdLQAT</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De laatste gewijzigde datum van het campagnelid, uit het bronsysteem.</p>
       </td>
@@ -3398,12 +3229,8 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De gecreeerde datum van het Lid van de Campagne, van het bronsysteem.</p>
       </td>
@@ -3415,9 +3242,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>BIZIBLE_TOUCH_POINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum en tijd die de klant instelt om de datum van de campagne te overschrijven en in plaats daarvan deze waarde voor de aanraakpuntdatum te gebruiken.</p>
       </td>
@@ -3429,9 +3254,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de leider van de Campagne is gebonden aan.</p>
       </td>
@@ -3443,23 +3266,15 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De e-mail voor de leider van de Campagne is gebonden aan.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>Id voor de contactpersoon waaraan het Campagne-lid is gekoppeld.</p>
       </td>
@@ -3471,23 +3286,17 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De e-mail voor het Contact met het Lid van de Campagne is verbonden aan.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
       <td>
         <p>STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Status van het Campagne Lid, gewoonlijk geplaatst aan Verzonden of Geantwoord of een andere douanewaarde. Deze status is gebonden aan Campaign_Sync_Type om te bepalen voor welke campagneleden aanraakpunten moeten worden gemaakt.</p>
       </td>
@@ -3513,9 +3322,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>FIRST_RESPONDED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop het Campagne Lid voor het eerst antwoordde.</p>
       </td>
@@ -3527,9 +3334,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de verwante campagne waartoe het campagnelid behoort.</p>
       </td>
@@ -3541,9 +3346,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>CAMPAIGN_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de gerelateerde campagne van het campagnelid maakt deel uit van.</p>
       </td>
@@ -3555,9 +3358,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>CAMPAIGN_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het type dat is geselecteerd in de gerelateerde campagne waartoe het Campagne-lid behoort. Het Type wordt gebruikt om het Kanaal van de Marketing in kaart te brengen.</p>
       </td>
@@ -3569,9 +3370,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>CAMPAIGN_SYNC_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Bepaalt voor welke campagneleden aanraakpunten worden gemaakt. De mogelijke waarden zijn: Include_All, Include_Responded, Exclude_All.</p>
       </td>
@@ -3583,9 +3382,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>LEAD_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>In het veld Audit wordt aangegeven of er al dan niet een aanraakpunt voor kopers is gegenereerd voor de lead. Als er geen aanraakpunt is gemaakt, wordt de reden waarom het niet in aanmerking kwam gegeven.</p>
       </td>
@@ -3597,9 +3394,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>CONTACT_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>In het veld Audit wordt aangegeven of een aanraakpunt voor kopers is gegenereerd voor de contactpersoon. Als er geen aanraakpunt is gemaakt, wordt de reden waarom het niet in aanmerking kwam gegeven.</p>
       </td>
@@ -3611,9 +3406,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       <td>
         <p>OPP_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>In het veld Audit wordt aangegeven of er al dan niet een aanraakpunt voor koperkenmerk is gegenereerd voor Opportunity. Als er geen aanraakpunt is gemaakt, wordt de reden waarom het niet in aanmerking kwam gegeven.</p>
       </td>
@@ -3675,12 +3468,8 @@ Marketingkanalen, zoals gemaakt in het dialoogvenster [!DNL Marketo Measure] toe
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor het kanaal.</p>
       </td>
@@ -3692,9 +3481,7 @@ Marketingkanalen, zoals gemaakt in het dialoogvenster [!DNL Marketo Measure] toe
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het kanaal.</p>
       </td>
@@ -3750,12 +3537,8 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>De contact-id van het bronsysteem.</p>
       </td>
@@ -3764,12 +3547,8 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de contactrecord voor het laatst is gewijzigd, via het bronsysteem.</p>
       </td>
@@ -3778,12 +3557,8 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de contactpersoonrecord is gemaakt, via het bronsysteem.</p>
       </td>
@@ -3795,23 +3570,17 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-mailadres van de contactpersoon, via het bronsysteem.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
       <td>
         <p>ACCOUNTID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Identiteitskaart van de Rekening met betrekking tot het Contact.</p>
       </td>
@@ -3823,9 +3592,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>LEAD_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Bron waarin de Lood werd gecreeerd.</p>
       </td>
@@ -3837,9 +3604,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huidige fase van de contactpersoon, herkend als een aangepaste fase die kan worden gemaakt in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
       </td>
@@ -3851,9 +3616,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Alle vorige fasen van de contactpersoon, herkend als aangepaste stadia die kunnen worden gemaakt in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
       </td>
@@ -3879,9 +3642,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
@@ -4160,9 +3921,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de advertentierekening uit de advertentie-verbinding.</p>
       </td>
@@ -4174,9 +3933,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentierekening die van de Advertentie verbinding wordt getrokken.</p>
       </td>
@@ -4202,9 +3959,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne is uit de advertentie-verbinding gehaald.</p>
       </td>
@@ -4216,9 +3971,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de campagne die uit de advertentie-verbinding is gehaald.</p>
       </td>
@@ -4244,9 +3997,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de advertentiegroep die is opgehaald uit de advertentie-verbinding.</p>
       </td>
@@ -4258,9 +4009,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Advertentiegroep die uit de Advertentie wordt getrokken.</p>
       </td>
@@ -4286,9 +4035,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de advertentie die uit de advertentie-verbinding is gehaald.</p>
       </td>
@@ -4300,9 +4047,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentie die is opgehaald uit de advertentie-verbinding.</p>
       </td>
@@ -4328,9 +4073,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Creative Cloud uit de advertentie-verbinding.</p>
       </td>
@@ -4342,9 +4085,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Creative Cloud die uit de advertentie-verbinding is gehaald.</p>
       </td>
@@ -4370,9 +4111,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van het trefwoord dat uit de advertentie-verbinding is gehaald.</p>
       </td>
@@ -4384,9 +4123,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het trefwoord dat uit de advertentie-verbinding is gehaald.</p>
       </td>
@@ -4412,9 +4149,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Plaatsing die uit de Advertentie wordt getrokken.</p>
       </td>
@@ -4426,9 +4161,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de plaatsing die uit de advertentie-verbinding is gehaald.</p>
       </td>
@@ -4454,9 +4187,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Site die is opgehaald uit de advertentie-verbinding.</p>
       </td>
@@ -4468,9 +4199,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Site die uit de advertentie-verbinding is gehaald.</p>
       </td>
@@ -4624,12 +4353,8 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor Creative.</p>
       </td>
@@ -4641,9 +4366,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De Creative-id van het bronsysteem.</td>
       <td>
         <p>10426699711</p>
@@ -4653,9 +4376,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de advertentierekening waarvan Creative werd ingevoerd.</p>
       </td>
@@ -4665,9 +4386,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam voor de advertentierekening waarvan Creative werd ingevoerd.</p>
       </td>
@@ -4679,9 +4398,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van Advertiser voor Creative, met name voor Doubleclick.</p>
       </td>
@@ -4693,9 +4410,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Advertiser voor Creative, met name voor Doubleclick.</p>
       </td>
@@ -4707,9 +4422,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van Advertentiegroep voor Creative.</p>
       </td>
@@ -4719,9 +4432,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van Advertentiegroep voor Creative.</p>
       </td>
@@ -4731,9 +4442,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne voor Creatief.</p>
       </td>
@@ -4745,9 +4454,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Campagne voor Creatief.</p>
       </td>
@@ -4784,12 +4491,8 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -4801,9 +4504,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
@@ -4815,9 +4516,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van Creative, van het bronsysteem.</p>
       </td>
@@ -4844,9 +4543,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostisch veld, voor interne verwerking.</td>
       <td></td>
     </tr>
@@ -4854,9 +4551,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval 'Creative'.</p>
       </td>
@@ -4868,9 +4563,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentieprovider voor de Creative.</p>
       </td>
@@ -4882,9 +4575,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De huidige versie van de URL inclusief alle tags.</p>
         <p>(Diagnostisch veld, voor interne verwerking.)</p>
@@ -4897,9 +4588,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>URL_DISPLAY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De verkorte en vriendelijke URL die wordt weergegeven op Creative.</p>
       </td>
@@ -4911,9 +4600,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vorige waarde voor URL_CURRENT.</p>
         <p>(Diagnostisch veld, voor interne verwerking.)</p>
@@ -4924,9 +4611,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Waarmee wordt de URL ingericht [!DNL Marketo Measure] parameters.</p>
         <p>(Diagnostisch veld, voor interne verwerking.)</p>
@@ -4937,9 +4622,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>URL_SHORTENED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De verkorte en vriendelijke URL die wordt weergegeven op Creative. (Alleen gebruikt voor LinkedIn-advertenties.)</td>
       <td></td>
     </tr>
@@ -4947,9 +4630,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>AD_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het type Creative, bijvoorbeeld Tekst of Weergave</p>
       </td>
@@ -4975,9 +4656,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>HEADLINE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De bovenste regel (kop) van het creatieve object</p>
       </td>
@@ -4989,9 +4668,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>DESCRIPTION_LINE_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De kopie van de eerste regel van het creatieve object</p>
       </td>
@@ -5003,9 +4680,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>DESCRIPTION_LINE_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De kopie van de tweede regel van het creatieve object</p>
       </td>
@@ -5017,9 +4692,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostiekveld, voor interne verwerking.</td>
       <td></td>
     </tr>
@@ -5027,9 +4700,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostiekveld, voor interne verwerking.</td>
       <td></td>
     </tr>
@@ -5037,9 +4708,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostiekveld, voor interne verwerking.</td>
       <td></td>
     </tr>
@@ -5047,9 +4716,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLICAED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Diagnostiekveld, voor interne verwerking.</p>
       </td>
@@ -5061,9 +4728,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>
         <p>SHARE_URN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De aandeel-id. (Alleen gebruikt voor LinkedIn-advertenties.)</p>
       </td>
@@ -5115,12 +4780,8 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>De gebeurtenis-id van het bronsysteem.</p>
       </td>
@@ -5129,12 +4790,8 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de gebeurtenis is gemaakt, via het bronsysteem.</p>
       </td>
@@ -5143,12 +4800,8 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de gebeurtenis voor het laatst is gewijzigd, via het bronsysteem.</p>
       </td>
@@ -5160,9 +4813,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de lead die aan de gebeurtenis is gekoppeld.</p>
       </td>
@@ -5174,9 +4825,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-mail voor de lead die aan de gebeurtenis is gekoppeld.</p>
       </td>
@@ -5185,12 +4834,8 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>Id voor de contactpersoon die aan de gebeurtenis is gekoppeld.</p>
       </td>
@@ -5202,9 +4847,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-mail voor de contactpersoon die aan de gebeurtenis is gekoppeld.</p>
       </td>
@@ -5216,9 +4859,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
@@ -5230,9 +4871,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       <td>
         <p>ACTIVITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam activiteitstype, van het bronsysteem.</p>
       </td>
@@ -5244,9 +4883,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       <td>
         <p>EVENT_START_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Begindatum voor de gebeurtenis, een van de opties die wordt gebruikt om de datum van het aanraakpunt te bepalen.</p>
       </td>
@@ -5258,9 +4895,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       <td>
         <p>EVENT_END_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Einddatum voor de gebeurtenis, een van de opties die wordt gebruikt om de datum van het aanraakpunt te bepalen.</p>
       </td>
@@ -5320,12 +4955,8 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>De Taak-id van het bronsysteem.</p>
       </td>
@@ -5334,12 +4965,8 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum de Taak werd gecreeerd, van het bronsysteem.</p>
       </td>
@@ -5348,12 +4975,8 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum de Taak werd het laatst gewijzigd, van het bronsysteem.</p>
       </td>
@@ -5365,9 +4988,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de lood verbonden aan de Taak.</p>
       </td>
@@ -5379,9 +5000,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-mail voor de lood verbonden aan de Taak.</p>
       </td>
@@ -5390,12 +5009,8 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>Id voor het Contact verbonden aan de Taak.</p>
       </td>
@@ -5407,9 +5022,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-mail voor het Contact verbonden aan de Taak.</p>
       </td>
@@ -5421,9 +5034,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
@@ -5435,9 +5046,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       <td>
         <p>ACTIVITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam activiteitstype, van het bronsysteem.</p>
       </td>
@@ -5449,9 +5058,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       <td>
         <p>ACTIVITY_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de taak is uitgevoerd, is een van de opties die zijn gebruikt om de datum van het aanraakpunt te bepalen.</p>
       </td>
@@ -5511,9 +5118,7 @@ Tabel van alle ISO-valuta&#39;s.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
+       <td>ID</td>
       <td>getal (38,0)</td>
       <td>Een unieke id voor de valutarecord.</td>
       <td>139474809945095870</td>
@@ -5617,9 +5222,7 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste cookie-id van de verwante bezoeker-id.</p>
       </td>
@@ -5629,9 +5232,7 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De opgenomen cookie-id op het moment dat de gebeurtenis werd geregistreerd.</p>
       </td>
@@ -5641,9 +5242,7 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de chat is geregistreerd.</p>
       </td>
@@ -5657,9 +5256,7 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgenomen IP-adres op het moment dat het experiment werd geregistreerd.</p>
       </td>
@@ -5669,9 +5266,7 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>
         <p>EXPERIMENT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De id van het experiment dat uit het AB-testplatform is getrokken.</p>
       </td>
@@ -5681,9 +5276,7 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>
         <p>EXPERIMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van het experiment dat uit het AB-testplatform is gehaald.</p>
       </td>
@@ -5693,9 +5286,7 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>
         <p>VARIATION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De variatie-id van het experiment dat uit het AB-testplatform is getrokken.</p>
       </td>
@@ -5705,9 +5296,7 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>
         <p>VARIATION_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De variatienaam van het experiment dat van het AB-testplatform is genomen.</p>
       </td>
@@ -5717,9 +5306,7 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>
         <p>ABTEST_USER_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De id van de gebruiker die het experiment heeft ondergaan, is afkomstig van het AB-testplatform.</p>
       </td>
@@ -5774,9 +5361,7 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste cookie-id van de verwante bezoeker-id.</p>
       </td>
@@ -5786,9 +5371,7 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De opgenomen cookie-id op het moment dat de gebeurtenis werd geactiveerd via het aangepaste javascript.</p>
       </td>
@@ -5798,9 +5381,7 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de gebeurtenis is geactiveerd vanuit het aangepaste javascript.</p>
       </td>
@@ -5816,9 +5397,7 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgenomen IP-adres op het moment dat de gebeurtenis werd geactiveerd via het aangepaste javascript.</p>
       </td>
@@ -5828,9 +5407,7 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
       <td>
         <p>SLEUTEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam die aan de gebeurtenis wordt gegeven die van douane javascript werd teweeggebracht.</p>
       </td>
@@ -5840,9 +5417,7 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
       <td>
         <p>WAARDE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De waarde die aan de gebeurtenis wordt gegeven die van douane javascript werd teweeggebracht.</p>
       </td>
@@ -5894,12 +5469,8 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de record.</p>
       </td>
@@ -5909,9 +5480,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -5919,9 +5488,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Id voor de advertentierekening waaruit de landingspagina is geïmporteerd.</td>
       <td></td>
     </tr>
@@ -5929,9 +5496,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Naam van de advertentierekening waaruit de landingspagina is geïmporteerd</td>
       <td></td>
     </tr>
@@ -5939,9 +5504,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Advertiser voor de landingspagina, met name voor Doubleclick.</p>
       </td>
@@ -5951,9 +5514,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Advertiser voor de landingspagina, met name voor Doubleclick.</p>
       </td>
@@ -5965,9 +5526,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Id van Advertentiegroep voor de landingspagina.</td>
       <td></td>
     </tr>
@@ -5975,9 +5534,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Advertentiegroep voor de landingspagina.</p>
       </td>
@@ -5987,9 +5544,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne voor de landingspagina.</p>
       </td>
@@ -5999,9 +5554,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de campagne voor de landingspagina.</p>
       </td>
@@ -6028,12 +5581,8 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De laatste gewijzigde datum van de rij</p>
       </td>
@@ -6043,9 +5592,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td></td>
       <td></td>
     </tr>
@@ -6053,9 +5600,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6073,9 +5618,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6083,9 +5626,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6093,9 +5634,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6103,9 +5642,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>AD_DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6113,9 +5650,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>CREATIVE_DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6123,9 +5658,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6133,9 +5666,7 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6184,9 +5715,7 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Een bekend e-mailadres dat is gekoppeld aan een bepaalde bezoeker-id van een sessie</p>
       </td>
@@ -6198,9 +5727,7 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het eerste cookie van de verwante bezoeker-id</p>
       </td>
@@ -6209,12 +5736,8 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De laatste gewijzigde datum van de rij</p>
       </td>
@@ -6223,12 +5746,8 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De gemaakte datum van de rij</p>
       </td>
@@ -6620,12 +6139,8 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>2018-08-28 19:39:15 000</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de rij voor het laatst is gewijzigd.</p>
       </td>
@@ -6799,9 +6314,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Opportunity-id van het bronsysteem.</p>
       </td>
@@ -6813,9 +6326,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>
         <p>OPP_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de Opportunity is gemaakt, vanuit het bronsysteem.</p>
       </td>
@@ -6827,9 +6338,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>
         <p>OPP_CLOSE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Dichte datum voor de Kans, van het bronsysteem.</p>
       </td>
@@ -6841,21 +6350,15 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>
         <p>CONTACT_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de contactpersoonrecord is gemaakt, via het bronsysteem.</p>
       </td>
       <td>2017-04-28 00:21:52,000</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>Contact-id van het bronsysteem.</p>
       </td>
@@ -6873,9 +6376,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>
         <p>LEAD_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de lead-record is gemaakt, via het bronsysteem.</p>
       </td>
@@ -6887,9 +6388,7 @@ Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formuliere
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van lead uit het bronsysteem.</p>
       </td>
@@ -7087,12 +6586,8 @@ Vastgelegde formulierverzendingen.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor het formulier dat wordt verzonden.</p>
       </td>
@@ -7104,9 +6599,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De opgenomen cookie-id op het moment dat het formulier wordt verzonden.</p>
       </td>
@@ -7118,9 +6611,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste cookie-id van de verwante bezoeker-id. Als de record is gemarkeerd als is_duplicated = true, is dit veld null.</p>
       </td>
@@ -7132,9 +6623,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De opgenomen sessie-id op het moment dat het formulier wordt verzonden. Als de record is gemarkeerd als is_duplicated = true, is dit veld null.</p>
       </td>
@@ -7146,9 +6635,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
@@ -7157,12 +6644,8 @@ Vastgelegde formulierverzendingen.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -7174,9 +6657,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL waar het formulier is verzonden, zonder queryparameters.</p>
       </td>
@@ -7188,9 +6669,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL waar het formulier is verzonden, inclusief eventuele queryparameters.</p>
       </td>
@@ -7202,9 +6681,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgenomen IP-adres op het moment dat het formulier werd verzonden.</p>
       </td>
@@ -7216,9 +6693,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Geeft het type gebeurtenis aan.</td>
       <td>
         <p>FormSubmit</p>
@@ -7228,9 +6703,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Apparaat en browser zijn opgenomen op het moment dat het formulier wordt verzonden.</p>
       </td>
@@ -7242,9 +6715,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>CLIENT_SEQUENCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Hiermee geeft u de volgorde aan waarin de paginaweergave is opgetreden tijdens de sessie.</td>
       <td>
         <p>4</p>
@@ -7254,9 +6725,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne controle en verwerking.</td>
       <td>
         <p>20042b6b7af4512b43f6244d86faf4c</p>
@@ -7290,9 +6759,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-mailadres opgegeven op het formulier, zoals vastgelegd in het javascript.</p>
       </td>
@@ -7304,9 +6771,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>FORM_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Hiermee geeft u het type verzonden formulier aan.</td>
       <td>
         <p>Chat</p>
@@ -7316,9 +6781,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>FORM_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Geeft de methode aan waarin het formulier is herkend, zoals onSubmit of AjaxIntercept</p>
       </td>
@@ -7330,9 +6793,7 @@ Vastgelegde formulierverzendingen.
       <td>
         <p>FORM_IDENTIFIER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Id-waarde voor het formulier.</td>
       <td>
         <p>-956012665</p>
@@ -7392,12 +6853,8 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de afdruk.</p>
       </td>
@@ -7409,9 +6866,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De opgenomen cookie-id op het moment van de impressie.</p>
       </td>
@@ -7421,9 +6876,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste cookie-id van de verwante bezoeker-id.</p>
       </td>
@@ -7433,9 +6886,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De opgenomen sessie-id op het moment dat de onderdrukking werd geregistreerd.</p>
       </td>
@@ -7445,21 +6896,15 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de depressie is opgetreden.</p>
       </td>
       <td>01-01-01:01:00,000</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -7469,9 +6914,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL waar de Indrukking, zonder vraagparameters werd gediend.</p>
       </td>
@@ -7481,9 +6924,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL waar de Indrukking werd gediend, met inbegrip van om het even welke vraagparameters.</p>
       </td>
@@ -7493,9 +6934,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgenomen IP-adres op het moment van de onderdrukking.</p>
       </td>
@@ -7505,9 +6944,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Geeft het type gebeurtenis aan.</td>
       <td>Impressie</td>
     </tr>
@@ -7515,9 +6952,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Apparaat en browser zijn opgenomen op het moment dat het formulier wordt verzonden.</p>
       </td>
@@ -7529,9 +6964,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CLIENT_SEQUENCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Hiermee geeft u de volgorde aan waarin de paginaweergave is opgetreden tijdens de sessie.</td>
       <td>
         <p>4</p>
@@ -7541,9 +6974,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne controle en verwerking.</td>
       <td>
         <p>20042b6b7af4512b43f6244d86faf4c</p>
@@ -7577,9 +7008,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doorgaans de externe bestemmingspagina vlak voordat de gebruiker op de website komt. Wordt in de CRM aangeduid als "Referrer Page".</p>
       </td>
@@ -7589,9 +7018,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>REFERRER_PAGE-RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doorgaans de externe bestemmingspagina vlak voordat de gebruiker op de website komt. Een onbewerkte verwijzingspagina kan queryparameters in de URL bevatten. Wordt in de CRM aangeduid als "Referrer Page - Raw".</p>
       </td>
@@ -7601,9 +7028,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>STAD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De opgeloste stad van het IP adres.</p>
       </td>
@@ -7615,9 +7040,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>REGIO</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgeloste gebied van het IP adres.</p>
       </td>
@@ -7629,9 +7052,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>LAND</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgeloste land van het IP adres.</p>
       </td>
@@ -7643,9 +7064,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>ISP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Null verwacht omdat het veld verouderd is.</td>
       <td>NULL</td>
     </tr>
@@ -7653,9 +7072,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Advertentieplatform [!DNL Marketo Measure] was in staat om op te lossen van, typisch één van onze integratiepartners.</p>
       </td>
@@ -7665,9 +7082,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van advertentierekening waarvan de advertentie is opgelost.</p>
       </td>
@@ -7677,9 +7092,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentierekening waaruit de advertentie is opgelost.</p>
       </td>
@@ -7689,9 +7102,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de adverteerder van de advertentierekening waarin de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -7703,9 +7114,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de adverteerder van de advertentierekening waarin de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -7717,9 +7126,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de site van de advertentieaccount waaruit de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -7731,9 +7138,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de site van de advertentierekening waaruit de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -7745,9 +7150,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Plaatsing van de Advertentierekening waarin de Advertentie van werd opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -7759,9 +7162,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Plaatsing van de Advertentierekening waarin de Advertentie van werd opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -7773,9 +7174,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne van de advertentierekening waar de Advertentie van werd opgelost.</p>
       </td>
@@ -7785,9 +7184,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de campagne van de advertentierekening waarin Advertentie werd opgelost van.</p>
       </td>
@@ -7797,9 +7194,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen Advertentiegroep in de Dubbelklik-hiërarchie is voor afbeeldingen</p>
       </td>
@@ -7811,9 +7206,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen Advertentiegroep in de Dubbelklik-hiërarchie is voor afbeeldingen</p>
       </td>
@@ -7825,9 +7218,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
       </td>
@@ -7839,9 +7230,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
       </td>
@@ -7853,9 +7242,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
       </td>
@@ -7867,9 +7254,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
       </td>
@@ -7879,9 +7264,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
       </td>
@@ -7891,9 +7274,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
       </td>
@@ -7903,9 +7284,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
       </td>
@@ -7915,9 +7294,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
       </td>
@@ -7927,9 +7304,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Er wordt een null-waarde verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen trefwoord bevat.</p>
       </td>
@@ -7939,9 +7314,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Er wordt een null-waarde verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen trefwoord bevat.</p>
       </td>
@@ -7951,9 +7324,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Er wordt een null-waarde verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen trefwoord bevat.</p>
       </td>
@@ -7963,9 +7334,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, ontdekte browser dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -7977,9 +7346,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, de ontdekte versie van browser die de gebruiker tijdens de zitting was.</p>
       </td>
@@ -7991,9 +7358,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, het ontdekte platform dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -8005,9 +7370,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, de ontdekte versie van het platform dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -8131,12 +7494,8 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor het trefwoord.</p>
       </td>
@@ -8148,9 +7507,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De trefwoord-id van het bronsysteem.</td>
       <td>
         <p>39464932147</p>
@@ -8160,9 +7517,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de advertentierekening waarvan het Sleutelwoord werd ingevoerd.</p>
       </td>
@@ -8172,9 +7527,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentierekening waaruit het Sleutelwoord werd ingevoerd.</p>
       </td>
@@ -8184,9 +7537,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Er wordt een null-waarde verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen trefwoord bevat.</p>
       </td>
@@ -8198,9 +7549,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Er wordt een null-waarde verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen trefwoord bevat.</p>
       </td>
@@ -8212,9 +7561,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van Advertentiegroep voor het Sleutelwoord.</p>
       </td>
@@ -8226,9 +7573,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Advertentiegroep voor het Sleutelwoord.</p>
       </td>
@@ -8240,9 +7585,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne voor het trefwoord.</p>
       </td>
@@ -8254,9 +7597,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de campagne voor het trefwoord.</p>
       </td>
@@ -8293,12 +7634,8 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -8308,9 +7645,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
@@ -8322,9 +7657,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het Sleutelwoord, van het bronsysteem.</p>
       </td>
@@ -8351,9 +7684,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostisch veld voor interne verwerking.</td>
       <td>
         <p>ba.3284209.132630532.364689365</p>
@@ -8363,9 +7694,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval "Trefwoord".</p>
       </td>
@@ -8377,9 +7706,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentieprovider voor het trefwoord.</p>
       </td>
@@ -8391,9 +7718,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De URL voor de landingspagina.</p>
         <p>(Diagnostisch veld, voor interne verwerking.)</p>
@@ -8404,9 +7729,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vorige waarde voor URL_CURRENT.</p>
         <p>(Diagnostisch veld, voor interne verwerking.)</p>
@@ -8438,9 +7761,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>WOORD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De zoekfase die de gebruiker heeft ingevoerd.</td>
       <td>
         <p>inkomstentoerekening b2b</p>
@@ -8450,9 +7771,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het type overeenkomst dat is gevonden tussen de zoekuitdrukking en het trefwoord.</p>
       </td>
@@ -8464,9 +7783,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</td>
     </tr>
@@ -8474,9 +7791,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
@@ -8484,9 +7799,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne diagnose.</td>
       <td></td>
     </tr>
@@ -8494,9 +7807,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLICAED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De URL-trackingsjabloon [!DNL Marketo Measure] toegevoegd aan het trefwoord.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -8548,12 +7859,8 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de bestemmingspagina.</p>
       </td>
@@ -8563,9 +7870,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8573,9 +7878,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Id voor de advertentierekening waaruit de landingspagina is geïmporteerd.</td>
       <td></td>
     </tr>
@@ -8583,9 +7886,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Naam van de advertentierekening waaruit de landingspagina is geïmporteerd.</td>
       <td></td>
     </tr>
@@ -8593,9 +7894,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Advertiser voor de landingspagina, met name voor Doubleclick.</p>
       </td>
@@ -8605,9 +7904,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Advertiser voor de landingspagina, met name voor Doubleclick.</p>
       </td>
@@ -8617,9 +7914,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Id van Advertentiegroep voor de landingspagina.</td>
       <td></td>
     </tr>
@@ -8627,9 +7922,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Naam van de Advertentiegroep voor de landingspagina.</td>
       <td></td>
     </tr>
@@ -8637,9 +7930,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Id van de campagne voor de landingspagina.</td>
       <td></td>
     </tr>
@@ -8647,9 +7938,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Naam van de campagne voor de landingspagina.</td>
       <td></td>
     </tr>
@@ -8674,12 +7963,8 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De laatste gewijzigde datum van de rij.</p>
       </td>
@@ -8689,9 +7974,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td></td>
       <td></td>
     </tr>
@@ -8699,9 +7982,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8719,9 +8000,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8729,9 +8008,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8739,9 +8016,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8749,9 +8024,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8759,9 +8032,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8769,9 +8040,7 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8809,12 +8078,8 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>De lood-id van het bronsysteem.</p>
       </td>
@@ -8823,12 +8088,8 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de lead-record voor het laatst is gewijzigd, via het bronsysteem.</p>
       </td>
@@ -8837,12 +8098,8 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de lead-record is gemaakt, via het bronsysteem.</p>
       </td>
@@ -8852,9 +8109,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-mailadres van de lead via het bronsysteem.</p>
       </td>
@@ -8864,9 +8119,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>WEB_SITE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Website ingegaan voor Lood, van het bronsysteem, die voor Lood2Account afbeelding wordt gebruikt.</p>
       </td>
@@ -8878,9 +8131,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>ONDERNEMING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van het bedrijf ingegaan voor Lood, van het bronsysteem, die voor afbeelding Lead2Account wordt gebruikt.</p>
       </td>
@@ -8892,9 +8143,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>LEAD_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Bron waarin de Lood werd gecreeerd.</p>
       </td>
@@ -8920,9 +8169,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>CONVERTED_OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de gerelateerde opportunity zodra de lead is omgezet.</p>
       </td>
@@ -8934,9 +8181,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>CONVERTED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de lead is omgezet in een contactpersoon.</p>
       </td>
@@ -8948,9 +8193,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>CONVERTED_CONTACT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Identiteitskaart van het verwante Contact zodra de Lood is omgezet.</p>
       </td>
@@ -8962,9 +8205,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>ACCOUNTID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van het toegewezen account. Vereisten: ABM inschakelen</p>
       </td>
@@ -8976,9 +8217,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huidige fase van de lead, herkend als een aangepaste fase die kan worden gemaakt in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
       </td>
@@ -8990,9 +8229,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Alle vorige stadia voor de lead, die worden herkend als aangepaste stadia die kunnen worden gemaakt in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
       </td>
@@ -9018,9 +8255,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>LEAD_SCORE_MODEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>(afgekeurd)</p>
       </td>
@@ -9032,9 +8267,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>LEAD_SCORE_RESULTS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>(afgekeurd)</p>
       </td>
@@ -9046,9 +8279,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
@@ -9140,12 +8371,8 @@ Werkgebiedovergangen voor leads of contactpersonen.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de overgang.</p>
       </td>
@@ -9157,9 +8384,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgegeven e-mailadres voor de betreffende lead/contactpersoon.</p>
       </td>
@@ -9171,9 +8396,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de lead die aan de overgang is gekoppeld.</p>
       </td>
@@ -9182,12 +8405,8 @@ Werkgebiedovergangen voor leads of contactpersonen.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>Id voor de contactpersoon die aan de overgang is gekoppeld.</p>
       </td>
@@ -9199,9 +8418,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
       <td>
         <p>TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor het aanraakpunt voor de koper dat aan de overgang is gekoppeld.</p>
       </td>
@@ -9213,9 +8430,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
       <td>
         <p>TRANSITION_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de record naar het werkgebied is overgebracht.</p>
       </td>
@@ -9227,9 +8442,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
       <td>
         <p>STAGE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id-waarde van het werkgebied voor de overgang.</p>
       </td>
@@ -9241,9 +8454,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
       <td>
         <p>WERKGEBIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het werkgebied voor de overgang.</p>
       </td>
@@ -9323,9 +8534,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
       <td>
         <p>PREVIOUS_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Overgangsdatum voor de vorige fase, volgens de positie van het werkgebied.</p>
       </td>
@@ -9337,9 +8546,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
       <td>
         <p>NEXT_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Overgangsdatum voor de volgende fase, volgens de positie van het werkgebied.</p>
       </td>
@@ -9348,12 +8555,8 @@ Werkgebiedovergangen voor leads of contactpersonen.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum van laatste wijziging van de record.</p>
       </td>
@@ -9409,12 +8612,8 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>De opportunity-id van het bronsysteem.</p>
       </td>
@@ -9423,24 +8622,16 @@ Kansen die uit het bronsysteem worden ingevoerd.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De laatste gewijzigde datum van de Kans, van het bronsysteem.</p>
       </td>
       <td>2017-11-28:26:44,000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De gecreeerde datum van de Kans, van het bronsysteem.</p>
       </td>
@@ -9450,9 +8641,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de verwante account.</p>
       </td>
@@ -9464,9 +8653,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de Kans, van het bronsysteem.</p>
       </td>
@@ -9506,9 +8693,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>CLOSE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Verwacht of daadwerkelijke sluitingsdatum van de Kans, van het bronsysteem.</p>
       </td>
@@ -9520,9 +8705,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>BIZIBLE_CUSTOM_MODEL_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>(afgekeurd)</p>
       </td>
@@ -9548,9 +8731,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>CONVERTED_FROM_LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De id van de gerelateerde lead die is omgezet in deze opportunity.</p>
         <p>Dit veld is niet ingesteld en retourneert null in Snowflake voor alle klanten.</p>
@@ -9563,9 +8744,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>CONVERTED_FROM_LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De e-mail van de gerelateerde lead die is geconverteerd naar deze opportunity.</p>
         <p>Dit veld is niet ingesteld en retourneert null in Snowflake voor alle klanten.</p>
@@ -9578,9 +8757,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>PRIMARY_CONTACT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Als de Primaire Rol van het Contact wordt gebruikt, identiteitskaart van het verwante Contact die als primaire contactrol wordt vermeld.</p>
       </td>
@@ -9592,9 +8769,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>PRIMARY_CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Als Primaire rol van het Contact wordt gebruikt, de e-mail van de verwante Contact die als primaire contactrol wordt vermeld.</p>
       </td>
@@ -9620,9 +8795,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huidige fase van de opportunity, zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
       </td>
@@ -9634,9 +8807,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Een tekenreeks met alle fasen die de opportunity eerder heeft doorlopen, zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
       </td>
@@ -9731,12 +8902,8 @@ Werkgebiedovergangen voor opportunity.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de overgang.</p>
       </td>
@@ -9748,9 +8915,7 @@ Werkgebiedovergangen voor opportunity.
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de account die aan de opportunity is gekoppeld.</p>
       </td>
@@ -9762,9 +8927,7 @@ Werkgebiedovergangen voor opportunity.
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de Opportunity die aan de overgang is gekoppeld.</p>
       </td>
@@ -9773,12 +8936,8 @@ Werkgebiedovergangen voor opportunity.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>Id voor de contactpersoon die aan de overgang is gekoppeld.</p>
       </td>
@@ -9790,9 +8949,7 @@ Werkgebiedovergangen voor opportunity.
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgegeven e-mailadres voor de betreffende contactpersoon.</p>
       </td>
@@ -9804,9 +8961,7 @@ Werkgebiedovergangen voor opportunity.
       <td>
         <p>TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor het aanraakpunt voor koperkenmerken dat aan de overgang is gekoppeld.</p>
       </td>
@@ -9818,9 +8973,7 @@ Werkgebiedovergangen voor opportunity.
       <td>
         <p>TRANSITION_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de record naar het werkgebied is overgebracht.</p>
       </td>
@@ -9832,9 +8985,7 @@ Werkgebiedovergangen voor opportunity.
       <td>
         <p>WERKGEBIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het werkgebied voor de overgang.</p>
       </td>
@@ -9846,9 +8997,7 @@ Werkgebiedovergangen voor opportunity.
       <td>
         <p>STAGE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id-waarde van het werkgebied voor de overgang.</p>
       </td>
@@ -9926,9 +9075,7 @@ Werkgebiedovergangen voor opportunity.
       <td>
         <p>PREVIOUS_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Overgangsdatum voor de vorige fase, volgens de positie van het werkgebied.</p>
       </td>
@@ -9940,9 +9087,7 @@ Werkgebiedovergangen voor opportunity.
       <td>
         <p>NEXT_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Overgangsdatum voor de volgende fase, volgens de positie van het werkgebied.</p>
       </td>
@@ -9951,12 +9096,8 @@ Werkgebiedovergangen voor opportunity.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum van laatste wijziging van de record.</p>
       </td>
@@ -10012,12 +9153,8 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de paginaweergave.</p>
       </td>
@@ -10029,9 +9166,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De opgenomen cookie-id op het moment dat de paginaweergave werd geregistreerd.</p>
       </td>
@@ -10043,9 +9178,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste cookie van de verwante bezoeker-id.</p>
       </td>
@@ -10057,9 +9190,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De sessie-id correleerde met de paginaweergave.</p>
       </td>
@@ -10071,9 +9202,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de paginaweergave is opgetreden.</p>
       </td>
@@ -10082,12 +9211,8 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -10099,9 +9224,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL van de paginaweergave, zonder queryparameters.</p>
       </td>
@@ -10113,9 +9236,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL van de paginaweergave, inclusief queryparameters.</p>
       </td>
@@ -10127,9 +9248,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgenomen IP-adres op het moment dat het formulier werd verzonden.</p>
       </td>
@@ -10141,9 +9260,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Geeft het type gebeurtenis aan.</td>
       <td>
         <p>PageView</p>
@@ -10153,9 +9270,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Apparaat en browser zijn opgenomen op het moment dat het formulier wordt verzonden.</p>
       </td>
@@ -10181,9 +9296,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Wordt gebruikt voor interne controle en verwerking.</td>
       <td>
         <p>103532</p>
@@ -10213,9 +9326,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL waar de Mening van de Pagina voortkwam van, zonder vraagparameters.</p>
       </td>
@@ -10227,9 +9338,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL waarvan de paginaweergave afkomstig is, inclusief queryparameters.</p>
       </td>
@@ -10241,9 +9350,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>PAGINA_TITEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Titel van de pagina.</p>
       </td>
@@ -10255,9 +9362,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-mailadres opgegeven op een formulier, zoals vastgelegd in het javascript.</p>
       </td>
@@ -10329,12 +9434,8 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de plaatsing.</p>
       </td>
@@ -10346,9 +9447,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De plaatsings-id van het bronsysteem.</td>
       <td>10426699711</td>
     </tr>
@@ -10356,9 +9455,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de advertentierekening waaruit de Plaatsing werd ingevoerd.</p>
       </td>
@@ -10368,9 +9465,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam voor de advertentierekening waaruit de Plaatsing werd ingevoerd.</p>
       </td>
@@ -10380,9 +9475,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Advertiser voor de Plaatsing, specifiek voor Doubleclick.</p>
       </td>
@@ -10392,9 +9485,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Adverteerder voor de Plaatsing, specifiek voor Doubleclick.</p>
       </td>
@@ -10404,9 +9495,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen Advertentiegroep boven het Plaatsen in om het even welke advertentiehiërarchie is.</p>
       </td>
@@ -10416,9 +9505,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen Advertentiegroep boven het Plaatsen in om het even welke advertentiehiërarchie is.</p>
       </td>
@@ -10428,9 +9515,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne voor de plaatsing.</p>
       </td>
@@ -10440,9 +9525,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de campagne voor de plaatsing.</p>
       </td>
@@ -10473,12 +9556,8 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -10488,9 +9567,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
@@ -10500,9 +9577,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Plaatsing, van het bronsysteem.</p>
       </td>
@@ -10525,9 +9600,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostisch veld, voor interne verwerking.</td>
       <td></td>
     </tr>
@@ -10535,9 +9608,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval, "Plaatsing".</p>
       </td>
@@ -10547,9 +9618,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentieprovider voor de plaatsing.</p>
       </td>
@@ -10601,12 +9670,8 @@ Segmentwaarden zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] t
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor het segment.</p>
       </td>
@@ -10618,9 +9683,7 @@ Segmentwaarden zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] t
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het segment.</p>
       </td>
@@ -10679,9 +9742,7 @@ Wijst de naam van het douanesegment aan het zijn categoriewaarde toe. (Hiermee w
       <td>
         <p>CATEGORIE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Geeft de categorie aan waaraan de segmentnaam is toegewezen.</p>
       </td>
@@ -10690,12 +9751,8 @@ Wijst de naam van het douanesegment aan het zijn categoriewaarde toe. (Hiermee w
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -10707,9 +9764,7 @@ Wijst de naam van het douanesegment aan het zijn categoriewaarde toe. (Hiermee w
       <td>
         <p>SEGMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het segment dat is toegewezen aan de categorie.</p>
       </td>
@@ -10763,12 +9818,8 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de sessie.</p>
       </td>
@@ -10780,9 +9831,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste cookie van de verwante bezoeker-id.</p>
       </td>
@@ -10792,9 +9841,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De opgenomen cookie van de sessie.</p>
       </td>
@@ -10804,9 +9851,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum van de sessie.</p>
       </td>
@@ -10818,9 +9863,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>GEWIJZIGDE DATUM</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -10838,9 +9881,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>KANAAL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Kanaal dat is toegewezen aan de sessie, zoals gedefinieerd in de kanaaldefinities die zijn ingesteld in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
       </td>
@@ -10852,9 +9893,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>PAGINA_TITEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de webpagina.</p>
       </td>
@@ -10866,9 +9905,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL van de eerste paginaweergave van de sessie, zonder queryparameters.</p>
       </td>
@@ -10880,9 +9917,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL van de eerste paginaweergave van de sessie, inclusief queryparameters.</p>
       </td>
@@ -10894,9 +9929,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL waar de Zitting voortkwam van, zonder vraagparameters.</p>
       </td>
@@ -10908,9 +9941,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL waar de Zitting voortkwam van, met inbegrip van om het even welke vraagparameters.</p>
       </td>
@@ -10922,9 +9953,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>REFERRER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de verwijzingspagina.</p>
       </td>
@@ -10936,9 +9965,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De waarde die de gebruiker heeft ingevoerd in de browser om te zoeken en op de website is beland.</p>
       </td>
@@ -10950,9 +9977,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Hiermee definieert u de bron die het resultaat is van de sessie. Dit kan vanuit de URL worden geparseerd vanaf utm_source of worden ingesteld op een Ad Provider als [!DNL Marketo Measure] kan een advertentie oplossen.</p>
       </td>
@@ -11020,9 +10045,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>APPARAAT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De browser en het besturingssysteem van de gebruiker tijdens de sessie.</p>
       </td>
@@ -11034,9 +10057,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het advertentieplatform [!DNL Marketo Measure] is opgelost door een van onze integratiepartners.</p>
       </td>
@@ -11048,9 +10069,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van advertentierekening waarvan de advertentie is opgelost.</p>
       </td>
@@ -11062,9 +10081,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentierekening waarvan de advertentie is opgelost.</p>
       </td>
@@ -11076,9 +10093,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van Advertiser de advertentie is opgelost, met name via de verbinding Doubleclick.</p>
       </td>
@@ -11090,9 +10105,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de adverteerder van wie de advertentie is opgelost, met name via de verbinding Doubleclick.</p>
       </td>
@@ -11104,9 +10117,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de site waarvan de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -11118,9 +10129,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de site waarvan de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -11132,9 +10141,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van het Palement waarvan de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -11146,9 +10153,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de locatie waar de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -11160,9 +10165,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne van de advertentie is opgelost.</p>
       </td>
@@ -11174,9 +10177,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de campagne waarvan de advertentie is opgelost.</p>
       </td>
@@ -11188,9 +10189,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de advertentiegroep waarvan de advertentie is opgelost. Dit geldt alleen voor Google Adwords.</p>
       </td>
@@ -11202,9 +10201,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentiegroep waaruit de advertentie is opgelost. Dit geldt alleen voor Google Adwords.</p>
       </td>
@@ -11216,9 +10213,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van advertentie is opgelost van. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
       </td>
@@ -11228,9 +10223,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
       </td>
@@ -11240,9 +10233,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van Creative the Ad is opgelost vanuit. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -11254,9 +10245,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de Creative the Ad is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -11268,9 +10257,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -11282,9 +10269,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De tweede regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -11296,9 +10281,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De landingspagina die door van de onderzoekAdvertentie klikt, die van de Advertentierekening wordt getrokken waarin Advertentie werd opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -11310,9 +10293,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De vriendelijke URL-naam die wordt weergegeven in de zoekadvertentie en die wordt opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -11324,9 +10305,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van het trefwoord waarvan de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -11338,9 +10317,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het trefwoord waarvan de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -11352,9 +10329,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het type overeenkomst dat wordt gevonden tussen de zoekuitdrukking en het aangekochte trefwoord.</p>
       </td>
@@ -11366,9 +10341,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>CAMPAIGN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Geparseerd van de URL van utm_campagne.</p>
       </td>
@@ -11380,9 +10353,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>BRON</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Geparseerd van URL van utm_source.</p>
       </td>
@@ -11394,9 +10365,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Geparseerd van URL van utm_medium.</p>
       </td>
@@ -11408,9 +10377,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>TERM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Geparseerd van de URL van utm_term.</p>
       </td>
@@ -11422,9 +10389,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>INHOUD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Geparseerd van de URL van utm_content.</p>
       </td>
@@ -11436,9 +10401,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>STAD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De opgeloste stad van het IP adres.</p>
       </td>
@@ -11448,9 +10411,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>REGIO</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgeloste gebied van het IP adres.</p>
       </td>
@@ -11460,9 +10421,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>LAND</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgeloste land van het IP adres.</p>
       </td>
@@ -11472,9 +10431,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>ISP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Null verwacht omdat het veld verouderd is.</td>
       <td>
         <p>NULL</p>
@@ -11484,9 +10441,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het opgenomen IP-adres op het moment dat de sessie wordt gehouden.</p>
       </td>
@@ -11622,12 +10577,8 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de site.</p>
       </td>
@@ -11637,9 +10588,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De site-id van het bronsysteem.</td>
       <td>39464932147</td>
     </tr>
@@ -11647,9 +10596,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de advertentieaccount waaruit de site is geïmporteerd.</p>
       </td>
@@ -11659,9 +10606,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentieaccount waaruit de site is geïmporteerd.</p>
       </td>
@@ -11671,9 +10616,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De id van de adverteerder voor de site, met name voor Doubleclick.</p>
       </td>
@@ -11685,9 +10628,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de adverteerder voor de site, met name voor Doubleclick.</p>
       </td>
@@ -11699,9 +10640,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen Advertentiegroep boven Site in enige advertentiehiërarchie is.</p>
       </td>
@@ -11711,9 +10650,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Null verwacht omdat er geen Advertentiegroep boven Site in enige advertentiehiërarchie is.</p>
       </td>
@@ -11723,9 +10660,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne voor de site.</p>
       </td>
@@ -11737,9 +10672,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de campagne voor de site.</p>
       </td>
@@ -11770,12 +10703,8 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -11785,9 +10714,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
@@ -11797,9 +10724,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Plaats, van het bronsysteem.</p>
       </td>
@@ -11822,9 +10747,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostisch veld voor interne verwerking.</td>
       <td></td>
     </tr>
@@ -11832,9 +10755,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval "Site".</p>
       </td>
@@ -11844,9 +10765,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentieprovider voor de site.</p>
       </td>
@@ -11900,12 +10819,8 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor de sitekoppeling</p>
       </td>
@@ -11917,9 +10832,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td>
         <p>1654234342</p>
@@ -11929,9 +10842,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De id van de gekoppelde advertentie-account voor de sitekoppeling</p>
       </td>
@@ -11943,9 +10854,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de verbonden advertenties is een account voor de sitekoppeling</p>
       </td>
@@ -11957,9 +10866,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De id van de adverteerder voor de site-koppeling, met name voor Doubleclick.</p>
       </td>
@@ -11971,9 +10878,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de adverteerder voor de site-koppeling, met name voor Doubleclick.</p>
       </td>
@@ -11985,9 +10890,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De id van de advertentiegroep voor de sitekoppeling</p>
       </td>
@@ -11997,9 +10900,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de advertentiegroep voor de sitekoppeling</p>
       </td>
@@ -12009,9 +10910,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De id van de campagne voor de site-koppeling</p>
       </td>
@@ -12023,9 +10922,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de campagne voor de site-koppeling</p>
       </td>
@@ -12062,12 +10959,8 @@ Plaatst koppelingen van een verbonden advertentiekader.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De laatste gewijzigde datum van de rij</p>
       </td>
@@ -12079,9 +10972,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de sitekoppeling voor het eerst is gedownload [!DNL Marketo Measure]</p>
       </td>
@@ -12093,9 +10984,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>NAAM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de sitekoppeling</p>
       </td>
@@ -12119,9 +11008,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td>
         <p>aw.6601259029.28507795</p>
@@ -12131,9 +11018,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval, "SiteLink"</p>
       </td>
@@ -12145,9 +11030,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de provider van advertenties voor de sitekoppeling</p>
       </td>
@@ -12159,9 +11042,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De URL voor de landingspagina.</p>
         <p>(Diagnostisch veld, voor interne verwerking.)</p>
@@ -12175,9 +11056,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vorige waarde voor URL_CURRENT.</p>
         <p>(Diagnostisch veld, voor interne verwerking.)</p>
@@ -12188,9 +11067,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Waarmee wordt de URL ingericht [!DNL Marketo Measure] parameters.</p>
         <p>(Diagnostisch veld, voor interne verwerking.)</p>
@@ -12231,12 +11108,8 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor het werkgebied.</p>
       </td>
@@ -12245,12 +11118,8 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -12262,9 +11131,7 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
       <td>
         <p>STAGE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het werkgebied.</p>
       </td>
@@ -12328,9 +11195,7 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
       <td>
         <p>STAGE_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Status van het werkgebied, zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] werkgebiedtoewijzing van de toepassing.</p>
       </td>
@@ -12426,12 +11291,8 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor het aanraakpunt voor kopers (BT).</p>
       </td>
@@ -12440,12 +11301,8 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -12457,21 +11314,15 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>E-mailadres dat aan het BT is gekoppeld.</td>
       <td>
         <p>person@adobe.com</p>
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>Id voor de contactpersoon die aan het BT is gekoppeld.</p>
       </td>
@@ -12481,9 +11332,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de account die aan het BT is gekoppeld.</p>
       </td>
@@ -12495,9 +11344,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de lead die aan het BT is gekoppeld.</p>
       </td>
@@ -12509,9 +11356,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>UNIQUE_ID_PERSON</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De ouderpersoonrecord die betrekking heeft op een lead of contactpersoon.</p>
       </td>
@@ -12523,9 +11368,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>USER_TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor het aanraakpunt van de gebruiker dat de BT heeft gegenereerd.</p>
       </td>
@@ -12543,9 +11386,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum van het aanraakpunt.</p>
       </td>
@@ -12557,9 +11398,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het type van activiteit, het Bezoek van het Web, de Vorm van het Web, het Praatje van het Web, de Vraag van de Telefoon, [CRM] Campagne, of [CRM] Activiteit. Wordt in de CRM aangeduid als "aanraakpunttype".</p>
       </td>
@@ -12571,9 +11410,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>KANAAL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het kanaal waarin het aanraakpunt valt, zoals gedefinieerd in de aangepaste kanaaldefinities in het dialoogvenster [!DNL Marketo Measure] App. Wordt in de CRM aangeduid als "Marketing Channel - Path".</p>
       </td>
@@ -12583,9 +11420,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De segmentwaarde voor de eerste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
       </td>
@@ -12595,9 +11430,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De segmentwaarde voor de tweede categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
       </td>
@@ -12609,9 +11442,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE3</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De segmentwaarde voor de derde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
       </td>
@@ -12623,9 +11454,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE4</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De segmentwaarde voor de vierde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
       </td>
@@ -12637,9 +11466,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE5</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De segmentwaarde voor de vijfde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
       </td>
@@ -12649,9 +11476,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE6</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De segmentwaarde voor de zesde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
       </td>
@@ -12661,9 +11486,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE7</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de zevende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -12671,9 +11494,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE8</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de achtste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -12681,9 +11502,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE9</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de 9de categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -12691,9 +11510,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE10</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de tiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -12701,9 +11518,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE11</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de 11e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -12711,9 +11526,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE12</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de 12e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -12721,9 +11534,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE13</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De segmentwaarde voor de dertiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
@@ -12731,9 +11542,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE14</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De segmentwaarde voor de 14e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
       </td>
@@ -12743,9 +11552,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CATEGORIE15</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De segmentwaarde voor de 15e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
       </td>
@@ -12755,9 +11562,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, ontdekte browser dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -12767,9 +11572,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, de ontdekte versie van browser die de gebruiker tijdens de zitting was.</p>
       </td>
@@ -12781,9 +11584,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, het ontdekte platform dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -12795,9 +11596,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, de ontdekte versie van het platform dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -12807,9 +11606,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste openingspagina van de sessie die tot een aanraakpunt heeft geleid. Wordt in de CRM aangeduid als "Landing Page".</p>
       </td>
@@ -12821,9 +11618,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste openingspagina van de sessie die tot een aanraakpunt heeft geleid. Een onbewerkte bestemmingspagina bevat alle queryparameters in de URL. In de CRM aangeduid als "Landing Page - Raw".</p>
       </td>
@@ -12835,9 +11630,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doorgaans de externe bestemmingspagina vlak voordat de gebruiker op de website komt. Wordt in de CRM aangeduid als "Referrer Page".</p>
       </td>
@@ -12847,9 +11640,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doorgaans de externe bestemmingspagina vlak voordat de gebruiker op de website komt. Een onbewerkte verwijzingspagina kan queryparameters in de URL bevatten. Wordt in de CRM aangeduid als "Referrer Page - Raw".</p>
       </td>
@@ -12861,9 +11652,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het eerste formulier dat is opgenomen in een sessie en dat heeft geresulteerd in een aanraakpunt. Verdere formulierverzendingen worden niet weergegeven in de tabel Touchpoints, maar in de tabel Form_Submits. Wordt in de CRM aangeduid als "formulier-URL".</p>
       </td>
@@ -12881,9 +11670,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
@@ -12895,9 +11682,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>STAD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, de ontdekte plaats de gebruiker binnen tijdens de zitting was.</p>
       </td>
@@ -12909,9 +11694,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>REGIO</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, het ontdekte gebied de gebruiker binnen tijdens de zitting was.</p>
       </td>
@@ -12923,9 +11706,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>LAND</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, het ontdekte land de gebruiker binnen tijdens de zitting was.</p>
       </td>
@@ -12937,9 +11718,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Hiermee definieert u het medium dat tot het aanraakpunt heeft geleid. Dit kan worden geparseerd vanaf de URL vanaf utm_medium. Of, als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "cpc" of "display".</p>
       </td>
@@ -12951,9 +11730,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campagne van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "Google AdWords" of "Facebook". In de CRM wordt "aanraakpuntbron" genoemd.</p>
       </td>
@@ -12965,9 +11742,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De waarde die de gebruiker in de browser heeft ingevoerd om naar de website te zoeken en op de website is geëindigd. Afhankelijk van het trefwoord dat wordt gekocht, komt dit mogelijk wel of niet overeen met de trefwoorden die zijn aangeschaft op het platform Betaalde zoekopdracht.</p>
       </td>
@@ -12979,9 +11754,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Advertentieplatform [!DNL Marketo Measure] was in staat om op te lossen van, typisch één van onze integratiepartners.</p>
       </td>
@@ -12993,9 +11766,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van advertentierekening waarvan de advertentie is opgelost.</p>
       </td>
@@ -13007,9 +11778,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentierekening waaruit de advertentie is opgelost.</p>
       </td>
@@ -13021,9 +11790,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de adverteerder van de advertentierekening waarin de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -13035,9 +11802,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de adverteerder van de advertentierekening waarin de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -13049,9 +11814,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de site van de advertentieaccount waaruit de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -13063,9 +11826,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de site van de advertentierekening waaruit de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -13077,9 +11838,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Plaatsing van de Advertentierekening waarin de Advertentie van werd opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -13091,9 +11850,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Plaatsing van de Advertentierekening waarin de Advertentie van werd opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -13105,9 +11862,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne van de advertentierekening waar de Advertentie van werd opgelost.</p>
       </td>
@@ -13119,9 +11874,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de campagne van de advertentierekening waarin Advertentie werd opgelost van.</p>
       </td>
@@ -13133,9 +11886,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Advertentiegroep van de Advertentierekening waarin de Advertentie van werd opgelost. Dit geldt alleen voor Google Adwords.</p>
       </td>
@@ -13145,9 +11896,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Advertentiegroep van de Advertentierekening waarin de Advertentie werd opgelost van. Dit geldt alleen voor Google AdWords.</p>
       </td>
@@ -13157,9 +11906,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
       </td>
@@ -13169,9 +11916,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
       </td>
@@ -13181,9 +11926,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van Creative van de advertentie-account waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -13195,9 +11938,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de Creative vanuit het advertentieaccount waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -13209,9 +11950,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -13223,9 +11962,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De tweede regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -13237,9 +11974,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De landingspagina die door van de onderzoekAdvertentie klikt, die van de Advertentierekening wordt getrokken waarin Advertentie werd opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -13251,9 +11986,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De vriendelijke URL-naam die wordt weergegeven in de zoekadvertentie en die wordt opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -13265,9 +11998,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De id van het trefwoord dat is aangeschaft bij de aankoop van de Betaalde zoekopdracht, is opgehaald van de advertentieaccount waarvan de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -13279,9 +12010,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het trefwoord dat is aangeschaft bij de aankoop van de Betaalde zoekopdracht en dat is opgehaald van de advertentieaccount waarvan de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht)</p>
       </td>
@@ -13293,9 +12022,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het type overeenkomst dat wordt gevonden tussen de zoekuitdrukking en het aangekochte trefwoord.</p>
       </td>
@@ -13699,12 +12426,8 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Een unieke id voor het aanraakpunt voor de gebruiker.</p>
       </td>
@@ -13713,12 +12436,8 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
@@ -13730,9 +12449,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-mailadres dat is gekoppeld aan het aanraakpunt van de gebruiker.</p>
       </td>
@@ -13744,9 +12461,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de sessie waarmee het aanraakpunt voor de gebruiker is gemaakt.</p>
       </td>
@@ -13758,9 +12473,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>CAMPAIGN_LID_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor het Campagne Lid dat tot het Aanraakpunt van de Gebruiker leidde.</p>
       </td>
@@ -13778,9 +12491,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>CRM_EVENT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de gebeurtenis die het aanraakpunt voor de gebruiker heeft gemaakt.</p>
       </td>
@@ -13792,9 +12503,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>CRM_TASK_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>TId voor de Taak die tot het Aanraakpunt van de Gebruiker leidde.</p>
       </td>
@@ -13806,9 +12515,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>IMPRESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id voor de Indruk die tot het Aanraakpunt van de Gebruiker leidde.</p>
       </td>
@@ -13830,9 +12537,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop het aanraakpunt voor de gebruiker is opgetreden.</p>
       </td>
@@ -13844,9 +12549,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het type van activiteit, het Bezoek van het Web, de Vorm van het Web, het Praatje van het Web, de Vraag van de Telefoon, [CRM] Campagne, of [CRM] Activiteit. Wordt in de CRM aangeduid als "aanraakpunttype".</p>
       </td>
@@ -13858,9 +12561,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>KANAAL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het kanaal waarin het aanraakpunt valt, zoals gedefinieerd in de aangepaste kanaaldefinities in het dialoogvenster [!DNL Marketo Measure] App. Wordt in de CRM aangeduid als "Marketing Channel - Path".</p>
       </td>
@@ -13872,9 +12573,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, ontdekte browser dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -13886,9 +12585,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, de ontdekte versie van browser die de gebruiker tijdens de zitting was.</p>
       </td>
@@ -13900,9 +12597,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, het ontdekte platform dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -13914,9 +12609,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, de ontdekte versie van het platform dat de gebruiker tijdens de zitting was.</p>
       </td>
@@ -13928,9 +12621,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste openingspagina van de sessie die tot een aanraakpunt heeft geleid. Wordt in de CRM aangeduid als "Landing Page".</p>
       </td>
@@ -13942,9 +12633,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste openingspagina van de sessie die tot een aanraakpunt heeft geleid. Een onbewerkte bestemmingspagina bevat alle queryparameters in de URL. In de CRM aangeduid als "Landing Page - Raw".</p>
       </td>
@@ -13956,9 +12645,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doorgaans de externe bestemmingspagina vlak voordat de gebruiker op de website komt. Wordt in de CRM aangeduid als "Referrer Page".</p>
       </td>
@@ -13970,9 +12657,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doorgaans de externe bestemmingspagina vlak voordat de gebruiker op de website komt. Een onbewerkte verwijzingspagina kan queryparameters in de URL bevatten. Wordt in de CRM aangeduid als "Referrer Page - Raw".</p>
       </td>
@@ -13984,9 +12669,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het eerste formulier dat is opgenomen in een sessie en dat heeft geresulteerd in een aanraakpunt. Verdere formulierverzendingen worden niet weergegeven in de tabel Attribution_Touchpoints, maar in de tabel Form_Submits. Wordt in de CRM aangeduid als "formulier-URL".</p>
       </td>
@@ -13998,9 +12681,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>FORM_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het eerste formulier dat is opgenomen in een sessie en dat heeft geresulteerd in een aanraakpunt. Verdere formulierverzendingen worden niet weergegeven in de tabel Attribution_Touchpoints, maar in de tabel Form_Submits. Een onbewerkte formulierpagina kan queryparameters in de URL bevatten. Wordt in de CRM aangeduid als "Form URL - Raw".</p>
       </td>
@@ -14012,9 +12693,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
@@ -14026,9 +12705,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>STAD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, de ontdekte plaats de gebruiker binnen tijdens de zitting was.</p>
       </td>
@@ -14040,9 +12717,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>REGIO</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, het ontdekte gebied de gebruiker binnen tijdens de zitting was.</p>
       </td>
@@ -14054,9 +12729,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>LAND</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Van javascript en IP adres, het ontdekte land de gebruiker binnen tijdens de zitting was.</p>
       </td>
@@ -14068,9 +12741,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Hiermee definieert u het medium dat tot het aanraakpunt heeft geleid. Dit kan worden geparseerd vanaf de URL vanaf utm_medium. Of, als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "cpc" of "display".</p>
       </td>
@@ -14082,9 +12753,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campagne van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "Google AdWords" of "Facebook". In de CRM wordt "aanraakpuntbron" genoemd.</p>
       </td>
@@ -14096,9 +12765,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De waarde die de gebruiker in de browser heeft ingevoerd om naar de website te zoeken en op de website is geëindigd. Afhankelijk van het trefwoord dat wordt gekocht, komt dit mogelijk wel of niet overeen met de trefwoorden die zijn aangeschaft op het platform Betaalde zoekopdracht.</p>
       </td>
@@ -14110,9 +12777,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Advertentieplatform [!DNL Marketo Measure] was in staat om op te lossen van, typisch één van onze integratiepartners.</p>
       </td>
@@ -14124,9 +12789,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van advertentierekening waarvan de advertentie is opgelost.</p>
       </td>
@@ -14138,9 +12801,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentierekening waaruit de advertentie is opgelost.</p>
       </td>
@@ -14152,9 +12813,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de adverteerder van de advertentierekening waarin de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -14166,9 +12825,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de adverteerder van de advertentierekening waarin de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -14180,9 +12837,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de site van de advertentieaccount waaruit de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -14194,9 +12849,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de site van de advertentierekening waaruit de advertentie is opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -14208,9 +12861,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Plaatsing van de Advertentierekening waarin de Advertentie van werd opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -14222,9 +12873,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Plaatsing van de Advertentierekening waarin de Advertentie van werd opgelost. Dit geldt alleen voor Dubbelklik op Campagnebeheer.</p>
       </td>
@@ -14236,9 +12885,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de campagne van de advertentierekening waar de Advertentie van werd opgelost.</p>
       </td>
@@ -14250,9 +12897,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de campagne van de advertentierekening waarin Advertentie werd opgelost van.</p>
       </td>
@@ -14264,9 +12909,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de Advertentiegroep van de Advertentierekening waarin de Advertentie van werd opgelost. Dit geldt alleen voor Google Adwords.</p>
       </td>
@@ -14278,9 +12921,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de Advertentiegroep van de Advertentierekening waarin de Advertentie werd opgelost van. Dit geldt alleen voor Google AdWords.</p>
       </td>
@@ -14292,9 +12933,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
       </td>
@@ -14304,9 +12943,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
       </td>
@@ -14316,9 +12953,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id van Creative van de advertentie-account waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -14330,9 +12965,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De naam van de Creative vanuit het advertentieaccount waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -14344,9 +12977,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De eerste regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -14358,9 +12989,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De tweede regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -14372,9 +13001,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De landingspagina die door van de onderzoekAdvertentie klikt, die van de Advertentierekening wordt getrokken waarin Advertentie werd opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -14386,9 +13013,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De vriendelijke URL-naam die wordt weergegeven in de zoekadvertentie en die wordt opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -14400,9 +13025,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>De id van het trefwoord dat is aangeschaft bij de aankoop van de Betaalde zoekopdracht, is opgehaald van de advertentieaccount waarvan de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
@@ -14414,9 +13037,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Naam van het trefwoord dat is aangeschaft bij de aankoop van de Betaalde zoekopdracht en dat is opgehaald van de advertentieaccount waarvan de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht)</p>
       </td>
@@ -14428,9 +13049,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Het type overeenkomst dat wordt gevonden tussen de zoekuitdrukking en het aangekochte trefwoord.</p>
       </td>
@@ -14592,12 +13211,8 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
       <th>Voorbeeldgegevens</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>Een unieke id voor de toewijzingsrecord.</td>
       <td>
         <p>0d643578c0c74753eff91abe668ed328|2020-06-17:19:03:36|0002|0|568668</p>
@@ -14607,9 +13222,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De [!DNL Marketo Measure] opgenomen cookie-id.</td>
       <td>0d643578c0c74753eff91abe668ed328</td>
     </tr>
@@ -14617,9 +13230,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De eerste cookie-id van de verwante bezoeker-id.</td>
       <td>v_0d643578c0c74753eff91abe668ed328</td>
     </tr>
@@ -14627,9 +13238,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>De [!DNL Marketo Measure] Sessie-id.</td>
       <td>2018-08-06:01-35-24-1231230.9bc63c34482f</td>
     </tr>
@@ -14644,9 +13253,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
+      <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
@@ -14657,9 +13264,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
     </tr>
     <tr>
       <td>CURRENT_PAGE</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>URL van de paginaweergave, zonder queryparameters.</td>
       <td>
         <p>https://learn.atest.com/simplify-retention-starter-kit.html</p>
@@ -14667,9 +13272,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
     </tr>
     <tr>
       <td>CURRENT_PAGE_RAW</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>URL van de paginaweergave, inclusief queryparameters.</td>
       <td>
         <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
@@ -14677,9 +13280,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Het opgenomen IP-adres.</td>
       <td>
         <p>15.203.142.127</p>
@@ -14687,9 +13288,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
     </tr>
     <tr>
       <td>TYPE</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Geeft het type gebeurtenis aan.</td>
       <td>
         <p>HostMapping</p>
@@ -14697,9 +13296,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
     </tr>
     <tr>
       <td>USER_AGENT_STRING</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Apparaat en browser die zijn opgenomen ten tijde van de paginaweergave.</td>
       <td>
         <p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36</p>
