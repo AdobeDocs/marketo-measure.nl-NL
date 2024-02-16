@@ -1,11 +1,11 @@
 ---
 description: '''[!DNL Salesforce] Pakketconsolidatie - [!DNL Marketo Measure] - Productdocumentatie"'
 title: '[!DNL Salesforce] Pakketconsolidatie'
-exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Het nieuwe geconsolideerde V2-pakket bevat alle functies en functies van de vori
 We hebben twee nieuwe velden toegevoegd om uw rapportagemogelijkheden te verbeteren:
 
 * form_name: Nu beschikbaar in BT/BAT-objecten, kunnen gebruikers in dit veld rapporten maken op basis van formuliernamen.
-* user_touchpoint_id: Met dit veld kunnen gebruikers rapporten maken met unieke aantallen gebruikers-aanraakpunten.
+* user_touchpoint_id: Met dit veld kunnen gebruikers rapporten maken met unieke aantallen gebruikers-aanraakpunten (`bizible2__User_Touchpoint_V2__c` in Salesforce).
 
 ## Ondersteuning en overgang {#support-and-transition}
 
