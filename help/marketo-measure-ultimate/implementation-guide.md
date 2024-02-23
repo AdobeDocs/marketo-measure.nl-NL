@@ -2,9 +2,9 @@
 description: '''[!DNL Marketo Measure] Ultieme implementatiehandleiding - [!DNL Marketo Measure] - Productdocumentatie"'
 title: '[!DNL Marketo Measure] Ultieme implementatiegids'
 feature: Integration, Tracking, Attribution
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,10 @@ Voor degenen met een _**CDP-machtiging**_: Maak schema&#39;s door naar de pagina
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## Gegevensstromen {#dataflows}
+
+>[!IMPORTANT]
+>
+>Wanneer het toevoegen van een nieuwe dataset, adviseren wij het creëren van een nieuwe stroom in plaats van het gebruiken van bestaande.
 
 [Overzicht van gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 

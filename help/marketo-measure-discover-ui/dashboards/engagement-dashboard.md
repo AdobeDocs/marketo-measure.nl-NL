@@ -2,9 +2,9 @@
 description: Betrokkenheidsdashboard - [!DNL Marketo Measure] - Product
 title: Betrokkenheidsdashboard
 feature: Reporting
-source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,11 @@ Vragen in de grafiek:
 * Hoe vergelijk het aantal aanraakpunten met de personen die binnen een specifiek kanaal/subkanaal/campagne worden aangeraakt?
 
 ![](assets/engagement-dashboard-2.png)
+
+## Filtervenster {#filter-pane}
+
+Dit dashboard is uitgerust met de volgende instellingen en filters:
+
+* Datum (gebaseerd op aanraakpuntdatum)
+* Kanaal, subkanaal
+* Campagne

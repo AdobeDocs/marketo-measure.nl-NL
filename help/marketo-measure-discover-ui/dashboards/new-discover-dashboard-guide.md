@@ -3,7 +3,7 @@ description: Nieuwe Discover Dashboard Guide - [!DNL Marketo Measure] - Product
 title: Nieuwe Discover-dashboardgids
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
@@ -39,14 +39,12 @@ We zijn blij dat we het dashboard van Discover opnieuw ontwerpen. Ons primaire d
           <li>
             <strong>Opbrengst pijpleiding:</strong>Vervangen (zie hieronder)</li>
           <li>
-            <strong>Gemiddelde transactiegrootte: </strong>Vervangen (zie hieronder)</li>
-        </ul>
+            <strong>Gemiddelde transactiegrootte: </strong>Vervangen (zie hieronder)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Groei</td>
-      <td>
-        <ul>
+      <td><ul>
           <li>
             <strong>Ontvangsten en ontvangsten in de loop der tijd</strong>: Toegewezen inkomsten, overzicht van opbrengsten, ROI-dashboards</li>
           <li>
