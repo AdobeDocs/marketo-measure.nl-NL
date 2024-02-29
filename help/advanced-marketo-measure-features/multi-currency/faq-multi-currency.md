@@ -4,9 +4,9 @@ description: Veelgestelde vragen (meerdere valuta) - [!DNL Marketo Measure] - Pr
 title: Veelgestelde vragen (meerdere valuta's)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 **Hoe weet ik welke functiebit moet worden ingeschakeld?**
 
-Onthoud dat deze functie twee verschillende functiebits heeft. Beide bevinden zich op het tabblad Algemeen van het gedeelte CRM in Instellingen: Meerdere valuta&#39;s en Geavanceerde valuta&#39;s. Meerdere valuta&#39;s moeten zijn ingeschakeld als de klant meer dan één valuta gebruikt, terwijl de extra functie Geavanceerde valuta&#39;s kan inschakelen als de klant deze gebruikt [!DNL Salesforce]&#39;s &#39;Advanced Currency Management&#39; functie waar de gebruiker een op tijd gebaseerd bereik voor conversiekoersen kan instellen.
+Onthoud dat deze functie twee verschillende functiebits heeft. Beide bevinden zich in de [!UICONTROL General] tabblad van de afdeling CRM in Instellingen: Meerdere valuta&#39;s en Geavanceerde valuta&#39;s. Meerdere valuta&#39;s moeten zijn ingeschakeld als de klant meer dan één valuta gebruikt, terwijl de extra functie Geavanceerde valuta&#39;s kan inschakelen als de klant deze gebruikt [!DNL Salesforce]&#39;s &#39;Advanced Currency Management&#39; functie waar de gebruiker een op tijd gebaseerd bereik voor conversiekoersen kan instellen.
 
 Helaas weten we niet wanneer een klant schakelt tussen Eenvoudig of Geavanceerd als Geavanceerd al is ingeschakeld. Daarom moet de klant de instelling Geavanceerde valuta&#39;s handmatig op hun CRM-instelling uitlijnen. Dit zou aan de klant moeten duidelijk zijn als de omzettingen onjuist zijn, wat betekent wij niet wisten welk niveau van omzetting van toepassing was.
 

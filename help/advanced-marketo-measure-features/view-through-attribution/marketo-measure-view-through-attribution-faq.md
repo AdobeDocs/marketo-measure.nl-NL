@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Veelgestelde vragen over weergave door kenm
 title: "[!DNL Marketo Measure] Veelgestelde vragen over kenmerk bekijken"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 7%
+source-wordcount: '389'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 7%
 
 ## Wat is Weergeven door kenmerk? {#what-is-view-through-attribution}
 
-De [!DNL Marketo Measure] De functie Weergeven via kenmerk biedt de mogelijkheid om advertentiemodellen op te nemen in het attributiemodel.
+De [!DNL Marketo Measure] [!UICONTROL View Through Attribution] Deze functie omvat de mogelijkheid om advertenties op te nemen in het toewijzingsmodel.
 
-## Waarom is Weergeven via kenmerk belangrijk? {#why-is-view-through-attribution-important}
+## Waarom is [!UICONTROL View Through Attribution] Belangrijk? {#why-is-view-through-attribution-important}
 
 In het verleden was het voor de marktpartijen moeilijk om reclame te heroriënteren of de indruk te wekken bij de analyse van de toeschouwers. Potentiële klanten kunnen na verloop van tijd worden blootgesteld aan opnieuw plaatsen van advertenties, maar het is onwaarschijnlijk dat ze daadwerkelijk op een van deze advertenties klikken en een formulier binnen dezelfde sessie invullen. Onze oplossing Weergeven door kenmerk heeft nu de mogelijkheid om te traceren of iemand al dan niet werd blootgesteld aan een impressie. Dit aanraakpunt zal aan het individuele verslag worden toegevoegd en zal door tot het vooruitzicht een cliënt worden. Met deze informatie krijgt de markt nu meer inzicht in de prestaties van hun heroriënterende reclame.
 
@@ -27,7 +27,7 @@ Om [!DNL Marketo Measure] Als u de advertentietekens wilt gaan meten, moet u een
 
 ## Welke advertentieplatforms worden ondersteund? {#which-ad-platforms-are-supported}
 
-We ondersteunen momenteel Dubbleclick Campagne Manager.
+Wij steunen momenteel [!DNL Doubleclick] Campagnebeheer.
 
 ## Hoe wordt de attributie berekend? {#how-is-the-attribution-calculated}
 
@@ -67,7 +67,7 @@ We hebben een zorgvuldige analyse uitgevoerd van de gegevens van de indruk en de
    <td>100%</td> 
    <td>0%</td> 
    <td>35%</td> 
-   <td>26.6%</td> 
+   <td>26,6%</td> 
    <td>20%</td> 
    <td>Aangepast</td> 
   </tr> 
@@ -76,7 +76,7 @@ We hebben een zorgvuldige analyse uitgevoerd van de gegevens van de indruk en de
    <td>0%</td> 
    <td>100%</td> 
    <td>35%</td> 
-   <td>26.6%</td> 
+   <td>26,6%</td> 
    <td>20%</td> 
    <td>Aangepast</td> 
   </tr> 
@@ -85,7 +85,7 @@ We hebben een zorgvuldige analyse uitgevoerd van de gegevens van de indruk en de
    <td>0%</td> 
    <td>0%</td> 
    <td>0%</td> 
-   <td>26.6%</td> 
+   <td>26,6%</td> 
    <td>20%</td> 
    <td>Aangepast</td> 
   </tr> 
@@ -110,7 +110,7 @@ We hebben een zorgvuldige analyse uitgevoerd van de gegevens van de indruk en de
  </tbody> 
 </table>
 
-## Hoe ziet dit eruit in Salesforce? {#what-will-this-look-like-in-salesforce}
+## Hoe ziet dit eruit in [!DNL Salesforce?] {#what-will-this-look-like-in-salesforce}
 
 [!DNL Marketo Measure] wordt één aanraakpunt voor de indruk gemaakt op elke lead die aan de advertentie is blootgesteld. We kunnen de gebruiker in kaart brengen, zelfs nadat deze voor het eerst naar uw website (FT) is gekomen en een formulier (LC) invullen. Het aanraakpunt bevat advertentiegegevens zoals Naam/id van advertentiecampagne, Advertentie-id, Advertentie-inhoud, Sitenaam/ID, Plaatsingsnaam/id, Marketingkanaal, Geo, Refereringspagina en meer.
 

@@ -4,9 +4,9 @@ description: Aanraakpunt verwijderen en onderdrukking aanraakpunt - [!DNL Market
 title: Aanraakpunt verwijderen en onderdrukking aanraakpunt
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Maak een keuze in een lijst met operatoren die betrekking hebben op de volgende 
 
 >[!TIP]
 >
->Als u een lege of NULL-waarde in een veld wilt verwerken, laat u het vak Waarde leeg. Hierbij wordt rekening gehouden met scenario&#39;s zoals het evalueren tegen een aanraakpunt zonder URL van formulier.
+>Als u een lege of NULL-waarde in een veld wilt verwerken, laat u gewoon de instelling [!UICONTROL Value] leeg. Hierbij wordt rekening gehouden met scenario&#39;s zoals het evalueren tegen een aanraakpunt zonder URL van formulier.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ U kunt ook nieuwe instructies buiten de groep toevoegen om de logica &quot;OR&qu
 
 ![](assets/2.png)
 
-`3)` Als uw regels complex worden en u groepen moet opnieuw maken en kleine wijzigingen in elke instructie aanbrengen, gebruikt u de optie Klonen om de zaken eenvoudiger te maken.
+`3)` Als uw regels complex worden en u groepen moet opnieuw maken en kleine wijzigingen in elke instructie aanbrengen, gebruikt u de opdracht [!UICONTROL Clone] om de zaken eenvoudiger te maken.
 
 ![](assets/3.png)
 
@@ -65,7 +65,7 @@ Als je een fout maakt, maak je dan geen zorgen. U kunt ook afzonderlijke rijen v
 
 ![](assets/5.png)
 
-Om te voltooien, sparen en verwerkt uw regels. Als u veel wijzigingen aanbrengt, moet u uw wijzigingen onderweg opslaan. [!DNL Marketo Measure] begint pas echt met het verwijderen van uw aanraakpunten wanneer u op de knop **Opslaan en verwerken** knop.
+Tot slot: [!UICONTROL Save and Process] uw regels. Als u veel wijzigingen aanbrengt, moet u uw wijzigingen onderweg opslaan. [!DNL Marketo Measure] begint pas echt met het verwijderen van uw aanraakpunten wanneer u op de knop **Opslaan en verwerken** knop.
 
 | **Operator** | **Hoofdletters gebruiken** |
 |---|---|

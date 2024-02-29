@@ -4,16 +4,16 @@ description: Aanraakpuntvelden - [!DNL Marketo Measure] - Productdocumentatie
 title: Aanraakpuntvelden
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1947'
 ht-degree: 0%
 
 ---
 
 # Aanraakpuntvelden {#touchpoint-fields}
 
-Historisch, wanneer klanten aan boord met [!DNL Marketo Measure] en in het geval dat we geen directe codering hebben, leidt ons team van Klantsucces onze klanten op de hoogte van de manier waarop ze hun landingspagina&#39;s op de juiste manier kunnen labelen, zodat ze de juiste UTM-indeling gebruiken en we hun advertenties kunnen oplossen. Sommige van deze klanten gebruiken geen UTMs maar eerder gebruiken hun eigen het etiketteren parameters, wat het zeer tijdrovend kan betekenen om al hun landingspagina&#39;s over al hun advertentienetwerken met een nieuwe etiketteringsstructuur uit te geven die [!DNL Marketo Measure] handhaven. Om zich aan hun het etiketteren structuur aan te passen, aanvaarden wij nu douaneparameters die met onze regeldefinities kunnen worden in kaart gebracht. Het doel is om aan het gebruik van klanten van hun douane het volgen parameters aan te passen zodat moeten wij hen niet vereisen om hun structuur URL te veranderen.
+Historisch, wanneer klanten aan boord met [!DNL Marketo Measure] en in het geval dat wij geen directe codering hebben, leidt ons team van Klantsucces onze klanten op de hoogte van hoe zij hun landingspagina&#39;s op de juiste manier kunnen labelen zodat zij de juiste UTM-indeling gebruiken en wij hun advertenties kunnen oplossen. Sommige van deze klanten gebruiken geen UTMs maar eerder gebruiken hun eigen het etiketteren parameters, wat het zeer tijdrovend kan betekenen om al hun landingspagina&#39;s over al hun advertentienetwerken met een nieuwe etiketteringsstructuur uit te geven die [!DNL Marketo Measure] handhaven. Om zich aan hun het etiketteren structuur aan te passen, aanvaarden wij nu douaneparameters die met onze regeldefinities kunnen worden in kaart gebracht. Het doel is om aan het gebruik van klanten van hun douane het volgen parameters aan te passen zodat moeten wij hen niet vereisen om hun structuur URL te veranderen.
 
 >[!AVAILABILITY]
 >
@@ -35,7 +35,7 @@ Houd er rekening mee dat een gebruiker drie verschillende handelingen kan uitvoe
 
 Extracten
 
-De extractoperator haalt de waarde uit een veld van een andere locatie, zoals: een Campagneveld, Lead-veld of in een geavanceerder gebruiksgeval, [aangepaste parameters ophalen van de bestemmingspagina](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+De [!UICONTROL extracts] operator haalt de waarde uit een veld van een andere locatie, zoals: een Campagneveld, Lead-veld of in een geavanceerder gebruiksgeval, [aangepaste parameters ophalen van de bestemmingspagina](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Voorbeeld 1**
 
@@ -123,7 +123,7 @@ Aangezien uw landingspagina&#39;s ingewikkelder worden en u veelvoudige het volg
 
 **Kaarten aan**
 
-De kaarten aan exploitant leiden tot een lijst van waarden die in een andere waarde moeten worden vertaald of worden verpakt. Gewoonlijk heeft dit de vorm van een sleutelwaarde waarbij een code een vriendelijke naam vertegenwoordigt en aan die vriendelijke naam moet worden toegewezen.
+De [!UICONTROL maps to] maakt een tabel met waarden die in een andere waarde moeten worden omgezet of opgenomen. Gewoonlijk heeft dit de vorm van een sleutelwaarde waarbij een code een vriendelijke naam vertegenwoordigt en aan die vriendelijke naam moet worden toegewezen.
 
 **Voorbeeld 1**
 
@@ -135,7 +135,7 @@ Er zijn campagnes die je hebt gemaakt voor een &#39;Aanbieding voor einde zomer&
 
 Nu we hebben geleerd hoe we die acties kunnen extraheren en toewijzen aan velden, combineren we ze om eerst een waarde uit een parameter te extraheren, en dan toewijzen we ze aan een vriendelijke naam die wat meer zin heeft. Laten we dus beginnen met deze landingspagina: `https://www.adobe.com/blog/marketing-revenue-reporting-overview?BZ=04-01-09-03-10`.
 
-**Doel:** Maak meerdere Berekende velden, waarbij het eerste getal wordt toegewezen aan een regio, het tweede aan een product, het derde aan een initiatief, het vierde aan een persoon en het vijfde aan een Media-Platform. Wijs vervolgens de numerieke waarde toe aan een &quot;vriendelijke naam&quot;.
+**Doel:** Maak meerdere Berekende velden, waarbij het eerste getal wordt toegewezen aan een regio, het tweede aan een product, het derde aan een initiatief, het vierde aan een persoon en het vijfde aan een mediaplatform. Wijs vervolgens de numerieke waarde toe aan een &quot;vriendelijke naam&quot;.
 
 * Een berekend veld maken en dit veld het label Regio geven
 * Definieer de regel door te beginnen met zoeken naar het veld Touchpoint.Session.LandingPage
@@ -145,18 +145,18 @@ Nu we hebben geleerd hoe we die acties kunnen extraheren en toewijzen aan velden
    * **(** markeert het begin van de extractie
 
       * Let op: aangezien we alleen de 4 cijfers extraheren, hebben alleen de eerste cijfers het haakje openen
-
    * **)** markeert het einde van de extractie
 
       * Let op: aangezien we alleen de 4 extraheren, hebben alleen de eerste cijfers het haakje gesloten
-
    * **\d** vertelt ons dat wij een &quot;cijfer&quot;halen
    * **{2}** is het aantal tekens dat we extraheren
+
+
 
 * Klik op [!UICONTROL Save]. U moet het nieuwe veld opslaan voordat het beschikbaar is voor de volgende regel.
 * Vervolgens willen we alle mogelijke waarden voor de eerste cijfers toewijzen aan de vriendelijke namen
 * Een berekend veld maken en dit veld het label Regio_Naam geven
-* Bepaal de regel door uit te beginnen met het zoeken naar uw geëxtraheerde veld. In dit geval, Touchpoint.Region
+* Bepaal de regel door uit te beginnen met het zoeken naar uw geëxtraheerde veld. In dit geval: [!DNL Touchpoint.Region]
 * De operator &quot;[!UICONTROL maps to]&quot; omdat wij een afbeelding voor elk aantal aan zijn waarde willen creëren
 * U zult met een lijst worden voorgesteld om van elke afbeelding een lijst te maken. Uiteindelijk zal het er ongeveer als volgt uitzien:
 * Op basis van de toewijzing en de bovenstaande URL zou &quot;Region_Value&quot; voor een aanraakpunt met deze landingspagina &quot;EMEA&quot; zijn
@@ -171,7 +171,7 @@ Nu we hebben geleerd hoe we die acties kunnen extraheren en toewijzen aan velden
 
 **Concatenaten**
 
-De operator concatenates combineert waarden van meerdere velden tot één veld. Dit is handig om een aangepaste waarde te maken die gegevens in verschillende velden ophaalt om
+De [!UICONTROL concatenates] operator combineert waarden van meerdere velden tot één veld. Dit is handig om een aangepaste waarde te maken die gegevens in verschillende velden ophaalt om
 
 **Voorbeeld 1**
 
@@ -221,7 +221,7 @@ Er is extra werk nodig om de nieuwe velden in de [!DNL Marketo Measure] Schema D
 
 **Hoe kan ik valideren dat mijn extractie-expressie geldig is en de juiste waarde ophalen?**
 
-Er is een online hulpmiddel ([https://regex101.com/](https://regex101.com/){target="_blank"}) die u kunt uitvoeren en uittesten. De expressie wordt groen weergegeven als deze geldig is of rood als deze ongeldig is. Ook, is de verklaringsdoos bij het hoogste recht nuttig en vertelt u wat u uithaalt.
+Er is een online hulpmiddel ([[!DNL https]/regex101.com/](https://regex101.com/){target="_blank"}) die u kunt uitvoeren en uittesten. De expressie wordt groen weergegeven als deze geldig is of rood als deze ongeldig is. Ook de [!UICONTROL explanation] doos in de rechterbovenhoek is handig en vertelt je wat je extraheert.
 
 ![](assets/twelve.png)
 

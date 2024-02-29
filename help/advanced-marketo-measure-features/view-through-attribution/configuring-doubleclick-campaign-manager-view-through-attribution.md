@@ -4,9 +4,9 @@ description: Dubbelklik op de Campagnebeheerweergave via Attributen - [!DNL Mark
 title: Dubbelklik op de weergave Campagnebeheer via Attributie
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Als u de [!DNL Marketo Measure] en de integratie van de Manager van de Campagne van de Dubbelklik, vereisen wij een [API-verbinding](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) zodat we details kunnen downloaden over de campagnes en creatieve projecten om advertenties op te lossen .
+>Als u de [!DNL Marketo Measure] en [!DNL DoubleClick Campaign Manager] integratie , we hebben een [API-verbinding](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) zodat we details kunnen downloaden over de campagnes en creatieve projecten om advertenties op te lossen .
 
-Om meer korrelig inzicht van mening door het volgen met de Manager van de Campagne van de Dubbelklik te krijgen, moet onze volgende pixel worden gevormd.
+Meer granulair inzicht uit zicht krijgen door het volgen met [!DNL Doubleclick Campaign Manager], moet onze volgende pixel worden gevormd.
 
 Gelieve [klik hier](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) voor meer informatie over de [!DNL Marketo Measure] Functionaliteit voor weergave door kenmerk.
 
@@ -29,7 +29,7 @@ Als u een bovenliggende en onderliggende hiërarchie in DCM gebruikt, moet de ta
 
 ## De afbeeldingstag toevoegen {#how-to-add-the-image-tag}
 
-U voegt de tag toe aan Dubbleclick onder de instelling Advertiser en u wilt een Impression Event-tag maken.
+U voegt de tag toe aan [!DNL Doubleclick] onder de instelling Advertiser en u wilt een Impression Event-tag maken.
 
 1. Voeg de volgende code toe als een 1x1 afbeeldingspixel.
 
@@ -37,7 +37,7 @@ U voegt de tag toe aan Dubbleclick onder de instelling Advertiser en u wilt een 
 
 1. Zodra het is toegevoegd, bevestig de afbakeningsapparaten als volgt in kaart worden gebracht. Deze instelling moet automatisch zijn wanneer de tag wordt toegepast:
 
-   v = %eadv! Adverteerder-id uitbreiden\
+   v = %eadv! [!DNL Expand] Adverteerder-id\
    a = %eaid! Advertentie-id uitbreiden\
    c = %ecid! Creatieve id uitbreiden\
    s = %esid! Site-id uitbreiden\

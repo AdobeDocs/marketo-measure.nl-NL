@@ -4,9 +4,9 @@ description: Waarom u geen aanraakpunten wilt verwijderen - [!DNL Marketo Measur
 title: Waarom u geen aanraakpunten wilt verwijderen
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -21,4 +21,4 @@ Wanneer een aanraakpunt wordt verwijderd, ontstaat een gat in de toewijzingsgege
 
 ![](assets/1.png)
 
-Als aanraakpunten uit uw SFDC zijn verwijderd, kunt u contact opnemen met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om opnieuw te importeren van uw gegevens aan te vragen.
+Als aanraakpunten uit uw SFDC zijn verwijderd, kunt u contact opnemen met [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om opnieuw te importeren van uw gegevens aan te vragen.

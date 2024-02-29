@@ -4,9 +4,9 @@ description: Aangepaste segmentatie - [!DNL Marketo Measure] - Productdocumentat
 title: Aangepaste segmentatie
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Stap 1 - Bepaal welke informatie u wilt zien.
 
 Voordat u deze functie gebruikt, moet u uitzoeken op welke aanraakpuntinformatie u wilt filteren. Vergeet niet de exacte waarden in uw CRM te gebruiken voor uw recordtypen. De opstelling zal touchpoints van de bovenkant aan de bodem van de marketing trechter filtreren.
 
-Stap 2 - Login en bepaal de plaats van de eigenschap van Segmenten.
+Stap 2 - Meld u aan en zoek de [!UICONTROL Segments] gebruiken.
 
 * Ga naar [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} en aanmelden
 * Onder de [!UICONTROL My Account] tab, selecteert u [!UICONTROL Settings]
@@ -43,7 +43,7 @@ Stap 3 - begrijp de componenten.
 
 Stap 4 - voeg de Regels van de Filter toe.
 
-* Voer eerst de naam van de categorie in. Business Type is een voorbeeld. Klik op het vinkje als u klaar bent. U moet een categorienaam invoeren voordat u segmenten kunt toevoegen
+* Voer eerst de naam van de categorie in. [!UICONTROL Business Type] is een voorbeeld. Klik op het vinkje als u klaar bent. U moet een categorienaam invoeren voordat u segmenten kunt toevoegen
 * Klik op het plusteken om een segment toe te voegen
 * Voer een segmentnaam in. Bijvoorbeeld, kon u één segment voor Nieuwe Onderneming, Partners, Vernieuwen, of Upsell hebben
 
@@ -57,11 +57,11 @@ Stap 4 - voeg de Regels van de Filter toe.
 >
 >Formulervelden kunnen niet worden gebruikt binnen uw regels en worden niet weergegeven in de keuzelijst. Omdat formules op de achtergrond berekenen en een record niet wijzigen, [!DNL Marketo Measure] kan niet ontdekken of een verslag een regel past of niet.
 
-* De optie Waarde is geen vervolgkeuzelijst en de waarde ervan moet handmatig worden ingevoerd. Controleer de waarden in uw Salesforce org
+* De [!UICONTROL Value] is geen vervolgkeuzelijst en de waarde ervan moet handmatig worden ingevoerd. Controleer de waarden in uw Salesforce org
 * Herhaal dit proces voor de het segmentregels van Opportunity
 * De categorie &quot;Overige&quot; is een standaardsegment dat ongedefinieerde aanraakpunten vastlegt. U kunt de naam van het standaardsegment wijzigen
 * Klik op het pictogram van de prullenbak om een hele categorie of een afzonderlijke regel binnen een categorie te verwijderen. Of klik op het potloodpictogram om de categorie of regel te bewerken
-* U ziet dat u een knop &quot;Opslaan&quot; en &quot;Opslaan en verwerken&quot; hebt. Met de knop Opslaan kunt u uw werk en wijzigingen in de loop van de tijd opslaan. Gebruik de knop Opslaan en verwerken alleen als u ervoor hebt gezorgd dat:
+* Je zult merken dat je een &quot;[!UICONTROL Save]&quot; en een knop &quot;Opslaan en verwerken&quot;. Met de knop Opslaan kunt u uw werk en wijzigingen in de loop van de tijd opslaan. Gebruik de knop Opslaan en verwerken alleen als u ervoor hebt gezorgd dat:
 
    * Uw toewijzing is correct
    * U hebt alle segmenten toegevoegd die u wilt bijhouden in een categorie

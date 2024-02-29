@@ -4,16 +4,16 @@ description: Instellingen - [!DNL Marketo Measure] - Productdocumentatie
 title: Instellingen
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
 # Instellingen {#settings}
 
-Er zijn twee afzonderlijke eigenschapbeetjes verbonden aan deze eigenschap, die op het Algemene lusje van Montages van CRM worden gevestigd: Meerdere Valuta&#39;s en Geavanceerde Valuta&#39;s.
+Er zijn twee afzonderlijke eigenschapbeetjes verbonden aan deze eigenschap, die in CRM wordt gevestigd [!UICONTROL General Settings] tab: Meerdere valuta&#39;s en Geavanceerde valuta&#39;s.
 
 **Meerdere valuta&#39;s**: Ingeschakeld als de klant meer dan één valuta gebruikt.
 

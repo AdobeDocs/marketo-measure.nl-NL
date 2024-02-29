@@ -3,9 +3,9 @@ description: Aanbevolen procedures voor aanraakpuntinstellingen - [!DNL Marketo 
 title: Aanbevolen werkwijzen voor aanraakpuntinstellingen
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-Het gedeelte Instellingen aanraakpunt van uw [!DNL Marketo Measure] kunt u regels instellen die aanraakpunten uit uw [!DNL Marketo Measure] gegevens en aanverwante systemen. Deze regels kunnen u helpen om bepaalde reeksen gegevens te isoleren die niet in uw gegevens van het Aanraakpunt van de Koper te hoeven worden vertegenwoordigd of die u geen attributietekening wilt ontvangen zonder uw het volgen en gegevensinzameling te verstoren.
+De [!UICONTROL Touchpoint Settings] deel van uw [!DNL Marketo Measure] kunt u regels instellen die aanraakpunten uit uw [!DNL Marketo Measure] gegevens en aanverwante systemen. Deze regels kunnen u helpen om bepaalde reeksen gegevens te isoleren die niet in uw gegevens van het Aanraakpunt van de Koper te hoeven worden vertegenwoordigd of die u geen attributietekening wilt ontvangen zonder uw het volgen en gegevensinzameling te verstoren.
 
 **Aanraakpunt verwijderen** middelen [!DNL Marketo Measure] alle aanraakpunten uit uw CRM die aan de criteria van de regel voldoen, worden gewist (d.w.z. verwijderd). De gegevens kunnen worden gerapporteerd binnen de [!DNL Marketo Measure] ROI Dashboard (Discover), maar niet in CRM. Vaak gebruikt om stress op uw gegevensopslaggrenzen binnen uw CRM te verlichten
 
 **Aanraakpuntonderdrukking** is vergelijkbaar met het verwijderen van aanraakpunten, maar de gegevens kunnen NIET worden gerapporteerd op het ROI-dashboard. Eventuele onderdrukte aanraakpunten zijn niet toegankelijk in de CRM- of Discover-service. De onderdrukking zal ervoor zorgen dat uw gegevens van CRM en uw Discover gegevens zullen aanpassen. Wordt vaak gebruikt om de gegevens van aanraakpunten te perfectioneren en nader te bepalen welke aanraakpuntgegevens u attributietoekening wilt ontvangen.
 
-In uw [!DNL Marketo Measure] in de sectie Aanraakpuntinstellingen worden opgedeeld in vier belangrijke secties. Elke sectie onderdrukt of verwijdert een andere set gegevens. Gebruik de onderstaande toets om ervoor te zorgen dat uw regels de gewenste aanraakpunten onderdrukken of verwijderen.
+In uw [!DNL Marketo Measure] de [!UICONTROL Touchpoint Settings] deze sectie wordt uitgesplitst in vier hoofdsecties. Elke sectie onderdrukt of verwijdert een andere set gegevens. Gebruik de onderstaande toets om ervoor te zorgen dat uw regels de gewenste aanraakpunten onderdrukken of verwijderen.
 
 * Aanraakpunten met kopers verwijderen uit CRM
    * Gebruik deze sectie als u een regel wilt maken die wordt verwijderd **Aanraakpuntgegevens koper** (de aanraakpunten die aan het individu zijn gekoppeld, niet de mogelijkheid) van uw **CRM**
@@ -43,14 +43,14 @@ Ongeacht of u regels voor het instellen van aanraakpunten voor het eerst vastste
 
 ## Aanbevolen werkwijzen voor onderhoud {#best-practice-for-maintenance}
 
-Het is belangrijk dat u de instellingen van uw aanraakpunt controleert, omdat deze uw gegevens drastisch kunnen wijzigen als ze niet op de juiste wijze zijn gedefinieerd. We raden u aan uw aanraakpuntinstellingen ten minste twee keer per jaar te controleren. Dit is een eenvoudige visuele revisie van de regels die zijn ingesteld in het gedeelte Aanraakpuntinstellingen van uw [!DNL Marketo Measure] app. Met deze revisie hebt u er zeker van dat de instellingen van uw aanraakpunt zijn bijgewerkt en dat eventuele wijzigingen daarop kunnen worden aangebracht.
+Uw [!UICONTROL Touchpoint Settings] is belangrijk omdat deze uw gegevens drastisch kunnen wijzigen wanneer ze niet op de juiste wijze zijn gedefinieerd. We raden u aan uw aanraakpuntinstellingen ten minste twee keer per jaar te controleren. Dit is een eenvoudige visuele revisie van de regels die zijn ingesteld in het gedeelte Aanraakpuntinstellingen van uw [!DNL Marketo Measure] app. Met deze revisie hebt u er zeker van dat de instellingen van uw aanraakpunt zijn bijgewerkt en dat eventuele wijzigingen daarop kunnen worden aangebracht.
 
-Redenen om uw aanraakpuntinstellingen te controleren zijn onder andere..
+Redenen om uw [!UICONTROL Touchpoint] Instellingen zijn inclusief...
 
 * Omzet in uw marketingteam
 * Belangrijke updates van uw websitestructuur
 * Identificatie van aanraakpuntgegevens die niet langer nuttig zijn
-   * Trefpuntsuppressieregels zijn de functionaliteit om ervoor te zorgen dat uw gegevens zo schoon en nauwkeurig mogelijk zijn, telkens wanneer u aanraakpuntgegevens tegenkomt die volgens u geen toeschrijvingskrediet mogen ontvangen.
+   * Telkens wanneer je aanraakpuntgegevens tegenkomt die je niet zou moeten ontvangen, [!DNL touchpoint suppression] regels zijn de functionaliteit om ervoor te zorgen dat uw gegevens zo schoon en nauwkeurig mogelijk zijn.
 * Wijzigingen in de velden die worden gebruikt om de onderdrukking- of verwijderingsregels te definiëren
 
 >[!MORELIKETHIS]
@@ -58,3 +58,4 @@ Redenen om uw aanraakpuntinstellingen te controleren zijn onder andere..
 >* [Overzicht van het verwijderen en onderdrukken van aanraakpunten](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
 >* [Waarom aanraakpunten nooit mogen worden verwijderd](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
 >* [Aanraakpunten koper (BT) vs Aanraakpunten koper (BBT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+

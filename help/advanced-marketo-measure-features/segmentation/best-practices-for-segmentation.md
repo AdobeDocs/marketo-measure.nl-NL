@@ -3,7 +3,7 @@ description: Beste praktijken voor Segmentatie - [!DNL Marketo Measure] - Produc
 title: Beste praktijken voor Segmentatie
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Segmentering is van cruciaal belang voor het gebruik van uw [!DNL Marketo Measur
 
 Wanneer geduwd op [!DNL Salesforce], worden de waarden van het Segment geschreven aan het gebied van het &quot;Segment&quot;en zijn binnen om het even welk type van het de aanraakpuntrapport van de Koper. Dit maakt een uniforme rapportage op beide platforms mogelijk. Het segment is ook te vinden op het &quot;aanraakpuntdetail&quot; van elk aanraakpunt.
 
-Wanneer u deze optie selecteert om te ontdekken, worden Segmenten weergegeven als een beschikbaar filter in de vervolgkeuzelijst met filters die zich op alle borden bevindt.
+Wanneer geduwd op [!UICONTROL Discover]Segmenten worden weergegeven als een beschikbaar filter in de keuzelijst met filters die zich op alle gebieden bevindt.
 
 ## Beste praktijken {#best-practice}
 
