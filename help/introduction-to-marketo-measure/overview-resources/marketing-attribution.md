@@ -4,10 +4,10 @@ description: Marketingkenmerk - Marketo Measure - Productdocumentatie
 title: Marketingkenmerk
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 204340c77a173c3e8fd87b65ed47a1a0dbc35880
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 4%
 
 ## Welkom bij Marketo Measure {#welcome-to-marketo-measure}
 
-Marketo Measure biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen. Marketo Measure is een marketingtoewijzingsoplossing die de kanaalprestaties automatisch bijhoudt en rapporteert, zodat u kunt zien in welke kanalen de meeste betrokkenheid van klanten wordt bevorderd en uw marketinguitgaven dienovereenkomstig kunt optimaliseren.
+Marketo Measure geeft marktpartijen inzicht in welke marketinginspanningen het meest effectief zijn in het aansturen van inkomsten voor hun bedrijf. Marketo Measure is een marketingtoewijzingsoplossing die de kanaalprestaties automatisch bijhoudt en rapporteert, zodat u kunt zien in welke kanalen de meeste betrokkenheid van klanten wordt bevorderd en uw marketinguitgaven dienovereenkomstig kunt optimaliseren.
 
 ## Marketingkenmerk {#marketing-attribution-1}
 
 **Toekenning van marketing** is het proces om inkomstenkrediet aan een marketing aanspreekpunt toe te wijzen. Dit wordt gedaan door de volledige klantenreis van een vooruitzicht te volgen, die van hun zeer eerste interactie met uw bedrijf beginnen aan wanneer de overeenkomst sluit. De opbrengsten van de overeenkomst worden teruggegeven aan de marketingaanraakpunten die de verkoop hebben aangezwengeld. Het bedrag aan inkomstenkredieten dat aan een aanraakpunt wordt verstrekt, hangt af van de mate waarin dit aanraakpunt de aankoopbeslissing van de klant heeft beïnvloed.
 
-**Aanraakpunten** verwijzen naar de interacties die een vooruitzicht/lood heeft met uw online of off-line marketing inspanningen. Er zijn vier **belangrijk **aanraakpunten** die in aanmerking worden genomen bij de marketingtoewijzing. Zij weerspiegelen de verschillende stadia in de reis van de klant. Deze belangrijke aanraakpunten worden ook **mijlpalen**, zijn: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won deal (CW).
+**Aanraakpunten** verwijzen naar de interacties die een vooruitzicht/lood heeft met uw online of off-line marketing inspanningen. Er zijn vier **belangrijke aanraakpunten** die in aanmerking worden genomen bij de marketingtoewijzing. Zij weerspiegelen de verschillende stadia in de reis van de klant. Deze belangrijke aanraakpunten worden ook **mijlpalen**, zijn: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won deal (CW).
 
 ![](assets/1.png)
 
