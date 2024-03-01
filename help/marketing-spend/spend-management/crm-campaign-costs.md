@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874688
-description: Kosten van CRM-campagne - [!DNL Marketo Measure] - Productdocumentatie
+description: Kosten van CRM-campagne - [!DNL Marketo Measure]
 title: Kosten CRM-campagne
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ okt 2018: ($ 18.000/109) x 17 = $ 2.807,34
 
 ## Historische gerapporteerde uitgave {#historical-reported-spend}
 
-Maak je geen zorgen! Als u uitgaven voor Campagnes bent ingegaan die wij in het verleden hebben gevolgd die aan een Campagne van CRM in kaart werden gebracht, zullen wij geen van de kosten met voeten treden u hebt ingegaan. Als de zelfde campagne in CRM wordt gewijzigd, zullen wij het nog negeren en prioriteit geven aan de veranderingen u eerder in CSV uploadde had aangebracht.
+Maak je geen zorgen! Als u uitgaven voor Campagnes bent ingegaan die wij in het verleden hebben gevolgd die aan een Campagne van CRM in kaart werden gebracht, zullen wij geen van de kosten met voeten treden u hebt ingegaan. Als de zelfde campagne in CRM wordt gewijzigd, zullen wij het nog negeren en prioriteit geven aan de veranderingen u eerder in CSV uploadt had aangebracht.
 
 Als u verkiest dat wij de kosten van de Campagne van CRM bewegend vooruit nemen, kunt u de waarde in CSV in $0 veranderen die de ingang zal vernietigen. De volgende keer dat we onze taken uitvoeren om de kosten in te voeren, zullen we zoeken naar records die eerder zijn bewerkt en dat vervolgens weer terugbrengen.
 
@@ -59,7 +59,7 @@ Dit zou voor het volgen van uitgaven aan overtollige Marketingkosten of hulpmidd
 
 ## Marketo Program Sync {#marketo-program-sync}
 
-Als u de Programma&#39;s van Marketo in CRM als Campagnes brengt, zult u willen verzekeren u de Datum van het Begin, de Datum van het Eind, en de Toerekening van de Kosten van de Periode opstelling aan de vereiste gebieden van CRM hebt. Aangezien het veld Aanraakpunten koper inschakelen niet in kaart is gebracht, moet u deze campagnes nog steeds inschakelen zodat we weten dat we de kosten voor hen moeten opbrengen.
+Als u de Programma&#39;s van Marketo in CRM als Campagnes brengt, zult u willen verzekeren u de Datum van het Begin, de EindDatum, en de Toerekening van de Kosten van de Periode aan de vereiste gebieden van CRM hebt geplaatst. Aangezien het veld Aanraakpunten koper inschakelen niet in kaart is gebracht, moet u deze campagnes nog steeds inschakelen zodat we weten dat we de kosten voor hen moeten opbrengen.
 
 ## Bewerking van de kosten {#editing-the-costs}
 
@@ -75,7 +75,7 @@ Elke wijziging van de kosten of de verdeling moet plaatsvinden in de BCR, zodat 
 
 **Ik heb de begindatum, einddatum en kosten ingevuld, maar waarom komen mijn kosten nog steeds niet voor [!DNL Marketo Measure]?**
 
-Controleer of u de waarde Enable Buyer Touchpoint hebt ingesteld op &quot;Include All Campaign Member&quot; of op zijn minst &quot;Include Reponded&quot; Campagneleden, of of u een aangepaste regel Campagne Sync hebt gemaakt die deze campagne omvat. Als u dit hebt bevestigd en de campagne nog steeds niet ziet, kunt u contact opnemen met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} zodat kunnen wij controleren dat uw campagnes behoorlijk invoeren.
+Controleer of u de waarde Enable Buyer Touchpoint hebt ingesteld op &quot;Include All Campaign Member&quot; of op zijn minst &quot;Include Reponded&quot; Campagneleden, of of u een aangepaste regel Campagne Sync hebt gemaakt die deze campagne omvat. Als u dit hebt bevestigd en de Campagne nog steeds niet ziet, kunt u contact opnemen met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} zodat kunnen wij controleren dat uw campagnes behoorlijk invoeren.
 
 **Ik moet de verdeling van mijn campagne veranderen zodat ik het in bepaalde maanden zwaarder kan wegen. Hoe doe ik dat?**
 
@@ -99,4 +99,4 @@ Hoewel u het bestand mogelijk met succes kunt uploaden, [!DNL Marketo Measure] z
 
 **Hoe zou u suggereren dat we het kosten van onze digitale campagnes die we hebben opgezet in de CRM?**
 
-Omdat ons [!DNL Marketo Measure] JavaScript volgt de webactiviteiten van uw site al. We raden u aan campagnes die leden van de campagne volgen op webformulieren of andere activiteiten op de site niet te synchroniseren, omdat hierdoor de aanrakingen dubbel worden geteld. Daarom kunt u de CSV-uploadoptie in marketinguitgaven blijven gebruiken om die online/digitale kosten bij te houden als we nog niet met dat platform zijn geïntegreerd (Twitter, Adroll).
+Omdat ons [!DNL Marketo Measure] JavaScript volgt de webactiviteiten van uw site al. We raden u aan campagnes die leden van de campagne volgen op webformulieren of andere activiteiten op de site niet te synchroniseren, omdat hierdoor de aanrakingen dubbel worden geteld. Daarom kunt u de CSV-uploadoptie in marketinguitgaven blijven gebruiken om die online/digitale kosten bij te houden als we nog niet zijn geïntegreerd met dat platform (Twitter, Adroll).

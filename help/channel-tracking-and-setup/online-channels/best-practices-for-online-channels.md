@@ -1,11 +1,11 @@
 ---
-description: Aanbevolen procedures voor onlinekanalen - [!DNL Marketo Measure] - Productdocumentatie
+description: Aanbevolen procedures voor onlinekanalen - [!DNL Marketo Measure]
 title: Aanbevolen procedures voor onlinekanalen
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-Om nauwkeurig te zijn [!DNL Marketo Measure] melden, moeten uw marketingkanalen correct zijn ingesteld. In het veld marketingkanaal wordt de groep marketingactiviteiten weergegeven die op het hoogste niveau door een aanraakpunt kan worden uitgevoerd (bijvoorbeeld Betaald zoeken, Direct, Sociaal, enz.).
+Om nauwkeurig te zijn [!DNL Marketo Measure] uw marketingkanalen moeten correct zijn ingesteld. In het veld Marketing channel wordt de groep marketingactiviteiten weergegeven die op het hoogste niveau door een aanraakpunt kan worden gebruikt (bijvoorbeeld Betaald zoeken, Direct, Sociaal, enzovoort).
 
-Het instellen van uw marketingkanalen kent twee aspecten: online en offline. In dit document wordt de nadruk gelegd op de [!DNL Marketo Measure] aanbevelingen voor best practices voor het instellen en onderhouden van uw onlinekanalen.
+Het instellen van uw marketingkanalen kent twee aspecten: online en offline. Dit document is gericht op de [!DNL Marketo Measure] aanbevelingen voor best practices voor het instellen en onderhouden van uw onlinekanalen.
 
-De online regels van het Kanaal zijn de richtlijnen voor hoe [!DNL Marketo Measure] wijst uw digitale aanraakpunten toe, d.w.z. alle aanraakpunten die via de [!DNL Marketo Measure] JS op uw site. Als deze regels niet volledig zijn of niet correct zijn geordend, kunnen aanraakpunten worden toegewezen aan het onjuiste kanaal, waardoor de nauwkeurigheid van de rapportage afneemt. Als u ervoor zorgt dat uw regels voor online kanalen correct en up-to-date zijn, weet u zeker dat uw digitale gegevens worden toegewezen aan het juiste kanaal en de juiste subkanalen in uw [!DNL Marketo Measure] Rapportage.
+De online regels van het Kanaal zijn de richtlijnen voor hoe [!DNL Marketo Measure] wijst uw digitale aanraakpunten toe, dat wil zeggen, alle aanraakpunten die via de [!DNL Marketo Measure] JS op uw site. Als deze regels niet volledig zijn of niet correct zijn geordend, kunnen aanraakpunten worden toegewezen aan het onjuiste kanaal, waardoor de nauwkeurigheid van de rapportage afneemt. Als u ervoor zorgt dat uw regels voor online kanalen correct en up-to-date zijn, weet u zeker dat uw digitale gegevens worden toegewezen aan het juiste kanaal en de juiste subkanalen in uw [!DNL Marketo Measure] Rapportage.
 
 ## Beste praktijken {#best-practice}
 
 Of u opstelling uw regels voor het eerst of enkel het herzien hen aan controle voor nauwkeurigheid bent, houd de volgende beste praktijken in mening.
 
-Neem wat tijd om na te denken over de organisatie van uw marketingcampagnes en hoe deze passen in de [!DNL Marketo Measure] kader. Bepaal welke kanalen en Subkanalen in uw Online Kanalen evenals welke campagnes, parameters UTM, of verwijzende websites zouden moeten worden vertegenwoordigd die kanalen van elkaar onderscheiden.
+Neem wat tijd om na te denken over de organisatie van uw marketingcampagnes en hoe deze passen in de [!DNL Marketo Measure] kader. Bepaal welke kanalen en Subkanalen in uw Online Kanalen zouden moeten worden vertegenwoordigd en welke campagnes, parameters UTM, of verwijzende websites die kanalen van elkaar onderscheiden.
 
 Denk aan de volgende zaken:
 
@@ -34,15 +34,15 @@ Denk aan de volgende zaken:
    * Meerdere regels kunnen worden beschouwd als &quot;een breder net casting&quot; om ervoor te zorgen dat elk aanraakpunt correct wordt toegewezen. Vaak kunnen parameters verkeerd worden toegevoegd of volledig worden gemist, daarom is het hebben van veelvoudige regels om een kanaal/subchannel te vangen een goed idee om afbeeldingsnauwkeurigheid te verzekeren.
 * [!DNL Marketo Measure] logica geeft voorrang aan touchpoint mapping in aflopende volgorde, te beginnen met de bovenste rij van het spreadsheet en deze omlaag te maken
    * [!DNL Marketo Measure] leest elke regel (rij), zoekend waar en eerst passend. Het aanraakpunt wordt vervolgens toegewezen aan dat kanaal/subkanaal
-   * U moet het vel niet in alfabetische volgorde sorteren, omdat dit de logische regels verstoort.
+   * Sorteer het vel niet in alfabetische volgorde, omdat dit de logische regels aantast.
 * Handhaaf de gehaakte regels, bewerk of voeg niet aan de gehaakte regels toe (voorbeeld; [Advertentievoorden zoekopdracht] of [Facebook Paid] )
-   * Deze zijn uit de doos [!DNL Marketo Measure] regels die zijn ingebouwd in logica, die gekoppeld zijn aan de [!DNL Marketo Measure] integratie. Geef deze regels hoogste prioriteit voor die kanaal/subkanaalsectie om ervoor te zorgen dat de [!DNL Marketo Measure] de integratie kan werken zoals zij is ontworpen .
+   * Deze zijn uit de doos [!DNL Marketo Measure] regels met ingebouwde logica, die gebonden zijn aan de [!DNL Marketo Measure] integratie. Geef deze regels hoogste prioriteit voor die kanaal/subkanaalsectie om ervoor te zorgen [!DNL Marketo Measure] de integratie kan werken zoals zij is ontworpen .
 * Nadat het bestand is geüpload, kunt u de regels gedurende zeven dagen niet meer wijzigen
    * [!DNL Marketo Measure] gebruikt deze tijd om de aanraakpunten te verwerken en bij te werken. Controleer daarom de regels voordat u gaat uploaden.
 
 ## Aanbevolen werkwijzen voor onderhoud {#best-practice-for-maintenace}
 
-Nadat u de online kanaalregels hebt opgeslagen en verwerkt, kunt u de digitale aanraakpunten continu sluiten. Nochtans veroorzaken bepaalde veranderingen of scenario&#39;s u uw Online opstelling van het Kanaal wilt herzien. [!DNL Marketo Measure] raadt u aan om uw regels voor online kanalen eens in de zes maanden te herzien. Zo zorgt u ervoor dat uw [!DNL Marketo Measure] gegevens worden uitgelijnd met uw interne definities van onlinekanalen/subkanalen en uw gebruik van UTM&#39;s.
+Nadat de online regels van het Kanaal worden bewaard en verwerkt, werken zij onophoudelijk om uw digitale touchpoints te sluiten. Nochtans veroorzaken bepaalde veranderingen of scenario&#39;s u uw Online opstelling van het Kanaal wilt herzien. [!DNL Marketo Measure] raadt u aan om uw regels voor online kanalen eens in de zes maanden te herzien. Dit zorgt ervoor dat uw [!DNL Marketo Measure] gegevens worden uitgelijnd met uw interne definities van onlinekanalen/subkanalen en uw gebruik van UTM&#39;s.
 
 Andere items die uw team ertoe kunnen aanzetten online kanaalonderhoud uit te voeren, zijn onder andere...
 

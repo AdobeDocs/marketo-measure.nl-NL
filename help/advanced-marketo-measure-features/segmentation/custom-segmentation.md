@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874604
-description: Aangepaste segmentatie - [!DNL Marketo Measure] - Productdocumentatie
+description: Aangepaste segmentatie - [!DNL Marketo Measure]
 title: Aangepaste segmentatie
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ De segmenten verstrekken de capaciteit om gegevens in te filtreren [!DNL Marketo
 
 **Waarom aangepaste segmentatie?**
 
-Met Aangepaste segmentatie kunt u aanraakpunten filteren op categorieën (filternaam) en regels (filterwaarden). Klanten met Tier 1 krijgen één segment, Tiers 2 en hoger krijgen tien. Afhankelijk van het object waarnaar uw ROI-streepje verwijst (Lood of Contact), kunt u segmenten maken op basis van de velden op het object Lood/Contact. Ook, zult u segmenten kunnen tot stand brengen die op om het even welke gebieden worden gebaseerd die op het Voorwerp van de Opportunity worden gevonden.
+Met Aangepaste segmentatie kunt u aanraakpunten filteren op categorieën (filternaam) en regels (filterwaarden). Klanten met Tier 1 krijgen één segment, Tiers 2 en hoger krijgen tien. Afhankelijk van het object waarnaar uw ROI-streepje verwijst (Lood of Contact), kunt u segmenten maken op basis van de velden op het object Lood/Contact. Bovendien kunt u segmenten maken op basis van alle velden die worden gevonden op het Opportunity-object.
 
 **Wanneer is de functie Aangepaste segmentatie nuttig?**
 
@@ -61,7 +61,7 @@ Stap 4 - voeg de Regels van de Filter toe.
 * Herhaal dit proces voor de het segmentregels van Opportunity
 * De categorie &quot;Overige&quot; is een standaardsegment dat ongedefinieerde aanraakpunten vastlegt. U kunt de naam van het standaardsegment wijzigen
 * Klik op het pictogram van de prullenbak om een hele categorie of een afzonderlijke regel binnen een categorie te verwijderen. Of klik op het potloodpictogram om de categorie of regel te bewerken
-* Je zult merken dat je een &quot;[!UICONTROL Save]&quot; en een knop &quot;Opslaan en verwerken&quot;. Met de knop Opslaan kunt u uw werk en wijzigingen in de loop van de tijd opslaan. Gebruik de knop Opslaan en verwerken alleen als u ervoor hebt gezorgd dat:
+* Je hebt een &#39;[!UICONTROL Save]&quot; en een knop &quot;Opslaan en verwerken&quot;. Met de knop Opslaan kunt u uw werk en wijzigingen in de loop van de tijd opslaan. Gebruik de knop Opslaan en verwerken alleen als u ervoor hebt gezorgd dat:
 
    * Uw toewijzing is correct
    * U hebt alle segmenten toegevoegd die u wilt bijhouden in een categorie

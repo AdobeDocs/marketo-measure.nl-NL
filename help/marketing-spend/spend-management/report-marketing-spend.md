@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656737
-description: Marketingbestedingen rapporteren - [!DNL Marketo Measure] - Productdocumentatie
+description: Marketingbestedingen rapporteren - [!DNL Marketo Measure]
 title: Marketingbestedingen rapporteren
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 De lijst van de Uitgaven van de Marketing zal nu een nieuwe kolom bevatten om de munt voor elk Kanaal, Subkanaal, en rij van de Campagne te tonen. Deze nieuwe kolom zal voor alle klanten tonen, zelfs als zij geen Veelvoudige Toegelaten Valuta&#39;s hebben.
 
-De tabel zal nu een combinatie van verschillende valuta&#39;s bevatten. Raadpleeg het dashboard marketinguitgaven als u een som kanalen, subkanalen of campagnes in één valuta wilt ophalen.
+De tabel zal nu een combinatie van verschillende valuta&#39;s bevatten. Raadpleeg het dashboard marketinguitgaven als u de som van kanalen, subkanalen of campagnes in één valuta moet ophalen.
 
 ## Kosten uploaden {#upload-costs}
 

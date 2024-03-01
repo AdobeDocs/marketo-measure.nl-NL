@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874680
-description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Facebook] API - [!DNL Marketo Measure]"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Wat de installatie betreft, moeten er zeven stappen worden uitgevoerd binnen de 
 
 Zodra u de integratie hebt toegelaten, [!DNL Marketo Measure] worden kosten op advertentieniveau gedownload naar de [!DNL Marketo Measure Marketing ROI] Dashboard.
 
-De integratie werkt alleen correct als u automatische labeling hebt ingeschakeld voor uw [!DNL Facebook] account. Hierdoor kan ons systeem een _bf-parameter toevoegen aan alle advertentiekoppelingen. Dit proces zal de nieuwe parameter bovenop andere het volgen parameters toevoegen u reeds aan uw hebt toegevoegd [!DNL Facebook] advertenties.
+Als u wilt dat de integratie goed werkt, moet u automatische labeling inschakelen voor uw [!DNL Facebook] account. Hierdoor kan ons systeem een _bf-parameter toevoegen aan alle advertentiekoppelingen. Dit proces zal de nieuwe parameter bovenop andere het volgen parameters toevoegen u reeds aan uw hebt toegevoegd [!DNL Facebook] advertenties.
 
 ![](assets/3.gif)
 

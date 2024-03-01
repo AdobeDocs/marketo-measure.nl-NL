@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874799
-description: Pagina-indelingsinstructies - [!DNL Marketo Measure] - Productdocumentatie
+description: Pagina-indelingsinstructies - [!DNL Marketo Measure]
 title: Pagina-indelingsinstructies
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '756'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie, maar zie nog &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 Eenvoudig te zien [!DNL Marketo Measure] gegevens, wordt aangeraden om de pagina-indelingen bij te werken voor de [!UICONTROL Account], [!UICONTROL Contact], [!UICONTROL Lead], [!UICONTROL Opportunity], en [!UICONTROL Campaign] Objecten. De instructies worden uitgesplitst voor elke indeling van de objectpagina hieronder.
 
@@ -23,7 +23,7 @@ Eerst navigeert u naar uw [!DNL Salesforce] Instellingen instellen en de locatie
 
 ## Campagneobject {#campaign-object}
 
-We raden u aan de [!DNL Marketo Measure] velden alleen voor uw sandbox naar uw SFDC-campagne. De velden kunnen worden gebruikt om het genereren van aanraakpunten te testen. In productie adviseren wij slechts het toevoegen van [!DNL Marketo Measure] Bulk Touchpoint Date-knop bijwerken. We raden u niet aan de [!DNL Marketo Measure] velden voor productie, aangezien u regels voor het synchroniseren van campagnes kunt maken.
+U wordt aangeraden het [!DNL Marketo Measure] velden alleen voor uw sandbox naar uw SFDC-campagne. De velden kunnen worden gebruikt om het genereren van aanraakpunten te testen. In productie wordt het aangeraden alleen het [!DNL Marketo Measure] Bulk Touchpoint Date-knop bijwerken. U wordt niet aangeraden het [!DNL Marketo Measure] velden voor productie aangezien u de regel Campagne Sync kunt maken.
 
 1. Selecteer in uw Build-optie **[!UICONTROL Campaigns]**.
 
@@ -49,7 +49,7 @@ We raden u aan de [!DNL Marketo Measure] velden alleen voor uw sandbox naar uw S
 
    >[!NOTE]
    >
-   >Als u meerdere soorten campagnemecords gebruikt, worden de keuzelijstwaarden voor de **[!UICONTROL Enable Buyer Touchpoints]** veld moet worden bijgewerkt. Gelieve te verwijzen [dit artikel](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) voor instructies.
+   >Als u meerdere soorten campagnemerrecords gebruikt, moet u de waarden in de keuzelijst voor de **[!UICONTROL Enable Buyer Touchpoints]** veld. Zie [dit artikel](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) voor instructies.
 
 ## Leads {#leads}
 
@@ -59,9 +59,9 @@ We raden u aan de [!DNL Marketo Measure] velden alleen voor uw sandbox naar uw S
 
 1. Klikken **[!UICONTROL Edit]** naast de pagina-indeling die u wilt bijwerken. Houd er rekening mee dat lay-outs voor meerdere pagina&#39;s de secties Aanraakpunten voor kopers kunnen bevatten.
 
-1. Klik op de de paginaoptie VisualForce op de linkerzijde binnen uw snel zoekmenu.
+1. Klik de de paginaoptie VisualForce op de linkerzijde binnen uw snel zoekmenu.
 
-1. Maak een nieuwe sectie en noem deze &quot;Aanraakpunten koper&quot;.
+1. Maak een sectie en noem deze &quot;Aanraakpunten koper&quot;.
 
    >[!NOTE]
    >
@@ -71,25 +71,25 @@ We raden u aan de [!DNL Marketo Measure] velden alleen voor uw sandbox naar uw S
 
    ![](assets/5-1.png)
 
-1. Klik op de moersleutel in het deelvenster [!DNL VisualForce] pagina, wijzigt u de hoogte in 100 en schakelt u schuifbalken in.
+1. Klik op de moersleutel in het dialoogvenster [!DNL VisualForce] pagina, wijzigt u de hoogte in 100 en schakelt u schuifbalken in.
 
-1. Selecteer de optie [!UICONTROL Canvas Apps] en maak een nieuwe sectie met de naam &quot;Marketo Measure Insights&quot; onder de Touchpoints [!DNL VisualForce] -sectie die u zojuist hebt gemaakt.
+1. Selecteer de optie [!UICONTROL Canvas Apps] sectie en maak een sectie met de naam &quot;Marketo Measure Insights&quot; onder de Touchpoints [!DNL VisualForce] -sectie die u hebt gemaakt.
 
    >[!NOTE]
    >
    >Selecteer de notatie Eén kolom voor elk van deze secties.
 
-1. Sleep de [!DNL Marketo Measure Insights] Canvas App in die nieuwe sectie. Klikken **Opslaan**. Soms is het nodig om de paginalay-out eerst op te slaan voordat u de canvasapp neerzet, omdat Salesforce deze niet direct herkent. Sla dus na het maken van de nieuwe sectie de paginalay-out op en bewerk deze opnieuw om de canvasapp in die sectie te slepen. Dit geldt voor elk object.
+1. Sleep de [!DNL Marketo Measure Insights] Canvas App in die nieuwe sectie. Klikken **Opslaan**. Soms is het nodig om de paginalay-out eerst op te slaan voordat u de canvasapp neerzet, omdat Salesforce deze niet direct herkent. Sla dus na het maken van de sectie de paginalay-out op en bewerk deze opnieuw om de canvasapp in die sectie te slepen. Dit geldt voor elk object.
 
    >[!NOTE]
    >
-   >Voor de [!DNL Marketo Measure Insights] Canvas App correct laten functioneren, [de toestemmingen moeten behoorlijk worden gevormd](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
+   >Voor de [!DNL Marketo Measure Insights] Canvas App correct laten functioneren, [machtigingen moeten correct zijn geconfigureerd](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
    >[!TIP]
    >
    >De meeste klanten gebruiken niet de gebieden die met (FT) of (LC) beëindigen omdat zij erfenisgebieden van vóór zijn [!DNL Marketo Measure] Het aanraakpunt bestond als een object.
 
-Als u de [!DNL Marketo Measure] ABM-functie, [klik hier voor aanvullende instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Als u de [!DNL Marketo Measure] ABM-functie, [klik hier voor extra instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contactpersonen {#contacts}
 
@@ -190,4 +190,4 @@ Als u de [!DNL Marketo Measure] ABM-functie, [klik hier voor aanvullende instruc
 
 1. Klik op **[!UICONTROL Save]**.
 
-Als u de [!DNL Marketo Measure] ABM-functie,  [klik hier voor aanvullende instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Als u het [!DNL Marketo Measure] ABM-functie, bekijk de [extra instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

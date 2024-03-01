@@ -1,11 +1,11 @@
 ---
-description: "[!DNL Marketo Measure] Installatie en installatie van het Salesforce-pakket - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Measure] Installatie en installatie van het Salesforce-pakket - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] [!DNL Salesforce] Pakketinstallatie en -installatie"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De [!DNL Marketo Measure] Basispakket bevat:
 
 Voer de onderstaande stappen uit om de [!DNL Marketo Measure Salesforce] basispakket.
 
-1. Ga met een incognitobrowser naar de [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} en aanmelden.
+1. Ga met een incognitobrowser naar de [Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} en aanmelden.
 
 1. Installeren in het dialoogvenster [!DNL Marketo Measure] in sandbox of productie.
 
@@ -46,13 +46,13 @@ Nadat u de installatie hebt voltooid, kunt u uw [[!DNL Salesforce] paginalay-out
 
 >[!NOTE]
 >
->Meer informatie over de [!DNL Marketo Measure] Machtigingen ingesteld en [hoe zij zullen worden gebruikt](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
+>Meer informatie over de [!DNL Marketo Measure] Machtigingen ingesteld en [hoe zij worden gebruikt](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
 ## Een [!DNL Marketo Measure] Profiel en gebruiker {#creating-a-marketo-measure-profile-and-user}
 
 [!DNL Marketo Measure] verzendt en ontvangt gegevens door verbonden [!DNL Salesforce] binnen de [!DNL Marketo Measure] app.
 
-Als u aanraakpuntgegevens naar uw [!DNL Salesforce] -instantie, moet de verbonden gebruiker toegang hebben tot [!DNL Marketo Measure] aangepaste objecten (zoals Aanraakpunt koper en Aanraakpunt koper) en standaard [!DNL Salesforce] objecten zoals regelafstand en contactpersonen.
+Om aanraakpuntgegevens naar uw [!DNL Salesforce] -instantie, moet de verbonden gebruiker toegang hebben tot [!DNL Marketo Measure] aangepaste objecten (bijvoorbeeld Aanraakpunt koper en Aanraakpunt koper) en standaard [!DNL Salesforce] objecten zoals regelafstand en contactpersonen.
 
 Een [!DNL Marketo Measure] -profiel om te zorgen dat er geen validatiefouten optreden wanneer u gegevens naar Salesforce verplaatst.
 
@@ -75,7 +75,7 @@ Stap 2: Een speciale versie maken [!DNL Marketo Measure] gebruiker zodat u het e
 
 1. Schakel &quot;Gebruiker op de markt brengen&quot; in als machtiging op gebruikersniveau.
 
-* De [!UICONTROL Marketing User] Met het selectievakje kan de gebruiker campagnes maken en de wizard Campagne importeren gebruiken. Als deze optie niet wordt geselecteerd, kan de gebruiker campagnes en geavanceerde campagneopstelling slechts bekijken, de Geschiedenis van de Campagne voor één enkele lood of contact uitgeven, en campagnerapporten in werking stellen. [!DNL Marketo Measure] moet het campagneobject kunnen lezen en schrijven.
+* De [!UICONTROL Marketing User] Met het selectievakje kan de gebruiker campagnes maken en de wizard Campagne importeren gebruiken. Als deze optie niet is geselecteerd, kan de gebruiker alleen campagnes en geavanceerde campagneopstelling weergeven, de Campagnegeschiedenis voor één enkele lead of contactpersoon bewerken en campagnerapporten uitvoeren. [!DNL Marketo Measure] moet het campagneobject kunnen lezen en schrijven.
 
 Stap 3: Sluit dit profiel uit van alle triggers, workflows en processen
 

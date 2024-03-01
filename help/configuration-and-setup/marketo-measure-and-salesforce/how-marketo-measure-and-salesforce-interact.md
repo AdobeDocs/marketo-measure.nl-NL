@@ -4,9 +4,9 @@ description: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie - Market
 title: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie, maar zie nog &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 Laten we eens kijken naar de relatie tussen [!DNL Marketo Measure] en Salesforce.
 
@@ -35,7 +35,7 @@ Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchform
 
 ## Standaardobjecten Salesforce en Toegang {#salesforce-standard-objects-and-access}
 
-Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] heeft invloed op deze objecten en op de aangepaste velden die we aan deze objecten toevoegen wanneer de verbinding tot stand is gebracht en de [!DNL Marketo Measure] pakket is geïnstalleerd. Uit de doos, [!DNL Marketo Measure] zal niet in enige norm schrijven [!DNL Salesforce] Objectvelden.
+Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] en de aangepaste velden die we aan deze objecten toevoegen wanneer de verbinding tot stand is gebracht en de [!DNL Marketo Measure] pakket is geïnstalleerd. Uit de doos, [!DNL Marketo Measure] zal niet in enige norm schrijven [!DNL Salesforce] Objectvelden.
 
 **Lood**
 

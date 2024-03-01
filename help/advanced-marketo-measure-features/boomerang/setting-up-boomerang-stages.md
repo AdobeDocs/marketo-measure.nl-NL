@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874767
-description: Opzetten van Boomerang Stages - [!DNL Marketo Measure] - Productdocumentatie
+description: Opzetten van Boomerang Stages - [!DNL Marketo Measure]
 title: Boomerang Stages instellen
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->De Boomerang-functie wordt alleen ingeschakeld voor Tier 3-klanten. Neem contact op met het Adobe-accountteam (uw accountmanager) als u een hogere accountlaag wilt aanvragen.
+>De Boomerang-functie wordt alleen ingeschakeld voor Tier 3-klanten. Neem contact op met het accountteam van de Adobe om een hogere accountlaag aan te vragen.
 
 Inschakelen [!UICONTROL Boomerang] Voor uw account moet u een accountbeheerder zijn. Of, kan het worden toegelaten door uit te reiken aan [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Nadat de functie is ingeschakeld, volgt u deze instructies om deze in te stellen.
 
@@ -25,7 +25,7 @@ Inschakelen [!UICONTROL Boomerang] Voor uw account moet u een accountbeheerder z
 
    ![](assets/1-2.png)
 
-1. Ga naar de [!UICONTROL Attribution Settings] en voert u het aantal aanraakpunten in voor elk werkgebied dat u wilt zien. We staan maximaal tien toe. De standaardwaarde is ingesteld op 1.
+1. Ga naar de [!UICONTROL Attribution Settings] het aantal aanraakpunten in voor elk werkgebied dat u wilt zien. We staan maximaal tien toe. De standaardwaarde is ingesteld op 1.
 
    ![](assets/2-2.png)
 
@@ -33,7 +33,7 @@ Inschakelen [!UICONTROL Boomerang] Voor uw account moet u een accountbeheerder z
 
    >[!NOTE]
    >
-   >Stel 24 tot 48 uur in voor de verwerking van uw gegevens volgens deze wijzigingen.
+   >Laat uw gegevens 24-48 uur in beslag nemen, afhankelijk van deze wijzigingen.
 
 ## Boomerang Stage Setup met aangepaste modelkenmerken {#boomerang-stage-setup-with-custom-model-attribution}
 
@@ -53,10 +53,10 @@ Inschakelen [!UICONTROL Boomerang] Voor uw account moet u een accountbeheerder z
 
    ![](assets/6-1.png)
 
-1. Stel het toewijzingspercentage in dat u wilt toewijzen aan de Boemerang-werkruimten die u in het aangepaste model hebt opgenomen. Zorg ervoor dat de totale toerekening voor alle stadia oploopt tot 100%. Klik op **[!UICONTROL Save and Process]**.
+1. Stel het toewijzingspercentage in dat u wilt toewijzen aan de Boemerang-werkruimten die u in het aangepaste model hebt opgenomen. Ervoor zorgen dat de totale toewijzing voor alle stadia oploopt tot 100%. Klik op **[!UICONTROL Save and Process]**.
 
    ![](assets/7-1.png)
 
    >[!NOTE]
    >
-   >Stel 24 tot 48 uur in voor de verwerking van uw gegevens volgens deze wijzigingen.
+   >Laat uw gegevens 24-48 uur in beslag nemen, afhankelijk van deze wijzigingen.

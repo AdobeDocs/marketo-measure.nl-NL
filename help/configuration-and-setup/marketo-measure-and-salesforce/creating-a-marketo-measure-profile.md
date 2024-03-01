@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874698
-description: Een [!DNL Marketo Measure] Profiel - [!DNL Marketo Measure] - Productdocumentatie
+description: Een [!DNL Marketo Measure] Profiel - [!DNL Marketo Measure]
 title: Een [!DNL Marketo Measure] Profiel
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ Leer hoe u een [!DNL Marketo Measure] profiel. Een [!DNL Marketo Measure] -profi
 
    Gereed!
 
-   Als u vragen hebt over het maken van een speciale [!DNL Marketo Measure] profiel, neemt u contact op met het Adobe-accountteam (uw accountmanager) of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   Als u vragen hebt over het maken van een speciale [!DNL Marketo Measure] , dient u contact op te nemen met het accountteam van de Adobe (uw accountmanager) of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

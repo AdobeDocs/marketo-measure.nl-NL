@@ -1,11 +1,11 @@
 ---
-description: Privacyverzoeken - [!DNL Marketo Measure] - Productdocumentatie
+description: Privacyverzoeken - [!DNL Marketo Measure]
 title: Privacyverzoeken
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Om tot Gegevens van de Toegang en van de Schrapping te verzoeken voor [!DNL Mark
 
    b. E-mailadres van de persoon aan wie u wilt optreden
 
-   Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne beheerder van het Adobe-systeem de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org ID nodig om aanvragen in te dienen bij de Privacy API.
+   Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of de beheerder van het interne Adobe-systeem de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van de Adobe op gdprsupport@adobe.com. U hebt de IMS Org ID nodig om aanvragen in te dienen bij de Privacy API.
 
 1. In [!DNL Privacy Service], kunt u verzoeken om toegang en om verwijdering verzenden naar [!DNL Marketo Measure]en controleert u de status van bestaande verzoeken.
 
@@ -54,7 +54,7 @@ Om tot Gegevens van de Toegang en van de Schrapping te verzoeken voor [!DNL Mark
 
 &quot;include&quot;:
 
-* **marketoMeas** (dit is het product van de Adobe dat op het verzoek van toepassing is)
+* **marketoMeas** (dit is het Adobe product dat van toepassing is op het verzoek)
 
 &quot;verordening&quot;:
 

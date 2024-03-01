@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874682
-description: Kanalen en subkanalen voor marketing - [!DNL Marketo Measure] - Productdocumentatie
+description: Kanalen en subkanalen voor marketing - [!DNL Marketo Measure]
 title: Kanalen en subkanalen voor marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## Doel {#purpose}
 
-Om te bepalen wat een Kanaal en Subkanaal binnen zijn [!DNL Marketo Measure], hoe deze zich verhouden tot uw inhoud, het verschil tussen de twee classificaties en hoe deze worden gebruikt binnen de [!DNL Marketo Measure] app.
+Om te bepalen wat een Kanaal en Subkanaal binnen zijn [!DNL Marketo Measure], hoe deze zich verhouden tot uw inhoud, het verschil tussen de twee classificaties en hoe deze worden gebruikt binnen het [!DNL Marketo Measure] app.
 
 ## Overzicht {#overview}
 

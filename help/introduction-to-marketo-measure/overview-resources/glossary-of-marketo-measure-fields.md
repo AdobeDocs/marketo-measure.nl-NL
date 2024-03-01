@@ -4,9 +4,9 @@ description: Verklarende woordenlijst van Marketo Measure Fields - Marketo Measu
 title: Woordenlijst met Marketo Measure-velden
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3213'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat een woordenlijst met alle Marketo Measure-velden die vanuit het Marketo Measure Base Package aan uw Salesforce worden toegevoegd. U zult ook informatie vinden over welk Voorwerp het Gebied kan worden gevonden en hoe elk Gebied met informatie wordt bevolkt.
 
-Voor een kaart waarop Object elk Marketo Measure-veld betrekking heeft, gelieve [klik hier](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Voor een kaart waarop Object elk Marketo Measure-veld betrekking heeft: [klik hier](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ J [K](#k) ・ [L](#l) ・ [M](#m) ・ N ・ [O](#o) ・ [P](#p) ・ Q ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y ・ Z
 
@@ -25,7 +25,7 @@ Voor een kaart waarop Object elk Marketo Measure-veld betrekking heeft, gelieve 
 
 In dit veld wordt de accountnaam ingevuld die is gekoppeld aan de BBT.
 
-**Campagne-id toevoegen** | Aanraakpunt koper, kenmerk van koper
+**Campagne-id toevoegen** | Aanraakpunt voor kopers gevonden
 
 Er zijn drie manieren waarop dit veld kan worden ingevuld:
 
@@ -97,29 +97,29 @@ Als het aanraakpunt niet afkomstig is van een betaalde zoekopdracht, is het veld
 
 Als het aanraakpunt niet afkomstig is van een betaalde zoekopdracht, is het veld leeg.
 
-**Attributie % aangepast model** | Aanraakpunt voor koperkenmerk
+**Attributie % aangepast model** | Aanraakpunt koperkenmerk
 
 Als u een Aangepast kenmerkingsmodel gebruikt, wordt in dit veld het percentage weergegeven van de inkomsten dat aan een aanraakpunt wordt toegewezen op basis van de waarden die in het Aangepaste model zijn ingesteld.
 
 Als u geen aangepast model gebruikt, is dit veld leeg.
 
-**Attributie % First Touch** | Aanraakpunt voor koperkenmerk
+**Attributie % First Touch** | Aanraakpunt koperkenmerk
 
 In dit veld wordt het percentage weergegeven van de inkomsten die worden toegewezen aan een aanraakpunt volgens een First Touch Model.
 
-**Attributie % vol** | Aanraakpunt voor koperkenmerk
+**Attributie % vol** | Aanraakpunt koperkenmerk
 
 In dit veld wordt het percentage weergegeven van de inkomsten die worden toegewezen aan een aanraakpunt volgens een Volledig padmodel.
 
-**Attributie % lead creation** | Aanraakpunt voor koperkenmerk
+**Attributie % lead creation** | Aanraakpunt koperkenmerk
 
 In dit veld wordt het percentage weergegeven van de inkomsten die aan een aanraakpunt zijn toegewezen, volgens een Lead Creation Model.
 
-**Attributie % U-vorm** | Aanraakpunt voor koperkenmerk
+**Attributie % U-vorm** | Aanraakpunt koperkenmerk
 
 In dit veld wordt het percentage weergegeven van de inkomsten die worden toegewezen aan een aanraakpunt volgens een U-Vormd model.
 
-**Attributie % W-Shaped** | Aanraakpunt voor koperkenmerk
+**Attributie % W-Shaped** | Aanraakpunt koperkenmerk
 
 In dit veld wordt het percentage weergegeven van de inkomsten die worden toegewezen aan een aanraakpunt volgens een W-Shaped-model.
 
@@ -143,7 +143,7 @@ In dit veld wordt het type webbrowser weergegeven dat tijdens de websessie wordt
 
 In het veld wordt de contactpersoon weergegeven waartoe het aanraakpunt behoort.
 
-**Tellen - aangepast model** | Aanraakpunt voor koperkenmerk
+**Tellen - aangepast model** | Aanraakpunt koperkenmerk
 
 Als u een Aangepast Attributiemodel gebruikt, toont dit gebied, in decimale vorm, het percentage van opbrengstkrediet dat aan een aanraakpunt volgens de waarden wordt gegeven die in uw Model van de Douane worden geplaatst.
 
@@ -155,7 +155,7 @@ Als u een Aangepast kenmerkingsmodel gebruikt, wordt in dit veld, in decimale vo
 
 Als u geen aangepast model gebruikt, is dit veld leeg.
 
-**Tellen - eerste aanraking** | Aanraakpunt voor koperkenmerk
+**Tellen - eerste aanraking** | Aanraakpunt koperkenmerk
 
 In dit veld wordt, in decimale vorm, het percentage weergegeven van de aan een aanraakpunt toegekende inkomsten volgens het First Touch-model.
 
@@ -165,11 +165,11 @@ In dit veld wordt, in decimale vorm, het percentage van het toewijzingskrediet w
 
 Aangezien dit veld betrekking heeft op het object Aanraakpunt koper, is het geen weerspiegeling van inkomstenkrediet, alleen maar een toeschrijving.
 
-**Tellen - volledig pad** | Aanraakpunt voor koperkenmerk
+**Tellen - volledig pad** | Aanraakpunt koperkenmerk
 
 In dit veld wordt in decimale vorm het percentage weergegeven van de inkomsten die aan een aanraakpunt worden gegeven volgens een Volledig padmodel.
 
-**Tellen - Aanraakvlak voor lead-ontwerp** | Aanraakpunt voor koperkenmerk
+**Tellen - Aanraakvlak voor lead-ontwerp** | Aanraakpunt koperkenmerk
 
 In dit veld wordt, in decimale vorm, het percentage van de aan een aanraakpunt toegekende inkomsten weergegeven volgens het Aanmaakmodel voor lead.
 
@@ -179,7 +179,7 @@ In dit veld wordt, in decimale vorm, het percentage van het toewijzingskrediet w
 
 Aangezien dit veld betrekking heeft op het object Aanraakpunt koper, is het geen weerspiegeling van inkomstenkrediet, alleen maar een toeschrijving.
 
-**Aantal - U-vorm** | Aanraakpunt voor koperkenmerk
+**Aantal - U-vorm** | Aanraakpunt koperkenmerk
 
 In dit veld wordt, in decimale vorm, het percentage van de aan een aanraakpunt toegekende inkomstenkredieten weergegeven volgens een U-Vormd model.
 
@@ -189,7 +189,7 @@ In dit veld wordt, in decimale vorm, het percentage van het toewijzingskrediet w
 
 Aangezien dit veld betrekking heeft op het object Aanraakpunt koper, is het geen weerspiegeling van inkomstenkrediet, alleen maar een toeschrijving.
 
-**Aantal - W-vorm** | Aanraakpunt voor koperkenmerk
+**Aantal - W-vorm** | Aanraakpunt koperkenmerk
 
 In dit veld wordt, in decimale vorm, het kredietpercentage weergegeven dat aan een aanraakpunt wordt toegekend volgens een W-Shaped-model.
 
@@ -299,7 +299,7 @@ In dit veld wordt de naam weergegeven van de lead waartoe een aanraakpunt behoor
 
 **Marketingkanaal** | Aanraakpunt koper, aanraakpunt koper
 
-In dit veld ziet u de algemene groep marketingactiviteiten of het marketingkanaal waartoe het aanraakpunt behoort (d.w.z. Betaalde zoekopdracht, Direct, Sociaal, enz.). Aanraakpunten worden gegroepeerd op basis van de manier waarop uw kanalen zijn ingesteld in de Marketo Measure App. Voor meer informatie over marketingkanalen of hoe u uw kanalen instelt, raadpleegt u [klik hier](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+In dit veld ziet u de algemene groep marketingactiviteiten of het marketingkanaal waartoe het aanraakpunt behoort (d.w.z. Betaalde zoekopdracht, Direct, Sociaal, enz.). Aanraakpunten worden gegroepeerd op basis van de manier waarop uw kanalen zijn ingesteld in de Marketo Measure App. Voor meer informatie over marketingkanalen of hoe u uw kanalen instelt, [klik hier](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **Marketingkanaal - pad** | Aanraakpunt koper, aanraakpunt koper
 
@@ -323,7 +323,7 @@ Als geen van de bovenstaande opties aanwezig is, stelt Marketo Measure automatis
 
 O
 
-**Opportunity** | Aanraakpunt voor koperkenmerk
+**Opportunity** | Aanraakpunt koperkenmerk
 
 In dit veld wordt de mogelijkheid weergegeven waartoe de BBT behoort.
 
@@ -353,29 +353,29 @@ Bijvoorbeeld:
 
 In dit veld wordt dezelfde informatie weergegeven als bij Referrer Page, behalve in dit veld wordt de volledige verwijzende URL (inclusief UTM-parameters) weergegeven.
 
-**Inkomsten - aangepast model** | Aanraakpunt voor koperkenmerk
+**Inkomsten - aangepast model** | Aanraakpunt koperkenmerk
 
 Als u een Aangepast kenmerkingsmodel gebruikt, wordt in dit veld het bedrag aan dollaropbrengsten weergegeven dat wordt toegewezen aan een aanraakpunt op basis van het toewijzingspercentage dat is ingesteld in het Aangepaste model.
 
 Als u geen aangepast model gebruikt, is het dollarbedrag 0.
 
-**Ontvangsten - eerste aanraking** | Aanraakpunt voor koperkenmerk
+**Ontvangsten - eerste aanraking** | Aanraakpunt koperkenmerk
 
 In dit veld wordt het bedrag aan dollaropbrengsten weergegeven dat wordt toegewezen aan een aanraakpunt volgens het toewijzingspercentage in het Eerste aanraakmodel.
 
-**Inkomsten - volledig pad** | Aanraakpunt voor koperkenmerk
+**Inkomsten - volledig pad** | Aanraakpunt koperkenmerk
 
 In dit veld wordt het bedrag aan dollaropbrengsten weergegeven dat wordt toegewezen aan een aanraakpunt volgens het toewijzingspercentage in het volledige padmodel.
 
-**Ontvangsten - Aanraakvlak met lead** | Aanraakpunt voor koperkenmerk
+**Ontvangsten - Aanraakvlak met lead** | Aanraakpunt koperkenmerk
 
 In dit veld wordt het bedrag aan dollaropbrengsten weergegeven dat aan een aanraakpunt wordt toegewezen op basis van het toewijzingspercentage in het Aanmaakmodel voor lead.
 
-**Inkomsten - U-vorm** | Aanraakpunt voor koperkenmerk
+**Inkomsten - U-vorm** | Aanraakpunt koperkenmerk
 
 In dit veld wordt het bedrag aan dollaropbrengsten weergegeven dat wordt toegewezen aan een aanraakpunt volgens het toewijzingspercentage in het U-Vormd model.
 
-**Ontvangsten - W-vorm** | Aanraakpunt voor koperkenmerk
+**Ontvangsten - W-vorm** | Aanraakpunt koperkenmerk
 
 In dit veld wordt het bedrag van de dollaropbrengsten weergegeven dat aan een aanraakpunt wordt toegewezen op basis van het toewijzingspercentage in het model W-Shaped.
 
@@ -391,7 +391,7 @@ In dit veld wordt de Salesforce-campagne weergegeven waartoe het aanraakpunt beh
 
 Als het aanraakpunt afkomstig is van betaald of biologisch zoeken, wordt in dit veld de zoekuitdrukking weergegeven die in het zoekprogramma is getypt. Vanwege privacyredenen is deze informatie echter meestal niet beschikbaar.
 
-**Segment** | Aanraakpunt voor koperkenmerk
+**Segment** | Aanraakpunt koperkenmerk
 
 In dit veld worden de segmenten weergegeven waartoe het aanraakpunt behoort. Dit hangt af van de manier waarop u de segmentatieregels in de Marketo Measure-app hebt geconfigureerd.
 

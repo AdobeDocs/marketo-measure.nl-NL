@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874578
-description: Campagne en campagneleden - [!DNL Marketo Measure] - Productdocumentatie
+description: Campagne en campagneleden - [!DNL Marketo Measure]
 title: Campagne en campagneleden
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ De keuzelijst bevat de volgende opties:
 * Alleen &quot;Reageerde&quot; campagnegeleden opnemen - Alleen leads of Contacten met de status &quot;Responded&quot; voor campagnerelid ontvangen een aanraakpunt voor die campagne.
 * Sluit alle campagneleden uit - Geen van de leads of contactpersonen ontvangt een aanraakpunt dat bij die campagne hoort.
 
-Houd er rekening mee dat leden van een campagne een e-mailadres aan hun record moeten hebben gekoppeld om [!DNL Marketo Measure] om een aanraakpunt te maken. Zonder e-mailadres [!DNL Marketo Measure] geen aanraakpunt toewijzen aan het lid van de campagne.
+Houd er rekening mee dat leden van een campagne een e-mailadres moeten hebben dat aan hun record is gekoppeld, zodat [!DNL Marketo Measure] om een aanraakpunt te maken. Zonder e-mailadres [!DNL Marketo Measure] geen aanraakpunt toewijzen aan het lid van de campagne.
 
 ## Synchronisatiedata voor campagne {#campaign-sync-dates}
 
@@ -47,7 +47,7 @@ De begindatum kan worden gebruikt in het geval dat een bestaande campagne wordt 
 
 ## Hoofdlettergebruik voor einddatum aanraakpunt {#use-case-for-touchpoint-end-date}
 
-Indien vóór gebruik [!DNL Marketo Measure], gebruikte u een platform van de Automatisering van de Marketing dat de digitale interacties van Leads (de vormbijdragen van IE) bijhield, en toen uploadde die Leads in een [!DNL Saleforce] Tijdens het ontwerpen kunt u het veld Einddatum aanraakpunt gebruiken. U zou de Einddatum van het Aanraakpunt als uw begindatum instellen met [!DNL Marketo Measure] en de Aanraakpunten van de Koper inschakelen, dan zou elk van deze Leads&#39; digitale interactie worden gecreëerd als aanraakpunt. De reden dat u de Einddatum van het Aanraakpunt zult plaatsen om uw Datum van het Begin met te zijn [!DNL Marketo Measure] omdat we deze digitale interacties volgen via ons javascript, zodat we verder kunnen gaan.
+Indien vóór gebruik [!DNL Marketo Measure], gebruikte u een platform van de Automatisering van de Marketing dat de digitale interacties van Leads (de vormbijdragen van IE) bijhield, en toen uploadde die Leads in een [!DNL Saleforce] Tijdens de campagne kunt u het veld Einddatum aanraakpunt gebruiken. U zou de Einddatum van het Aanraakpunt als uw begindatum instellen met [!DNL Marketo Measure] en de Aanraakpunten van de Koper inschakelen, dan zou elk van deze Leads&#39; digitale interactie worden gecreëerd als aanraakpunt. De reden dat u de einddatum van het aanraakpunt instelt op de begindatum met [!DNL Marketo Measure] omdat we deze digitale interacties volgen via ons javascript, zodat we verder kunnen gaan.
 
 ![](assets/3.png)
 

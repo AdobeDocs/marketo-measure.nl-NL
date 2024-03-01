@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874539
-description: Aangepast maken [!DNL Marketo Measure] Rapporttypen - [!DNL Marketo Measure] - Productdocumentatie
+description: Aangepast maken [!DNL Marketo Measure] Rapporttypen - [!DNL Marketo Measure]
 title: Aangepast maken [!DNL Marketo Measure] Rapporttypen
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie , maar nog steeds &quot;[!DNL Bizible]&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar nog steeds &quot;[!DNL Bizible]&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 Leer hoe u aangepaste [!DNL Marketo Measure] [!DNL Salesforce] rapporttypen. We raden u aan drie verschillende rapporttypen te maken: leads met kopertouch-punten (Aangepast), [!DNL Marketo Measure] Persoon met aanraakpunten koper (Aangepast), Opportunity met aanraakpunt koperkenmerk (Aangepast).
 

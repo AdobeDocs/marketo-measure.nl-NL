@@ -1,11 +1,11 @@
 ---
-description: '''[!DNL Marketo Measure] Integratie met Adobe starten - [!DNL Marketo Measure] - Productdocumentatie"'
+description: '[!DNL Marketo Measure] Integratie met Adobe starten - [!DNL Marketo Measure]'
 title: '''[!DNL Marketo Measure] Integratie met Adobe Launch"'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 1b583dac72aadff5d7c2352a064e2ff842b91891
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 De extensie Adobe starten is ontworpen voor bestaande [!DNL Marketo Measure] gebruikers die al gebruikmaken van Adobe Launch op hun website. De extensie fungeert als een oplossing voor tagbeheer waarmee u scripts op uw pagina&#39;s kunt configureren en dynamisch laden op basis van bepaalde gebeurtenissen en voorwaarden.
 
-Wanneer geïnstalleerd en gevormd in de Lancering van de Adobe, [!DNL Marketo Measure] De extensie laadt het script bizible.js op de pagina&#39;s waar het script Adobe Launch aanwezig is. Dit staat marketers toe om bizible.js door de configuratie van de Lancering van de Adobe toe te voegen, in tegenstelling tot uitdrukkelijk het wijzigen van de Web-pagina om bizible.js manuscriptmarkering toe te voegen.
+Wanneer geïnstalleerd en gevormd in de Lancering van de Adobe, [!DNL Marketo Measure] extensie laadt bizible.js-script op de pagina&#39;s waarop het Adobe Launch-script aanwezig is. Dit staat marketers toe om bizible.js door de configuratie van de Lancering van de Adobe toe te voegen, in tegenstelling tot uitdrukkelijk het wijzigen van de Web-pagina om bizible.js manuscriptmarkering toe te voegen.
 
 ## De extensie Adobe starten configureren {#configure-the-adobe-launch-extension}
 
@@ -22,13 +22,13 @@ Wanneer geïnstalleerd en gevormd in de Lancering van de Adobe, [!DNL Marketo Me
 >
 >Raadpleeg de volgende koppelingen voor meer informatie over het starten van de Adobe en de extensies.
 >
->* [[!DNL Marketo Measure] Extensie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target="_blank"}
->* [Overzicht van starten van Adobe](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
->* [Overzicht extensie starten Adobe](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target="_blank"}
+>* [[!DNL Marketo Measure] Extensie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+>* [Overzicht van starten van Adobe](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
+>* [Overzicht extensie starten Adobe](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. Een eigenschap maken na de stappen [in dit artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}.
+1. Een eigenschap maken na de stappen [in dit artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
-1. Klik op de eigenschap die u zojuist hebt gemaakt.
+1. Klik op de eigenschap die u hebt gemaakt.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-1.png)
 
@@ -64,7 +64,7 @@ Wanneer geïnstalleerd en gevormd in de Lancering van de Adobe, [!DNL Marketo Me
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-8.png)
 
-1. Selecteer in het vervolgkeuzemenu Extensie de optie **[!UICONTROL Core]**. Selecteer vervolgens in de vervolgkeuzelijst Type gebeurtenis de optie **[!UICONTROL Library Loaded (Page Top)]**. Als u de gebeurtenis geen naam geeft, wordt er een standaardnaam toegepast. Klikken **[!UICONTROL Keep Changes]** wanneer gereed.
+1. Selecteer in het vervolgkeuzemenu Extensie de optie **[!UICONTROL Core]**. Selecteer vervolgens in de vervolgkeuzelijst Type gebeurtenis de optie **[!UICONTROL Library Loaded (Page Top)]**. Als u de gebeurtenis geen naam geeft, wordt een standaardnaam toegepast. Klikken **[!UICONTROL Keep Changes]** wanneer gereed.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-9.png)
 

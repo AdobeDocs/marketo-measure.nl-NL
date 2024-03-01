@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage] Integratie van mensen - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Engage] Integratie van mensen - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Personen integreren"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De integratie van het Marketo-volk maakt [!DNL Marketo Measure] om te beginnen m
 * Production Marketo-instantie
 * Productie [!DNL Salesforce] of [!DNL Microsoft Dynamics] instance
 * Betaald [!DNL Marketo Measure] abonnement
-* SOLR ingeschakeld (bereik via [Marketo-ondersteuning](https://nation.marketo.com/t5/Support/ct-p/Support) om dit ingeschakeld te hebben)
+* SOLR ingeschakeld (bereik naar [Marketo-ondersteuning](https://nation.marketo.com/t5/Support/ct-p/Support) om dit ingeschakeld te hebben)
 
 ## Hoe het werkt {#how-it-works}
 
@@ -40,7 +40,7 @@ Klanten hebben de mogelijkheid om de volledige set Marketo-personen en CRM-perso
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 
-Bij rapportage over leads (personen) in [!DNL Marketo Measure Discover], je ziet het totaal van je Marketo- en CRM-leads. Om alleen over Marketo-personen of alleen CRM-leads te rapporteren, zult u een Segmentcategorie voor uw bron willen maken en vervolgens Segmentregels voor Marketo en CRM willen maken met het veld Bronsysteem om de regel te definiëren. Nadat de segmenten zijn gemaakt, ziet u de categorie Bron die beschikbaar is om over de segmenten te filteren [!DNL Marketo Measure Discover] dashboards.
+Bij rapportage over leads (personen) in [!DNL Marketo Measure Discover], je ziet het totaal van je Marketo- en CRM-leads. Als u alleen op Marketo-personen of alleen CRM-leads wilt rapporteren, wilt u een Segmentcategorie voor uw bron maken en vervolgens Segmentregels voor Marketo en CRM maken met het veld Bronsysteem om de regel te definiëren. Nadat u de segmenten hebt gemaakt, ziet u de categorie Bron die beschikbaar is om over de segmenten te filteren [!DNL Marketo Measure Discover] dashboards.
 
 ![](assets/bizible-discover-1.png)
 

@@ -3,9 +3,9 @@ description: Dashboard overzicht van inkomsten - [!DNL Marketo Measure] - Produc
 title: Dashboard overzicht van inkomsten
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Het dashboard van het Overzicht van Ontvangsten verstrekt inzicht in de totale o
 
 Deze side-by-side grafiek van de tijdreeksgrafiek contrasteert Total Revenue met Attributed Revenue, die duidelijk uw marketingeffect op algemene inkomsten visualiseert.
 
-* Gebruik de functies voor het uitnemen en bijwerken van boor-down om de gegevens op Kwart en Jaar te categoriseren.
+* gebruik de boor-down en op functionaliteit om de gegevens door Kwart en Jaar te categoriseren.
 * Houd de muisaanwijzer boven een gedeelte van het staafdiagram om de gedetailleerde informatie ervan weer te geven.
 
 **Vragen in de grafiek:**

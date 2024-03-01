@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874598
-description: Offline aangepaste kanaalinstelling - [!DNL Marketo Measure] - Productdocumentatie
+description: Offline aangepaste kanaalinstelling - [!DNL Marketo Measure]
 title: Aangepaste kanaalinstelling offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Het werkblad heeft drie kolommen:
 
 [!DNL Marketo Measure] de logica voor offlinekanalen wordt bepaald door het Campagne-object, met name de [!DNL Salesforce] Type campagne. Elke offline inspanning moet een [!DNL Salesforce] Campagneringstype, zoals diner- of handelswijze, omdat [!DNL Marketo Measure] vertrouwt op dit gebied om te begrijpen aan welk Kanaal en SubChannel om toe te wijzen.
 
-De typen SFDC-campagne worden weergegeven op het tabblad Offlinekanaal onder [!DNL Salesforce] Type campagne. Houd er rekening mee dat [!DNL Marketo Measure] is alleen in staat SFDC-cameratypen te importeren voor campagnes waaraan Buyer-aanraakpunten zijn gekoppeld.
+De typen SFDC-campagne worden weergegeven op het tabblad Offlinekanaal onder [!DNL Salesforce] Type campagne. Let op: [!DNL Marketo Measure] is alleen in staat SFDC-cameratypen te importeren voor campagnes waaraan Buyer-aanraakpunten zijn gekoppeld.
 
 ![](assets/2-2.png)
 

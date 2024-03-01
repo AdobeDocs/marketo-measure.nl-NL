@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874572
-description: Records dupliceren [!DNL Marketo Measure] - [!DNL Marketo Measure] - Productdocumentatie
+description: Records dupliceren [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Records dupliceren [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie, maar zie nog &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-[!DNL Marketo Measure] Gebruikt het e-mailadres als onze unieke id wanneer gegevens worden vergeleken met een gerelateerde lead of contactpersoon in de CRM. Wanneer [!DNL Marketo Measure] Als u meerdere leads of contactpersonen met hetzelfde e-mailadres zoekt, worden dezelfde gegevens in alle records weergegeven. Dit heeft gevolgen wanneer u rapporteert over de leads of de contactpersonen met [!DNL Marketo Measure] en kan ten onrechte de hoeveelheid unieke personen opblazen die aanraakpunten voor kopers hebben.
+[!DNL Marketo Measure] gebruikt het e-mailadres als onze unieke identificatie bij het koppelen van gegevens aan een gerelateerde lead of contactpersoon in de CRM. Wanneer [!DNL Marketo Measure] Als u meerdere leads of contactpersonen met hetzelfde e-mailadres zoekt, worden dezelfde gegevens in alle records weergegeven. Dit heeft gevolgen wanneer u rapporteert over de leads of de contactpersonen met [!DNL Marketo Measure] en kan ten onrechte de hoeveelheid unieke personen opblazen die aanraakpunten voor kopers hebben.
 
 Hoe ziet dit eruit in [!DNL Marketo Measure] Rapportage?
 

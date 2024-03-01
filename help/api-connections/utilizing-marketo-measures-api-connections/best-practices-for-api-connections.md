@@ -1,11 +1,11 @@
 ---
-description: Aanbevolen procedures voor API-verbindingen - [!DNL Marketo Measure] - Productdocumentatie
+description: Aanbevolen procedures voor API-verbindingen - [!DNL Marketo Measure]
 title: Aanbevolen procedures voor API-verbindingen
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Ongeacht het advertentieplatform dat u verbindt, zijn de volgende richtlijnen be
 * Sluit alle mogelijke advertentierapporten aan om uw uitgavenrapporten zoveel mogelijk te automatiseren
 * Implementeer altijd een sjabloon voor bijhouden, indien beschikbaar. De sjabloon zorgt ervoor dat zelfs als de advertentie-account wordt losgekoppeld, [!DNL Marketo Measure] nog steeds korrelige details kunnen weergeven
 
-Om elk te optimaliseren [!DNL Marketo Measure] API, volgt u de volgende aanbevolen procedures.
+Om elk te optimaliseren [!DNL Marketo Measure] API, voldoet aan de volgende aanbevolen procedures.
 
 **[!DNL Facebook]**: Verbinding maken met automatische labeling
 
@@ -84,11 +84,11 @@ Redenen voor het verbreken en opnieuw autoriseren zijn onder meer..
 * Die persoon is niet meer bij het bedrijf
 * Updates van de API&#39;s
 
-Controleer uw API-verbindingen in het dialoogvenster [!DNL Marketo Measure] om ervoor te zorgen dat ze niet opnieuw hoeven te worden geautoriseerd.
+Als uw team een van de bovenstaande scenario&#39;s heeft ervaren, controleert u uw API-verbindingen in het dialoogvenster [!DNL Marketo Measure] om ervoor te zorgen dat ze niet opnieuw hoeven te worden geautoriseerd.
 
 >[!MORELIKETHIS]
 >
->* [Geïntegreerde API&#39;s (AD Platforms)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+>* [Geïntegreerde AD-platforms (API&#39;s)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
 >* [De invloed van Bodmanager-programma&#39;s [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
 >* [[!DNL Marketo Measure] API-parameters beschreven](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
 >* [Facebook API-overzicht](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)

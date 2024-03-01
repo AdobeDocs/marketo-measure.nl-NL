@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874554
-description: Aanraakpunt genereren en toewijzen - [!DNL Marketo Measure] - Productdocumentatie
+description: Aanraakpunt genereren en toewijzen - [!DNL Marketo Measure]
 title: Aanraakpunt genereren en toewijzen
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 * Het produceren van aanraakpunten, die aanraakpunten creeert die de interactie van een persoon met uw marketing en verkoopinspanningen vertegenwoordigen
 * Aanraakpunttoewijzing, waarmee aanraakpunten worden toegewezen aan het juiste kanaal en subkanaal
 
-Om optimaal te kunnen profiteren van [!DNL Marketo Measure], moet u met uw [!DNL Marketo Measure] rep. om beide processen aan te passen aan de behoeften van uw organisatie.
+Om optimaal te profiteren van [!DNL Marketo Measure], moet u met uw [!DNL Marketo Measure] rep. om beide processen aan te passen aan de behoeften van uw organisatie.
 
 Methoden voor het genereren van aanraakpunten
 
@@ -30,8 +30,8 @@ Het aanraakpuntgeneratieproces beantwoordt de vraag: &quot;Hoe is [!DNL Marketo 
 
 | **Type interactie** | **Voorbeeld** | **Methode voor het genereren van aanraakpunten** |
 |---|---|---|
-| Online, op uw site(s) | Formuliervulling | [!DNL Marketo Measure] JavaScript |
-| Offline; niet online op uw site(s) | Handelaren; de partner van de syndicatie van de Inhoud levert een lijst van Lood die met uw inhoud in dienst nam | CRM-cameralidmaatschap gesynchroniseerd met [!DNL Marketo Measure]door het type Campagne Sync rechtstreeks in de campagne in te stellen of door regels voor de pagina Campagnes in te stellen in [!DNL Marketo Measure] |
+| Online, op uw sites | Formuliervulling | [!DNL Marketo Measure] JavaScript |
+| Offline; niet online op uw sites | Handelaren; de partner van de syndicatie van de inhoud levert een lijst van Leidingen die met uw inhoud in dienst waren | CRM-cameralidmaatschap gesynchroniseerd met [!DNL Marketo Measure]door het type Campagne Sync rechtstreeks in de campagne in te stellen of door regels voor de pagina Campagnes in te stellen in [!DNL Marketo Measure] |
 | Verkoopactiviteit | Uitgaande vraag door SDR. | CRM-activiteitenrecord (taak of gebeurtenis) gesynchroniseerd met [!DNL Marketo Measure], door logica op de [!UICONTROL Activities] pagina in [!DNL Marketo Measure] |
 
 Methoden voor aanraakpunten
@@ -40,8 +40,8 @@ Het proces van de touchpoint afbeelding beantwoordt de vraag, &quot;Zodra dit aa
 
 | **Type interactie** | **Generatiemethode** | **Toewijzingsmethode** |
 |---|---|---|
-| Online, op uw site(s) | [!DNL Marketo Measure] JavaScript | Via de [!DNL Online Channels] pagina in [!DNL Marketo Measure]door te verwijzen naar UTM-waarden, de landingspagina en de informatie over de verwijzingspagina |
-| Off line; Online, niet op uw site(s) | Synchronisatie CRM-cameralidmaatschap | Via de [!UICONTROL Offline Channels] pagina in [!DNL Marketo Measure], door te verwijzen naar het type campagne |
+| Online, op uw sites | [!DNL Marketo Measure] JavaScript | Via de [!DNL Online Channels] pagina in [!DNL Marketo Measure]door te verwijzen naar UTM-waarden, de landingspagina en de informatie over de verwijzingspagina |
+| Offline; online, niet op uw sites | Synchronisatie CRM-cameralidmaatschap | Via de [!UICONTROL Offline Channels] pagina in [!DNL Marketo Measure], door te verwijzen naar het type campagne |
 | Verkoopactiviteit | CRM-activiteitssync | Via de [!UICONTROL Online Channels] pagina in [!DNL Marketo Measure]door naar de campagnenaam te verwijzen die is toegewezen aan de [!UICONTROL Activities] page |
 
 >[!MORELIKETHIS]

@@ -1,11 +1,11 @@
 ---
-description: '''[!DNL Marketo Measure] Ultieme overzicht - [!DNL Marketo Measure] - Productdocumentatie"'
+description: '[!DNL Marketo Measure] Ultieme overzicht - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate Overview'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * Transformeer uw gegevens op zeer flexibele wijze met behulp van de veldomzetting en transformatiemogelijkheden voor de juiste gegevensvorm.
 
-* Maak attributieinzichten beschikbaar aan externe toepassingen door het inbegrepen gegevenspakhuis om de inzichten in uw werkschema te integreren. Meer gedetailleerde resultaatgegevens en op BI-Gebaseerde rapportering, met inbegrip van de Data Warehouse van Snowflake, die toegang tot korrelresultaatgegevens en de capaciteit verleent om het even welk hulpmiddel van BI voor analyse en rapportering te gebruiken.
+* Maak attributieinzichten beschikbaar aan externe toepassingen door het inbegrepen gegevenspakhuis om de inzichten in uw werkschema te integreren. Meer gegevens over resultaten en op BI gebaseerde rapportage, waaronder de Data Warehouse van Snowflaken, die toegang biedt tot gegevens over resultaten in korrelvorm en de mogelijkheid om een BI-instrument voor analyse en rapportage te gebruiken.
 
 * Integratie met RTCDP (B2B of B2P Edition), die een geïntegreerde B2B-attributieoplossing biedt voor RTCDP-klanten als RTCDP en [!DNL Marketo Measure] beide werken van gecentraliseerde gegevens van Adobe Experience Platform (AEP).
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 **B2B-gegevens importeren via AEP**
 
-Van markeerders wordt verwacht dat zij hun B2B-gegevens (bijv. account, opportuniteit, contactpersoon, lead, campagne, campagnelid, activiteit) via AEP doorgeven. De directe verbindingen CRM en Marketo Engage zijn niet meer beschikbaar voor Ultimate. De verkopers zullen gegevens van het Platform van de Advertentie door directe verbindingen en het volgen van Webactiviteiten door blijven brengen [!DNL Marketo Measure] javascript.
+Van markeerders wordt verwacht dat zij hun B2B-gegevens (bijv. account, opportuniteit, contactpersoon, lead, campagne, campagnelid, activiteit) via AEP doorgeven. De directe verbindingen van CRM en van het Marketo Engage zijn niet meer beschikbaar voor Ultimate. De verkopers zullen gegevens van het Platform van Ad blijven brengen door directe verbindingen en het volgen van Webactiviteiten door [!DNL Marketo Measure] javascript.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
@@ -57,7 +57,7 @@ Van markeerders wordt verwacht dat zij hun B2B-gegevens (bijv. account, opportun
 >
 >A [!DNL Marketo Measure Ultimate] productie-instantie moet worden toegewezen aan een AEP-productiesandbox, een [!DNL Marketo Measure Ultimate] -ontwikkelaarsinstantie moet worden toegewezen aan een AEP-ontwikkelaarssandbox.
 
-Als de selectie van de sandboxtoewijzing is opgeslagen, kunt u deze momenteel niet meer wijzigen in de toepassing. Als je het wilt wijzigen, kun je contact opnemen met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Als de selectie van de sandboxtoewijzing is opgeslagen, kunt u deze momenteel niet meer wijzigen in de toepassing. Als u dit wilt wijzigen, selecteert u [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 Gegevens voor een bepaalde entiteit (bv. Account) uit een bepaalde gegevensbron kunnen slechts in één gegevensset worden opgenomen. Elke dataset kan slechts in één gegevensstroom worden omvat. Overtredingen zullen de gegevensstroom tijdens runtime stoppen.
 

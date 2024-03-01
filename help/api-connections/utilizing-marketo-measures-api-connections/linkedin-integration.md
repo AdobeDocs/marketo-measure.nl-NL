@@ -1,10 +1,10 @@
 ---
 unique-page-id: 35586080
-description: LinkedIn-integratie - [!DNL Marketo Measure] - Productdocumentatie
+description: LinkedIn-integratie - [!DNL Marketo Measure]
 title: LinkedIn-integratie
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
 source-wordcount: '2644'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Voor [!DNL Marketo Measure] Als u Gesponsorde Creative Cloud wilt maken/bijwerke
 
 Meer informatie: [LinkedIn-rollen voor paginabeheer](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
-Er zijn andere [!DNL LinkedIn] rollen die wij vervullen **niet** vereist voor onze integratie. Deze rollen worden vaak verward met de vereiste rollen, dus let op een verschil!
+Er zijn andere [!DNL LinkedIn] rollen die wij vervullen **niet** vereist voor onze integratie. Deze rollen worden vaak verward met de vereiste rollen, zodat is er een verschil!
 
 **Paginabeheerrollen**
 
@@ -159,7 +159,7 @@ Voor de [!DNL Marketo Measure] en LinkedIn Lead Gen Forms Integration bestond, w
 
 ## Details aanraakpunt {#touchpoint-details}
 
-Eenmaal [!DNL Marketo Measure] heeft met succes uw landingspagina op de LinkedIn creatief getagd, zult u de opgeloste advertentiegegevens op touchpoint kunnen bekijken. Hier is de afbeelding van gegevenswaarden die u zou moeten verwachten te zien:
+Na [!DNL Marketo Measure] heeft met succes uw landingspagina op de LinkedIn creatief getagd, kunt u de opgeloste advertentiegegevens op touchpoint bekijken. Hier is de afbeelding van gegevenswaarden die u zou moeten verwachten te zien:
 
 <table> 
  <colgroup> 
@@ -322,13 +322,13 @@ Beide. De [!DNL Marketo Measure] Dankzij integratie kunnen we de doel-URL van de
 
 ![](assets/five.png)
 
-**Ik heb mijn [!DNL LinkedIn ads] account. Waarom niet? [!DNL Marketo Measure] mijn koppelingen labelen?**
+**Ik heb mijn [!DNL LinkedIn ads] account. Waarom niet [!DNL Marketo Measure] mijn koppelingen labelen?**
 
 De aangesloten [!DNL LinkedIn] gebruikers moeten over de juiste bewerkingstoegang beschikken. Dit houdt in dat de gebruiker een accountmanager, Campagne Manager of Creative Manager moet zijn.
 
 **Hoe weet ik of mijn creatieve werk gekopieerd zal worden? Kan ik zien of mijn creatieven hetzelfde aandeel gebruiken?**
 
-De aandeel-id is niet beschikbaar in een [!DNL LinkedIn] rapport, dus er is geen duidelijke en duidelijke manier om op creatief-aan-aandeel afbeeldingen te controleren. Als u vermoedt dat een creatief document een kopie is, kunt u dit handmatig controleren door de advertentie vanuit uw [!DNL LinkedIn] Campagne manager-dit zal de advertentie in een nieuw lusje openen en u zult aandeelidentiteitskaart in URL vinden.
+De aandeel-id is niet beschikbaar in een [!DNL LinkedIn] -rapport, dus er is geen duidelijke en duidelijke manier om te controleren op creatief-op-delen-afbeeldingen. Als u vermoedt dat een creatief document een kopie is, kunt u dit handmatig controleren door de advertentie vanuit uw [!DNL LinkedIn] Campagne manager-dit opent de advertentie in een nieuw lusje en u kunt aandeel identiteitskaart in URL vinden.
 
 ![](assets/six.png)
 

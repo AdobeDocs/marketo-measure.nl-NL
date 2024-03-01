@@ -2,7 +2,7 @@
 description: Snelheidsdashboard voor lead - [!DNL Marketo Measure] - Product
 title: Snelheidsdashboard voor lead
 feature: Reporting
-source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Hoe verhoudt de tijd die in het stadium &#39;First touch&#39; doorgebracht wordt
 
 De grafiek van de tijdreekslijn toont de gemiddelde tijd, in dagen, die lood/contacten in elk verkoopstadium over het gespecificeerde tijdsbestek doorbrengen.
 
-* Gebruik de functies voor het uitvouwen en Omhoog om de gegevens te categoriseren op maand, kwartaal of jaar.
+* de functies voor uitvouwen en Omhoog gebruiken om de gegevens te categoriseren op maand, kwartaal of jaar.
 * Houd de muisaanwijzer boven een regel om gedetailleerde informatie weer te geven.
 
 Vragen in de grafiek:

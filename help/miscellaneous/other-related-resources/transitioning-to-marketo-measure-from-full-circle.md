@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874535
-description: Overgang naar [!DNL Marketo Measure] van volledige cirkel - [!DNL Marketo Measure] - Productdocumentatie
+description: Overgang naar [!DNL Marketo Measure] van volledige cirkel - [!DNL Marketo Measure]
 title: Overgang naar [!DNL Marketo Measure] van volledige cirkel
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Als u vertrouwd bent met uw het campagnebeheer van CRM en verkiest om bestaande 
 
 Met de meeste Volledige montages van de Cirkel, ziet u elke enige interactie een persoon met uw marketing of verkoopinspanningen heeft. Paginaweergaven, herhaalde paginabezoeken, lidmaatschap van dubbele en drievoudige campagnes—Volledige cirkel heeft alle oppervlakken van deze campagnes. Als u een pagina 300 keer bekijkt, leidt de Volledige Cirkel tot 300 dubbele campagnes en geeft u een lidmaatschap in elk van hen. [!DNL Marketo Measure] dat niet en dat was een bewuste ontwerpbeslissing van onze kant.
 
-[!DNL Marketo Measure] heeft tot doel u een attributieverhaal te geven dat betekenisvolle interacties en gewicht onder de meest impactante aanraakpunten op de juiste wijze behandelt. Bijvoorbeeld de [!DNL Marketo Measure] Het framework kan de paginaweergaven (zonder formuliervullingen) niet als routinetaken weergeven. Een standalone paginamening zal waarschijnlijk geen invloed op het drijven van een koopreis vooruit hebben, maar wij zullen een aanraakpunt tot stand brengen als het de meest recente interactie vóór een aangewezen mijlpaal van CRM (zoals Lood of de Aanmaak van de Kans) is. We willen jullie niet alles tonen. We willen jullie laten zien wat belangrijk is, vanuit een attributiestandpunt.
+[!DNL Marketo Measure] heeft tot doel u een attributieverhaal te geven dat betekenisvolle interacties en gewicht onder de meest impactante aanraakpunten op de juiste wijze behandelt. Bijvoorbeeld de [!DNL Marketo Measure] Het framework kan de paginaweergaven (zonder formuliervullingen) niet als routinetaken weergeven. Een standalone paginamening zal waarschijnlijk geen invloed op het drijven van een koopreis vooruit hebben, maar wij zullen een aanraakpunt tot stand brengen als het de meest recente interactie vóór een aangewezen mijlpaal van CRM (zoals Lood of Kans creatie) is. We willen jullie niet alles tonen. We willen jullie laten zien wat belangrijk is, vanuit een attributiestandpunt.
 
 Werk met uw [!DNL Marketo Measure] rep om de juiste verwachtingen in te stellen ten aanzien van de gegevens die niet meer beschikbaar zijn voor uw team.
 

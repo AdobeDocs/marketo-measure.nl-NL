@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874582
-description: "[!DNL Marketo Measure] Salesforce-objecten - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Measure] Salesforce-objecten - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Salesforce-objecten"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie, maar zie nog &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 Wanneer [!DNL Marketo Measure] is geïnstalleerd in [!DNL Salesforce] (SFDC), meerdere aangepaste [!DNL Marketo Measure] Objecten worden toegevoegd. In dit artikel wordt een uitleg gegeven van verschillende van deze aangepaste [!DNL Marketo Measure] Objecten. Sommige objecten die [!DNL Marketo Measure] toevoegen aan [!DNL Salesforce] zijn:
 
@@ -55,7 +55,7 @@ Het BBT-object is zichtbaar op het tabblad [!UICONTROL Opportunity], [!UICONTROL
 
 ## [!DNL Marketo Measure] Persoon {#marketo-measure-person}
 
-De [!DNL Marketo Measure] Persoonsobject koppelt de objecten Lead en Contact. Salesforce beschikt niet over de optie om rapporten te maken met het object Lead en Contact in hetzelfde rapport. Door het object Lead en Contact te koppelen, [!DNL Marketo Measure] Met Persoon kunt u in hetzelfde rapport over beide objecten rapporteren. Dit is vooral handig wanneer een lead is omgezet in een contactpersoon. Op een [!DNL Marketo Measure] Persoonsrecord dat u ziet, wordt weergegeven met een zoekopdracht naar de bijbehorende lijst met leads en/of contactpersonen, een verwante lijst met de aan de persoon gekoppelde aanraakpunten en de persoon-id (dit is altijd het e-mailadres van de lead/contactpersoon). Aangezien de [!DNL Marketo Measure] Persoon heeft betrekking op het object Lead &amp; Contact, er zal nooit een [!DNL Marketo Measure] Persoonsrecord die is gekoppeld aan een aanraakpunt voor koperkenmerken. Hieronder ziet u een voorbeeld van een [!DNL Marketo Measure] Persoonsregistratie in Salesforce:
+De [!DNL Marketo Measure] Persoonsobject koppelt de objecten Lead en Contact. Salesforce beschikt niet over de optie om rapporten te maken met het object Lead en Contact in hetzelfde rapport. Door het object Lead en Contact te koppelen, [!DNL Marketo Measure] Met Persoon kunt u in hetzelfde rapport over beide objecten rapporteren. Dit is vooral handig wanneer een lead is omgezet in een contactpersoon. Op een [!DNL Marketo Measure] Persoonsrecord dat u ziet, wordt opgezocht op de corresponderende lijst met leads en/of contactpersonen, een verwante lijst met de aanraakpunten die aan de persoon zijn gekoppeld en de persoon-id (dit is altijd het e-mailadres van de lead/contactpersoon). Aangezien de [!DNL Marketo Measure] Persoon heeft betrekking op het object Lead &amp; Contact, er zal nooit een [!DNL Marketo Measure] Persoonsrecord die is gekoppeld aan een aanraakpunt voor koperkenmerken. Hieronder ziet u een voorbeeld van een [!DNL Marketo Measure] Persoonsregistratie in Salesforce:
 
 ![](assets/4.png)
 
@@ -73,7 +73,7 @@ De [!DNL Marketo Measure] Met Events Object kunt u specifieke gebeurtenissen bij
 
 ## [!DNL Marketo Measure] Velden {#marketo-measure-fields}
 
-Gegevens vastgelegd door de [!DNL Marketo Measure] JavaScript wordt in de aangepaste versie geplaatst [!DNL Marketo Measure] Velden binnen onze [!DNL Marketo Measure] Objecten. Bepaalde velden zijn alleen beschikbaar op bepaalde objecten. Voor een verklarende woordenlijst van alle [!DNL Marketo Measure] velden, alstublieft [klik hier](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). Voor een visualisatie waarvan [!DNL Marketo Measure] Object elk [!DNL Marketo Measure] Veld heeft betrekking op [klik hier](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Gegevens vastgelegd door de [!DNL Marketo Measure] JavaScript wordt in de aangepaste versie geplaatst [!DNL Marketo Measure] Velden binnen de [!DNL Marketo Measure] Objecten. Bepaalde velden zijn alleen beschikbaar op bepaalde objecten. U kunt de [woordenlijst van [[!DNL Marketo Measure] velden]](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) en [visualisatie van de [!DNL Marketo Measure] Objecten](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 ## [!DNL Marketo Measure] Rapporten en dashboards {#marketo-measure-reports-and-dashboards}
 

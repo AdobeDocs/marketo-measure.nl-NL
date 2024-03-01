@@ -3,7 +3,7 @@ description: Webverkeersdashboard - [!DNL Marketo Measure] - Product
 title: Webverkeersdashboard
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Tabel met totale bezoeken en unieke bezoekers per referentie.
 
 Staafdiagram met bezoeken of Unieke bezoekers die zijn gesegmenteerd door Kanaal/Subkanaal/Campagne.
 
-* Gebruik de functies voor uitboren en Omhoog om de gegevens te categoriseren op Subchannel en Campagne.
+* de functies voor uitvouwen en Omhoog gebruiken om de gegevens te categoriseren op Subkanaal en Campagne.
 * Houd de muisaanwijzer boven elke balk om de bezoeken of unieke bezoekers weer te geven.
 
 Vragen in de grafiek:

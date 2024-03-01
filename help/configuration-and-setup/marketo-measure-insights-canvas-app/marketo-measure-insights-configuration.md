@@ -1,25 +1,25 @@
 ---
 unique-page-id: 18874769
-description: "[!DNL Marketo Measure] Configuratie met inzichten - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Measure] Configuratie met inzichten - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Configuratie met inzichten"
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Measure] Configuratie van inzichten {#marketo-measure-insights-configuration}
 
-De [!DNL Marketo Measure] De Insights Canvas-app moet worden toegevoegd aan de Lead Page Layout, maar hiervoor is extra installatie vereist in de sectie Connected Apps van uw [!DNL Salesforce] Instellen. Volg deze instructies om ervoor te zorgen dat de Canvas-app de juiste machtigingen heeft.
+De [!DNL Marketo Measure] De Insights Canvas-app moet worden toegevoegd aan de Lead Page Layout, maar hiervoor is extra installatie vereist in de sectie Connected Apps van uw [!DNL Salesforce] Instellen. Volg deze instructies om ervoor te zorgen dat Canvas App de aangewezen toestemmingen heeft.
 
 1. Navigeren naar [!DNL Salesforce] Instellen en klikken **[!UICONTROL Connected Apps]** onder de [!UICONTROL Manage Apps] tab.
 
 1. Selecteer de [!DNL Marketo Measure Insights] in de lijst die wordt gevuld.
 
-1. Onder de [!UICONTROL OAuth] In de sectie Beleid wijzigt u de instelling Gebruikers met bevoegdheden in &quot;Gebruikers met beheerdersrechten zijn vooraf geautoriseerd.&quot; Er verschijnt een pop-up met de **[!UICONTROL OK]** en vervolgens **[!UICONTROL Save]**.
+1. Onder de [!UICONTROL OAuth] In de sectie Beleid wijzigt u de instelling Gebruikers met bevoegdheden in &quot;Gebruikers met beheerdersrechten zijn vooraf geautoriseerd.&quot; Er wordt een pop-up weergegeven en klikt u op **[!UICONTROL OK]** en vervolgens **[!UICONTROL Save]**.
 
    ![](assets/1-1.png)
 

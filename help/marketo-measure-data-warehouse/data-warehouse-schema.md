@@ -4,9 +4,9 @@ description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: f77c4471887c18b177dedab5b4c41f3a64010539
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '21115'
+source-wordcount: '21110'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Met Data Warehouse kunt u zoveel bijhouden als u wilt, gegevens rapporteren over
 
 ## Relatiediagrammen voor entiteiten {#entity-relationship-diagrams}
 
-De _Gegevensmodel Data Warehouse_ ERD toont hoe de gegevens in het gegevenspakhuis bedoeld zijn om te stromen en samen worden verbonden. Dit diagram omvat niet alle lijsten beschikbaar in het gegevenspakhuis omdat sommige van hen kaartlijsten, meningen van andere reeds aanwezige lijsten, of afgekeurde lijsten vertegenwoordigen wij niet meer het gebruiken adviseren. Zie de gedetailleerde beschrijvingen van tabellen en kolommen in het onderstaande gegevenspakhuis. Veel van deze lijsten bevatten gedenormaliseerde gebieden, echter, is dit diagram het geadviseerde gegevensmodel, leveraging gegevens van dimensionele lijsten in plaats daarvan.
+De _Gegevensmodel Data Warehouse_ ERD toont hoe de gegevens in het gegevenspakhuis bedoeld zijn om te stromen en samen worden verbonden. Dit diagram omvat niet alle lijsten beschikbaar in het gegevenspakhuis omdat sommige van hen kaartlijsten, meningen van andere reeds aanwezige lijsten, of afgekeurde lijsten vertegenwoordigen wij niet meer het gebruiken adviseren. Zie de gedetailleerde beschrijvingen van lijsten en kolommen aanwezig in het gegevenspakhuis hieronder. Veel van deze lijsten bevatten gedenormaliseerde gebieden, echter, is dit diagram het geadviseerde gegevensmodel, leveraging gegevens van dimensionele lijsten in plaats daarvan.
 
 De aanvullende _Hiermee voegt u een dimensionaal gegevensmodel toe_ ERD biedt een weergave van hoe tabellen voor advertenties die specifieke afmetingen hebben, het beste kunnen worden gekoppeld aan de tabellen in het hoofdgegevensmodel. Hoewel de afmetingen van advertenties ook in andere lijsten worden gedenormaliseerd, vertegenwoordigt dit het geadviseerde model om zich bij deze dimensies aan te sluiten.
 

@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874646
-description: Verschil tussen aanraakpunten voor kopers en kenmerkaanraakpunten voor kopers - [!DNL Marketo Measure] - Productdocumentatie
+description: Verschil tussen aanraakpunten voor kopers en kenmerkaanraakpunten voor kopers - [!DNL Marketo Measure]
 title: Verschil tussen aanraakpunten voor kopers en aanraakpunten voor koperkenmerken
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Leer wat een Aanraakpunt voor kopers (BT) en een Aanraakpunt voor koperkenmerken (BAT) bepaalt, de verschillen tussen beide, en beantwoord veelgestelde vragen.
 
-Het belangrijkste onderscheid tussen aanraakpunten voor kopers en aanraakpunten voor kopers is hun relatie met [!DNL Salesforce] Objecten. BT&#39;s hebben betrekking op de objecten Lead, Contact en Case, maar niet op het object Opportunity. Dat betekent dat er nooit inkomsten zullen zijn die aan de aanraakpunten van de koper zijn gekoppeld.
+Het belangrijkste onderscheid tussen aanraakpunten voor kopers en aanraakpunten voor kopers is hun relatie met [!DNL Salesforce] Objecten. BT&#39;s hebben betrekking op de objecten Lead, Contact en Case, maar niet op het object Opportunity. Dat betekent dat er nooit inkomsten zijn verbonden aan de aanraakpunten van kopers.
 
-Terwijl het object Aanraakpunt voor koperkenmerk gerelateerd is aan de objecten Contact, Account en Opportunity, maar niet aan het object Lead. Dit betekent dat er nooit aanraakpunten voor koperkenmerken zijn gekoppeld aan leads. In het BBT-object ziet u inkomsten die zijn gekoppeld aan specifieke marketinginteracties.
+Terwijl het aanraakpunt object voor koperkenmerk gerelateerd is aan de objecten Contact, Account en Opportunity, maar niet aan het hoofdobject; de aanraakpunten voor koperkenmerk zijn niet gekoppeld aan leads. In het BBT-object ziet u inkomsten die zijn gekoppeld aan specifieke marketinginteracties.
 
 Verschil tussen BT en BBT:
 
@@ -52,15 +52,15 @@ Verschil tussen BT en BBT:
 
 **Wanneer wordt een aanraakpunt voor kopers een aanraakpunt voor koperkenmerken?**
 
-Een BT wordt een BBT zodra dit BT wordt geassocieerd met een Contact dat een bijbehorende Kans heeft. Een zeer belangrijk ding om te begrijpen is dat één specifieke marketing interactie BT en BBT kan zijn.
+Een BT wordt een BBT zodra dit BT wordt geassocieerd met een Contact dat een bijbehorende Kans heeft. Een belangrijk ding om te begrijpen is dat één specifieke marketing interactie BT en BBT kan zijn.
 
 **Kan een aanraakpunt voor kopers beschikken over een aanraakpunt positie van Opportunity Creation (OC)?**
 
-Een aanraakpunt voor kopers heeft alleen een aanraakpunt met de positie First Touch (FT), Lead Creation (LC) of Form submission (intermediary touchpoints). Aangezien BTs niet met Kansen verwant is het niet mogelijk voor BT om een Positie van het Aanraakpunt van Kans te hebben creeert of gesloten.
+Een aanraakpunt voor kopers heeft alleen een aanraakpunt met de positie First Touch (FT), Lead Creation (LC) of Form submission (intermediary touchpoints). Aangezien BTs niet met Kansen verwant is, is het niet mogelijk voor BT om een Positie van het Aanraakpunt van Opportunity te te hebben of Gesloten.
 
-**Hoe wordt gebruikgemaakt van aanraakpuntgegevens voor kopers?**
+**Hoe worden aanraakpuntgegevens voor kopers gebruikt?**
 
-Klanten gebruiken doorgaans gegevens van het aanraakpunt voor kopers om de top van de trechter en het midden van de treindienst te begrijpen. Betekenis [!DNL Marketo Measure] gebruikers weten wie formulieren verzendt, wie hun site bekijkt, welk blogbericht goed presteert, wat AdWords en welke drijfveer tot conversie leidt, enz. Gegevens van aanraakpunten voor kopers zijn ideaal voor het begrijpen van de betrokkenheid van uw leads en contactpersonen.
+Klanten gebruiken doorgaans gegevens van het aanraakpunt voor kopers om de top van de trechter en het midden van de treindienst te begrijpen. Betekenis [!DNL Marketo Measure] gebruikers weten wie formulieren verzendt, wie hun site bekijkt, welke blogpost goed presteert, wat AdWords en aandrijvingen tot omzettingen leiden enzovoort. Gegevens van aanraakpunten voor kopers zijn ideaal voor het begrijpen van de betrokkenheid van uw leads en contactpersonen.
 
 **Hoe ziet een aanraakpunt voor kopers eruit in Salesforce?**
 

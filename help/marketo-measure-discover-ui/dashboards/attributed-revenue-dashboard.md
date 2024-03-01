@@ -3,7 +3,7 @@ description: Toegewezen belastingdashboard - [!DNL Marketo Measure] - Product
 title: Toegewezen belastingdashboard
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Het dashboard Toegewezen Inkomsten biedt een gericht perspectief op de inkomsten
 
 Gestapelde staafgrafiek met de totale toegerekende opbrengsten, gesegmenteerd door kanaal, voor elke Maand/Kwartaal/Jaar.
 
-* Gebruik de functies voor het uitvouwen en Omhoog om de gegevens te categoriseren op maand, kwartaal of jaar.
+* de functies voor uitvouwen en Omhoog gebruiken om de gegevens te categoriseren op maand, kwartaal of jaar.
 * Houd de cursor boven een staafsegment of de ruimte tussen de staven om gedetailleerde informatie weer te geven.
 
 **Vragen in de grafiek:**

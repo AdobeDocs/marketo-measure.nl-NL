@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874743
-description: Verbinding maken [!DNL Marketo Measure] om Scriptbeheer weer te geven - [!DNL Marketo Measure] - Productdocumentatie
+description: Verbinding maken [!DNL Marketo Measure] om Scriptbeheer weer te geven - [!DNL Marketo Measure]
 title: Verbinding maken [!DNL Marketo Measure] om Scriptbeheer weer te geven
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '111'
 ht-degree: 2%
 
 ---

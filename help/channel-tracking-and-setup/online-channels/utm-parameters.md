@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874606
-description: UTM-parameters - [!DNL Marketo Measure] - Productdocumentatie
+description: UTM-parameters - [!DNL Marketo Measure]
 title: UTM-parameters
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Tags toewijzen aan URL&#39;s is een eenvoudige en effectieve manier om gegevens over uw digitale marketingactiviteiten vast te leggen. Het is het proces om parameters aan het eind van URLs toe te voegen die gegevens verzamelen en registreren. De meest gebruikte parameters zijn Urchin Tracking Modules (UTMs), die door Google worden gesteund. Er zijn vijf belangrijke parameters van UTMs beschikbaar: Normaal, Bron, Campagne, Inhoud, en Term. Deze worden meer gedetailleerd besproken in de volgende sectie.
 
-U kunt UTM-parameters handmatig aan URL&#39;s toevoegen of via automatische labeling toevoegen aan bepaalde platforms, zoals AdWords. Automatisch labelen automatiseert het toevoegen van parameters aan URL&#39;s. Er is ook de mogelijkheid om [URL-builders](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} om het handmatig labelen van URL&#39;s te versnellen. Met een bouwer URL, moet u eenvoudig de waarden specificeren die voor elke parameters moeten worden gebruikt en de bouwer zal URL voor u formatteren.
+U kunt UTM-parameters handmatig aan URL&#39;s toevoegen of via automatische codering aan bepaalde platforms toevoegen, zoals AdWords. Automatisch labelen automatiseert het toevoegen van parameters aan URL&#39;s. Er is ook de mogelijkheid om [URL-builders](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"} om het handmatig labelen van URL&#39;s te versnellen. Met een bouwer URL, specificeert u eenvoudig de waarden die voor elke parameter moeten worden gebruikt en de bouwer formatteert URL voor u.
 
 ## Wat zijn UTM-parameters? {#what-are-utm-parameters}
 
@@ -27,7 +27,7 @@ Nu, controleer een URL met UTMs:
 
 `http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
-Zoals u kunt zien, bevat de tweede koppeling veel meer tekst. UTM-parameters gaan altijd achter het domein op het hoogste niveau (.com in dit voorbeeld) en beginnen met een vraagteken. Hierna is de volgorde van de parameters niet van belang, maar wordt een consistente naamgevingsconventie aanbevolen. Ampersands moeten tussen elke parameter worden geplaatst om elke UTM van elkaar te scheiden. Nu kunnen we meer in detail gaan over wat elke parameter vertegenwoordigt.
+De tweede koppeling bevat meer tekst. UTM-parameters gaan altijd achter het domein op het hoogste niveau (.com in dit voorbeeld) en beginnen met een vraagteken. Hierna is de volgorde van de parameters niet van belang, maar wordt aangeraden een consistente naamgevingsconventie te volgen. Ampersanden moeten tussen elke parameter worden geplaatst om elke UTM te scheiden. Nu kunnen we meer in detail gaan over wat elke parameter vertegenwoordigt.
 
 Meer informatie over [best practices voor het instellen van UTM-parameters](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md).
 
@@ -48,7 +48,7 @@ Meer informatie over [best practices voor het instellen van UTM-parameters](/hel
    * In dit voorbeeld: [!DNL Facebook] is de bronwaarde. Andere voorbeelden zijn Twitter en Instagram. Als het UTM-medium [!DNL Paid Search]Aan de andere kant zou de UTM-bron AdWords of BingAds kunnen zijn.
 
 * Deze parameter verwijst naar de [!DNL Marketo Measure] Veld &#39;aanraakpuntbron&#39; in SFDC.
-* _[!DNL Marketo Measure]Beste praktijken:_ Deze parameter volgt de bron van uw verkeer, zodat is het niet geschikt om het te gebruiken om op het advertentietype, b.v. het herrichten, gesponsord, enz. te wijzen. U kunt het beste het subkanaal op een hoger niveau bijhouden. Herinner je, je beantwoordt de vraag &quot;waar komt mijn verkeer uit?&quot; U zoekt naar de referentie. In dit voorbeeld is UTM Source de plaats waar uw advertentie zich bevindt (niet de eigenlijke webpagina, omdat die automatisch buiten tags wordt bijgehouden). Als u een druppelcampagne voor e-mail volgt, is druppele-mail de bron.
+* _[!DNL Marketo Measure]Beste praktijken:_ Deze parameter volgt de bron van uw verkeer, zodat is het niet geschikt om het te gebruiken om op het advertentietype te wijzen, bijvoorbeeld, herrichtend, gesponsord, etc. Het wordt het best gebruikt om het hoger-vlakke subkanaal te volgen. Herinner je, je beantwoordt de vraag &quot;waar komt mijn verkeer uit?&quot; U zoekt naar de referentie. In dit voorbeeld is UTM Source de plaats waar uw advertentie zich bevindt (niet de eigenlijke webpagina, omdat die automatisch buiten tags wordt bijgehouden). Als u een druppelcampagne voor e-mail volgt, is druppele-mail de bron.
 
 **utm_campagne**
 
@@ -62,7 +62,7 @@ Meer informatie over [best practices voor het instellen van UTM-parameters](/hel
 
 * Gebruik de parameter UTM-inhoud wanneer u meerdere marketingonderdelen wilt bijhouden die op één webpagina staan. Als u bijvoorbeeld een knop &#39;Een demo aanvragen&#39; en een knop &#39;Aanmelden voor ons wekelijkse nieuwsbrief&#39; hebt en wilt weten welke knop het meeste verkeer genereert, geeft u elke knop een naam en gebruikt u een tag voor UTM-inhoud om de inhoud bij te houden. De naam van elk stuk &quot;inhoud&quot; is de waarde van de tag.
 * Deze parameter verwijst naar de [!DNL Marketo Measure] Veld voor &#39;Inhoud toevoegen&#39; in SFDC.
-* _[!DNL Marketo Measure]Beste praktijken_: Dit is een optionele waarde, maar [!DNL Marketo Measure] raadt u aan deze functie te gebruiken. Deze tag is gekoppeld aan de titel van de advertentie of het marketingartikel dat u wilt bijhouden. Als u een afbeeldingsadvertentie gebruikt, moet u de afmetingen van de afbeelding in de titel schrijven.
+* _[!DNL Marketo Measure]Beste praktijken_: Dit is een optionele waarde, maar [!DNL Marketo Measure] raadt u aan deze functie te gebruiken. Deze tag is gekoppeld aan de titel van de advertentie of het marketingartikel die u wilt bijhouden. Als u een afbeeldingsadvertentie gebruikt, moet u de afmetingen van de afbeelding in de titel schrijven.
 
 **utm_term**
 

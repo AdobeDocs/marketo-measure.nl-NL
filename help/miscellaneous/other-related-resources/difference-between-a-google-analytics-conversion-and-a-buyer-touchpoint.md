@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874648
-description: Verschil tussen een Google Analytics-conversie en een aanraakpunt voor kopers - [!DNL Marketo Measure] - Productdocumentatie
-title: Verschil tussen een Google Analytics-conversie en een aanraakpunt voor kopers
+description: Verschil tussen een conversie van Googles Analytics en een aanraakpunt voor kopers - [!DNL Marketo Measure]
+title: Verschil tussen een conversie van Googles Analytics en een aanraakpunt voor kopers
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
 
 ---
 
-# Verschil tussen een Google Analytics-conversie en een aanraakpunt voor kopers {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
+# Verschil tussen een conversie van Googles Analytics en een aanraakpunt voor kopers {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
 Meer informatie over [!DNL Google Analytics (GA)] doel is en hoe het van een Aanraakpunt van de Koper onderscheidt.
 
-**Wat zijn Google Analytics Conversies?**
+**Wat zijn conversies van Googles Analytics?**
 
 [!UICONTROL Google Analytics] conversies worden volledig bepaald door de manier waarop een markeerteken of een webontwikkelaar &#39;doel&#39; codeert voor een bepaalde website. Doelen zouden volgens Google kunnen worden beschouwd als &quot;het maken van een aankoop (voor een site van e-commerce), het voltooien van een gameniveau (voor een mobiele game-app), of het indienen van een contactformulier (voor een marketing- of lead generation-site).&quot; Meestal zien marketers doelen/conversies als iemand die een informatieve vorm invult.
 
@@ -58,7 +58,7 @@ Nochtans, kunnen de doelstellingen niet worden gecodeerd om zeer specifiek gedra
 
 De meeste marketeers vormen hun omzettingen als &quot;Doeldoelstellingen,&quot;betekenend dat zij gewoonlijk een danku pagina na een vorm creëren om dat een formele omzetting in overweging te nemen.
 
-Dit betekent dat Google weergaven van je pagina als een conversie beschouwt. Vanuit het standpunt van de Google Analytics is dit een realisatie waar de meeste marketeers het mee eens zijn.
+Dit betekent dat Google weergaven van je pagina als een conversie beschouwt. Vanuit het oogpunt van de Google Analytics is dit een realisatie waar de meeste marketeers het mee eens zijn.
 
 Aanraakpunten voor kopers functioneren echter heel anders.
 

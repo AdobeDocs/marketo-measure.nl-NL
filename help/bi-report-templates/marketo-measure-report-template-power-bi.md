@@ -1,11 +1,11 @@
 ---
-description: "[!DNL Marketo Measure] Rapportsjabloon - Power BI - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Measure] Rapportsjabloon - Power BI - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Rapportsjabloon - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '2557'
+source-wordcount: '2526'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,19 @@ De Adobe openen [!DNL Marketo Measure] Sjabloonbestand rapporteren...
 
 U kunt uw specifieke Server, Warehouse, en informatie van het Schema in vinden [!DNL Marketo Measure] UI op de [!DNL Data Warehouse] informatiepagina. De instructies voor het vinden van deze pagina zijn gedetailleerd [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
-De parameters QueryFilterStartDate en QueryFilterEndDate worden gebruikt om de hoeveelheid geïmporteerde gegevens te beperken. Deze parameters moeten in SQL formaat zijn aangezien zij aan in de vragen worden gebruikt die worden verzonden naar [!DNL Snowflake]. Bijvoorbeeld, als u gegevens tot de afgelopen twee jaar wilt beperken, zou QueryFilterStartDate dateadd zijn (jaar, - 2,current_date()). Deze parameters worden vergeleken tegen datetime gegevenstypes, zodat wordt het geadviseerd om dateadd (dag,1,current_date()) voor QueryFilterEndDate te gebruiken om alle gegevens aan de huidige tijd terug te keren.
+De parameters QueryFilterStartDate en QueryFilterEndDate worden gebruikt om de hoeveelheid geïmporteerde gegevens te beperken. Deze parameters moeten in SQL formaat zijn aangezien zij aan in de vragen worden gebruikt die worden verzonden naar [!DNL Snowflake]. Bijvoorbeeld, als u gegevens tot de afgelopen twee jaar wilt beperken, zou QueryFilterStartDate zijn `dateadd` (jaar,-2,huidige_datum()). Deze parameters worden vergeleken tegen datetime gegevenstypes, zodat wordt het geadviseerd om te gebruiken `dateadd` (dag,1,huidige_datum()) voor QueryFilterEndDate om alle gegevens naar de huidige tijd terug te sturen.
 
 ## Gegevensverbinding {#data-connection}
 
-De parameters die bij het openen van het bestand worden ingevoerd, worden gebruikt om native query&#39;s te structureren die tabellen importeren uit het gegevenspakhuis. U moet nog steeds een gegevensverbinding instellen met uw [!DNL Snowflake] -instantie. Voor dit zult u de zelfde namen van de Server en van het Pakhuis samen met uw Gebruikersnaam en Wachtwoord nodig hebben. Details over waar u uw gebruikersnaam kunt vinden en waar u uw wachtwoord opnieuw kunt instellen, worden gedocumenteerd [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+De parameters die bij het openen van het bestand worden ingevoerd, worden gebruikt om native query&#39;s te structureren die tabellen importeren uit het gegevenspakhuis. U moet nog steeds een gegevensverbinding instellen met uw [!DNL Snowflake] -instantie. Voor dit, hebt u de zelfde namen van de Server en van het Pakhuis samen met uw Gebruikersnaam en Wachtwoord nodig. Details over waar u uw gebruikersnaam kunt vinden en waar u uw wachtwoord opnieuw kunt instellen, worden gedocumenteerd [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Gegevens importeren {#data-import}
 
-Om rapportprestaties te verbeteren, en uit transformatiemogelijkheden in de Vraag van de Macht voordeel te halen, hebben wij verkozen om opstelling dit malplaatje gebruikend de de opslagmethode van de invoer.
+Om rapportprestaties te verbeteren, en uit transformatiemogelijkheden in de Vraag van de Macht voordeel te halen, opstelling dit malplaatje gebruikend de de opslagmethode van de invoer.
 
 ### Zoekparameters {#query-parameters}
 
-Om de gegevens te beperken die in het model worden ingevoerd, wordt elke lijst opstelling gebruikend een inheemse vraag als bron. De inheemse vragen vereisen goedkeuring om uit te voeren, zult u looppas voor elke vraag moeten klikken. Deze stap is slechts nodig de eerste keer de vragen in werking worden gesteld, of als de parameters veranderen.
+Om de gegevens te beperken die in het model worden ingevoerd, wordt elke lijst opstelling gebruikend een inheemse vraag als bron. Voor native query&#39;s is goedkeuring vereist om te worden uitgevoerd. U moet op uitvoering klikken voor elke query. Deze stap is slechts nodig de eerste keer dat de vragen in werking worden gesteld, of als de parameters veranderen.
 
 ![](assets/marketo-measure-report-template-power-bi-2.png)
 
@@ -42,7 +42,7 @@ Alle query&#39;s filteren verwijderde rijen en de [!UICONTROL facts] tabellen zi
 
 >[!NOTE]
 >
->Omdat de datumfilters worden toegepast op de gewijzigde datum van een rij, is voorzichtigheid geboden bij het melden van datums die buiten het beperkte datumbereik vallen. Het gewijzigde datumbereik is bijvoorbeeld beperkt tot de afgelopen twee jaar. Dit kan een gebeurtenis omvatten met een datum van een gebeurtenis van drie jaar geleden, maar die onlangs is gewijzigd. De rapportage over gebeurtenissen van drie jaar geleden zal echter onvolledige resultaten opleveren, aangezien niet alle rijen binnen de termijn van twee jaar zullen zijn gewijzigd.
+>Omdat de datumfilters worden toegepast op de gewijzigde datum van een rij, is voorzichtigheid geboden bij het melden van datums die buiten het beperkte datumbereik vallen. Het gewijzigde datumbereik is bijvoorbeeld beperkt tot de afgelopen twee jaar. Dit kan een gebeurtenis omvatten met een datum van een gebeurtenis van drie jaar geleden, maar die onlangs is gewijzigd. De rapportage over gebeurtenissen van drie jaar geleden retourneert echter onvolledige resultaten, aangezien niet alle rijen binnen de termijn van twee jaar zijn gewijzigd.
 
 ![](assets/marketo-measure-report-template-power-bi-3.png)
 
@@ -80,11 +80,11 @@ Er zijn een paar transformaties toegepast op de gegevens in Power Query. Als u d
 
 ### Verwijderde kolommen {#removed-columns}
 
-Om het gegevensmodel te vereenvoudigen en overtollige en onnodige gegevens te verwijderen, hebben wij het aantal kolommen verminderd die in Power BI van origineel worden ingevoerd [!DNL Snowflake] tabel. Verwijderde kolommen bevatten onnodige externe sleutels, gedenormaliseerde dimensionale gegevens die beter kunnen worden gebruikt via relaties met andere tabellen in het model, auditkolommen en velden die worden gebruikt voor interne [!DNL Marketo Measure] verwerking. U kunt kolommen toevoegen of verwijderen zoals vereist voor uw bedrijfsbehoeften. Navigeer naar de stap &quot;Verwijderd Andere kolommen&quot; na de stap &quot;Bron&quot; in een tabel, klik op het tandwielpictogram en werk de geselecteerde kolommen bij in de lijst die wordt weergegeven.
+Om het gegevensmodel te vereenvoudigen en overtollige en onnodige gegevens te verwijderen, hebben wij het aantal kolommen verminderd die in Power BI van origineel worden ingevoerd [!DNL Snowflake] tabel. Verwijderde kolommen bevatten onnodige externe sleutels, gedenormaliseerde dimensionale gegevens die beter kunnen worden toegepast via relaties met andere tabellen in het model, auditkolommen en velden die worden gebruikt voor interne [!DNL Marketo Measure] verwerking. U kunt kolommen toevoegen of verwijderen zoals vereist voor uw bedrijfsbehoeften. Navigeer naar de stap &quot;Verwijderd Andere kolommen&quot; na de stap &quot;Bron&quot; in een tabel, klik op het tandwielpictogram en werk de geselecteerde kolommen bij in de lijst die wordt weergegeven.
 
 >[!NOTE]
 >
->* Wees voorzichtig wanneer u extra waarden voor vreemde sleutels toevoegt. Power BI wordt vaak ingesteld op automatische detectie van relaties in het model en het toevoegen van waarden voor externe sleutels kan ongewenste koppelingen tussen tabellen tot gevolg hebben en/of bestaande relaties uitschakelen.
+>* Wees voorzichtig wanneer u extra waarden voor vreemde sleutels toevoegt. Power BI wordt vaak ingesteld op automatisch detecteren van relaties in het model en het toevoegen van waarden voor externe sleutels kan ongewenste koppelingen tussen tabellen tot gevolg hebben en/of bestaande relaties uitschakelen.
 >
 >* De meeste tabellen in de [!DNL Marketo Measure] data-entrepot bevat gedenormaliseerde dimensionale gegevens. We hebben er alles aan gedaan om het model zoveel mogelijk in Power BI te normaliseren en op te schonen om de prestaties en gegevensnauwkeurigheid te verbeteren. Wees voorzichtig met het opnemen van eventuele aanvullende gedenormaliseerde velden in feitentabellen, dit kan het filteren van dimensies in verschillende tabellen afbreken en kan ook leiden tot onjuiste rapportage.
 
@@ -93,19 +93,19 @@ Om het gegevensmodel te vereenvoudigen en overtollige en onnodige gegevens te ve
 
 ### Naam van kolommen wijzigen {#renamed-columns}
 
-Tabellen en kolommen zijn hernoemd om ze gebruiksvriendelijker te maken en de naamgevingsconventies te standaardiseren. Als u de wijzigingen in de kolomnaam wilt weergeven, navigeert u naar de stap &#39;Kolommen hernoemd&#39; na de stap &#39;Overige kolommen verwijderd&#39; in een tabel.
+Tabellen en kolommen hebben een andere naam gekregen om ze gebruiksvriendelijker te maken en de naamgevingsconventies te standaardiseren. Als u de wijzigingen in de kolomnaam wilt weergeven, navigeert u naar de stap &#39;Kolommen hernoemd&#39; na de stap &#39;Overige kolommen verwijderd&#39; in een tabel.
 
 ![](assets/marketo-measure-report-template-power-bi-6.png)
 
 ### Hernoemde segmenten {#renamed-segments}
 
-Aangezien de segmentnamen klantgericht zijn, hebben zij generische kolomnamen in het de gegevenspakhuis van Snowflake. [!DNL BIZ_SEGMENT_NAMES] is een toewijzingstabel die van de generische segmentnaam en zijn in kaart gebrachte aangepaste segmentnaam een lijst maakt, die in de segmentsectie in wordt bepaald [!DNL Marketo Measure] UI. De tabel Segmentnaam wordt gebruikt om de naam te wijzigen van de segmentkolommen in de tabellen Aanraakpunt lead en Kenmerk. Als er geen aangepast segment bestaat, blijft de generieke segmentnaam behouden.
+Aangezien de segmentnamen klantgericht zijn, hebben zij generische kolomnamen in het de gegevenspakhuis van de Snowflake. [!DNL BIZ_SEGMENT_NAMES] is een toewijzingstabel die van de generische segmentnaam en zijn in kaart gebrachte aangepaste segmentnaam een lijst maakt, die in de segmentsectie in wordt bepaald [!DNL Marketo Measure] UI. De tabel Segmentnaam wordt gebruikt om de naam te wijzigen van de segmentkolommen in de tabellen Aanraakpunt lead en Kenmerk. Als er geen aangepast segment bestaat, blijft de generieke segmentnaam behouden.
 
 ![](assets/marketo-measure-report-template-power-bi-7.png)
 
 ### Hoofdlettergevoelige ID-omzetting {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure] gegevens hebben een paar tabellen waarin de waarden voor de primaire sleutel (ID) hoofdlettergevoelig zijn, namelijk Touchpoint en Campagne. De gegevensengine die de Power BI modelleringslaag aandrijft is niet hoofdlettergevoelig, waardoor de id-waarden &#39;dupliceren&#39; resulteren. Om de hoofdlettergevoeligheid van deze sleutelwaarden te behouden, hebben wij transformatiestappen uitgevoerd die onzichtbare karakters aan kleine hoofdletters vastmaken, die de uniciteit van identiteitskaart bewaren wanneer geëvalueerd in de laag van de gegevensmotor. Meer details over het probleem en de gedetailleerde stappen over de methode die we hebben gebruikt, zijn te vinden [hier] (https://blog.crossjoin.co.uk/2019){target="_blank"}. Deze hoofdlettergevoelige id-waarden worden gelabeld als &quot;Id&#39;s samenvoegen&quot; en worden gebruikt als verbindingssleutels in de relatielaag. We hebben de samenvoegings-id&#39;s van de rapportlaag verborgen, zodat de oorspronkelijke id-waarden zichtbaar blijven voor gebruik in rapportage, aangezien de onzichtbare tekens de knip-/plakfuncties en het filteren kunnen beïnvloeden.
+[!DNL Marketo Measure] De gegevens hebben een paar lijsten waar de primaire zeer belangrijke (identiteitskaart) waarden case-sensitive, namelijk Aanraakpunt, en Campagne zijn. De gegevensengine die de Power BI modelleringslaag aandrijft is niet hoofdlettergevoelig, waardoor de id-waarden &#39;dupliceren&#39; resulteren. Om de hoofdlettergevoeligheid van deze sleutelwaarden te behouden, hebben wij transformatiestappen uitgevoerd die onzichtbare karakters aan kleine hoofdletters vastmaken, die de uniciteit van identiteitskaart bewaren wanneer geëvalueerd in de laag van de gegevensmotor. Meer details over het probleem en de gedetailleerde stappen over de methode die we hebben gebruikt, zijn te vinden [hier] (https://blog.crossjoin.co.uk/2019){target="_blank"}. Deze hoofdlettergevoelige id-waarden worden gelabeld als &quot;Id&#39;s samenvoegen&quot; en worden gebruikt als verbindingssleutels in de relatielaag. We hebben de samenvoegings-id&#39;s van de rapportlaag verborgen, zodat de oorspronkelijke id-waarden zichtbaar blijven voor gebruik in rapportage, aangezien de onzichtbare tekens de knip-/plakfuncties en het filteren kunnen beïnvloeden.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 
@@ -117,7 +117,7 @@ Om de mogelijkheden van de muntomzetting aan de berekeningen in het model toe te
 
 ![](assets/marketo-measure-report-template-power-bi-10.png)
 
-De tabel Conversiesnelheid die is opgeslagen in [!DNL Snowflake] bevat een datumbereik voor elke conversie. Power BI staat geen samenvoeging van criteria op een berekening toe (d.w.z. tussen een datumbereik). Om op datum toe te treden, hebben wij stappen aan de lijst van het Tarief van de Omzetting toegevoegd om de rijen uit te breiden zodat is er één rij voor elke datum in de waaier van de omzettingsdatum.
+De tabel Conversiesnelheid die is opgeslagen in [!DNL Snowflake] bevat een datumbereik voor elke conversie. Power BI staat het samenvoegen van criteria voor een berekening (dat wil zeggen tussen een datumbereik) niet toe. Om op datum toe te treden, hebben wij stappen aan de lijst van het Tarief van de Omzetting toegevoegd om de rijen uit te breiden zodat is er één rij voor elke datum in de waaier van de omzettingsdatum.
 
 ![](assets/marketo-measure-report-template-power-bi-11.png)
 
@@ -164,7 +164,7 @@ De koersen in de tabel Conversierente geven de waarde aan die nodig is om een be
 
 Omdat conversiekoersen niet statisch hoeven te zijn en kunnen worden gewijzigd met opgegeven datumbereiken, moeten alle berekeningen voor valutaomrekening op rijniveau worden uitgevoerd. Aangezien de conversiekoersen betrekking hebben op een specifiek datumbereik, moet de opzoekberekening worden uitgevoerd binnen de DAX van de maatregel, zodat de relatie kan worden gedefinieerd op zowel de valutacode als de datum.
 
-De omrekeningsmaatregelen in dit model vervangen de koers 1,0 als geen omrekeningskoers kan worden vastgesteld. Er zijn afzonderlijke maatregelen genomen om de valutawaarde voor de maatregel weer te geven en er wordt een waarschuwing weergegeven als een berekening meer dan één valutawaarde bevat (een waarde kan dus niet in de geselecteerde valuta worden omgezet).
+De omrekeningsmaatregelen in dit model vervangen de koers 1,0 als geen omrekeningskoers kan worden vastgesteld. Er zijn afzonderlijke maatregelen genomen om de valutawaarde voor de maatregel weer te geven en er wordt gewaarschuwd als een berekening meer dan één valutawaarde bevat (een waarde kan dus niet in de geselecteerde valuta worden omgezet).
 
 ![](assets/marketo-measure-report-template-power-bi-13.png)
 
@@ -188,7 +188,7 @@ Aanraakpunten met regelafstand en kenmerkaanraakpunten nemen dimensionale gegeve
 
 ### Kosten {#cost}
 
-Kostenrapportage in de sjablonen is alleen beschikbaar op campagne- en kanaalniveau. Discover biedt echter aan dat voor sommige advertentieleveranciers (bijvoorbeeld creatief, trefwoord, en groepen, enz.) een lagere mate van granulariteit wordt gerapporteerd. Raadpleeg de sectie Gegevensmodel van deze documentatie voor meer informatie over hoe de kostengegevens in de sjablonen zijn gemodelleerd. Als de afmeting filtert in [!UICONTROL Discover] is ingesteld op kanaal of campagne, moeten de kosten op het kanaal, subchannel en campagneniveau worden afgestemd tussen Discover en de rapportsjablonen.
+Kostenrapportage in de sjablonen is alleen beschikbaar op campagne- en kanaalniveau. Discover biedt echter aan dat voor sommige advertentieleveranciers (creatief, trefwoord, groepen, enzovoort) een lagere mate van granulariteit wordt gerapporteerd. Raadpleeg de sectie Gegevensmodel van deze documentatie voor meer informatie over hoe de kostengegevens in de sjablonen zijn gemodelleerd. Als de afmeting filtert in [!UICONTROL Discover] is ingesteld op kanaal of campagne, moeten de kosten op het kanaal, subchannel en campagneniveau worden afgestemd tussen Discover en de rapportsjablonen.
 
 ### ROI {#roi}
 
@@ -206,7 +206,7 @@ Er kunnen kleine verschillen zijn tussen de tellingen van de totale site [!DNL D
 
 ### Leads en accounts {#leads-and-accounts}
 
-Dimensionele rapportage voor aangeroerde accounts kan enigszins verschillen tussen Discover en de sjabloon. Dit wordt opnieuw veroorzaakt door de dimensionale modellering die voortkomt uit de relatie tussen Touchpoint en Lead Touchpoint of Attribution Touchpoint. Raadpleeg de details in de sectie Toegewezen inkomsten voor meer informatie.
+Dimensionele rapportage voor aangeroerde accounts kan enigszins verschillen tussen Discover en de sjabloon. Dit wordt opnieuw veroorzaakt door de dimensionale modellering die voortkomt uit de relatie tussen Touchpoint en Lead Touchpoint of Attribution Touchpoint. Verwijs naar de details die in de Attributed Revenue sectie worden geschetst voor meer details.
 
 Alle loodtellingen in Discover worden toegewezen loodtellingen, en in het rapportagesjabloon wordt de metrische waarde afgeleid. Er is dus geen rechtstreekse vergelijking mogelijk tussen de twee verslagen voor deze maatregel.
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874779
-description: Aangepast kenmerkmodel en aangepaste instellingen - [!DNL Marketo Measure] - Productdocumentatie
+description: Aangepast kenmerkmodel en aangepaste instellingen - [!DNL Marketo Measure]
 title: Aangepast kenmerkmodel en aangepaste instellingen
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ De [!DNL Marketo Measure] Met het aangepaste kenmerkingsmodel kunnen gebruikers 
 
    Aanmelden bij [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Ga naar [!UICONTROL My Account] > [!UICONTROL Settings] > en onder de afdeling CRM selecteert u **[!UICONTROL Stage Mapping]**.
 
-   Zodra hier, zult u moeten selecteren welke Leidingen/Contacten, en stadia van de Kans om te omvatten door te selecteren **[!UICONTROL Include in Model]** doos.
+   Kies vervolgens welke stappen voor leads/contactpersonen en opportunity u wilt opnemen door het selectievakje **[!UICONTROL Include in Model]** doos.
 
    >[!NOTE]
    >
@@ -37,13 +37,13 @@ De [!DNL Marketo Measure] Met het aangepaste kenmerkingsmodel kunnen gebruikers 
 
    >[!NOTE]
    >
-   >_Alles_ Hier worden de fasen Leads/Contacten en Opportunity weergegeven, zelfs als het werkgebied inactief is of niet meer wordt gebruikt in [!DNL Salesforce]. Als u deze fasen wilt verwijderen, moet u ze op de vaste plaats verwijderen in [!DNL Salesforce].
+   >_Alles_ Hier worden de fasen Leads/Contacten en Opportunity weergegeven, zelfs als het werkgebied inactief is of niet meer wordt gebruikt in [!DNL Salesforce]. Als u deze fasen wilt verwijderen, moet u ze op de juiste wijze verwijderen in [!DNL Salesforce].
 
-   Wanneer u de stadia hebt geselecteerd, moet u op de knop **[!UICONTROL Save & Process]** onder aan de pagina. De fases worden nu weergegeven in **[!UICONTROL Attribution Settings]** en u kunt toewijzingspercentages toewijzen aan elk werkgebied. Aangepaste fasen worden ook in de Marketing Performance Suite weergegeven als een &#39;lead&#39;- of &#39;opportunity&#39;-fase in de Demand Waterfall.
+   Wanneer u de stadia hebt geselecteerd, moet u op de knop **[!UICONTROL Save & Process]** onder aan de pagina. De fases worden nu weergegeven in **[!UICONTROL Attribution Settings]** en kunt u toewijzingspercentages toewijzen aan elk werkgebied. Aangepaste fasen worden ook in de Marketing Performance Suite weergegeven als een &#39;lead&#39;- of &#39;opportunity&#39;-fase in de Demand Waterfall.
 
    Als er andere stadia zijn die u in het model wilt opnemen, maar deze niet in het [!UICONTROL Lead/Contact Status] of [!UICONTROL Opportunity Stage] lijst, kunt u uw eigen douanestadium bepalen dat van gebieden in uw CRM wordt gebaseerd.
 
-   In het onderstaande voorbeeld wordt een aangepast &#39;MQL&#39;-werkgebied gedefinieerd met behulp van een datumveld. De regel bepaalt eenvoudig dat als het veld MQL-datum niet leeg is, dit als een MQL moet worden beschouwd en in het aangepaste model moet worden opgenomen. Houd er rekening mee dat het ook belangrijk is om de aangepaste fasen te sorteren nadat deze zijn gemaakt, zodat deze de voortgang van de verkoopcyclus volgen.
+   In het onderstaande voorbeeld wordt een aangepast &#39;MQL&#39;-werkgebied gedefinieerd met behulp van een datumveld. De regel bepaalt eenvoudig dat als het veld MQL-datum niet leeg is, dit als een MQL moet worden beschouwd en in het aangepaste model moet worden opgenomen. Het is ook belangrijk om de douaneframes te sorteren zodra zij zijn gecreeerd zodat het de vooruitgang van uw verkoopcyclus volgt.
 
    ![](assets/2-1.png)
 
@@ -51,7 +51,7 @@ De [!DNL Marketo Measure] Met het aangepaste kenmerkingsmodel kunnen gebruikers 
    >
    >Vergeet niet het bijhouden van historie in te schakelen voor aangepaste velden.
 
-Als een aangepast veld wordt gebruikt in uw aangepaste model, MOET het bijhouden van veldgeschiedenis zijn ingeschakeld in CRM. Voor instructies over hoe te om het volgen van de veldgeschiedenis toe te laten, [klik hier](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
+Als een aangepast veld wordt gebruikt in uw aangepaste model, MOET het bijhouden van veldgeschiedenis zijn ingeschakeld in CRM. Voor instructies voor het inschakelen van het bijhouden van veldgeschiedenis raadpleegt u [Aangepaste modelinstelling: Enable Field History Tracking](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
 
 1. Bepaal de toewijzingspercentages voor het aangepaste model.
 
@@ -59,7 +59,7 @@ Als een aangepast veld wordt gebruikt in uw aangepaste model, MOET het bijhouden
 
    In de kolom uiterst rechts met het label &quot;**[!UICONTROL Custom]**,&quot; kunt u de wegingsfactor voor elk werkgebied in uw aangepaste toewijzingsmodel instellen. Voer eenvoudig de waarden voor elk werkgebied in onder de kolom Aangepast. Vervolgens **[!UICONTROL Save and Reprocess]** eenmaal voltooid.
 
-   Links van de kolom &quot;Aangepast&quot; staat de **[!DNL Marketo Measure]Systeem leren**. Het leren van de machine model berekent attributieweging die op het relatieve belang wordt gebaseerd om een overeenkomst te winnen afhankelijk van wat in elk douanestadium gebeurde. Voor meer informatie over het leren van de Machine model, [klik hier](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+   Links van het dialoogvenster _Aangepast_ de kolom is **[!DNL Marketo Measure]Systeem leren**. Het leren van de machine model berekent attributieweging die op het relatieve belang wordt gebaseerd om een overeenkomst te winnen afhankelijk van wat in elk douanestadium gebeurde. Raadpleeg voor meer informatie over het leermodel van de machine [Veelgestelde vragen over het leermodel voor machines](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 

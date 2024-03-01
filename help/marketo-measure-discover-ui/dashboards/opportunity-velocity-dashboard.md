@@ -2,7 +2,7 @@
 description: Opportunity Velocity-dashboard - [!DNL Marketo Measure] - Product
 title: Opportunity Velocity-dashboard
 feature: Reporting
-source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Vragen in de grafiek:
 
 De grafiek van de tijdreekslijn toont de gemiddelde tijd, in dagen, kansen doorbrengen bij elk verkoopstadium over het gespecificeerde tijdsbestek.
 
-* Gebruik de functies voor het uitvouwen en Omhoog om de gegevens te categoriseren op maand, kwartaal of jaar.
+* de functies voor uitvouwen en Omhoog gebruiken om de gegevens te categoriseren op maand, kwartaal of jaar.
 * Houd de muisaanwijzer boven een regel om gedetailleerde informatie weer te geven.
 
 Vragen in de grafiek:

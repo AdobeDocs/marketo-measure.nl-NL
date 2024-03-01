@@ -1,17 +1,17 @@
 ---
-description: Foutmeldingen - [!DNL Marketo Measure] - Productdocumentatie
+description: Foutmeldingen - [!DNL Marketo Measure]
 title: Foutmeldingen
 feature: Fundamentals
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # Foutmeldingen {#error-notifications}
 
-Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de app of e-mail. Als u een van deze reacties ontvangt, volgt u de desbetreffende stappen voor het oplossen van problemen. Neem contact op met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support).
+Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de app of e-mail. Als u om het even welk van deze ontvangt, volg de respectieve het oplossen van problemenstappen. Neem contact op met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support).
 
 <table>
   <tbody>
@@ -54,7 +54,7 @@ Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de ap
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Er is een fout opgetreden tijdens het exporteren van AdobeAnalytics: INVALID_ADOBE_ANALYTICS_CONFIGURATION: Fout: Uploaden niet toegestaan. Bevestig het schema van de gegevensbron voordat u het uploadt. DataSource-id:1234</td>
+      <td>Er is een fout opgetreden tijdens het exporteren van AdobeAnalytics: INVALID_ADOBE_ANALYTICS_CONFIGURATION: Fout: Uploaden niet toegestaan. Bevestig het gegevensbronschema alvorens te uploaden. DataSource-id:1234</td>
       <td>De Adobe Analytics-integratie is niet correct geconfigureerd.</td>
       <td>Raadpleeg de volgende Help-artikelen voor een correcte configuratie:
         <ul>
@@ -139,7 +139,7 @@ Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de ap
     </tr>
     <tr>
       <td>UNSUPPORTED_CRM_PACKAGE_VERSION</td>
-      <td>Er is een fout opgetreden tijdens het importeren van CRM: UNSUPPORTED_CRM_PACKAGE_VERSION: werk het crm-pakket bij</td>
+      <td>Er is een fout opgetreden tijdens het importeren van CRM: UNSUPPORTED_CRM_PACKAGE_VERSION: uw crm-pakket bijwerken</td>
       <td>Het huidige gevonden pakket wordt niet meer ondersteund.</td>
       <td>Voer een upgrade uit op uw pakket naar de meest recente versie:
         <ul>

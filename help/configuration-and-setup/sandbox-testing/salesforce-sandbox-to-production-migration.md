@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874694
-description: Salesforce Sandbox naar productie-migratie - [!DNL Marketo Measure] - Productdocumentatie
+description: Salesforce Sandbox naar productie-migratie - [!DNL Marketo Measure]
 title: Salesforce Sandbox naar productie-migratie
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: ad658a513b01dc7a51299abcb7313ff1877e49f3
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Als u ervoor kiest om te testen [!DNL Marketo Measure] in een [!DNL Salesforce] 
   ![](assets/salesforce-sandbox-to-production-migration-1.png)
 
    * Typ de naam van het bedrijf zoals gevraagd in het bevestigingsmodel en klik op &quot;Ik begrijp de gevolgen, verwijder deze verbinding&quot;
-* Dit zal het schrappingsproces teweegbrengen en zal wat tijd vergen beëindigen
+* Dit leidt tot het schrappingsproces en zal wat tijd vergen om te beëindigen
 
 ## Stap 3: Verbind de Instantie van CRM van de Productie in [!DNL Marketo Measure] App {#connect-the-production-crm-instance-in-marketo-measure-app}
 
@@ -43,7 +43,7 @@ Als u ervoor kiest om te testen [!DNL Marketo Measure] in een [!DNL Salesforce] 
 * Als het verwijderen van de Sandbox-verbinding is voltooid, verdwijnt de verbinding van de pagina. Als dit niet het geval is, blijft de verbinding aanwezig met de status &quot;Deletion in progress&quot;
 * Klik op ‘[!UICONTROL Set up New CRM connection]&quot;
 * In het veld &quot;[!UICONTROL Select CRM Connection]&quot;, klikt u op de knop &quot;[!UICONTROL Connect]&quot; Actie naast de [!DNL Salesforce] Platform, selecteer &quot;[!UICONTROL Production]&quot;, optie
-* U wordt gevraagd uw referenties in te voeren. Geef aanmeldingsgegevens voor de productie op
+* U wordt gevraagd uw referenties in te voeren. Geef de aanmeldingsgegevens voor de productie op
 
 ## Stap 4: Configuratie Salesforce {#salesforce-configuration}
 
@@ -51,7 +51,7 @@ Als u ervoor kiest om te testen [!DNL Marketo Measure] in een [!DNL Salesforce] 
 
 [Machtigingssets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Rapporten delen](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target="_blank"}
+[Rapporten delen](https://help.salesforce.com/s/articleView?language=en_US&amp;id=analytics_share_folder.htm&amp;type=0){target="_blank"}
 
 [Overbodige rapporttypen verbergen](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

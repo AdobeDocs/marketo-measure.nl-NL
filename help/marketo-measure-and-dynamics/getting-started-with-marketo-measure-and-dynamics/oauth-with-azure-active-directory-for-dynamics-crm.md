@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37357059
-description: OAuth met [!DNL Azure Active Directory] voor Dynamics CRM - [!DNL Marketo Measure] - Productdocumentatie
+description: OAuth met [!DNL Azure Active Directory] voor Dynamics CRM - [!DNL Marketo Measure]
 title: OAuth met [!DNL Azure Active Directory] voor Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Deze instelling is bedoeld voor nieuwe [!DNL Marketo Measure] klanten die Dynami
 1. Volg de aanwijzingen en maak een nieuwe toepassing. Het maakt niet uit of het een webtoepassing of een openbare clienttoepassing (mobiel en bureaublad) is, maar als u specifieke voorbeelden voor webtoepassingen of openbare clienttoepassingen wilt, bekijkt u onze [quickstart](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-overview).\
    a. De naam is de toepassingsnaam en beschrijft de toepassing die u voor de eindgebruikers wilt gebruiken.\
    b. Selecteer onder Ondersteunde accounttypen de optie Accounts in een willekeurige organisatiemap en persoonlijke Microsoft-accounts.\
-   c. Geef de Redirect URI op. Voor webtoepassingen is dit de basis-URL van uw app waar gebruikers zich kunnen aanmelden. Bijvoorbeeld, `http://localhost:12345`. Azure AD gebruikt deze voor een openbare client (mobiel en bureaublad) om tokenreacties te retourneren. Voer een waarde in die specifiek is voor uw toepassing. Bijvoorbeeld, `http://MyFirstAADApp`.
+   c. Geef de Redirect URI op. Voor webtoepassingen is dit de basis-URL van uw app waar gebruikers zich kunnen aanmelden. Bijvoorbeeld: `http://localhost:12345`. Azure AD gebruikt deze voor een openbare client (mobiel en bureaublad) om tokenreacties te retourneren. Voer een waarde in die specifiek is voor uw toepassing. Bijvoorbeeld: `http://MyFirstAADApp`.
 
 1. Zodra u de registratie hebt voltooid, zal Azure AD uw toepassing een unieke cliënt herkenningsteken (toepassings identiteitskaart) toewijzen. U hebt deze waarde in de volgende sectie nodig, kopieer deze dus van de toepassingspagina.
 
@@ -86,7 +86,7 @@ Wanneer de toepassingsregistratie is voltooid, kan een toepassingsgebruiker word
 
 1. Navigeer naar de omgeving van uw algemene gegevensservice (`https://[org].crm.dynamics.com`).
 
-1. Ga naar **[!UICONTROL Settings]** > **[!UICONTROL Security]** > **[!UICONTROL Users]**.
+1. Navigeren naar **[!UICONTROL Settings]** > **[!UICONTROL Security]** > **[!UICONTROL Users]**.
 
 1. Kies **[!UICONTROL Application Users]** in het weergavefilter.
 
@@ -126,7 +126,7 @@ c. De URI van de toepassings-id is de URL van de doel-API (beveiligde bron). Als
 
 1. Klik op het sleutelpictogram in de sectie van CRM naast de verbinding van de Dynamica.
 
-1. Zodra de sleutel wordt geklikt, zal een pop-up verschijnen en u zal worden ertoe aangezet om Cliënt ID, het Geheime punt van de Cliënt, en identiteitskaart URI van de Toepassing, gelijkend op de inschrijvingsstroom in te gaan.
+1. Zodra de sleutel wordt geklikt, zal een pop-up verschijnen en u zal worden ertoe aangezet om Cliënt ID, het Geheime punt van de Cliënt, en identiteitskaart URI van de Toepassing in te gaan, gelijkend op de inschrijvingsstroom.
 
    ![](assets/re-authenticating-3.png)
 

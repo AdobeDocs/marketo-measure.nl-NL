@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874660
-description: FAQ - [!DNL Marketo Measure] - Productdocumentatie
+description: FAQ - [!DNL Marketo Measure]
 title: Veelgestelde vragen
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ Waarden bestaan niet voor elke hiërarchie van gegevens omdat de hiërarchie nie
 
 **Wat is &quot;past een gebruikersattribuut&quot;in de exploitanten van de Filter aan?**
 
-De attributen van de gebruiker worden toegepast op gebruikers zoals bedrijfsIdentiteitskaart, voornaam, of achternaam, maar omdat onze gebruikers u (onze klanten) zijn, en niet uw klanten, kunnen de gebruikersattributen eigenlijk niet in de [!DNL Marketo Measure Discover] ervaring. U kunt deze optie desgewenst negeren. We werken aan een betere aangepaste filterervaring die filters verwijdert die niet van toepassing zijn op onze klanten.
+De attributen van de gebruiker worden toegepast op gebruikers zoals bedrijfsIdentiteitskaart, voornaam, of achternaam, maar omdat onze gebruikers u (onze klanten) zijn, en niet uw klanten, kunnen de gebruikersattributen eigenlijk niet in de [!DNL Marketo Measure Discover] ervaring. We werken aan een betere aangepaste filterervaring die filters verwijdert die niet van toepassing zijn op onze klanten.
 
 **Hoe komen sommige standaarddatumwaaiers door de eerste van de volgende maand gaan?**
 
-Terwijl het datumbereik niet altijd intuïtief is, heeft de standaardfilterinterface de nuttige &quot;voor&quot;tekst die met de einddatum beantwoordt, zodat zou dit u eraan moeten herinneren dat de einddatum die u gebruikt 1 dag buiten uw gewenste waaier zou moeten zijn.
+Hoewel het datumbereik niet altijd intuïtief is, heeft de standaardfilterinterface de nuttige &quot;voor&quot;-tekst die overeenkomt met de einddatum. Hierdoor moet u eraan herinneren dat de einddatum die u gebruikt 1 dag buiten het gewenste bereik moet zijn.
 
 **Welk Attributiemodel wordt gebruikt voor Leads en Contacten?**
 
@@ -97,7 +97,7 @@ Discover gebruikt hulpprogramma&#39;s van derden en biedt momenteel geen onderst
 
 **Waarom zie ik bij het laden van Discover een fout van 401 met de tekst &quot;U bent niet gemachtigd om deze pagina te bekijken&quot;?**
 
-[!DNL Marketo Measure Discover] cookies van derden moeten correct worden weergegeven. Schakel cookies van derden in uw browser in en vernieuw de pagina om Discover te gebruiken.
+[!DNL Marketo Measure Discover] cookies van derden moeten correct worden weergegeven. Als u Discover wilt gebruiken, schakelt u cookies van derden in uw browser in en vernieuwt u de pagina.
 
 >[!NOTE]
 >

@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874594
-description: Geïntegreerde AD-Platforms - [!DNL Marketo Measure] - Productdocumentatie
-title: Geïntegreerde AD-Platforms
+description: Geïntegreerde AD-platforms - [!DNL Marketo Measure]
+title: Geïntegreerde AD-platforms
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
 
-# Geïntegreerde AD-Platforms {#integrated-ad-platforms}
+# Geïntegreerde AD-platforms {#integrated-ad-platforms}
 
 [!DNL Marketo Measure] heeft API-verbindingen met Google AdWords, Microsoft BingAds, [!DNL Facebook] Advertentie en Dubbelklik de Manager van de Campagne. Via deze API-verbindingen [!DNL Marketo Measure] kan eenvoudig gegevens ophalen en naar uw CRM verzenden, samen met de externe app voor kopers. Er is geen handmatig uploaden van kosten of gegevens vereist. Uw accounts moeten gewoon zijn verbonden met en geautoriseerd voor de [!DNL Marketo Measure] app. [!DNL Marketo Measure] worden uw marketingkosten vervolgens automatisch gedownload van de platforms en geladen in de [!DNL Marketo Measure] app. Als u Automatisch labelen wilt inschakelen voor AdWords, BingAds of [!DNL Facebook] Advertenties, [!DNL Marketo Measure] voegt de parameters automatisch toe aan de URL&#39;s van uw advertenties.
 
-## Verbinding maken met Advertentie-Platforms {#how-to-connect-ad-platforms}
+## Verbinding maken met advertentieplatforms {#how-to-connect-ad-platforms}
 
 Voordat we details van elk platform bekijken, gaan we na hoe we een van deze accounts kunnen verbinden met [!DNL Marketo Measure]. Eerste aanmelding bij de [!DNL Marketo Measure] en navigeer naar de **[!UICONTROL Settings]** optie onder de **[!UICONTROL My Account]** aan de linkerbovenhoek van het scherm. Selecteer vervolgens **[!UICONTROL Connections]** onder de **[!UICONTROL Integrations]** aan de linkerkant.
 
@@ -48,7 +48,7 @@ Meer informatie over onze [[!DNL AdWords] automatisch labelen, functionaliteit](
 
 ## Inschakelen [!DNL Marketo Measure] Automatisch labelen voor Adwords {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
-Voor het inschakelen [!DNL Marketo Measure] automatische labeling, **Zorg ervoor dat u een sjabloon voor bijhouden hebt ingeschakeld op account-, campagne- of advertentiegroep-niveau in uw Adwords-account. Dit is vereist voor elk Adwords-account dat [!DNL Marketo Measure] automatische labeling ingeschakeld.** Als u een volgsjabloon inschakelt, voorkomt u verlies van gegevens uit de prestatiegeschiedenis. Houd er rekening mee dat het inschakelen van trackingsjablonen op het niveau Trefwoord, Sitelink of Advertentie ertoe leidt dat de advertentie het revisie- en goedkeuringsproces doorloopt en dat de prestatiegeschiedenis van uw advertenties mogelijk opnieuw wordt gestart. Als er helemaal geen volgsjabloon is ingeschakeld, [!DNL Marketo Measure] voegt de [!DNL Marketo Measure] parameters rechtstreeks bijhouden naar de &quot;Definitieve URL&quot; van de advertentie, wat ook kan leiden tot verlies van gegevens uit de advertentie.
+Voor het inschakelen [!DNL Marketo Measure] automatische labeling, **Zorg ervoor dat u een volgsjabloon hebt ingeschakeld op het niveau Account, Campagne of Advertentiegroep in uw Adwords-account. Dit is vereist voor elk Adwords-account dat [!DNL Marketo Measure] automatische labeling ingeschakeld.** Als u een volgsjabloon inschakelt, voorkomt u verlies van gegevens uit de prestatiegeschiedenis. Als trackingsjablonen worden ingeschakeld op het niveau Trefwoord, Sitelink of Toevoegen, wordt de advertentie doorlopen in het revisie- en goedkeuringsproces en kan de prestatiegeschiedenis van uw advertenties mogelijk opnieuw worden gestart. Als er helemaal geen volgsjabloon is ingeschakeld, [!DNL Marketo Measure] voegt de [!DNL Marketo Measure] parameters rechtstreeks bijhouden naar de &quot;Definitieve URL&quot; van de advertentie, wat ook kan leiden tot verlies van gegevens uit de advertentie.
 
 Nadat u een trackingsjabloon hebt ingesteld, volgt u de onderstaande instructies om [!DNL Marketo Measure] Automatisch labelen. Opmerking: [!DNL Marketo Measure] zullen ook automatisch tags toewijzen aan gepauzeerde advertenties in uw account.
 
@@ -147,7 +147,7 @@ Voordat u automatische labeling inschakelt met [!DNL Facebook Ads], is het belan
 
 U kunt verbinding maken met uw [!DNL Facebook] op elk moment [!DNL Marketo Measure] en er gaan geen gegevens verloren. De prestatiegeschiedenis wordt alleen gewist als automatische labeling is ingeschakeld.
 
-[Zie dit artikel](https://www.facebook.com/business/help/393890194130036){target="_blank"} vanuit Facebook voor meer informatie over exporteren [!DNL Facebook] Advertenties.
+Zie [dit artikel](https://www.facebook.com/business/help/393890194130036){target="_blank"} vanuit Facebook voor meer informatie over exporteren [!DNL Facebook] Advertenties.
 
 ## Door linkedIn gesponsorde inhoud {#linkedin-sponsored-content}
 
@@ -157,6 +157,6 @@ Omdat [!DNL LinkedIn] Delen kunnen worden gebruikt voor meerdere campagnes en Cr
 
 Zodra is vastgesteld dat een aandeel door meerdere Creative Cloud wordt gedeeld [!DNL Marketo Measure] moet een proces van pauzeren, kopiëren en opnieuw labelen doorlopen om een unieke set te maken. [!DNL Marketo Measure] onderbreken en archiveren van levende creatieve elementen, hetgeen betekent dat ook de creatieve elementen die de indrukken, klikken en sociale aandelen bevatten, worden gearchiveerd.
 
-## Niet-geïntegreerde Platforms {#non-integrated-platforms}
+## Niet-geïntegreerde platforms {#non-integrated-platforms}
 
 Voor platforms die niet zijn geïntegreerd met [!DNL Marketo Measure]de [!DNL Marketo Measure] functie voor automatische labeling kan niet worden gebruikt. De parameters moeten handmatig worden toegevoegd.

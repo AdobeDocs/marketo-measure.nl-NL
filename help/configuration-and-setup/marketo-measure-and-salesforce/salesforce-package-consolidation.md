@@ -1,18 +1,18 @@
 ---
-description: '''[!DNL Salesforce] Pakketconsolidatie - [!DNL Marketo Measure] - Productdocumentatie"'
+description: '[!DNL Salesforce] Pakketconsolidatie - [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] Pakketconsolidatie'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
 # [!DNL Salesforce] Pakketconsolidatie {#salesforce-package-consolidation}
 
-We zijn erg blij dat we de komende wijzigingen in de Marketo Measure Salesforce Packages aankondigen. In een poging om de gebruikerservaring te verbeteren en het gebruik te vereenvoudigen, consolideren we alle bestaande pakketten in één, uitgebreid pakket.
+Om de gebruikerservaring te verbeteren en het gebruik te vereenvoudigen, worden bestaande pakketten gecompileerd in één, uitvoerig pakket.
 
 ## Pakketverlaging {#package-retirement}
 
@@ -22,19 +22,19 @@ Als gevolg van deze consolidatie zullen de huidige pakketten V1, V2_EXT, V2_Secu
 
 Het nieuwe geconsolideerde V2-pakket bevat alle functies en functies van de vorige pakketten, waardoor de gebruiker een betere ervaring krijgt. Dit bijgewerkte pakket maakt efficiëntere marketing en verkoopprestaties het volgen mogelijk en biedt meer inzicht in het gedrag van klanten.
 
-We hebben twee nieuwe velden toegevoegd om uw rapportagemogelijkheden te verbeteren:
+Er zijn twee nieuwe gebieden om uw rapporteringsmogelijkheden te verbeteren:
 
 * form_name: Nu beschikbaar in BT/BAT-objecten, kunnen gebruikers in dit veld rapporten maken op basis van formuliernamen.
 * user_touchpoint_id: Met dit veld kunnen gebruikers rapporten maken met unieke aantallen gebruikers-aanraakpunten (`bizible2__User_Touchpoint_V2__c` in Salesforce).
 
 ## Ondersteuning en overgang {#support-and-transition}
 
-Wij begrijpen dat deze verandering aanpassingen kan vergen en wij zijn vastbesloten u gedurende het hele proces te steunen. Ons [Ondersteuningsteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} is gemakkelijk beschikbaar om vragen te beantwoorden en te helpen zorgen voor een soepele overgang naar het nieuwe geconsolideerde pakket.
+De [Ondersteuningsteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} is beschikbaar om vragen te beantwoorden en te helpen bij het waarborgen van een soepele overgang naar het nieuwe geconsolideerde pakket.
 
 ## Vereiste handelingen {#retired-actions}
 
 * Als u het V2-pakket al hebt geïnstalleerd, moet u het bijwerken naar de nieuwe geconsolideerde versie.
-* Als u rapporten of dashboards van om het even welk pakket van de Rapportering hebt, kunt u hen gemakkelijk zonder enige vereiste wijzigingen ontspannen, aangezien alle gebruikte gebieden in het geconsolideerde pakket bestaan.
+* Als u rapporten of dashboards van om het even welk pakket van de Rapportering hebt, kunt u hen gemakkelijk zonder enige vereiste wijzigingen ontspannen, aangezien alle gebieden in het geconsolideerde pakket bestaan.
 * Als u rapporten hebt die gebieden in het V2_EXT pakket gebruiken, kunt u hen in het geconsolideerde pakket door de hieronder stappen opnieuw creëren:
    * Alle gegevens in V2_EXT-velden zijn beschikbaar in Touchpoint-velden. U kunt dus uw rapporten wijzigen om gegevens op te halen uit corresponderende V2-aanraakpuntvelden door een filter toe te voegen op de positie van het aanraakpunt.
    * Voorbeeldrapport waarin alle leads worden opgehaald met Ad Content FT die &quot;Outreach&quot;-tekst bevat.
@@ -65,4 +65,4 @@ Ja. Het geconsolideerde pakket bevat dezelfde velden in V1 met verdere uitsplits
 
 **Kunnen rapporten die V2_EXT gebieden gebruiken opnieuw worden gecreeerd in het geconsolideerde pakket?**
 
-Ja. Volg de stappen in het dialoogvenster [Vereiste handelingen](#retired-actions) hierboven.
+Ja. Voer de stappen in het dialoogvenster [Vereiste handelingen](#retired-actions) sectie.

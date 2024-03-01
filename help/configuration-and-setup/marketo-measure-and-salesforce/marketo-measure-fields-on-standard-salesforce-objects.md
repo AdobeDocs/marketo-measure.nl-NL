@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] Velden op standaard [!DNL Salesforce] Objecten - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Measure] Velden op standaard [!DNL Salesforce] Objecten - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Velden op standaard [!DNL Salesforce] Objecten"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie, maar zie nog &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 Meer informatie over de verschillende [!DNL Marketo Measure] velden die worden toegevoegd aan [!DNL Salesforce] standaardobjecten
 
@@ -137,7 +137,7 @@ Dit wordt gebruikt voor de toewijzing van leads aan account voor onze ABM-functi
 
 ## Opportunity {#opportunity}
 
-[!DNL Marketo Measure] Het Bedrag van de kans: Dit gebied wordt gebruikt in het scenario waar een gebied van het douanebedrag hefboomwerking op de Kans is. We wijzen die aangepaste veldwaarde toe aan [!DNL Marketo Measure] Het Bedrag van de kans die een werkschema gebruikt en dan dit gebied voor onze gebieden van de Toewijzing van de Opbrengst op het voorwerp van het Aanraakpunt van de Attributie van de Koper leest.
+[!DNL Marketo Measure] Het Bedrag van de kans: Dit gebied wordt gebruikt in het scenario waar een gebied van de douanehoeveelheid op de Kans wordt gebruikt. We wijzen die aangepaste veldwaarde toe aan [!DNL Marketo Measure] Het Bedrag van de kans die een werkschema gebruikt en dan dit gebied voor onze gebieden van de Toewijzing van de Opbrengst op het voorwerp van het Aanraakpunt van de Attributie van de Koper leest.
 
 ## Activiteit {#activity}
 

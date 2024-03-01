@@ -1,10 +1,10 @@
 ---
-description: Overzicht van integratierechten - [!DNL Marketo Measure] - Productdocumentatie
+description: Overzicht van integratierechten - [!DNL Marketo Measure]
 title: Overzicht van integratierechten
 feature: APIs, Integration
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ We raden u aan een speciale Marketo Measure-gebruiker in Dynamics te maken, zoda
 <p>
 <b>Beveiligingsrollen</b>
 <br>
-Als uw organisatie Dynamics Security Roles gebruikt, moet u ervoor zorgen dat de verbonden gebruiker of de toegewijde Marketo Measure-gebruiker over voldoende lees-/schrijfmachtigingen voor de vereiste entiteiten beschikt.
+Als uw organisatie Dynamische veiligheidsrollen gebruikt, zorg ervoor de verbonden gebruiker, of de specifieke Gebruiker van Marketo Measure voldoende lees-schrijf toestemmingen aan de vereiste entiteiten heeft.
 <br>
 Beveiligingsrollen bevinden zich hier: Instellingen &gt; Beveiliging &gt; Beveiligingsrollen
 <br>

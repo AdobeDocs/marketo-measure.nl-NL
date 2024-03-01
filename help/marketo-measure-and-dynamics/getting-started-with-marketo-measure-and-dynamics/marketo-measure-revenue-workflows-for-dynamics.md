@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356132
-description: "[!DNL Marketo Measure] Workflows voor inkomsten voor dynamiek - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Measure] Workflows voor inkomsten voor dynamiek - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Workflows voor inkomsten voor dynamiek"
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Als de open kansen geen gegevens op het Werkelijke Dichte gebied van de Datum he
 1. Klant geeft de API-naam Aangepaste sluitingsdatum door aan [!DNL Marketo Measure].
 1. [!DNL Marketo Measure] om de [!DNL Marketo Measure] app-instellingen om naar de [!DNL Marketo Measure] Het veld Aangepaste datum sluiten in het dashboard.
 
-   Nadat de bovenstaande stappen zijn voltooid, moeten we workflows uitvoeren om beide aangepaste [!DNL Marketo Measure] Het veld Hoeveelheid opp en het veld [!DNL Marketo Measure] Het veld Aangepaste datum sluiten op uw historische kansen om de juiste gegevens weer te geven. Dit zal waarschijnlijk gewijzigde op/door gebieden veranderen zodat zult u met uw team willen controleren om te zien of behandelt dat om het even welke kwesties.
+   Nadat de bovenstaande stappen zijn voltooid, moeten we workflows uitvoeren om beide aangepaste [!DNL Marketo Measure] Het veld Hoeveelheid opp en het veld [!DNL Marketo Measure] Het veld Aangepaste datum sluiten op uw historische kansen om de juiste gegevens weer te geven. Dit zal waarschijnlijk gewijzigde op/door gebieden veranderen zodat zult u met uw team willen controleren om te zien of zal dat om het even welke kwesties voorstellen.
 
 De gesloten mogelijkheden bijwerken...
 

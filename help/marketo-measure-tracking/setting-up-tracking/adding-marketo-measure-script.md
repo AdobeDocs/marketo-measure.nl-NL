@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874795
-description: Toevoegen [!DNL Marketo Measure] Script - [!DNL Marketo Measure] - Productdocumentatie
+description: Toevoegen [!DNL Marketo Measure] Script - [!DNL Marketo Measure]
 title: Toevoegen [!DNL Marketo Measure] Script
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Als beste praktijken, adviseren wij sterk hardcoding [!DNL Marketo Measure] Java
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-De JavaScript-code in de `<head>` van uw pagina&#39;s ervoor zorgt dat [!DNL Marketo Measure] Het script wordt eerst geladen en de verwijzingsinformatie wordt niet overgeslagen. De [!DNL Marketo Measure] JavaScript wordt asynchroon geladen. Als de hardcodering is ingeschakeld, moet de JavaScript-code handmatig worden toegevoegd aan Marketing Automation.
+De JavaScript-code in de `<head>` van uw pagina&#39;s ervoor zorgt dat [!DNL Marketo Measure] script wordt eerst geladen en verwijzingsgegevens worden niet overgeslagen. De [!DNL Marketo Measure] JavaScript wordt asynchroon geladen. Als de hardcodering is ingeschakeld, moet de JavaScript-code handmatig worden toegevoegd aan Marketing Automation.
 
 >[!TIP]
 >
@@ -40,7 +40,7 @@ De JavaScript-code in de `<head>` van uw pagina&#39;s ervoor zorgt dat [!DNL Mar
 
 Indien toevoegen [!DNL Marketo Measure] JavaScript via hardcodering is niet mogelijk. U kunt ook het volgende toevoegen: [!DNL Marketo Measure] script dat gebruikmaakt van een Tag Management-systeem, zoals [!DNL Google Tag Manager] (GTM) of Tealium.
 
-Houd er rekening mee dat u tagbeheersystemen gebruikt om te implementeren [!DNL Marketo Measure] JS kan in een potentieel gegevensverlies van 5-10% als gevolg van de tijdvertraging van de manuscriptlading resulteren. In wezen geldt dat als het gereedschap voor tagbeheer niet snel genoeg wordt geladen, [!DNL Marketo Measure] JS kan ook niet snel genoeg laden en kan de informatie van de eerste referentie verliezen.
+Let erop dat u tagbeheersystemen gebruikt om te implementeren [!DNL Marketo Measure] JS kan in een potentieel gegevensverlies van 5-10% als gevolg van de tijdvertraging van de manuscriptlading resulteren. In wezen geldt dat als het gereedschap voor tagbeheer niet snel genoeg wordt geladen, [!DNL Marketo Measure] JS kan ook niet snel genoeg laden en kan de informatie van de eerste referentie verliezen.
 
 Een gemeenschappelijke praktijk is op te stellen [!DNL Marketo Measure] JS via een hulpmiddel voor tagbeheer totdat timing/resource beter is om over te schakelen naar hardcodering.
 
@@ -54,13 +54,13 @@ Meer informatie is mogelijk [hier gevonden](/help/marketo-measure-tracking/setti
 
 [!DNL Marketo Measure] JavaScript is op domein-gebaseerd zodat kan het automatisch om het even welke subdomeinen behandelen zolang JavaScript op de pagina&#39;s is en het worteldomein het zelfde als het domein is dat wordt gebruikt om de rekening van Marketo Measure tot stand te brengen.
 
-Als u echter afzonderlijke of internationale domeinen gebruikt, moet u ervoor zorgen dat uw [!DNL Marketo Measure] Consultant kent het. De domeinen moeten handmatig aan uw account worden toegevoegd op het tabblad [!DNL Marketo Measure] einde zodat [!DNL Marketo Measure] weet hoe u de gegevens van de aanvullende domeinen aan uw account kunt koppelen. Stuur dus afzonderlijke/internationale domeinen naar uw [!DNL Marketo Measure] Consultant.
+Als u echter afzonderlijke of internationale domeinen gebruikt, moet u ervoor zorgen dat uw [!DNL Marketo Measure] Consultant kent het. De domeinen moeten handmatig aan uw account worden toegevoegd op het tabblad [!DNL Marketo Measure] einde zodat [!DNL Marketo Measure] weet hoe u de gegevens van de aanvullende domeinen aan uw account kunt koppelen. U kunt dus elk afzonderlijk/internationaal domein naar uw [!DNL Marketo Measure] Consultant.
 
-Als u om het even welke derdepagina&#39;s gebruikt, heb een gesprek over uw gebruiksgeval met uw [!DNL Marketo Measure] Consultant. In het algemeen wilt u weten of u een aangepaste versie van [!DNL Marketo Measure] JavaScript om deze pagina&#39;s zo nodig bij te houden. Als dit niet mogelijk is, zal het volgen via CRM Campaign touchpoints met uw worden onderzocht [!DNL Marketo Measure] Consultant.
+Als u om het even welke derdepagina&#39;s gebruikt, heb een gesprek over uw gebruiksgeval met uw [!DNL Marketo Measure] Consultant. In het algemeen wilt u weten of u een aangepaste versie van [!DNL Marketo Measure] JavaScript om deze pagina&#39;s zo nodig bij te houden. Als dit niet mogelijk is, wordt het volgen via CRM Campaign touchpoints onderzocht met uw [!DNL Marketo Measure] Consultant.
 
-Hebt u formulieren die NIET mogen worden bijgehouden door [!DNL Marketo Measure] aangezien zij niet noodzakelijk voor attributie (b.v. unsubscribe vormen, klantenlogins, enz.) zinvol zijn? Als zo, zult u de uitsluitingscode willen toevoegen [in dit artikel](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} naar elk formulier
+Hebt u formulieren die NIET mogen worden bijgehouden door [!DNL Marketo Measure] aangezien zij niet noodzakelijk voor attributie (b.v. unsubscribe vormen, klantenlogins, enz.) zinvol zijn? Zo ja, dan wilt u de uitsluitingscode toevoegen [in dit artikel](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} naar elk formulier
 
-Hebt u onveilige pagina&#39;s? Als dat het geval is, zult u ze willen beveiligen, aangezien navigatie tussen een beveiligde/niet-beveiligde pagina de volgende sessie zal verbreken.
+Hebt u onveilige pagina&#39;s? Als dat het geval is, wilt u deze beveiligen, zodat de volgende sessie wordt verbroken door te navigeren tussen een beveiligde/niet-beveiligde pagina.
 
 Ben zeker om een gesprek met uw Webteam te hebben zodat weten zij [!DNL Marketo Measure] JavaScript moet zich altijd op de juiste wegeigenschappen bevinden. Als er nieuwe pagina&#39;s/formulieren/sites worden geïntroduceerd, zorg dan voor implementatie [!DNL Marketo Measure] JavaScript maakt deel uit van het protocol.
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874678
-description: Begrijpen [!DNL Marketo Measure] Advertentietags - [!DNL Marketo Measure] - Productdocumentatie
+description: Begrijpen [!DNL Marketo Measure] Advertentietags - [!DNL Marketo Measure]
 title: Begrijpen [!DNL Marketo Measure] Advertentietags
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---

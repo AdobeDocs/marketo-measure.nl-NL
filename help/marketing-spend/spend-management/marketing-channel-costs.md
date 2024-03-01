@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874602
-description: Kosten marketingkanaal - [!DNL Marketo Measure] - Productdocumentatie
+description: Kosten marketingkanaal - [!DNL Marketo Measure]
 title: Kosten marketingkanaal
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ De gedownloade CSV haalt de resultaten uit het huidige scherm. Dit houdt in dat 
 
 Ongeacht welke mening in browser zit, als het een gefilterde mening of de standaardmening met alle data en kanalen is, kunt u om het even welke CSV uploaden.
 
-De gemeenschappelijkste fout wij onder ogen zien is het formaat van de datumkolommen, die gebeurt als het datumformaat wordt veranderd en opzettelijk zou kunnen gebeuren als zich tussen Excel en/of de Bladen van Google beweegt. Houd er rekening mee dat de datum MM-YY moet zijn, dus sep-12 en niet sept-12, mei-12 en niet 05-12.
+De gemeenschappelijkste fout wij onder ogen zien is het formaat van de datumkolommen, die gebeurt als het datumformaat wordt veranderd en opzettelijk zou kunnen gebeuren als zich tussen Excel en/of de Bladen van Google beweegt. Onthoud dat de datum MM-YY moet zijn, dus sep-12 en niet sept-12, of mei-12 en niet 05-12.
 
 ## Voordat u begint {#before-you-begin}
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] Integratie van activiteiten - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Engage] Integratie van activiteiten - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Activiteitenintegratie"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1671'
 ht-degree: 0%
 
 ---
@@ -154,7 +154,7 @@ Inhoud delen (400) Dialoogvenster ingesloten (158) Document heeft interactie geh
 
 ## Kanaaltoewijzing {#channel-mapping}
 
-Voor om het even welke regels van een Type van Activiteit met een Identiteitskaart van het Programma, wordt het Kanaal van het Programma van Marketo bepaald van het Programma. Wij gebruiken het Kanaal van het Programma om aan uw douane Offline Kanalen in kaart te brengen, zodat zult u moeten ervoor zorgen uw kanalen behoorlijk worden gevormd [zoals hier geïnstrueerd](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
+Voor om het even welke regels van een Type van Activiteit met een Identiteitskaart van het Programma, wordt het Kanaal van het Programma van Marketo bepaald van het Programma. Wij gebruiken het Kanaal van het Programma om aan uw douane Offline Kanalen in kaart te brengen, zodat zult u uw kanalen moeten ervoor zorgen behoorlijk worden gevormd [zoals hier geïnstrueerd](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
 
 En voor om het even welke regels van een Type van Activiteit zonder Programma Id, was uw eerste stap een Naam van de Campagne te creëren. Met deze campagnenaam stelt u uw aangepaste onlinekanalen in [hier](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 

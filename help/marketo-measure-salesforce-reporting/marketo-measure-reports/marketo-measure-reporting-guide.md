@@ -1,11 +1,11 @@
 ---
-description: "[!DNL Marketo Measure] Rapportagehandleiding - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Measure] Rapportagehandleiding - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Rapportagehandleiding"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '6395'
+source-wordcount: '6431'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie, maar zie nog &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 Voordat u een [!DNL Marketo Measure] rapport, is het meest essentieel om uw [!DNL Marketo Measure] Accountinstellingen zijn gecontroleerd en geconfigureerd om te zorgen dat de gegevens in de rapporten accuraat zijn en de specifieke kenmerken van uw bedrijf weerspiegelen. Daarnaast werken de rapportageprojecten het best wanneer ze een gestructureerd proces volgen. Justin Norris, a [!DNL Marketo Measure] machtsgebruiker, pleitbezorger en partner van [Perkuto](https://perkuto.com/) deskundig samengevat [hoe wordt de rapportage benaderd in [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
 
@@ -126,7 +126,7 @@ Het samenvatten van de gegevens van het Aanraakpunt van de Koper van uw Lood doo
 
 >[!TIP]
 >
->Voor elk rapporttype &#39;Leads with Buyer Touchpoints&#39; begint u met het aanpassen van het vooraf gebouwde rapport met de naam &#39;[!DNL Marketo Measure] 101 | Leads via kanaal&quot;. Dit rapport is beschikbaar buiten de doos en is een grote zandbak vooraf gebouwd zoals die in de lijst hierboven wordt beschreven en kan snel voor specifiekere rapporteringsbehoeften worden aangepast.
+>Voor elk rapporttype &#39;Leads with Buyer Touchpoints&#39; begint u met het aanpassen van het vooraf gebouwde rapport met de naam &#39;[!DNL Marketo Measure] 101 | Leads by Channel&#39;. Dit rapport is beschikbaar buiten de doos en is een grote zandbak vooraf gebouwd zoals die in de lijst hierboven wordt beschreven en kan snel voor specifiekere rapporteringsbehoeften worden aangepast.
 
 **1,2 | Nieuwe leads per campagne (of meer granulaire inzichten)**
 
@@ -218,7 +218,7 @@ Gebeurtenismanagers zijn echter meer geïnteresseerd in welke specifieke gebeurt
 * Interne records uit tests, meestal per e-mailadres, filteren
 * Filteren op basis van bepaalde &#39;recordtypen&#39; die specifiek zijn voor uw bedrijfseenheid
 
-**1,3 | Nieuwe leads by Content (alleen CRM-rapporten)**
+**1,3 | Nieuwe leads op inhoud (alleen CRM-rapporten)**
 
 <table> 
  <tbody>
@@ -269,7 +269,7 @@ Op inhoud gebaseerde rapporten bieden een grote waarde bij het rapporteren van i
 
 &#39;Op inhoud gebaseerde rapporten zijn ideaal om inzicht te krijgen in wat de drijvende kracht achter Leads is, meer bepaald binnen het marketingkanaal op hoger niveau, in dit geval &#39;Organic Search&#39;.
 
-**1,4 | Totale hoofdbetrokkenheid in een bepaald datumbereik**
+**1,4 | Totale betrokkenheid bij leads in een bepaald datumbereik**
 
 <table> 
  <tbody>
@@ -301,13 +301,13 @@ Op inhoud gebaseerde rapporten bieden een grote waarde bij het rapporteren van i
  </tbody>
 </table>
 
-**HERINNERING**: Het baseren van uw rapporten op &#39;Aanraakpuntdatum&#39; is de meest reflecterende manier om marketingprestaties binnen een bepaald datumbereik te begrijpen. Met Aanraakpunt datum wordt het rapport zodanig gestructureerd dat de toewijzing niet alleen gerelateerd is aan het kanaal, de campagne of de inhoud, maar ook wordt getoond wanneer het aanraakpunt is opgetreden. Dit is de meest effectieve manier om te begrijpen welke marketingactie op een bepaald tijdstip plaatsvond en ook de aanbevolen manier om de impact van marketing te meten, in vergelijking met de marketinguitgaven die tegelijkertijd werden geïnvesteerd. Het wordt aanbevolen om marketinguitgaven of een ROI-analyse uit te voeren (zie 5.1).
+**HERINNERING**: Het baseren van uw rapporten op &#39;Aanraakpuntdatum&#39; is de meest reflecterende manier om marketingprestaties binnen een bepaald datumbereik te begrijpen. Met &#39;aanraakpunt datum&#39; wordt het rapport zodanig gestructureerd dat de toewijzing niet alleen verband houdt met het kanaal, de campagne of de inhoud, maar ook met het aanraakpunt. Dit is de meest effectieve manier om te begrijpen welke marketingactie op een bepaald tijdstip plaatsvond en ook de aanbevolen manier om de impact van marketing te meten, in vergelijking met de marketinguitgaven die tegelijkertijd werden geïnvesteerd. Het wordt aanbevolen om marketinguitgaven of een ROI-analyse uit te voeren (zie 5.1).
 
 **2. GEREKATIFICEERDE LEADEN VOOR MARKETING MET AANWIJZINGEN VOOR KOPERS**
 
 Een van de meest voorkomende rapporten is niet alleen gericht op de betrokkenheid van nieuwe leads of leidingniveau, maar meer in het bijzonder op &#39;marketing qualified leads&#39; (MQL&#39;s). Er zijn een aantal verschillende benaderingen wat betreft de rapportage over MQL&#39;s, afhankelijk van wat [!DNL Marketo Measure] -functies en -functionaliteit waartoe u toegang hebt.
 
-**2,1 | Marketinggekwalificeerde leads per kanaal (multi-touch)**
+**2,1 | Gekwalificeerde leads voor marketing via kanaal (multi-touch)**
 
 Deze benadering van het meten van het effect van marketing op het beïnvloeden van MQL&#39;s is in wezen een voortzetting van het rapport &quot;New Leads by Marketing Channel&quot; (1.1), maar met de aanvullende criteria die worden gemeten, zijn meer bepaald MQL&#39;s. Het U-Vormed attributiemodel wordt hier nog steeds aanbevolen om te bepalen welke marketingkanalen en inhoud leads genereren die dan _waarschijnlijk_ om een MQL te worden:
 
@@ -347,7 +347,7 @@ Deze benadering van het meten van het effect van marketing op het beïnvloeden v
  </tbody>
 </table>
 
-**2,2 | Marketinggekwalificeerde leads per kanaal (één aanraking, alleen CRM)**
+**2,2 | Gekwalificeerde leads voor marketing via het kanaal (alleen enkele aanraking, CRM)**
 
 Deze benadering van het meten van de invloed van marketing op de invloed van MKN is meer gericht op het bepalen van welke _enkel aanraakpunt_ was de laatste aanraking voordat de lead MQL bereikte.
 
@@ -384,7 +384,7 @@ Deze benadering van het meten van de invloed van marketing op de invloed van MKN
   </tr>
   <tr>
    <td>Optimale modellen</td> 
-   <td><i>Omdat dit rapport wordt gefilterd op één aanraakpunt, zijn de attributiemodellen op het niveau van de Lood niet zo relevant. Net als in het "Lead Engagement Report" (1.4) zou het aantal touchpoint records hier worden benut om te begrijpen welke kanalen de sterkste zijn (elke lead zou slechts één MQL-aanraakpunt hebben).</i></td> 
+   <td><i>Omdat dit rapport wordt gefilterd op één aanraakpunt, zijn de attributiemodellen op het niveau van de Lood niet zo relevant. Net als in het "Lead Engagement Report" (1.4) zou het aantal aanraakpuntrecords hier worden gebruikt om te begrijpen welke kanalen de sterkste zijn (elke Lood zou slechts één MQL-aanraakpunt hebben).</i></td> 
   </tr>
  </tbody>
 </table>
@@ -397,7 +397,7 @@ Deze benadering van het meten van de invloed van marketing op de invloed van MKN
 
 Er is een derde aangepaste versie [!DNL Marketo Measure] -object in Salesforce dat erg nuttig kan zijn bij het rapporteren van aan mensen gerelateerde metriek: **de [!DNL Marketo Measure] Persoon (BP)**. BP lost het eeuwenoude probleem van hoe te om zowel LEIDEN als contactgegevens in het zelfde rapport te vertegenwoordigen op. Het verenigt alle BT&#39;s die verband houden met een &quot;persoon&quot; (a [!DNL Marketo Measure] De persoon-id is zijn e-mailadres). Of zij als Lood of een Contact bestaan, BP handelt als brugvoorwerp, om rapporten te helpen zich over Lood en Contact uitstrekken, en is zeer nuttig in het produceren van verfijndere rapporten over mensen.
 
-De [!DNL Marketo Measure] Persoon heeft slechts betrekking op een van de aanraakpuntobjecten, het aanraakpunt voor kopers (BT). Dit betekent dat het niet voor een Kans of aan opbrengst verwante metriek kan worden leveraged. A &#39;[!DNL Marketo Measure] Het rapporttype van personen- en kopersaanraakpunten is ideaal voor begrip _totale betrokkenheid_ aangezien het alle BT&#39;s behandelt of het BT op een lood of een Contact meer specifiek betrekking heeft. Bijvoorbeeld - als u een Campagne Salesforce hebt die wordt gebruikt om een Gebeurtenis te volgen, kunt u campagneleden binnen de Campagne van CRM hebben die of als Leidingen OF Contacten bestaan. [!DNL Marketo Measure] zal aanraakpunten creëren voor de campagneleden ongeacht wie, maar zonder [!DNL Marketo Measure] Persoonlijk, standaard zou de rapportering van Salesforce twee afzonderlijke rapporten vereisen om te begrijpen hoeveel _totaal_ Aanraakpunten die je hebt van de gebeurtenis: een die &#39;Leads with Buyer Touchpoints&#39; is en een die &#39;Contact with Buyer Touchpoints&#39; is. Enkele andere [!DNL Marketo Measure] Onderstaande lijst bevat gebruiksgevallen voor individuele rapportage:
+De [!DNL Marketo Measure] Persoon heeft slechts betrekking op een van de aanraakpuntobjecten, het aanraakpunt voor kopers (BT). Dit betekent dat het niet voor een Kans of aan opbrengst verwante metriek kan worden gebruikt. A &#39;[!DNL Marketo Measure] Het rapporttype van personen- en kopersaanraakpunten is ideaal voor begrip _totale betrokkenheid_ aangezien het alle BT&#39;s behandelt of het BT op een lood of een Contact meer specifiek betrekking heeft. Bijvoorbeeld - als u een Campagne Salesforce hebt die wordt gebruikt om een Gebeurtenis te volgen, kunt u campagneleden binnen de Campagne van CRM hebben die of als Leidingen OF Contacten bestaan. [!DNL Marketo Measure] zal aanraakpunten creëren voor de campagneleden ongeacht wie, maar zonder [!DNL Marketo Measure] Persoonlijk, standaard zou de rapportering van Salesforce twee afzonderlijke rapporten vereisen om te begrijpen hoeveel _totaal_ Aanraakpunten die je hebt van de gebeurtenis: een die &#39;Leads with Buyer Touchpoints&#39; is en een die &#39;Contact with Buyer Touchpoints&#39; is. Enkele andere [!DNL Marketo Measure] Onderstaande lijst bevat gebruiksgevallen voor individuele rapportage:
 
 **3,1 [!DNL Marketo Measure] Personen die &#39;ebooks&#39; of &#39;whitepapers&#39; hebben gedownload (totale downloads)**
 
@@ -557,13 +557,13 @@ Wanneer het zoeken om het effect van de marketing op gesloten won Deals of geslo
 
 >[!NOTE]
 >
->Het aangepaste kenmerkingsmodel is een extra functie die niet voor alle klanten beschikbaar is. Neem contact op met het accountteam van Adobe (uw accountmanager) voor meer informatie over het toevoegen van deze functie aan uw account.
+>Het aangepaste kenmerkingsmodel is een extra functie die niet voor alle klanten beschikbaar is. Neem contact op met het accountteam van de Adobe (uw accountmanager) voor meer informatie over het toevoegen van deze functie aan uw account.
 
 Marktdeelnemers moeten meestal weten: &quot;Waar komen mijn kansen vandaan?&quot; Net als bij rapportage op hoofdniveau werd deze vraag historisch beantwoord met één eendimensionale waarde (bijvoorbeeld primaire campagnebron). We weten echter dat er veel meer gaat naar de ontwikkeling van een opportunity dan één aanraakpunt van één enkele contactpersoon. Er zijn typisch verscheidene aanraakpunten van diverse kanalen en door veelvoudige belanghebbenden die een Kans in verwezenlijking beïnvloeden. Met [!DNL Marketo Measure], kunnen we alle aanraakpunten van een account bekijken om te begrijpen waar een opportunity vandaan kwam. Daarna kunnen we echter elk aanraakpunt dat zich heeft voorgedaan nadat de Opportunity is gecreëerd en tot op het moment dat de Opportunity is is gesloten, aan de oppervlakte blijven. Op die manier kunnen we niet alleen een multi-touchbenadering gebruiken om te begrijpen waar een opportuniteit vandaan kwam, maar ook wat het heeft beïnvloed om af te sluiten en uiteindelijk een gesloten eigen inkomen te vertegenwoordigen. Dit geeft inzicht in verschillende vragen zoals, &quot;wat beïnvloedt marketing de invloed op het beïnvloeden van Deals om te sluiten?&quot;, &quot;welke marketing drijft gesloten Winst Winst.&quot; en uiteindelijk, &quot;welke van mijn marketing inspanningen zien het grootste ROI?&quot;
 
 ## AANBEVOLEN RAPPORTEN MET BEHULP VAN HET TOUCHPOINT VOOR DE KENMERK VAN DE KOPER (BAT) {#recommended-reports-using-the-buyer-attribution-touchpoint}
 
-**4,1 | Nieuwe kansen per marketingkanaal**
+**4,1 | Nieuwe Kanalen door het Kanaal van de Marketing**
 
 Het samenvatten van de gegevens van het Aanraakpunt van de Attributie van de Koper van Uw Kanalen door het gebied &quot;het Kanaal van de Marketing&quot;is de hoogste mening die vertegenwoordigt welke kanalen/tactieken nieuwe Kansen in verwezenlijking beïnvloeden. Door dit rapport te structureren rond een &#39;Date Type&#39; = &#39;Opportunity Created Date&#39; zorgt u ervoor dat we ook een overzicht geven van het rapport op basis van wanneer de Opportunity daadwerkelijk is gemaakt in uw CRM. De aanraakpunten kunnen van enige tijd eerder zijn geweest, maar zij zullen nog steeds betrekking hebben op de Kansen die binnen de bepaalde Waaier van de Datum zijn gecreeerd en zo attributietoekening ontvangen aangezien zij worden erkend als beïnvloedend de Kans.
 
@@ -607,7 +607,7 @@ Het samenvatten van de gegevens van het Aanraakpunt van de Attributie van de Kop
 
 >[!TIP]
 >
->Voor elk rapporttype &#39;Aanraakpunten voor koperskenmerk met opportuniteiten&#39; begint u met het aanpassen van het vooraf gebouwde rapport met de naam &#39;[!DNL Marketo Measure] 101 | Kanaalmogelijkheden&quot;. Dit rapport is beschikbaar uit-van-de doos en is een grote zandbak vooraf gebouwd zoals die in de lijst hierboven wordt beschreven en kan snel voor specifiekere rapporteringsbehoeften worden aangepast (het rapport gebruikt een Volledig model van de Weg uit-van-de-doos zodat zeker om het rapport aan te passen om een ander attributiemodel, in dit geval, het model W-Vormd) te omvatten.
+>Voor elk rapporttype &#39;Aanraakpunten voor koperskenmerk met opportuniteiten&#39; begint u met het aanpassen van het vooraf gebouwde rapport met de naam &#39;[!DNL Marketo Measure] 101 | Kanaal&quot;. Dit rapport is beschikbaar uit-van-de doos en is een grote zandbak vooraf gebouwd zoals die in de lijst hierboven wordt beschreven en kan snel voor specifiekere rapporteringsbehoeften worden aangepast (het rapport gebruikt een Volledig model van de Weg uit-van-de-doos zodat zeker om het rapport aan te passen om een ander attributiemodel, in dit geval, het model W-Vormd) te omvatten.
 
 >[!TIP]
 >
@@ -658,7 +658,7 @@ Het samenvatten van de gegevens van het Aanraakpunt van de Attributie van de Kop
  </tbody>
 </table>
 
-**4,2 | Overeenkomsten per marketingkanaal**
+**4,2 | Handelingen via marketingkanaal**
 
 Dit rapport zou in wezen het zelfde als het eerste Voorbeeld van het Aanraakpunt van de Attributie van de Koper (4.1) zijn behalve metrisch is nu veranderd van open Kansen in gesloten gewonnen Overeenkomsten. De metrische waarde moet altijd aangeven welk toewijzingsmodel moet worden gebruikt. Aangezien we nu naar gesloten won Deals en hun verwante BBTs bekijken, zouden wij een model moeten gebruiken dat de volledige reis van de koper (Overeenkomst) vertegenwoordigt. Hierdoor wordt gegarandeerd dat elke marketingaanraaktrack tijdens de reis van de koper een toeschrijving ontvangt:
 
@@ -723,9 +723,9 @@ De [!DNL Marketo Measure] Detectie-dashboards bestaan uit gegevens van aanraakpu
 
 Bij rapportage over investeringsrendement [!DNL Marketo Measure] Het wordt aanbevolen een Date Type = &quot;Touchpoint Date&quot; te gebruiken. Om het rendement van elke geïnvesteerde dollar te bepalen, moeten we ervoor zorgen dat de opbrengsten worden toegerekend aan de datum waarop de investering is gedaan. Het &quot;Type van Datum&quot;= &quot;Datum van het Aanraakpunt&quot;verzekert de rapporten op deze manier in tegenstelling tot wanneer de Kans werd gecreeerd (creeer Datum) of gesloten (gesloten Datum). Laten we eens nader kijken:
 
-De hieronder gemarkeerde filters zijn van cruciaal belang voor een ROI-rapport in [!DNL Marketo Measure] (Meestal zult u deze filters instellen in de printplaten &#39;Overzicht&#39;, &#39;CMO&#39; of &#39;ROI&#39;):
+De hieronder gemarkeerde filters zijn van cruciaal belang voor een ROI-rapport in [!DNL Marketo Measure] (Meestal zult u deze filters in het &quot;Overzicht&quot;plaatsen, &quot;CMO&quot;, of &quot;ROI&quot;planken):
 
-**5,1 | ROI in de Raad &quot;Overzicht&quot;**
+**5,1 | ROI in de Raad van het Overzicht**
 
 ![](assets/bizible-reporting-guide-4.png)
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874588
-description: Aangepaste campagnecorrectie - [!DNL Marketo Measure] - Productdocumentatie
+description: Aangepaste campagnecorrectie - [!DNL Marketo Measure]
 title: Aangepaste synchronisatie van campagnes
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ U kunt de aanraakpunten voor kopers en de aanraakpunten voor koperkenmerken in d
 
    ![](assets/8-1.png)
 
-1. Nadat u op [!UICONTROL Test]U ziet dan de naam van de campagne en het aantal campagneleden dat in aanmerking komt voor aanraakpunten. Hieronder ziet u een tabel met alle regels die overeenkomen met uw campagne-id. Alleen de overeenkomsten worden weergegeven.
+1. Nadat u op [!UICONTROL Test]U ziet dan de naam van de campagne en het aantal campagneleden dat in aanmerking komt voor aanspreekpunten. Hieronder ziet u een tabel met alle regels die overeenkomen met uw campagne-id. Alleen de overeenkomsten worden weergegeven.
 
    ![](assets/9.png)
 

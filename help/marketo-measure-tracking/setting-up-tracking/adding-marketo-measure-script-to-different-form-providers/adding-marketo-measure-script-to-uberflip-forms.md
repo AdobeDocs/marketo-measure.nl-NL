@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874749
-description: Toevoegen [!DNL Marketo Measure] Script naar [!DNL Uberflip] FORMS - [!DNL Marketo Measure] - Productdocumentatie
+description: Toevoegen [!DNL Marketo Measure] Script naar [!DNL Uberflip] FORMS - [!DNL Marketo Measure]
 title: Toevoegen [!DNL Marketo Measure] Script naar [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Als u momenteel [!DNL Uberflip] om uw inhoud te beheren, is het belangrijk dat u
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
-   U voegt deze preambule aan beide toe [!DNL Hubs.onLoad] en de [!DNL Hubs.onPageChange] AJAX JavaScript-gebeurtenishaken hieronder. (Opmerking: in deze gebeurtenishaken kunt u mogelijk ook andere codes gebruiken. Zorg dat u ook de preambule opneemt.)
+   u voegt deze preambule toe aan beide [!DNL Hubs.onLoad] en de [!DNL Hubs.onPageChange] AJAX JavaScript-gebeurtenishaken hieronder. (Opmerking: in deze gebeurtenishaken kunt u mogelijk ook andere codes gebruiken. Zorg dat u ook de preambule opneemt.)
 
    `Hubs.onLoad = function () {`
 

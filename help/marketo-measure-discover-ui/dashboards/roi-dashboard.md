@@ -3,7 +3,7 @@ description: ROI-dashboard - [!DNL Marketo Measure] - Product
 title: ROI Dashboard
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Het Dashboard van ROI voorziet marketers van een korrelige mening van rendemente
 
 Staafdiagram dat de kosten en opbrengsten weergeeft en dat is ontworpen om een vergelijkend perspectief te bieden op hun grootte ten opzichte van verschillende kanalen, subkanalen en campagnes.
 
-* Gebruik de functies voor uitboren en Omhoog om de gegevens te categoriseren op Subchannel en Campagne.
+* de functies voor uitvouwen en Omhoog gebruiken om de gegevens te categoriseren op Subkanaal en Campagne.
 * Houd de muisaanwijzer boven elke balk om de eenvoudige en gerealiseerde ROI&#39;s weer te geven.
 
 **Vragen over de antwoorden in het diagram**
@@ -72,7 +72,7 @@ De lijngrafiek van de tijdreeks die de vergelijking tussen Geregistreerde en Een
 
 Gestapelde staafgrafiek die de Totale Kosten toont, die door bijbehorende Kanalen voor elke Maand/Kwartaal/Jaar wordt gesegmenteerd.
 
-* Gebruik de functies voor het uitvouwen en Omhoog om de gegevens te categoriseren op maand, kwartaal of jaar.
+* de functies voor uitvouwen en Omhoog gebruiken om de gegevens te categoriseren op maand, kwartaal of jaar.
 * Houd de cursor boven een staafsegment of de ruimte tussen de staven om gedetailleerde informatie weer te geven.
 
 **Vragen over de antwoorden in het diagram**
@@ -86,7 +86,7 @@ Gestapelde staafgrafiek die de Totale Kosten toont, die door bijbehorende Kanale
 
 Staafdiagram met marketinguitgaven die zijn gesegmenteerd door Kanaal/Subkanaal/Campagne.
 
-* Gebruik de functies voor uitboren en Omhoog om de gegevens te categoriseren via Kanaal/Subkanaal/Campagne.
+* de functies voor uitvouwen en Omhoog gebruiken om de gegevens te categoriseren op Kanaal/Subkanaal/Campagne.
 
 **Vragen over de antwoorden in het diagram**
 

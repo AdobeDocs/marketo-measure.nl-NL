@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356962
-description: "[!DNL Marketo Measure] Lijst met bronnen - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Measure] Lijst met bronnen - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Lijst met bronnen"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -54,19 +54,19 @@ Hier zijn een paar video&#39;s die u helpen om op snelheid te komen:
 
 **[[!DNL Marketo Measure] 101](https://universityonline.marketo.com/courses/bizible-101/) (~30 minuten)**
 
-Deze cursusreeks wordt ontworpen als algemene inleiding aan de basisconcepten u zult moeten kennen om te leiden [!DNL Marketo Measure]. Het geeft een inleiding aan het concept van attributie, wat [!DNL Marketo Measure] als instrument en het algemene kader waarop [!DNL Marketo Measure] werkt.
+Deze cursusreeks wordt ontworpen als algemene inleiding aan de basisconcepten u zult moeten kennen aan meester [!DNL Marketo Measure]. Het geeft een inleiding aan het concept van attributie, wat [!DNL Marketo Measure] als instrument en het algemene kader waarop [!DNL Marketo Measure] werkt.
 
 Onderwerpen die worden behandeld:
 
 * Wat is kenmerk?
 * Wat is [!DNL Marketo Measure]
-* [!DNL Marketo Measure] Data
+* [!DNL Marketo Measure] Gegevens
 * Aanraakpunten
 * Attributievormen
 
 **[[!DNL Marketo Measure] Rapportage in SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45 minuten)**
 
-Deze cursusreeks is ontworpen als een inleiding op de [!DNL Marketo Measure] voorraadrapporten die in Salesforce zijn geïnstalleerd. Deze rapporten fungeren als de basis voor de meeste rapportages die u zult doen [!DNL Marketo Measure] gegevens.
+Deze cursusreeks is ontworpen als een inleiding op de [!DNL Marketo Measure] voorraadrapporten die in Salesforce zijn geïnstalleerd. Deze rapporten fungeren als de basis voor de meeste rapporten die u wilt uitvoeren [!DNL Marketo Measure] gegevens.
 
 Onderwerpen die worden behandeld:
 

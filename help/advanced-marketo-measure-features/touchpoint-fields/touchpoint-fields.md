@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37355835
-description: Aanraakpuntvelden - [!DNL Marketo Measure] - Productdocumentatie
+description: Aanraakpuntvelden - [!DNL Marketo Measure]
 title: Aanraakpuntvelden
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Nu we hebben geleerd hoe we die acties kunnen extraheren en toewijzen aan velden
 * Een berekend veld maken en dit veld het label Regio_Naam geven
 * Bepaal de regel door uit te beginnen met het zoeken naar uw geëxtraheerde veld. In dit geval: [!DNL Touchpoint.Region]
 * De operator &quot;[!UICONTROL maps to]&quot; omdat wij een afbeelding voor elk aantal aan zijn waarde willen creëren
-* U zult met een lijst worden voorgesteld om van elke afbeelding een lijst te maken. Uiteindelijk zal het er ongeveer als volgt uitzien:
+* U krijgt een tabel te zien waarin elke toewijzing wordt vermeld. Uiteindelijk zal het er ongeveer als volgt uitzien:
 * Op basis van de toewijzing en de bovenstaande URL zou &quot;Region_Value&quot; voor een aanraakpunt met deze landingspagina &quot;EMEA&quot; zijn
 * Herhaal de extractie en de toewijzing voor de resterende vier cijfersets
 
@@ -213,7 +213,7 @@ Vergeet niet uw regels op te slaan nadat u deze hebt gemaakt. Als u het nieuwe v
 
 **Welke uitdrukking gebruikt ik om veelvoudige parameters uit één enkele landingspagina te halen?**
 
-Net als in Voorbeeld nr. 4 van het Uittreksel, zult u veelvoudige gebieden moeten tot stand brengen om elk van de parameters te halen. Als u vijf verschillende waarden hebt, maakt u vijf aanraakpuntvelden om elk van deze te extraheren.
+Net als in Voorbeeld nr. 4 van het Uittreksel, moet u veelvoudige gebieden tot stand brengen om elk van de parameters te halen. Als u vijf verschillende waarden hebt, maakt u vijf aanraakpuntvelden om elk van deze te extraheren.
 
 **Waarom zie ik mijn nieuwe velden niet in de [!DNL Marketo Measure] schema?**
 

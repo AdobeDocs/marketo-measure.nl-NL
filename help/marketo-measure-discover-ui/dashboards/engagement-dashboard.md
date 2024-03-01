@@ -2,7 +2,7 @@
 description: Betrokkenheidsdashboard - [!DNL Marketo Measure] - Product
 title: Betrokkenheidsdashboard
 feature: Reporting
-source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Hiermee worden vragen gesteld aan het dashboard:
 
 In het staafdiagram van de tijdreeks wordt het aantal aanraakpunten, Personen met aanraakpunten en aanraakpunten per persoon voor elke maand, elk kwartaal en elk jaar weergegeven.
 
-* Gebruik de functies voor het uitvouwen en Omhoog om de gegevens te categoriseren op maand, kwartaal of jaar.
+* de functies voor uitvouwen en Omhoog gebruiken om de gegevens te categoriseren op maand, kwartaal of jaar.
 * Houd de muis boven een balk of lijn om gedetailleerde informatie weer te geven.
 
 Vragen in de grafiek:
@@ -50,7 +50,7 @@ Vragen in de grafiek:
 
 Staafdiagram waarin aanraakpunten of Personen met aanraakpunten worden weergegeven die zijn gesegmenteerd door Kanaal/Subkanaal/Campagne.
 
-* Gebruik de functies voor uitboren en Omhoog om de gegevens te categoriseren op Subchannel en Campagne.
+* de functies voor uitvouwen en Omhoog gebruiken om de gegevens te categoriseren op Subkanaal en Campagne.
 * Houd de muisaanwijzer boven elke balk om de aanraakpunten of de personen die u aanraakt, weer te geven.
 
 Vragen in de grafiek:

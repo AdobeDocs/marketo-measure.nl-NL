@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762310
-description: Historische gegevens synchroniseren - [!DNL Marketo Measure] - Productdocumentatie
+description: Historische gegevens synchroniseren - [!DNL Marketo Measure]
 title: Historische gegevens synchroniseren
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -67,15 +67,15 @@ De component voor kanaaltoewijzing voor historische online gegevens kan een beet
 
 Online gegevens die op deze manier worden toegevoegd, zijn van nature minder korrelig dan online gegevens [!DNL Marketo Measure] tracks via JavaScript. Velden zoals de URL van het formulier, de bestemmingspagina, de verwijzingspagina, enz. worden bijvoorbeeld niet gevuld. Daarom wordt aangeraden de campagnes zo mogelijk over elke bron te verdelen. Zoals in het voorbeeld hierboven wordt gezien, zou u veelvoudige Types van Campagne voor elke bron moeten hebben om granulariteit in rapportering te hebben.
 
-Het zou niet mogelijk of redelijk kunnen zijn om het aantal Types van Campagne SFDC te hebben om korrelige kanaalafbeelding te steunen, zodat kunt u aan enkel afbeelding aan het niveau van het Kanaal en het negeren van subkanalen toevallen. Als het kanaalniveau ook niet bekend is, kunt u een proxykanaal instellen als &quot;Historiaal digitaal&quot;, zodat u tenminste weet dat het een online aanraking was.
+Het zou niet mogelijk of redelijk kunnen zijn om het aantal Types van Campagne SFDC te hebben om korrelige kanaalafbeelding te steunen, zodat kunt u aan enkel afbeelding aan het niveau van het Kanaal en het negeren van subkanalen toevallen. Als het kanaalniveau ook niet bekend is, kunt u een proxykanaal instellen zoals &quot;Historisch digitaal&quot;, zodat u tenminste weet dat het een online aanraking was.
 
-Als u de aanraakpuntdatum die voor deze historische online inspanningen zal worden geduwd op grote schaal moet bewerken, kunt u de [!DNL Marketo Measure] aangepast &quot;[!UICONTROL Bulk Update Touchpoint Date]&quot; (dit is beschikbaar als een aangepast veld op het Campagneobject in SFDC). Als de campagne een korte tijdspanne heeft, zou het misschien nuttig zijn om de aanraakpuntdatum op een dag door daginterval uit te geven, terwijl het zou kunnen logisch zijn om wekelijks massale update als de Campagne een langere tijdspanne heeft. Als u de functie Aanraakdatum bulkupdate wel gebruikt, moet u de regel Campagne synchroniseren bijwerken bijwerken zodat u de datum van het aanraakpunt voor kopers kunt gebruiken in het datumveld. Houd er rekening mee dat u hiervoor creatief moet zijn met de regels voor Campagne Sync als dit alleen van toepassing is op een campagne of twee en niet alle.
+Als u de aanraakpuntdatum die voor deze historische online inspanningen zal worden geduwd op grote schaal moet bewerken, gebruikt u de [!DNL Marketo Measure] aangepast &quot;[!UICONTROL Bulk Update Touchpoint Date]&quot; (dit is beschikbaar als een aangepast veld op het Campagneobject in SFDC). Als de campagne een korte tijdspanne heeft, zou het misschien nuttig zijn om de aanraakpuntdatum op een dag door daginterval uit te geven, terwijl het zou kunnen logisch zijn om wekelijks massale update als de Campagne een langere tijdspanne heeft. Als u wel de functie Aanraakpunt datum bulkupdate gebruikt, moet u de regel Campagne synchroniseren bijwerken zodat u de datum van het aanraakpunt voor kopers in het datumveld kunt gebruiken. Houd er rekening mee dat u hiervoor creatief moet zijn met de regels voor Campagne Sync als dit alleen van toepassing is op een campagne of twee en niet alle.
 
 **Off line:**
 
-Historische gegevens over offlinemarketingactiviteiten (die niet via JavaScript kunnen worden bijgehouden) moeten ook in SFDC-campagnes worden georganiseerd. SFDC-campagnes zijn de weg [!DNL Marketo Measure] houdt off-line inspanningen ongeacht als de activiteit &quot;historisch&quot;of &quot;huidig/post is[!DNL Marketo Measure] implementatie&quot;. Volg daarom dezelfde kanaaltoewijzing als in de oorspronkelijke training voor offlinekanaalconfiguratie is vastgelegd.
+Historische gegevens over offlinemarketingactiviteiten (die niet via JavaScript kunnen worden bijgehouden) moeten ook in SFDC-campagnes worden georganiseerd. SFDC-campagnes zijn de weg [!DNL Marketo Measure] houdt off-line inspanningen ongeacht als de activiteit &quot;historisch&quot;of &quot;huidig/post is[!DNL Marketo Measure] implementatie&quot; volgt dus dezelfde kanaaltoewijzing als in de oorspronkelijke training voor offlinekanaalconfiguratie is vastgelegd.
 
-Indien nodig gebruikt u de knop Aanraakpunt datum bulkupdate om de aanraakpuntdatum voor campagsleden in massa te wijzigen. Bijvoorbeeld, als u campagnes SFDC na gebeurtenis voorkwam-u zou willen massa uitgeven voor de correcte datum. Als u de functie Aanraakdatum bulkupdate wel gebruikt, moet u de regel Campagne synchroniseren bijwerken bijwerken zodat u de datum van het aanraakpunt voor kopers kunt gebruiken in het datumveld. Houd er rekening mee dat u hiervoor creatief moet zijn met de regels voor Campagne Sync als dit alleen van toepassing is op een campagne of twee en niet alle.
+Indien nodig gebruikt u de knop Aanraakpunt datum bulkupdate om de aanraakpuntdatum voor campagsleden in massa te wijzigen. Bijvoorbeeld, als u campagnes SFDC na gebeurtenis voorkwam-u zou willen massa uitgeven voor de correcte datum. Als u wel de functie Aanraakpunt datum bulkupdate gebruikt, moet u de regel Campagne synchroniseren bijwerken zodat u de datum van het aanraakpunt voor kopers in het datumveld kunt gebruiken. Houd er rekening mee dat u hiervoor creatief moet zijn met de regels voor Campagne Sync als dit alleen van toepassing is op een campagne of twee en niet alle.
 
 ## Historische campagnes synchroniseren in [!DNL Dynamics] {#syncing-historic-campaigns-in-dynamics}
 

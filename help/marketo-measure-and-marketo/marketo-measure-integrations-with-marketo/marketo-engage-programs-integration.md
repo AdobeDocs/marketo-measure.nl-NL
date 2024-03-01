@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] Integratie van programma's - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Engage] Integratie van programma's - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Programmaintegratie"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Alle lagen.
 
    ![](assets/two.png)
 
-1. U kunt desgewenst een naam voor de regel instellen als u deze beter kunt bijhouden. U zult eerst het gebied selecteren om uw regel van de lijst van de gebieden van het Programma en van het Lidmaatschap van het Programma te bepalen. Ga door met het bouwen van de regel door de operator en de verwachte waarde te selecteren.
+1. U kunt desgewenst een naam voor de regel instellen als u deze beter kunt bijhouden. u zult eerst het gebied selecteren om uw regel van de lijst van het Programma en de gebieden van het Lidmaatschap van het Programma te bepalen. Ga door met het bouwen van de regel door de operator en de verwachte waarde te selecteren.
 
    ![](assets/three.png)
 
@@ -85,7 +85,7 @@ Van de lijst van de Kanalen van het Programma van Marketo, zult u de waarden aan
 
 1. Starten door te navigeren naar **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Offline Channels]**.
 
-1. Bovenaan, zult u de optie hebben om aan uw Types van Campagne van CRM in kaart te brengen, dan onderaan, zult u de opties voor uw Kanalen van het Programma van Marketo zien.
+1. Bovenaan hebt u de optie om een toewijzing te maken aan uw CRM-cameratypen, en onderaan ziet u de opties voor uw Marketo-programmakanalen.
 
 1. Selecteer eerst het kanaal dat aan de waarde zou moeten in kaart brengen, dan naar keuze Subchannel. Als u klaar bent, klikt u **[!UICONTROL Save]** onderaan.
 
@@ -169,7 +169,7 @@ Als u het automatisch aanvullen wilt activeren, begint u met het invoeren van ee
 
 **Als ik regels van het Marketo-programma stel en ook regels voor CRM-campagne heb, tellen ze dan twee keer?**
 
-Het hangt van uw regeldefinitie af, maar misschien, ja. U zult uw regelreeks willen evalueren zodat u geen regels hebt die een Programma en een Campagne behandelen omdat wij niet voor gelijkaardige lidmaatschappen zullen dedupliceren of ontdekken. Een mogelijke oplossing is om uw regels voor campagnes over te brengen naar Programma&#39;s als u wilt dat Marketo uw enige bron van waarheid is, en vervolgens de regels voor campagnes te verwijderen. Een andere optie is om de criteria &quot;CreatedOn&quot;of &quot;CreatedDate&quot;in uw regels toe te voegen zodat de regels vóór een bepaalde datum de regels en de regels van de Campagne na een bepaalde datum zullen gebruiken de regels van het Programma. Er zijn veel problemen, maar er zal enige planning en coördinatie nodig zijn.
+Het hangt van uw regeldefinitie af, maar misschien, ja. u zult uw regelreeks willen evalueren zodat u geen regels hebt die een Programma en een Campagne behandelen omdat wij niet voor gelijkaardige lidmaatschappen zullen dedupliceren of ontdekken. Een mogelijke oplossing is om uw regels voor campagnes over te brengen naar Programma&#39;s als u wilt dat Marketo uw enige bron van waarheid is, en vervolgens de regels voor campagnes te verwijderen. Een andere optie is om de criteria &quot;CreatedOn&quot;of &quot;CreatedDate&quot;in uw regels toe te voegen zodat de regels vóór een bepaalde datum de regels en de regels van de Campagne na een bepaalde datum zullen gebruiken de regels van het Programma. Er zijn veel problemen, maar er zal enige planning en coördinatie nodig zijn.
 
 **Zijn aangepaste velden voor Marketo-lidmaatschap beschikbaar om te definiëren?**
 

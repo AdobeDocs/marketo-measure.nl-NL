@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874634
-description: Records dupliceren in Mijn rapport - [!DNL Marketo Measure] - Productdocumentatie
+description: Records dupliceren in Mijn rapport - [!DNL Marketo Measure]
 title: Records dupliceren in Mijn rapport
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie , maar nog steeds &quot;[!DNL Bizible]&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar nog steeds &quot;[!DNL Bizible]&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 Terwijl u in de [!DNL Marketo Measure] Rapporten in [!DNL Salesforce], kun je beginnen naar dubbele records in je rapporten te zoeken. U zult dit gevoel waarschijnlijk ervaren wanneer u een beoordeling uitvoert [!DNL Marketo Measure] out-of-the-box rapporten.
 
-Wanneer u rapporteert met het object Aanraakpunten koper of het object Aanraakpunt koperkenmerk, is het belangrijk om te begrijpen dat u niet langer rapporteert over het aantal leads, contactpersonen of mogelijkheden, maar dat u wel rapporteert over het aantal aanraakpunten voor kopers of aanraakpunten voor koperkenmerken die aan die standaardobjecten zijn gekoppeld (leads, contactpersonen, mogelijkheden).
+Wanneer u rapporteert met het object Aanraakpunten koper of het object Aanraakpunt koperkenmerk, is het belangrijk om te begrijpen dat u niet langer rapporteert over het aantal leads, contactpersonen of mogelijkheden, maar dat u wel rapporteert over het aantal aanraakpunten voor kopers of aanraakpunten voor koperkenmerken die aan deze standaardobjecten zijn gekoppeld (leads, contactpersonen, mogelijkheden).
 
 Neem het volgende rapport als voorbeeld:
 

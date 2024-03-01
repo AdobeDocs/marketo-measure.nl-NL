@@ -4,9 +4,9 @@ description: "[!DNL Microsoft Dynamics] CRM Installation Guide - Marketo Measure
 title: "[!DNL Microsoft Dynamics] CRM Installation Guide"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie, maar zie nog &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 ## Ondersteunde versies {#supported-versions}
 
@@ -51,7 +51,7 @@ We raden u aan een speciale Marketo Measure-gebruiker als een &#39;Application U
 
 ## Beveiligingsrollen {#security-roles}
 
-Als uw organisatie de Rollen van de Veiligheid van de Dynamiek gebruikt, gelieve de verbonden gebruiker, of specifiek te controleren [!DNL Marketo Measure] De gebruiker heeft voldoende lees-/schrijfmachtigingen voor de vereiste entiteiten.
+Als uw organisatie de Rollen van de Veiligheid van de Dynamiek gebruikt, zorg ervoor de verbonden gebruiker, of specifiek [!DNL Marketo Measure] De gebruiker heeft voldoende lees-/schrijfmachtigingen voor de vereiste entiteiten.
 
 Beveiligingsrollen bevinden zich hier: **[!UICONTROL Settings]** > **[!UICONTROL Security]** > **[!UICONTROL Security Roles]**.
 
@@ -63,7 +63,7 @@ Voor [!DNL Marketo Measure] aangepaste entiteiten hebben we volledige machtiging
 
 ![](assets/4.png)
 
-Raadpleeg voor dynamische standaardeenheden de [!DNL Marketo Measure] Dynamisch schema-document. Op hoog niveau [!DNL Marketo Measure] moet alleen in bepaalde entiteiten lezen om de juiste gegevens te verzamelen en naar aangepaste velden te schrijven die met de beheerde oplossing worden geïnstalleerd. We maken geen nieuwe standaardrecords en we werken ook geen standaardvelden bij.
+Voor de standaardeenheden van Dynamica raadpleegt u de [!DNL Marketo Measure] Dynamisch schema-document. Op hoog niveau [!DNL Marketo Measure] moet alleen in bepaalde entiteiten lezen om de juiste gegevens te verzamelen en naar aangepaste velden te schrijven die met de beheerde oplossing worden geïnstalleerd. We maken geen nieuwe standaardrecords en we werken ook geen standaardvelden bij.
 
 ## Aanraakpunten opnemen op pagina-indelingen: {#include-touchpoints-on-page-layouts}
 
@@ -94,11 +94,11 @@ Raadpleeg voor dynamische standaardeenheden de [!DNL Marketo Measure] Dynamisch 
 
 **Ontvangsten**
 
-[!DNL Marketo Measure] verwijst standaard naar het veld Werkelijke ontvangsten. Als u dit niet gebruikt, gelieve te verklaren hoe u over opbrengst aan uw Ingenieur van Oplossingen of de Manager van het Succes als douanewerkschema zult melden nodig zijn.
+[!DNL Marketo Measure] verwijst standaard naar het veld Werkelijke ontvangsten. Als u dit niet gebruikt, verklaar hoe u over opbrengst aan uw Ingenieur van Oplossingen of de Manager van het Succes als douanewerkschema zult worden gemeld nodig.
 
 **Datum sluiten**
 
-[!DNL Marketo Measure] verwijst naar het veld Datum feitelijk sluiten buiten het vak. Als u dit niet gebruikt of ook het Geschatte Dichte gebied van de Datum gebruikt, gelieve uw proces aan uw Ingenieur van Oplossingen of de Manager van het Succes uit te leggen. Voor beide velden kan een aangepaste workflow nodig zijn.
+[!DNL Marketo Measure] verwijst naar het veld Datum feitelijk sluiten buiten het vak. Als u dit niet gebruikt of ook het Geschatte Dichte gebied van de Datum gebruikt, verklaar uw proces aan uw Ingenieur van Oplossingen of de Manager van het Succes. Voor beide velden kan een aangepaste workflow nodig zijn.
 
 ## Verbindingen en gegevensproviders configureren {#configuring-your-connections-and-data-providers}
 
@@ -128,7 +128,7 @@ Nadat u zich bij hebt aangemeld [!DNL Marketo Measure] en zijn ingesteld als een
 
    >[!NOTE]
    >
-   >Ga voor meer informatie over OAuth naar [dit artikel](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). Neem contact op met uw [!DNL Marketo Measure] Accountvertegenwoordiger.
+   >Ga voor meer informatie over OAuth naar [dit artikel](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). Als u vragen hebt over het proces, neemt u contact op met uw [!DNL Marketo Measure] Accountvertegenwoordiger.
 
 1. In dit voorbeeld hebben we Credentials gekozen. Voer uw gegevens in en klik op **[!UICONTROL Next]**.
 
@@ -174,7 +174,7 @@ Om [!DNL Marketo Measure] om uw Webactiviteiten te volgen, zijn er veelvoudige s
 
    >[!NOTE]
    >
-   >Als u het exporteren van gegevens naar Dynamics uitschakelt, worden er geen bestaande gegevens verwijderd. Neem contact op met de afdeling Dynamische ondersteuning voor hulp bij het verwijderen van bestaande gegevens.
+   >Als u het exporteren van gegevens naar Dynamics uitschakelt, worden er geen bestaande gegevens verwijderd. Voor hulp bij het verwijderen van bestaande gegevens, contacteer de Steun van de Dynamiek.
 
    >[!MORELIKETHIS]
    >

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874564
-description: Definitie van [!DNL Marketo Measure] Websessies - [!DNL Marketo Measure] - Productdocumentatie
+description: Definitie van [!DNL Marketo Measure] Websessies - [!DNL Marketo Measure]
 title: Definitie van [!DNL Marketo Measure] Websessies
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Momenteel [!DNL Marketo Measure] beschouwt paginanavigatie en formulierverzendin
 
 Elke keer dat een bezoeker via een verwijzende website of een sociaal kanaal naar uw website komt, wordt een nieuwe sessie gestart.
 
-Zeg dat Haley op LinkedIn is, klikt op een [!DNL Marketo Measure] post en wordt omgeleid naar de website van Adobe. Daarna, terwijl u doorbladert [!DNL Facebook], Haley ziet er een [!DNL Marketo Measure] post. Wanneer ze op dit bericht klikt en naar de site Adobe wordt omgeleid, veroorzaakt dit de eerste websessie die te maken heeft met [!DNL LinkedIn] om te beëindigen, en een nieuwe zitting met betrekking tot [!DNL Facebook] begint.
+Zeg dat Haley op LinkedIn is, klikt op een [!DNL Marketo Measure] post en wordt omgeleid naar de website van de Adobe. Daarna, terwijl u doorbladert [!DNL Facebook], Haley ziet er een [!DNL Marketo Measure] post. Wanneer ze op dit bericht klikt en naar de site van de Adobe wordt omgeleid, veroorzaakt dit de eerste websessie die betrekking heeft op [!DNL LinkedIn] om te beëindigen, en een nieuwe zitting met betrekking tot [!DNL Facebook] begint.
 
 **Betaalde of organische zoekkanalen**
 
@@ -64,6 +64,6 @@ Als Haley&#39;s eerste websessie begint als resultaat van een bezoek van een ver
 
 _Echter_, als Haley&#39;s eerste websessie voortkwam uit Web Direct, en dan bezoekt ze de website via _een externe/verwijzingslocatie_, eindigt de eerste sessie en wordt een nieuwe sessie geopend met betrekking tot de externe site/verwijzingssite.
 
-## Google Analytics sessies {#google-analytics-sessions}
+## Googles Analytics sessies {#google-analytics-sessions}
 
-Er zijn enkele overeenkomsten met hoe [!DNL Marketo Measure] en Google Analytics definieert sessies. Ga voor meer informatie over hoe Google Analytics sessies definiëren naar: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}
+Er zijn enkele overeenkomsten met hoe [!DNL Marketo Measure] en Googles Analytics definiëren sessies. Ga voor meer informatie over hoe Googles Analytics sessies definiëren naar: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}

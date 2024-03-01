@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874793
-description: Met een veld Aangepaste inkomstenbedrag - [!DNL Marketo Measure] - Productdocumentatie
+description: Met een veld Aangepaste inkomstenbedrag - [!DNL Marketo Measure]
 title: Een veld Aangepaste omzettingsbedrag gebruiken
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ De volgende stappen gelden voor gebruikers van Salesforce Lightning. Als u Sales
 
 De volgende stappen gelden voor gebruikers van Salesforce Classic. Als u op Salesforce Lightning hebt overgegaan, die stappen [kan hierboven worden gevonden](#create-the-workflow-in-salesforce-lightning).
 
-1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Workflow & Approvals]** > **[!UICONTROL Workflow Rules]**.
+1. Navigeren naar **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Workflow & Approvals]** > **[!UICONTROL Workflow Rules]**.
 
    ![](assets/using-a-custom-revenue-amount-field-10.png)
 
@@ -100,10 +100,10 @@ De volgende stappen gelden voor gebruikers van Salesforce Classic. Als u op Sale
 
    ![](assets/using-a-custom-revenue-amount-field-15.png)
 
-1. U wordt teruggebracht naar een roll-up pagina voor uw werkschema, zeker om &quot;te activeren&quot;en u zult goed zijn om te gaan. Klik op **[!UICONTROL Edit]** naast uw nieuwe workflow en klik vervolgens op **[!UICONTROL Activate]**.
+1. u wordt teruggebracht naar een roll-up pagina voor uw werkschema, zeker ben om &quot;te activeren&quot;en u zult goed zijn te gaan. Klik op **[!UICONTROL Edit]** naast uw nieuwe workflow en klik vervolgens op **[!UICONTROL Activate]**.
 
    Zodra u deze stappen hebt voltooid, zullen de kansen moeten worden bijgewerkt om het werkschema teweeg te brengen om de nieuwe waarde van te hebben [!UICONTROL custom opportunity] veld.
 
    Dit kan worden verwezenlijkt door uw kansen door de Lader van Gegevens binnen SFDC in werking te stellen. Meer informatie over het gebruik van Data Loader vindt u in [dit artikel](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Als er onderweg vragen zijn, aarzel dan niet contact op te nemen met het accountteam van de Adobe (uw accountmanager) of [[!DNL Marketo] Ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Als er onderweg vragen zijn, aarzel dan niet om het accountteam van de Adobe (uw accountmanager) of [[!DNL Marketo] Ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

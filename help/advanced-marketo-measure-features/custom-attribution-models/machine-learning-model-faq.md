@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874775
-description: Veelgestelde vragen over het leermodel voor machines - [!DNL Marketo Measure] - Productdocumentatie
+description: Veelgestelde vragen over het leermodel voor machines - [!DNL Marketo Measure]
 title: Veelgestelde vragen over het leermodel voor machines
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Het toewijzen van 10% toewijzingskrediet aan Middle Touches is een standaardinst
 
 Wanneer moet ik mijn attributiedistributie wijzigen?
 
-Neem contact op met uw accountmanager om de implicaties van het wijzigen van de toewijzingspercentages te bespreken, en de stappen die u wilt opnemen in uw aangepaste model. Elk [!DNL Salesforce] en het verkoopproces is uniek, en wij willen ervoor zorgen dat uw douanemodel correct wordt gemodelleerd.
+Neem contact op met uw accountmanager om de gevolgen van het wijzigen van de toewijzingspercentages te bespreken, en welke stappen u wilt opnemen in uw aangepaste model. Elk [!DNL Salesforce] en het verkoopproces is uniek, en wij willen ervoor zorgen dat uw douanemodel correct wordt gemodelleerd.
 
 Dit gezegd hebbende, hebben wij enkele algemene tendensen over onze klanten geïdentificeerd:
 
@@ -55,4 +55,4 @@ Eén trend die we hebben opgemerkt, is dat het niet altijd nuttig is om meer sta
 
 We hebben ook gemerkt dat er een hoge conversiesnelheid is van &#39;Lead Creation&#39; naar &#39;Marketing Qualified phase&#39; (gekwalificeerd voor marketing). Hierdoor kan de toewijzingscoëfficiënt voor het stadium &#39;Marketing Qualified&#39; lager zijn. Afhankelijk van uw bedrijfs en verkoopcyclus, kan het nuttig zijn om dit stadium uit het douanemodel te verwijderen.
 
-Houd er rekening mee dat als u marketingactiviteiten wilt bijhouden via een specifieke overgangsfase, maar u niet wilt dat dit stadium toekent aan creditering, u dit stadium in uw model kunt opnemen en een toewijzingkrediet van 0% aan dat stadium kunt toewijzen.
+Houd er rekening mee dat als u marketingactiviteiten wilt bijhouden via een specifieke overgangsfase, maar u niet wilt dat dit stadium toekent aan creditering, u dit stadium in uw model kunt opnemen en een toewijzingkrediet van 0% aan dat stadium wilt toewijzen.

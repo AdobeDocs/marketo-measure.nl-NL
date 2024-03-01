@@ -1,19 +1,19 @@
 ---
 unique-page-id: 18874600
-description: Offlinecampagnes synchroniseren - [!DNL Marketo Measure] - Productdocumentatie
+description: Offlinecampagnes synchroniseren - [!DNL Marketo Measure]
 title: Offlinecampagnes synchroniseren
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
 
 # Offlinecampagnes synchroniseren {#syncing-offline-campaigns}
 
-Het kan moeilijk zijn om offline campagnes nauwkeurig te volgen en te begrijpen hoe zij met uw digitale marketing inspanningen vergelijken. [!DNL Marketo Measure] kunt u aanraakpunten bijhouden en koppelen aan uw offlinecampagnes in [!DNL Salesforce], zelfs in situaties waarin [!DNL Salesforce] de campagne wordt pas een paar weken na de gebeurtenis gemaakt.
+Het kan moeilijk zijn om offline campagnes nauwkeurig te volgen en te begrijpen hoe zij met uw digitale marketing inspanningen vergelijken. [!DNL Marketo Measure] kunt u aanraakpunten bijhouden en koppelen aan uw offlinecampagnes in [!DNL Salesforce], zelfs in situaties waarin [!DNL Salesforce] wordt pas een paar weken na de gebeurtenis gemaakt.
 
 >[!NOTE]
 >

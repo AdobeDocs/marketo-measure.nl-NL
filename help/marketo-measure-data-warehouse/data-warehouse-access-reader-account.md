@@ -3,9 +3,9 @@ description: Toegang tot Data Warehouse - account Reader - productdocumentatie
 title: Toegang tot Data Warehouse - Account Reader
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Om tot uw Snowflake gegevenspakhuis toegang te hebben, zult u aan specifieke URL
 
    ![](assets/data-warehouse-access-reader-account-2.png)
 
-1. Op deze pagina, zult u de verbinding aan uw Snowflake gegevenspakhuis en uw gebruikersbenaming vinden.
+1. Op deze pagina, zult u de verbinding aan uw het gegevenspakhuis van de Snowflake en uw gebruikersbenaming vinden.
 
    ![](assets/data-warehouse-access-reader-account-3.png)
 
@@ -32,7 +32,7 @@ Om tot uw Snowflake gegevenspakhuis toegang te hebben, zult u aan specifieke URL
    >
    >Dit is een alleen-lezen account dat beschikbaar is voor uw organisatie, en niet alleen voor een individuele gebruiker. Elke gebruiker binnen uw organisatie die toegang heeft tot [!DNL Marketo Measure] U kunt dit account gebruiken om u aan te melden bij de account van de Snowflake Data Warehouse reader.
 
-1. Klik op de koppeling in de URL van de Snowflake. Hiermee gaat u naar de aanmeldingspagina van de Snowflake waar u uw gebruikersnaam en wachtwoord kunt invoeren. _Als u uw wachtwoord niet hebt, zie de stappen hieronder om het terug te stellen_.
+1. Klik op de koppeling in de URL van de Snowflake. Hiermee gaat u naar de aanmeldingspagina van de Snowflake waar u uw gebruikersnaam en wachtwoord wilt invoeren. _Als u uw wachtwoord niet hebt, zie de stappen hieronder om het terug te stellen_.
 
    ![](assets/data-warehouse-access-reader-account-4.png)
 
@@ -59,7 +59,7 @@ Om tot uw Snowflake gegevenspakhuis toegang te hebben, zult u aan specifieke URL
 
 ## Verbinding maken met Snowflake via hulpmiddelen van derden {#connecting-to-snowflake-via-third-party-tools}
 
-U zult een paar stukken van informatie moeten ingaan om uw Snowflake gegevenspakhuis met een derdehulpmiddel te verbinden.
+u zult een paar stukken van informatie moeten ingaan om uw Snowflake gegevenspakhuis met een derdehulpmiddel te verbinden.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ U zult een paar stukken van informatie moeten ingaan om uw Snowflake gegevenspak
 * **Gebruikersnaam** (altijd vereist)
    * De gebruikersnaam wordt vermeld op de pagina met informatie over de Data Warehouse in [!DNL Marketo Measure].
 * **Wachtwoord** (altijd vereist)
-   * Dit is het wachtwoord dat u instelt wanneer u zich voor het eerst hebt aangemeld bij uw account voor Snowflaken.  Als u uw wachtwoord opnieuw wilt instellen, raadpleegt u de bovenstaande stappen.
+   * Dit is het wachtwoord dat u instelt wanneer u zich voor het eerst hebt aangemeld bij uw account voor Snowflaken.  Zie de bovenstaande stappen om uw wachtwoord opnieuw in te stellen.
 * **Databasenaam** (niet altijd vereist)
    * De database is wat de gegevens in Snowflake opslaat. Het is de opslagbron. De databasenaam wordt vermeld op de pagina met informatie over de Data Warehouse in [!DNL Marketo Measure].
 * **Warehouse-naam** (niet altijd vereist)

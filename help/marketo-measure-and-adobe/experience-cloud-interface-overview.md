@@ -1,11 +1,11 @@
 ---
-description: Overzicht Adobe Experience Cloud Interface [!DNL Marketo Measure] - Productdocumentatie
+description: Overzicht Adobe Experience Cloud Interface [!DNL Marketo Measure]
 title: Overzicht Adobe Experience Cloud Interface
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Als je _niet_ al aangemeld bij een Adobe Experience Cloud-product, rechtstreeks 
 
 ## Nieuwe functies {#new-features}
 
-Naast de bijgewerkte look en feel zult u de volgende functies opmerken:
+Naast de bijgewerkte look and feel, ziet u de volgende functies:
 
 **Domeinbeheer**
 
@@ -44,13 +44,13 @@ Zoeken naar ondersteuningsartikelen, tickets verzenden, feedback geven vanuit de
 
 **Application Switcher**
 
-Diegenen met toegang tot meerdere Adobe-producten kunnen gemakkelijk van elkaar wisselen.
+Diegenen die toegang hebben tot producten met meerdere Adoben kunnen gemakkelijk van elkaar wisselen.
 
 ![](assets/unified-shell-overview-7.png)
 
 **Meldingen en aankondigingen**
 
-Bekijk en communiceer rechtstreeks in de toepassing met productspecifieke meldingen en algemene productaankondigingen van Adobe.
+Bekijk en communiceer rechtstreeks in de toepassing met productspecifieke meldingen en algemene productaankondigingen van de Adobe.
 
 ![](assets/unified-shell-overview-8.png)
 
@@ -58,7 +58,7 @@ Bekijk en communiceer rechtstreeks in de toepassing met productspecifieke meldin
 
 **Adobe-instellingen**
 
-Klik op het profielpictogram om de taal of andere voorkeuren voor de hele Adobe te wijzigen. U kunt ook [!DNL Marketo Measure]-specifieke wijzigingen door te klikken **Mijn instellingen**.
+Als u uw taal of andere voorkeuren voor de hele Adobe wilt wijzigen, klikt u op het profielpictogram. U kunt ook [!DNL Marketo Measure]-specifieke wijzigingen door te klikken **Mijn instellingen**.
 
 ![](assets/unified-shell-overview-10.png)
 
@@ -68,10 +68,10 @@ Klik op het profielpictogram om de taal of andere voorkeuren voor de hele Adobe 
 
 Bladwijzers worden omgeleid. Als u bijvoorbeeld naar https://apps.marketo-measure.com/Discover/391 wilt navigeren, wordt u na het voltooien van de verificatie omgeleid naar https://experience.adobe.com/marketo-measure/Discover/391.
 
-**Ik kan me niet aanmelden bij [!DNL Marketo Measure] via de Experience Cloud Interface. Wat zou het probleem kunnen zijn?**
+**Ik kan me niet aanmelden bij [!DNL Marketo Measure] via de interface van het Experience Cloud. Wat zou het probleem kunnen zijn?**
 
-Als u zich kunt aanmelden bij Adobe Experience Cloud, maar de pagina als volgt ziet, kan de uitgave zich voordoen op het tabblad [!DNL Marketo Measure] zijde:
+Als u zich kunt aanmelden bij Adobe Experience Cloud, maar een pagina ziet zoals in het volgende voorbeeld, kan het probleem zich voordoen op het tabblad [!DNL Marketo Measure] zijde:
 
 ![](assets/unified-shell-overview-11.png)
 
-Als u de bovenstaande fout ontvangt, gelieve [contactondersteuning](https://nation.marketo.com/t5/support/ct-p/Support) voor hulp.
+Als u de bovenstaande fout ontvangt, [contactondersteuning](https://nation.marketo.com/t5/support/ct-p/Support) voor hulp.

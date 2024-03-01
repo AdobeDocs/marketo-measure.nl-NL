@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874730
-description: Overzicht van marketing op basis van account - [!DNL Marketo Measure] - Productdocumentatie
+description: Meer informatie over Account-Based Marketing (ABM) en hoe Adobe Marketo Measure marketingteams en verkoopteams helpt succesvolle ABM-strategieën uit te voeren.
 title: Overzicht van accountgebaseerde marketing
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
 
 # Overzicht van accountgebaseerde marketing {#account-based-marketing-overview}
 
-Hieronder volgt een kort overzicht van ABM, de componenten van het [!DNL Marketo Measure] ABM-functie en hoe u deze aan uw [!DNL Salesforce] pagina-indeling. Kijk uit voor meer informatie over ABM [deze pagina](https://www.marketo.com/account-based-marketing/){target="_blank"}.
+De volgende secties geven een kort overzicht van ABM, de componenten van de [!DNL Marketo Measure] ABM-functie en hoe u deze aan uw [!DNL Salesforce] pagina-indeling. Raadpleeg de Adobe voor meer informatie over ABM [ABM-blog](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
 
-Ga rechtstreeks naar de instructies voor het instellen van ABM in uw [!DNL Salesforce] instantie, alstublieft [klik hier](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
+Voor gedetailleerde instructies voor het instellen van ABM in uw [!DNL Salesforce] -instantie, ga naar [ABM-paginalay-out instellen in Salesforce](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## Wat is ABM {#what-is-abm}
 
@@ -23,12 +23,12 @@ Op account gebaseerde marketing, ABM, is een marketingstrategie waarbij je je ri
 
 Als u wilt dat ons marketingmodel op basis van account uw CRM invult, [!DNL Marketo Measure] moet aan de volgende criteria worden voldaan:
 
-* Uw CRM heeft minstens 25 Rekeningen nodig die minstens één Gesloten Kans van de Won op hen hebben, zodat kunnen wij beter de gemeenschappelijkheden van een &quot;succesvolle&quot;Rekening/Kans aan uw zaken meten.
-* Aan de andere kant van de munt heeft uw CRM minstens 25 Accounts nodig zonder gesloten Won Opportunity (alle opps moeten ofwel in onze categorie &quot;Open&quot; staan, ofwel in de categorie &quot;Closed Lost&quot;. Dit helpt ons om te bepalen wat een lagere account in uw organisatie maakt.
+* Uw CRM heeft minstens 25 Rekeningen nodig die minstens één Gesloten Kans van de Won op hen hebben, om de gemeenschappelijkheid van een &quot;succesvolle&quot;Rekening/Kans aan uw zaken beter te meten.
+* Aan de andere kant van de munt heeft uw CRM minstens 25 Accounts nodig zonder gesloten won Opportunity (alle opps moeten ofwel in de categorie &quot;Open&quot; staan, ofwel in de categorie &quot;Closed Lost&quot;) - dit helpt ons om te bepalen wat een lagere account in uw organisatie maakt.
 
 >[!NOTE]
 >
->De bovenstaande &quot;slechte&quot; rekeningen moeten minstens 12 maanden open zijn zonder een gesloten Won-opp te accumuleren; dat is ons basisrichtsnoer voor al dan niet een Opp voor de doeleinden van het model is verkocht.
+>Bovenstaande &quot;slechte&quot; rekeningen moeten ten minste twaalf maanden geopend zijn zonder dat er een &quot;closed-on&quot;-opp is geaccumuleerd; dat is de basisrichtsnoer voor de vraag of een opp voor de doeleinden van het model al dan niet stallend is.
 
 ## Toewijzing van regel naar account {#lead-to-account-mapping}
 
@@ -42,7 +42,7 @@ Het in kaart brengen van leads naar accounts is een cruciaal onderdeel van een e
 
 >[!NOTE]
 >
->Elke lead probeert in de bovenstaande voorkeursvolgorde van methoden te worden gekoppeld aan een account. Zodra een gelijke wordt gemaakt, wordt AccountId onmiddellijk geplaatst op Lood en zal niet aangepast worden gebruikend een andere methode. Als de lead al een geldige account-id heeft, wordt de lead overgeslagen.
+>Elke lead probeert overeen te komen met een account in de bovenstaande voorkeursvolgorde van methoden. Zodra een gelijke wordt gemaakt, wordt AccountId onmiddellijk geplaatst op Lood en zal niet aangepast worden gebruikend een andere methode. Als de lead al een geldige account-id heeft, wordt de lead overgeslagen.
 
 ## Predictieve betrokkenheidsscore {#predictive-engagement-score}
 
@@ -58,20 +58,20 @@ Er zijn vele componenten die in het algoritme gaan dat de ODA berekent. Recentie
 * Aantal personen op de rekening
 * Specifieke belangrijke pagina&#39;s en of er in de afgelopen 30/60/90 dagen een bezoek heeft plaatsgevonden
 * Als de rekening een gesloten verloren/gewonnen overeenkomst heeft
-* Hoe waarschijnlijk het zal worden gesloten verloren/gewonnen
+* Hoe waarschijnlijk het gesloten verloren/gewonnen is
 
 >[!NOTE]
 >
 >Het is mogelijk dat u een score van &#39;N.v.t.&#39; of &#39;-&#39; (het dash-symbool) opmerkt in de Score voor voorspellende betrokkenheid voor sommige accounts.
 
-_Een klasse van &quot;N.v.t.&quot;betekent eenvoudig dat wij nog niet voldoende gegevens op dat rekening voor ons model hebben om ware kwaliteit te produceren - met meer gegevens, zal een graad uiteindelijk worden gegeven._
-_Een klasse van &quot;-&quot; (het streepjessymbool) betekent dat dit account nog niet door ons ABM-proces is verwerkt, vanwege tijdgebrek, af en toe gemiste processen, enz. Als u van mening bent dat een account een rang moet hebben, op basis van vergelijkbare accounts of termijnen, kunt u contact opnemen met [!DNL Marketo Measure] weet._
+_Een klasse van &quot;N.v.t.&quot;betekent eenvoudig dat er geen voldoende gegevens over die rekening voor het model zijn om ware kwaliteit te produceren - met meer gegevens, wordt een graad uiteindelijk gegeven._
+_Een klasse van &quot;-&quot; (het streepjessymbool) betekent dat deze rekening nog door het ABM-proces moet worden verwerkt, vanwege tijdbeperkingen, af en toe gemiste processen, enzovoort. Als u van mening bent dat een account een rang moet hebben, op basis van vergelijkbare accounts of termijnen, kunt u contact opnemen met [!DNL Marketo Measure] weet._
 
 ## ABM-paginalayout instellen in [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 
-Als u de ODA&#39;s wilt gaan gebruiken, hoeft u het veld ODA&#39;s en de bijbehorende lijst gewoon toe te voegen aan de juiste paginalay-outs in [!DNL Salesforce].
+Als u de ODA&#39;s wilt gaan gebruiken, moet u het veld ODA&#39;s en de bijbehorende lijst toevoegen aan de juiste paginalay-outs in [!DNL Salesforce].
 
-1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Accounts]** > **[!UICONTROL Page Layout]**. Selecteer vervolgens de pagina-indeling die u wilt bewerken.
+1. Navigeren naar **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Accounts]** > **[!UICONTROL Page Layout]**. Selecteer vervolgens de pagina-indeling die u wilt bewerken.
 1. Ga naar [!UICONTROL Fields] en verplaats het veld &quot;Predictive Engagement Score&quot; naar het gedeelte Accountinformatie.
 
    ![](assets/1.png)

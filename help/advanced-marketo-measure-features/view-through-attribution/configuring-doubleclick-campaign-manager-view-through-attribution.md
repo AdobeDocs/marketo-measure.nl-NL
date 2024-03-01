@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874781
-description: Dubbelklik op de Campagnebeheerweergave via Attributen - [!DNL Marketo Measure] - Productdocumentatie
+description: Dubbelklik op de Campagnebeheerweergave via Attributen - [!DNL Marketo Measure]
 title: Dubbelklik op de weergave Campagnebeheer via Attributie
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Meer granulair inzicht uit zicht krijgen door het volgen met [!DNL Doubleclick Campaign Manager], moet onze volgende pixel worden gevormd.
 
-Gelieve [klik hier](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) voor meer informatie over de [!DNL Marketo Measure] Functionaliteit voor weergave door kenmerk.
+Voor meer informatie over de [!DNL Marketo Measure] Functionaliteit van Weergeven via kenmerk, zie [Veelgestelde vragen over Marketo Measure View through Attribution](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
 [!DNL Marketo Measure] wordt beschouwd als een gyback-tag omdat het een aanroep van derden via de DCM-ad-tag is. Piggyback-tags werken niet met afbeeldingstags, alleen iframe- of javascript-tags. Volgens DCM Support is dit de laatste tijd niet veranderd en is dit altijd het geval geweest. Standaardcodes zijn afgekeurd op 2 oktober 2017, maar hebben geen invloed op de mogelijkheid van [!DNL Marketo Measure] om de beelden te volgen.
 
-Als u een bovenliggende en onderliggende hiërarchie in DCM gebruikt, moet de tag op alle niveaus worden toegepast voor het bijhouden van de indruk.
+Als u een bovenliggende en onderliggende hiërarchie in DCM gebruikt, moet de tag op alle niveaus worden toegepast om de indruk te volgen.
 
 ## De afbeeldingstag toevoegen {#how-to-add-the-image-tag}
 
-U voegt de tag toe aan [!DNL Doubleclick] onder de instelling Advertiser en u wilt een Impression Event-tag maken.
+Voeg de tag toe aan Doubleclick onder de instelling Advertiser en maak een Impression Event-tag.
 
 1. Voeg de volgende code toe als een 1x1 afbeeldingspixel.
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874616
-description: Rapporttype voor contactpersonen zonder kansen - [!DNL Marketo Measure] - Productdocumentatie
+description: Rapporttype voor contactpersonen zonder kansen - [!DNL Marketo Measure]
 title: Rapporttype voor contactpersonen zonder kansen
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in onze documentatie , maar nog steeds &quot;[!DNL Bizible]&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar nog steeds &quot;[!DNL Bizible]&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 Om over Contacten met de Aanraakpunten van de Koper te rapporteren die niet aan een Kans worden geassocieerd, moet u een type van douanerapport tot stand brengen.
 

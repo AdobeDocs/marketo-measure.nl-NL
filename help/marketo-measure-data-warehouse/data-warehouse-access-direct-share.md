@@ -3,9 +3,9 @@ description: Toegang tot Data Warehouse - Direct delen - Productdocumentatie
 title: Toegang tot Data Warehouse - Direct delen
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Om [!DNL Marketo Measure] aan opstelling moet een direct aandeel aan het gegevenspakhuis u aan de volgende vereisten voldoen.
 
-* Je hebt je eigen Snowflake-exemplaar.
-* Uw Snowflake-instantie bevindt zich in de regio Azure East US 2 Snowflake.
-* U verstrekt [!DNL Marketo Measure] met uw Snowflake account-id.
+* Je hebt je eigen Snowflake-instantie.
+* Uw instantie van de Snowflake wordt gevestigd in het Azure East US 2 Snowflake gebied.
+* U verstrekt [!DNL Marketo Measure] met uw account-id voor Snowflaken.
 
 ## Beperkingen {#limitations}
 
-[!DNL Marketo Measure] alleen Snowflake Direct-aandelen kunnen instellen met accounts in Azure East US 2 vanwege de huidige beperkingen van het directe Snowflake Direct-aandeel. Als u wilt dat uw gegevens beschikbaar worden gesteld in andere regio&#39;s van de Snowflake, raden we u aan een kopie van de gegevens te maken in een Snowflake-account in Azure East US 2 en de [Snowflake Database-replicatie](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} om uw gegevens te kopiëren in het gebied/de account van uw keuze voor Snowflake.
+[!DNL Marketo Measure] alleen Snowflake Direct Shares met accounts in Azure East US 2 kunnen instellen vanwege de huidige beperkingen van Direct Share voor Snowflaken. Als u uw gegevens in andere gebieden van de Snowflake ter beschikking wilt stellen, adviseren wij een exemplaar van de gegevens in een rekening van de Snowflake in Azure East US 2 te maken en leveraging [Replicatie database Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} om uw gegevens in het gebied/de rekening van uw keuze van de Snowflake te kopiëren.
 
-## Snowflake-account-id invoeren {#enter-snowflake-account-id}
+## Account-ID Snowflake invoeren {#enter-snowflake-account-id}
 
-Open de **Instellingen** in de Marketo Measure-app en navigeer naar de **Data Warehouse** pagina. In de **Direct delen** in, voert u uw [Snowflake-account-id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in het meegeleverde vak en klik op **Verbinden**.
+Open de **Instellingen** in de Marketo Measure-app en navigeer naar de **Data Warehouse** pagina. In de **Direct delen** in, voert u uw [ID Snowflake-account](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in het meegeleverde vak en klik op **Verbinden**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 
@@ -63,4 +63,4 @@ GRANT IMPORTED PRIVILEGES ON DATABASE <database_name> TO ROLE <role_name>
 GRANT IMPORTED PRIVILEGES ON ALL SCHEMAS IN DATABASE <database_name> TO ROLE <role_name>
 ```
 
-Voor meer gedetailleerde instructies en stappen om deze stappen van de interface van de Snowflake te verwezenlijken, gelieve te verwijzen [Snowflake](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.
+Voor meer gedetailleerde instructies en stappen om deze stappen van Snowflake UI te verwezenlijken, verwijzing [Rechtstreeks documentatie van Snowflaken](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.

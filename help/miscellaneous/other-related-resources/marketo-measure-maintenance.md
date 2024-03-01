@@ -1,19 +1,19 @@
 ---
 unique-page-id: 18874556
-description: "[!DNL Marketo Measure] Onderhoud - [!DNL Marketo Measure] - Productdocumentatie"
+description: "[!DNL Marketo Measure] Onderhoud - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Onderhoud"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Measure] Onderhoud {#marketo-measure-maintenance}
 
-[!DNL Marketo Measure] trekt bijna alles het van uw CRM op een dagelijkse basis nodig heeft, maar er zijn een paar onderhoudstaken u regelmatig zult willen plannen om te houden [!DNL Marketo Measure] de meest nauwkeurige informatie die mogelijk is, op een hummende manier te verstrekken.
+[!DNL Marketo Measure] trekt bijna alles het van uw CRM dagelijks nodig heeft, maar er zijn een paar onderhoudstaken u regelmatig zult willen plannen om te houden [!DNL Marketo Measure] de meest nauwkeurige informatie die mogelijk is, op een hummende manier te verstrekken.
 
 **Aanraakpunten voor kopers synchroniseren voor nieuwe offlinecampagnes (2 x/maand)**
 

@@ -1,30 +1,30 @@
 ---
 unique-page-id: 18874650
-description: Kenmerk op basis van account - [!DNL Marketo Measure] - Productdocumentatie
+description: Meer informatie over accountkenmerk en hoe Adobe Marketo Measure uw Account-Based Marketing-strategie (ABM) aanvult.
 title: Attributie op basis van account
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 # Attributie op basis van account {#account-based-attribution}
 
-Met de opkomst van Account-based Marketing (ABM) is het belangrijk om te begrijpen hoe [!DNL Marketo Measure] kan uw ABM-strategie aanvullen. [!DNL Marketo Measure] zal elk aanraakpunt voor elke lead en elk contact onder uw accounts bekijken.
+Met de opkomst van Account-Based Marketing (ABM) is het belangrijk te begrijpen hoe [!DNL Marketo Measure] kan uw ABM-strategie aanvullen. [!DNL Marketo Measure] oppervlakken van elk aanraakpunt voor elke lead en elk contact onder uw accounts.
 
 ## De [!UICONTROL What] {#the-what}
 
-Als er meerdere mogelijkheden zijn onder één account, delen de verschillende mogelijkheden dezelfde eerste twee aanraakpunten: de First Touch (FT) &amp; Lead Creation (LC). Wanneer nieuwe Kansen worden gecreeerd zal hun individuele opbrengstbedrag over de Aanraakpunten worden toegewezen die tot het bewegen van de Kans verder onderaan de trechter hebben bijgedragen. Het is belangrijk om op te merken dat aanraakpunten die gebonden Kansen zijn, als Aanraakpunten voor koperkenmerken (BAT&#39;s) worden beschouwd.
+Als er meerdere mogelijkheden zijn onder één account, delen de verschillende mogelijkheden de eerste twee aanraakpunten - de First Touch (FT) &amp; Lead Creation (LC). Wanneer nieuwe Kansen worden gecreeerd, wordt hun individuele opbrengstbedrag toegewezen over de Aanraakpunten die tot het bewegen van de Kans verder onderaan de trechter hebben bijgedragen. Het is belangrijk om op te merken dat aanraakpunten die gebonden Kansen zijn, worden beschouwd als aanraakpunten voor koperkenmerken (BAT&#39;s).
 
-De onderstaande account heeft bijvoorbeeld twee mogelijkheden. Voor de eerste Kans, heeft het slechts één Aanraakpunt. Dat aanraakpunt omvat het aanraakpunt FT, LC en Opportunity Creation (OC). De tweede Kans zal de zelfde FT &amp; LC hebben als de eerste Kans, maar OC Touchpoint is verschillend. Ook, heeft de tweede Kans sommige extra Touchpoints die niet aan de eerste Kans worden geassocieerd, toe te schrijven aan hen die na de eerste gesloten datum van Kansen voorkomen.
+De onderstaande account heeft bijvoorbeeld twee mogelijkheden. Voor de eerste Kans, heeft het slechts één Aanraakpunt. Dat aanraakpunt omvat het aanraakpunt FT, LC en Opportunity Creation (OC). De tweede Kans heeft zelfde FT &amp; LC als de eerste Kans, maar het Aanraakpunt OC is verschillend. Ook, heeft de tweede Kans extra Touchpoints die niet aan de eerste Kans worden geassocieerd, toe te schrijven aan hen die na de eerste sluitingsdatum van Kansen voorkomen.
 
 ![](assets/1.jpg)
 
 ## Hoe helpt dit? {#how-does-this-help}
 
-Sinds [!DNL Marketo Measure] op zoek naar alle marketinginteracties die aan uw accounts zijn gekoppeld, krijgen marketers een beter inzicht in welke accounts waarschijnlijk zullen worden afgesloten, hoe vaak ze contact hebben gehad met uw bedrijf, wat die overeenkomsten zijn, hoeveel omzet elke service waard is, enz.
+Sinds [!DNL Marketo Measure] biedt alle marketinginteracties die aan uw accounts zijn gekoppeld, zodat marketers een beter inzicht krijgen in welke accounts waarschijnlijk zullen worden afgesloten, hoe vaak ze contact hebben gehad met uw bedrijf, wat die overeenkomsten zijn, hoeveel omzet elke service waard is, enzovoort.
 
-Met [!DNL Marketo Measure] en een ABM-benadering, zullen de marketingprestaties uiteindelijk worden gebaseerd op de inkomsten. Als u aan een rekening-Gebaseerde Marketingbenadering overweegt, controleer uit [Gids van de CMO voor ABM Orchestration](https://info.bizible.com/cmos-guide-to-abm-orchestration), die u door de planning, uitvoering, en metingsfasen van ABM orchestration begeleidt.
+Met [!DNL Marketo Measure] en een ABM-benadering, de marketingprestaties zijn gebaseerd op inkomsten. Als u van plan bent over te schakelen op een benadering op basis van accounts, raadpleegt u de [Gids van de CMO voor ABM Orchestration](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf), die u door de planning, uitvoering, en metingsfasen van ABM orchestration begeleidt.
