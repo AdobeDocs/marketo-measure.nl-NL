@@ -3,9 +3,9 @@ description: Domeinbeheer - [!DNL Marketo Measure]
 title: Domeinbeheer
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Nadat een domein in de Admin Console wordt toegevoegd, [!DNL Marketo Measure] sy
 
 ![](assets/domain-management-2.png)
 
-Op de **[!UICONTROL Integration]** > **[!UICONTROL Domains]** pagina, ziet de gebruiker alle domeinen die zij in de Admin Console, samen met hun status hebben geregistreerd. Elk domein kan worden in- of uitgeschakeld. Als een domein wordt toegelaten, [!DNL Marketo Measure] het volgen verzamelt om het even welk verkeer dat op dat domein wordt gezien. Als een domein is uitgeschakeld, [!DNL Marketo Measure] negeert om het even welk verkeer dat van dat domein komt en leidt tot geen aanraakpunten of andere gegevens. [!DNL Marketo Measure] bevestigt de uitschakeling van een domein en waarschuwt voor de gevolgen:
+Op de **[!UICONTROL Integration]** > **[!UICONTROL Domains]** pagina, ziet de gebruiker alle domeinen die zij in de Admin Console, samen met hun status hebben geregistreerd. Elk domein kan worden in- of uitgeschakeld. Als een domein wordt toegelaten, [!DNL Marketo Measure] het volgen verzamelt om het even welk verkeer dat op dat domein wordt gezien. Als een domein is uitgeschakeld, [!DNL Marketo Measure] negeert om het even welk verkeer dat uit dat domein komt en leidt tot geen aanraakpunten of andere gegevens. [!DNL Marketo Measure] bevestigt de uitschakeling van een domein en waarschuwt voor eventuele vertakkingen:
 
 ![](assets/domain-management-3.png)
 
@@ -55,7 +55,7 @@ Als u de muis boven een afzonderlijk statusitem houdt, wordt knopinfo weergegeve
 
 **Wat gebeurt er wanneer een domein wordt verwijderd in de Admin Console?**
 
-Wanneer een domein in de Admin Console wordt verwijderd, [!DNL Marketo Measure] markeert het domein zoals geschrapt. [!DNL Marketo Measure] zal onmiddellijk ophouden volgend verkeer op dit domein, maar zal eerder verzamelde gegevens niet verwijderen.
+Wanneer een domein in de Admin Console wordt verwijderd, [!DNL Marketo Measure] markeert het domein zoals geschrapt. [!DNL Marketo Measure] houdt onmiddellijk het volgen van verkeer op dit domein op, maar zal geen eerder verzamelde gegevens verwijderen.
 
 **Waarom kan ik geen domein toelaten?**
 

@@ -4,18 +4,18 @@ description: Marketo Measure Framework - Marketo Measure - Productdocumentatie
 title: Marketo Measure Framework
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 # Marketo Measure Framework {#marketo-measure-framework}
 
-Meer informatie over de vier belangrijkste onderdelen van het Marketo Measure-framework. Marketo Measure vertrouwt op deze toepassingen voor het bijhouden, organiseren en opslaan van gegevens en het bieden van rapporteringsmogelijkheden. De vier onderdelen die het kader van Marketo Measure vormen, zijn:
+Meer informatie over de vier belangrijkste onderdelen van het Marketo Measure-framework. Marketo Measure vertrouwt op deze toepassingen voor het bijhouden, organiseren en opslaan van gegevens en het bieden van rapporteringsmogelijkheden. De vier onderdelen die deel uitmaken van het Marketo Measure-kader zijn:
 
-* JavaScript van Marketo Measure
+* Marketo Measure JavaScript
 * CRM-integratie
 * Toepassingen/systemen van derden
 * Marketo Measure-toepassing
@@ -30,7 +30,7 @@ In Marketo Measure JavaScript worden alle online marketinginteracties bijgehoude
 >
 >Voor instructies over het toevoegen van de JS voor Marketo Measure: [klik hier](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
-In JS van Marketo Measure worden gegevens vastgelegd van webbezoeken (inclusief anonieme webbezoeken), algemene navigatie in het verkeer/de pagina, het downloaden van inhoud en het verzenden van formulieren. Deze gegevens worden in uw CRM geduwd en elke marketing interactie wordt getoond als touchpoint.
+Marketo Measure JS legt gegevens vast van webbezoeken (inclusief anonieme webbezoeken), algemene navigatie in het verkeer/de pagina, het downloaden van inhoud en het verzenden van formulieren. Deze gegevens worden in uw CRM geduwd en elke marketing interactie wordt getoond als touchpoint.
 
 ## CRM-integratie {#crm-integrations}
 
@@ -38,7 +38,7 @@ Marketo Measure integreert met CRM&#39;s om alle gegevens die door de JS van Mar
 
 ![](assets/1-2.png)
 
-Door Marketo Measure-gegevens in uw CRM te bekijken, kunt u de korrelinformatie voor elk aanraakpunt bekijken en rapporten genereren om te begrijpen hoe uw kanalen presteren.
+Door Marketo Measure-gegevens in uw CRM op te zoeken, kunt u de korrelinformatie met betrekking tot elk aanraakpunt bekijken en rapporten genereren om te begrijpen hoe uw kanalen presteren.
 
 ## Toepassingen van derden {#third-party-applications}
 
@@ -58,7 +58,7 @@ Hier kunt u de algemene informatie van uw bedrijf bijwerken en toegang krijgen t
 
 **Instellingen**
 
-Met dit menu-item kunt u uw instellingen voor toewijzing en kanaaltoewijzing configureren, integraties met CRM&#39;s en toepassingen van derden beheren, Marketo Measure-accountgebruikers weergeven/toevoegen en factureringsgegevens bijwerken.
+Met dit menu-item kunt u uw attributie- en kanaaltoewijzingsinstellingen configureren, integraties met CRM&#39;s en toepassingen van derden beheren, Marketo Measure-accountgebruikers weergeven/toevoegen en factureringsgegevens bijwerken.
 
 **Marketing ROI Dashboard**
 

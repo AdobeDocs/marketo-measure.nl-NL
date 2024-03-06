@@ -4,7 +4,7 @@ description: Exclusief [!DNL Marketo Measure] uit specifiek Forms - [!DNL Market
 title: Exclusief [!DNL Marketo Measure] van Specifieke Forms
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Exclusief [!DNL Marketo Measure] van Specifieke Forms {#excluding-marketo-measure-from-specific-forms}
 
-Standaard, [!DNL Marketo Measure] voegt toe aan alle formulieren op uw site. Niet alle formulierverzendingen hoeven echter te worden bijgehouden of in een toewijzingsmodel te worden opgenomen. Dit komt omdat niet alle formuliervullingen als &quot;goed&quot; worden beschouwd. Een voorbeeld hiervan is het afmelden van een pagina/formulier. Bovendien worden aanmeldingsformulieren doorgaans niet bijgehouden, omdat dit het toewijzingsmodel zou verwateren.
+Standaard, [!DNL Marketo Measure] voegt toe aan alle formulieren op uw site. Niet alle ingevulde formulieren moeten echter noodzakelijkerwijs worden bijgehouden of in een toewijzingsmodel worden opgenomen. Dit komt omdat niet alle formuliervullingen als &quot;goed&quot; worden beschouwd. Een voorbeeld hiervan is het afmelden van een pagina/formulier. Bovendien worden aanmeldingsformulieren meestal niet bijgehouden, omdat dit het toewijzingsmodel zou verwateren.
 
 ## Toevoegen [!DNL Marketo Measure]-exclude Code:  {#how-to-add-marketo-measure-exclude-code}
 

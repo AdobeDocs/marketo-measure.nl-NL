@@ -3,7 +3,7 @@ description: '[!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit - [
 title: '''[!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit"'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Marketo Measure] Eis voor ultieme gegevensintegriteit {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valideert de binnenkomende AEP-gegevenssets om ervoor te zorgen dat de gegevens toereikend en samenhangend zijn voor de toewijzing. Als niet aan de gegevensintegriteitseis wordt voldaan, wordt de gegevensset door de [!DNL Marketo Measure] systeem. In dit document wordt de vereiste gegevensintegriteit beschreven, worden query-voorbeelden gegeven voor gegevenscontrole en wordt een oplossing aanbevolen voor vereiste velden met een null-waarde.
+[!DNL Marketo Measure] valideert de binnenkomende AEP-gegevenssets om ervoor te zorgen dat de gegevens toereikend en samenhangend zijn voor toewijzing. Wanneer niet wordt voldaan aan de gegevensintegriteitseis, wordt de gegevensset door de [!DNL Marketo Measure] systeem. In dit document wordt de vereiste gegevensintegriteit beschreven, worden query-voorbeelden gegeven voor gegevenscontrole en wordt een oplossing aanbevolen voor vereiste velden met een null-waarde.
 
 ## Object Entiteit {#entity-object}
 
@@ -365,7 +365,7 @@ ht-degree: 0%
       <td>string</td>
       <td></td>
       <td>Ja</td>
-      <td>bijv. - 333@999-abc-888.Marketo</td>
+      <td>Bijvoorbeeld: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -373,7 +373,7 @@ ht-degree: 0%
       <td>string</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Bijvoorbeeld - 333, afhankelijk van de gegevensbronlijst, is dit of Lood ID of identiteitskaart van het Contact</td>
+      <td>Bijvoorbeeld - 333, afhankelijk van de gegevensbronlijst, is dit of Lood identiteitskaart of identiteitskaart van het Contact</td>
     </tr>
     <tr>
       <td></td>

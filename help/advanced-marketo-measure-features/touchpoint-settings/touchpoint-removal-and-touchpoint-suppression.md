@@ -4,9 +4,9 @@ description: Aanraakpunt verwijderen en onderdrukking aanraakpunt - [!DNL Market
 title: Aanraakpunt verwijderen en onderdrukking aanraakpunt
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ Als je een fout maakt, maak je dan geen zorgen. U kunt ook afzonderlijke rijen v
 
 ![](assets/5.png)
 
-Tot slot: [!UICONTROL Save and Process] uw regels. Als u veel wijzigingen aanbrengt, moet u uw wijzigingen onderweg opslaan. [!DNL Marketo Measure] begint pas echt met het verwijderen van uw aanraakpunten wanneer u op de knop **Opslaan en verwerken** knop.
+Tot slot: [!UICONTROL Save and Process] uw regels. Als u veel wijzigingen aanbrengt, moet u uw wijzigingen onderweg opslaan. [!DNL Marketo Measure] begint pas echt met het verwijderen van uw aanraakpunten wanneer u klikt
+[!UICONTROL **Opslaan en verwerken**].
 
 | **Operator** | **Hoofdletters gebruiken** |
 |---|---|

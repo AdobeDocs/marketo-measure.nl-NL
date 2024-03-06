@@ -3,9 +3,9 @@ description: Overzicht Adobe Experience Cloud Interface [!DNL Marketo Measure]
 title: Overzicht Adobe Experience Cloud Interface
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Met Adobe Experience Cloud Interface wordt de vormgeving van Adobe Experience Cl
 
 ## Gebruikersstroom {#user-flow}
 
-Als u al bent aangemeld bij een Adobe Experience Cloud-product, klikt u op het menupictogram en selecteert u **[!DNL Marketo Measure]**.
+Als u zich al hebt aangemeld bij een Adobe Experience Cloud-product, klikt u op het menupictogram en selecteert u **[!DNL Marketo Measure]**.
 
 ![](assets/unified-shell-overview-4.png)
 
@@ -24,7 +24,7 @@ Als u al bent aangemeld bij een Adobe Experience Cloud-product, klikt u op het m
 >
 >Het vervolgkeuzemenu ziet er mogelijk anders uit, afhankelijk van de Adobe Experience Cloud-producten waarop u zich hebt geabonneerd.
 
-Als je _niet_ al aangemeld bij een Adobe Experience Cloud-product, rechtstreeks aanmelden bij [!DNL Marketo Measure] hier: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
+Als u _niet_ al aangemeld bij een Adobe Experience Cloud-product, rechtstreeks aanmelden bij [!DNL Marketo Measure] hier: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
 
 ## Nieuwe functies {#new-features}
 

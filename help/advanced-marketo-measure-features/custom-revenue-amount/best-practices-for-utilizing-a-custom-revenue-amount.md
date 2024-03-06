@@ -3,9 +3,9 @@ description: Aanbevolen werkwijzen voor het gebruik van een Aangepast bedrag aan
 title: Aanbevolen werkwijzen voor het gebruik van een aangepaste opbrengstwaarde
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Denk aan de volgende zaken:
 * Selecteer het opbrengstgebied dat voor alle Kansen nauwkeurig en gebruikt is
    * ARR of Total Contract Value us aanbevolen
 * Gebruik geen veld met een formule
-* Als u een Aangepast bedrag van Inkomsten voor muntomzettingen gebruikt, [!UICONTROL Marketo Measure Multiple Currencies] in plaats daarvan heeft de voorkeur aan functionaliteit.
+* Als u een Aangepast bedrag van Inkomsten voor valutaomrekeningen gebruikt, [!UICONTROL Marketo Measure Multiple Currencies] in plaats daarvan heeft de voorkeur aan functionaliteit.
    * De [!DNL Marketo Measure] Functionaliteit voor meerdere valuta&#39;s verwijst naar de conversiekoersen die zijn vastgesteld in [!DNL Salesforce] zo goed mogelijk te zorgen voor de onderlinge afstemming van de omrekening van valuta&#39;s. Hierdoor kunt u doorgaan met het gebruik van de standaard &#39;Amount&#39; (SFDC Default) of een ander aangepast veld Bedrag dat betrekking heeft op de [!DNL Salesforce] omrekeningskoersen.
 * Als u het veld Bedrag bijwerkt, wilt u [!DNL Marketo Measure] gebruiken om naar te verwijzen, Data Loader gebruiken om eerdere opportuniteiten bij te werken om ervoor te zorgen dat uw inkomstengegevens consistent zijn en dat het juiste veld wordt gevuld via de workflow
 

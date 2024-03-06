@@ -4,9 +4,9 @@ description: Toewijzing Salesforce-activiteiten - [!DNL Marketo Measure]
 title: Toewijzing Salesforce-activiteiten
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ De [!DNL Marketo Measure] De integratie van de Activiteiten van Salesforce breng
 
 Om te beginnen introduceren we een nieuw concept, genaamd een [!DNL Marketo Measure] Campagne. Voor elke regel die u definieert, gaat u de records in een [!DNL Marketo Measure] Campagne die u kunt noemen. Voeg zo nodig meerdere campagnes toe. Stel je voor dat je de effectiviteit van een campagne voor uitgaande verkoop naast een campagne voor betaalde media meet!
 
-Je gaat dit gebruiken [!DNL Marketo Measure] Campagnenaam om ons te vertellen aan welk kanaal het zou moeten worden in kaart gebracht. Als u nog aan Uitgaande Verkoop denkt, misschien zouden alle Uitgaande campagnes van de Verkoop in een kanaal BDR moeten zitten.
+Je gaat dit gebruiken [!DNL Marketo Measure] Campagnenaam om ons te vertellen aan welk kanaal het zou moeten worden in kaart gebracht. Als u nog aan Uitgaande Verkoop overweegt, misschien zouden alle Uitgaande campagnes van de Verkoop in een kanaal BDR moeten zitten.
 
 Bekend maken met deze hiërarchie:
 
@@ -38,7 +38,7 @@ Bekend maken met deze hiërarchie:
 
 Eenmaal uw [!DNL Marketo Measure] De Naam van de campagne wordt geplaatst, is het tijd aan opstelling uw regels van de Activiteit.
 
-De regels fungeren als een filter om ons te vertellen welke records in aanmerking komen voor toekenning. Stel u voor een rapport in uw CRM creeert gebruikend gelijkaardige logica om dat rapport te produceren. U hebt de flexibiliteit om een combinatie van instructies en/of instructies en verschillende operatoren, zoals `matches any`, `contains`, `starts with`, `ends with`, `is equal to`. Definiëren `and` instructies in een regel of laag in een vak `or` instructies buiten het vak.
+De regels fungeren als een filter om ons te vertellen welke records in aanmerking komen voor toekenning. Stel u een rapport in uw CRM creeert gebruikend gelijkaardige logica om dat rapport te produceren. U hebt de flexibiliteit om een combinatie van instructies en/of instructies en verschillende operatoren, zoals `matches any`, `contains`, `starts with`, `ends with`, `is equal to`. Definiëren `and` instructies in een regel of laag in een vak `or` instructies buiten het vak.
 
 ![](assets/3.png)
 

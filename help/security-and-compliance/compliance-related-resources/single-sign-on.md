@@ -3,16 +3,16 @@ unique-page-id: 18874761
 description: Single Sign On - [!DNL Marketo Measure]
 title: Single Sign On
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
 
 # Single Sign On {#single-sign-on}
 
-SAML (de taal van de prijsverhoging van de veiligheidsbewering) voor SSO (enig teken-op) maakt het voor gebruikers mogelijk om door de identiteitsleverancier van een bedrijf voor authentiek te verklaren wanneer zij login aan het bedrijf [!DNL Marketo Measure] app. SSO stelt een gebruiker in staat om slechts eenmaal te verifiëren, zonder afzonderlijke apps te hoeven verifiëren. SAML is een noodzaak voor zakelijke klanten omdat niet alle gebruikers een [!DNL Salesforce] of [!DNL Google] binnen hun organisatie. Om te schalen, [!DNL Marketo Measure] heeft een oplossing van SAML ontwikkeld die de leveranciers van de bedrijfsidentiteit kan steunen.
+SAML (de taal van de prijsverhoging van de veiligheidsbewering) voor SSO (enig teken-op) maakt het voor gebruikers mogelijk om door de identiteitsleverancier van een bedrijf voor authentiek te verklaren wanneer zij aan login aan de onderneming [!DNL Marketo Measure] app. Met SSO kan een gebruiker één keer verifiëren, zonder dat aparte apps hoeven te worden geverifieerd. SAML is een noodzaak voor zakelijke klanten omdat niet alle gebruikers een [!DNL Salesforce] of [!DNL Google] binnen hun organisatie. Schalen, [!DNL Marketo Measure] heeft een oplossing van SAML ontwikkeld die de leveranciers van de bedrijfsidentiteit kan steunen.
 
 >[!CAUTION]
 >
@@ -35,7 +35,7 @@ Ga om aan de slag te gaan naar Instellingen > Beveiliging > Verificatie op de pa
 
 ## Proces {#process}
 
-[!DNL Marketo Measure] Voor Single Sign On is het nodig dat u de verificatie-instellingen configureert in een reeks stappen die u moet volgen, zodat u niet het risico loopt dat u zich buiten uw [!DNL Marketo Measure] account.
+[!DNL Marketo Measure] Single Sign On vereist het configureren van uw verificatie-instellingen in een reeks stappen, zodat u het risico niet loopt dat u zich buiten uw [!DNL Marketo Measure] account.
 
 Stel de [!DNL Marketo Measure] Toepassing in uw identiteitsprovider. Zie externe documentatie die hieronder voor analyses wordt vermeld.
 
@@ -119,9 +119,9 @@ Probeer het uit!
 
 ## CRM-gebruikers (Geavanceerde instellingen) {#crm-users-advanced-setup}
 
-Standaard hebben alle accounts toegang tot de [!DNL Marketo Measure] toepassing die hun geloofsbrieven van CRM gebruikt. Soms moeten eigenaars van accounts de toegang tot bepaalde rollen beperken en deze niet openen voor alle gebruikers met een actieve CRM-licentie. De Geavanceerde opstelling zal u toestaan om uw rollen en groepen van CRM aan in kaart te brengen [!DNL Marketo Measure] gebruikersmachtigingen.
+Standaard hebben alle accounts toegang tot de [!DNL Marketo Measure] toepassing die hun geloofsbrieven van CRM gebruikt. Soms moeten eigenaars van accounts de toegang tot bepaalde rollen beperken en deze niet openen voor alle gebruikers met een actieve CRM-licentie. De geavanceerde opstelling staat u toe om uw rollen en groepen van CRM aan in kaart te brengen [!DNL Marketo Measure] gebruikersmachtigingen.
 
-Als geen rollen of groepen in kaart worden gebracht, is het gebrek dat plaatst dat alle actieve vergunningen in uw CRM Standaard gebruikerstoegang zullen hebben.
+Als geen rollen of groepen in kaart worden gebracht, is het gebrek dat plaatst dat alle actieve vergunningen in uw CRM Standaardgebruikerstoegang hebben.
 
 * [!DNL Marketo Measure] Standaardgebruiker: geef de rol of groepswaarde op voor gebruikers die alleen-lezen toegang moeten hebben tot de [!DNL Marketo Measure] toepassing.
 * [!DNL Marketo Measure] Gebruiker van accountbeheerder: geef de rol of groepswaarde op voor gebruikers die beheertoegang moeten hebben tot de [!DNL Marketo Measure] toepassing. Dit betekent dat de rol toegang heeft tot configuraties en instellingen voor wijzigingen die betrekking hebben op uw account.
@@ -152,7 +152,7 @@ Alleen geldig [!DNL Google] accounts kunnen worden toegevoegd en er moet een geb
 
 ## Externe koppelingen {#external-links}
 
-* [Okta](http://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
-* [Identiteit pingel](http://docs.pingidentity.com/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
-* [OneLogin](http://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
-* [Active Directory](http://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [Okta](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
+* [Identiteit pingel](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
+* [OneLogin](https://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
+* [Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)

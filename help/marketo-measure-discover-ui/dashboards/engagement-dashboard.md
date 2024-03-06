@@ -2,9 +2,9 @@
 description: Betrokkenheidsdashboard - [!DNL Marketo Measure] - Product
 title: Betrokkenheidsdashboard
 feature: Reporting
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---

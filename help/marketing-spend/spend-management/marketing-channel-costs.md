@@ -4,20 +4,20 @@ description: Kosten marketingkanaal - [!DNL Marketo Measure]
 title: Kosten marketingkanaal
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
 
 # Kosten marketingkanaal {#marketing-channel-costs}
 
-Een van de meest fundamentele voordelen van het gebruik van [!DNL Marketo Measure] is de capaciteit om marketing inspanningen aan het effect op opbrengst-met zo veel granulariteit direct aan te sluiten zoals gewenst. Het rendement van investeringen kan op het niveau van de aanspreekpunten worden gezien. Om van dit voordeel te profiteren, moeten de kanaalkosten eenvoudig aan worden geupload [!DNL Marketo Measure] app. ROI-rapporten worden automatisch gemaakt en beschikbaar in het dialoogvenster **Marketing ROI Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+Een van de meest fundamentele voordelen van het gebruik van [!DNL Marketo Measure] is de capaciteit om marketing inspanningen aan het effect op opbrengst-met zo veel granulariteit direct aan te sluiten zoals gewenst. Het rendement van investeringen kan op het niveau van de aanspreekpunten worden gezien. Om van dit voordeel te profiteren, moeten de kanaalkosten worden geupload aan [!DNL Marketo Measure] app. ROI-rapporten worden automatisch gemaakt en beschikbaar in het dialoogvenster **Marketing ROI Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Klik hier om rechtstreeks naar de instructies te navigeren.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
-De [!DNL Marketo Measure] Met de functie marketinguitgaven kunnen klanten hun uitgaven uploaden naar alle kanalen, subkanalen en campagnes. Hoe meer gegevens door klanten worden toegevoegd, des te meer ROI-rapportage we kunnen doorvoeren in het Dashboard voor belastingkenmerken.
+De [!DNL Marketo Measure] Met de functie marketinguitgaven kunnen klanten hun uitgaven uploaden naar alle kanalen, subkanalen en campagnes. Hoe meer gegevens door klanten worden toegevoegd, hoe meer ROI-rapportage wordt weergegeven in het Dashboard Indelingskenmerk.
 
 Kosten die worden gerapporteerd en geïmporteerd uit directe en indirecte verbindingen worden automatisch op het meest korrelige niveau binnengehaald en hoeven niet te worden geüpload. Dit omvat onze huidige integratie met Google AdWords, Bing Ads, Doubleclick, en Facebook.
 
@@ -27,19 +27,19 @@ Kosten die worden gerapporteerd en geïmporteerd uit directe en indirecte verbin
 
 **Besteed door campagne**
 
-Op het meest korrelige niveau, kunnen de klanten uitgaven door individuele Campagnes ingaan, die binnen zijn respectieve Kanaal worden gegroepeerd. voor CRM-campagnes, [!DNL Marketo Measure] heeft in identiteitskaart van de Campagne in een afzonderlijke kolom getrokken die u zal helpen off-line campagneuitgaven van uw CRM in deze lijst in kaart brengen. Als u op dit niveau uitgaven toevoegt, kunnen klanten het investeringsrendement van de campagne weergeven en de prestaties optimaliseren via Campagne.
+Op het meest korrelige niveau, kunnen de klanten uitgaven door individuele Campagnes ingaan, die binnen zijn respectieve Kanaal worden gegroepeerd. voor CRM-campagnes, [!DNL Marketo Measure] heeft in identiteitskaart van de Campagne in een afzonderlijke kolom getrokken die u helpt offline campagneuitgaven van uw CRM in deze lijst in kaart brengen. Als u op dit niveau uitgaven toevoegt, kunnen klanten het investeringsrendement van de campagne bekijken en de prestaties optimaliseren via Campagne.
 
 Het totaal van alle campagnes te hoeven niet om tot om het even welke waarden samen te vatten ingegaan op Subchannel of Kanaal, maar het kan niet meer zijn dan om het even welke waarden ingegaan op Subchannel of Kanaal. Als de som lager is dan de waarde die is ingevoerd op Subchannel of Channel, [!DNL Marketo Measure] voegt automatisch een rij voor &quot;Andere&quot; toe om het verschil te dekken en eventuele tussenruimten op te vullen.
 
 **Verdelen op subkanaal**
 
-Op een hoger niveau kunnen klanten uitgaven per subkanaal invoeren, gegroepeerd onder het kanaal. Als u op dit niveau uitgaven toevoegt, kunnen klanten de ROI van Subchannel weergeven en de prestaties met Subchannel optimaliseren.
+Op een hoger niveau kunnen klanten uitgaven per subkanaal invoeren, gegroepeerd onder het kanaal. Door uitgaven op dit niveau toe te voegen, kunnen klanten het rendement van Subchannel weergeven en de prestaties met Subchannel optimaliseren.
 
 Het totaal van alle subkanalen te hoeven niet om tot om het even welke waarden samen te vatten ingegaan bij het Kanaal, maar het kan niet meer zijn dan om het even welke waarden ingegaan bij het Kanaal. Als de som lager is dan de waarde die op het Kanaal is ingevoerd, [!DNL Marketo Measure] voegt automatisch een rij voor &quot;Andere&quot; toe om het verschil te dekken en eventuele tussenruimten op te vullen.
 
 **Per kanaal**
 
-Op het hoogste niveau kunnen klanten uitgaven per kanaal invoeren. Als u op dit niveau extra uitgaven toevoegt, kunnen klanten de ROI van het Kanaal bekijken en de prestaties via het Kanaal optimaliseren.
+Op het hoogste niveau kunnen klanten uitgaven per kanaal invoeren. Als u op dit niveau uitgaven toevoegt, kunnen klanten de ROI van het kanaal bekijken en de prestaties via het kanaal optimaliseren.
 
 **Datumkiezer**
 
@@ -55,19 +55,19 @@ Gebruik het vakje van het Onderzoek om passende teksten van Kanalen, Subkanalen,
 
 **Huidige kosten downloaden**
 
-De gedownloade CSV haalt de resultaten uit het huidige scherm. Dit houdt in dat alle datums, filters of zoekopdrachten die worden toegepast, ongewijzigd worden gedownload.
+De gedownloade CSV trekt de resultaten van uw huidig scherm, betekenend dat om het even welke data, filters, of onderzoek die worden toegepast zal worden gedownload zoals is.
 
 **CSV uploaden**
 
 Ongeacht welke mening in browser zit, als het een gefilterde mening of de standaardmening met alle data en kanalen is, kunt u om het even welke CSV uploaden.
 
-De gemeenschappelijkste fout wij onder ogen zien is het formaat van de datumkolommen, die gebeurt als het datumformaat wordt veranderd en opzettelijk zou kunnen gebeuren als zich tussen Excel en/of de Bladen van Google beweegt. Onthoud dat de datum MM-YY moet zijn, dus sep-12 en niet sept-12, of mei-12 en niet 05-12.
+De meest voorkomende fout waarmee u wordt geconfronteerd, is de indeling van de datumkolommen. Deze fout treedt op als de datumnotatie wordt gewijzigd en kan opzettelijk optreden als u van Excel naar Google Sheets gaat. Onthoud dat de datum MM-YY moet zijn, dus sep-12 en niet sept-12, of mei-12 en niet 05-12.
 
 ## Voordat u begint {#before-you-begin}
 
 [!DNL Marketo Measure] wordt geleverd met 13 standaardkanalen die kunnen worden gebruikt of uitgebreid. Daarnaast kunnen maximaal 40 online- en offlinekanalen worden gemaakt om uw unieke marketingstructuur te kunnen aanpassen. Voortbouwend op dit, kunnen in totaal 200 subkanalen worden gecreeerd om deze online en off-line kanalen eveneens te steunen.
 
-[!DNL Marketo Measure] worden de kosten van marketingkanalen automatisch gedownload van platforms waarmee de software is geïntegreerd, zoals Bing Ads en Google AdWords. Kosten voor platforms die niet zijn geïntegreerd met [!DNL Marketo Measure] moet u handmatig uploaden. De afzetkanalen moeten worden opgezet voordat de kostengegevens worden geüpload.
+[!DNL Marketo Measure] worden de kosten van marketingkanalen automatisch gedownload van platforms waarmee de software is geïntegreerd, zoals Bing Ads en Google AdWords. Kosten voor platforms die niet zijn geïntegreerd met [!DNL Marketo Measure] moet handmatig worden geüpload. De afzetkanalen moeten worden opgezet voordat de kostengegevens worden geüpload.
 
 ## Marketingkosten uploaden {#uploading-marketing-costs}
 
@@ -75,7 +75,7 @@ Zodra afzetkanalen en regels zijn opgezet of bijgewerkt, kunnen de bijbehorende 
 
 **Stap 1: Navigeer naar de pagina Marketing Spend in het dialoogvenster [!DNL Marketo Measure] App.**
 
-Ga naar de **[!UICONTROL My Account]** menu, klik op **[!UICONTROL Settings]** en navigeer vervolgens naar de **[!UICONTROL Marketing Spend]** optie op de linkerzijbalk onder de optie **[!UICONTROL Reporting]** sectie.
+Ga naar de **[!UICONTROL My Account]** menu, klikt u op **[!UICONTROL Settings]** en navigeer vervolgens naar de **[!UICONTROL Marketing Spend]** optie op de linkerzijbalk onder de optie **[!UICONTROL Reporting]** sectie.
 
 ![](assets/1.png)
 
@@ -107,7 +107,7 @@ Kosten voor Bing Ads en Google AdWords hoeven niet te worden ingevoerd of bijgew
 
 **Stap 4: Bestand opslaan in CSV-indeling**
 
-Als u in Google Sheets werkt, moet u het bestand eerst downloaden. Sluit geen maandelijkse gegevens uit of verwijder ze niet omdat dit problemen veroorzaakt wanneer u probeert het CSV-bestand te uploaden naar [!DNL Marketo Measure] later.
+Als u in Google Sheets werkt, moet u het bestand eerst downloaden. Sluit maandgegevens niet uit of verwijder ze niet omdat dit problemen veroorzaakt wanneer u probeert het CSV-bestand te uploaden naar [!DNL Marketo Measure] later.
 
 **Stap 5: Het CSV-bestand uploaden**
 
@@ -117,11 +117,11 @@ Ga naar de **[!UICONTROL Cost]** van de [!DNL Marketo Measure] app en klik op **
 
 **Waarom worden getallen weergegeven in de CSV**
 
-Als geen waarde op een hoger niveau zoals Kanaal of Subkanaal is ingegaan, [!DNL Marketo Measure] De som van de onderliggende niveaus voor u wordt automatisch berekend. Deze niveaus worden weergegeven wanneer het bestand is geüpload. Als de som van de onderliggende items lager is dan een waarde die voor de bovenliggende toepassing is ingevoerd, [!DNL Marketo Measure] voegt een rij &quot;Overige&quot; toe om het verschil in het totaal aan te geven.
+Als geen waarde op een hoger niveau zoals Kanaal of Subkanaal is ingegaan, [!DNL Marketo Measure] De som van de onderliggende niveaus voor u wordt automatisch berekend. Deze niveaus worden weergegeven wanneer het bestand is geüpload. Als de som van de onderliggende items lager is dan een waarde die voor de bovenliggende toepassing is ingevoerd, [!DNL Marketo Measure] Hiermee voegt u een rij &quot;Overige&quot; toe om het verschil in het totaal aan te geven.
 
 **Hoe worden de campagnes bepaald in de lijst die ik zie?**
 
-Op dit moment geven onze resultaten een overzicht van de campagnes die we hebben gezien en die met een aanraakpunt zijn gecrediteerd. Als er activiteit van een Campagne was, zullen wij die Campagne tonen die op de Datum wordt gebaseerd van het Aanraakpunt dat het voorkwam.
+Op dit moment geven onze resultaten een overzicht van de campagnes die we hebben gezien en die met een aanraakpunt zijn gecrediteerd. Als er activiteit van een Campagne was, tonen wij die Campagne die op de Datum van het Aanraakpunt wordt gebaseerd dat het voorkwam.
 
 **Er zijn te veel rijen en kolommen om door te kijken - kan ik de mening consolideren?**
 

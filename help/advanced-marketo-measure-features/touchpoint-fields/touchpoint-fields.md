@@ -4,9 +4,9 @@ description: Aanraakpuntvelden - [!DNL Marketo Measure]
 title: Aanraakpuntvelden
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Historisch, wanneer klanten aan boord met [!DNL Marketo Measure] en in het geval
 
 ## De functie inschakelen {#enabling-the-feature}
 
-Van de [!DNL Marketo Measure] Ga in het menu Instellingen naar de pagina Touchpoint Fields. Van daar kunt u de eigenschap toelaten door te selecteren **Ja** krachtens **Berekende velden inschakelen**. Zodra dat wordt toegelaten, kunt u aanraakpuntGebieden creëren.
+Van de [!DNL Marketo Measure] Ga in het menu Instellingen naar de pagina Touchpoint Fields. Van daar kunt u de eigenschap toelaten door te selecteren **Ja** krachtens **Berekende velden inschakelen**. Nadat de functie is ingeschakeld, kunt u aanraakpuntvelden maken.
 
 ![](assets/one.png)
 
@@ -70,7 +70,7 @@ Een veel voorkomend geval waarin deze functie wordt ingeschakeld, is het uittrek
    * **)** markeert het einde van de extractie
    * **\w** vertelt ons dat we een &quot;woord&quot; halen dat 0-9 omvat
    * **+** haalt de volledige waarde van de parameter zonder limiet op tekens uit
-   * Let op: je gebruikt een slash in plaats van een slash
+   * Let op: u gebruikt een slash in plaats van een slash
 
 ![](assets/three.png)
 
@@ -221,7 +221,7 @@ Er is extra werk nodig om de nieuwe velden in de [!DNL Marketo Measure] Schema D
 
 **Hoe kan ik valideren dat mijn extractie-expressie geldig is en de juiste waarde ophalen?**
 
-Er is een online hulpmiddel ([[!DNL https]/regex101.com/](https://regex101.com/){target="_blank"}) die u kunt uitvoeren en uittesten. De expressie wordt groen weergegeven als deze geldig is of rood als deze ongeldig is. Ook de [!UICONTROL explanation] doos in de rechterbovenhoek is handig en vertelt je wat je extraheert.
+Er is een online hulpmiddel ([[!DNL https]/regex101.com/](https://regex101.com/){target="_blank"}) die u kunt uitvoeren en uittesten. De expressie wordt groen weergegeven als deze geldig is of rood als deze ongeldig is. Ook de [!UICONTROL explanation] doos bij het hoogste recht is nuttig en vertelt u wat u uitpakt.
 
 ![](assets/twelve.png)
 

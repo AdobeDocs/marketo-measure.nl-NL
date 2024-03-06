@@ -3,9 +3,9 @@ description: Uitleg van aanraakpuntposities en het genereren van BT's en BBT's -
 title: Uitleg van aanraakpuntposities en genereren over BT's en [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **Opwekken van aanraakpunten en doorlopen via de kopersreis**
 
-Een goed begrip van de posities van het aanraakpunt voor kopers en de manier waarop deze worden geactiveerd is van cruciaal belang voor een geslaagde rapportage met [!DNL Marketo Measure] gegevens. Je wilt een duidelijk inzicht hebben in wat je perspectieven deden toen ze door de reis van de koper gingen en op zijn beurt hoe dat eruit zal zien in de Touchpoint-gegevens. Voor meer context over dit onderwerp adviseren wij het herzien van [[!UICONTROL Touchpoint Generation & Mapping]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) artikel.
+Een goed begrip van de posities van het aanraakpunt voor kopers en de manier waarop deze worden geactiveerd is van cruciaal belang voor een geslaagde rapportage met [!DNL Marketo Measure] gegevens. Je wilt een duidelijk inzicht hebben in wat je vooruitzichten deden toen ze door de reis van de koper gingen en op zijn beurt hoe dat eruit zal zien in de Touchpoint data. Voor meer context over dit onderwerp adviseren wij het herzien van [[!UICONTROL Touchpoint Generation & Mapping]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) artikel.
 
 [!DNL Marketo Measure] heeft verschillende aanraakpunten die worden geactiveerd door verschillende stappen in de reis van de koper. Bij rapportage over [!DNL Marketo Measure] Er zijn twee sets aanraakpuntgegevens, aanraakpunten voor kopers (BT&#39;s) en aanraakpunten voor kopers (BBT&#39;s). Het kan zijn dat deze gegevenssets enigszins verschillende posities hebben, aangezien ze betrekking hebben op verschillende objecten. Voor meer context over dit onderwerp adviseren wij het herzien van [Verschil tussen aanraakpunten voor kopers (BT&#39;s) en aanraakpunten voor kopers (BAT&#39;s)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) artikel.
 
@@ -25,7 +25,7 @@ Een goed begrip van de posities van het aanraakpunt voor kopers en de manier waa
 * [!DNL Marketo Measure] 101: lood/contact op ID
 * [!DNL Marketo Measure] 101: lood/contact via kanaal
 
-Hieronder wordt een overzicht gegeven van de posities van het aanraakpunt voor kopers, waarin wordt beschreven waar een individu zich bevindt en welke acties zij hebben ondernomen om die positie te veroveren.
+Hieronder wordt een overzicht gegeven van de posities van het aanraakpunt voor kopers, waarin wordt beschreven waar een individu zich op reis bevindt en welke acties zij hebben ondernomen om die positie te veroveren.
 
 <table> 
  <tbody>
@@ -37,12 +37,12 @@ Hieronder wordt een overzicht gegeven van de posities van het aanraakpunt voor k
   <tr>
    <td>Eerste aanraking (FT)</td> 
    <td>Webbezoek</td> 
-   <td>De allereerste marketinginteractie die een individu heeft met uw merk</td> 
+   <td>De eerste marketinginteractie die een individu heeft met uw merk</td> 
   </tr>
   <tr>
    <td>Lood maken (LC)</td> 
    <td>Formuliervulling <strong>OF</strong> Campagne/opname van programma</td> 
-   <td>Het allereerste formulier dat een individu invult, heeft (meestal een formulier verzenden, maar kan ook een campagne/programma-opname zijn)</td> 
+   <td>De eerste formuliervullingen die een individu heeft (doorgaans een formulierverzending, maar ook een campagne-/programmacode)</td> 
   </tr>
   <tr>
    <td>Post LC</td> 
@@ -52,7 +52,7 @@ Hieronder wordt een overzicht gegeven van de posities van het aanraakpunt voor k
  </tbody>
 </table>
 
-**Aanraakpunten voor koperkenmerken (BATS)**: Dit zijn de aanraakpunten die verbonden zijn aan een Opportunity en zijn reis. Deze aanraakpunten zullen met opbrengst worden verbonden aangezien zij met de Kans en zijn Contacten worden verbonden. De volgende rapporten in het vak zijn samengesteld uit gegevens van het aanraakpunt voor koperkenmerken.
+**Aanraakpunten voor koperkenmerken (BATS)**: Dit zijn de aanraakpunten die verbonden zijn aan een Opportunity en zijn reis. Deze aanraakpunten worden verbonden met inkomsten aangezien zij met de Kans en zijn Contacten worden verbonden. De volgende rapporten in het vak zijn samengesteld uit gegevens van het aanraakpunt voor koperkenmerken.
 
 * [!DNL Marketo Measure] 101: Kansen per id
 * [!DNL Marketo Measure] 101: Kansen per id-kanaal
@@ -67,12 +67,12 @@ Hieronder wordt een overzicht gegeven van de posities van het aanraakpunt voor k
   <tr>
    <td>Eerste aanraking (FT)</td> 
    <td>Webbezoek</td> 
-   <td>De allereerste marketinginteractie die een contact had met uw merk</td> 
+   <td>De eerste marketinginteractie die een contact met uw merk had</td> 
   </tr>
   <tr>
    <td>Lood maken (LC)</td> 
    <td>Formuliervulling <strong>OF</strong> Campagne/opname van programma</td> 
-   <td>Het allereerste formulier dat een contactpersoon invult, heeft (meestal een formulier verzenden, maar kan ook een campagne/programma-opname zijn)</td> 
+   <td>Het eerste formulier dat een contactpersoon invult, heeft (meestal een formulier verzenden, maar kan ook een campagne/programma-opname zijn)</td> 
   </tr>
   <tr>
    <td>Opportunity maken</td> 
@@ -92,7 +92,7 @@ Hieronder wordt een overzicht gegeven van de posities van het aanraakpunt voor k
  </tbody>
 </table>
 
-[!DNL Marketo Measure] heeft deze twee sets aanraakpuntgegevens om een duidelijk inzicht te krijgen in de reis van een persoon en in de mogelijkheden. Deze twee Touchpoint-gegevenssets geven u een duidelijke kaart van wat er gebeurde van boven naar onder in de trechter.
+[!DNL Marketo Measure] heeft deze twee sets aanraakpuntgegevens om een duidelijk inzicht te krijgen in de reis van een individu en de mogelijkheden. Deze twee Touchpoint-gegevenssets geven u een duidelijke kaart van wat er gebeurde van boven naar onder in de trechter.
 
 In het volgende voorbeeld ziet u de gegevensstroom van de aanraakpunten voor kopers (BT&#39;s) naar de aanraakpunten voor koperkenmerken (BAT&#39;s). In dit voorbeeld maken Person A en Person B beide deel uit van dezelfde Opportunity die een Gemaakt Datum van 3.7.2020 en een Dichte Datum van 5.6.2020 heeft.
 

@@ -4,9 +4,9 @@ description: Pagina-indelingsinstructies - [!DNL Marketo Measure]
 title: Pagina-indelingsinstructies
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ U wordt aangeraden het [!DNL Marketo Measure] velden alleen voor uw sandbox naar
    >
    >De meeste klanten gebruiken niet de gebieden die met (FT) of (LC) beëindigen omdat zij erfenisgebieden van vóór zijn [!DNL Marketo Measure] Het aanraakpunt bestond als een object.
 
-Als u de [!DNL Marketo Measure] ABM-functie, [klik hier voor extra instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Als u het [!DNL Marketo Measure] ABM-functie, [klik hier voor extra instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contactpersonen {#contacts}
 

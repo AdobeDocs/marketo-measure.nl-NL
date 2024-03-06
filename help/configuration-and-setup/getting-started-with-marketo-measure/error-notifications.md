@@ -2,9 +2,9 @@
 description: Foutmeldingen - [!DNL Marketo Measure]
 title: Foutmeldingen
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de ap
       <td>API_DISABLED</td>
       <td>Er is een fout opgetreden tijdens het importeren van CRM: API_DISABLED: API-aanroepen zijn uitgeschakeld voor deze gebruiker</td>
       <td>De API-machtiging is uitgeschakeld voor de Marketo Measure-gebruiker.</td>
-      <td>Raadpleeg de volgende documentatie bij Salesforce op <a href="https://help.salesforce.com/s/articleView?id=sf.branded_apps_commun_api_permset.htm&amp;type=5">API-toegang inschakelen</a>.</td>
+      <td>Raadpleeg de volgende documentatie bij Salesforce op <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">API-toegang inschakelen</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -54,7 +54,7 @@ Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de ap
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Er is een fout opgetreden tijdens het exporteren van AdobeAnalytics: INVALID_ADOBE_ANALYTICS_CONFIGURATION: Fout: Uploaden niet toegestaan. Bevestig het gegevensbronschema alvorens te uploaden. DataSource-id:1234</td>
+      <td>Er is een fout opgetreden tijdens het exporteren van Adobe Analytics: INVALID_ADOBE_ANALYTICS_CONFIGURATION: Fout: Uploaden niet toegestaan. Bevestig het gegevensbronschema alvorens te uploaden. DataSource-id:1234</td>
       <td>De Adobe Analytics-integratie is niet correct geconfigureerd.</td>
       <td>Raadpleeg de volgende Help-artikelen voor een correcte configuratie:
         <ul>
@@ -73,7 +73,7 @@ Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de ap
       <p>
       Er is een fout opgetreden tijdens het importeren van de advertentie: INVALID_CURRENCY_ISO_CODE: Valuta XXX op account voor 1234 wordt niet ondersteund door Marketo Measure.</td>
       <td>Er is een niet-ondersteunde valuta aangetroffen.</td>
-      <td>In het bronsysteem dat in de kennisgeving is aangegeven (Advertentie, Crm, Marketo), zorgt u ervoor dat de aan de record gekoppelde valuta een ondersteunde en geldige valuta heeft. Ondersteunde valuta's zijn afgeleid van ISO-valutanormen.</td>
+      <td>In het bronsysteem dat in de kennisgeving is aangegeven (Advertentie, Crm, Marketo), wordt gegarandeerd dat de aan de record gekoppelde valuta een ondersteunde en geldige valuta heeft. Ondersteunde valuta's zijn afgeleid van ISO-valutanormen.</td>
     </tr>
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
@@ -127,7 +127,7 @@ Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de ap
           Er is een fout opgetreden tijdens het importeren van Crm: NULL_EMPTY_CURRENCY_ISO_CODE: ISO-code van valuta is NULL of Leeg wanneer MultiCurrency is ingeschakeld voor RecordId 1234
       </td>
       <td>Valuta moet een ondersteunde ISO-valutacode zijn.</td>
-      <td>In het bronsysteem dat in de kennisgeving is aangegeven (Advertentie, Crm, Marketo), zorgt u ervoor dat de aan de record gekoppelde valuta een ondersteunde en geldige valuta heeft. Ondersteunde valuta's zijn afgeleid van ISO-valutanormen.</td>
+      <td>In het bronsysteem dat in de kennisgeving is aangegeven (Advertentie, Crm, Marketo), wordt gegarandeerd dat de aan de record gekoppelde valuta een ondersteunde en geldige valuta heeft. Ondersteunde valuta's zijn afgeleid van ISO-valutanormen.</td>
     </tr>
     <tr>
       <td>OPERATION_TOO_LARGE</td>

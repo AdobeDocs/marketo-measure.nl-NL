@@ -4,9 +4,9 @@ description: Stock Reports and Dashboards in Dynamics - [!DNL Marketo Measure]
 title: Stock Reports and Dashboards in Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >
 >Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-De [!DNL Marketo Measure] De beheerde Oplossing komt met een aantal voorraaddashboards en Rapporten, die worden ontworpen om uw basisbehoeften te behandelen wanneer het bekijken [!DNL Marketo Measure] gegevens in Dynamics. Hieronder vindt u de volledige lijst en enkele gebruikelijke gebruiksgevallen.
+De [!DNL Marketo Measure] De beheerde Oplossing wordt geleverd met verscheidene voorraaddashboards en Rapporten, die worden ontworpen om uw basisbehoeften te behandelen wanneer het bekijken [!DNL Marketo Measure] gegevens in Dynamics. Hieronder vindt u de volledige lijst en enkele gebruikelijke gebruiksgevallen.
 
-## Dashboards (9 totaal) {#dashboards-total}
+## Dashboards (in totaal negen) {#dashboards-total}
 
 <table> 
  <colgroup> 
@@ -152,12 +152,12 @@ De [!DNL Marketo Measure] De beheerde Oplossing komt met een aantal voorraaddash
   </tr> 
   <tr> 
    <td>Regelafstand op naam van Advertentie-woorden (FT)</td> 
-   <td>Meet hoeveel leads een eerste aanraking hadden van elke campagne voor Advertentie.</td> 
+   <td>Meet hoeveel leads een eerste aanraking hadden van elke campagne AdWords.</td> 
    <td>Alles</td> 
   </tr> 
   <tr> 
    <td>Regelafstand op naam van Advertentie-woorden (LC)</td> 
-   <td>Meet hoeveel leads zijn gegenereerd met een lead creation touch van elke AdWords-campagne.</td> 
+   <td>Meet hoeveel leads er zijn gegenereerd met een lead creation touch van elke AdWords-campagne.</td> 
    <td>Alles</td> 
   </tr> 
   <tr> 

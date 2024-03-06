@@ -3,9 +3,9 @@ description: Beste praktijken voor Off-line Kanalen - [!DNL Marketo Measure]
 title: Aanbevolen procedures voor offlinekanalen
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Of u uw Off-line Kanalen voor het eerst in kaart brengt of enkel hen controleert
 
 Nadat u de Offlinekanaalinstellingen hebt ingesteld, worden er nog steeds overeenkomstige offlineaanraakpunten gemaakt. We raden u aan uw Offlineinstelling ten minste twee keer per jaar te controleren. Dit garandeert schone en nauwkeurige gegevens van aanraakpunten voor kopers.
 
-Ook, als u om het even welke veranderingen in uw het beheer of processen van de Campagne aanbrengt, moet u ervoor zorgen u uw bijwerkt [!DNL Marketo Measure] Offlinekanaals toewijzen en/of synchronisatieproces.
+Ook, als u om het even welke veranderingen in uw het beheer of processen van de Campagne aanbrengt, moet u ervoor zorgen u bijwerkt uw [!DNL Marketo Measure] Offlinekanaals toewijzen en/of synchronisatieproces.
 
 Wijzigingen die uw team kunnen aanzetten om updates uit te voeren voor de installatie van het offlinekanaal in het dialoogvenster [!DNL Marketo Measure] kan het volgende omvatten:
 

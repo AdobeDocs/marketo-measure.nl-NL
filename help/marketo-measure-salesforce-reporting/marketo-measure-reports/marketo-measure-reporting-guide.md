@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Rapportagehandleiding - [!DNL Marketo Measu
 title: "[!DNL Marketo Measure] Rapportagehandleiding"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '6431'
+source-wordcount: '6437'
 ht-degree: 0%
 
 ---
@@ -329,7 +329,7 @@ Deze benadering van het meten van het effect van marketing op het beïnvloeden v
   </tr>
   <tr>
    <td>Datumveld / Datumtype</td> 
-   <td>MQL-datum (of equivalent) / Aanmaakdatum ([!DNL Marketo Measure] Discover)<br> <i>Aanmaakdatum van lead kan ook worden gebruikt in CRM-rapportage als 'MQL-datum' geen optie is in uw CRM. Het is belangrijk om in mening te houden welke het Gebied van de Datum u bij het gebruikt bepaalt de gecodeerde gegevensreeks.</i></td> 
+   <td>MQL-datum (of equivalent) / Aanmaakdatum ([!DNL Marketo Measure] Discover)<br> <i>Aanmaakdatum van lead kan ook worden gebruikt in CRM-rapportage als 'MQL-datum' geen optie is in uw CRM. Het is belangrijk om in mening te houden welke het Gebied van de Datum u bij het gebruikt de gecodeerde gegevensreeks bepaalt.</i></td> 
   </tr>
   <tr>
    <td>Datumbereik</td> 
@@ -445,7 +445,7 @@ Dit verslag zou hetzelfde zijn als een op inhoud gebaseerd verslag op het niveau
 
 >[!TIP]
 >
->U kunt dit rapport gebruiken om inzicht te krijgen in de totale betrokkenheid van elke marketingdimensie bij het object Buyer Touchpoint, en niet alleen in het downloaden van inhoud zoals in het voorbeeld wordt getoond. Het rapport kan in plaats daarvan worden gegroepeerd of gefilterd op dimensies zoals &#39;Marketing Channel&#39; of &#39;Advertentie Campagnenaam&#39; om de totale betrokkenheid van zowel Leads als Contacten in uw database het best te begrijpen. Wijzig gewoon de filters of groepen in het rapport in nul voor andere dimensies die door andere velden worden vertegenwoordigd vanuit het aanraakpuntobject.
+>U kunt dit rapport gebruiken om inzicht te krijgen in de totale betrokkenheid van elke marketingdimensie bij het object Buyer Touchpoint, en niet alleen in het downloaden van inhoud zoals in het voorbeeld wordt getoond. Het rapport kan in plaats daarvan worden gegroepeerd of gefilterd op dimensies zoals &#39;Marketing Channel&#39; of &#39;Advertentie Campagnenaam&#39; om de totale betrokkenheid van zowel Leads als Contacten in uw database het best te begrijpen. Wijzig de filters of groepen in het rapport in nul voor andere afmetingen die worden vertegenwoordigd door andere velden van het aanraakpuntobject.
 
 **3,2 [!DNL Marketo Measure] Personen die zich voor een gebeurtenis hebben geregistreerd (alleen CRM)**
 
@@ -615,7 +615,7 @@ Het samenvatten van de gegevens van het Aanraakpunt van de Attributie van de Kop
 
 >[!TIP]
 >
->Nog gedetailleerder inzicht krijgt u door het rapport samen te vatten met andere beschikbare velden van het Touchpoint-object voor koperkenmerken. Dit gebeurt op dezelfde manier als bij Aanraakpunten voor koper (1.2). Doe dit door extra groeperingen (CRM) of dimensies (Discover) toe te voegen. Afhankelijk van het kanaal (dat uw rol kan vertegenwoordigen), kunnen er extra details voorbij het campagneniveau zijn waarin u meer inzicht wilt krijgen. We gaan hieronder naar &#39;Betaalde zoekopdracht&#39;:
+>Nog gedetailleerder inzicht krijgt u door het rapport samen te vatten met andere beschikbare velden van het Touchpoint-object voor koperkenmerken. Dit gebeurt op dezelfde manier als bij Aanraakpunten voor koper (1.2). Doe dit door extra groeperingen (CRM) of dimensies (Discover) toe te voegen. Afhankelijk van het kanaal (dat uw rol kan vertegenwoordigen), kunnen er extra details voorbij het campagneniveau zijn waarin u meer inzicht zoekt. We gaan hieronder naar &#39;Betaalde zoekopdracht&#39;:
 
 <table> 
  <tbody>
@@ -715,7 +715,7 @@ De [!DNL Marketo Measure] Detectie-dashboards bestaan uit gegevens van aanraakpu
 
 >[!TIP]
 >
->Één van de belangrijkste dingen om te herinneren wanneer het melden in Discover is welk Type van Gegevens u gebruikt om te filtreren. Het Type van datum zal dicteren welke gegevensreeks [!DNL Marketo Measure] wordt gebruikt in de verschillende tegels.
+>Één van de belangrijkste dingen om te herinneren wanneer het melden in ontdekt is welk Type van Gegevens u gebruikt om te filtreren. Het Type van datum zal dicteren welke gegevensreeks [!DNL Marketo Measure] wordt gebruikt in de verschillende tegels.
 
 * **Aanraakpuntdatum**: Geeft de verwante gegevens weer die een &#39;aanraakpuntdatum&#39; hadden in de opgegeven tijdlijn
 * **Aanmaakdatum**: Geeft de verwante gegevens weer die een &#39;Aanmaakdatum&#39; hadden in de opgegeven tijdlijn

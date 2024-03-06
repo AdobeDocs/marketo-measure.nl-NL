@@ -4,16 +4,16 @@ description: "[!DNL Marketo Engage] Integratie van activiteiten - [!DNL Marketo 
 title: "[!DNL Marketo Engage] Activiteitenintegratie"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Engage] Activiteitenintegratie {#marketo-engage-activities-integration}
 
-Als onderdeel van het algemene [!DNL Marketo Measure] en [!DNL Marketo Engage] Integratie, deze poging om de activiteiten van Marketo te stimuleren speelt een enorme rol. Via Marketo Activiteiten volgt het systeem gebeurtenissen zoals Click Email, Change Score of Change Status in Progression. Deze activiteitstypen kunnen worden geplakt en gedefinieerd om een subset te selecteren die in aanmerking komt voor aanraakpunten. Zodra de aanraakpunten op deze activiteiten worden gecreeerd, worden zij gevolgd in de betrokkenheidsreis en samen met uw andere marketing kanalen zoals Betaald Onderzoek of de Marketing van de Partner gemeten.
+Als onderdeel van het algemene [!DNL Marketo Measure] en [!DNL Marketo Engage] Integratie, deze poging om de activiteiten van Marketo te stimuleren speelt een enorme rol. Via Marketo Activiteiten volgt het systeem gebeurtenissen zoals `Click Email`, `Change Score` of `Change Status in Progression` - deze soorten activiteiten kunnen worden geplakt en gedefinieerd om een subset te selecteren die in aanmerking komt voor aanraakpunten. Zodra de aanraakpunten op deze activiteiten worden gecreeerd, worden zij gevolgd in de betrokkenheidsreis en samen met uw andere marketing kanalen zoals Betaald Onderzoek of de Marketing van de Partner gemeten.
 
 ## Vereisten {#requirements}
 
@@ -32,25 +32,25 @@ Als onderdeel van het algemene [!DNL Marketo Measure] en [!DNL Marketo Engage] I
 
    ![](assets/two-1.png)
 
-   Het eerste vereiste ding is de lijst van de Types van Activiteit te selecteren die u van plan bent om regels op te bouwen. Er is geen hard aantal vereiste activiteitstypen, maar wij adviseren ook dat u uw touchpoints niet overlaadt en het belang van significante mijlpalen sleept. Met dat gezegd, hebt u misschien niet meer dan vijf soorten activiteit nodig om de relevante overeenkomsten te volgen.
+   Het eerste vereiste ding is de lijst van de Types van Activiteit te selecteren die u van plan bent om regels op te bouwen. Er is geen hard aantal vereiste activiteitstypen, maar u wordt aangeraden uw aanraakpunten niet te veel te laden en het belang van belangrijke mijlpalen af te zwakken. Met dat gezegd, hebt u misschien niet meer dan vijf soorten activiteit nodig om de relevante overeenkomsten te volgen.
 
 1. Klik op de vervolgkeuzelijst onder [!UICONTROL Select Activities Types] om de verschillende typen te kiezen.
 
    ![](assets/three-1.png)
 
-1. Als alle benodigde activiteiten zijn geselecteerd, worden deze ook in uw [!UICONTROL Selected Activities List] en onder [!UICONTROL Define Rules].
+1. Wanneer alle activiteiten die u nodig hebt, zijn geselecteerd, worden deze in uw [!UICONTROL Selected Activities List] en onder [!UICONTROL Define Rules].
 
    ![](assets/four-1.png)
 
-1. Voor elk Type van Activiteit, zult u één of meerdere regels moeten bepalen die welke verslagen verkiesbaar voor aanraakpunten zijn. Bij ons voorbeeld voegen we een regel toe voor het activiteitstype &#39;Score wijzigen&#39;, zodat het systeem een aanraakpunt maakt wanneer een Marketo-persoon een score van 90 of hoger haalt.
+1. Voor elk Type van Activiteit, moet u één of meerdere regels bepalen die welke verslagen verkiesbaar voor aanraakpunten zijn. In dit voorbeeld voegen we een regel toe voor het activiteitstype &#39;Score wijzigen&#39;, zodat het systeem een aanraakpunt maakt wanneer een Marketo-persoon een score van 90 of hoger haalt.
 
-1. Eerst moet u, afhankelijk van het type activiteit, mogelijk een [!DNL Marketo Measure] Campagnenaam die later voor kanaalafbeelding kan worden gebruikt. [!DNL Marketo Measure] De Namen van de campagne kunnen over veelvoudige regels opnieuw worden gebruikt. Dit helpt bredere namen hebben die in één enkele kanaalregel kunnen worden gebruikt. Niet alle soorten activiteiten bevatten een Marketo-programma, vandaar de behoefte aan een naam als deze eerste stap.
+1. Eerst moet u, afhankelijk van het type activiteit, mogelijk een [!DNL Marketo Measure] Campagnenaam die later voor kanaalafbeelding kan worden gebruikt. [!DNL Marketo Measure] De Namen van de campagne kunnen over veelvoudige regels worden opnieuw gebruikt. Dit helpt bredere namen hebben die in één enkele kanaalregel kunnen worden gebruikt. Niet alle soorten activiteiten bevatten een Marketo-programma, vandaar de behoefte aan een naam als deze eerste stap.
 
    Hier is een voorbeeld van hoe die extra stap eruit zou zien:
 
    ![](assets/five-1.png)
 
-1. In ons voorbeeld van de &quot;Score van de Verandering&quot;, te hoeven wij niet om een Naam van de Campagne in te gaan aangezien wij die informatie van het Programma van Marketo kunnen trekken. Nu kunt u de regelexpressie maken. Als u ons voorbeeld volgt, wilt u het veld &quot;[!UICONTROL New Value]&quot; met een operator van &quot;[!UICONTROL is greater than]&quot; met een waarde van 90.
+1. In het voorbeeld van de &quot;Score van de Verandering&quot;, is er behoefte om een Naam van de Campagne in te gaan aangezien die informatie uit het Programma van Marketo wordt getrokken. Maak nu de regelexpressie. In het volgende voorbeeld selecteert u het veld &quot;[!UICONTROL New Value]&quot; met een operator van &quot;[!UICONTROL is greater than]&quot; met een waarde van 90.
 
    U kunt de regels uitvouwen en aanvullende filters of criteria toevoegen door instructies &#39;en&#39; of &#39;of&#39; toe te voegen om de resultaten te beperken.
 
@@ -58,7 +58,7 @@ Als onderdeel van het algemene [!DNL Marketo Measure] en [!DNL Marketo Engage] I
 
    ![](assets/seven-1.png)
 
-1. Tot slot kiest u wat we als aanraakpunt Datum moeten gebruiken. Alle beschikbare datum- of datum-/tijdvelden worden hier weergegeven vanuit Marketo. Tenzij u aangepaste datumvelden hebt, wordt &quot;[!UICONTROL Activity Date].&quot;
+1. Kies ten slotte de datum waarop u het aanraakpunt wilt gebruiken. Alle beschikbare datum- of datum-/tijdvelden worden hier weergegeven vanuit Marketo. Tenzij u aangepaste datumvelden hebt, ziet u &quot;[!UICONTROL Activity Date].&quot;
 
    ![](assets/eight-1.png)
 
@@ -94,7 +94,7 @@ Als onderdeel van het algemene [!DNL Marketo Measure] en [!DNL Marketo Engage] I
 
 ## Activiteitstypen {#activity-types}
 
-Sommige activiteitstypen voorzien ons van de Programma-id en de Naam van het Programma, zodat is het gemakkelijk om dat in de Campagne-id en de Naam van de Campagne op het Aanraakpunt van de Koper in kaart te brengen. Voor anderen, is er geen programmavereniging, zodat zal een deel van de regeldefinitie u vereisen om een [!DNL Marketo Measure] Naam campagne. Hieronder staan lijsten van elke categorie:
+Sommige activiteitstypen voorzien ons van de Programma-id en de Programmanaam, zodat het eenvoudig is om dat toe te wijzen aan Campagne-id en Campagnenaam op het Aanraakpunt voor kopers. Voor anderen, is er geen programmavereniging, zodat vereist een deel van de regeldefinitie u om een [!DNL Marketo Measure] Naam campagne. Hieronder staan lijsten van elke categorie:
 
 **Activiteitstypen met programma-id**
 
@@ -154,21 +154,21 @@ Inhoud delen (400) Dialoogvenster ingesloten (158) Document heeft interactie geh
 
 ## Kanaaltoewijzing {#channel-mapping}
 
-Voor om het even welke regels van een Type van Activiteit met een Identiteitskaart van het Programma, wordt het Kanaal van het Programma van Marketo bepaald van het Programma. Wij gebruiken het Kanaal van het Programma om aan uw douane Offline Kanalen in kaart te brengen, zodat zult u uw kanalen moeten ervoor zorgen behoorlijk worden gevormd [zoals hier geïnstrueerd](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
+Voor om het even welke regels van een Type van Activiteit met een Identiteitskaart van het Programma, wordt het Kanaal van het Programma van Marketo bepaald van het Programma. Wij gebruiken het Kanaal van het Programma om aan uw douane Offline Kanalen in kaart te brengen, zodat moet u ervoor zorgen uw kanalen behoorlijk worden gevormd [zoals hier geïnstrueerd](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
 
 En voor om het even welke regels van een Type van Activiteit zonder Programma Id, was uw eerste stap een Naam van de Campagne te creëren. Met deze campagnenaam stelt u uw aangepaste onlinekanalen in [hier](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
-Als de Kanalen voor uw Activiteiten van Marketo niet behoorlijk worden gevormd, is het waarschijnlijk uw nieuwe aanraakpunten onder het &quot;Andere&quot;kanaal zullen vallen.
+Als de Kanalen voor uw Activiteiten van Marketo niet behoorlijk worden gevormd, is het waarschijnlijk uw nieuwe aanraakpunten onder het &quot;Andere&quot;kanaal vallen.
 
 ## Programmakosten {#program-costs}
 
-Via de gegevensimport van Marketo-programma&#39;s worden de kosten automatisch gedownload van de kosten van de periode en worden de gerapporteerde kosten in Marketo over de toegewezen maand verdeeld. Als bijvoorbeeld $1000 wordt gerapporteerd voor januari 2021, wordt $1000 gesplitst over 31 dagen. De kosten zijn te vinden in [!DNL Marketo Measure Discover].
+Via de invoer van gegevens van Marketo-programma&#39;s worden de kosten automatisch gedownload van de kosten van de periode en worden de gerapporteerde kosten in Marketo over de toegewezen maand verdeeld. Als bijvoorbeeld $1000 wordt gerapporteerd voor januari 2021, wordt $1000 gesplitst over 31 dagen. De kosten zijn te vinden in [!DNL Marketo Measure Discover].
 
 ## Cookie-toewijzing {#cookie-mapping}
 
 Als gevolg van de [!DNL Marketo Measure] de integratie met Marketo [!DNL Marketo Measure] De cookie-id is nu ook toegewezen en gesynchroniseerd met de [!DNL Marketo Munchkin Id]. Zo kunt u de tussenruimte dichten en de anonieme eerste aanraking toewijzen aan een websessie in plaats van zowel de FT- als de LC-aanraking toe te wijzen aan een Marketo-activiteit. Stel je dit scenario voor:
 
-Mark klikt op een Facebook advertentie en landt op wayneenterprises.com waar hij gekookt wordt [!DNL Marketo Measure] ID 123 en [!DNL Marketo Munchkin Id] 456. Er vindt geen formuliervulling plaats.
+Mark klikt op een Facebook-advertentie en landt op wayneenterprises.com waar hij een cookie krijgt [!DNL Marketo Measure] ID 123 en [!DNL Marketo Munchkin Id] 456. Er vindt geen formuliervulling plaats.
 
 Het Wayne Enterprises Marketing-team stuurt een e-mailoverzicht naar specifieke beoogde leads, waarbij een van hen `mark@email.com`.
 
@@ -188,11 +188,11 @@ Met deze functie voor het toewijzen van cookies zou FT teruggaan en worden gecre
 
 **Hoe weet ik of ik een regel voor Marketo-programma&#39;s of een regel voor Marketo-activiteiten wil maken?**
 
-De [!DNL Marketo Engage] De Integratie van programma&#39;s is een eenvoudige manier om aanraakpunten te produceren die op worden gebaseerd of een Persoon een programmalid van een programma is of niet. Als u in het bepalen van een regel geinteresseerd bent die op de tijd wordt gebaseerd een Persoon in een bepaalde status van het Programma verandert, [!DNL Marketo Engage] De Integratie van activiteiten zal de opstelling zijn u, specifiek het &quot;Status van de Verandering in Voortgang&quot;activiteitstype zodat uw Datum van het Aanraakpunt aan de systeem geproduceerde Datum van de Activiteit kan worden in kaart gebracht.
+De [!DNL Marketo Engage] De Integratie van programma&#39;s is een eenvoudige manier om aanraakpunten te produceren die op worden gebaseerd of een Persoon een programmalid van een programma is. Als u in het bepalen van een regel geinteresseerd bent die op de tijd wordt gebaseerd een Persoon in een bepaalde status van het Programma verandert, [!DNL Marketo Engage] De Integratie van activiteiten zal de opstelling zijn u wilt, specifiek het &quot;Status van de Verandering in Voortgang&quot;activiteitstype zodat uw Datum van het Aanraakpunt aan de systeem-geproduceerde Datum van de Activiteit kan worden in kaart gebracht.
 
 **Waarom wordt de naam van mijn Type Aanraakpunt ingekort?**
 
-Het veld Type aanraakpunt is gemaakt in het dialoogvenster [!DNL Marketo Measure] pakket met 16 tekens. Helaas moet bij het wijzigen van de tekenlimiet van het veld het bestaande veld worden vervangen en een nieuw veld worden gemaakt. De waarde van Type aanraakpunt is het Type activiteit, dat ook wordt ingesteld in het veld Gemiddeld.
+Het veld Type aanraakpunt is gemaakt in het dialoogvenster [!DNL Marketo Measure] pakket met 16 tekens. Helaas moet bij het wijzigen van de tekenlimiet van het veld het bestaande veld worden vervangen en moet er een worden gemaakt. De waarde van Type aanraakpunt is het Type activiteit, dat ook wordt ingesteld in het veld Gemiddeld.
 
 **Waarom verschijnt mijn Type van Activiteit van de Douane niet in de lijst van beschikbare activiteiten?**
 
@@ -200,7 +200,7 @@ We tonen alleen &#39;Goedgekeurde&#39; aangepaste activiteitstypen en niet Conce
 
 **Hoe bepaal ik welke Types van Activiteit ik een aanraakpunt voor wil produceren?**
 
-Hoewel er geen grens op het aantal Types van Activiteit is kunt u tot stand brengen, adviseren wij over het algemeen niet meer dan 5 activiteitstypes. Het kost tijd om te bepalen welke marketingactiviteiten relevant genoeg zijn om deel uit te maken van de toeristenreis. U kunt bijvoorbeeld &quot;E-mail afmelden&quot; gebruiken als belangrijk aanraakpunt voor bijhouden, maar &quot;Klik op e-mail&quot; met extra filters is wellicht een goed aanraakpunt. Dit varieert per organisatie en elk team, zodat adviseren wij u met uw teams te werken om op de beste benadering hier te brainstormen.
+Hoewel er geen grens op het aantal Types van Activiteit is kunt u tot stand brengen, adviseren wij over het algemeen niet meer dan vijf activiteitstypes. Het kost tijd om te bepalen welke marketingactiviteiten relevant genoeg zijn om deel uit te maken van de toeristenreis. U kunt bijvoorbeeld &quot;E-mail afmelden&quot; gebruiken als belangrijk aanraakpunt voor bijhouden, maar &quot;Klik op e-mail&quot; met extra filters is wellicht een goed aanraakpunt. Dit varieert per organisatie en elk team, zodat stellen wij u voor om met uw team te werken aan brainstorm op de beste benadering hier.
 
 **Waarom wordt mijn Browsernaam afgesloten?**
 

@@ -4,7 +4,7 @@ description: Aangepast kenmerkmodel en aangepaste instellingen - [!DNL Marketo M
 title: Aangepast kenmerkmodel en aangepaste instellingen
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Als een aangepast veld wordt gebruikt in uw aangepaste model, MOET het bijhouden
 
    Ga naar de **[!UICONTROL Attribution Settings]** in [!DNL Marketo Measure] Apps; de douaneframes zullen hier in de attributietabel verschijnen. In de toewijzingstabel worden alle [!DNL Marketo Measure] toerekeningsmodellen en de toewijzingsweging van elk model. De toewijzingspercentages van de eerste vijf modellen zijn vast en kunnen niet worden gewijzigd.
 
-   In de kolom uiterst rechts met het label &quot;**[!UICONTROL Custom]**,&quot; kunt u de wegingsfactor voor elk werkgebied in uw aangepaste toewijzingsmodel instellen. Voer eenvoudig de waarden voor elk werkgebied in onder de kolom Aangepast. Vervolgens **[!UICONTROL Save and Reprocess]** eenmaal voltooid.
+   In de kolom uiterst rechts met het label &quot;**[!UICONTROL Custom]**,&quot; kunt u de wegingsfactor voor elk werkgebied in uw aangepaste toewijzingsmodel instellen. Voer de waarden voor elk werkgebied in onder de kolom Aangepast en klik op **[!UICONTROL Save and Reprocess]** wanneer voltooid.
 
    Links van het dialoogvenster _Aangepast_ de kolom is **[!DNL Marketo Measure]Systeem leren**. Het leren van de machine model berekent attributieweging die op het relatieve belang wordt gebaseerd om een overeenkomst te winnen afhankelijk van wat in elk douanestadium gebeurde. Raadpleeg voor meer informatie over het leermodel van de machine [Veelgestelde vragen over het leermodel voor machines](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 

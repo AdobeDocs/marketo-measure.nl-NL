@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Salesforce-objecten - [!DNL Marketo Measure
 title: "[!DNL Marketo Measure] Salesforce-objecten"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Als u A/B tests door [!DNL Optimizely] of VWO (Visuele Optimizer van het Web), k
 
 ![](assets/5.png)
 
-De [!DNL Marketo Measure] A/B-testobject wordt weergegeven als een verwante lijst in [!UICONTROL Leads], [!UICONTROL Contacts] en [!UICONTROL Opportunity] pagina&#39;s. De lijst bevat alle experimenten en variaties die u doorloopt via Optimizely of VWO. U kunt de experimenten/variaties bekijken als ze betrekking hebben op specifieke leads en contactpersonen.
+De [!DNL Marketo Measure] A/B-testobject wordt weergegeven als een verwante lijst in [!UICONTROL Leads], [!UICONTROL Contacts] en [!UICONTROL Opportunity] pagina&#39;s. De lijst bevat alle experimenten en variaties die u doorloopt via Optimizely of VWO. U kunt de experimenten/variaties bekijken zoals deze betrekking hebben op specifieke leads en contactpersonen.
 
 ## [!DNL Marketo Measure] Gebeurtenissen {#marketo-measure-events}
 

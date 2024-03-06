@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Integratie met Adobe Analytics - [!DNL Mark
 title: "[!DNL Marketo Measure] Integratie met [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,19 @@ De integratie van B2B-klantkenmerken maakt wederzijdse gebruikers van [!DNL Mark
 
 1. Zodra de Klant Gegevensbron van Attributen wordt gecreeerd, ga het configuratieproces door aan **[!UICONTROL Integrations]** > **[!UICONTROL Connections]** in het [!DNL Marketo Measure] beheermenu.
 
-1. Klik op de knop **[!UICONTROL Set Up New Customer Attributes Connection]** en volg de instructies om de integratie van de Attributen van de Klant te vormen. In de gebruikersinterface wordt u gevraagd om de gegevens over de Alias-id- en FTP-verbinding die u hebt opgehaald bij het maken van de Bron klantkenmerken in uw Core Services Console en om de set accountkenmerken te selecteren die u wilt synchroniseren met uw [!DNL Adobe Analytics] account.
+1. Klik op de knop **[!UICONTROL Set Up New Customer Attributes Connection]** en volg de instructies om de integratie van de Attributen van de Klant te vormen. In de gebruikersinterface wordt u gevraagd om de informatie over de Alias-id- en FTP-verbinding die u hebt opgehaald bij het maken van de Bron voor klantkenmerken in uw Core Services Console. Selecteer de set accountkenmerken die u wilt synchroniseren met uw [!DNL Adobe Analytics] account.
 
-   U moet ook uw Adobe IMS-organisatie-id invoeren. Deze id wordt rechtsonder in de Adobe Experience Cloud-Admin Console weergegeven. Neem contact op met het accountteam van de Adobe (uw accountmanager) voor meer hulp bij het zoeken naar deze id.
+   Voer uw Adobe IMS-organisatie-id in. Deze id wordt rechtsonder in de Adobe Experience Cloud-Admin Console weergegeven. Neem contact op met het accountteam van de Adobe (uw accountmanager) voor meer hulp bij het zoeken naar deze id.
 
-1. Nadat u de verbinding in uw [!DNL Marketo Measure] account, moet u terugkeren naar uw Experience Cloud console naar [valideer het schema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). U hoeft zich geen zorgen te maken over het uploaden van FTP-bestanden, [!DNL Marketo Measure] heeft dat onderdeel voor u geautomatiseerd. Alles wat u hoeft te doen, gaat u naar het schema &quot;Weergave/Bewerken&quot; voor de kenmerkbron van de klant die u hebt gemaakt in Stap 1 en vertelt u de Adobe wat de gegevenstypen zijn voor elk van de kenmerken die [!DNL Marketo Measure] heeft namens u geüpload. U kunt desgewenst ook nieuwe weergavefuncties voor de geüploade kenmerken maken.
+1. Nadat u klaar bent met het maken van de verbinding in uw [!DNL Marketo Measure] account, moet u terugkeren naar uw Experience Cloud console naar [valideer het schema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). U hoeft zich geen zorgen te maken over het uploaden van FTP-bestanden, [!DNL Marketo Measure] heeft dat onderdeel voor u geautomatiseerd. Ga naar het schema &quot;van de Mening/van Bewerken&quot;scherm voor de Bron van Attributen van de Klant u in Stap 1 creeerde en vertel Adobe wat de gegevenstypes voor elk van de attributen zijn die [!DNL Marketo Measure] heeft namens u geüpload. U kunt desgewenst ook nieuwe weergavefuncties voor de geüploade kenmerken maken.
 
    Als u ervoor hebt gekozen om kenmerken van uw CRM-accountobject te synchroniseren, wordt u ten zeerste aangeraden nieuwe weergavenamen voor deze kenmerken te kiezen, zoals [!DNL Marketo Measure] vult alleen de namen op API-niveau voor deze kenmerken in, die doorgaans niet rapportvriendelijk zijn.
 
-1. De laatste stap is de Abonnementen van Attributen voor de toepassingen van het Experience Cloud te vormen die u de attributen binnen wilt gebruiken. U kunt Abonnementen configureren voor [!DNL Adobe Analytics] of [!DNL Adobe Target].  Meer informatie over hoe u dat kunt doen [hier te vinden](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html).
+1. De laatste stap is de Abonnementen van Attributen voor de toepassingen van het Experience Cloud te vormen die u de attributen binnen wilt gebruiken. U kunt Abonnementen configureren voor [!DNL Adobe Analytics] of [!DNL Adobe Target].  Meer informatie over hoe u dat kunt doen [hier te vinden](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
 
 ## Kenmerkbeschrijvingen {#attribute-descriptions}
 
-Als u een nieuwe B2B-klantkenmerkverbinding maakt, [!DNL Marketo Measure] automatisch een standaardset B2B-klantkenmerken voor u maken. Deze kenmerken worden in de onderstaande tabel beschreven.
+Wanneer u een B2B Verbinding van de Attributen van de Klant creeert, [!DNL Marketo Measure] maakt automatisch een standaardset B2B-klantkenmerken voor u. Deze kenmerken worden in de onderstaande tabel beschreven.
 
 Naast de kenmerken die hieronder worden vermeld, kunt u ook alle kenmerken uploaden die aan het accountobject in uw CRM zijn gekoppeld. Als er meer dan één account is gekoppeld aan de opgegeven gebruiker, [!DNL Marketo Measure] Hiermee worden alle overeenkomende accountkenmerkwaarden in een lijst met door puntkomma&#39;s gescheiden waarden gevuld.
 
@@ -79,7 +79,7 @@ Naast de kenmerken die hieronder worden vermeld, kunt u ook alle kenmerken uploa
 
 **Een opmerking over kenmerklimieten**
 
-De kenmerken die via deze integratie worden opgehaald, tellen nog steeds mee voor uw contractuele kenmerklimieten in [!DNL Adobe Analytics] en [!DNL Adobe Target]. Alleen kenmerken die worden weergegeven via een kenmerkabonnement (stap 5 in [De integratie configureren](#configuring-the-integration)) wordt in mindering gebracht op uw limiet voor de geabonneerde toepassing.
+De kenmerken die via deze integratie worden opgehaald, tellen mee voor uw contractuele kenmerklimieten in [!DNL Adobe Analytics] en [!DNL Adobe Target]. Alleen kenmerken die worden weergegeven via een kenmerkabonnement (stap 5 in [De integratie configureren](#configuring-the-integration)) in mindering brengen op uw limiet voor de geabonneerde toepassing.
 
 ## Veelgestelde vragen {#faqs}
 

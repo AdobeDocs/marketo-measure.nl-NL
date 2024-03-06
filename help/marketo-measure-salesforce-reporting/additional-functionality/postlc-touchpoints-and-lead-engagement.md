@@ -4,9 +4,9 @@ description: PostLC Touchpoints en Lead Engagement - Marketo Measure - Productdo
 title: PostLC-aanraakpunten en Lead Engagement
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 ![](assets/1.png)
 
-U kunt het aantal PostLC-aanraakpunten aanpassen dat wordt weergegeven in [!DNL SFDC]. Meestal raden we u aan om maximaal vijf PostLC-aanraakpunten te verplaatsen. Elk aanraakpunt neemt 1 kB in beslag [!DNL SFDC].
+U kunt het aantal PostLC-aanraakpunten aanpassen dat wordt weergegeven in [!DNL SFDC]. Doorgaans raden we aan om maximaal vijf PostLC-aanraakpunten te verleggen; elk aanraakpunt neemt 1 kB in beslag [!DNL SFDC].
 
 >[!NOTE]
 >
 >Aan het einde van dit artikel vindt u instructies voor het aanpassen van de PostLC-aanraakpuntinstellingen.
 
-PostLC-aanraakpunten zijn dynamisch. Als leider of contactpersoon blijven PostLC-formulieren verzenden, [!DNL Marketo Measure] Hiermee werkt u de PostLC-aanraakpunten in uw CRM bij en toont u de meest recente formulierverzendingen. Specifiek, als u een grens van 5 aanraakpunten PostLC hebt geplaatst, [!DNL Marketo Measure] Druk altijd op de 5 _meest recent_ touchpoints to your CRM.  In dit voorbeeld heeft dit account de PostLC-limiet ingesteld op vier aanraakpunten. Deze lead heeft al het maximum aantal PostLC-aanraakpunten bereikt dat deze in uw CRM kan hebben. De laatste PostLC touch was op 6-2-2018. Indien deze persoon de volgende dag een ander formulier invult, [!DNL Marketo Measure] het eerste PostLC-aanraakpunt van 11-9-2017 wordt verwijderd om het laatste aanraakpunt van 2-7-2018 toe te voegen.
+PostLC-aanraakpunten zijn dynamisch. Als leider of contactpersoon blijven PostLC-formulieren verzenden, [!DNL Marketo Measure] Hiermee werkt u de PostLC-aanraakpunten in uw CRM bij en toont u de meest recente formulierverzendingen. Specifiek, als u een grens van 5 aanraakpunten PostLC hebt geplaatst, [!DNL Marketo Measure] druk altijd op de vijf _meest recent_ touchpoints to your CRM.  In dit voorbeeld heeft dit account de PostLC-limiet ingesteld op vier aanraakpunten. Deze lead heeft al het maximum aantal PostLC-aanraakpunten bereikt dat deze in uw CRM kan hebben. De laatste PostLC touch was op 6-2-2018. Indien deze persoon de volgende dag een ander formulier invult, [!DNL Marketo Measure] Het eerste PostLC-aanraakpunt wordt verwijderd van 11-9-2017 en het laatste aanraakpunt wordt toegevoegd van 2-7-2018.
 
 ![](assets/2.png)
 
 >[!NOTE]
 >
->[!DNL Marketo Measure] Hiermee werkt u alleen de PostLC-aanraakpunten op de lead of contactpersoon bij en worden de PostLC-aanknopingspunten voor toewijzingen niet bijgewerkt op een opportunity. Alle relevante PostLC-aanraakpunten op een contactpersoon worden opgenomen in de opportunity.
+>[!DNL Marketo Measure] werkt alleen PostLC-aanraakpunten op de lead of contactpersoon bij en werkt geen PostLC-aanknopingspunten voor toewijzingen bij op een opportunity. Alle relevante PostLC-aanraakpunten op een contactpersoon worden opgenomen in de opportunity.
 
 ## PostLC-aanraakpuntinstellingen wijzigen {#how-to-change-postlc-touchpoint-settings}
 

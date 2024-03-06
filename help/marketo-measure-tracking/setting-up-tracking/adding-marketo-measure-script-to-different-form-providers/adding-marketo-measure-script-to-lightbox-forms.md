@@ -4,9 +4,9 @@ description: Toevoegen [!DNL Marketo Measure] Script naar lichtbak Forms - [!DNL
 title: Toevoegen [!DNL Marketo Measure] Script naar lichtbak Forms
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Leer hoe u de [!DNL Marketo Measure] JavaScript naar een formulier in een lichtbak.
 
-Met een lichtbak wordt een formulier vóór de inhoud geopend wanneer de bezoeker een bepaalde handeling uitvoert (bijvoorbeeld op een bepaald gedeelte van de pagina klikken, een bepaalde periode op de pagina doorbrengen, enz.). Doorgaans vragen we alleen om de [!DNL Marketo Measure] JavaScript geplaatst in het hoofd van de landingspagina, maar voor formulieren binnen een lichtbak is er één extra stap nodig.
+Met een lichtbak wordt een formulier vóór de inhoud geopend wanneer de bezoeker een bepaalde actie uitvoert (door op een bepaald gedeelte van de pagina te klikken, een bepaalde tijd op de pagina door te brengen, enzovoort). We vragen meestal om de opdracht [!DNL Marketo Measure] JavaScript geplaatst in het hoofd van de landingspagina, maar voor formulieren binnen een lichtbak is er één extra stap nodig.
 
-Aangezien een formulier in een lichtbak in feite een formulier binnen een iFrame is, hebben we ons script nodig dat in dat iFrame is geplaatst.
+Aangezien een formulier in een lichtbak in feite een formulier binnen een iFrame is, wordt het script in dat iFrame geplaatst.
 
 Zoek eerst het iFrame op de [!UICONTROL lightbox] leven in.
 
@@ -27,9 +27,9 @@ Vervolgens plaatst u de [!DNL Marketo Measure] JavaScript in het iFrame.
 
 ![](assets/2.png)
 
-Wanneer JavaScript is toegevoegd, wordt u ten slotte aangeraden formulierverzendingen te valideren door de volgende aanwijzingen te volgen:
+Wanneer JavaScript wordt toegevoegd, worden formulierverzendingen ten slotte in de volgende richtingen bijgehouden:
 
 1. Kopieer de URL van de bestemmingspagina die de [!UICONTROL lightbox] formulier.
 1. Open een Incognito-browser en plak de URL.
 1. Verzend het formulier met een uniek e-mailadres.
-1. Bevestig dat de test is bijgehouden door uw CRM te controleren op het unieke e-mailadres dat wordt gebruikt. Controleer of de aanraakpuntgegevens worden ingevuld.
+1. Bevestig dat de test is gevolgd door uw CRM te controleren op het unieke e-mailadres dat wordt gebruikt. Controleer of de aanraakpuntgegevens worden gevuld.

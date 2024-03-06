@@ -3,9 +3,9 @@ description: Aanbevolen procedures voor aanraakpuntinstellingen - [!DNL Marketo 
 title: Aanbevolen werkwijzen voor aanraakpuntinstellingen
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In uw [!DNL Marketo Measure] de [!UICONTROL Touchpoint Settings] deze sectie wor
 
 ## Beste praktijken {#best-practice}
 
-Ongeacht of u regels voor het instellen van aanraakpunten voor het eerst vaststelt of alleen controleert of deze correct zijn, houd dan rekening met de volgende aanbevolen procedures.
+Denk aan de volgende best practices, of u nu voor het eerst regels voor het instellen van aanraakpunten opstelt of deze controleert op nauwkeurigheid.
 
 * Stel de lijst met gegevens in die u wilt onderdrukken of verwijderen voordat u de regels maakt.
 * Identificeer precies welke gebieden duidelijk de regel of de regels zullen aangeven u vestiging

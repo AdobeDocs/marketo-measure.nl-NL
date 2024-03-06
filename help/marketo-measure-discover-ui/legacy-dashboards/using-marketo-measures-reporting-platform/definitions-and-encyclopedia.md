@@ -4,9 +4,9 @@ description: Definities en Encyclopedie - [!DNL Marketo Measure]
 title: Definities en Encyclopedie
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '6137'
+source-wordcount: '6136'
 ht-degree: 0%
 
 ---
@@ -901,7 +901,7 @@ Klik op de geaggregeerde getallen om naar beneden te gaan voor de details van de
 
 **Q: Waarom is er zowel een &#39;Account ID&#39;- als een &#39;Account Name&#39;-filter?**
 
-A: Hoewel account-id&#39;s uniek zijn, hoeven accountnamen niet te zijn. Bijvoorbeeld, kon u veelvoudige verschillende rekeningen voor elke bedrijfseenheid binnen een ondernemingsbedrijf tot stand hebben gebracht. Tijdens het gebruik van de accountnaam is het wellicht intuïtiever om ervoor te zorgen dat u voor een specifieke account filtert, u kunt de account-id gebruiken.
+A: Hoewel account-id&#39;s uniek zijn, hoeven accountnamen niet te zijn. Bijvoorbeeld, kon u veelvoudige verschillende rekeningen voor elke bedrijfseenheid binnen een ondernemingsbedrijf tot stand hebben gebracht. Als u de accountnaam gebruikt, is dit wellicht intuïtiever. Als u zeker weet dat u voor een bepaald account filtert, kunt u de account-id gebruiken.
 
 **Q: Als ik filter door identiteitskaart van de Rekening, zullen alle lijsten door gefiltreerd?**
 
@@ -917,7 +917,7 @@ A: Ja, als u op een van de kolomkoppen klikt, wordt de tabel gesorteerd. Als u n
 
 **V: Kan ik de gegevens exporteren?**
 
-A: Ja, wanneer u de tegel boven de titel houdt (bijvoorbeeld Accounts), klikt u op de drie verticale stippen in de rechterbovenhoek. Hierdoor kunt u de gegevens voor die tegel in de volgende indelingen downloaden: TXT, CSV, XLS, JSON, HTML en Markdown.
+A: Ja, als u de muisaanwijzer boven de titel van het element houdt (bijvoorbeeld Accounts), klikt u op de drie verticale stippen in de rechterbovenhoek. Hierdoor kunt u de gegevens voor die tegel in de volgende indelingen downloaden: TXT, CSV, XLS, JSON, HTML en Markdown.
 
 **V: Kan ik meer dan 500 rijen gegevens zien?**
 

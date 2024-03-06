@@ -4,9 +4,9 @@ description: Marketingbestedingen rapporteren - [!DNL Marketo Measure]
 title: Marketingbestedingen rapporteren
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ## Tabel met marketinguitgaven {#marketing-spend-table}
 
-De lijst van de Uitgaven van de Marketing zal nu een nieuwe kolom bevatten om de munt voor elk Kanaal, Subkanaal, en rij van de Campagne te tonen. Deze nieuwe kolom zal voor alle klanten tonen, zelfs als zij geen Veelvoudige Toegelaten Valuta&#39;s hebben.
+De lijst van de Uitgaven van de Marketing bevat een nieuwe kolom om de munt voor elk Kanaal, Subkanaal, en rij van de Campagne te tonen. Deze nieuwe kolom wordt weergegeven voor alle klanten, zelfs als er geen Meerdere valuta&#39;s zijn ingeschakeld.
 
-De tabel zal nu een combinatie van verschillende valuta&#39;s bevatten. Raadpleeg het dashboard marketinguitgaven als u de som van kanalen, subkanalen of campagnes in één valuta moet ophalen.
+De tabel bevat een combinatie van verschillende valuta&#39;s. Raadpleeg het dashboard Marketing Spend (marketinguitgaven) voor de som van kanalen, subkanalen of campagnes in één valuta.
 
 ## Kosten uploaden {#upload-costs}
 
@@ -25,15 +25,15 @@ Wanneer een gebruiker het kostenbestand downloadt, bevat het bestand ook een nie
 
 ## Kosten van de integratie van hulpmiddelen {#costs-from-ad-integrations}
 
-Wanneer [!DNL Marketo Measure] Hiermee importeert u de kosten van verbonden platforms zoals AdWords, Bing, Facebook of Doubleclick. Ook gebruiken we de gerapporteerde valuta. De valuta wordt naast Kanaal, Subkanaal en Campagne weergegeven wanneer deze worden weergegeven in de tabel marketinguitgaven.
+Wanneer [!DNL Marketo Measure] Hiermee importeert u de kosten van verbonden platforms zoals AdWords, Bing, Facebook of Doubleclick. Ook gebruiken we de gerapporteerde valuta. De valuta wordt weergegeven naast Kanaal, Subkanaal en Campagne wanneer deze worden weergegeven in de tabel Marketinguitgaven.
 
-Als de valuta van de advertentieprovider niet overeenkomt met een valuta die van de CRM is gehaald, wordt mogelijk een fout met &quot;Gemengde valuta&#39;s&quot; weergegeven in [!DNL Marketo Measure Discover] omdat we die valuta niet konden omrekenen. Om dit te bevestigen, moet uw Admin van CRM een omzetting voor de onbekende munt toevoegen.
+Als de valuta van de advertentieprovider niet overeenkomt met een valuta die van de CRM is gehaald, wordt mogelijk een fout met &quot;Gemengde valuta&#39;s&quot; weergegeven in [!DNL Marketo Measure Discover]. Hiervoor moet de CRM-beheerder een conversie toevoegen voor de onbekende valuta.
 
 ## Migreren naar geconverteerde marketinguitgaven {#migrate-to-converted-marketing-spend}
 
-Omdat onze marketinguitgaven historisch slechts in één valuta (USD) zijn gedaan, is er een kleine hoeveelheid werk nodig om alle gemelde uitgaven aan de nieuwe valuta te veranderen. Zelfs als Meerdere valuta&#39;s niet zijn ingeschakeld voor uw account, als u één andere bedrijfsvaluta dan USD hebt, kunt u deze migratie uitvoeren.
+Omdat de marketinguitgaven historisch slechts in één (USD) valuta zijn gedaan, is er een kleine hoeveelheid werk nodig om alle gerapporteerde uitgaven aan de nieuwe valuta aan te passen. Zelfs als Meerdere valuta&#39;s niet is ingeschakeld voor uw account, kunt u deze migratie beter uitvoeren als u één andere bedrijfsvaluta dan USD hebt.
 
 1. Het huidige uitgavenbestand downloaden naar een CSV
-1. De valutakolom wordt weergegeven als &quot;[!UICONTROL USD]&quot; als de veronderstelde valuta. U kunt ofwel handmatig alle instanties van &quot;[!UICONTROL USD]&quot; of gebruik Zoeken+vervangen om alle &quot;[!UICONTROL USD]&quot; exemplaren naar uw eigen bedrijfsvaluta, zoals &quot;[!UICONTROL EUR]&quot; of &quot;[!UICONTROL GBP]&quot; bijvoorbeeld.
+1. De valutacode geeft &quot;[!UICONTROL USD]&quot; als de veronderstelde valuta. U kunt ofwel handmatig alle instanties van &quot;[!UICONTROL USD]&quot; of gebruik Zoeken+vervangen om alle &quot;[!UICONTROL USD]&quot; exemplaren naar uw eigen bedrijfsvaluta, zoals &quot;[!UICONTROL EUR]&quot; of &quot;[!UICONTROL GBP]&quot;.
 1. Sla het bestand op en upload het opnieuw naar [!DNL Marketo Measure].
 1. Alle gerapporteerde kosten worden nu weergegeven als de nieuwe valuta.

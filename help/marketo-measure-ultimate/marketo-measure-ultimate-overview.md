@@ -3,9 +3,9 @@ description: '[!DNL Marketo Measure] Ultieme overzicht - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate Overview'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Marketo Measure Ultimate] bevat de extra mogelijkheden:
 
-* Maak gebruik van vrijwel elke gegevensbron en van meerdere gegevensbronnen van hetzelfde type om al uw gegevens voor attributie in te voeren.
+* Maak gebruik van bijna elke gegevensbron en meerdere gegevensbronnen van hetzelfde type om al uw gegevens voor attributie in te voeren.
    * Gebruik met bijna om het even welke CRM, niet alleen Salesforce en Dynamica.
    * Meerdere CRM-instanties en/of MAP-instanties verbinden met één [!DNL Marketo Measure] -instantie.
    * Gegevens over webinaire registratie en deelname van derden beschikbaar maken.
@@ -39,13 +39,13 @@ ht-degree: 0%
 
 **B2B-gegevens importeren via AEP**
 
-Van markeerders wordt verwacht dat zij hun B2B-gegevens (bijv. account, opportuniteit, contactpersoon, lead, campagne, campagnelid, activiteit) via AEP doorgeven. De directe verbindingen van CRM en van het Marketo Engage zijn niet meer beschikbaar voor Ultimate. De verkopers zullen gegevens van het Platform van Ad blijven brengen door directe verbindingen en het volgen van Webactiviteiten door [!DNL Marketo Measure] javascript.
+Van markeerders wordt verwacht dat zij hun B2B-gegevens (bijvoorbeeld account, opportunity, Contact, lead, campagne, campagnemiddel, activiteit) via AEP doorgeven. De directe verbindingen van CRM en van het Marketo Engage zijn niet meer beschikbaar voor Ultimate. De verkopers blijven gegevens van het Advertentieplatform door directe verbindingen en het volgen van Webactiviteiten door brengen [!DNL Marketo Measure] javascript.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
 **Standaardinstelling valuta**
 
-[!DNL Marketo Measure Ultimate] wordt de standaardvaluta ingesteld op USD totdat de gebruiker deze wijzigt. Als u een nieuwe standaardvaluta instelt, worden de gegevens bijgewerkt zonder dat ze opnieuw worden verwerkt. Zolang de geselecteerde valuta als doel-ISO-code aanwezig is, is het niet nodig conversiekoersen in te dienen.
+[!DNL Marketo Measure Ultimate] stelt de standaardvaluta in op USD totdat de gebruiker deze wijzigt. Als u een nieuwe standaardvaluta instelt, worden de gegevens bijgewerkt zonder dat ze opnieuw worden verwerkt. Zolang de geselecteerde valuta als doel-ISO-code aanwezig is, is het niet nodig conversiekoersen in te dienen.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
@@ -55,11 +55,11 @@ Van markeerders wordt verwacht dat zij hun B2B-gegevens (bijv. account, opportun
 
 >[!NOTE]
 >
->A [!DNL Marketo Measure Ultimate] productie-instantie moet worden toegewezen aan een AEP-productiesandbox, een [!DNL Marketo Measure Ultimate] -ontwikkelaarsinstantie moet worden toegewezen aan een AEP-ontwikkelaarssandbox.
+>A [!DNL Marketo Measure Ultimate] productie-instantie moet worden toegewezen aan een AEP-productiesandbox, een [!DNL Marketo Measure Ultimate] -ontwikkelaarinstantie moet worden toegewezen aan een AEP-ontwikkelaarssandbox.
 
-Als de selectie van de sandboxtoewijzing is opgeslagen, kunt u deze momenteel niet meer wijzigen in de toepassing. Als u dit wilt wijzigen, selecteert u [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Wanneer de selectie van de sandboxtoewijzing is opgeslagen, kunt u deze niet meer wijzigen in de toepassing. Als u dit wilt wijzigen, selecteert u [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-Gegevens voor een bepaalde entiteit (bv. Account) uit een bepaalde gegevensbron kunnen slechts in één gegevensset worden opgenomen. Elke dataset kan slechts in één gegevensstroom worden omvat. Overtredingen zullen de gegevensstroom tijdens runtime stoppen.
+De gegevens voor een bepaalde entiteit (bijvoorbeeld, Rekening) van een bepaalde gegevensbron kunnen slechts in één dataset gaan. Elke dataset kan slechts in één gegevensstroom worden omvat. Overtredingen stoppen de gegevensstroom bij uitvoering.
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
@@ -106,8 +106,8 @@ Attribution Touchpoints worden niet naar CRM geschreven omdat Ultimate geen dire
 
 ## Beperkingen {#limitations}
 
-* Er zijn momenteel beperkte velden beschikbaar voor de regels voor gegevenstransformatie.
-* Er is geen migratiepad voor bestaande gebruikers van niveau 1/2/3. Vereist een nieuwe implementatie, maar we helpen de bijgehouden webactiviteitsgegevens te migreren van het bestaande exemplaar.
+* Er zijn beperkte velden beschikbaar voor regels voor gegevenstransformatie.
+* Er is geen migratiepad voor bestaande gebruikers van niveau 1/2/3. Vereist nieuwe implementatie, maar wij helpen de bijgehouden webactiviteitsgegevens van het bestaande exemplaar te migreren.
 
 >[!MORELIKETHIS]
 >

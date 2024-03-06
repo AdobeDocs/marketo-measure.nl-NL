@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Dynamisch schema - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Dynamisch schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-Hieronder vindt u het vereiste schema Dynamica om te beginnen met [!DNL Marketo Measure]. Alle entiteiten en velden worden vermeld, samen met de vereiste lees- en/of schrijftoegang.
+Hieronder is het vereiste schema van de Dynamica om te beginnen met [!DNL Marketo Measure]. Alle entiteiten en velden worden vermeld, samen met de vereiste lees- en/of schrijftoegang.
 
 ## Aanraakpunten koper {#buyer-touchpoints}
 
@@ -912,7 +912,7 @@ Dit diagram is een grote visualisatie van de relaties tussen de Dynamics Stock-e
 
 ## Dynamics Standard Entities {#dynamics-standard-entities}
 
-Deze lijst verstrekt de NormEntiteiten van de Dynamica die [!DNL Marketo Measure] heeft interactie met, evenals de douanegebieden die wij aan deze entiteiten toevoegen.
+Deze lijst bevat de Dynamics Standard Entities die [!DNL Marketo Measure] communiceert met, en de douanegebieden die wij aan deze entiteiten toevoegen.
 
 **Lood**
 

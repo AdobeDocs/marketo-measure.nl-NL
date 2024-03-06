@@ -4,9 +4,9 @@ description: Toevoegen [!DNL Marketo Measure] tot [!DNL Marketo] Aanlandingspagi
 title: Toevoegen [!DNL Marketo Measure] naar Marketo-bestemmingspagina's
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,10 @@ Voorbeeld in onderstaande schermafbeelding
 
 ## Aanvullende opmerkingen {#additional-notes}
 
-* Mogelijk hebt u al andere codefragmenten voor tekstspatiëring, zoals een [!DNL Google Analytics] code. Er is geen probleem met dit, zorg ervoor dat u ze met een puntkomma van elkaar scheidt `;` en één spatie. Een voorbeeld van hoe dit eruit zou zien:
+* Mogelijk hebt u al andere codefragmenten voor tekstspatiëring, zoals een [!DNL Google Analytics] code. Er is geen probleem met dit, zorg ervoor dat u ze scheidt met een puntkomma `;` en één spatie. Een voorbeeld van hoe dit eruit zou zien:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`
 
 * Het is waarschijnlijk dat u veelvoudige het Bestaan van de Pagina malplaatjes in gebruik hebt, ben zeker om de code aan alle malplaatjes toe te voegen die vormen op hen hebben.
 
-* Soms moet u bij het bewerken van de sjabloon voor bestemmingspagina&#39;s de pagina&#39;s waarop de bestemmingspagina wordt gebruikt opnieuw goedkeuren. In dit artikel wordt uitgelegd [massagoedkeuring](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.
+* Wanneer u de sjabloon voor bestemmingspagina&#39;s bewerkt, moet u soms de pagina&#39;s die de bestemmingspagina gebruikt, opnieuw goedkeuren. In dit artikel wordt uitgelegd [massagoedkeuring](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

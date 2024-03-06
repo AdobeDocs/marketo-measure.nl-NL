@@ -4,9 +4,9 @@ description: Records dupliceren in Mijn rapport - [!DNL Marketo Measure]
 title: Records dupliceren in Mijn rapport
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Terwijl u in de [!DNL Marketo Measure] Rapporten in [!DNL Salesforce], kun je beginnen naar dubbele records in je rapporten te zoeken. U zult dit gevoel waarschijnlijk ervaren wanneer u een beoordeling uitvoert [!DNL Marketo Measure] out-of-the-box rapporten.
 
-Wanneer u rapporteert met het object Aanraakpunten koper of het object Aanraakpunt koperkenmerk, is het belangrijk om te begrijpen dat u niet langer rapporteert over het aantal leads, contactpersonen of mogelijkheden, maar dat u wel rapporteert over het aantal aanraakpunten voor kopers of aanraakpunten voor koperkenmerken die aan deze standaardobjecten zijn gekoppeld (leads, contactpersonen, mogelijkheden).
+Wanneer u rapporteert met het object Aanraakpunten koper of het object Aanraakpunt koperkenmerk, is het belangrijk om te begrijpen dat u niet langer rapporteert over het aantal leads, contactpersonen of mogelijkheden, maar dat u ook rapporteert over het aantal aanraakpunten voor kopers of aanraakpunten voor koperkenmerken die aan deze standaardobjecten zijn gekoppeld (leads, contactpersonen, mogelijkheden).
 
 Neem het volgende rapport als voorbeeld:
 

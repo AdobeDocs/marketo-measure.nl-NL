@@ -4,9 +4,9 @@ description: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie - Market
 title: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Standaard, [!DNL Marketo Measure] Hiermee exporteert u 200 records per API-credi
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het is raadzaam om de partijgrootte te verminderen slechts als u Cpu ondervindt onderbreking of hoge lading van cpu in uw CRM.
+Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het is raadzaam de batch alleen te verkleinen als u een CPU-time-out of een hoge CPU-belasting hebt in uw CRM.
 
 ## Standaardobjecten Salesforce en Toegang {#salesforce-standard-objects-and-access}
 

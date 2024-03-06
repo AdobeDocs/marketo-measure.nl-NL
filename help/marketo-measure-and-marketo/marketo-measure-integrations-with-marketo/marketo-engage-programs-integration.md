@@ -4,9 +4,9 @@ description: "[!DNL Marketo Engage] Integratie van programma's - [!DNL Marketo M
 title: "[!DNL Marketo Engage] Programmaintegratie"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Nadat u sommige regels hebt gecreeerd, kunt u het willen uittesten om te verifi√
 
    ![](assets/nine.png)
 
-   Klik op Lid Tellen om een lijst met Marketo People Ids weer te geven die in aanmerking komen voor het programma.
+   Klik op Lidmaatschap om een lijst weer te geven met Marketo People Ids die in aanmerking komen voor het programma.
 
    ![](assets/ten.png)
 
@@ -87,7 +87,7 @@ Van de lijst van de Kanalen van het Programma van Marketo, zult u de waarden aan
 
 1. Bovenaan hebt u de optie om een toewijzing te maken aan uw CRM-cameratypen, en onderaan ziet u de opties voor uw Marketo-programmakanalen.
 
-1. Selecteer eerst het kanaal dat aan de waarde zou moeten in kaart brengen, dan naar keuze Subchannel. Als u klaar bent, klikt u **[!UICONTROL Save]** onderaan.
+1. Selecteer eerst het kanaal dat aan de waarde zou moeten in kaart brengen, dan naar keuze Subchannel. Als u klaar bent, klikt u op **[!UICONTROL Save]** onderaan.
 
    ![](assets/eleven.png)
 

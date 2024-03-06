@@ -4,9 +4,9 @@ description: Methodologie voor toewijzing van kenmerken - [!DNL Marketo Measure]
 title: Methodologie voor toewijzing van kenmerken
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Cons: Nochtans, als er geen proces van de contactrol bestaat, verliest de market
 
 ## Roltoewijzing primaire contactpersoon opportunity {#opportunity-primary-contact-role-mapping}
 
-Naast het eenvoudig bekijken van de contactrollen op de kans, [!DNL Marketo Measure] kan zich nog meer richten om slechts de Primaire Contacten op een Kans te bekijken. Met deze instelling in gedachten, [!DNL Marketo Measure] zal slechts het marketing aanraakpunt verbonden aan de primaire contacten op een kans grijpen en zal die informatie in het attributieverhaal van die specifieke kans duwen. Zie de onderstaande afbeelding.
+Naast het eenvoudig bekijken van de contactrollen op de kans, [!DNL Marketo Measure] kan zich nog meer richten om slechts de Primaire Contacten op een Kans te bekijken. Met deze instelling in gedachten, [!DNL Marketo Measure] alleen haalt het marketingaanraakpunt dat aan de primaire contactpersonen is gekoppeld, op een opportuniteit over en duwt die informatie in het attributieverhaal van die specifieke opportuniteit. Zie de onderstaande afbeelding.
 
 ![](assets/3.png)
 

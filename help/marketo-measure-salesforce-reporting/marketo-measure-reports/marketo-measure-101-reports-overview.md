@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] 101 Rapporten - Overzicht [!DNL Marketo Mea
 title: "[!DNL Marketo Measure] 101 Overzicht van rapporten"
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ Het wordt beschouwd als een beste praktijk om &quot;_[!DNL Marketo Measure]101._
 
 De map &quot;Aanraakpuntrapporten van de koper&quot; is ontworpen om u te helpen aan de slag te gaan met uw [!DNL Marketo Measure] rapporten, voor activeerbare rapporten zult u die rapporten moeten aanpassen zodat zij aan uw rapporteringsbehoeften worden aangepast. u zult noodzakelijke filters moeten toevoegen om ervoor te zorgen de verslagen binnen het rapport (en hun verwante aanraakpunten) worden gericht aan uw rapporteringsdoel.
 
-Zodra u met &quot; vertrouwd bent _[!DNL Marketo Measure]101._&quot;- rapporten, kunt u hen van de types van douanerapporten voor meer douanerapporteringsbehoeften willen opnieuw creëren. Het creëren van [[!DNL Marketo Measure] Aangepaste rapporttypen](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) zal u toestaan om douanevelden in te trekken die u algemeen in andere rapporten van CRM zou kunnen gebruiken. Hiermee kunt u [!DNL Marketo Measure] rapporteren naar het volgende niveau!
+Wanneer u vertrouwd bent met &quot;_[!DNL Marketo Measure]101._&quot;- rapporten, kunt u hen van de types van douanerapporten voor meer douanerapporteringsbehoeften willen opnieuw creëren. Het creëren van [[!DNL Marketo Measure] Aangepaste rapporttypen](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) zal u toestaan om douanevelden in te trekken die u algemeen in andere rapporten van CRM zou kunnen gebruiken. Hiermee kunt u [!DNL Marketo Measure] rapporteren naar het volgende niveau!

@@ -4,9 +4,9 @@ description: Marketo-verbinding instellen - [!DNL Marketo Measure]
 title: Marketo-verbinding instellen
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Hieronder wordt beschreven hoe u verbinding maakt met Marketo.
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. Meld u aan bij uw Marketo Engage-account op een nieuw tabblad. Ga naar **Beheerder** > **Webservices**. Schuif omlaag naar REST API. Markeer en sla de URL van het eindpunt en de identiteitsservice op. Je hebt ze zo nodig.
+1. Meld u aan bij uw Marketo Engage-account op een nieuw tabblad. Ga naar **Beheerder** > **Webservices**. Schuif omlaag naar REST API. Markeer en sla de URL van het eindpunt en de identiteitsservice op. U hebt ze nodig in de volgende stappen.
 
    ![](assets/set-up-marketo-connection-5.png)
 
@@ -47,14 +47,14 @@ Hieronder wordt beschreven hoe u verbinding maakt met Marketo.
 
    ![](assets/set-up-marketo-connection-7.png)
 
-1. Terug naar [!DNL Marketo Measure]Vul de velden in met de gegevens die u zojuist hebt verzameld.
+1. Terug naar [!DNL Marketo Measure]Vul de velden in met de gegevens die u hebt verzameld.
 
    ![](assets/set-up-marketo-connection-8.png)
 
-1. Klik op **[!UICONTROL Authenticate]**. Uw Marketo Engage-account wordt dan verbonden met [!DNL Marketo Measure].
+1. Klik op **[!UICONTROL Authenticate]**. Uw Marketo Engage-account is verbonden met [!DNL Marketo Measure].
 
    ![](assets/set-up-marketo-connection-9.png)
 
    >[!NOTE]
    >
-   >[!DNL Marketo Measure] roept namens u de Marketo API aan zonder uw Marketo API-limieten te gebruiken. U hoeft zich dus geen zorgen te maken over de plafonds en de krediettoewijzing aan andere integraties.
+   >[!DNL Marketo Measure] roept namens u de Marketo API aan zonder uw Marketo API-limieten te verbruiken. U hoeft zich dus geen zorgen te maken over caps en krediettoewijzing met andere integraties.

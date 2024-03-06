@@ -4,9 +4,9 @@ description: Offline aangepaste kanaalinstelling - [!DNL Marketo Measure]
 title: Aangepaste kanaalinstelling offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Nadat u het spreadsheet hebt bewerkt en bijgewerkt met uw aangepaste regels, kun
 
 >[!TIP]
 >
->Wil bepalen _wanneer_ a [!DNL Salesforce] Campagnertype wordt naar beneden getrokken [!DNL Marketo Measure] kanaaltoewijzing? Ga gewoon naar **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. Vervolgens kunt u zien welke waarden in de keuzelijst staan en welke niet actief zijn. Niet-actieve groepen worden niet als een selecteerbaar type weergegeven in onze &quot;[!UICONTROL Offline Channels]&quot;. Dit proces kan een paar minuten tot 48 uur duren.
+>Wil bepalen _wanneer_ a [!DNL Salesforce] Campagnertype wordt naar beneden getrokken [!DNL Marketo Measure] kanaaltoewijzing? Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. Vervolgens kunt u zien welke waarden in de keuzelijst staan en welke niet actief zijn. Niet-actieve groepen worden niet als een selecteerbaar type weergegeven in onze &quot;[!UICONTROL Offline Channels]&quot;. Dit proces kan een paar minuten tot 48 uur duren.
 
 Klikken **[!UICONTROL Save]** wanneer u klaar bent en [!DNL Marketo Measure] uploadt de wijzigingen en verwerkt de gegevens opnieuw.
 

@@ -4,9 +4,9 @@ description: Marketo Measure Attribution Models - Marketo Measure - Productdocum
 title: Marketo Measure Attribution Models
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
-source-git-commit: aa12df4d0c77cdc677f78bcab19497806927ec2b
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Marketo Measure biedt zes typen attributiemodellen:
 * Volledig pad
 * Aangepast model
 
-Deze modellen variëren in complexiteit. First Touch en Lead Creation zijn onze eenvoudige, single-touch modellen. De resterende vier zijn onze complexere, multi-touchmodellen. De structuur van de attributiemodellen van Marketo Measure weerspiegelt de vier belangrijkste aanraakpunten die zich voordoen op de reis van de klant:
+Deze modellen variëren in complexiteit. First Touch en Lead Creation zijn eenvoudige, single-touch modellen. De overige vier zijn complexere multitouch-modellen. De structuur van de attributiemodellen van Marketo Measure weerspiegelt de vier belangrijkste aanraakpunten die zich voordoen op de reis van de klant:
 
 * Eerste aanraking (FT)
 * Lood maken (LC)
@@ -34,13 +34,13 @@ Deze modellen variëren in complexiteit. First Touch en Lead Creation zijn onze 
 In de **single-touch modellen**Afschrijvingskrediet wordt slechts aan één mijlpaal toegekend, vandaar de naam &#39;single-touch&#39;.
 In de **multi-touchmodellen** Het grootste deel van het toewijzingskrediet wordt toegewezen aan twee of meer mijlpalen. Het resterende krediet wordt toegeschreven aan aanraakpunten die zich tussen de mijlpalen bevinden.
 
-In de volgende secties wordt elk attributiemodel besproken en wordt aangegeven hoe het attribuut wordt toegewezen.
+In de volgende secties wordt elk attributiemodel beschreven en wordt aangegeven hoe het attribuut credit wordt toegewezen.
 
 ## Single-touch modellen {#single-touch-models}
 
 **Eerste aanraakmodel**
 
-Het First Touch-model is alleen gericht op de allereerste interactie die een lead met uw organisatie heeft. Dit model kenmerkt 100% van het attribuut credit tot de eerste keer dat de lead op de hoogte werd gebracht van uw bedrijf, de First Touch (FT).
+Het First Touch-model is alleen gericht op de eerste interactie die een lead met uw organisatie heeft. Dit model kenmerkt 100% van het attribuut credit tot de eerste keer dat de lead op de hoogte werd gebracht van uw bedrijf, de First Touch (FT).
 
 Zeg Kate-bezoeken `www.adobe.com` voor het eerst via Adwords Ad en een whitepaper. Het kanaal Adwords zou 100% van de attributietekening van die Kans ontvangen.
 
@@ -60,7 +60,7 @@ Multi-touchmodellen worden gebruikt voor langere, gecompliceerdere verkoopcycli.
 
 **U-vormig model**
 
-Het U-Vormd model concentreert zich op zowel de aanraak van FT als van LC. In dit model ontvangen FT en LC elk 50% van het inkomstenkrediet.
+Het U-Vormd model concentreert zich op zowel de aanraak van FT als van LC. In dit model ontvangen de FT- en LC-aanraakpunten elk 50% van het inkomstenkrediet.
 
 Kate&#39;s eerste bezoek aan `www.adobe.com` via een Adwords-advertentie zou 50% van het toewijzingkrediet ontvangen. De resterende 50% zou worden toegeschreven aan de linkedin post die Austin ertoe heeft gebracht een formulier in te vullen en een leidende rol te spelen.
 
@@ -86,4 +86,4 @@ Nadat Kate, Austin en Hillary de kans hebben gecreëerd, beslissen ze Marketo Me
 
 **Aangepast kenmerkingsmodel**
 
-Marketo Measure biedt ook een Aangepast kenmerkingsmodel waarmee gebruikers kunnen kiezen welke aanraakpunten of aangepaste fasen ze in hun model willen opnemen. Bovendien kunnen gebruikers het toewijzingspercentage voor deze aanraakpunten en fasen bepalen. Als een Kans geen specifieke middelaanrakingen heeft, zal het percentage gelijkmatig over andere posities worden verdeeld.
+Marketo Measure biedt ook een Aangepast kenmerkingsmodel waarmee gebruikers kunnen kiezen welke aanraakpunten of aangepaste fasen ze in hun model willen opnemen. Bovendien kunnen gebruikers het toewijzingspercentage voor deze aanraakpunten en fasen bepalen. Als een Kans geen specifieke middelaanrakingen heeft, wordt het percentage gelijkmatig verdeeld onder andere posities.

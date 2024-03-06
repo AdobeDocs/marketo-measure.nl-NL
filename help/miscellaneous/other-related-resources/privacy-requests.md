@@ -3,9 +3,9 @@ description: Privacyverzoeken - [!DNL Marketo Measure]
 title: Privacyverzoeken
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform
 
 Zie hoe u verzoeken van de Toegang en van de Schrapping kunt tot stand brengen.
 
-## Vereiste installatie voor het verzenden van aanvragen voor Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
+## Vereiste instelling voor het verzenden van aanvragen voor Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
 Om tot Gegevens van de Toegang en van de Schrapping te verzoeken voor [!DNL Marketo Measure], moet u:
 

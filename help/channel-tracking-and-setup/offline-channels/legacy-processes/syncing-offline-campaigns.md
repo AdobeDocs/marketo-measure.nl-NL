@@ -4,9 +4,9 @@ description: Offlinecampagnes synchroniseren - [!DNL Marketo Measure]
 title: Offlinecampagnes synchroniseren
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ In dit geval wordt de uploaddatum drie weken later ingevuld. Deze stap moet word
 
 Samenvattend, als u de [!UICONTROL Bulk Update Touchpoint Date] en wijzigt u de datum van het aanraakpunt in de datum van de gebeurtenis, [!DNL Marketo Measure] Hiermee worden aanraakpunten gegenereerd voor de datum van de gebeurtenis, niet voor de datum van het uploaden.
 
-U kunt ook de datums voor alle leden van de campagne bijwerken op een bestaande campagne. Zorg er daarbij voor dat de datum van het aanraakpunt de datum van de interactie van het lid is. Klik gewoon op de datum waarop de koper van de Bulk Update Touchpoint Date wordt weergegeven, filtert u de lijst met de leden van de campagne naar wens en in &quot;[!UICONTROL Select Date]&quot; boven de lijst met leden van de campagne voegt u dezelfde datum toe als de datum waarop de gebeurtenis heeft plaatsgevonden.
+U kunt ook de datums voor alle leden van de campagne bijwerken op een bestaande campagne. Zorg er daarbij voor dat de datum van het aanraakpunt de datum van de interactie van het lid is. Klik op de datum waarop de koper het aanraakpunt voor bulkupdates moet bijwerken, filter de lijst met leden van de campagne naar wens en klik op de knop &quot;[!UICONTROL Select Date]&quot; boven de lijst met leden van de campagne voegt u dezelfde datum toe als de datum waarop de gebeurtenis heeft plaatsgevonden.
 
 >[!CAUTION]
 >

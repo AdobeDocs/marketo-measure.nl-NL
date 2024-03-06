@@ -4,9 +4,9 @@ description: Begrijpen [!DNL Marketo Measure] Advertentietags - [!DNL Marketo Me
 title: Begrijpen [!DNL Marketo Measure] Advertentietags
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Dezelfde URL levert echter korrelige gegevens vanwege de [!DNL Marketo Measure] 
 Als er echter geen volgsjabloon wordt gevonden, [!DNL Marketo Measure] zal:
 
 * Scan alle URL&#39;s van de advertentie-bestemming naar onze [!DNL Marketo Measure] Parameters.
-* Als je gevonden wordt, ben je goed om te gaan.
+* Indien gevonden, ben je goed om te gaan.
 * Indien niet gevonden, [!DNL Marketo Measure] voegt de parameters toe aan het einde van de URL&#39;s voor het toevoegen van doelen. Voor nieuwe advertenties: [!DNL Marketo Measure] voegt de parameters binnen twee uur na het maken toe aan de URL voor het toevoegen van de bestemming.
 * Het is belangrijk dat u een sjabloon voor bijhouden hebt voordat u automatische labeling inschakelt, zodat [!DNL Marketo Measure] kan eraan worden gekoppeld en voorkomen dat een advertentiehistorie opnieuw wordt ingesteld.
 

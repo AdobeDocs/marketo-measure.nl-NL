@@ -4,9 +4,9 @@ description: Toevoegen [!DNL Marketo Measure] tot [!DNL Hubspot] - [!DNL Marketo
 title: Toevoegen [!DNL Marketo Measure] tot [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Leer hoe u de [!DNL Marketo Measure] JavaScript om uw [!DNL Hubspot] het aanlanden van pagina&#39;s en het indienen van formulieren.
 
-Hubspot wijkt enigszins af van andere marketingautomatiseringssystemen omdat het uw landingspagina&#39;s / formulieren EN uw website kan hosten. Het is belangrijk om op te merken dat de onderstaande instructies zijn voor het hebben van [!DNL Marketo Measure] trackactiviteit op [!DNL Hubspot]-hosted pages. Als u uw website een andere CMS dan [!DNL Hubspot] (bijvoorbeeld Wordpress), moet u de opdracht [!DNL Marketo Measure] JavaScript ook naar dat CMS.
+Hubspot wijkt enigszins af van andere marketingautomatiseringssystemen omdat het uw landingspagina&#39;s / formulieren EN uw website kan hosten. Het is belangrijk om op te merken dat de onderstaande instructies zijn voor het hebben van [!DNL Marketo Measure] trackactiviteit op [!DNL Hubspot]-hosted pages. Als u uw website een andere CMS dan [!DNL Hubspot] (bijvoorbeeld Wordpress), moet u toevoegen [!DNL Marketo Measure] JavaScript ook naar dat CMS.
 
 >[!NOTE]
 >

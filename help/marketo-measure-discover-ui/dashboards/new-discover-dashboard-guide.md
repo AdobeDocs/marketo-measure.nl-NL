@@ -3,9 +3,9 @@ description: Nieuwe Discover Dashboard Guide - [!DNL Marketo Measure] - Product
 title: Nieuwe Discover-dashboardgids
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -427,7 +427,7 @@ We zijn blij dat we het dashboard van Discover opnieuw ontwerpen. Ons primaire d
         </p>
       </td>
       <td>
-        <p>Deze afmetingen zijn platformspecifiek en bieden geen holistische weergave van het webverkeer. We raden gebruikers aan om kanaal-/subkanaal-/campagnegegevens in Marketo Measure te verkennen en vervolgens over te stappen naar specifieke platformhulpprogramma's voor trefwoorden/creatieve inzichten om de nauwkeurigheid en context te behouden.
+        <p>Deze afmetingen zijn platformspecifiek en bieden geen holistische weergave van het webverkeer. Adobe raadt gebruikers aan om kanaal-/subkanaal-/campagnegegevens in Marketo Measure te verkennen en vervolgens over te stappen naar specifieke platformhulpprogramma's voor trefwoorden/creatieve inzichten om de nauwkeurigheid en context te behouden.
         </p>
       </td>
     </tr>

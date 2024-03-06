@@ -4,9 +4,9 @@ description: Garandeerde toestemming voor GDPR in Marketo Measure Js - Marketo M
 title: Ervoor zorgen dat toestemming voor GDPR in Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ De algemene verordening inzake gegevensbescherming (GDPR) is een wetgeving van d
 
 Het doel van de GDPR is de rechten van betrokkenen binnen de Europese Unie (EU) en de Europese Economische Ruimte (EER) te versterken met betrekking tot de wijze waarop hun persoonsgegevens worden gebruikt en beschermd. &quot;Persoonsgegevens&quot; zijn gegevens die betrekking hebben op een geïdentificeerde of identificeerbare natuurlijke persoon. De GDPR is van toepassing op elke organisatie binnen of buiten de EU die goederen of diensten verkoopt aan en/of het gedrag volgt van betrokkenen binnen de EU en de EER. Als je zaken doet met betrokkenen in Europa die de verwerking van hun persoonsgegevens impliceren, dan is deze wetgeving op jou van toepassing. De sancties wegens niet-naleving zijn aanzienlijk, met grote boetes voor degenen die de verordening overtreden; de maximumboete voor één enkele inbreuk bedraagt 20 miljoen euro of 4% van de wereldwijde jaaromzet, afhankelijk van wat het grootst is.
 
-Standaard, [!DNL bizible.js] verzamelt analysegegevens van gebruikers tenzij het specifiek wordt gevormd om op toestemming te wachten. Wanneer [!DNL bizible.js] is geconfigureerd om te wachten op toestemming van de gebruiker, worden er pas cookies gemaakt of analytische gegevens verzonden nadat de toestemming is bereikt.
+Standaard, [!DNL bizible.js] verzamelt analysegegevens van gebruikers tenzij het wordt gevormd om op toestemming te wachten. Wanneer [!DNL bizible.js] is geconfigureerd om te wachten op toestemming van de gebruiker, worden er pas cookies gemaakt of analytische gegevens verzonden nadat de toestemming is bereikt.
 
 ## Hoe te op Toestemming wachten {#how-to-wait-for-consent}
 
@@ -36,7 +36,7 @@ Optie 1 - De standaardinstelling vervangen [!DNL bizible.js] scripttag met:
 
 >[!NOTE]
 >
->In dit geval: [!DNL bizible.js] voegt een gebeurtenis on-click toe aan het HTML-element met id &quot;ConsentButtonId&quot;.
+>In dit geval: [!DNL bizible.js] Koppelt een gebeurtenis on-click aan het HTML-element met id &quot;ConsentButtonId&quot;.
 
 Wanneer op dit HTML-element wordt geklikt, [!DNL bizible.js] wordt een cookie gemaakt om te onthouden dat de toestemming van de gebruiker is ontvangen en dat wordt begonnen met het verzamelen van analysegegevens zoals gewoonlijk.
 
@@ -48,9 +48,9 @@ Optie 2 - De standaardinstelling vervangen [!DNL bizible.js] scripttag met:
 
 Dit vertelt [!DNL bizible.js] om niet te volgen tot de toestemming wordt bereikt, wat met de volgende JS API kan worden gedaan:
 
-*venster[&quot;Bizible&quot;] = venster[&quot;Bizible&quot;] || {_queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); };*
+*venster[&quot;Bizible&quot;] = venster[&quot;Bizible&quot;] || {_wachtrij: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); };*
 
-*Bizible.Push(&#39;Consent&#39;, true);*
+*Bizible. Push(&#39;Consent&#39;, true);*
 
 **Als u [!DNL Google Tag Manager] om script te installeren** Houd er rekening mee dat GTM gegevenskenmerken verwijdert, dus gebruik in plaats daarvan het volgende script:
 
@@ -67,4 +67,4 @@ Klanten kunnen deze API daarentegen ook gebruiken om de toestemming van de gebru
 
 `Bizible.Push('Consent', false);`
 
-Wanneer deze code wordt uitgevoerd, worden alle cookies verwijderd die [!DNL bizible.js] eerder gemaakt en wordt de verzameling van analysegegevens alleen hervat als de gebruiker opnieuw instemt.
+Wanneer deze code wordt uitgevoerd, worden alle cookies verwijderd die [!DNL bizible.js] die eerder zijn gemaakt en de verzameling van analysegegevens alleen hervat als de gebruiker hiermee instemt.

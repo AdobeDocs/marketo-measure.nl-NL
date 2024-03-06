@@ -3,9 +3,9 @@ description: Aanbevolen procedures voor API-verbindingen - [!DNL Marketo Measure
 title: Aanbevolen procedures voor API-verbindingen
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De [!DNL Marketo Measure] API-verbindingen zijn een onschatbaar aspect van uw ac
 
 ## Beste praktijken {#best-practice}
 
-Ongeacht het advertentieplatform dat u verbindt, zijn de volgende richtlijnen belangrijk om in mening te zijn!
+Ongeacht het advertentieplatform dat u aansluit, zijn de volgende richtlijnen belangrijk om in mening te zijn!
 
 * Een beheerder gebruiken om verbinding te maken
 * U kunt meerdere advertentieraccounts verbinden voor één platform

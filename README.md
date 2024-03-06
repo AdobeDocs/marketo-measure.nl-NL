@@ -1,7 +1,7 @@
 ---
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 7%
 
 ---
@@ -28,7 +28,7 @@ Kleine correcties of verduidelijkingen die u ter documentatie en codevoorbeelden
 
 ### Belangrijke wijzigingen of nieuwe artikelen van leden van de gemeenschap
 
-Als u deel uitmaakt van de gemeenschap van de Adobe en u een nieuw artikel wilt creëren of belangrijke veranderingen voorleggen, gebruik het lusje van Kwesties in de bewaarplaats van de it om een kwestie voor te leggen om een gesprek met het documentatieteam te beginnen. Zodra u met een plan hebt ingestemd, zult u met een werknemer moeten samenwerken helpen die nieuwe inhoud door een combinatie van werk in de openbare en privé bewaarplaatsen brengen.
+Als u deel van de gemeenschap van de Adobe uitmaakt en u een nieuw artikel wilt creëren of belangrijke veranderingen voorleggen, gebruik het lusje van Kwesties in de bewaarplaats van de it om een kwestie voor te leggen om een gesprek met het documentatieteam te beginnen. Zodra u met een plan hebt ingestemd, zult u met een werknemer moeten samenwerken helpen die nieuwe inhoud door een combinatie van werk in de openbare en privé bewaarplaatsen brengen.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you will see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.

@@ -3,9 +3,9 @@ description: Aanbevolen procedures voor onlinekanalen - [!DNL Marketo Measure]
 title: Aanbevolen procedures voor onlinekanalen
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De online regels van het Kanaal zijn de richtlijnen voor hoe [!DNL Marketo Measu
 
 ## Beste praktijken {#best-practice}
 
-Of u opstelling uw regels voor het eerst of enkel het herzien hen aan controle voor nauwkeurigheid bent, houd de volgende beste praktijken in mening.
+Ongeacht of u uw regels voor het eerst instelt of alleen controleert of ze correct zijn, houd dan rekening met de volgende aanbevolen procedures.
 
 Neem wat tijd om na te denken over de organisatie van uw marketingcampagnes en hoe deze passen in de [!DNL Marketo Measure] kader. Bepaal welke kanalen en Subkanalen in uw Online Kanalen zouden moeten worden vertegenwoordigd en welke campagnes, parameters UTM, of verwijzende websites die kanalen van elkaar onderscheiden.
 

@@ -4,9 +4,9 @@ description: "[!DNL Microsoft Dynamics] CRM Installation Guide - Marketo Measure
 title: "[!DNL Microsoft Dynamics] CRM Installation Guide"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Voor verbinding en verificatie, [!DNL Marketo Measure] steunt de volgende Actiev
 
 ## Een [!DNL Marketo Measure] Gebruiker {#creating-a-marketo-measure-user}
 
-We raden u aan een speciale Marketo Measure-gebruiker als een &#39;Application User&#39; in Dynamics te stellen, zodat we gegevens kunnen exporteren en importeren om problemen met andere gebruikers in uw CRM te voorkomen. Neem nota van de gebruikersbenaming en het wachtwoord, evenals het eindpunt URL, aangezien zij zullen worden gebruikt wanneer het creëren van [!DNL Marketo Measure] account.
+Het wordt aanbevolen een speciale Marketo Measure-gebruiker als een &#39;Application User&#39; in Dynamics te maken om gegevens te exporteren en te importeren, zodat problemen met andere gebruikers in uw CRM worden voorkomen. Neem nota van de gebruikersbenaming en het wachtwoord, en het eindpunt URL, aangezien zij wanneer het creëren van worden gebruikt [!DNL Marketo Measure] account.
 
 ## Beveiligingsrollen {#security-roles}
 
@@ -55,19 +55,19 @@ Als uw organisatie de Rollen van de Veiligheid van de Dynamiek gebruikt, zorg er
 
 Beveiligingsrollen bevinden zich hier: **[!UICONTROL Settings]** > **[!UICONTROL Security]** > **[!UICONTROL Security Roles]**.
 
-Voor [!DNL Marketo Measure] aangepaste entiteiten hebben we volledige machtigingen voor al onze entiteiten nodig.
+Voor [!DNL Marketo Measure] aangepaste entiteiten, hebben we volledige machtigingen voor al onze entiteiten nodig.
 
 >[!NOTE]
 >
->De gebruikers die kansen zullen sluiten zullen ook de volledige toestemmingen nodig hebben.
+>De gebruikers die kansen sluiten hebben ook de volledige toestemming nodig.
 
 ![](assets/4.png)
 
-Voor de standaardeenheden van Dynamica raadpleegt u de [!DNL Marketo Measure] Dynamisch schema-document. Op hoog niveau [!DNL Marketo Measure] moet alleen in bepaalde entiteiten lezen om de juiste gegevens te verzamelen en naar aangepaste velden te schrijven die met de beheerde oplossing worden geïnstalleerd. We maken geen nieuwe standaardrecords en we werken ook geen standaardvelden bij.
+Voor de standaardeenheden van Dynamica raadpleegt u de [!DNL Marketo Measure] Dynamisch schema-document. Op hoog niveau [!DNL Marketo Measure] leest in bepaalde entiteiten om de aangewezen gegevens te verzamelen en aan douanegebieden te schrijven die met de beheerde oplossing geïnstalleerd zijn. Er worden geen standaardrecords gemaakt en standaardvelden worden niet bijgewerkt.
 
 ## Aanraakpunten opnemen op pagina-indelingen: {#include-touchpoints-on-page-layouts}
 
-1. Navigeer voor elke entiteit naar de formuliereditor. U vindt dit onder **[!UICONTROL Settings]** > **[!UICONTROL Customizations]** > **[!UICONTROL Customize the System]** > `[Entity]` > **[!UICONTROL Forms]**. Of u kunt het op de montages vinden terwijl u een verslag bekijkt.
+1. Navigeer voor elke entiteit naar de formuliereditor. U vindt dit onder **[!UICONTROL Settings]** > **[!UICONTROL Customizations]** > **[!UICONTROL Customize the System]** > `[Entity]` > **[!UICONTROL Forms]**. U kunt de record ook op de instellingen vinden terwijl u een record bekijkt.
 
    * De te configureren entiteiten: Account, Opportunity, Contact, Lead en Campagne.
 
@@ -75,13 +75,13 @@ Voor de standaardeenheden van Dynamica raadpleegt u de [!DNL Marketo Measure] Dy
 
    ![](assets/5.png)
 
-1. Pagina-indelingen: voeg eerst een &quot;[!UICONTROL One Column]&quot;Plaats de tegel in de sectie waar u de aanraakpunten wilt plaatsen. Binnen die nieuwe kolom moeten we een subraster toevoegen aan elk formulier binnen uw account-, opportunity-, contact- en leidende entiteiten.
+1. Pagina-indelingen: voeg eerst een &quot;[!UICONTROL One Column]&quot;-tegel in de sectie waar u de aanraakpunten wilt plaatsen. Binnen die nieuwe kolom moeten we een subraster toevoegen aan elk formulier binnen uw account-, opportunity-, contact- en leidende entiteiten.
 
    ![](assets/6.png)
 
    ![](assets/7.png)
 
-1. Selecteer het object (Aanraakpunten voor koperkenmerken of Aanraakpunten voor koper) dat in het subraster moet worden weergegeven. Dit is afhankelijk van de objectrelatie. Wijzig desgewenst de kolommen die worden weergegeven door op de knop Bewerken te klikken. Een standaardlay-out is geplaatst door de beheerde oplossing.
+1. Selecteer het object (Aanraakpunten voor koperkenmerken of Aanraakpunten voor koper) dat in het subraster moet worden weergegeven. Dit is afhankelijk van de objectrelatie. Wijzig desgewenst de kolommen die worden weergegeven door op de knop Bewerken te klikken. De standaardlay-out wordt geplaatst door de beheerde oplossing.
 
    Aanraakpunt voor koperkenmerken subraster - Accounts, Opportunity en Contact\
    Subraster met aanraakpunten koper - Leads en contactpersonen
@@ -98,7 +98,7 @@ Voor de standaardeenheden van Dynamica raadpleegt u de [!DNL Marketo Measure] Dy
 
 **Datum sluiten**
 
-[!DNL Marketo Measure] verwijst naar het veld Datum feitelijk sluiten buiten het vak. Als u dit niet gebruikt of ook het Geschatte Dichte gebied van de Datum gebruikt, verklaar uw proces aan uw Ingenieur van Oplossingen of de Manager van het Succes. Voor beide velden kan een aangepaste workflow nodig zijn.
+[!DNL Marketo Measure] verwijst naar het veld Datum feitelijk sluiten buiten het vak. Als u dit niet gebruikt of ook het Geschatte Dichte gebied van de Datum gebruikt, verklaar uw proces aan uw Ingenieur van Oplossingen of de Manager van het Succes. Mogelijk is een aangepaste workflow nodig om voor beide velden rekening te houden.
 
 ## Verbindingen en gegevensproviders configureren {#configuring-your-connections-and-data-providers}
 
@@ -150,13 +150,13 @@ Je advertentiekeningen verbinden met [!DNL Marketo Measure], te beginnen door de
 
 **[!DNL Marketo Measure]Javascript**
 
-Om [!DNL Marketo Measure] om uw Webactiviteiten te volgen, zijn er veelvoudige stappen voor opstelling.
+Voor [!DNL Marketo Measure] om uw Webactiviteiten te volgen, zijn er veelvoudige stappen voor opstelling.
 
 1. Klik op de knop **[!UICONTROL My Account]** vervolgkeuzelijst en selecteer **[!UICONTROL Account Configuration]**.
 
    ![](assets/microsoft-dynamics-crm-installation-guide-23.png)
 
-1. Voer uw telefoonnummer in. Voer bij Website het primaire hoofddomein in waarvoor u de opdracht [!DNL Marketo Measure] volgen op uw website. Klikken **[!UICONTROL Save]** wanneer gereed.
+1. Voer uw telefoonnummer in. Voer bij Website het primaire hoofddomein in waarvoor [!DNL Marketo Measure] volgen op uw website. Klikken **[!UICONTROL Save]** wanneer gereed.
 
    ![](assets/microsoft-dynamics-crm-installation-guide-24.png)
 
@@ -164,17 +164,17 @@ Om [!DNL Marketo Measure] om uw Webactiviteiten te volgen, zijn er veelvoudige s
    >
    >Neem contact op met uw [!DNL Marketo Measure] Accountvertegenwoordiger.
 
-1. De [[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) moet vervolgens over de gehele site en de landingspagina&#39;s worden geplaatst. Wij adviseren hardcoding het manuscript binnen het hoofd van uw landingspagina&#39;s of het toevoegen door een Systeem van Tag Management zoals [Google-tagbeheer](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
+1. De [[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) moet vervolgens over de gehele site worden geplaatst en landingspagina&#39;s. Wij adviseren hardcoding het manuscript binnen het hoofd van uw landingspagina&#39;s of het toevoegen door een Systeem van Tag Management zoals [Google-tagbeheer](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
 
    >[!NOTE]
    >
    >Standaard, [!DNL Marketo Measure] Hiermee exporteert u 200 records per API-credit telkens wanneer een taak gegevens naar uw CRM verzendt. Voor de meeste klanten biedt dit de optimale balans tussen API-credits die worden verbruikt door [!DNL Marketo Measure] en CPU-resourcevereisten voor de CRM. Voor klanten met complexe CRM-configuraties, zoals workflows en triggers, kan een kleinere batch-omvang echter nuttig zijn om de CRM-prestaties te verbeteren. Daartoe: [!DNL Marketo Measure] staat klanten toe om de grootte van de de uitvoerpartij van CRM te vormen. Deze instelling is beschikbaar op de pagina Instellingen > CRM > Algemeen in het dialoogvenster [!DNL Marketo Measure] De webtoepassing en klanten kunnen kiezen uit batchgrootten 200 (standaard), 100, 50 of 25.
    >
-   >Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het is raadzaam om de partijgrootte te verminderen slechts als u Cpu ondervindt onderbreking of hoge lading van cpu in uw CRM.
+   >Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het is raadzaam de batch alleen te verkleinen als u een CPU-time-out of een hoge CPU-belasting hebt in uw CRM.
 
    >[!NOTE]
    >
-   >Als u het exporteren van gegevens naar Dynamics uitschakelt, worden er geen bestaande gegevens verwijderd. Voor hulp bij het verwijderen van bestaande gegevens, contacteer de Steun van de Dynamiek.
+   >Wanneer u het exporteren van gegevens naar Dynamics uitschakelt, worden bestaande gegevens niet verwijderd. Voor hulp bij het verwijderen van bestaande gegevens, contacteer de Steun van de Dynamiek.
 
    >[!MORELIKETHIS]
    >

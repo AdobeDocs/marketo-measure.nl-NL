@@ -3,9 +3,9 @@ description: Aanbevolen werkwijzen voor aangepast model - [!DNL Marketo Measure]
 title: Aanbevolen procedures voor aangepast model
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Het is van cruciaal belang dat deze twee aspecten van uw aangepaste model correc
 
 ## Beste praktijken {#best-practice}
 
-Of u uw Model van de Douane voor het eerst opstelt, of het herzien van wat eerder is gevestigd, is het belangrijk om de volgende beste praktijken in mening te houden.
+Of u uw Model van de Douane voor het eerst, of het herzien van bekijkt wat eerder is gevestigd, is het belangrijk om de volgende beste praktijken in mening te houden.
 
 * Eenvoudig starten
    * Identificeer de belangrijkste stadia die u aan uw Model van de Douane wilt toevoegen die voor uw [!DNL Marketo Measure] rapportage. Doorgaans zijn dit stadia die u vaak tegenkomt of die u wilt laten ophelderen
@@ -49,9 +49,9 @@ Of u uw Model van de Douane voor het eerst opstelt, of het herzien van wat eerde
 * Gebruik geen formules voor het definiëren van een aangepast werkgebied
    * Een Booleaans veld is een aanbevolen werkwijze
 * Geen aangepaste werkruimten opnemen in uw aangepaste model die samenvallen met een [!DNL Marketo Measure] Milestone Touchpoint Position (FT, LC, OC, Closed Won/Lost)
-   * Als u dit doet, zullen deze posities altijd gelijktijdig voorkomen en kunnen opgeblazen attributiekrediet aan delen van uw trechter veroorzaken.
+   * Als u dit doet, komen deze posities altijd gelijktijdig voor en kunnen opgeblazen attributietekeningen veroorzaken aan delen van uw trechter.
 * Werken met je verkoopteam
-   * Het in het team brengen dat het dichtst met stadia werkt en hun betekenis zal ervoor zorgen u de correcte stadia gebruikt en dat zij behoorlijk worden bepaald
+   * Het brengen in het team dat het dichtst met stadia werkt en hun betekenis zorgt ervoor dat u de correcte stadia gebruikt en dat zij behoorlijk worden bepaald
 
 ## Aanbevolen werkwijzen voor onderhoud {#best-practice-for-maintenance}
 

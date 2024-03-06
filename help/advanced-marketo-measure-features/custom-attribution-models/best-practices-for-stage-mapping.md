@@ -3,9 +3,9 @@ description: Aanbevolen procedures voor werkgebiedtoewijzing - [!DNL Marketo Mea
 title: Aanbevolen procedures voor werkgebiedtoewijzing
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Of u nu voor het eerst de Stage Mapping evalueert of alleen de trechter-volgorde
    * Een Booleaans veld is de aanbevolen werkwijze
 * Merk op dat de sectie Lood of Contactgebied is onderverdeeld in Verloren, Openen en Omgezet; controleer of de stappen zich in hun juiste werkgebiedsectie bevinden
    * Als u een werkgebied in de onjuiste werkgebiedsectie hebt, kan dit leiden tot een zeer onjuiste [!DNL Marketo Measure] data
-   * Als u een Marketo Measure Ultimate-klant bent en uw standaarddashboard-object als contactpersoon hebt ingesteld, gebruikt u de onderstaande twee velden niet die specifiek zijn voor Lead ([meer informatie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Als u een Marketo Measure Ultimate-klant bent en uw standaarddashboard-object als contactpersoon hebt ingesteld, gebruikt u de onderstaande twee velden niet die specifiek zijn voor Lead ([Meer informatie](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Merk op dat de sectie van het stadium van de Kans in Verloren, Open, en Won wordt verdeeld; bevestigt dat de stadia in hun aangewezen werkgebiedsectie zijn

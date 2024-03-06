@@ -2,9 +2,10 @@
 description: Basisprincipes van dashboard ontdekken - [!DNL Marketo Measure] - Product
 title: Basisprincipes van dashboard ontdekken
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -105,6 +106,6 @@ Als u een waarde- of aslabel in één visualisatie selecteert, worden andere vis
 
 ### Knopinfo {#tooltips}
 
-Knopinfo bevat aanvullende informatie over de weergegeven gegevens. Als u de muisaanwijzer op een visueel element plaatst en er een contextafhankelijke knopinfo verschijnt die inzichten of uitleg verschaft over dat specifieke gegevenspunt.
+Knopinfo bevat aanvullende informatie over de weergegeven gegevens. Houd de muisaanwijzer boven een visueel element en een contextafhankelijke knopinfo die inzichten of uitleg verschaft met betrekking tot dat specifieke gegevenspunt.
 
 ![](assets/discover-dashboard-basics-13.gif)

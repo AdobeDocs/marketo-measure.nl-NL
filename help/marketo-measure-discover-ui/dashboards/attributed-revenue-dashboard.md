@@ -3,9 +3,9 @@ description: Toegewezen belastingdashboard - [!DNL Marketo Measure] - Product
 title: Toegewezen belastingdashboard
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Het dashboard Toegewezen Inkomsten biedt een gericht perspectief op de inkomsten
 
 >[!NOTE]
 >
->Dit dashboard bevindt zich momenteel in bètaversie. Tijdens deze overgangsfase zullen zowel de huidige als de nieuwe dashboards toegankelijk zijn. Het huidige dashboard wordt vervangen zodra we volledig zijn overgeschakeld en optimale functionaliteit hebben gegarandeerd.
+>Dit dashboard bevindt zich in bèta. Tijdens deze overgangsfase zullen zowel de huidige als de nieuwe dashboards toegankelijk zijn. Het huidige dashboard wordt vervangen nadat we volledig zijn overgeschakeld en optimale functionaliteit hebben gegarandeerd.
 
 **De antwoorden van de raad vragen:**
 
@@ -34,7 +34,7 @@ Het dashboard Toegewezen Inkomsten biedt een gericht perspectief op de inkomsten
 
 Gestapelde staafgrafiek met de totale toegerekende opbrengsten, gesegmenteerd door kanaal, voor elke Maand/Kwartaal/Jaar.
 
-* de functies voor uitvouwen en Omhoog gebruiken om de gegevens te categoriseren op maand, kwartaal of jaar.
+* Gebruik de functies voor uitvouwen en Omhoog om de gegevens te categoriseren op maand, kwartaal of jaar.
 * Houd de cursor boven een staafsegment of de ruimte tussen de staven om gedetailleerde informatie weer te geven.
 
 **Vragen in de grafiek:**
@@ -63,7 +63,7 @@ De totale toegewezen opbrengst die door Kanaal, Subchannel, en Campagne wordt ge
 **Boomstructuurweergave**
 
 * De boomweergave maakt een interactieve en korrelere gegevensverkenning mogelijk, zodat marketeers trends, anomalieën of vooraanstaande personen kunnen identificeren in hun marketingactiviteiten.
-* Klik op een vertakking om dieper naar de volgende hiërarchische laag te gaan.
+* Klik op een vertakking om dieper in de volgende hiërarchische laag te gaan.
 
 ![](assets/attributed-revenue-dashboard-3.png)
 

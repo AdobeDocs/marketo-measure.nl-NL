@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Integratie zonder CRM-pakket - [!DNL Market
 title: "[!DNL Marketo Measure] CRM Packageless Integration"
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Sla in de onderstaande handleidingen de stappen over om de [!DNL Salesforce] ver
 
 [!DNL Microsoft Dynamics] klanten klikken [hier](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-Als u de bovenstaande stappen hebt uitgevoerd, kunt u het beste doorgaan. Als u onderweg problemen ondervindt, aarzel dan niet om naar uw [!DNL Marketo Measure] vertegenwoordiger of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Nadat u deze stappen voltooit, zou de integratie operationeel moeten zijn. Als u problemen ondervindt, neemt u contact op met uw [!DNL Marketo Measure] vertegenwoordiger of [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >

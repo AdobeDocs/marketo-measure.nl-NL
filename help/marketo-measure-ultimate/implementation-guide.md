@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Ultieme implementatiehandleiding - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultieme implementatiegids'
 feature: Integration, Tracking, Attribution
-source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Dit artikel fungeert als implementatiegids voor Marketo Measure Ultimate en bied
 
 ## Belangrijkste verschillen bij gebruik van Ultimate via standaardtiers {#main-differences-when-using-ultimate-over-standard-tiers}
 
-B2B-gegevens importeren via AEP: Van markers wordt verwacht dat ze hun B2B-gegevens (bijvoorbeeld account, opportunity, Contact, lead, campagne, campagnerelid, activiteit) via AEP doorgeven. Maak gebruik van vrijwel elke gegevensbron en van meerdere gegevensbronnen van hetzelfde type om al uw gegevens voor attributie in te voeren.
+B2B-gegevens importeren via AEP: Van markers wordt verwacht dat ze hun B2B-gegevens (bijvoorbeeld account, opportunity, Contact, lead, campagne, campagnerelid, activiteit) via AEP doorgeven. Maak gebruik van bijna elke gegevensbron en meerdere gegevensbronnen van hetzelfde type om al uw gegevens voor attributie in te voeren.
 
 * Gebruik met bijna om het even welke CRM, niet alleen Salesforce en Dynamica.
 * Sluit meerdere CRM-instanties en/of MAP-instanties aan op één Marketo Measure-instantie.
@@ -26,9 +26,9 @@ De directe verbindingen van CRM en van het Marketo Engage zijn niet meer beschik
 * Ultimate duwt gegevens niet terug naar de CRM. De klanten kunnen gegevens van het gegevenspakhuis verbruiken.
 * Marketers blijven gegevens van het advertentieplatform leveren via directe verbindingen en webactiviteiten volgen via Marketo Measure javascript.
 
-Ultieme gebruikers worden ingericht voor AEP. Als ze al een AEP hebben, zullen we geen nieuw exemplaar aanbieden.
+Ultieme gebruikers worden geleverd met AEP. Als ze al een AEP hebben, zullen we geen nieuw geval opnieuw aanbieden.
 
-* De geleverde versie AEP zal alle bronschakelaars, schema gegevensmodellering, datasets, ad hoc vraagdienst, en een bestemming voor slechts Marketo Measure omvatten.
+* De versie AEP provisioned omvat alle bronschakelaars, schema gegevensmodellering, datasets, de ad hoc vraagdienst, en een bestemming voor slechts Marketo Measure.
 
 Meer informatie over [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
@@ -51,7 +51,7 @@ Meer informatie over [Marketo Measure Ultimate](/help/marketo-measure-ultimate/m
 
 ## Een schema maken {#creating-a-schema}
 
-Wij adviseren gebruikend een auto-generatienut om 10 standaardB2B- schema&#39;s tot stand te brengen.
+Wij adviseren gebruikend een auto-generatienut om tien standaardB2B- schema&#39;s tot stand te brengen.
 
 * Stappen om het hulpprogramma te downloaden en in te stellen [hier te vinden](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
@@ -61,7 +61,7 @@ Voor degenen met een _**CDP-machtiging**_: Maak schema&#39;s door naar de pagina
 
 ![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-* Selecteer een account en alle B2B-sjablonen om 10 standaard B2B-schema&#39;s te maken.
+* Selecteer een account en alle B2B-sjablonen om tien standaard B2B-schema&#39;s te maken.
 
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
@@ -69,7 +69,7 @@ Voor degenen met een _**CDP-machtiging**_: Maak schema&#39;s door naar de pagina
 
 >[!IMPORTANT]
 >
->Wanneer het toevoegen van een nieuwe dataset, adviseren wij het creëren van een nieuwe stroom in plaats van het gebruiken van bestaande.
+>Wanneer het toevoegen van een nieuwe dataset, adviseren wij het creëren van een stroom in plaats van het gebruiken van bestaande.
 
 [Overzicht van gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
@@ -78,12 +78,12 @@ Voor degenen met een _**CDP-machtiging**_: Maak schema&#39;s door naar de pagina
 1. Selecteer een bron.
 1. Selecteer een bestaand account of maak een account.
 1. Selecteer een gegevenstype in de lijst met beschikbare typen die u uit de bron wilt importeren.
-1. Selecteer een bestaande dataset of creeer een nieuwe dataset.
+1. Selecteer een bestaande dataset of creeer een dataset.
 1. Wijs de gebieden van de Bron aan het schema toe.
 
    >[!NOTE]
    >
-   >* Als u één schematype aan een andere identieke kaart toewijst, zal het automatisch worden gedaan.
+   >* Als u een schematype aan een andere identieke kaart toewijst, wordt het automatisch gedaan.
    >* U kunt ook toewijzingen importeren uit een andere flow in het systeem.
    >* U kunt één Bronveld toewijzen aan meerdere doelvelden, maar u kunt niet het tegenovergestelde doen.
    >* U kunt berekende velden maken ([Toewijzingsfuncties van Data Prep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
@@ -99,13 +99,13 @@ Voor degenen met een _**CDP-machtiging**_: Maak schema&#39;s door naar de pagina
 
 1. Stel een cadence voor gegevensbelasting in.
 1. Controleren en voltooien.
-1. Controleer de pagina &quot;Accountstatus&quot; in de instellingen voor maatgebruikersinterface voor de status van de gegevensstroom.
+1. Controleer de pagina &quot;Accountstatus&quot; in de maatinstellingen voor de gebruikersinterface voor gegevensstroomstatus.
 
 **Controle:**
 
 Bronnen > Gegevensstroom pagina om de status van gegevensstromen te controleren
 
-* Om de activiteitendetails van een dataset te bekijken, klik eenvoudig op de dataset.
+* Om de activiteitendetails van een dataset te bekijken, klik eenvoudig de dataset.
 * Als u gegevensstroomfouten wilt weergeven, selecteert u een gegevensstroom, kiest u een gegevensstroomuitvoering en klikt u op Voorvertoning van foutdiagnose.
 
 ## Gegevenscontrole {#data-inspection}
@@ -131,12 +131,12 @@ Voordat u begint, gaat u naar het gedeelte &quot;Experience Platform > Sandbox-t
 
 >[!NOTE]
 >
->* Gegevens voor een bepaalde entiteit (bijvoorbeeld een rekening) uit een bepaalde bron kunnen slechts in één gegevensset worden opgenomen. Elke dataset kan slechts in één gegevensstroom worden omvat. Overtredingen zullen de gegevensstroom tijdens runtime stoppen.
->* Verwijder de volledige bestemming in AEP om gegevens in Meetlat te verwijderen. Als u deze optie uitschakelt, worden alleen nieuwe gegevens geëxporteerd en blijven de oude gegevens behouden.
+>* De gegevens voor een bepaalde entiteit (bijvoorbeeld, Rekening) van een bepaalde bron kunnen slechts in één dataset gaan. Elke dataset kan slechts in één gegevensstroom worden omvat. Overtredingen stoppen de gegevensstroom bij uitvoering.
+>* Verwijder de volledige bestemming in AEP om gegevens in Meetlat te verwijderen. Als u deze optie uitschakelt, worden nieuwe gegevens niet meer geëxporteerd en blijven de oude gegevens behouden.
 >* De configuratie Meetlat ziet er meestal hetzelfde uit, maar sommige onderdelen, zoals Werkgebiedtoewijzing, zien er anders uit.
 >* Het vergt een paar uren voor een nieuwe dataflow om een stroomlooppas te produceren, en dan komen zij met regelmatige uurintervallen voor.
 
-In Maatregel moet de standaardvaluta worden ingesteld in de sectie &quot;Valuta&quot;
+In Maatregel moet de standaardvaluta worden ingesteld in de sectie &quot;Valuta&quot;.
 
 * Als u meerdere valuta&#39;s gebruikt, moet het schema voor de omrekeningskoers van de valuta in AEP worden ingevuld om voor conversies te kunnen lezen en gebruiken.
 
@@ -157,19 +157,19 @@ Als u een Marketo Measure Ultimate-klant bent en uw standaarddashboard-object al
 
 **Regels voor campagneleden:**
 
-Behoefte om een dataset te kiezen en regels voor elk te plaatsen.
+Kies een dataset en stel regels voor elke gegevensset in.
 
 **regels voor ervaringsgebeurtenissen:**
 
-Moet een dataset selecteren en activiteitstypen selecteren.
+Kies een dataset en selecteer activiteitstypen.
 
 * Aangepaste activiteiten worden nog niet ondersteund.
 * Als de klant activiteiten heeft die niet op de beschikbare opties passen, stellen wij voor deze te categoriseren als &quot;Interessmoment&quot; en aangepaste velden te gebruiken om ze te onderscheiden.
 
 **Offlinekanalen:**
 
-* We doen geen dataset-specifieke kanaalkaartregels, dus dit zou globaal zijn.
-* We moeten uiteindelijk zowel het Campagnertype van CRM als het Kanaal aanpassen, maar voor nu, kunnen wij de kanaalnaam aan beide gebieden als tussenoplossing in kaart brengen.
+* We doen geen dataset-specifieke kanaal-mapping regels, zodat zou dit globaal zijn.
+* We moeten uiteindelijk zowel het Campagne Type als het Kanaal van CRM aanpassen, maar voor nu, kunnen wij de kanaalnaam aan beide gebieden als alternerende actie in kaart brengen.
 * **Kanaalregels: de gegevens in de back-up hebben geen gegevens over de werkgebiedovergang.**
 
 De instellingen voor aanraakpunten en segmenten blijven ongewijzigd.
