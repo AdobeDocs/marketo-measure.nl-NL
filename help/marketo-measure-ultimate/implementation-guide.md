@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Ultieme implementatiehandleiding - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultieme implementatiegids'
 feature: Integration, Tracking, Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -131,12 +131,13 @@ Voordat u begint, gaat u naar het gedeelte &quot;Experience Platform > Sandbox-t
 
 >[!NOTE]
 >
+>* Aanbevolen wordt slechts één dataset per gegevensstroom op te nemen.
 >* De gegevens voor een bepaalde entiteit (bijvoorbeeld, Rekening) van een bepaalde bron kunnen slechts in één dataset gaan. Elke dataset kan slechts in één gegevensstroom worden omvat. Overtredingen stoppen de gegevensstroom bij uitvoering.
 >* Verwijder de volledige bestemming in AEP om gegevens in Meetlat te verwijderen. Als u deze optie uitschakelt, worden nieuwe gegevens niet meer geëxporteerd en blijven de oude gegevens behouden.
 >* De configuratie Meetlat ziet er meestal hetzelfde uit, maar sommige onderdelen, zoals Werkgebiedtoewijzing, zien er anders uit.
 >* Het vergt een paar uren voor een nieuwe dataflow om een stroomlooppas te produceren, en dan komen zij met regelmatige uurintervallen voor.
 
-In Maatregel moet de standaardvaluta worden ingesteld in de sectie &quot;Valuta&quot;.
+Bij Maatregel moet de standaardvaluta worden ingesteld in de sectie &quot;Valuta&quot;.
 
 * Als u meerdere valuta&#39;s gebruikt, moet het schema voor de omrekeningskoers van de valuta in AEP worden ingevuld om voor conversies te kunnen lezen en gebruiken.
 
