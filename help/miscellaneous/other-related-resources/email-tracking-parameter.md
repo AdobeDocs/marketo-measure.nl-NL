@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356030
-description: Parameter voor bijhouden van e-mail - [!DNL Marketo Measure] - Productdocumentatie
+description: Parameter voor bijhouden van e-mail - [!DNL Marketo Measure]
 title: Parameter voor bijhouden van e-mail
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,15 @@ De [!DNL Marketo Measure] Met Parameter voor e-mailbeheer kunnen marketers klikk
 
 ## Gevallen gebruiken  {#use-cases}
 
-**Webinar-registratie**: Het marketingteam stuurt een e-mailuitnodiging met één knop om zich te registreren voor een webinar. Omdat het e-mailbericht al de gegevens van de persoon bevat, worden deze automatisch door één klik geregistreerd. De landingspagina bevat de parameter voor het bijhouden van e-mailberichten, zodat ze door de bevestigingspagina klikken en op de bevestigingspagina landen. [!DNL Marketo Measure] U kunt het e-mailadres vastleggen en de doorklikken als een invulling van het formulier behandelen, zodat een aanraakpunt wordt gegenereerd.
+**Webinar-registratie**: Het marketingteam stuurt een e-mailuitnodiging met één knop om zich te registreren voor een webinar. Omdat het e-mailbericht al over de gegevens van de persoon beschikt, registreert deze persoon met één klik automatisch. De landingspagina bevat de parameter voor het bijhouden van e-mailberichten, zodat ze door de bevestigingspagina klikken en op de bevestigingspagina landen. [!DNL Marketo Measure] U kunt het e-mailadres vastleggen en de doorklikken als een invulling van het formulier behandelen, waardoor een aanraakpunt wordt gegenereerd.
 
-**Inhoud downloaden**: Het team voor het op de markt brengen van inhoud wil een recent eBook promoten die zij via een e-mail hebben gepubliceerd met een directe downloadkoppeling. Wanneer de e-mailsjabloon is gemaakt, bevat de pagina voor downloadbevestiging de parameter voor het bijhouden van e-mailberichten, zodat wanneer deze klikken, [!DNL Marketo Measure] kan het e-mailadres vastleggen. Zonder een formulier op de site in te vullen, [!DNL Marketo Measure] U kunt een aanraakpunt genereren voor de inhouddownload die via e-mail heeft plaatsgevonden, omdat deze met de parameter e-mail bijhouden op de bevestigingspagina is geland.
+**Inhoud downloaden**: Het team voor het op de markt brengen van inhoud wil een recent eBook promoten die zij via een e-mail hebben gepubliceerd met een directe downloadkoppeling. Wanneer de e-mailsjabloon is gemaakt, bevat de pagina voor downloadbevestiging de parameter voor het bijhouden van e-mailberichten, zodat wanneer deze klikken, [!DNL Marketo Measure] kan het e-mailadres vastleggen. Zonder een formulier op de site in te vullen, [!DNL Marketo Measure] kan een aanraakpunt genereren voor het downloaden van de inhoud. Dit komt omdat de e-mail ze op de bevestigingspagina heeft geland met de parameter voor het bijhouden van e-mail.
 
 ## Hoe het werkt {#how-it-works}
 
 Wanneer een bezoeker op uw site aankomt, [!DNL Marketo Measure] verwacht een bestemmingspagina met of een e-mailadres of [!DNL Salesforce] Id zodat we dat bezoek kunnen koppelen aan een &quot;formulierverzending&quot; en een aanraakpunt voor die activiteit kunnen genereren.
 
-Als klant maakt u een e-mailsjabloon zoals u dat normaal zou doen. Zodra het tijd is om in de landende pagina voor de actie toe te voegen die u wilt volgen, zult u of het teken, of veranderlijke markering, of macro moeten bepalen dat uw platform van de Automatisering van de Marketing goedkeurt om de waarde voor elk individu dynamisch te tonen.
+Als klant maakt u een e-mailsjabloon zoals u dat normaal zou doen. Zodra het tijd is om in de landende pagina voor de actie toe te voegen die u wilt volgen, moet u of het teken, of veranderlijke markering, of macro bepalen dat uw platform van de Automatisering van de Marketing goedkeurt om de waarde voor elk individu dynamisch te tonen.
 
 Marketo Measure accepteert de volgende waarden: E-mailadres, Salesforce Lead-id of Salesforce-contactpersoon.
 
@@ -49,19 +49,19 @@ Marketo Measure accepteert de volgende waarden: E-mailadres, Salesforce Lead-id 
    <td><p>Marketo</p></td> 
    <td><p>{{lead.Email Address}} </p></td> 
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}</p></td> 
-   <td><p>https://docs.marketo.com/display/public/DOCS/Tokens+Overview#TokensOverview-PersonTokens</p></td> 
+   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html</p></td> 
   </tr> 
   <tr> 
    <td><p>Pardot</p></td> 
    <td><p>%%email% </p><p>of</p><p>%%user_crm_id%%</p></td> 
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%</p></td> 
-   <td><p>https://help.salesforce.com/articleView?id=pardot_variable_tags_reference.htm&amp;type=5</p></td> 
+   <td><p>https://help.salesforce.com/s/articleView?language=en_US&amp;id=pardot_variable_tags_reference.htm&amp;type=5</p></td> 
   </tr> 
   <tr> 
    <td><p>Hubspot</p></td> 
    <td><p>(ingevoegd via de Editor)</p></td> 
    <td><p>nvt</p></td> 
-   <td><p>https://knowledge.hubspot.com/cos-general/how-to-use-personalization-with-your-content</p></td> 
+   <td><p>https://knowledge.hubspot.com/website-pages/personalize-your-content</p></td> 
   </tr> 
   <tr> 
    <td><p>Act-On</p></td> 
