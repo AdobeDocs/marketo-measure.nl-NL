@@ -3,9 +3,9 @@ description: Paspoort-dashboard - [!DNL Marketo Measure] - Product
 title: Paspoort-dashboard
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 88dfdac366d29bed29ed39979cb76cad7aee4025
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,6 @@ Het Paspoort-dashboard biedt marketers een dynamische weergave van leads, contac
 Dit dashboard is uitgerust met de volgende instellingen en filters:
 
 * Datum (gebaseerd op de overgangsdatum)
-* Attributiemodel
 * Kanaal, subkanaal
 * Campagne
 * Segmenten
@@ -60,4 +59,3 @@ Dit dashboard is uitgerust met de volgende instellingen en filters:
 >
 >* [Basisprincipes van dashboard ontdekken](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Zichtbaarheidsbeleid dashboardgegevens](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
-
