@@ -4,9 +4,9 @@ description: Synchronisatiedata voor campagne - [!DNL Marketo Measure]
 title: Synchronisatiedata voor campagne
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,3 @@ Er kunnen tijden zijn wanneer een marketing team het toevoegen van parameters va
 Als u een nieuwe [!DNL Marketo Measure] klant, wilt u wellicht bepaalde marketinggegevens die u via SFDC Campaigns hebt bijgehouden, beschikbaar stellen. Als u echter de aanraakpunten naar uw online SFDC-campagnes wilt inschakelen, kunt u de kwestie van de attributie van dubbeltelling doorlopen, aangezien [!DNL Marketo Measure] maakt automatisch aanraakpunten voor uw online marketingactiviteiten. Als u dubbeltellende gegevens wilt voorkomen, kunt u Einddatums van aanraakpunten gebruiken om een limiet in te stellen voor de aanraakpuntdatums die worden gemaakt door [!DNL Marketo Measure] over de SFDC-campagne. Als voorbeeld, als u retroactieve omzettingen voor een Sociale Campagne wilde toevoegen hebt u in SFDC gevolgd, maar u begrijpt dat u hebt toegevoegd [!DNL Marketo Measure] JavaScript (dat online aanraakpunten maakt) maakt op 1 juli, kunt u de campagne Sociale SFDC bewerken met een einddatum van aanraakpunten die gelijk is aan 1 juli en Aanraakpunten voor kopers inschakelen voor die campagne.
 
 Er kunnen vele andere gebruiksgevallen zijn voor de Einddata van het Aanraakpunt. Als u hulp nodig hebt bij het ontdekken van een specifieke situatie, aarzel dan niet om naar [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
-
->[!MORELIKETHIS]
->
->[[!DNL Marketo Measure] Universiteit: Campagne en Campagne lidvelden](https://learn.bizible.com/2-bizible-customization/137720https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
