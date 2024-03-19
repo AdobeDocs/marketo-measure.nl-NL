@@ -3,9 +3,9 @@ description: Foutmeldingen - [!DNL Marketo Measure]
 title: Foutmeldingen
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 2b13a518d1be768a5c312ea4abdf2039aa22cf08
+source-git-commit: 20f886a0c6f448956ad2fda2d21a25f8d9a5a6af
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Foutmeldingen {#error-notifications}
 
 Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de app of e-mail. Als u om het even welk van deze ontvangt, volg de respectieve het oplossen van problemenstappen. Neem contact op met [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support).
+
+Het volledige kennisgevingsbericht weergeven in [!DNL Marketo Measure], klikt u op **Alles weergeven** onder aan het tabblad Meldingen.
+
+![](assets/error-notifications-1.png)
 
 <table>
   <tbody>
@@ -49,7 +53,7 @@ Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de ap
             </li>
           </ul>
           <p>
-           <img src="assets/error-notifications-1.png">
+           <img src="assets/error-notifications-2.png">
           </p>
       </td>
     </tr>
@@ -87,27 +91,17 @@ Salesforce-documentatie over stroomtriggers <a href="https://admin.salesforce.co
       <td>DUPLICATES_DETECTED</td>
       <td>Er is een fout opgetreden tijdens de Crm-export: DUPLICATES_DETECTED : Type entiteit 'Contact': CRM ErrorCode: DUPLICATES_DETECTED, CRM ErrorMessage: U maakt een gedupliceerde record. We raden u aan een bestaande record te gebruiken., RecordId: 0123456</td>
       <td>De record die wordt geïmporteerd in de Salesforce Org bestaat al.</td>
-      <td>
-        <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">De instelling Regel dupliceren uitschakelen</a> om duplicaten toe te staan.
-          </li>
-          <li>De specifieke Marketo Measure-gebruiker uitsluiten van <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">aangepaste validatieregels</a>.
-          </li>
-        </ul>
-      </td>
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">De instelling Regel dupliceren uitschakelen</a> om duplicaten toe te staan.
+          <p>
+          De specifieke Marketo Measure-gebruiker uitsluiten van <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">aangepaste validatieregels</a>.</td>
     </tr>
     <tr>
       <td>DUPLICATE_VALUE</td>
       <td>Fout opgetreden tijdens Crm Export: DUPLICATE_VALUE : Type entiteit 'Lead': CRM ErrorCode: DUPLICATE_VALUE, CRM ErrorMessage: duplicate value found: Email_Unique__c duplicates value on record with id: 123, RecordId: 456</td>
       <td>In het veld dat wordt geïmporteerd in de Salesforce Org zijn geen dubbele waarden toegestaan.</td>
-      <td>
-        <ul>
-          <li>Schakel het selectievakje <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Uniek selectievakje"</a> in Salesforce.
-          </li>
-          <li>De specifieke Marketo Measure-gebruiker uitsluiten van <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">aangepaste validatieregels</a>.
-          </li>
-        </ul>
-      </td>
+      <td>Schakel het selectievakje <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Uniek selectievakje"</a> in Salesforce.
+          <p>
+          De specifieke Marketo Measure-gebruiker uitsluiten van <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">aangepaste validatieregels</a>.</td>
     </tr>
     <tr>
       <td>ENTITY_IS_LOCKED</td>
