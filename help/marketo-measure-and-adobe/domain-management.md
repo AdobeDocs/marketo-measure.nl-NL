@@ -3,7 +3,7 @@ description: Domeinbeheer - [!DNL Marketo Measure]
 title: Domeinbeheer
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 4c68fa08797c252a89ba097c723fb8afee82451f
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -20,7 +20,7 @@ IMS-gebruikers met toegang tot de Adobe Admin Console kunnen domeinen die ze bez
 
 ![](assets/domain-management-1.png)
 
-Instructies voor het toevoegen van domeinen vindt u in het dialoogvenster [Documentatie Admin Console](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains). Wanneer een domein is toegevoegd, moet het worden [gekoppeld aan een map](https://helpx.adobe.com/enterprise/using/set-up-identity.html#link-domains-to-directories).
+Instructies voor het toevoegen van domeinen vindt u in het dialoogvenster [Documentatie Admin Console](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Wanneer een domein is toegevoegd, moet het worden [gekoppeld aan een map](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## Domeinen beheren in [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
