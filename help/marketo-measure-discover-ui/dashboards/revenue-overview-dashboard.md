@@ -3,9 +3,9 @@ description: Dashboard overzicht van inkomsten - [!DNL Marketo Measure] - Produc
 title: Dashboard overzicht van inkomsten
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Dashboard overzicht van inkomsten {#revenue-overview-dashboard}
 
 Het dashboard van het Overzicht van Ontvangsten verstrekt inzicht in de totale opbrengst die uit uw CRM wordt afgeleid, die licht op de rol van uw marketing strategieën werpt. Het biedt een overzicht van hoe marketing uw algemene opbrengst beïnvloedt en tot de succesvolle sluiting van overeenkomsten bijdraagt.
-
->[!NOTE]
->
->Dit dashboard bevindt zich momenteel in bètaversie. Tijdens deze overgangsfase zullen zowel de huidige als de nieuwe dashboards toegankelijk zijn. Het huidige dashboard wordt vervangen zodra we volledig zijn overgeschakeld en optimale functionaliteit hebben gegarandeerd.
 
 **De antwoorden van de raad vragen:**
 

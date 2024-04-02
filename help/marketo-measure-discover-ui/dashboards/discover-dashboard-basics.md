@@ -3,9 +3,9 @@ description: Basisprincipes van dashboard ontdekken - [!DNL Marketo Measure] - P
 title: Basisprincipes van dashboard ontdekken
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Basisprincipes van dashboard ontdekken {#discover-dashboard-basics}
 
 Dit artikel begeleidt u door de basismogelijkheden van de opnieuw ontworpen interface, zodat u uw gegevens moeiteloos kunt openen en interpreteren. Schrap in de dynamiek van de filterruit en ontdek de ingewikkeldheid van onze verbeterde rapporteringsfunctionaliteit, zoals boor eigenschappen, dwars filtreren, en tooltips.
-
->[!NOTE]
->
->Dit dashboard bevindt zich momenteel in bètaversie. Tijdens deze overgangsfase zullen zowel de huidige als de nieuwe dashboards toegankelijk zijn. Het huidige dashboard wordt vervangen zodra we volledig zijn overgeschakeld en optimale functionaliteit hebben gegarandeerd.
 
 ## Filtervenster {#filter-pane}
 
