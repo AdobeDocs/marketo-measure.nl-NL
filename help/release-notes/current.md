@@ -3,7 +3,7 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure]
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 4a3b8a1df9d8a675d977b08693b9d7facb64bc02
+source-git-commit: 81ce4ead229e461eeb9e6e3b1e951108b627a4e8
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
@@ -45,3 +45,4 @@ Om u aan deze verandering te helpen aanpassen, [we hebben documentatie gemaakt](
 **Actie vereist voor LinkedIn-integratie**
 
 LinkedIn heeft onlangs een bijgewerkte versie uitgebracht van de bijbehorende API voor Lead Sync. Verifieer de LinkedIn-verbinding uiterlijk op 20 mei in uw Marketo Measure-exemplaar om onderbrekingen te voorkomen.
+
