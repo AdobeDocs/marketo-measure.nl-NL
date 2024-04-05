@@ -3,9 +3,9 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure]
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 00a362a2e143749e1a132672b847eb06dcab6b9c
+source-git-commit: 4a3b8a1df9d8a675d977b08693b9d7facb64bc02
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -41,3 +41,7 @@ Onmiddellijke zichtbaarheid: de introductie van pulsmeldingen maakt een snelle r
 _Uw overgang ondersteunen_
 
 Om u aan deze verandering te helpen aanpassen, [we hebben documentatie gemaakt](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} met duidelijke foutbeschrijvingen en uitgebreide stappen voor probleemoplossing.
+
+**Actie vereist voor LinkedIn-integratie**
+
+LinkedIn heeft onlangs een bijgewerkte versie uitgebracht van de bijbehorende API voor Lead Sync. Verifieer de LinkedIn-verbinding uiterlijk op 20 mei in uw Marketo Measure-exemplaar om onderbrekingen te voorkomen.
