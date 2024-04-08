@@ -3,7 +3,7 @@ description: '[!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit - [
 title: '''[!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit"'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Marketo Measure] Eis voor ultieme gegevensintegriteit {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valideert de binnenkomende AEP-gegevenssets om ervoor te zorgen dat de gegevens toereikend en samenhangend zijn voor toewijzing. Wanneer niet wordt voldaan aan de gegevensintegriteitseis, wordt de gegevensset door de [!DNL Marketo Measure] systeem. In dit document wordt de vereiste gegevensintegriteit beschreven, worden query-voorbeelden gegeven voor gegevenscontrole en wordt een oplossing aanbevolen voor vereiste velden met een null-waarde.
+[!DNL Marketo Measure] valideert de binnenkomende AEP-gegevenssets om ervoor te zorgen dat de gegevens toereikend en samenhangend zijn voor toewijzing. Wanneer niet wordt voldaan aan de gegevensintegriteitseis, wordt de gegevensset door de [!DNL Marketo Measure] systeem. Dit artikel detailleert de vereiste van de gegevensintegriteit, verstrekt vraagvoorbeelden voor gegevensinspectie, en adviseert een oplossing voor vereiste gebieden met een ongeldige waarde.
 
 ## Object Entiteit {#entity-object}
 
