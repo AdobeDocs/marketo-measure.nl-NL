@@ -3,9 +3,9 @@ description: '[!DNL Marketo Measure] Integratie met Adobe starten - [!DNL Market
 title: '''[!DNL Marketo Measure] Integratie met Adobe Launch"'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 6aaf6fd26f19e9382cc559e54558e1c5d84cfd6d
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
@@ -48,10 +48,6 @@ Wanneer geïnstalleerd en gevormd in de Lancering van de Adobe, [!DNL Marketo Me
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-5.png)
 
-   >[!NOTE]
-   >
-   >Dit veld is niet de &quot;Account ID&quot; in de tabel Business_Prod.Business. Alle webactiviteiten vanaf de opgegeven URL (bijvoorbeeld `adobe.com`) worden toegewezen aan [!DNL Marketo Measure] huurder.
-
 1. Klik op **[!UICONTROL Save]**.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-6.png)
@@ -79,3 +75,4 @@ Wanneer geïnstalleerd en gevormd in de Lancering van de Adobe, [!DNL Marketo Me
 1. Klik op **[!UICONTROL Save]**.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-12.png)
+
