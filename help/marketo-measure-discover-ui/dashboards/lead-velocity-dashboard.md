@@ -2,9 +2,10 @@
 description: Snelheidsdashboard voor lead - [!DNL Marketo Measure] - Product
 title: Snelheidsdashboard voor lead
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
+source-git-commit: de7239abaedaf1a59b3760f12736a225d71027a1
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -20,14 +21,16 @@ Hiermee wordt het volgende dashboard beantwoord:
 
 ## Dashboardcomponenten {#dashboard-components}
 
+Of &#39;&#39;Lead&#39;&#39; of &#39;&#39;Contact&#39;&#39; wordt weergegeven, wordt bepaald door de voorkeursinstelling die is ingesteld in: Instellingen > Kenmerken > Standaarddashboardobject.
+
 ### Snelheid lead/contact per werkgebied {#lead-contact-velocity-by-stage}
 
 Het staafdiagram toont de gemiddelde duur, in dagen, die leidt/contacten in elk verkoopstadium tijdens een specifiek tijdsbestek doorbrengen.
 
 Vragen in de grafiek:
 
-Welk verkoopstadium heeft typisch de langste duur voor lood/contacten?
-Hoe verhoudt de tijd die in het stadium &#39;First touch&#39; doorgebracht wordt tot het stadium &#39;MQL&#39;?
+* Welk verkoopstadium heeft typisch de langste duur voor lood/contacten?
+* Hoe verhoudt de tijd die in het stadium &#39;First touch&#39; doorgebracht wordt tot het stadium &#39;MQL&#39;?
 
 ![](assets/lead-velocity-dashboard-1.png)
 
@@ -35,7 +38,7 @@ Hoe verhoudt de tijd die in het stadium &#39;First touch&#39; doorgebracht wordt
 
 De grafiek van de tijdreekslijn toont de gemiddelde tijd, in dagen, die lood/contacten in elk verkoopstadium over het gespecificeerde tijdsbestek doorbrengen.
 
-* de functies voor uitvouwen en Omhoog gebruiken om de gegevens te categoriseren op maand, kwartaal of jaar.
+* Gebruik de functies voor uitvouwen en Omhoog om de gegevens te categoriseren op maand, kwartaal of jaar.
 * Houd de muisaanwijzer boven een regel om gedetailleerde informatie weer te geven.
 
 Vragen in de grafiek:
