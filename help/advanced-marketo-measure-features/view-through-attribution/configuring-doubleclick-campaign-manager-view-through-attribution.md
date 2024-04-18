@@ -4,9 +4,9 @@ description: Dubbelklik op de Campagnebeheerweergave via Attributen - [!DNL Mark
 title: Dubbelklik op de weergave Campagnebeheer via Attributie
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Dubbelklik op de weergave Campagnebeheer via Attributie {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
 ## Weergave meten via kenmerk {#measuring-view-through-attribution}
+
+>[!IMPORTANT]
+>
+>Vanwege privacyproblemen zijn cookies van derden op weg. Google Chrome kondigde in het derde kwartaal van 2024 de afleiding van cookies van derden aan, en markeert in feite het einde van deze vorm van bijhouden. Als gevolg hiervan worden Marketo Measure-functies die afhankelijk zijn van cookies van derden afgekeurd door de Adobe, met name Cross-Domain Tracking en View-through Attribution, die gebruikmaken van het Google/DoubleClick-imitatiecookie. Geen enkele andere functie van Marketo Measure wordt beïnvloed. Het cookie-gebruik van de eerste partij wordt ook niet beïnvloed. In het licht van het Google-schema is de verwachte vervaldatum voor de twee bovenstaande functies 16-01-2024. Verwante gegevens die vóór deze datum zijn verzameld, blijven beschikbaar voor klanten van de Adobe.
 
 >[!NOTE]
 >

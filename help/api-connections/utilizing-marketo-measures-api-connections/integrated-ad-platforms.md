@@ -4,9 +4,9 @@ description: Geïntegreerde AD-platforms - [!DNL Marketo Measure]
 title: Geïntegreerde AD-platforms
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1644'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,13 @@ Dit gereedschap is een Chrome-extensie waarmee u snel UTM-tags kunt genereren. Z
 ## Bing Ads {#bing-ads}
 
 Bing Ads is een geïntegreerd platform waarmee u automatische codering voor URL&#39;s kunt inschakelen of een hulpprogramma van derden kunt gebruiken, zoals [!DNL Marketo Measure], om advertenties te labelen. [!DNL Bing Ads] vertrouwt ook op UTM-parameters.
+
+Onze integratie ondersteunt de volgende advertentietypen:
+
+* Tekst toevoegen
+* Mobiele advertentie
+* Toegevoegde tekst uitgebreid
+
 
 De functie voor automatische labeling van Bing Ads voegt de volgende UTM-parameters toe:
 

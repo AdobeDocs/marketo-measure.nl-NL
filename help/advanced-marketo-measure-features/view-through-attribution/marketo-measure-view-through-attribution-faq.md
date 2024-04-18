@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Veelgestelde vragen over weergave door kenm
 title: "[!DNL Marketo Measure] Veelgestelde vragen over kenmerk bekijken"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 ## Wat is Weergeven door kenmerk? {#what-is-view-through-attribution}
 
 De [!DNL Marketo Measure] [!UICONTROL View Through Attribution] Deze functie omvat de mogelijkheid om advertenties op te nemen in het toewijzingsmodel.
+
+>[!IMPORTANT]
+>
+>Vanwege privacyproblemen zijn cookies van derden op weg. Google Chrome kondigde in het derde kwartaal van 2024 de afleiding van cookies van derden aan, en markeert in feite het einde van deze vorm van bijhouden. Als gevolg hiervan worden Marketo Measure-functies die afhankelijk zijn van cookies van derden afgekeurd door de Adobe, met name Cross-Domain Tracking en View-through Attribution, die gebruikmaken van het Google/DoubleClick-imitatiecookie. Geen enkele andere functie van Marketo Measure wordt beïnvloed. Het cookie-gebruik van de eerste partij wordt ook niet beïnvloed. In het licht van het Google-schema is de verwachte vervaldatum voor de twee bovenstaande functies 16-01-2024. Verwante gegevens die vóór deze datum zijn verzameld, blijven beschikbaar voor klanten van de Adobe.
 
 ## Waarom is [!UICONTROL View Through Attribution] Belangrijk? {#why-is-view-through-attribution-important}
 
