@@ -3,9 +3,9 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure]
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 6aaf6fd26f19e9382cc559e54558e1c5d84cfd6d
+source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,10 @@ In reactie op de groeiende bezorgdheid over privacy worden cookies van derden ge
 
 **Gestroomlijnde implementatie van onze verbeterde foutafhandeling**
 
-We introduceren een gefaseerde implementatie van verbeterde foutafhandeling voor exporttaken, te beginnen met directe pulsmeldingen in de app voor machtigingsfouten en op 25 april over te schakelen naar een nieuwe aanpak waarbij exporttaken worden gepauzeerd op het punt van de fout. Deze wijziging heeft tot doel de integriteit en de zichtbaarheid van gegevens te verbeteren, zodat onze gebruikers gemakkelijker en betrouwbaarder gegevensbeheerprocessen krijgen. Om een vlotte overgang en minimale verstoring van uw verrichtingen te verzekeren, voeren wij deze veranderingen in twee fasen uit:
+We introduceren een gefaseerde implementatie van verbeterde foutafhandeling voor exporttaken, te beginnen met directe pulsmeldingen in de app voor machtigingsfouten, en een overgang naar een nieuwe aanpak waarbij exporttaken worden gepauzeerd op het punt van de fout. Deze wijziging heeft tot doel de integriteit en de zichtbaarheid van gegevens te verbeteren, zodat onze gebruikers gemakkelijker en betrouwbaarder gegevensbeheerprocessen krijgen. Om een vlotte overgang en minimale verstoring van uw verrichtingen te verzekeren, voeren wij deze veranderingen in twee fasen uit:
 
 * Directe beschikbaarheid van pulsmeldingen: u ontvangt pulsmeldingen in de app voor machtigingsfouten tijdens exporttaken. Hierdoor wordt uw export niet onderbroken, maar kunt u meer leren over de fouten zonder dat dit van invloed is op uw huidige taken.
-* Implementatie van taakonderbreking op 25 april: vanaf 25 april wordt de taak gepauzeerd om ervoor te zorgen dat er geen gegevens worden overgeslagen als er in ons systeem een machtigingsfout optreedt tijdens een exporttaak. U wordt op de hoogte gesteld van eventuele problemen. Zodra de machtigingen zijn gecorrigeerd, wordt de exporttaak probleemloos hervat vanaf het punt waar deze was uitgeschakeld.
+* Tenuitvoerlegging van de taakpauze op 25 april: **POSTPONED** - Na de feedback van Marketo Measure-gebruikers te hebben overwogen, hebben we besloten de tenuitvoerlegging van het pauzeren van exporttaken uit te stellen op het punt van de fout, dat oorspronkelijk gepland was voor 25 april. We erkennen dat het stopzetten van banen wellicht niet de meest effectieve aanpak is. Wij streven naar een betere oplossing die gegevensintegriteit handhaaft en verstoring minimaliseert. We zullen elke wijziging in ons huidige systeem uitstellen totdat we een oplossing kunnen vinden die beter aansluit bij de behoeften van onze gebruikers.
 
 _Waarom dit belangrijk is_
 
