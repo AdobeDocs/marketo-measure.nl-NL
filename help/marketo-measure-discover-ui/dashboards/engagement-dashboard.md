@@ -2,9 +2,10 @@
 description: Betrokkenheidsdashboard - [!DNL Marketo Measure] - Product
 title: Betrokkenheidsdashboard
 feature: Reporting
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
+source-git-commit: db71635a77d6e2555c442fb45371fd5a93e3c502
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,14 @@ ht-degree: 0%
 # Betrokkenheidsdashboard {#engagement-dashboard}
 
 Het betrokkenheidsdashboard volgt nauwgezet de gegevens van de gebruikersbetrokkenheid. Het toont aanraakpunten, het aantal betrokken personen en de gemiddelde aanraakpunten per persoon. Gebruik het staafdiagram van de tijdreeks voor een maandelijkse, driemaandelijkse, of jaarlijkse mening, en het staafdiagram voor gedetailleerde Inzichten van het Kanaal, Subchannel, en van de Campagne. Dit hulpmiddel is essentieel voor het begrijpen van betrokkenheidspatronen en het verfijnen van uw servicestrategieën.
+
+We volgen elke interactie van klanten als UT&#39;s (User Touchpoints), de &#39;onbewerkte&#39; verzamelde gegevenspunten, die de basis vormen voor betrokkenheidsmetriek op ons dashboard. Niet alle UT&#39;s evolueren naar de aanraakpunten voor kopers (BT&#39;s) of de aanraakpunten voor koperskenmerken (BBT&#39;s), aangezien dit geselecteerde resultaten zijn voor het toewijzen van specifieke klantinteracties aan inkomstengerelateerde activiteiten. Het is belangrijk om op te merken dat de suppressieregels UTs of het betrokkenheidsdashboard niet beïnvloeden.
+
+* **Aanraakpunten van gebruikers**: Touchpoints die zijn gemaakt van alle services.
+* **Aanraakpunten koper**: Aanraakpunten geselecteerd voor kenmerk Lead en Contactpersoon. BT&#39;s zijn niet gekoppeld aan opportuniteiten en hebben geen bijbehorende inkomsten.
+* **Aanraakpunten voor koperkenmerk**: Aanraakpunten geselecteerd voor kenmerk Opportunity. BBT&#39;s hebben gevolgen voor de inkomsten, aangezien zij verband houden met opportuniteiten.
+
+Het gebruik van alleen BT&#39;s of BBT&#39;s om de betrokkenheid te meten, zou de ware omvang van de interactie tussen klanten onderschatten, aangezien de betrokkenheid breder is dan alleen toewijzing.
 
 Hiermee worden vragen gesteld aan het dashboard:
 
