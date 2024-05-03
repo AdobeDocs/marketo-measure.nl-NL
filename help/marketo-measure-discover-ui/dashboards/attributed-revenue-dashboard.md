@@ -3,7 +3,7 @@ description: Toegewezen belastingdashboard - [!DNL Marketo Measure] - Product
 title: Toegewezen belastingdashboard
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: 01ed0bfa424a1fb5eb68983b1a54c4c5eddc163a
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Het dashboard Toegewezen Inkomsten biedt een gericht perspectief op de inkomsten
 >
 >Dit dashboard bevindt zich in bèta. Tijdens deze overgangsfase zullen zowel de huidige als de nieuwe dashboards toegankelijk zijn. Het huidige dashboard wordt vervangen nadat we volledig zijn overgeschakeld en optimale functionaliteit hebben gegarandeerd.
 
-**De antwoorden van de raad vragen:**
+**Vragen over de antwoorden van de commissie**:
 
 * Welke kanalen, subkanalen, of campagnes zijn het hoogst in termen van toegeschreven inkomsten?
 * Wat is het totale bedrag van onze toegerekende inkomsten en het aantal van onze toegeschreven gesloten overeenkomsten?
@@ -37,7 +37,7 @@ Gestapelde staafgrafiek met de totale toegerekende opbrengsten, gesegmenteerd do
 * Gebruik de functies voor uitvouwen en Omhoog om de gegevens te categoriseren op maand, kwartaal of jaar.
 * Houd de cursor boven een staafsegment of de ruimte tussen de staven om gedetailleerde informatie weer te geven.
 
-**Vragen in de grafiek:**
+**Vragen over de antwoorden in het diagram**:
 
 * Welke kanalen produceerden de meest toegeschreven inkomsten elk kwartaal?
 * Wat was de uitsplitsing van de bestemmingsontvangsten per kanaal vorige maand?
@@ -48,7 +48,7 @@ Gestapelde staafgrafiek met de totale toegerekende opbrengsten, gesegmenteerd do
 
 De totale toegewezen opbrengst die door Kanaal, Subchannel, en Campagne wordt gesegmenteerd, in zowel de formaten van Tabular als van de Boom wordt voorgesteld. Klik op de knop in de rechterbovenhoek om te schakelen tussen de weergaven.
 
-**De antwoorden van de raad vragen:**
+**Vragen over de antwoorden van de commissie**:
 
 * Hoe varieert de toegewezen inkomstenverdeling tussen verschillende subkanalen binnen een kanaal?
 * Welke campagnes onder een bepaald subkanaal drijven de meest toegeschreven inkomsten?
