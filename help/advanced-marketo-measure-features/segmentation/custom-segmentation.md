@@ -4,9 +4,9 @@ description: Aangepaste segmentatie - [!DNL Marketo Measure]
 title: Aangepaste segmentatie
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: e1ad563aac12ceb6bea6c28621ebd1cb7ec0a923
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Met Aangepaste segmentatie kunt u aanraakpunten filteren op categorieën (filter
 De Segmentatie van de douane kan worden gebruikt om gegevens voor een bepaald verslagtype te zien. Als u de filterlogica eenmaal hebt toegewezen, kunt u deze weergeven in het dialoogvenster [!DNL Marketo Measure] De mening van de Waterval van de Dvraag van het dashboard - de zelfde gegevens u in uw CRM zou zien.
 
 **Hoe kan ik het opzetten?**
+
+>[!NOTE]
+>
+>Bij het bijwerken van segmentregels worden historische gegevens opnieuw verwerkt.
 
 Stap 1 - Bepaal welke informatie u wilt zien.
 
