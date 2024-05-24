@@ -4,9 +4,9 @@ description: Meer informatie over Account-Based Marketing (ABM) en hoe Adobe Mar
 title: Overzicht van accountgebaseerde marketing
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -32,17 +32,22 @@ Als u wilt dat ons marketingmodel op basis van account uw CRM invult, [!DNL Mark
 
 ## Toewijzing van regel naar account {#lead-to-account-mapping}
 
-Het in kaart brengen van leads naar accounts is een cruciaal onderdeel van een effectieve ABM-benadering. Bij het in kaart brengen van lood-aan-rekening, worden de vooruitzichten, of de lood, gegroepeerd in de zelfde bedrijfsrekening aangezien zij met uw merk in dienst nemen. Dit staat u toe om aan individuen van het zelfde bedrijf op een verenigbare manier te richten en te verkopen. Er zijn geen extra [!DNL Salesforce] configuratie nodig om te kunnen profiteren van deze functie. De [!DNL Marketo Measure] Toewijzing van account met vijf verschillende methoden:
+Het in kaart brengen van leads naar accounts is een cruciaal onderdeel van een effectieve ABM-benadering. Bij het in kaart brengen van lood-aan-rekening, worden de vooruitzichten, of de lood, gegroepeerd in de zelfde bedrijfsrekening aangezien zij met uw merk in dienst nemen. Dit staat u toe om aan individuen van het zelfde bedrijf op een verenigbare manier te richten en te verkopen. Er zijn geen extra [!DNL Salesforce] configuratie nodig om te kunnen profiteren van deze functie. De [!DNL Marketo Measure] Verschillende methoden voor het toewijzen van leads aan account:
 
 * Website naar account leiden
 * E-maildomein naar website-domein van account leiden
 * Bedrijfsnaam leiden naar accountnaam
 * Bedrijf leiden naar accountwebsitedomein
-* Overeenkomend het Domein op het E-mailadres van de Leider aan de Rekening via het E-mailadres van het Contact
+* Website leiden naar het e-maildomein van contactpersonen voor account
+* E-maildomein voor contactpersoon van account leiden
+* Website leiden naar e-maildomein van verantwoordelijke account
+* E-maildomein voor hoofd-e-maildomein van account leiden
+
+De leads/contactpersonen van de accounts worden gevalideerd door hun e-mail-/websitedomeinen en overeenkomen met het domein of subdomein van de hoofd-e-mail/website. De account met de meeste overeenkomsten wordt gebruikt.
 
 >[!NOTE]
 >
->Elke lead probeert overeen te komen met een account in de bovenstaande voorkeursvolgorde van methoden. Zodra een gelijke wordt gemaakt, wordt AccountId onmiddellijk geplaatst op Lood en zal niet aangepast worden gebruikend een andere methode. Als de lead al een geldige account-id heeft, wordt de lead overgeslagen.
+>Elke lead probeert overeen te komen met een account in de bovenstaande voorkeursvolgorde van methoden. Zodra een gelijke wordt gemaakt, wordt AccountId onmiddellijk geplaatst op Lood en zal niet aangepast worden gebruikend een andere methode.
 
 ## Predictieve betrokkenheidsscore {#predictive-engagement-score}
 
