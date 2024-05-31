@@ -3,9 +3,9 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure]
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
+source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,32 @@ ht-degree: 0%
 # Opmerkingen bij de release: 2024 {#release-notes-2024}
 
 Zie hieronder voor alle nieuwe en bijgewerkte functies voor onze 2024-releases.
+
+## Q3 Release {#q3-release}
+
+<p>
+
+**Herinnering: Salesforce Field Deprecations - 14 juni**
+
+Zoals vorig jaar werd aangekondigd, zullen we onze exporttaken geleidelijk afschaffen naar objecten voor lead/contact om onze integratie te vereenvoudigen en de noodzaak om te exporteren naar standaardobjecten van Salesforce te elimineren. U kunt dezelfde gegevens verkrijgen van uw Touchpoint-objecten door de stappen uit te voeren [hier gedocumenteerd](/help/release-notes/previous-releases/2023.md#deprecations). We delen ook documentatie over het maken van workflows om deze gegevens toe te voegen aan het object Lead/Contact. De afschrijving wordt van kracht op 14 juni 2024.
+
+Deze wijziging zal twee belangrijke voordelen opleveren:
+
+* **Lagere kosten voor salesforce-API**: Klanten kunnen verwachten hun kosten voor de Salesforce-API met ongeveer 10% te verlagen.
+* **Gestroomlijnde integratie**: Het hoogste aantal fouten in onze exporttaken houdt verband met deze processen. Als we ze verwijderen, wordt onze integratie aanzienlijk gestroomlijnd.
+
+**Toegewezen opportuniteitsdashboard**
+
+We zijn blij om de nieuwe [Toegewezen opportuniteitsdashboard](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md), ontworpen om u een uitgebreid overzicht te geven van hoe uw marketinginspanningen bijdragen aan zowel de ontluikende als de rijpe pijpleidingsmogelijkheden. Met dit dashboard kunt u de details bekijken van elke open en gesloten kans die aan uw strategieën is toe te schrijven, met de flexibiliteit om per opportuniteitsfase te filteren. Het biedt inzicht in welke kanalen, subkanalen, of campagnes het hoogst in termen van toegewezen opportuniteitsbedrag zijn, en toont het totale toegewezen opportuniteitsbedrag samen met het aantal toegewezen open en gesloten kansen.
+
+**Marketo Engage Cookie Sync voor Marketo Measure Ultimate**
+
+Marketo Engage Cookie Sync is nu beschikbaar voor Marketo Measure Ultimate. Deze functie gebruiken:
+
+1. Bewerk op de pagina AEP-schema&#39;s het B2B-personeschema en voeg de veldgroep &quot;Marketo Engage Person Details&quot; toe.
+1. Wanneer het opnemen van de gegevens aan MMU, kaart het gebied van identiteitskaart van de Koek van de gebiedsgroep aan het gebied van Koekjes van Marketo Engage.
+
+<p>
 
 ## V2-release {#q2-release}
 
