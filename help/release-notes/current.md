@@ -3,9 +3,9 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure]
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 88edec8ec5d015fb4152b9e822cb1bfa68ed85c2
+source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,9 @@ Marketo Engage Cookie Sync is nu beschikbaar voor Marketo Measure Ultimate. Deze
 1. Bewerk op de pagina AEP-schema&#39;s het B2B-personeschema en voeg de veldgroep &quot;Marketo Engage Person Details&quot; toe.
 1. Wanneer het opnemen van de gegevens aan MMU, kaart het gebied van identiteitskaart van de Koek van de gebiedsgroep aan het gebied van Koekjes van Marketo Engage.
 
-**Boomerang-fasen ingeschakeld voor klanten van Tier 2 en 3**
+**Boomerang-fasen ingeschakeld voor Tier 2-klanten**
 
-De functie van het Stadium van Boomerang zal aan alle Tier 2 en 3 klanten vanaf 7 juni 2024 beschikbaar zijn. Raadpleeg de onderstaande documentatie voor meer informatie over deze functie.
+Voorheen alleen beschikbaar voor Tier 3-klanten, is de functie van het Boomerang Stage ook beschikbaar voor alle Tier 2-klanten vanaf 7 juni 2024. Raadpleeg de onderstaande documentatie voor meer informatie over deze functie.
 
 * [Boomerang Stages en Touchpoints](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [Boomerang Stages instellen](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}

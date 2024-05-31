@@ -4,9 +4,9 @@ description: Opzetten van Boomerang Stages - [!DNL Marketo Measure]
 title: Boomerang Stages instellen
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->De Boomerang-functie wordt alleen ingeschakeld voor Tier 3-klanten. Neem contact op met het accountteam van de Adobe om een hogere accountlaag aan te vragen.
+>De functie Boomerang is alleen ingeschakeld voor klanten van Tier 2 en 3. Neem contact op met het accountteam van de Adobe om een hogere accountlaag aan te vragen.
 
 Inschakelen [!UICONTROL Boomerang] Voor uw account moet u een accountbeheerder zijn. Of, kan het worden toegelaten door uit te reiken aan [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Nadat de functie is ingeschakeld, volgt u deze instructies om deze in te stellen.
 
