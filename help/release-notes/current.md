@@ -3,9 +3,9 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure]
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
+source-git-commit: 88edec8ec5d015fb4152b9e822cb1bfa68ed85c2
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Zie hieronder voor alle nieuwe en bijgewerkte functies voor onze 2024-releases.
 
 **Herinnering: Salesforce Field Deprecations - 14 juni**
 
-Zoals vorig jaar werd aangekondigd, zullen we onze exporttaken geleidelijk afschaffen naar objecten voor lead/contact om onze integratie te vereenvoudigen en de noodzaak om te exporteren naar standaardobjecten van Salesforce te elimineren. U kunt dezelfde gegevens verkrijgen van uw Touchpoint-objecten door de stappen uit te voeren [hier gedocumenteerd](/help/release-notes/previous-releases/2023.md#deprecations). We delen ook documentatie over het maken van workflows om deze gegevens toe te voegen aan het object Lead/Contact. De afschrijving wordt van kracht op 14 juni 2024.
+Zoals vorig jaar werd aangekondigd, zullen we onze exporttaken geleidelijk afschaffen naar objecten voor lead/contact om onze integratie te vereenvoudigen en de noodzaak om te exporteren naar standaardobjecten van Salesforce te elimineren. U kunt dezelfde gegevens verkrijgen van uw Touchpoint-objecten door de stappen uit te voeren [hier gedocumenteerd](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. We delen ook documentatie over het maken van workflows om deze gegevens toe te voegen aan het object Lead/Contact. De afschrijving wordt van kracht op 14 juni 2024.
 
 Deze wijziging zal twee belangrijke voordelen opleveren:
 
@@ -29,7 +29,7 @@ Deze wijziging zal twee belangrijke voordelen opleveren:
 
 **Toegewezen opportuniteitsdashboard**
 
-We zijn blij om de nieuwe [Toegewezen opportuniteitsdashboard](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md), ontworpen om u een uitgebreid overzicht te geven van hoe uw marketinginspanningen bijdragen aan zowel de ontluikende als de rijpe pijpleidingsmogelijkheden. Met dit dashboard kunt u de details bekijken van elke open en gesloten kans die aan uw strategieën is toe te schrijven, met de flexibiliteit om per opportuniteitsfase te filteren. Het biedt inzicht in welke kanalen, subkanalen, of campagnes het hoogst in termen van toegewezen opportuniteitsbedrag zijn, en toont het totale toegewezen opportuniteitsbedrag samen met het aantal toegewezen open en gesloten kansen.
+We zijn blij om de nieuwe [Toegewezen opportuniteitsdashboard](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, ontworpen om u een uitgebreid overzicht te geven van hoe uw marketinginspanningen bijdragen aan zowel de ontluikende als de rijpe pijpleidingsmogelijkheden. Met dit dashboard kunt u de details bekijken van elke open en gesloten kans die aan uw strategieën is toe te schrijven, met de flexibiliteit om per opportuniteitsfase te filteren. Het biedt inzicht in welke kanalen, subkanalen, of campagnes het hoogst in termen van toegewezen opportuniteitsbedrag zijn, en toont het totale toegewezen opportuniteitsbedrag samen met het aantal toegewezen open en gesloten kansen.
 
 **Marketo Engage Cookie Sync voor Marketo Measure Ultimate**
 
@@ -37,6 +37,14 @@ Marketo Engage Cookie Sync is nu beschikbaar voor Marketo Measure Ultimate. Deze
 
 1. Bewerk op de pagina AEP-schema&#39;s het B2B-personeschema en voeg de veldgroep &quot;Marketo Engage Person Details&quot; toe.
 1. Wanneer het opnemen van de gegevens aan MMU, kaart het gebied van identiteitskaart van de Koek van de gebiedsgroep aan het gebied van Koekjes van Marketo Engage.
+
+**Boomerang-fasen ingeschakeld voor klanten van Tier 2 en 3**
+
+De functie van het Stadium van Boomerang zal aan alle Tier 2 en 3 klanten vanaf 7 juni 2024 beschikbaar zijn. Raadpleeg de onderstaande documentatie voor meer informatie over deze functie.
+
+* [Boomerang Stages en Touchpoints](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [Boomerang Stages instellen](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [Boomerang Stage Scenarios](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 <p>
 
