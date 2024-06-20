@@ -4,7 +4,7 @@ description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
 workflow-type: tm+mt
 source-wordcount: '21110'
 ht-degree: 1%
@@ -33,24 +33,14 @@ De aanvullende _Hiermee voegt u een dimensionaal gegevensmodel toe_ ERD biedt ee
 _Klik op een afbeelding voor de volledige versie_
 
 <table style="table-layout:auto"> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
  <tbody> 
   <tr> 
-   <td><strong>Gegevensmodel Data Warehouse</strong></td> 
-   <td><strong>Hiermee voegt u een dimensionaal gegevensmodel toe</strong></td> 
+   <th>Gegevensmodel Data Warehouse</th> 
+   <th>Hiermee voegt u een dimensionaal gegevensmodel toe</th> 
   </tr> 
   <tr> 
-   <td> 
-    <div> 
-     <p><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></p> 
-    </div></td>
-   <td> 
-    <div> 
-     <p><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></p>
-    </div></td> 
+   <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -2006,7 +1996,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Een unieke id voor het aanraakpunt voor koperkenmerken (BAT).</p>
       </td>
       <td>
-        <p>BBT2_0060Z00000lFHtOQAW_</p>
+        <p>BAT2_0060Z00000lFHtOQAW_</p>
         <p>0030Z0003K5bpKQAR_2017-06-20:01-05-20-619330.0b5c5678807c</p>
       </td>
     </tr>
@@ -2026,7 +2016,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id voor de opportuniteit waaraan de BBT is toegewezen.</p>
+        <p>Id voor de opportuniteit waaraan de BAT is toegewezen.</p>
       </td>
       <td>
         <p>0060Z00000lFHtOQAW</p>
@@ -2036,7 +2026,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>CONTACT_ID</td>
       <td>varchar</td>
       <td>
-        <p>Id voor de contactpersoon die bij de BBT hoort.</p>
+        <p>Id voor de contactpersoon die aan de BAT is gekoppeld.</p>
       </td>
       <td>
         <p>0030Z0003K5bpKQAR</p>
@@ -2045,7 +2035,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     <tr>
       <td>EMAIL</td>
       <td>varchar</td>
-      <td>E-mailadres dat is gekoppeld aan de BBT.</td>
+      <td>E-mailadres dat aan de BAT is gekoppeld.</td>
       <td>person@adobe.com</td>
     </tr>
     <tr>
@@ -2054,7 +2044,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id voor de account waaraan de BBT is toegewezen.</p>
+        <p>Id voor de account waaraan de BAT is toegewezen.</p>
       </td>
       <td>
         <p>0013100001otbIAAAY</p>
@@ -2066,7 +2056,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id voor het aanraakpunt van de gebruiker dat de BBT heeft gegenereerd.</p>
+        <p>Id voor het aanraakpunt van de gebruiker dat de BAT heeft gegenereerd.</p>
       </td>
       <td>
         <p>person@adobe.com_00v1B00003ZbWzHQAV</p>
@@ -2087,7 +2077,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     <tr>
       <td>VISITOR_ID</td>
       <td>varchar</td>
-      <td>Id voor de bezoeker die is gekoppeld aan de BBT.</td>
+      <td>Id voor de bezoeker die aan de BAT is gekoppeld.</td>
       <td>v_277d79d01678498fea067c9b631bf6df</td>
     </tr>
     <tr>
@@ -5798,7 +5788,7 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
 
 ### BIZ_FACTS {#biz-facts}
 
-Unies maken samen indrukken, paginaweergaven, bezoeken, verzenden van formulieren, aanraakpunten voor gebruikers, aanraakpunten (BT), kenmerkaanraakpunten (BAT) en kostengegevens. Wordt intern gebruikt voor ondersteuning [!DNL Marketo Measure] rapportage.
+Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulieren, aanraakpunten voor gebruikers, aanraakpunten (BT), aanraakpunten (BAT) en kostengegevens. Wordt intern gebruikt voor ondersteuning [!DNL Marketo Measure] rapportage.
 
 >[!IMPORTANT]
 >
@@ -8908,7 +8898,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Een unieke id voor de overgang.</p>
       </td>
       <td>
-        <p>ST_0060Z0000nEgjlQAC_0030Z0003IjojKQAR_Demo Scheduled-1_BAT2_0060Z0000nEgjlQAC_0030Z 00003IjojKQAR_2018-06-01:19-51-38-1685390.beec556e757</p>
+        <p>ST_0060Z0000nEgjlQAC_0030Z0003IjojKQAR_Demo Scheduled-1_BAT2_0060Z0000nEgjlQAC_0030Z Z00003IjojKQAR_2018-06-01:19-51-38-1685390.beec556e757</p>
       </td>
     </tr>
     <tr>
@@ -8966,7 +8956,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Id voor het aanraakpunt voor koperkenmerken dat aan de overgang is gekoppeld.</p>
       </td>
       <td>
-        <p>BAT2_0060Z0000nEgjlQAC_0030Z0003IjojKQAR_2018-06-01:19-51-38-1685390.beec 556e7757</p>
+        <p>BAT2_0060Z0000nEgjlQAC_0030Z0003IjojKQAR_2018-06-01:19-51-38-1685390.beb eg556e7757</p>
       </td>
     </tr>
     <tr>
@@ -11315,7 +11305,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>EMAIL</p>
       </td>
       <td>varchar</td>
-      <td>E-mailadres dat aan het BT is gekoppeld.</td>
+      <td>E-mailadres dat aan de BT is gekoppeld.</td>
       <td>
         <p>person@adobe.com</p>
       </td>
@@ -11324,7 +11314,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>CONTACT_ID</td>
       <td>varchar</td>
       <td>
-        <p>Id voor de contactpersoon die aan het BT is gekoppeld.</p>
+        <p>Id voor de contactpersoon die aan de BT is gekoppeld.</p>
       </td>
       <td>0030Z0003K5bpKQAR</td>
     </tr>
@@ -11334,7 +11324,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>Id voor de account die aan het BT is gekoppeld.</p>
+        <p>Id voor de account die aan de BT is gekoppeld.</p>
       </td>
       <td>
         <p>001310001lSLScAO</p>
@@ -11346,7 +11336,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>Id voor de lead die aan het BT is gekoppeld.</p>
+        <p>Id voor de lead die aan de BT is gekoppeld.</p>
       </td>
       <td>
         <p>00Q0Z00013e2PYUAY</p>
@@ -11379,7 +11369,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     <tr>
       <td>VISITOR_ID</td>
       <td>varchar</td>
-      <td>Id voor de bezoeker die is gekoppeld aan het BT.</td>
+      <td>Id voor de bezoeker die aan de BT is gekoppeld.</td>
       <td>v_277d79d01678498fea067c9b631bf6df</td>
     </tr>
     <tr>
@@ -12170,7 +12160,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>nummer(22,19)</p>
       </td>
       <td>
-        <p>Het berekende percentage dat aan dit aanraakpunt is toegewezen omdat het deel uitmaakt van een w-vormige aanraking (zie Is_First_Touch, Is_Lead_Creation_Touch en Is_Opp_Creation_Touch). De verwachting is 0, aangezien dit een BT is.</p>
+        <p>Het berekende percentage dat aan dit aanraakpunt is toegewezen omdat het deel uitmaakt van een w-vormige aanraking (zie Is_First_Touch, Is_Lead_Creation_Touch en Is_Opp_Creation_Touch). De verwachting is 0 omdat dit een BT is.</p>
       </td>
       <td>
         <p>0</p>
@@ -12184,7 +12174,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>nummer(22,19)</p>
       </td>
       <td>
-        <p>Het berekende percentage dat aan dit aanraakpunt wordt toegewezen omdat het deel uitmaakt van een volledig padmodel (zie Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). De verwachting is 0, aangezien dit een BT is.</p>
+        <p>Het berekende percentage dat aan dit aanraakpunt wordt toegewezen omdat het deel uitmaakt van een volledig padmodel (zie Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). De verwachting is 0 omdat dit een BT is.</p>
       </td>
       <td>
         <p>0</p>
@@ -12193,7 +12183,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     <tr>
       <td>CUSTOM_MODEL_PERCENTAGE</td>
       <td>nummer(22,19)</td>
-      <td>Het berekende percentage dat aan dit aanraakpunt wordt toegewezen omdat het deel uitmaakt van een aangepast model (zie Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). De verwachting is 0, aangezien dit een BT is.</p>
+      <td>Het berekende percentage dat aan dit aanraakpunt wordt toegewezen omdat het deel uitmaakt van een aangepast model (zie Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). De verwachting is 0 omdat dit een BT is.</p>
       </td>
       <td>0</td>
     </tr>
@@ -13367,7 +13357,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
 
 ## Voorbeeldquery&#39;s {#sample-queries}
 
-**Hoeveel Aanraakpunten voor kopers (BT&#39;s) waren er vorige maand voor elk kanaal/subkanaal?**
+**Hoeveel aanraakpunten van de Koper (BT) waren er vorige maand voor elk kanaal/subkanaal?**
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
@@ -13457,7 +13447,7 @@ group by 1,2
 order by 1
 ```
 
-**Alle BBT&#39;s (Buyer Attribution Touchpoints) en de toegewezen inkomsten voor één enkele gelegenheid tonen.**
+**Toon alle aanraakpunten voor koperkenmerken (BAT) en de daaraan toegewezen inkomsten voor één enkele gelegenheid.**
 
 >[!NOTE]
 >

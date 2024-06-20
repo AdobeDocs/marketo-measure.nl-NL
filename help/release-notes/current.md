@@ -3,9 +3,9 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure]
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 97a82ae0649ae5b1349d025a7a7cf433bc64bc7e
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Zie hieronder voor alle nieuwe en bijgewerkte functies voor onze 2024-releases.
 
 **Herinnering: Salesforce Field Deprecations - 14 juni**
 
-Zoals vorig jaar werd aangekondigd, zullen we onze exporttaken geleidelijk afschaffen naar objecten voor lead/contact om onze integratie te vereenvoudigen en de noodzaak om te exporteren naar standaardobjecten van Salesforce te elimineren. U kunt dezelfde gegevens verkrijgen van uw Touchpoint-objecten door de stappen uit te voeren [hier gedocumenteerd](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. We delen ook documentatie over het maken van workflows om deze gegevens toe te voegen aan het object Lead/Contact. De afschrijving wordt van kracht op 14 juni 2024.
+Zoals vorig jaar is aangekondigd, zullen we [onze exporttaken geleidelijk afbouwen naar lead-/contactpersoonobjecten](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} om onze integratie te vereenvoudigen en de noodzaak om naar Salesforce-standaardobjecten te exporteren te elimineren. U kunt dezelfde gegevens verkrijgen van uw Touchpoint-objecten door de stappen uit te voeren [hier gedocumenteerd](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. We delen ook documentatie over het maken van workflows om deze gegevens toe te voegen aan het object Lead/Contact. De afschrijving wordt van kracht op 14 juni 2024.
 
 Deze wijziging zal twee belangrijke voordelen opleveren:
 

@@ -4,9 +4,9 @@ description: Veelgestelde vragen (meerdere valuta) - [!DNL Marketo Measure]
 title: Veelgestelde vragen (meerdere valuta's)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Onthoud dat deze functie twee verschillende functiebits heeft. Beide bevinden zich in de [!UICONTROL General] tabblad van de afdeling CRM in Instellingen: Meerdere valuta&#39;s en Geavanceerde valuta&#39;s. Meerdere valuta&#39;s moeten zijn ingeschakeld als de klant meer dan één valuta gebruikt, terwijl de extra functie Geavanceerde valuta&#39;s kan inschakelen als de klant deze gebruikt [!DNL Salesforce]&#39;s &#39;Advanced Currency Management&#39; functie waar de gebruiker een op tijd gebaseerd bereik voor conversiekoersen kan instellen.
 
-Helaas weten we niet wanneer een klant schakelt tussen Eenvoudig of Geavanceerd als Geavanceerd al is ingeschakeld. Daarom moet de klant de instelling Geavanceerde valuta&#39;s handmatig op hun CRM-instelling uitlijnen. Dit zou aan de klant moeten duidelijk zijn als de omzettingen onjuist zijn, wat betekent wij niet wisten welk niveau van omzetting van toepassing was.
+Marketo Measure haalt automatisch de valutainstelling op van de CRM-afdeling van de klant. Handmatige configuratie in Marketo Measure die overeenkomt met de CRM is niet langer vereist. De valutainstelling is te vinden op de pagina &quot;Algemeen&quot; onder &quot;CRM&quot;.
 
 **Waarom geeft mijn advertentieaccount me een waarschuwingsbericht?**
 
