@@ -4,9 +4,9 @@ description: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie - Market
 title: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -124,67 +124,7 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
    <td>Aangepast</td> 
    <td>x</td> 
    <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_ad_Campaign_Name_LC_c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Date_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -233,67 +173,7 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
    <td>Standaard</td> 
    <td>x</td> 
    <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_ad_Campaign_Name_LC_c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Date_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -335,67 +215,7 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
    <td>IsDelted</td> 
    <td>Standaard</td> 
    <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_ad_Campaign_Name_LC_c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Date_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>Aangepast</td> 
-   <td>x</td> 
-   <td>x </td> 
+   <td> </td>
   </tr> 
  </tbody> 
 </table>
@@ -685,6 +505,12 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
    <td><br></td> 
   </tr>
   <tr> 
+   <td>Naam</td> 
+   <td>Standaard</td> 
+   <td>x</td> 
+   <td>x</td> 
+  </tr>
+  <tr> 
    <td>bizible2__UniqueId__c</td> 
    <td>Aangepast</td> 
    <td>x</td> 
@@ -814,9 +640,9 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
 
 Naast het maken van aangepaste velden op de standaardobjecten van SFDC [!DNL Marketo Measure] -pakket is geïnstalleerd, worden er een aantal aangepaste objecten gemaakt. Hieronder ziet u een lijst met deze aangepaste objecten en een tabel die de velden aangeeft die [!DNL Marketo Measure] zal schrijven naar.
 
-**Aanraakpunt koper**
+**Buyer Touchpoint**
 
-Het aanraakpunt voor kopers is een [!DNL Marketo Measure] Aangepast object om de marketinginteracties voor contactpersonen, leads en gevallen in te kapselen.
+De Buyer Touchpoint is een [!DNL Marketo Measure] Aangepast object om de marketinginteracties voor contactpersonen, leads en gevallen in te kapselen.
 
 <table> 
  <tbody> 
@@ -1120,11 +946,11 @@ De [!DNL Marketo Measure] Persoon is een [!DNL Marketo Measure] Aangepast object
  </tbody> 
 </table>
 
-## Aanraakpunt koperkenmerk {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-Het aanraakpunt voor koperkenmerken is een [!DNL Marketo Measure] Aangepast object om de invloed van marketing op kansen in te kapselen.
+De Buyer Attribution Touchpoint is een [!DNL Marketo Measure] Aangepast object om de invloed van marketing op kansen in te kapselen.
 
-**Aanraakpunt koperkenmerk**
+**Buyer Attribution Touchpoint**
 
 <table> 
  <tbody> 

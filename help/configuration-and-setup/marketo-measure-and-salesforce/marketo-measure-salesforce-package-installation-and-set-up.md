@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Installatie en installatie van het Salesfor
 title: "[!DNL Marketo Measure] [!DNL Salesforce] Pakketinstallatie en -installatie"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Nadat u de installatie hebt voltooid, kunt u uw [[!DNL Salesforce] paginalay-out
 
 [!DNL Marketo Measure] verzendt en ontvangt gegevens door verbonden [!DNL Salesforce] binnen de [!DNL Marketo Measure] app.
 
-Om aanraakpuntgegevens naar uw [!DNL Salesforce] -instantie, moet de verbonden gebruiker toegang hebben tot [!DNL Marketo Measure] aangepaste objecten (bijvoorbeeld Aanraakpunt koper en Aanraakpunt koper) en standaard [!DNL Salesforce] objecten zoals regelafstand en contactpersonen.
+Om aanraakpuntgegevens naar uw [!DNL Salesforce] -instantie, moet de verbonden gebruiker toegang hebben tot [!DNL Marketo Measure] aangepaste objecten (bijvoorbeeld Buyer Touchpoint en Buyer Attribution Touchpoint) en standaard [!DNL Salesforce] objecten zoals regelafstand en contactpersonen.
 
 Een [!DNL Marketo Measure] -profiel om te zorgen dat er geen validatiefouten optreden wanneer u gegevens naar Salesforce verplaatst.
 
@@ -91,4 +91,6 @@ Stap 4: Meld u aan bij uw [!DNL Marketo Measure] Account en autoriseer de [!DNL 
 
 >[!MORELIKETHIS]
 >
->[Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
+>* [Overzicht van integratierechten](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}
+>
+>* [Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
