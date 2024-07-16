@@ -3,9 +3,9 @@ description: '[!DNL Marketo Measure] Eis voor de integriteit van gegevens - [!DN
 title: '''[!DNL Marketo Measure] Eis voor de integriteit van gegevens'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1611'
 ht-degree: 6%
 
 ---
@@ -886,6 +886,8 @@ ht-degree: 6%
     </tr>
   </tbody>
 </table>
+
+## Gegevensvereisten voor valutaomrekening {#currency-conversion-data-requirements}
 
 **StandaardValuta**: In Marketo Measure, worden alle opbrengst en kosten omgezet in een standaardmunt bij het melden van tijd. Er moet één record zijn met dezelfde datumdekking voor de doelvaluta zelf (bv. USD tot USD) met een omrekeningskoers van 1.
 
