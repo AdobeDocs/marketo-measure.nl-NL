@@ -1,41 +1,52 @@
 ---
 unique-page-id: 18874672
-description: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie - Marketo Measure - Productdocumentatie
-title: Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie
+description: Hoe  [!DNL Marketo Measure]  en  [!DNL Salesforce]  in wisselwerking staan - Marketo Measure - de Documentatie van het Product
+title: Hoe  [!DNL Marketo Measure]  en  [!DNL Salesforce]  interactie hebben
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
-# Hoe [!DNL Marketo Measure] en [!DNL Salesforce] Interactie {#how-marketo-measure-and-salesforce-interact}
+# Hoe [!DNL Marketo Measure] en [!DNL Salesforce] werken {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 Laten we eens kijken naar de relatie tussen [!DNL Marketo Measure] en Salesforce.
 
 ## Salesforce en [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-Wanneer de [!DNL Marketo Measure] account is gemaakt en [!DNL Salesforce] is verbonden, [!DNL Marketo Measure] begint marketinggegevens naar de instantie CRM te duwen zolang de [!DNL Marketo Measure] het beheerde pakket is geïnstalleerd en [!DNL Marketo Measure] De Salesforce-gebruiker heeft bewerkingsmachtigingen.
+Nadat de [!DNL Marketo Measure] -account is gemaakt en [!DNL Salesforce] is verbonden, worden marketinggegevens door [!DNL Marketo Measure] naar de CRM-instantie verplaatst zolang het [!DNL Marketo Measure] beheerde pakket is geïnstalleerd en de [!DNL Marketo Measure] Salesforce-gebruiker over bewerkingsmachtigingen beschikt.
 
-Als u de [!DNL Marketo Measure] Salesforce-pakket [!DNL Marketo Measure] geen gegevens naar uw Salesforce-instantie schrijven.
+Als u het [!DNL Marketo Measure] Salesforce-pakket niet hebt geïnstalleerd, schrijft [!DNL Marketo Measure] geen gegevens naar uw Salesforce-instantie.
 
 ![](assets/1-3.png)
 
-Standaard, [!DNL Marketo Measure] Hiermee exporteert u 200 records per API-credit telkens wanneer een taak gegevens naar uw CRM verzendt. Voor de meeste klanten biedt dit de optimale balans tussen API-credits die worden verbruikt door [!DNL Marketo Measure] en CPU-resourcevereisten voor de CRM. Voor klanten met complexe CRM-configuraties, zoals workflows en triggers, kan een kleinere batch-omvang echter nuttig zijn om de CRM-prestaties te verbeteren. Daartoe: [!DNL Marketo Measure] staat klanten toe om de grootte van de de uitvoerpartij van CRM te vormen. Deze instelling is beschikbaar op het tabblad [!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL General] pagina in de [!DNL Marketo Measure] De webtoepassing en klanten kunnen kiezen uit batchgrootten 200 (standaard), 100, 50 of 25.
+Standaard exporteert [!DNL Marketo Measure] 200 records per API-credit telkens wanneer een taak gegevens naar uw CRM verzendt. Voor de meeste klanten biedt dit de optimale balans tussen API-credits die door [!DNL Marketo Measure] worden verbruikt en CPU-bronvereisten voor de CRM. Voor klanten met complexe CRM-configuraties, zoals workflows en triggers, kan een kleinere batch-omvang echter nuttig zijn om de CRM-prestaties te verbeteren. Met het oog hierop kunnen klanten in [!DNL Marketo Measure] de grootte van de CRM-exportbatch configureren. Deze instelling is beschikbaar op de pagina [!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL General] in de [!DNL Marketo Measure] -webtoepassing. Klanten kunnen kiezen uit batchgrootten 200 (standaard), 100, 50 of 25.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
 Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het is raadzaam de batch alleen te verkleinen als u een CPU-time-out of een hoge CPU-belasting hebt in uw CRM.
 
+## Salesforce Connected User Permissions {#salesforce-connected-user-permissions}
+
+**de Toestemming van de Beheerder van Marketo Measure voor Specifieke Gebruiker** wordt geplaatst: Staat SFDC admin toe om verrichtingen CRUD op de voorwerpen van Marketo Measure uit te voeren die.
+
+**Mening en geeft Omgezette Reeks van de Toestemming van Leads** uit: Dit staat Marketo Measure toe om lood te versieren nadat zij in contacten zijn omgezet.
+
+**Checkbox van de Gebruiker van de Marketing van Salesforce**: Staat gebruikers toe om campagnes tot stand te brengen en de Tovenaars van de Invoer van de Campagne te gebruiken.
+* Aanvullende machtigingen voor campagne &quot;Maken&quot; zijn vereist.
+
+**StandaardGebruiker van Marketo Measure**: Biedt een gebruiker de capaciteit om verslagen van de voorwerpen van Marketo Measure te lezen.
+
 ## Standaardobjecten Salesforce en Toegang {#salesforce-standard-objects-and-access}
 
-Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] en de aangepaste velden die we aan deze objecten toevoegen wanneer de verbinding tot stand is gebracht en de [!DNL Marketo Measure] pakket is geïnstalleerd. Uit de doos, [!DNL Marketo Measure] zal niet in enige norm schrijven [!DNL Salesforce] Objectvelden.
+Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Marketo Measure] werkt en de aangepaste velden die we aan deze objecten toevoegen nadat de verbinding tot stand is gebracht en het [!DNL Marketo Measure] -pakket is geïnstalleerd. Uit het vak schrijft [!DNL Marketo Measure] NIET naar standaardobjectvelden van [!DNL Salesforce] .
 
 **Lood**
 
@@ -177,7 +188,7 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
  </tbody> 
 </table>
 
-**Kwestie**
+**Geval**
 
 <table> 
  <tbody> 
@@ -220,7 +231,7 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
  </tbody> 
 </table>
 
-**Account**
+**Rekening**
 
 <table> 
  <tbody> 
@@ -263,7 +274,7 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
  </tbody> 
 </table>
 
-**Opportunity**
+**Kans**
 
 <table> 
  <tbody> 
@@ -348,7 +359,7 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
  </tbody> 
 </table>
 
-**Functie contactpersoon opportunity**
+**de Rol van het Contact van 0} Opportunity**
 
 <table> 
  <tbody> 
@@ -519,7 +530,7 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
  </tbody> 
 </table>
 
-**Campagnelid**
+**Lid van de Campagne**
 
 <table> 
  <tbody> 
@@ -638,11 +649,11 @@ Hierin worden de [!DNL Salesforce] Standaardobjecten die [!DNL Marketo Measure] 
 
 ## [!DNL Marketo Measure] Aangepaste objecten in [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-Naast het maken van aangepaste velden op de standaardobjecten van SFDC [!DNL Marketo Measure] -pakket is geïnstalleerd, worden er een aantal aangepaste objecten gemaakt. Hieronder ziet u een lijst met deze aangepaste objecten en een tabel die de velden aangeeft die [!DNL Marketo Measure] zal schrijven naar.
+Naast het maken van aangepaste velden op de standaardobjecten van SFDC, maakt het pakket een aantal aangepaste objecten nadat het [!DNL Marketo Measure] -pakket is geïnstalleerd. Hieronder ziet u een lijst met deze aangepaste objecten, samen met een tabel die de velden aangeeft waarnaar [!DNL Marketo Measure] gaat schrijven.
 
 **Buyer Touchpoint**
 
-De Buyer Touchpoint is een [!DNL Marketo Measure] Aangepast object om de marketinginteracties voor contactpersonen, leads en gevallen in te kapselen.
+De Buyer Touchpoint is een [!DNL Marketo Measure] aangepast object waarmee de marketinginteracties voor Contactpersonen, Leads en Kwesties worden ingekapseld.
 
 <table> 
  <tbody> 
@@ -909,7 +920,7 @@ De Buyer Touchpoint is een [!DNL Marketo Measure] Aangepast object om de marketi
 
 **[!DNL Marketo Measure]Persoon**
 
-De [!DNL Marketo Measure] Persoon is een [!DNL Marketo Measure] Aangepast object dat betrekking heeft op zowel de objecten Lead, Contact en Case.
+De persoon van [!DNL Marketo Measure] is een [!DNL Marketo Measure] aangepast object dat betrekking heeft op zowel de objecten voor lead, contact en case.
 
 <table> 
  <tbody> 
@@ -948,7 +959,7 @@ De [!DNL Marketo Measure] Persoon is een [!DNL Marketo Measure] Aangepast object
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-De Buyer Attribution Touchpoint is een [!DNL Marketo Measure] Aangepast object om de invloed van marketing op kansen in te kapselen.
+De Buyer Attribution Touchpoint is een [!DNL Marketo Measure] aangepast object waarmee de invloed van marketing op Opportunity wordt ingekapseld.
 
 **Buyer Attribution Touchpoint**
 
@@ -1304,3 +1315,7 @@ De Buyer Attribution Touchpoint is een [!DNL Marketo Measure] Aangepast object o
   </tr> 
  </tbody> 
 </table>
+
+>[!MORELIKETHIS]
+>
+>[ Overzicht van de Toestemmingen van de Integratie ](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}

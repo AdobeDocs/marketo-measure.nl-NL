@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit - [!DNL Marketo Measure]'
-title: '''[!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit"'
+description: '[!DNL Marketo Measure] Eis voor de integriteit van gegevens - [!DNL Marketo Measure]'
+title: '''[!DNL Marketo Measure] Eis voor de integriteit van gegevens'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 0%
+source-wordcount: '1607'
+ht-degree: 6%
 
 ---
 
-# [!DNL Marketo Measure] Eis voor ultieme gegevensintegriteit {#marketo-measure-ultimate-data-integrity-requirement}
+# [!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valideert de binnenkomende AEP-gegevenssets om ervoor te zorgen dat de gegevens toereikend en samenhangend zijn voor toewijzing. Wanneer niet wordt voldaan aan de gegevensintegriteitseis, wordt de gegevensset door de [!DNL Marketo Measure] systeem. Dit artikel detailleert de vereiste van de gegevensintegriteit, verstrekt vraagvoorbeelden voor gegevensinspectie, en adviseert een oplossing voor vereiste gebieden met een ongeldige waarde.
+[!DNL Marketo Measure] valideert de binnenkomende AEP-gegevenssets om ervoor te zorgen dat de gegevens toereikend en samenhangend zijn voor toewijzing. Als niet wordt voldaan aan de gegevensintegriteitsvereiste, wordt de gegevensset afgewezen door het [!DNL Marketo Measure] -systeem. Dit artikel detailleert de vereiste van de gegevensintegriteit, verstrekt vraagvoorbeelden voor gegevensinspectie, en adviseert een oplossing voor vereiste gebieden met een ongeldige waarde.
 
 ## Object Entiteit {#entity-object}
 
@@ -22,13 +22,13 @@ ht-degree: 0%
     <th>XDM-veldgroep</th>
     <th>XDM-pad</th>
     <th>XDM-type</th>
-    <th>Veld gegevensbron</th>
+    <th>Source-veld voor gegevens</th>
     <th>Vereist?</th>
     <th>Notities</th>
   </tr>
   <tbody>
     <tr>
-      <td colspan="7"><strong>Account</strong> (Account voor Salesforce, Bedrijf en/of Benoemde Account voor Marketo)</td>
+      <td colspan="7"><strong> Rekening </strong> (Rekening voor Salesforce, Bedrijf en/of Benoemde Rekening voor Marketo)</td>
     </tr>
     <tr>
       <td rowspan="6">XDM Business Account</td>
@@ -89,7 +89,7 @@ ht-degree: 0%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Campagne</strong> (Campagne voor Salesforce, programma voor Marketo)</td>
+      <td colspan="7"><strong> Campagne </strong> (Campagne voor Salesforce, Programma voor Marketo)</td>
     </tr>
     <tr>
       <td rowspan="8">XDM Business Campaign</td>
@@ -201,7 +201,7 @@ ht-degree: 0%
       <td>Voor campagnekosten</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Campagnelid</strong> (Campagne voor Salesforce, Programmalidmaatschap voor Marketo)</td>
+      <td colspan="7"><strong> Lid van de Campagne </strong> (het Lid van de Campagne voor Salesforce, Lidmaatschappen van het Programma voor Marketo)</td>
     </tr>
     <tr>
       <td rowspan="14">XDM Business Campaign-leden</td>
@@ -356,7 +356,7 @@ ht-degree: 0%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Persoon</strong> (Contactpersoon of Lead voor Salesforce, Personen voor Marketo)</td>
+      <td colspan="7"><strong> Persoon </strong> (Contact of Lood voor Salesforce, Personen voor Marketo)</td>
     </tr>
     <tr>
       <td>Afzonderlijk XDM-profiel</td>
@@ -491,7 +491,7 @@ ht-degree: 0%
       <td>Bijvoorbeeld - Marketo</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Opportunity</strong> (Opportunity for Salesforce, Opportunity for Marketo)</td>
+      <td colspan="7"><strong> Kans </strong> (Kans voor Salesforce, Kansen voor Marketo)</td>
     </tr>
     <tr>
       <td rowspan="13">XDM Business Opportunity</td>
@@ -887,6 +887,16 @@ ht-degree: 0%
   </tbody>
 </table>
 
+**StandaardValuta**: In Marketo Measure, worden alle opbrengst en kosten omgezet in een standaardmunt bij het melden van tijd. Er moet één record zijn met dezelfde datumdekking voor de doelvaluta zelf (bv. USD tot USD) met een omrekeningskoers van 1.
+
+**Tarieven van de Omzetting**: Elk (bronmunt, doelmunt) paar kan veelvoudige omzettingspercentages voor verschillende datumperiodes hebben. De tarieven moeten het volledige tijdsbereik van 0001-01-01 tot 9999-12-31 bestrijken, zoals bepaald door het Salesforce DatedConversionRate-object.
+
+**de Waaier van de Datum**:
+* Geen overlappende datumbereiken binnen een vastgestelde (bronvaluta, doelvaluta) koers (bv. 2023-01-01 tot 2023-02-01 en 2023-01-01 tot 2024-01-01).
+* Geen tussenruimten tussen datumbereiken. De begindatum is inclusief en de einddatum is exclusief.
+
+<p>
+
 ## ExperienceEvent {#experienceevent}
 
 <table style="table-layout:auto">
@@ -895,7 +905,7 @@ ht-degree: 0%
     <th>XDM-veldgroep</th>
     <th>XDM-pad</th>
     <th>XDM-type</th>
-    <th>Veld gegevensbron</th>
+    <th>Source-veld voor gegevens</th>
     <th>Vereist?</th>
     <th>Notities</th>
   </tr>
