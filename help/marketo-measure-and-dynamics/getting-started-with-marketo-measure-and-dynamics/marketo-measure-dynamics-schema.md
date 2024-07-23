@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Dynamisch schema - [!DNL Marketo Measure]"
+description: "[!DNL Marketo Measure] Dynamisch schema -  [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Dynamisch schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 706f60a3b35e524da816b1d70abd363f0f02a1ba
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-Hieronder is het vereiste schema van de Dynamica om te beginnen met [!DNL Marketo Measure]. Alle entiteiten en velden worden vermeld, samen met de vereiste lees- en/of schrijftoegang.
+Hieronder ziet u het vereiste dynamiekschema om met [!DNL Marketo Measure] aan de slag te gaan. Alle entiteiten en velden worden vermeld, samen met de vereiste lees- en/of schrijftoegang.
 
 ## Aanraakpunten koper {#buyer-touchpoints}
 
-Het aanraakpunt voor kopers is een [!DNL Marketo Measure] aangepaste entiteit voor het inkapselen van de marketinginteracties voor contactpersonen en leads.
+De Buyer Touchpoint is een [!DNL Marketo Measure] aangepaste entiteit die de marketinginteracties voor contactpersonen en leads inkapselt.
 
-## Aanraakpunten koper {#buyer-touchpoint-relationships}
+## Buyer Touchpoint-relaties {#buyer-touchpoint-relationships}
 
-Dit diagram is een grote visualisatie van de relaties tussen de Dynamics Stock-entiteiten en het Aanraakpunt voor kopers.
+Dit diagram is een verregaande visualisatie van de relaties tussen de Dynamics Stock-entiteiten en de Buyer Touchpoint.
 
-## Aanraakpunt koper {#buyer-touchpoint}
+## Buyer Touchpoint {#buyer-touchpoint}
 
 <table> 
  <tbody> 
@@ -304,13 +304,13 @@ Dit diagram is een grote visualisatie van de relaties tussen de Dynamics Stock-e
  </tbody> 
 </table>
 
-## Aanraakpunt koperkenmerk {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-Het aanraakpunt voor koperkenmerken is een [!DNL Marketo Measure] aangepaste entiteit om de invloed van marketing op Opportunity in te kapselen.
+De Buyer Attribution Touchpoint is een [!DNL Marketo Measure] aangepaste entiteit die de invloed van marketing op Opportunity inkapselt.
 
-## Kenmerken van koper, aanraakpunten {#buyer-attribution-touchpoint-relationships}
+## Buyer Attribution Touchpoint-relaties {#buyer-attribution-touchpoint-relationships}
 
-Dit diagram is een grote visualisatie van de relaties tussen de Dynamics Stock-entiteiten en het Aanraakpunt voor koperkenmerken.
+Dit diagram is een verregaande visualisatie van de relaties tussen de Dynamics Stock-entiteiten en de Buyer Attribution Touchpoint.
 
 ## Aanraakpunten voor koperkenmerk {#buyer-attribution-touchpoints}
 
@@ -912,7 +912,7 @@ Dit diagram is een grote visualisatie van de relaties tussen de Dynamics Stock-e
 
 ## Dynamics Standard Entities {#dynamics-standard-entities}
 
-Deze lijst bevat de Dynamics Standard Entities die [!DNL Marketo Measure] communiceert met, en de douanegebieden die wij aan deze entiteiten toevoegen.
+In deze lijst vindt u informatie over de instanties van de dynamische standaard waarmee [!DNL Marketo Measure] werkt en de aangepaste velden die we aan deze entiteiten toevoegen.
 
 **Lood**
 
@@ -1048,7 +1048,7 @@ Deze lijst bevat de Dynamics Standard Entities die [!DNL Marketo Measure] commun
  </tbody> 
 </table>
 
-**Account**
+**Rekening**
 
 <table> 
  <tbody> 
@@ -1091,7 +1091,7 @@ Deze lijst bevat de Dynamics Standard Entities die [!DNL Marketo Measure] commun
  </tbody> 
 </table>
 
-**Opportunity**
+**Kans**
 
 <table> 
  <tbody> 
@@ -1178,6 +1178,8 @@ Deze lijst bevat de Dynamics Standard Entities die [!DNL Marketo Measure] commun
 
 **Campagne**
 
+Campagne &quot;Maken&quot;-machtigingen zijn ook vereist, naast de hieronder vermelde lees- en schrijfmachtigingen.
+
 <table> 
  <tbody> 
   <tr> 
@@ -1249,7 +1251,7 @@ Deze lijst bevat de Dynamics Standard Entities die [!DNL Marketo Measure] commun
  </tbody> 
 </table>
 
-**Campagne**
+**Reactie van de Campagne**
 
 <table> 
  <tbody> 
@@ -1438,7 +1440,7 @@ Deze lijst bevat de Dynamics Standard Entities die [!DNL Marketo Measure] commun
  </tbody> 
 </table>
 
-**Telefoongesprek**
+**Vraag van de Telefoon**
 
 <table> 
  <tbody> 
@@ -1505,4 +1507,4 @@ Deze lijst bevat de Dynamics Standard Entities die [!DNL Marketo Measure] commun
  </tbody> 
 </table>
 
-[] = Alleen oudere V1-klanten
+[] = alleen v1 verouderde klanten
