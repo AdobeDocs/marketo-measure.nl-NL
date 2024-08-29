@@ -2,16 +2,22 @@
 description: Leer hoe te om Fouten in de Uitvoer van CRM te behandelen
 title: Foutverwerking voor CRM-export
 feature: Salesforce
-source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
+source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # Foutverwerking voor CRM-export
 
-De pauze op het plaatsen van de Fouten van de Uitvoer kan onder **Mijn Rekening** worden gevonden > **Montages** > **CRM** > **Algemeen**. Deze functie is alleen zichtbaar als u de functie Exporteren naar CRM hebt ingeschakeld. Het staat u toe om te controleren of de de uitvoerbanen van CRM zouden moeten pauzeren wanneer het ontmoeten van een verslag-vlakke fout.
+Met de functie Pauzeren bij exportfouten kunt u bepalen of CRM-exporttaken moeten worden gepauzeerd wanneer er een fout op recordniveau optreedt.
+
+Het plaatsen kan onder **Mijn Rekening** worden gevonden > **Montages** > **CRM** > **Algemeen**.
+
+>[!NOTE]
+>
+>Deze functie is alleen zichtbaar als u de functie Exporteren naar CRM hebt ingeschakeld.
 
 Wanneer deze functie is ingeschakeld, gaat de exporttaak niet verder en blijft deze in de record waar de fout is opgetreden, totdat het probleem is opgelost. Deze fouten zijn gewoonlijk het gevolg van ontbrekende machtigingen, onjuist toegepaste aangepaste validatieregels of problemen in workflows/triggers. De taak wordt verder uitgevoerd zoals gepland en het exporteren van de mislukte record wordt automatisch hervat totdat deze is gelukt.
 

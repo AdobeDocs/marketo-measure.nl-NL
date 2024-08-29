@@ -3,7 +3,7 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure]
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9d1001306a3e98ca85af5839ad4ea3ff662d1886
+source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Functie tijdens pauzeren op 1 oktober: Vanaf 1 oktober 2024 wordt de taak onderb
 
 Om u aan deze verandering te helpen aanpassen, hebben wij documentatie over de nieuwe eigenschap en duidelijke foutenbeschrijvingen met uitvoerige het oplossen van problemenstappen gecreeerd.
 
-* NIEUWE DOC: instelling voor foutafhandeling voor CRM-export
+* Nieuwe documentatie: [ de Behandeling van de Fout die voor CRM uitvoert ](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [Foutmeldingen](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## Q3 Release {#q3-release}
