@@ -2,9 +2,9 @@
 description: Leer hoe te om Fouten in de Uitvoer van CRM te behandelen
 title: Foutverwerking voor CRM-export
 feature: Salesforce
-source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
+source-git-commit: ce5170330fb1d9f944762f401d29be4da5c0bd43
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ Met de functie Pauzeren bij exportfouten kunt u bepalen of CRM-exporttaken moete
 
 Het plaatsen kan onder **Mijn Rekening** worden gevonden > **Montages** > **CRM** > **Algemeen**.
 
+![ Pauzeren op de Fouten van de Uitvoer ](assets/stop-progress.png)
+
 >[!NOTE]
 >
 >Deze functie is alleen zichtbaar als u de functie Exporteren naar CRM hebt ingeschakeld.
@@ -22,6 +24,8 @@ Het plaatsen kan onder **Mijn Rekening** worden gevonden > **Montages** > **CRM*
 Wanneer deze functie is ingeschakeld, gaat de exporttaak niet verder en blijft deze in de record waar de fout is opgetreden, totdat het probleem is opgelost. Deze fouten zijn gewoonlijk het gevolg van ontbrekende machtigingen, onjuist toegepaste aangepaste validatieregels of problemen in workflows/triggers. De taak wordt verder uitgevoerd zoals gepland en het exporteren van de mislukte record wordt automatisch hervat totdat deze is gelukt.
 
 Als u deze functie uitschakelt, wordt een waarschuwingspop-up weergegeven met de melding dat dit tot inconsistenties in de gegevens kan leiden. Het is uw verantwoordelijkheid om eventuele problemen die uit deze inconsistenties kunnen voortvloeien, aan te pakken.
+
+![ de inconsistentiewaarschuwing van Gegevens ](assets/data-inconsistency.png)
 
 In beide gevallen, of de functie nu in- of uitgeschakeld is, worden alle aangetroffen fouten op recordniveau aangemeld in de tabel `ExportErrors` en probeert de `CRMExport_ExportError` -taak automatisch deze records dagelijks opnieuw te exporteren. Dit elimineert de behoefte aan een steunverzoek om een heruitvoer in werking te stellen, aangezien het automatisch zonder enige ontwikkelaarsinterventie zal gebeuren.
 
