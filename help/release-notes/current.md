@@ -3,7 +3,7 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure]
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
+source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
@@ -28,15 +28,15 @@ We hebben geluisterd naar uw feedback over de aanpak voor het stoppen van taken 
 
 #### Sleuteldatums en gefaseerde uitrol
 
-Onmiddellijke beschikbaarheid in-/uitschakelen: de schakeloptie bevindt zich nu in de gebruikersinterface en is standaard ingeschakeld om te voorkomen dat gegevens worden overgeslagen tijdens exporttaken. Schakel de schakeloptie uit als u wilt dat exporttaken actief blijven ondanks fouten.
+1. **Onmiddellijke Beschikbaarheid van de knevel:** de knevel is nu levend in UI en door gebrek wordt toegelaten om gegevens te verhinderen tijdens uitvoerbanen worden overgeslagen. Schakel de schakeloptie uit als u wilt dat exporttaken actief blijven ondanks fouten.
 
-Functie tijdens pauzeren op 1 oktober: Vanaf 1 oktober 2024 wordt de taak onderbroken om ervoor te zorgen dat er geen gegevens verloren gaan wanneer de schakeloptie actief is en er een fout op recordniveau optreedt tijdens het exporteren. Deze fouten zijn gewoonlijk het gevolg van ontbrekende machtigingen, onjuist toegepaste aangepaste validatieregels of problemen in workflows/triggers. U ontvangt meldingen over het probleem en zodra dit is gecorrigeerd, wordt de exporttaak vanaf het punt van onderbreking hervat. Als u het pauzeren van taken uitschakelt, ontvangt u nog steeds meldingen over problemen en nadat deze zijn gecorrigeerd, worden de overgeslagen records automatisch opnieuw geëxporteerd.
+1. **Baan die Activering pauzeert op 1 Oktober:** Begin Oktober 1, 2024, als de knevel actief is en een verslag-vlakke fout tijdens een uitvoerbaan wordt ontmoet, pauzeert de baan om ervoor te zorgen geen gegevens wordt verloren. Deze fouten zijn gewoonlijk het gevolg van ontbrekende machtigingen, onjuist toegepaste aangepaste validatieregels of problemen in workflows/triggers. U ontvangt meldingen over het probleem en zodra dit is gecorrigeerd, wordt de exporttaak vanaf het punt van onderbreking hervat. Als u het pauzeren van taken uitschakelt, ontvangt u nog steeds meldingen over problemen en nadat deze zijn gecorrigeerd, worden de overgeslagen records automatisch opnieuw geëxporteerd.
 
 #### Waarom dit belangrijk is
 
-**Verbeterde Integriteit van Gegevens en Toekomstige-proef Uw Integratie:** door de baan bij het eerste teken van een kwestie te pauzeren, verhinderen wij gegevensverlies en verzekeren nauwkeurigheid. Dit maakt een snelle foutopsporing mogelijk, wat resulteert in een verbeterde kwaliteit van de gegevensuitvoer en een hogere betrouwbaarheid van het systeem.
+* **Verbeterde Integriteit van Gegevens en Toekomstige-proef Uw Integratie:** door de baan bij het eerste teken van een kwestie te pauzeren, verhinderen wij gegevensverlies en verzekeren nauwkeurigheid. Dit maakt een snelle foutopsporing mogelijk, wat resulteert in een verbeterde kwaliteit van de gegevensuitvoer en een hogere betrouwbaarheid van het systeem.
 
-**Onmiddellijke Zichtbaarheid:** door impulsberichten, zult u geschikte alarm voor toestemmingsfouten ontvangen, toestaand voor snelle reacties en minimaliserend potentiële gevolgen voor uw verrichtingen.
+* **Onmiddellijke Zichtbaarheid:** door impulsberichten, zult u geschikte alarm voor toestemmingsfouten ontvangen, toestaand voor snelle reacties en minimaliserend potentiële gevolgen voor uw verrichtingen.
 
 #### Uw overgang ondersteunen
 
