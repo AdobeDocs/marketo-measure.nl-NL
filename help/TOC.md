@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] geeft marketeers inzicht in welke marketinginspanningen het meest effectief zijn in het aansturen van inkomsten voor hun bedrijf."
-source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
+source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -220,6 +220,7 @@ ht-degree: 0%
    + [[!DNL Marketo Measure] Ultieme overzicht](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
    + [Vereiste gegevensintegriteit](marketo-measure-ultimate/data-integrity-requirement.md)
    + [Handleiding implementatie](marketo-measure-ultimate/implementation-guide.md)
+   + [Migratie van Tier 1-2 aan  [!DNL Marketo Measure]  Ultieme](marketo-measure-ultimate/migration-from-tier-to-marketo-measure-ultimate.md)
 + Diversen {#miscellaneous}
    + Overige gerelateerde bronnen {#other-related-resources}
       + [[!DNL Marketo Measure] Onderhoud](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
