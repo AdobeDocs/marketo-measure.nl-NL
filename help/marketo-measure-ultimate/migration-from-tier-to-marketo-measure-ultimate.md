@@ -1,19 +1,17 @@
 ---
 description: Leer over het migratieproces wanneer het bewegen van het  [!DNL Marketo Measure]  Gelaagde abonnement aan  [!DNL Marketo Measure]  Ultimate.
-hide: true
-hidefromtoc: true
 title: Migratie van Rij aan  [!DNL Marketo Measure]  Ultieme
 feature: Integration, Tracking, Attribution
-source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
+source-git-commit: 9c3c3c75a9a505bb078da18e13f210add8699c24
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
 
 # Migratie van niveau 1-2 naar [!DNL Marketo Measure] Ultimate {#migration-from-tier-to-marketo-measure-ultimate}
 
-Dit artikel beschrijft het migratieproces voor gebruikers die van het Tier 1- of 2-abonnement naar Marketo Measure Ultimate overstappen.
+In dit artikel wordt het migratieproces beschreven voor gebruikers die van het Tier 1- of 2-abonnement naar [!DNL Marketo Measure] Ultimate overstappen.
 
 >[!IMPORTANT]
 >
