@@ -2,7 +2,7 @@
 description: Leer over het migratieproces wanneer het bewegen van het  [!DNL Marketo Measure]  Gelaagde abonnement aan  [!DNL Marketo Measure]  Ultimate.
 title: Migratie van Rij aan  [!DNL Marketo Measure]  Ultieme
 feature: Integration, Tracking, Attribution
-source-git-commit: 9c3c3c75a9a505bb078da18e13f210add8699c24
+source-git-commit: d62eb377a6abe8a01de7ad2aba34b85fb74ad461
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 1%
