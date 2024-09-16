@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874767
-description: Opzetten van Boomerang Stages - [!DNL Marketo Measure]
+description: Boomerang-fasen instellen -  [!DNL Marketo Measure]
 title: Boomerang Stages instellen
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->De functie Boomerang is alleen ingeschakeld voor klanten van Tier 2 en 3. Neem contact op met het accountteam van de Adobe om een hogere accountlaag aan te vragen.
+>De Boomerang-functie wordt alleen ingeschakeld voor Tier 2-klanten. Neem contact op met het accountteam van de Adobe om een hogere accountlaag aan te vragen.
 
-Inschakelen [!UICONTROL Boomerang] Voor uw account moet u een accountbeheerder zijn. Of, kan het worden toegelaten door uit te reiken aan [Marketo-ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Nadat de functie is ingeschakeld, volgt u deze instructies om deze in te stellen.
+Als u [!UICONTROL Boomerang] -fasen wilt inschakelen voor uw account, moet u een accountbeheerder zijn. Of, kan het worden toegelaten door uit te reiken aan [ de Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support) {target="_blank"}. Nadat de functie is ingeschakeld, volgt u deze instructies om deze in te stellen.
 
 ## Boomerang Stage Setup {#boomerang-stage-setup}
 
-1. Ga naar [!UICONTROL Stage Mapping]. In de kolom met de titel &quot;[!UICONTROL Boomerang],&quot; selecteer de vakjes naast de stadia u wilt volgen.
+1. Ga naar [!UICONTROL Stage Mapping] . Onder de kolom getiteld &quot;[!UICONTROL Boomerang],&quot;selecteer de vakjes naast de stadia u zou willen volgen.
 
    ![](assets/1-2.png)
 
-1. Ga naar de [!UICONTROL Attribution Settings] het aantal aanraakpunten in voor elk werkgebied dat u wilt zien. We staan maximaal tien toe. De standaardwaarde is ingesteld op 1.
+1. Ga naar de tab [!UICONTROL Attribution Settings] en voer het aantal aanraakpunten in voor elk werkgebied dat u wilt zien. We staan maximaal tien toe. De standaardwaarde is ingesteld op 1.
 
    ![](assets/2-2.png)
 
@@ -37,15 +37,15 @@ Inschakelen [!UICONTROL Boomerang] Voor uw account moet u een accountbeheerder z
 
 ## Boomerang Stage Setup met aangepaste modelkenmerken {#boomerang-stage-setup-with-custom-model-attribution}
 
-1. Ga naar [!UICONTROL Stage Mapping]. In de kolom met de titel &quot;[!UICONTROL Boomerang],&quot; selecteer de vakjes naast de stadia u wilt volgen.
+1. Ga naar [!UICONTROL Stage Mapping] . Onder de kolom getiteld &quot;[!UICONTROL Boomerang],&quot;selecteer de vakjes naast de stadia u zou willen volgen.
 
    ![](assets/3-1.png)
 
-1. Als u deze Boomerang-fasen ook wilt opnemen in uw aangepaste model en een creditering van de attributie wilt ontvangen, moet u ook het vakje onder &quot;[!UICONTROL Custom Model]&quot; kolom.
+1. Als u deze fasen Boomerang ook in uw Model van de Douane en de creditering van de ontvangstentekening zou willen worden omvat, ben zeker om de doos onder &quot;[!UICONTROL Custom Model]&quot;kolom ook te selecteren.
 
    ![](assets/4-1.png)
 
-1. Ga naar de [!UICONTROL Attribution Settings] tab. Bepaal hoe u de attributie voor uw boemerangfasen wilt wegen. De opties zijn om de attributen bij het eerste voorkomen, het laatste voorkomen te wegen, of het gelijkelijk over alle voorkomen te laten verdelen.
+1. Ga naar de tab [!UICONTROL Attribution Settings] . Bepaal hoe u de attributie voor uw boemerangfasen wilt wegen. De opties zijn om de attributen bij het eerste voorkomen, het laatste voorkomen te wegen, of het gelijkelijk over alle voorkomen te laten verdelen.
 
    ![](assets/5-1.png)
 
