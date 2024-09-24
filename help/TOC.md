@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handleiding"
 user-guide-description: "[!DNL Marketo Measure] geeft marketeers inzicht in welke marketinginspanningen het meest effectief zijn in het aansturen van inkomsten voor hun bedrijf."
-source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
+source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,7 @@ ht-degree: 0%
       + [Toegewezen opportuniteitsdashboard](marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)
       + [Toegewezen belastingdashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [Betrokkenheidsdashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Trefwoord ROI-dashboard](marketo-measure-discover-ui/dashboards/keyword-roi-dashboard.md)
       + [Snelheidsdashboard voor lead](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
       + [Opportunity Velocity-dashboard](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
       + [Paspoort-dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)

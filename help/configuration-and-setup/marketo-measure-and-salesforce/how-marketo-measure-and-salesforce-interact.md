@@ -4,10 +4,10 @@ description: Hoe  [!DNL Marketo Measure]  en  [!DNL Salesforce]  in wisselwerkin
 title: Hoe  [!DNL Marketo Measure]  en  [!DNL Salesforce]  interactie hebben
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 0%
+source-wordcount: '1314'
+ht-degree: 6%
 
 ---
 
@@ -33,18 +33,21 @@ Standaard exporteert [!DNL Marketo Measure] 200 records per API-credit telkens w
 
 Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het is raadzaam de batch alleen te verkleinen als u een CPU-time-out of een hoge CPU-belasting hebt in uw CRM.
 
-## Salesforce Connected User Permissions {#salesforce-connected-user-permissions}
+## Salesforce Connected-gebruikersmachtigingen {#salesforce-connected-user-permissions}
 
 **de Toestemming van de Beheerder van Marketo Measure voor Specifieke Gebruiker** wordt geplaatst: Staat SFDC admin toe om verrichtingen CRUD op de voorwerpen van Marketo Measure uit te voeren die.
 
 **Mening en geeft Omgezette Reeks van de Toestemming van Leads** uit: Dit staat Marketo Measure toe om lood te versieren nadat zij in contacten zijn omgezet.
 
 **Checkbox van de Gebruiker van de Marketing van Salesforce**: Staat gebruikers toe om campagnes tot stand te brengen en de Tovenaars van de Invoer van de Campagne te gebruiken.
-* Aanvullende machtigingen voor campagne &quot;Maken&quot; zijn vereist.
+
+* Wij vereisen extra toestemmingen voor Campagne &quot;creeer&quot;en &quot;Update&quot;in uw CRMs.
+
+* Wanneer een aanraakpunt wordt gemaakt op basis van een webactiviteit, moeten we het koppelen aan een campagne. Omdat webactiviteiten geen overeenkomstige CRM-campagnes hebben, moeten we er een maken om deze koppeling tot stand te brengen. Dit geldt zowel voor aanraakpunten met kansen als voor aanraakpunten. U hebt een updatetoestemming nodig omdat de aanroep die we gebruiken &#39;upsert&#39; is. Als de record bestaat, wordt deze bijgewerkt; anders maken we deze. Dit geldt alleen voor campagnes die we maken.
 
 **StandaardGebruiker van Marketo Measure**: Biedt een gebruiker de capaciteit om verslagen van de voorwerpen van Marketo Measure te lezen.
 
-## Standaardobjecten Salesforce en Toegang {#salesforce-standard-objects-and-access}
+## Salesforce Standard-objecten en -toegang {#salesforce-standard-objects-and-access}
 
 Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Marketo Measure] werkt en de aangepaste velden die we aan deze objecten toevoegen nadat de verbinding tot stand is gebracht en het [!DNL Marketo Measure] -pakket is geïnstalleerd. Uit het vak schrijft [!DNL Marketo Measure] NIET naar standaardobjectvelden van [!DNL Salesforce] .
 
@@ -60,73 +63,73 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
   </tr> 
   <tr> 
    <td>Id</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>E-mail</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Status</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>CreatedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>ConvertedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>ConvertedContactId</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>ConvertedOpportunityId</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsConverted</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsDelted</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Website</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Bedrijf</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
@@ -151,37 +154,37 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
   </tr> 
   <tr> 
    <td>Account</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td><span>x</span></td> 
    <td><br></td> 
   </tr> 
   <tr> 
    <td>Id</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>E-mail</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Aanmaakdatum</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsDelted</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr>
@@ -200,31 +203,31 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
   </tr> 
   <tr> 
    <td>Id</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>CreatedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>SuppliedEmail</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsDelted</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td>
   </tr> 
@@ -243,25 +246,25 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
   </tr> 
   <tr> 
    <td>Id</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Website</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsDelted</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
@@ -286,67 +289,67 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
   </tr> 
   <tr> 
    <td>Naam</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td><br></td> 
   </tr>
   <tr> 
    <td>Account</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td><br></td> 
   </tr>
   <tr> 
    <td>Id</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>CreatedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsWon</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsClosed</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsDelted</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>CloseDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>StageName</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Hoeveelheid</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
@@ -371,57 +374,57 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
   </tr> 
   <tr> 
    <td>Id</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>CreatedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsDelted</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr>
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>OpportunityId</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>ContactId</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr>
 
 <tr> 
    <td>IsPrimary</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Functie</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Campagne**
+**Campaign**
 
 <table> 
  <colgroup> 
@@ -439,85 +442,85 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
   </tr> 
   <tr> 
    <td>Id</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>E-mail</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Status</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>CreatedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>ConvertedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>ConvertedContactId</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>ConvertedOpportunityId</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsConverted</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsDelted</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Website</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Bedrijf</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Type</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td><br></td> 
   </tr>
   <tr> 
    <td>Naam</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td>x</td> 
   </tr>
@@ -542,61 +545,61 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
   </tr> 
   <tr> 
    <td>Id</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>CreatedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsDelted</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>FirstRespondedDate</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>HasResponded</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>ContactId</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>LeadId</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>IsConverted</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>CampagneId</td> 
-   <td>Standaard</td> 
+   <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
   </tr> 
@@ -635,10 +638,10 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
 
 >[!NOTE]
 >
->Om ervoor te zorgen dat Marketo Measure verwijderingsgebeurtenissen vastlegt binnen uw Salesforce-account, zijn reproduceerbare machtigingen voor de onderstaande objecten vereist. Repliceerbare machtigingen worden standaard geleverd met de volgende objecten:
+>Om ervoor te zorgen dat Marketo Measure verwijderingsgebeurtenissen vastlegt in uw Salesforce-account, zijn repliceerbare machtigingen voor de onderstaande objecten vereist. Repliceerbare machtigingen worden standaard geleverd met de volgende objecten:
 >
 >* Account
->* Campagne
+>* Campaign
 >* Campagnelid
 >* Contact
 >* Gebeurtenis
@@ -649,7 +652,7 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
 
 ## [!DNL Marketo Measure] Aangepaste objecten in [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-Naast het maken van aangepaste velden op de standaardobjecten van SFDC, maakt het pakket een aantal aangepaste objecten nadat het [!DNL Marketo Measure] -pakket is geïnstalleerd. Hieronder ziet u een lijst met deze aangepaste objecten, samen met een tabel die de velden aangeeft waarnaar [!DNL Marketo Measure] gaat schrijven.
+Naast het maken van aangepaste velden op standaardobjecten van SFDC, maakt het pakket een aantal aangepaste objecten nadat het [!DNL Marketo Measure] -pakket is geïnstalleerd. Hieronder ziet u een lijst met deze aangepaste objecten, samen met een tabel die de velden aangeeft waarnaar [!DNL Marketo Measure] gaat schrijven.
 
 **Buyer Touchpoint**
 
