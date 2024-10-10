@@ -4,9 +4,9 @@ description: Aanraakpuntvelden - [!DNL Marketo Measure]
 title: Aanraakpuntvelden
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
+source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '1951'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Navigeer in het menu Instellingen van [!DNL Marketo Measure] naar de pagina Aanr
 
 Houd er rekening mee dat een gebruiker drie verschillende handelingen kan uitvoeren om een berekend veld te maken: extraheren, toewijzen en aaneenschakelen. Deze worden ook wel de operatoren voor het definiëren van een berekend veld genoemd.
 
-Extracten
+### Extracten {#extracts}
 
-De [!UICONTROL extracts] exploitant trekt de waarde uit een gebied van een andere plaats, zoals: een gebied van de Campagne, het gebied van het Lood, of in een geavanceerder gebruiksgeval, [ trekt douaneparameters van de het landen pagina ](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4) {target="_blank"}. Het plaatst het dan op een Gebied van het Aanraakpunt (zie [ Kaarten aan Voorbeeld ](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4) {target="_blank"} #2).
+De operator [!UICONTROL extracts] haalt de waarde uit een veld van een andere locatie, zoals: een Campagneveld, Lead-veld of, in een geavanceerder gebruiksgeval, aangepaste parameters uit de bestemmingspagina. Vervolgens wordt het op een aanraakpuntveld geplaatst.
 
 **Voorbeeld #1**
 
@@ -121,7 +121,7 @@ Aangezien uw landingspagina&#39;s ingewikkelder worden en u veelvoudige het volg
 
 ![](assets/five.png)
 
-**Kaarten aan**
+### Kaarten aan {#maps-to}
 
 De operator [!UICONTROL maps to] maakt een tabel met waarden die moeten worden omgezet of opgenomen in een andere waarde. Gewoonlijk heeft dit de vorm van een sleutelwaarde waarbij een code een vriendelijke naam vertegenwoordigt en aan die vriendelijke naam moet worden toegewezen.
 
@@ -169,7 +169,7 @@ Nu we hebben geleerd hoe we die acties kunnen extraheren en toewijzen aan velden
 
 ![](assets/seven.png)
 
-**samenvoegt**
+### Concatenaten {#concatenates}
 
 De operator [!UICONTROL concatenates] combineert waarden van meerdere velden tot één veld. Dit is handig om een aangepaste waarde te maken die gegevens in verschillende velden ophaalt om
 
