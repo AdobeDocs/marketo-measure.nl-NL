@@ -3,9 +3,9 @@ description: Opmerkingen bij de huidige release - [!DNL Marketo Measure]
 title: Opmerkingen bij de huidige release
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
+source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1376'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,22 @@ ht-degree: 0%
 Zie hieronder voor alle nieuwe en bijgewerkte functies voor onze 2024-releases.
 
 ## Versie Q4 {#q4-release}
+
+### Nieuw gedrag Kanaaloverdracht sessie
+
+Het kanaal van de vorige sessie wordt nu overgedragen als een nieuwe sessie binnen zeven dagen na 30 minuten inactiviteit begint, en alleen van toepassing is op directe bezoeken (geen referentie of interne referentie). Na zeven dagen van inactiviteit, zal de zitting aan Direct/andere in gebreke blijven. Niet-directe kanalen worden niet overschreven door vorige sessiegegevens.
+
+Bovendien worden sessies die gebruikmaken van aanmelden via een sociaal netwerk (Google, Microsoft of Apple) nu samengevoegd in één doorlopende sessie, zodat u een vloeiender ervaring hebt. Zonder deze overdrachtstoets kunnen sociale inloggen afzonderlijke sessies maken vanwege verschillen tussen externe referenties.
+
+Voor nieuwe klanten, is de overdracht van het zittingskanaal nu het standaardgedrag. Bestaande klanten kunnen dit inschakelen door de optie Kanaaloverdracht via sessie in te schakelen onder Instellingen → Attributie zonder aanraking. Deze instelling kan niet ongedaan worden gemaakt nadat deze is geactiveerd.
+
+Documentatie: [ Definitie van de Zittingen van het Web van Marketo Measure ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions) {target="_blank"}
+
+### Trefwoord ROI-dashboard
+
+Het nieuwe ROI Dashboard van het Sleutelwoord biedt gedetailleerde inzichten in de prestaties van Paid onderzoekscampagnes, die een uitvoerig overzicht van sleutelwoordvlakke kosten, toegeschreven opbrengst, en de geproduceerde kansen verstrekken. Met dit dashboard kunt u de ROI van elk trefwoord evalueren in Google Adwords, LinkedIn en Bing Ads, enzovoort.
+
+Documentatie: [ ROI Dashboard van het Sleutelwoord ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard) {target="_blank"}
 
 ### Verbeterde segmentregels
 
