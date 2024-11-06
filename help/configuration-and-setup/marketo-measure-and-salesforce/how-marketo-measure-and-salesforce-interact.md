@@ -4,10 +4,10 @@ description: Hoe  [!DNL Marketo Measure]  en  [!DNL Salesforce]  in wisselwerkin
 title: Hoe  [!DNL Marketo Measure]  en  [!DNL Salesforce]  interactie hebben
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
+source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 6%
+source-wordcount: '1281'
+ht-degree: 5%
 
 ---
 
@@ -188,49 +188,6 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
    <td>x</td> 
    <td> </td> 
   </tr>
- </tbody> 
-</table>
-
-**Geval**
-
-<table> 
- <tbody> 
-  <tr> 
-   <th>Velden</th> 
-   <th>Standaard/Aangepast</th> 
-   <th>Lezen</th> 
-   <th>Schrijven</th> 
-  </tr> 
-  <tr> 
-   <td>Id</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CreatedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>LastModifiedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>SuppliedEmail</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDelted</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td>
-  </tr> 
  </tbody> 
 </table>
 
@@ -466,30 +423,6 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedContactId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedOpportunityId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsConverted</td> 
    <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
