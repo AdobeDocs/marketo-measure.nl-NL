@@ -4,7 +4,7 @@ description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+source-git-commit: 3ad812a05671f277d3dd3f9bc58e3b2ea3606e71
 workflow-type: tm+mt
 source-wordcount: '21110'
 ht-degree: 1%
@@ -22,21 +22,21 @@ Met Data Warehouse kunt u zoveel bijhouden als u wilt, gegevens rapporteren over
 
 >[!NOTE]
 >
->[Klik hier](#sample-queries) om steekproefvragen bij de bodem van dit artikel te zien.
+>[ klik hier ](#sample-queries) om steekproefvragen bij de bodem van dit artikel te zien.
 
 ## Relatiediagrammen voor entiteiten {#entity-relationship-diagrams}
 
-De _Gegevensmodel Data Warehouse_ ERD toont hoe de gegevens in het gegevenspakhuis bedoeld zijn om te stromen en samen worden verbonden. Dit diagram omvat niet alle lijsten beschikbaar in het gegevenspakhuis omdat sommige van hen kaartlijsten, meningen van andere reeds aanwezige lijsten, of afgekeurde lijsten vertegenwoordigen wij niet meer het gebruiken adviseren. Zie de gedetailleerde beschrijvingen van lijsten en kolommen aanwezig in het gegevenspakhuis hieronder. Veel van deze lijsten bevatten gedenormaliseerde gebieden, echter, is dit diagram het geadviseerde gegevensmodel, leveraging gegevens van dimensionele lijsten in plaats daarvan.
+Het _Model van Gegevens van de Data Warehouse_ ERD toont hoe de gegevens in het gegevenspakhuis bedoeld zijn om te stromen en samen worden verbonden. Dit diagram omvat niet alle lijsten beschikbaar in het gegevenspakhuis omdat sommige van hen kaartlijsten, meningen van andere reeds aanwezige lijsten, of afgekeurde lijsten vertegenwoordigen wij niet meer het gebruiken adviseren. Zie de gedetailleerde beschrijvingen van lijsten en kolommen aanwezig in het gegevenspakhuis hieronder. Veel van deze lijsten bevatten gedenormaliseerde gebieden, echter, is dit diagram het geadviseerde gegevensmodel, leveraging gegevens van dimensionele lijsten in plaats daarvan.
 
-De aanvullende _Hiermee voegt u een dimensionaal gegevensmodel toe_ ERD biedt een weergave van hoe tabellen voor advertenties die specifieke afmetingen hebben, het beste kunnen worden gekoppeld aan de tabellen in het hoofdgegevensmodel. Hoewel de afmetingen van advertenties ook in andere lijsten worden gedenormaliseerd, vertegenwoordigt dit het geadviseerde model om zich bij deze dimensies aan te sluiten.
+Extra _voegt het Model van Gegevens 1} ERD van Dimensionele Gegevens van Gegevens toe {stelt een mening van voor hoe de lijsten voor advertenties specifieke dimensies het best terug naar de lijsten in het belangrijkste gegevensmodel kunnen worden verbonden._ Hoewel de afmetingen van advertenties ook in andere lijsten worden gedenormaliseerd, vertegenwoordigt dit het geadviseerde model om zich bij deze dimensies aan te sluiten.
 
-_Klik op een afbeelding voor de volledige versie_
+_klik een beeld voor zijn full-size versie_
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <th>Gegevensmodel Data Warehouse</th> 
-   <th>Hiermee voegt u een dimensionaal gegevensmodel toe</th> 
+   <th>Gegevensmodel Data Warehouse</th>
+   <th>Hiermee voegt u een dimensionaal gegevensmodel toe</th>
   </tr> 
   <tr> 
    <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
@@ -69,18 +69,18 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De aanmaakdatum van de account, vanaf het bronsysteem.</td>
-      <td>28 00:32:55,000</td>
+      <td>2016-08-28 00 :32: 55.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De laatste gewijzigde datum van de account, van het bronsysteem.</td>
-      <td>2018-08-01 17:38:30 000</td>
+      <td>2018-08-01 17 :38: 30.000</td>
     </tr>
     <tr>
       <td>NAAM</td>
       <td>varchar</td>
-      <td>De accountnaam, van het bronsysteem.</td>
+      <td>De accountnaam van het bronsysteem.</td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
@@ -92,13 +92,13 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
     <tr>
       <td>ENGAGEMENT_RATING</td>
       <td>varchar</td>
-      <td>Een letterkwaliteit (A, B, C, D, N/A) die wordt gegenereerd uit de [!DNL Marketo Measure] Machine Learning-model. Dit is null als ABM is uitgeschakeld.</td>
+      <td>A letter grade (A, B, C, D, N/A), dat wordt gegenereerd op basis van het [!DNL Marketo Measure] Machine Learning-model. Dit is null als ABM is uitgeschakeld.</td>
       <td>B</td>
     </tr>
     <tr>
       <td>ENGAGEMENT_SCORE</td>
       <td>nummer (38,19)</td>
-      <td>Een numerieke score berekend met [!DNL Marketo Measure] Machine Learning to generate the Predictive Engagement Score (Engagement_Rating). Dit is null als ABM is uitgeschakeld.</td>
+      <td>Een numerieke score die wordt berekend door [!DNL Marketo Measure] Machine Learning om de Predictive Engagement Score (Engagement_Rating) te genereren. Dit is null als ABM is uitgeschakeld.</td>
       <td>0,1417350147058800000</td>
     </tr>
     <tr>
@@ -116,26 +116,26 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Aangepaste eigenschappen die [!DNL Marketo Measure] heeft vanuit het bronsysteem geïmporteerd, in JSON-indeling.</td>
+      <td>Aangepaste eigenschappen die [!DNL Marketo Measure] uit het bronsysteem heeft geïmporteerd, in JSON-indeling.</td>
       <td>{"Account_Type__c": "Security", "foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td><b>*</b> INDUSTRIE</td>
@@ -152,7 +152,7 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
   </tbody>
 </table>
 <p>
-<b>*</b> <i>Alleen beschikbaar in Marketo Measure Ultimate</i>
+<b> * </b> <i> slechts beschikbaar in Marketo Measure Ultimate </i>
 <p>
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
@@ -171,12 +171,12 @@ Toewijzingstabel tussen bekende e-mailadressen en accounts van leads/contactpers
       <td>ID</td>
       <td>varchar</td>
       <td>Een unieke id voor de record.</td>
-      <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13 000</td>
+      <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17 :22: 13.000</td>
     </tr>
     <tr>
       <td>ACCOUNT_ID</td>
       <td>varchar</td>
-      <td>Account-ID bronsysteem.</td>
+      <td>Source-systeemaccount-id.</td>
       <td>001310001phrBAAAY</td>
     </tr>
     <tr>
@@ -189,13 +189,13 @@ Toewijzingstabel tussen bekende e-mailadressen en accounts van leads/contactpers
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De laatste gewijzigde datum van de account, van het bronsysteem.</td>
-      <td>2018-08-31:53:39,000</td>
+      <td>2018-08-31 23 :53: 39.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De aanmaakdatum van de account, vanaf het bronsysteem.</td>
-      <td>22-08-18 22:01:32,000</td>
+      <td>2018-08-18 22 :01: 32.000</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
@@ -207,19 +207,19 @@ Toewijzingstabel tussen bekende e-mailadressen en accounts van leads/contactpers
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -273,13 +273,13 @@ Activiteiten die zijn geïmporteerd uit een bronsysteem of een aangesloten adver
       <td>START_DATE</td>
       <td>timestamp_ntz</td>
       <td>Begindatum van de activiteit, vanaf het bronsysteem.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>END_DATE</td>
       <td>timestapm_ntz</td>
       <td>Einddatum van de activiteit, vanaf het bronsysteem.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>CAMPAIGN_ID</td>
@@ -299,13 +299,13 @@ Activiteiten die zijn geïmporteerd uit een bronsysteem of een aangesloten adver
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de rij is gemaakt in het bronsysteem.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum waarop de rij voor het laatst is gewijzigd in het bronsysteem.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
@@ -323,19 +323,19 @@ Activiteiten die zijn geïmporteerd uit een bronsysteem of een aangesloten adver
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -428,13 +428,13 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst is gewijzigd.</td>
-      <td>2018-08-02 06:35:59,000</td>
+      <td>2018-08-02 06 :35: 59.000</td>
     </tr>
     <tr>
       <td>FIRST_IMPORTED</td>
       <td>timestamp_ntz</td>
       <td>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</td>
-      <td>2018-08-02 06:35:59,000</td>
+      <td>2018-08-02 06 :35: 59.000</td>
     </tr>
     <tr>
       <td>NAAM</td>
@@ -445,7 +445,7 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
     <tr>
       <td>NEEDS_UPDATE</td>
       <td>boolean</td>
-      <td>Of de advertentie moet worden bijgewerkt [!DNL Marketo Measure] labelen.
+      <td>Of de advertentie moet worden bijgewerkt voor [!DNL Marketo Measure] tagging.
       <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)
       </td>
       <td>false</td>
@@ -487,7 +487,7 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
     <tr>
       <td>URL_REQUESTED</td>
       <td>varchar</td>
-      <td>Waarmee wordt de URL ingericht [!DNL Marketo Measure] parameters.
+      <td>Wat de URL zal worden versierd met [!DNL Marketo Measure] parameters.
       <p>(Diagnostisch veld, voor interne verwerking.)
       </td>
       <td></td>
@@ -510,19 +510,19 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -615,13 +615,13 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst is gewijzigd.</td>
-      <td>2018-08-02 06:35:59,000</td>
+      <td>2018-08-02 06 :35: 59.000</td>
     </tr>
     <tr>
       <td>FIRST_IMPORTED</td>
       <td>timestamp_ntz</td>
       <td>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</td>
-      <td>2018-08-02 06:35:59,000</td>
+      <td>2018-08-02 06 :35: 59.000</td>
     </tr>
     <tr>
       <td>NAAM</td>
@@ -632,7 +632,7 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
     <tr>
       <td>NEEDS_UPDATE</td>
       <td>boolean</td>
-      <td>Of de adverteerder moet worden bijgewerkt [!DNL Marketo Measure] labelen.
+      <td>Of de Advertiser moet worden bijgewerkt voor [!DNL Marketo Measure] tagging.
       <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)
       </td>
       <td>false</td>
@@ -665,19 +665,19 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -825,7 +825,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-09-06 12:54:37,000</p>
+        <p>2018-09-06 12 :54: 37.000</p>
       </td>
     </tr>
     <tr>
@@ -837,7 +837,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58,000</p>
+        <p>2018-08-02 06 :35: 58.000</p>
       </td>
     </tr>
     <tr>
@@ -858,7 +858,7 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
         <p>boolean</p>
       </td>
       <td>
-        <p>Of de adverteerder moet worden bijgewerkt [!DNL Marketo Measure] labelen.</p>
+        <p>Of de Advertiser moet worden bijgewerkt voor [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>
@@ -919,12 +919,12 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
     </tr>
     <tr>
       <td>
-        <p>BRON</p>
+        <p>SOURCE</p>
       </td>
       <td>varchar</td>
       <td>Geparseerd van URL van utm_source.</td>
       <td>
-        <p>Social</p>
+        <p>Sociaal</p>
       </td>
     </tr>
     <tr>
@@ -1049,19 +1049,19 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -1223,7 +1223,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58,000</p>
+        <p>2018-08-02 06 :35: 58.000</p>
       </td>
     </tr>
     <tr>
@@ -1235,7 +1235,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58,000</p>
+        <p>2018-08-02 06 :35: 58.000</p>
       </td>
     </tr>
     <tr>
@@ -1258,7 +1258,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
         <p>boolean</p>
       </td>
       <td>
-        <p>Of de campagne moet worden bijgewerkt voor [!DNL Marketo Measure] labelen.</p>
+        <p>Of de campagne moet worden bijgewerkt voor [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>
@@ -1282,7 +1282,7 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
         <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval, "Campaign".</p>
       </td>
       <td>
-        <p>Campagne</p>
+        <p>Campaign</p>
       </td>
     </tr>
     <tr>
@@ -1365,19 +1365,19 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -1457,7 +1457,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58,000</p>
+        <p>2018-08-02 06 :35: 58.000</p>
       </td>
     </tr>
     <tr>
@@ -1469,7 +1469,7 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58,000</p>
+        <p>2018-08-02 06 :35: 58.000</p>
       </td>
     </tr>
     <tr>
@@ -1566,24 +1566,24 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>SOURCE_ID</td>
       <td>varchar</td>
-      <td>Id voor de bron waarvan de record afkomstig is.</td>
+      <td>Id voor de Source waarvan de record afkomstig is.</td>
       <td>aw.3284209</td>
     </tr>
   </tbody>
@@ -1752,7 +1752,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:14 000</p>
+        <p>2018-08-02 06 :36: 14.000</p>
       </td>
     </tr>
     <tr>
@@ -1764,7 +1764,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:14 000</p>
+        <p>2018-08-02 06 :36: 14.000</p>
       </td>
     </tr>
     <tr>
@@ -1787,7 +1787,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>boolean</p>
       </td>
       <td>
-        <p>Of de adverteerder moet worden bijgewerkt [!DNL Marketo Measure] labelen.</p>
+        <p>Of de Advertiser moet worden bijgewerkt voor [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>
@@ -1892,19 +1892,19 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -1961,19 +1961,19 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -1993,7 +1993,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
        <td>ID</td>
       <td>varchar</td>
       <td>
-        <p>Een unieke id voor het aanraakpunt voor koperkenmerken (BAT).</p>
+        <p>Een unieke id voor de Buyer Attribution Touchpoint (BAT).</p>
       </td>
       <td>
         <p>BAT2_0060Z00000lFHtOQAW_</p>
@@ -2007,7 +2007,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-09-01 04:53:53,000</p>
+        <p>2018-09-01 04 :53: 53.000</p>
       </td>
     </tr>
     <tr>
@@ -2071,7 +2071,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Datum van het aanraakpunt.</p>
       </td>
       <td>
-        <p>01-06-20:05:20 000</p>
+        <p>2017-06-20 01 :05: 20.000</p>
       </td>
     </tr>
     <tr>
@@ -2098,7 +2098,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Het kanaal waarin het aanraakpunt valt, zoals gedefinieerd in de aangepaste kanaaldefinities in het dialoogvenster [!DNL Marketo Measure] App. Wordt in de CRM aangeduid als "Marketing Channel - Path".</p>
+        <p>Het kanaal waarin het aanraakpunt valt, zoals gedefinieerd in de aangepaste kanaaldefinities in de app [!DNL Marketo Measure] . Wordt in de CRM aangeduid als "Marketing Channel - Path".</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -2110,7 +2110,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>De segmentwaarde voor de eerste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
+        <p>De segmentwaarde voor de eerste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</p>
       </td>
       <td>
         <p>ABC</p>
@@ -2122,7 +2122,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>De segmentwaarde voor de tweede categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
+        <p>De segmentwaarde voor de tweede categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</p>
       </td>
       <td>
         <p>Ja</p>
@@ -2134,7 +2134,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>De segmentwaarde voor de derde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
+        <p>De segmentwaarde voor de derde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</p>
       </td>
       <td>
         <p>SMB</p>
@@ -2145,7 +2145,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE4</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de vierde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de vierde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td>
         <p>Nieuwe bedrijven</p>
       </td>
@@ -2155,7 +2155,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE5</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de vijfde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de vijfde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -2163,7 +2163,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE6</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de zesde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de zesde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -2171,7 +2171,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE7</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de zevende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de zevende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -2179,7 +2179,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE8</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de achtste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de achtste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -2187,7 +2187,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE9</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de 9de categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de 9de categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -2195,7 +2195,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE10</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de tiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de tiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -2203,7 +2203,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE11</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de 11e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de 11e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -2211,7 +2211,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE12</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de 12e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de 12e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -2219,7 +2219,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE13</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de dertiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de dertiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -2227,7 +2227,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE14</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de 14e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de 14e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -2235,7 +2235,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>CATEGORIE15</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de 15e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de 15e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -2247,7 +2247,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>Van javascript en IP adres, ontdekte browser dat de gebruiker tijdens de zitting was.</p>
       </td>
       <td>
-        <p>Chroom</p>
+        <p>Chrome</p>
       </td>
     </tr>
     <tr>
@@ -2367,7 +2367,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
       <td>
-        <p>01-06-20:06:41,000</p>
+        <p>2017-06-20 01 :06: 41.000</p>
       </td>
     </tr>
     <tr>
@@ -2412,7 +2412,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Hiermee definieert u het medium dat tot het aanraakpunt heeft geleid. Dit kan worden geparseerd vanaf de URL vanaf utm_medium. Of, als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "cpc" of "display".</p>
+        <p>Hiermee definieert u het medium dat tot het aanraakpunt heeft geleid. Dit kan worden geparseerd vanaf de URL vanaf utm_medium. Of als [!DNL Marketo Measure] een advertentie kan oplossen, kan het waarden zijn zoals "cpc" of "display".</p>
       </td>
       <td>
         <p>sociaal</p>
@@ -2424,7 +2424,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campagne van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "Google AdWords" of "Facebook". In de CRM wordt "aanraakpuntbron" genoemd.</p>
+        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campaign van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] een advertentie kan oplossen, kan het waarden zoals "Google AdWords"of "Facebook zijn." Wordt in de CRM aangeduid als "Touchpoint Source".</p>
       </td>
       <td>
         <p>gekoppeld</p>
@@ -2448,7 +2448,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Advertentieplatform [!DNL Marketo Measure] was in staat om op te lossen van, typisch één van onze integratiepartners.</p>
+        <p>Adplatform [!DNL Marketo Measure] kon oplossen van, typisch één van onze integratiepartners.</p>
       </td>
       <td>
         <p>Google</p>
@@ -3016,19 +3016,19 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -3051,7 +3051,7 @@ Gegevens die zijn gegenereerd door de Attribution AI-integratie. Deze velden wor
     <td>CONVERSION_DATE</td>
     <td>Timestamp_ntz</td>
     <td>datum van omzetting</td>
-    <td>01-01-01:01:00,000</td>
+    <td>2020-01-01 01 :01: 00.000</td>
   </tr>
   <tr>
     <td>CONVERSION_NAME</td>
@@ -3069,7 +3069,7 @@ Gegevens die zijn gegenereerd door de Attribution AI-integratie. Deze velden wor
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
     <td>original MM event id for the conversion event 
-    <br>wordt toegewezen aan een gebruikersaanraakpunt of een werkgebiedovergang</td>
+    <br> kaarten aan een gebruiker touchpoint of een werkgebiedovergang</td>
     <td>00U0Z0000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3087,14 +3087,14 @@ Gegevens die zijn gegenereerd door de Attribution AI-integratie. Deze velden wor
   <tr>
     <td>CONVERSION_LEAD_ID</td>
     <td>varchar</td>
-    <td>original MM lead id for the conversion event <br>waarschijnlijk het grootste deel van de tijd null zijn</td>
+    <td>originele identiteitskaart van de lood MM voor de omzettingsgebeurtenis <br> waarschijnlijk ongeldig zal zijn het grootste deel van de tijd</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
     <td>oorspronkelijke MM-contactpersoon voor de conversiegebeurtenis
-    <br>waarschijnlijk het grootste deel van de tijd null zijn</td>
+    <br> waarschijnlijk ongeldig zal zijn het grootste deel van de tijd</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
@@ -3107,7 +3107,7 @@ Gegevens die zijn gegenereerd door de Attribution AI-integratie. Deze velden wor
     <td>SCORE_DATE</td>
     <td>Timestamp_ntz</td>
     <td>datum waarop de aanraakpunten voor het laatst zijn vermeld</td>
-    <td>01-01-01:01:00,000</td>
+    <td>2020-01-01 01 :01: 00.000</td>
   </tr>
   <tr>
     <td>INFLUENCED_PERCENT</td>
@@ -3125,7 +3125,7 @@ Gegevens die zijn gegenereerd door de Attribution AI-integratie. Deze velden wor
     <td>TOUCHPOINT_DATE</td>
     <td>Timestamp_ntz</td>
     <td>de datum van het aanraakpunt of de overgangsfase</td>
-    <td>01-01-01:01:00,000</td>
+    <td>2020-01-01 01 :01: 00.000</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_EVENT_ID</td>
@@ -3173,19 +3173,19 @@ Gegevens die zijn gegenereerd door de Attribution AI-integratie. Deze velden wor
     <td>_CREATED_DATE</td>
     <td>Timestamp_ntz</td>
     <td>datum waarop de record is gemaakt in Snowflake</td>
-    <td>01-01-01:01:00,000</td>
+    <td>2020-01-01 01 :01: 00.000</td>
   </tr>
   <tr>
     <td>_MODIFIED_DATE</td>
     <td>Timestamp_ntz</td>
     <td>datum waarop de record voor het laatst is gewijzigd in Snowflake</td>
-    <td>01-01-01:01:00,000</td>
+    <td>2020-01-01 01 :01: 00.000</td>
   </tr>
   <tr>
     <td>_DELETED_DATE</td>
     <td>Timestamp_ntz</td>
     <td>datum waarop de record is verwijderd in Snowflake</td>
-    <td>01-01-01:01:00,000</td>
+    <td>2020-01-01 01 :01: 00.000</td>
   </tr>
 </tbody>
 </table>
@@ -3215,7 +3215,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
         <p>De laatste gewijzigde datum van het campagnelid, uit het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-31 20:49:54,000</p>
+        <p>2018-08-31 20 :49: 54.000</p>
       </td>
     </tr>
     <tr>
@@ -3225,7 +3225,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
         <p>De gecreeerde datum van het Lid van de Campagne, van het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-31 20:49:54,000</p>
+        <p>2018-08-31 20 :49: 54.000</p>
       </td>
     </tr>
     <tr>
@@ -3237,7 +3237,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
         <p>Datum en tijd die de klant instelt om de datum van de campagne te overschrijven en in plaats daarvan deze waarde voor de aanraakpuntdatum te gebruiken.</p>
       </td>
       <td>
-        <p>2018-08-30 18:00:00,000</p>
+        <p>2018-08-30 18 :00: 00.000</p>
       </td>
     </tr>
     <tr>
@@ -3317,7 +3317,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
         <p>Datum waarop het Campagne Lid voor het eerst antwoordde.</p>
       </td>
       <td>
-        <p>2018-08-30 07:00:00,000</p>
+        <p>2018-08-30 07 :00: 00.000</p>
       </td>
     </tr>
     <tr>
@@ -3374,7 +3374,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       </td>
       <td>varchar</td>
       <td>
-        <p>In het veld Audit wordt aangegeven of er al dan niet een aanraakpunt voor kopers is gegenereerd voor de lead. Als er geen aanraakpunt is gemaakt, wordt de reden waarom het niet in aanmerking kwam gegeven.</p>
+        <p>In het veld Audit wordt aangegeven of een Buyer Touchpoint is gegenereerd voor de lead. Als er geen aanraakpunt is gemaakt, wordt de reden waarom het niet in aanmerking kwam gegeven.</p>
       </td>
       <td>
         <p>Geen aanraakpunt: Datum buiten model</p>
@@ -3386,7 +3386,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       </td>
       <td>varchar</td>
       <td>
-        <p>In het veld Audit wordt aangegeven of een aanraakpunt voor kopers is gegenereerd voor de contactpersoon. Als er geen aanraakpunt is gemaakt, wordt de reden waarom het niet in aanmerking kwam gegeven.</p>
+        <p>In het veld Audit wordt aangegeven of een Buyer Touchpoint is gegenereerd voor de contactpersoon. Als er geen aanraakpunt is gemaakt, wordt de reden waarom het niet in aanmerking kwam gegeven.</p>
       </td>
       <td>
         <p>Aanraakpunt gemaakt</p>
@@ -3398,7 +3398,7 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
       </td>
       <td>varchar</td>
       <td>
-        <p>In het veld Audit wordt aangegeven of er al dan niet een aanraakpunt voor koperkenmerk is gegenereerd voor Opportunity. Als er geen aanraakpunt is gemaakt, wordt de reden waarom het niet in aanmerking kwam gegeven.</p>
+        <p>In het veld Audit wordt aangegeven of een Buyer Attribution Touchpoint is gegenereerd voor Opportunity. Als er geen aanraakpunt is gemaakt, wordt de reden waarom het niet in aanmerking kwam gegeven.</p>
       </td>
       <td>
         <p>Aanraakpunt gemaakt</p>
@@ -3421,33 +3421,33 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Aangepaste eigenschappen die [!DNL Marketo Measure] heeft vanuit het bronsysteem geïmporteerd, in JSON-indeling.</td>
+      <td>Aangepaste eigenschappen die [!DNL Marketo Measure] uit het bronsysteem heeft geïmporteerd, in JSON-indeling.</td>
       <td>{"Campaign_Type__c":"Dinners","Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_CHANNELS {#biz-channels}
 
-Marketingkanalen, zoals gemaakt in het dialoogvenster [!DNL Marketo Measure] toepassing.
+Marketingkanalen, zoals gemaakt in de [!DNL Marketo Measure] -toepassing.
 
 <table>
   <tbody>
@@ -3497,19 +3497,19 @@ Marketingkanalen, zoals gemaakt in het dialoogvenster [!DNL Marketo Measure] toe
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record in Snowflake is gemaakt.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -3543,7 +3543,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
         <p>Datum waarop de contactrecord voor het laatst is gewijzigd, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-09-05 05:17:53,000</p>
+        <p>2018-09-05 05 :17: 53.000</p>
       </td>
     </tr>
     <tr>
@@ -3553,7 +3553,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
         <p>De datum waarop de contactpersoonrecord is gemaakt, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-09-05 05:17:51,000</p>
+        <p>2018-09-05 05 :17: 51.000</p>
       </td>
     </tr>
     <tr>
@@ -3584,7 +3584,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       </td>
       <td>varchar</td>
       <td>
-        <p>Bron waarin de Lood werd gecreeerd.</p>
+        <p>Source waarin de lead is gemaakt.</p>
       </td>
       <td>
         <p>Advertisatie</p>
@@ -3596,7 +3596,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       </td>
       <td>varchar</td>
       <td>
-        <p>Huidige fase van de contactpersoon, herkend als een aangepaste fase die kan worden gemaakt in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
+        <p>Het huidige werkgebied van de contactpersoon, herkend als een aangepast werkgebied dat in de [!DNL Marketo Measure] -toepassing kan worden gemaakt.</p>
       </td>
       <td>
         <p>demo gepland</p>
@@ -3608,7 +3608,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       </td>
       <td>varchar</td>
       <td>
-        <p>Alle vorige fasen van de contactpersoon, herkend als aangepaste stadia die kunnen worden gemaakt in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
+        <p>Alle vorige stadia voor de contactpersoon, herkend als aangepaste stadia die kunnen worden gemaakt in de [!DNL Marketo Measure] -toepassing.</p>
       </td>
       <td>
         <p>Openen - Contactpersoon</p>
@@ -3634,7 +3634,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       </td>
       <td>varchar</td>
       <td>
-        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
+        <p>De [!DNL Marketo Measure] cookie-id die wordt gebruikt om een integratiepartner te laten vullen en een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -3686,19 +3686,19 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td><b>*</b> JOB_TITLE</td>
@@ -3709,7 +3709,7 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
   </tbody>
 </table>
 <p>
-<b>*</b> <i>Alleen beschikbaar in Marketo Measure Ultimate</i>
+<b> * </b> <i> slechts beschikbaar in Marketo Measure Ultimate </i>
 <p>
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
@@ -3746,13 +3746,13 @@ Wisselkoersen die uit het bronsysteem zijn geïmporteerd.
       <td>START_DATE</td>
       <td>timestamp_ntz</td>
       <td>Begindatum van het conversietarief.</td>
-      <td>2018-11-01:00:00,000</td>
+      <td>2018-11-01 00 :00: 00.000</td>
     </tr>
     <tr>
       <td>END_DATE</td>
       <td>timestamp_ntz</td>
       <td>De volgende begindatum voor het Tarief van de Omzetting. (De einddatum voor het Tarief van de Omzetting is end_date minus 1 dag.)</td>
-      <td>2018-09-01:00:00,000</td>
+      <td>2018-09-01 00 :00: 00.000</td>
     </tr>
     <tr>
       <td>CONVERSION_RATE</td>
@@ -3770,13 +3770,13 @@ Wisselkoersen die uit het bronsysteem zijn geïmporteerd.
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in het bronsysteem.</td>
-      <td>2019-03-30 00:54:50 000</td>
+      <td>2019-03-30 0:54: 50.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum waarop de record voor het laatst is gewijzigd in het bronsysteem.</td>
-      <td>2019-03-30 00:54:50 000</td>
+      <td>2019-03-30 0:54: 50.000</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
@@ -3788,19 +3788,19 @@ Wisselkoersen die uit het bronsysteem zijn geïmporteerd.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -3827,18 +3827,18 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst is gewijzigd.</td>
-      <td>2018-09-06 12:22:45,000</td>
+      <td>2018-09-06 12 :22: 45.000</td>
     </tr>
     <tr>
       <td>COST_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum waarop de kosten zijn gemaakt (of toegerekend aan).</td>
-      <td>2018-09-06 00:00:00,000</td>
+      <td>2018-09-06 00 :00: 00.000</td>
     </tr>
     <tr>
-      <td>BRON</td>
+      <td>SOURCE</td>
       <td>varchar</td>
-      <td>Bron van de gerapporteerde kosten.</td>
+      <td>Source van de gerapporteerde kosten.</td>
       <td>[Weergave Advertenties]</td>
     </tr>
     <tr>
@@ -3874,13 +3874,13 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
     <tr>
       <td>CHANNEL_UNIQUE_ID</td>
       <td>varchar</td>
-      <td>Id voor het marketingkanaal, gemaakt door [!DNL Marketo Measure].</td>
+      <td>Id voor het marketingkanaal, gemaakt door [!DNL Marketo Measure] .</td>
       <td>Display.Google</td>
     </tr>
     <tr>
       <td>CHANNEL_NAME</td>
       <td>varchar</td>
-      <td>Naam voor het marketingkanaal, gemaakt door de klant in het dialoogvenster [!DNL Marketo Measure] app.</td>
+      <td>Naam voor het marketingkanaal dat door de klant in de app [!DNL Marketo Measure] is gemaakt.</td>
       <td>Display.Google</td>
     </tr>
     <tr>
@@ -4234,7 +4234,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
     <tr>
       <td>SOURCE_ID</td>
       <td>varchar</td>
-      <td>Id voor de bron waarvan de record afkomstig is.</td>
+      <td>Id voor de Source waarvan de record afkomstig is.</td>
       <td>aw.3284209</td>
     </tr>
     <tr>
@@ -4313,19 +4313,19 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -4487,7 +4487,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:25,000</p>
+        <p>2018-08-02 06 :36: 25.000</p>
       </td>
     </tr>
     <tr>
@@ -4499,7 +4499,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:25,000</p>
+        <p>2018-08-02 06 :36: 25.000</p>
       </td>
     </tr>
     <tr>
@@ -4522,7 +4522,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>boolean</p>
       </td>
       <td>
-        <p>Of Creative moet worden bijgewerkt voor [!DNL Marketo Measure] labelen.</p>
+        <p>Of Creative Cloud moet worden bijgewerkt voor [!DNL Marketo Measure] -tags.</p>
         <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>
@@ -4603,7 +4603,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Waarmee wordt de URL ingericht [!DNL Marketo Measure] parameters.</p>
+        <p>Wat de URL zal worden versierd met [!DNL Marketo Measure] parameters.</p>
         <p>(Diagnostisch veld, voor interne verwerking.)</p>
       </td>
       <td></td>
@@ -4723,7 +4723,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>De aandeel-id. (Alleen gebruikt voor LinkedIn-advertenties.)</p>
       </td>
       <td>
-        <p>urn:li:delen:6376987561897848832</p>
+        <p>urn :li: aandeel:6376987561897848832</p>
       </td>
     </tr>
     <tr>
@@ -4740,19 +4740,19 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -4786,7 +4786,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
         <p>De datum waarop de gebeurtenis is gemaakt, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2016-12-12 19:32:53,000</p>
+        <p>2016-12-12 19 :32: 53.000</p>
       </td>
     </tr>
     <tr>
@@ -4796,7 +4796,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
         <p>Datum waarop de gebeurtenis voor het laatst is gewijzigd, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-09-03 08:39:51,000</p>
+        <p>2018-09-03 08 :39: 51.000</p>
       </td>
     </tr>
     <tr>
@@ -4851,7 +4851,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
       </td>
       <td>varchar</td>
       <td>
-        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
+        <p>De [!DNL Marketo Measure] cookie-id die wordt gebruikt om een integratiepartner te laten vullen en een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -4878,7 +4878,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
         <p>Begindatum voor de gebeurtenis, een van de opties die wordt gebruikt om de datum van het aanraakpunt te bepalen.</p>
       </td>
       <td>
-        <p>2016-12-16 19:30:00,000</p>
+        <p>2016-12-16 19 :30:.000</p>
       </td>
     </tr>
     <tr>
@@ -4890,7 +4890,7 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
         <p>Einddatum voor de gebeurtenis, een van de opties die wordt gebruikt om de datum van het aanraakpunt te bepalen.</p>
       </td>
       <td>
-        <p>2016-12-16:30:00,000</p>
+        <p>2016-12-16 21 :30: 00.000</p>
       </td>
     </tr>
     <tr>
@@ -4908,26 +4908,26 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Aangepaste eigenschappen die [!DNL Marketo Measure] heeft vanuit het bronsysteem geïmporteerd, in JSON-indeling.</td>
+      <td>Aangepaste eigenschappen die [!DNL Marketo Measure] uit het bronsysteem heeft geïmporteerd, in JSON-indeling.</td>
       <td>{"Contact_Type__c":"CMO","Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -4961,7 +4961,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
         <p>Datum de Taak werd gecreeerd, van het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-27 18:30:25,000</p>
+        <p>2018-08-27 18 :30: 25.000</p>
       </td>
     </tr>
     <tr>
@@ -4971,7 +4971,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
         <p>Datum de Taak werd het laatst gewijzigd, van het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-27 18:31:53,000</p>
+        <p>2018-08-27 18 :31: 53.000</p>
       </td>
     </tr>
     <tr>
@@ -5026,7 +5026,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
       </td>
       <td>varchar</td>
       <td>
-        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
+        <p>De [!DNL Marketo Measure] cookie-id die wordt gebruikt om een integratiepartner te laten vullen en een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -5053,7 +5053,7 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
         <p>De datum waarop de taak is uitgevoerd, is een van de opties die zijn gebruikt om de datum van het aanraakpunt te bepalen.</p>
       </td>
       <td>
-        <p>2018-08-27 07:00:00,000</p>
+        <p>2018-08-27 07 :00: 00.000</p>
       </td>
     </tr>
     <tr>
@@ -5071,26 +5071,26 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Aangepaste eigenschappen die [!DNL Marketo Measure] heeft vanuit het bronsysteem geïmporteerd, in JSON-indeling.</td>
+      <td>Aangepaste eigenschappen die [!DNL Marketo Measure] uit het bronsysteem heeft geïmporteerd, in JSON-indeling.</td>
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -5136,26 +5136,26 @@ Tabel van alle ISO-valuta&#39;s.
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum waarop de record voor het laatst is gewijzigd in [!DNL Marketo Measure].</td>
-      <td>2018-08-27 18:30:25,000</td>
+      <td>De datum waarop de record voor het laatst is gewijzigd in [!DNL Marketo Measure] .</td>
+      <td>2018-08-27 18 :30: 25.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE_CRM</td>
       <td>timestamp_ntz</td>
       <td>Datum waarop de record voor het laatst is gewijzigd in het bronsysteem.</td>
-      <td>2018-08-27 18:30:25,000</td>
+      <td>2018-08-27 18 :30: 25.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in [!DNL Marketo Measure]</td>
-      <td>2018-08-27 18:30:25,000</td>
+      <td>2018-08-27 18 :30: 25.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE_CRM</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in het bronsysteem.</td>
-      <td>2018-08-27 18:30:25,000</td>
+      <td>2018-08-27 18 :30: 25.000</td>
     </tr>
     <tr>
       <td>ISO_NUMERIC</td>
@@ -5179,19 +5179,19 @@ Tabel van alle ISO-valuta&#39;s.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -5236,13 +5236,13 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>
         <p>De datum waarop de chat is geregistreerd.</p>
       </td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
@@ -5318,26 +5318,26 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_CUSTOMER_EVENTS {#biz-customer-events}
 
-Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zijn geregistreerd. Deze tabel is leeg als [!DNL Marketo Measure] Gebeurtenissen zijn niet ingeschakeld.
+Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zijn geregistreerd. Deze tabel is leeg als [!DNL Marketo Measure] Gebeurtenissen niet zijn ingeschakeld.
 
 <table>
   <tbody>
@@ -5375,13 +5375,13 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
       <td>
         <p>De datum waarop de gebeurtenis is geactiveerd vanuit het aangepaste javascript.</p>
       </td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De laatste datum waarop de record is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>
@@ -5429,19 +5429,19 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -5664,19 +5664,19 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -5698,7 +5698,7 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
       <td>varchar</td>
       <td>Een unieke id voor de record.</td>
       <td>
-        <p>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13 000</p>
+        <p>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17 :22: 13.000</p>
       </td>
     </tr>
     <tr>
@@ -5732,7 +5732,7 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
         <p>De laatste gewijzigde datum van de rij</p>
       </td>
       <td>
-        <p>2018-08-14:55:03,000</p>
+        <p>2018-08-14 23 :55: 3.000</p>
       </td>
     </tr>
     <tr>
@@ -5742,7 +5742,7 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
         <p>De gemaakte datum van de rij</p>
       </td>
       <td>
-        <p>2018-08-14:55:03,000</p>
+        <p>2018-08-14 23 :55: 3.000</p>
       </td>
     </tr>
     <tr>
@@ -5769,30 +5769,30 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_FACTS {#biz-facts}
 
-Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulieren, aanraakpunten voor gebruikers, aanraakpunten (BT), aanraakpunten (BAT) en kostengegevens. Wordt intern gebruikt voor ondersteuning [!DNL Marketo Measure] rapportage.
+Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulieren, aanraakpunten voor gebruikers, aanraakpunten (BT), aanraakpunten (BAT) en kostengegevens. Wordt intern gebruikt ter ondersteuning van [!DNL Marketo Measure] -rapportage.
 
 >[!IMPORTANT]
 >
->Marketo Measure zal deze tabel medio 2024 afschaffen. Als u deze aan uw zijde wilt maken, voert u [deze SQL-query](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure zal deze tabel medio 2024 afschaffen. Als u wenst om het op uw kant tot stand te brengen, stel [ deze SQL vraag ](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql) in werking.
 
 <table>
   <tbody>
@@ -6113,7 +6113,7 @@ Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulier
     <tr>
       <td>TYPE</td>
       <td>getal (38,0)</td>
-      <td>Geeft het gebeurtenistype van de rij aan. 1 = Aanraakpunt voor koperkenmerk 2 = Kosten 3 = Aanraakpunt voor koper 4 = Aanraakpunt voor gebruiker 5 = Paginaweergave 6 = Zitting 7 = Formulier verzenden 8 = Impressie</td>
+      <td>Geeft het gebeurtenistype van de rij aan. 1 = Buyer Attribution Touchpoint 2 = Cost 3 = Buyer Touchpoint 4 = User Touchpoint 5 = Page View 6 = Session 7 = Form Submit 8 = Impression</td>
       <td>3</td>
     </tr>
     <tr>
@@ -6126,7 +6126,7 @@ Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulier
       <td>TIJDSTEMPEL</td>
       <td>timestamp_ntz</td>
       <td>Datum en tijd waarop de gebeurtenis heeft plaatsgevonden.</td>
-      <td>2018-08-28 19:39:15 000</td>
+      <td>2018-08-28 19 :39: 15.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -6135,7 +6135,7 @@ Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulier
         <p>De datum waarop de rij voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-29:46:47,000</p>
+        <p>2018-08-29 00 :46: 47.000</p>
       </td>
     </tr>
     <tr>
@@ -6321,7 +6321,7 @@ Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulier
         <p>De datum waarop de Opportunity is gemaakt, vanuit het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-31 15:45:47,000</p>
+        <p>2018-08-31 15 :45: 47.000</p>
       </td>
     </tr>
     <tr>
@@ -6333,7 +6333,7 @@ Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulier
         <p>Dichte datum voor de Kans, van het bronsysteem.</p>
       </td>
       <td>
-        <p>12-31-07:00:00,000</p>
+        <p>2018-12-31 07 :00: 00.000</p>
       </td>
     </tr>
     <tr>
@@ -6344,7 +6344,7 @@ Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulier
       <td>
         <p>De datum waarop de contactpersoonrecord is gemaakt, via het bronsysteem.</p>
       </td>
-      <td>2017-04-28 00:21:52,000</td>
+      <td>2017-04-28 00 :21: 52.000</td>
     </tr>
     <tr>
       <td>CONTACT_ID</td>
@@ -6371,7 +6371,7 @@ Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulier
         <p>De datum waarop de lead-record is gemaakt, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2017-04-28 00:21:52,000</p>
+        <p>2017-04-28 00 :21: 52.000</p>
       </td>
     </tr>
     <tr>
@@ -6544,19 +6544,19 @@ Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulier
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -6630,7 +6630,7 @@ Vastgelegde formulierverzendingen.
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
       <td>
-        <p>2018-08-06:35:21 000</p>
+        <p>2018-08-06 01 :35: 21.000</p>
       </td>
     </tr>
     <tr>
@@ -6640,7 +6640,7 @@ Vastgelegde formulierverzendingen.
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-07 23:09:52,000</p>
+        <p>2018-08-07 23 :09: 52.000</p>
       </td>
     </tr>
     <tr>
@@ -6813,19 +6813,19 @@ Vastgelegde formulierverzendingen.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -6849,7 +6849,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
         <p>Een unieke id voor de afdruk.</p>
       </td>
       <td>
-        <p>6acd7b43290490fe5c53eed31281d09a|2020-05-18:22:20:59|0000|0|2869369052</p>
+        <p>6acd7b43290490fe5c53eed31281d09a|2020-05-18:22: 20:59|000|0|286936905 2</p>
       </td>
     </tr>
     <tr>
@@ -6890,7 +6890,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>De datum waarop de depressie is opgetreden.</p>
       </td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -6898,7 +6898,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>
@@ -7064,7 +7064,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       </td>
       <td>varchar</td>
       <td>
-        <p>Advertentieplatform [!DNL Marketo Measure] was in staat om op te lossen van, typisch één van onze integratiepartners.</p>
+        <p>Adplatform [!DNL Marketo Measure] kon oplossen van, typisch één van onze integratiepartners.</p>
       </td>
       <td>Google</td>
     </tr>
@@ -7329,7 +7329,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
         <p>Van javascript en IP adres, ontdekte browser dat de gebruiker tijdens de zitting was.</p>
       </td>
       <td>
-        <p>Chroom</p>
+        <p>Chrome</p>
       </td>
     </tr>
     <tr>
@@ -7454,19 +7454,19 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -7629,7 +7629,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
-      <td>2018-08-02 06:37:29,000</td>
+      <td>2018-08-02 06 :37: 29.000</td>
     </tr>
     <tr>
       <td>
@@ -7640,7 +7640,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
       <td>
-        <p>2018-08-02 06:37:29,000</p>
+        <p>2018-08-02 06 :37: 29.000</p>
       </td>
     </tr>
     <tr>
@@ -7663,7 +7663,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
         <p>boolean</p>
       </td>
       <td>
-        <p>Of het trefwoord moet worden bijgewerkt voor [!DNL Marketo Measure] labelen.</p>
+        <p>Of het trefwoord moet worden bijgewerkt voor [!DNL Marketo Measure] -tags.</p>
         <p>(Diagnostisch veld, gebruikt voor interne verwerking.)</p>
       </td>
       <td>
@@ -7730,7 +7730,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>URL_REQUESTED</td>
       <td>varchar</td>
       <td>
-        <p>De URL voor de landingspagina met [!DNL Marketo Measure] parameters.</p>
+        <p>De URL voor de landingspagina met [!DNL Marketo Measure] -parameters.</p>
         <p>(Diagnostisch veld, voor interne verwerking.)</p>
       </td>
       <td></td>
@@ -7798,7 +7798,7 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
         <p>TRACKING_URL_TEMPLATE_APPLICAED</p>
       </td>
       <td>varchar</td>
-      <td>De URL-trackingsjabloon [!DNL Marketo Measure] toegevoegd aan het trefwoord.</td>
+      <td>De URL-volgsjabloon [!DNL Marketo Measure] die aan het trefwoord is toegevoegd.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
       </td>
@@ -7819,19 +7819,19 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -8038,19 +8038,19 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -8084,7 +8084,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
         <p>De datum waarop de lead-record voor het laatst is gewijzigd, via het bronsysteem.</p>
       </td>
       <td>
-        <p>2018-08-27:52:10 000</p>
+        <p>2018-08-27 21 :52: 10.000</p>
       </td>
     </tr>
     <tr>
@@ -8093,7 +8093,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>
         <p>De datum waarop de lead-record is gemaakt, via het bronsysteem.</p>
       </td>
-      <td>2018-08-27:52:10 000</td>
+      <td>2018-08-27 21 :52: 10.000</td>
     </tr>
     <tr>
       <td>
@@ -8135,7 +8135,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       </td>
       <td>varchar</td>
       <td>
-        <p>Bron waarin de Lood werd gecreeerd.</p>
+        <p>Source waarin de lead is gemaakt.</p>
       </td>
       <td>
         <p>Advertisatie</p>
@@ -8176,7 +8176,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
         <p>De datum waarop de lead is omgezet in een contactpersoon.</p>
       </td>
       <td>
-        <p>2018-08-27 07:00:00,000</p>
+        <p>2018-08-27 07 :00: 00.000</p>
       </td>
     </tr>
     <tr>
@@ -8209,7 +8209,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       </td>
       <td>varchar</td>
       <td>
-        <p>Huidige fase van de lead, herkend als een aangepaste fase die kan worden gemaakt in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
+        <p>Het huidige stadium van de lead, herkend als een aangepast werkgebied dat in de [!DNL Marketo Measure] -toepassing kan worden gemaakt.</p>
       </td>
       <td>
         <p>demo gepland</p>
@@ -8221,7 +8221,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       </td>
       <td>varchar</td>
       <td>
-        <p>Alle vorige stadia voor de lead, die worden herkend als aangepaste stadia die kunnen worden gemaakt in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
+        <p>Alle vorige fasen voor de lead, herkend als aangepaste stadia die kunnen worden gemaakt in de [!DNL Marketo Measure] -toepassing.</p>
       </td>
       <td>
         <p>MQL</p>
@@ -8271,7 +8271,7 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       </td>
       <td>varchar</td>
       <td>
-        <p>De [!DNL Marketo Measure] Cookie-id die wordt gebruikt om van een integratiepartner te vullen om een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
+        <p>De [!DNL Marketo Measure] cookie-id die wordt gebruikt om een integratiepartner te laten vullen en een offlinegebeurtenis toe te wijzen aan een websessie. Vereiste: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -8331,19 +8331,19 @@ Leads die zijn geïmporteerd uit het bronsysteem.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -8410,7 +8410,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id voor het aanraakpunt voor de koper dat aan de overgang is gekoppeld.</p>
+        <p>Id voor de Buyer Touchpoint die aan de overgang is gekoppeld.</p>
       </td>
       <td>
         <p>TP2_Person_00Q310001Fx6AlEAJ_2018-08-28:14-41-06-1674260.d00ceb09fbd3</p>
@@ -8425,7 +8425,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
         <p>Datum waarop de record naar het werkgebied is overgebracht.</p>
       </td>
       <td>
-        <p>2018-08-27 16:05:34,000</p>
+        <p>2018-08-27 16 :05: 34.000</p>
       </td>
     </tr>
     <tr>
@@ -8460,7 +8460,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
         <p>getal (38,0)</p>
       </td>
       <td>
-        <p>De numerieke positie van het werkgebied, zoals geordend in het deelvenster [!DNL Marketo Measure] Instellingen voor werkgebiedtoewijzing.</p>
+        <p>De numerieke positie van het werkgebied, zoals geordend in de instellingen voor werkgebiedtoewijzing van [!DNL Marketo Measure] .</p>
       </td>
       <td>
         <p>5</p>
@@ -8529,7 +8529,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
         <p>Overgangsdatum voor de vorige fase, volgens de positie van het werkgebied.</p>
       </td>
       <td>
-        <p>2017-11-28:26:44,000</p>
+        <p>2017-11-28 21 :26: 44.000</p>
       </td>
     </tr>
     <tr>
@@ -8541,7 +8541,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
         <p>Overgangsdatum voor de volgende fase, volgens de positie van het werkgebied.</p>
       </td>
       <td>
-        <p>22-12-11 22:39:17 000</p>
+        <p>2017-12-11 22 :39: 17.000</p>
       </td>
     </tr>
     <tr>
@@ -8551,7 +8551,7 @@ Werkgebiedovergangen voor leads of contactpersonen.
         <p>Datum van laatste wijziging van de record.</p>
       </td>
       <td>
-        <p>2018-08-28 15:31:10 000</p>
+        <p>2018-08-28 15 :31: 10.000</p>
       </td>
     </tr>
     <tr>
@@ -8572,19 +8572,19 @@ Werkgebiedovergangen voor leads of contactpersonen.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -8617,7 +8617,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>De laatste gewijzigde datum van de Kans, van het bronsysteem.</p>
       </td>
-      <td>2017-11-28:26:44,000</td>
+      <td>2017-11-28 21 :26: 44.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
@@ -8625,7 +8625,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>
         <p>De gecreeerde datum van de Kans, van het bronsysteem.</p>
       </td>
-      <td>2017-11-28:26:44,000</td>
+      <td>2017-11-28 21 :26: 44.000</td>
     </tr>
     <tr>
       <td>
@@ -8688,7 +8688,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
         <p>Verwacht of daadwerkelijke sluitingsdatum van de Kans, van het bronsysteem.</p>
       </td>
       <td>
-        <p>2019-08-28 07:00:00,000</p>
+        <p>2019-08-28 07 :00: 00.000</p>
       </td>
     </tr>
     <tr>
@@ -8787,7 +8787,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       </td>
       <td>varchar</td>
       <td>
-        <p>Huidige fase van de opportunity, zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
+        <p>Huidige fase van de Opportunity, zoals gedefinieerd in de [!DNL Marketo Measure] -toepassing.</p>
       </td>
       <td>
         <p>DM Demo</p>
@@ -8799,7 +8799,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
       </td>
       <td>varchar</td>
       <td>
-        <p>Een tekenreeks met alle fasen die de opportunity eerder heeft doorlopen, zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
+        <p>Een tekenreeks met alle fasen die de Opportunity eerder heeft doorlopen, zoals gedefinieerd in de [!DNL Marketo Measure] -toepassing.</p>
       </td>
       <td>
         <p>Gekwalificeerde detectie, demo gepland</p>
@@ -8853,22 +8853,22 @@ Kansen die uit het bronsysteem worden ingevoerd.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
-      <td><b>*</b> OPPORTUNITY_TYPE</td>
+      <td><b>*</b> MOPPORTUNITY_TYPE</td>
       <td>varchar</td>
       <td>Type van Kans, zoals Nieuwe Zaken, Verlenging, enz.</td>
       <td>Verlenging, vooruitzichten</td>
@@ -8876,7 +8876,7 @@ Kansen die uit het bronsysteem worden ingevoerd.
   </tbody>
 </table>
 <p>
-<b>*</b> <i>Alleen beschikbaar in Marketo Measure Ultimate</i>
+<b> * </b> <i> slechts beschikbaar in Marketo Measure Ultimate </i>
 <p>
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
@@ -8953,7 +8953,7 @@ Werkgebiedovergangen voor opportunity.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id voor het aanraakpunt voor koperkenmerken dat aan de overgang is gekoppeld.</p>
+        <p>Id voor de Buyer Attribution Touchpoint die aan de overgang is gekoppeld.</p>
       </td>
       <td>
         <p>BAT2_0060Z0000nEgjlQAC_0030Z0003IjojKQAR_2018-06-01:19-51-38-1685390.beb eg556e7757</p>
@@ -8968,7 +8968,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Datum waarop de record naar het werkgebied is overgebracht.</p>
       </td>
       <td>
-        <p>2018-05-26:29:43,000</p>
+        <p>2018-05-26 07 :29: 43.000</p>
       </td>
     </tr>
     <tr>
@@ -9003,7 +9003,7 @@ Werkgebiedovergangen voor opportunity.
         <p>getal (38,0)</p>
       </td>
       <td>
-        <p>De numerieke positie van het werkgebied, zoals geordend in het deelvenster [!DNL Marketo Measure] Instellingen voor werkgebiedtoewijzing.</p>
+        <p>De numerieke positie van het werkgebied, zoals geordend in de instellingen voor werkgebiedtoewijzing van [!DNL Marketo Measure] .</p>
       </td>
       <td>
         <p>4</p>
@@ -9070,7 +9070,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Overgangsdatum voor de vorige fase, volgens de positie van het werkgebied.</p>
       </td>
       <td>
-        <p>2015-07-16 17:41:49,000</p>
+        <p>2015-07-16 :41: 49.000</p>
       </td>
     </tr>
     <tr>
@@ -9082,7 +9082,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Overgangsdatum voor de volgende fase, volgens de positie van het werkgebied.</p>
       </td>
       <td>
-        <p>2018-08-27 19:40:52,000</p>
+        <p>2018-08-27 19 :40: 52.000</p>
       </td>
     </tr>
     <tr>
@@ -9092,7 +9092,7 @@ Werkgebiedovergangen voor opportunity.
         <p>Datum van laatste wijziging van de record.</p>
       </td>
       <td>
-        <p>2018-08-28 03:53:33,000</p>
+        <p>2018-08-28 03 :53: 33.000</p>
       </td>
     </tr>
     <tr>
@@ -9113,19 +9113,19 @@ Werkgebiedovergangen voor opportunity.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -9197,7 +9197,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
         <p>De datum waarop de paginaweergave is opgetreden.</p>
       </td>
       <td>
-        <p>2018-08-19 16:49:58,000</p>
+        <p>2018-08-19 16 :49: 58.000</p>
       </td>
     </tr>
     <tr>
@@ -9207,7 +9207,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-19 16:55:37,000</p>
+        <p>2018-08-19 16 :55: 37.000</p>
       </td>
     </tr>
     <tr>
@@ -9394,19 +9394,19 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -9479,7 +9479,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>Naam van de Adverteerder voor de Plaatsing, specifiek voor Doubleclick.</p>
       </td>
-      <td>[!DNL Marketo Measure] Analyse</td>
+      <td>[!DNL Marketo Measure] Analytics</td>
     </tr>
     <tr>
       <td>
@@ -9551,7 +9551,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
-      <td>2018-08-02 06:36:25,000</td>
+      <td>2018-08-02 06 :36: 25.000</td>
     </tr>
     <tr>
       <td>
@@ -9561,7 +9561,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
-      <td>2018-08-02 06:36:25,000</td>
+      <td>2018-08-02 06 :36: 25.000</td>
     </tr>
     <tr>
       <td>
@@ -9581,7 +9581,7 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
         <p>boolean</p>
       </td>
       <td>
-        <p>Of de plaatsing moet worden bijgewerkt [!DNL Marketo Measure] labelen.</p>
+        <p>Of de plaatsing moet worden bijgewerkt voor [!DNL Marketo Measure] -tags.</p>
         <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>false</td>
@@ -9630,26 +9630,26 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Door de Snowflake gemaakte datum van de record</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Gewijzigde datum van de record van de Snowflake</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake heeft de verwijderde datum van de record indien deze verwijderd is</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_SEGMENTEN {#biz-segments}
 
-Segmentwaarden zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] toepassing.
+Segmentwaarden zoals gedefinieerd in de [!DNL Marketo Measure] -toepassing.
 
 <table>
   <tbody>
@@ -9699,19 +9699,19 @@ Segmentwaarden zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] t
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -9747,7 +9747,7 @@ Wijst de naam van het douanesegment aan het zijn categoriewaarde toe. (Hiermee w
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2022-02-28 18:12:35,000</p>
+        <p>2022-02-28 18 :12: 35.000</p>
       </td>
     </tr>
     <tr>
@@ -9778,19 +9778,19 @@ Wijst de naam van het douanesegment aan het zijn categoriewaarde toe. (Hiermee w
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -9846,7 +9846,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Datum van de sessie.</p>
       </td>
       <td>
-        <p>2016-08-01 14:24:21 000</p>
+        <p>2016-08-01 14 :24: 21.000</p>
       </td>
     </tr>
     <tr>
@@ -9858,7 +9858,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-09-01 03:49:10 000</p>
+        <p>2018-09-01 03 :49: 10.000</p>
       </td>
     </tr>
     <tr>
@@ -9873,7 +9873,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       </td>
       <td>varchar</td>
       <td>
-        <p>Kanaal dat is toegewezen aan de sessie, zoals gedefinieerd in de kanaaldefinities die zijn ingesteld in het dialoogvenster [!DNL Marketo Measure] toepassing.</p>
+        <p>Kanaal dat is toegewezen aan de sessie, zoals gedefinieerd door de kanaaldefinities die zijn ingesteld in de toepassing [!DNL Marketo Measure] .</p>
       </td>
       <td>
         <p>Betaalde zoekopdracht.Advertentiewoorden</p>
@@ -9888,7 +9888,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Naam van de webpagina.</p>
       </td>
       <td>
-        <p>Salesforce-Googles Analytics | [!DNL Marketo Measure]</p>
+        <p>Salesforce Googles Analytics | [!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -9969,7 +9969,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       </td>
       <td>varchar</td>
       <td>
-        <p>Hiermee definieert u de bron die het resultaat is van de sessie. Dit kan vanuit de URL worden geparseerd vanaf utm_source of worden ingesteld op een Ad Provider als [!DNL Marketo Measure] kan een advertentie oplossen.</p>
+        <p>Hiermee definieert u de bron die het resultaat is van de sessie. Dit kan vanaf utm_source worden geparseerd of worden ingesteld op een advertentieprovider als [!DNL Marketo Measure] een advertentie kan oplossen.</p>
       </td>
       <td>
         <p>Google AdWords</p>
@@ -10049,7 +10049,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       </td>
       <td>varchar</td>
       <td>
-        <p>Het advertentieplatform [!DNL Marketo Measure] is opgelost door een van onze integratiepartners.</p>
+        <p>Het advertentieplatform [!DNL Marketo Measure] is opgelost, meestal een van onze integratiepartners.</p>
       </td>
       <td>
         <p>Google</p>
@@ -10196,7 +10196,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Naam van de advertentiegroep waaruit de advertentie is opgelost. Dit geldt alleen voor Google Adwords.</p>
       </td>
       <td>
-        <p>Salesforce - Googles Analytics</p>
+        <p>SALESFORCE - GOOGLES ANALYTICS</p>
       </td>
     </tr>
     <tr>
@@ -10240,7 +10240,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>De naam van de Creative the Ad is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
-        <p>Integreer GA en Salesforce</p>
+        <p>Integratie van GA en Salesforce</p>
       </td>
     </tr>
     <tr>
@@ -10341,7 +10341,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
     </tr>
     <tr>
       <td>
-        <p>BRON</p>
+        <p>SOURCE</p>
       </td>
       <td>varchar</td>
       <td>
@@ -10360,7 +10360,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Geparseerd van URL van utm_medium.</p>
       </td>
       <td>
-        <p>Social</p>
+        <p>Sociaal</p>
       </td>
     </tr>
     <tr>
@@ -10537,19 +10537,19 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -10698,7 +10698,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
-      <td>2018-08-02 06:37:29,000</td>
+      <td>2018-08-02 06 :37: 29.000</td>
     </tr>
     <tr>
       <td>
@@ -10708,7 +10708,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>
         <p>Datum waarop de record voor het eerst uit het bronsysteem is geïmporteerd.</p>
       </td>
-      <td>2018-08-02 06:37:29,000</td>
+      <td>2018-08-02 06 :37: 29.000</td>
     </tr>
     <tr>
       <td>
@@ -10728,7 +10728,7 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
         <p>boolean</p>
       </td>
       <td>
-        <p>Of de Site moet worden bijgewerkt [!DNL Marketo Measure] labelen.</p>
+        <p>Of de site moet worden bijgewerkt voor [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostisch veld, gebruikt voor interne verwerking.)</p>
       </td>
       <td>false</td>
@@ -10779,19 +10779,19 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -10955,7 +10955,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
         <p>De laatste gewijzigde datum van de rij</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:50 000</p>
+        <p>2018-08-02 06 :36: 50.000</p>
       </td>
     </tr>
     <tr>
@@ -10967,7 +10967,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
         <p>De datum waarop de sitekoppeling voor het eerst is gedownload [!DNL Marketo Measure]</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:50 000</p>
+        <p>2018-08-02 06 :36: 50.000</p>
       </td>
     </tr>
     <tr>
@@ -11059,7 +11059,7 @@ Plaatst koppelingen van een verbonden advertentiekader.
       </td>
       <td>varchar</td>
       <td>
-        <p>Waarmee wordt de URL ingericht [!DNL Marketo Measure] parameters.</p>
+        <p>Wat de URL zal worden versierd met [!DNL Marketo Measure] parameters.</p>
         <p>(Diagnostisch veld, voor interne verwerking.)</p>
       </td>
       <td></td>
@@ -11068,26 +11068,26 @@ Plaatst koppelingen van een verbonden advertentiekader.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Door de Snowflake gemaakte datum van de record</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Gewijzigde datum van de record van de Snowflake</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake heeft de verwijderde datum van de record indien deze verwijderd is</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_STAGE_DEFINITIONS {#biz-stage-definitions}
 
-Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL Marketo Measure] toepassing.
+Lijst met stadia die worden geïmporteerd of gedefinieerd in de [!DNL Marketo Measure] -toepassing.
 
 <table>
   <tbody>
@@ -11114,7 +11114,7 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-08-22 17:27:27 000</p>
+        <p>2018-08-22 17 :27: 27.000</p>
       </td>
     </tr>
     <tr>
@@ -11187,7 +11187,7 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
       </td>
       <td>varchar</td>
       <td>
-        <p>Status van het werkgebied, zoals gedefinieerd in het dialoogvenster [!DNL Marketo Measure] werkgebiedtoewijzing van de toepassing.</p>
+        <p>Status van het werkgebied, zoals gedefinieerd in de werkgebiedtoewijzing van de [!DNL Marketo Measure] -toepassing.</p>
       </td>
       <td>
         <p>Openen</p>
@@ -11251,19 +11251,19 @@ Lijst met stadia zoals geïmporteerd of gedefinieerd in het dialoogvenster [!DNL
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -11284,7 +11284,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
        <td>ID</td>
       <td>varchar</td>
       <td>
-        <p>Een unieke id voor het aanraakpunt voor kopers (BT).</p>
+        <p>Een unieke id voor de Buyer Touchpoint (BT).</p>
       </td>
       <td>
         <p>TP2_Person_00Q0Z000013e2PYUAY_2018-08-27:20-04-40-5655690.1ee8567c175a</p>
@@ -11297,7 +11297,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>22-08-29 22:29:30 000</p>
+        <p>2018-08-29 22 :29: 30.000</p>
       </td>
     </tr>
     <tr>
@@ -11381,7 +11381,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>Datum van het aanraakpunt.</p>
       </td>
       <td>
-        <p>2018-08-27:04:40 000</p>
+        <p>2018-08-27 20 :04: 40.000</p>
       </td>
     </tr>
     <tr>
@@ -11402,7 +11402,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>Het kanaal waarin het aanraakpunt valt, zoals gedefinieerd in de aangepaste kanaaldefinities in het dialoogvenster [!DNL Marketo Measure] App. Wordt in de CRM aangeduid als "Marketing Channel - Path".</p>
+        <p>Het kanaal waarin het aanraakpunt valt, zoals gedefinieerd in de aangepaste kanaaldefinities in de app [!DNL Marketo Measure] . Wordt in de CRM aangeduid als "Marketing Channel - Path".</p>
       </td>
       <td>Social.LinkedIn</td>
     </tr>
@@ -11412,7 +11412,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>De segmentwaarde voor de eerste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
+        <p>De segmentwaarde voor de eerste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</p>
       </td>
       <td>ABC</td>
     </tr>
@@ -11422,7 +11422,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>De segmentwaarde voor de tweede categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
+        <p>De segmentwaarde voor de tweede categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</p>
       </td>
       <td>
         <p>Ja</p>
@@ -11434,7 +11434,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>De segmentwaarde voor de derde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
+        <p>De segmentwaarde voor de derde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</p>
       </td>
       <td>
         <p>Anders</p>
@@ -11446,7 +11446,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>De segmentwaarde voor de vierde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
+        <p>De segmentwaarde voor de vierde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</p>
       </td>
       <td>
         <p>Partner</p>
@@ -11458,7 +11458,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>De segmentwaarde voor de vijfde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
+        <p>De segmentwaarde voor de vijfde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</p>
       </td>
       <td></td>
     </tr>
@@ -11468,7 +11468,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>De segmentwaarde voor de zesde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
+        <p>De segmentwaarde voor de zesde categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</p>
       </td>
       <td></td>
     </tr>
@@ -11477,7 +11477,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>CATEGORIE7</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de zevende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de zevende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -11485,7 +11485,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>CATEGORIE8</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de achtste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de achtste categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -11493,7 +11493,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>CATEGORIE9</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de 9de categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de 9de categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -11501,7 +11501,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>CATEGORIE10</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de tiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de tiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -11509,7 +11509,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>CATEGORIE11</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de 11e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de 11e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -11517,7 +11517,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>CATEGORIE12</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de 12e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de 12e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -11525,7 +11525,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>CATEGORIE13</p>
       </td>
       <td>varchar</td>
-      <td>De segmentwaarde voor de dertiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</td>
+      <td>De segmentwaarde voor de dertiende categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</td>
       <td></td>
     </tr>
     <tr>
@@ -11534,7 +11534,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>De segmentwaarde voor de 14e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
+        <p>De segmentwaarde voor de 14e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</p>
       </td>
       <td></td>
     </tr>
@@ -11544,7 +11544,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>De segmentwaarde voor de 15e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities binnen de [!DNL Marketo Measure] App. In de CRM aangeduid als "Segmenten".</p>
+        <p>De segmentwaarde voor de 15e categorie waarin het aanraakpunt valt, zoals gedefinieerd in de segmentdefinities in de [!DNL Marketo Measure] -app. In de CRM aangeduid als "Segmenten".</p>
       </td>
       <td></td>
     </tr>
@@ -11556,7 +11556,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>
         <p>Van javascript en IP adres, ontdekte browser dat de gebruiker tijdens de zitting was.</p>
       </td>
-      <td>Chroom</td>
+      <td>Chrome</td>
     </tr>
     <tr>
       <td>
@@ -11665,7 +11665,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
       <td>
-        <p>01-06-20:06:41,000</p>
+        <p>2017-06-20 01 :06: 41.000</p>
       </td>
     </tr>
     <tr>
@@ -11710,10 +11710,10 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>Hiermee definieert u het medium dat tot het aanraakpunt heeft geleid. Dit kan worden geparseerd vanaf de URL vanaf utm_medium. Of, als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "cpc" of "display".</p>
+        <p>Hiermee definieert u het medium dat tot het aanraakpunt heeft geleid. Dit kan worden geparseerd vanaf de URL vanaf utm_medium. Of als [!DNL Marketo Measure] een advertentie kan oplossen, kan het waarden zijn zoals "cpc" of "display".</p>
       </td>
       <td>
-        <p>Social</p>
+        <p>Sociaal</p>
       </td>
     </tr>
     <tr>
@@ -11722,7 +11722,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campagne van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "Google AdWords" of "Facebook". In de CRM wordt "aanraakpuntbron" genoemd.</p>
+        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campaign van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] een advertentie kan oplossen, kan het waarden zoals "Google AdWords"of "Facebook zijn." Wordt in de CRM aangeduid als "Touchpoint Source".</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -11746,7 +11746,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>Advertentieplatform [!DNL Marketo Measure] was in staat om op te lossen van, typisch één van onze integratiepartners.</p>
+        <p>Adplatform [!DNL Marketo Measure] kon oplossen van, typisch één van onze integratiepartners.</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -12311,19 +12311,19 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -12386,19 +12386,19 @@ Samenvoeging van URL&#39;s van bestemmingspagina&#39;s, verwijzingspagina&#39;s,
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
@@ -12432,7 +12432,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2018-09-05 23:30:53,000</p>
+        <p>2018-09-05 23 :30: 53.000</p>
       </td>
     </tr>
     <tr>
@@ -12532,7 +12532,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>De datum waarop het aanraakpunt voor de gebruiker is opgetreden.</p>
       </td>
       <td>
-        <p>2018-01-05 16:47:02,000</p>
+        <p>2018-01-05 16 :47: 02.000</p>
       </td>
     </tr>
     <tr>
@@ -12553,7 +12553,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
       <td>varchar</td>
       <td>
-        <p>Het kanaal waarin het aanraakpunt valt, zoals gedefinieerd in de aangepaste kanaaldefinities in het dialoogvenster [!DNL Marketo Measure] App. Wordt in de CRM aangeduid als "Marketing Channel - Path".</p>
+        <p>Het kanaal waarin het aanraakpunt valt, zoals gedefinieerd in de aangepaste kanaaldefinities in de app [!DNL Marketo Measure] . Wordt in de CRM aangeduid als "Marketing Channel - Path".</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -12688,7 +12688,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>De datum waarop het formulier is verzonden.</p>
       </td>
       <td>
-        <p>2015-06-03 17:49:10 000</p>
+        <p>2015-06-03 17 :49: 10.000</p>
       </td>
     </tr>
     <tr>
@@ -12733,7 +12733,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
       <td>varchar</td>
       <td>
-        <p>Hiermee definieert u het medium dat tot het aanraakpunt heeft geleid. Dit kan worden geparseerd vanaf de URL vanaf utm_medium. Of, als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "cpc" of "display".</p>
+        <p>Hiermee definieert u het medium dat tot het aanraakpunt heeft geleid. Dit kan worden geparseerd vanaf de URL vanaf utm_medium. Of als [!DNL Marketo Measure] een advertentie kan oplossen, kan het waarden zijn zoals "cpc" of "display".</p>
       </td>
       <td>
         <p>betaald</p>
@@ -12745,7 +12745,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
       <td>varchar</td>
       <td>
-        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campagne van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] kan een advertentie oplossen. Dit kunnen waarden zijn zoals "Google AdWords" of "Facebook". In de CRM wordt "aanraakpuntbron" genoemd.</p>
+        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campaign van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] een advertentie kan oplossen, kan het waarden zoals "Google AdWords"of "Facebook zijn." Wordt in de CRM aangeduid als "Touchpoint Source".</p>
       </td>
       <td>
         <p>gekoppeld</p>
@@ -12769,7 +12769,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
       <td>varchar</td>
       <td>
-        <p>Advertentieplatform [!DNL Marketo Measure] was in staat om op te lossen van, typisch één van onze integratiepartners.</p>
+        <p>Adplatform [!DNL Marketo Measure] kon oplossen van, typisch één van onze integratiepartners.</p>
       </td>
       <td>
         <p>Google</p>
@@ -12984,7 +12984,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>De tweede regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
-        <p>Ontdek waarom meer dan 250 bedrijven kiezen [!DNL Marketo Measure] voor marketingtoewijzing. Maak een demo!</p>
+        <p>Lees waarom meer dan 250 bedrijven [!DNL Marketo Measure] kiezen voor marketingtoewijzing. Maak een demo!</p>
       </td>
     </tr>
     <tr>
@@ -13171,26 +13171,26 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_WEB_HOST_MAPPINGS {#biz-web-host-mappings}
 
-Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID en Munckin-id.
+Tabel toewijzen om sessie-id [!DNL Marketo Measure] toe te wijzen aan Adobe-ECID en Munckin-id.
 
 <table>
   <tbody>
@@ -13205,7 +13205,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
       <td>varchar</td>
       <td>Een unieke id voor de toewijzingsrecord.</td>
       <td>
-        <p>0d643578c0c74753eff91abe668ed328|2020-06-17:19:03:36|0002|0|568668</p>
+        <p>0d643578c0c74753eff91abe668ed328|2020-06-17 :19: 03:36|0002|0|56868</p>
       </td>
     </tr>
     <tr>
@@ -13229,7 +13229,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
         <p>SESSION_ID</p>
       </td>
       <td>varchar</td>
-      <td>De [!DNL Marketo Measure] Sessie-id.</td>
+      <td>De sessie-id van [!DNL Marketo Measure] .</td>
       <td>2018-08-06:01-35-24-1231230.9bc63c34482f</td>
     </tr>
     <tr>
@@ -13239,7 +13239,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
       <td>timestamp_ntz</td>
       <td>De datum waarop de toewijzing is vastgelegd.</td>
       <td>
-        <p>2020-06-17 19:03:36,000</p>
+        <p>2020-06-17 19 :03: 36.000</p>
       </td>
     </tr>
     <tr>
@@ -13249,7 +13249,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
         <p>De datum waarop de record voor het laatst is gewijzigd.</p>
       </td>
       <td>
-        <p>2020-06-17 19:03:36,000</p>
+        <p>2020-06-17 19 :03: 36.000</p>
       </td>
     </tr>
     <tr>
@@ -13319,7 +13319,7 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
     <tr>
       <td>MAPPING_TYPE</td>
       <td>varchar</td>
-      <td>Het type id dat is toegewezen aan de [!DNL Marketo Measure] cookie-id.</td>
+      <td>Het type id dat wordt toegewezen aan de cookie-id [!DNL Marketo Measure] .</td>
       <td>Adobe_OrgId_Ecid</td>
     </tr>
     <tr>
@@ -13338,26 +13338,26 @@ Tabel toewijzen aan toewijzing [!DNL Marketo Measure] Sessie-id naar Adobe-ECID 
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemaakt in Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
-      <td>01-01-01:01:00,000</td>
+      <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
 </table>
 
 ## Voorbeeldquery&#39;s {#sample-queries}
 
-**Hoeveel aanraakpunten van de Koper (BT) waren er vorige maand voor elk kanaal/subkanaal?**
+**hoeveel Aanraakpunten van de Koper (BT) waren er voor elk kanaal/subkanaal vorige maand?**
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
@@ -13379,7 +13379,7 @@ select trim(split(ch.name,'.')[0])  as channel
 group by 1,2
 ```
 
-**Hoeveel Attributed Revenue voor elk kanaal werd gesloten in de afgelopen maand, voor het volledige model van wegattributie?**
+**hoeveel Attributed Inkomsten voor elk kanaal in de afgelopen maand, voor het volledige model van de wegattributie werd gesloten?**
 
 ```
 --Note: This query does not perform any currency conversion.  If your data contains multiple currencies, you will need to add in logic to perform the conversion to the desired currency using the biz_conversion_rates table.
@@ -13406,7 +13406,7 @@ select trim(split(ch.name,'.')[0])  as channel
 group by 1
 ```
 
-**Wat is de hele reis voor één persoon?  (Alle aanraakpunten weergeven voor één e-mailadres.)**
+**wat is de volledige reis voor één persoon?  (Alle aanraakpunten weergeven voor één e-mailadres.)**
 
 ```
 select ut.touchpoint_date
@@ -13447,7 +13447,7 @@ group by 1,2
 order by 1
 ```
 
-**Toon alle aanraakpunten voor koperkenmerken (BAT) en de daaraan toegewezen inkomsten voor één enkele gelegenheid.**
+**toon alle Aanraakpunten van de Attributie van de Koper (BAT) en hun Toegewezen Ontvangsten voor één enkele kans.**
 
 >[!NOTE]
 >
