@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874646
-description: Verschil tussen aanraakpunten voor kopers en kenmerkaanraakpunten voor kopers - [!DNL Marketo Measure]
+description: Verschil tussen aanraakpunten voor kopers en kenmerkaanraakpunten voor kopers -  [!DNL Marketo Measure]
 title: Verschil tussen aanraakpunten voor kopers en aanraakpunten voor koperkenmerken
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: bdc32fdfe24d57fd7770654f1238896c7b59acf6
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Verschil tussen aanraakpunten voor kopers en aanraakpunten voor koperkenmerken {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
-Leer wat een Aanraakpunt voor kopers (BT) en een Aanraakpunt voor koperkenmerken (BAT) bepaalt, de verschillen tussen beide, en beantwoord veelgestelde vragen.
+Leer wat een Buyer Touchpoint (BT) en Buyer Attribution Touchpoint (BAT) bepaalt, de verschillen tussen twee, en antwoord vaak gestelde vragen.
 
-Het belangrijkste onderscheid tussen aanraakpunten voor kopers en aanraakpunten voor kopers is hun relatie met [!DNL Salesforce] Objecten. BT&#39;s hebben betrekking op de objecten Lead, Contact en Case, maar niet op het object Opportunity. Dat betekent dat er nooit inkomsten zijn verbonden aan de aanraakpunten van kopers.
+Het belangrijkste onderscheid tussen aanraakpunten voor kopers en aanraakpunten voor koperkenmerken is hun relatie met objecten voor [!DNL Salesforce] . BT hebben betrekking op de objecten Lead, Contact en Case, maar niet op het object Opportunity. Dat betekent dat er nooit inkomsten zijn verbonden aan de aanraakpunten van kopers.
 
-Terwijl het aanraakpunt object voor koperkenmerk gerelateerd is aan de objecten Contact, Account en Opportunity, maar niet aan het hoofdobject; de aanraakpunten voor koperkenmerk zijn niet gekoppeld aan leads. In het BBT-object ziet u inkomsten die zijn gekoppeld aan specifieke marketinginteracties.
+Terwijl het Buyer Attribution Touchpoint-object gerelateerd is aan de contact-, account- en opportuniteitsobjecten, maar niet aan het hoofdobject; de aanraakpunten voor koperkenmerken zijn niet gekoppeld aan leads. In het BAT Object ziet u inkomsten die zijn gekoppeld aan specifieke marketinginteracties.
 
-Verschil tussen BT en BBT:
+Verschil tussen BT en BAT:
 
 <table> 
  <colgroup> 
@@ -28,21 +28,21 @@ Verschil tussen BT en BBT:
  </colgroup> 
  <tbody> 
   <tr> 
-   <td>Aanraakpunt koper (BT)</td> 
-   <td>Aanraakpunt voor koperkenmerk (BBT)</td> 
+   <td>Buyer Touchpoint (BT)</td> 
+   <td>Buyer Attribution Touchpoint (BAT)</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Heeft betrekking op de objecten Lead, Contact en Case</li> 
      <li>Heeft geen betrekking op het object Opportunity</li> 
-     <li>Ontvangsten zijn niet gekoppeld aan een aanraakpunt voor kopers</li> 
+     <li>Opbrengsten zijn niet gekoppeld aan een Buyer Touchpoint</li> 
     </ul></td> 
    <td> 
     <ul> 
      <li>Heeft betrekking op de contact-, account- en opportunity-objecten</li> 
      <li>Heeft geen betrekking op het object Lead</li> 
-     <li>Aangezien een aanraakpunt voor koperkenmerken is gekoppeld aan een opportunity, zijn aan alle BBT's inkomsten gekoppeld</li> 
+     <li>Aangezien een Buyer Attribution Touchpoint aan een Kans wordt geassocieerd, hebben alle BAT aan hen verbonden inkomsten</li> 
     </ul></td> 
   </tr> 
  </tbody> 
@@ -50,26 +50,26 @@ Verschil tussen BT en BBT:
 
 ## Veelgestelde vragen {#faq}
 
-**Wanneer wordt een aanraakpunt voor kopers een aanraakpunt voor koperkenmerken?**
+**wanneer wordt een Buyer Touchpoint een Buyer Attribution Touchpoint?**
 
-Een BT wordt een BBT zodra dit BT wordt geassocieerd met een Contact dat een bijbehorende Kans heeft. Een belangrijk ding om te begrijpen is dat één specifieke marketing interactie BT en BBT kan zijn.
+Een BT wordt een BAT zodra dit BT aan een Contact wordt geassocieerd dat een bijbehorende Kans heeft. Een belangrijk ding om te begrijpen is dat één specifieke marketing interactie een BT en BAT kan zijn.
 
-**Kan een aanraakpunt voor kopers beschikken over een aanraakpunt positie van Opportunity Creation (OC)?**
+**kan een Buyer Touchpoint een Positie van het Aanraakpunt van de Aanmaak van de Kans (OC) hebben?**
 
-Een aanraakpunt voor kopers heeft alleen een aanraakpunt met de positie First Touch (FT), Lead Creation (LC) of Form submission (intermediary touchpoints). Aangezien BTs niet met Kansen verwant is, is het niet mogelijk voor BT om een Positie van het Aanraakpunt van Opportunity te te hebben of Gesloten.
+Een Buyer Touchpoint heeft alleen een aanraakpunt met de positie First Touch (FT), Lead Creation (LC) of Form submission (intermediaire aanraakpunten). Aangezien BT niet met Kansen verwant zijn, is het niet mogelijk voor een BT om een Positie van het Aanraakpunt van Kans te hebben creatie of Gesloten.
 
-**Hoe worden aanraakpuntgegevens voor kopers gebruikt?**
+**hoe worden de gegevens van Buyer Touchpoint gebruikt?**
 
-Klanten gebruiken doorgaans gegevens van het aanraakpunt voor kopers om de top van de trechter en het midden van de treindienst te begrijpen. Betekenis [!DNL Marketo Measure] gebruikers weten wie formulieren verzendt, wie hun site bekijkt, welke blogpost goed presteert, wat AdWords en aandrijvingen tot omzettingen leiden enzovoort. Gegevens van aanraakpunten voor kopers zijn ideaal voor het begrijpen van de betrokkenheid van uw leads en contactpersonen.
+Doorgaans gebruiken klanten Buyer Touchpoint-gegevens om Top van de trechter en het midden van de treindienst te begrijpen. Betekenis dat [!DNL Marketo Measure] -gebruikers weten wie formulieren verzendt, wie zijn site bekijkt, welk blogbericht goed presteert, wat AdWords en welke drijfveer tot conversie leidt, enzovoort. Buyer Touchpoint-gegevens zijn ideaal voor inzicht in de betrokkenheid van uw leads en contactpersonen.
 
-**Hoe ziet een aanraakpunt voor kopers eruit in Salesforce?**
+**wat kijkt een Buyer Touchpoint als in Salesforce?**
 
-Hier is een screenshot van een BT in [!DNL Salesforce]:
+Hier is een schermafbeelding van een BT in [!DNL Salesforce] :
 
-![](assets/1.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-1.png){width="600" zoomable="yes"}
 
-**Hoe ziet een aanraakpunt voor koperkenmerken eruit in Salesforce?**
+**wat kijkt een Buyer Attribution Touchpoint als in Salesforce?**
 
-Hier is een screenshot van een BBT in [!DNL Salesforce]:
+Hier is een schermafbeelding van een BAT in [!DNL Salesforce] :
 
-![](assets/2.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-2.png){width="600" zoomable="yes"}
