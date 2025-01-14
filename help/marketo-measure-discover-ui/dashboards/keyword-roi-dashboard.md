@@ -2,9 +2,10 @@
 description: Keyword ROI Dashboard -  [!DNL Marketo Measure]  - Product
 title: Trefwoord ROI-dashboard
 feature: Reporting
-source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
+exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
+source-git-commit: f1adf53a9bf3adbc77d52c12dbafb09a28e51178
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -31,10 +32,10 @@ Boor neer in specifieke sleutelwoorden om de kansen te bekijken die door elk wor
 
 * **Sleutelwoord**
 * **Campaign**
-* **identiteitskaart van de Rekening van de Advertentie** (Binnenkort komend)
-* **Add de Naam van de Rekening** (Binnenkort komend)
-* **identiteitskaart van de Groep van de Advertentie** (Binnenkort komend)
-* **Add de Naam van de Groep** (Binnenkort komend)
+* **identiteitskaart van de Rekening van de Advertentie**
+* **Add de Naam van de Rekening**
+* **identiteitskaart van de Groep van de Advertentie**
+* **Add de Naam van de Groep**
 * **Kosten**: Totale kosten van verbonden gegevensbronnen.
 * **Attributed Revenue**: De totale opbrengstbijdrage, die op het gekozen attributiemodel wordt gebaseerd, van Kansen met touchpoints die binnen de gefilterde datumperiode sloot
 * **Realized Attributed Revenue**: De totale opbrengstbijdrage, die op het gekozen attributiemodel wordt gebaseerd, van Kansen met touchpoints binnen de gefilterde datumperiode, ongeacht toen zij werden gesloten.
@@ -52,10 +53,10 @@ Boor neer in specifieke sleutelwoorden om de kansen te bekijken die door elk wor
 
 * **Sleutelwoord**
 * **Campaign**
-* **identiteitskaart van de Rekening van de Advertentie** (Binnenkort komend)
-* **Add de Naam van de Rekening** (Binnenkort komend)
-* **identiteitskaart van de Groep van de Advertentie** (Binnenkort komend)
-* **Add de Naam van de Groep** (Binnenkort komend)
+* **identiteitskaart van de Rekening van de Advertentie**
+* **Add de Naam van de Rekening**
+* **identiteitskaart van de Groep van de Advertentie**
+* **Add de Naam van de Groep**
 * **Kosten**
 * **Nieuwe Leidingen**: Het totale aantal nieuwe Gegenereerde Leidingen, met inbegrip van zowel aangeraakt als onaangeroerde Leidingen.
 * **Kosten per Nieuwe Lood**: De gemiddelde kosten per nieuwe Lood, die uit de totale kosten wordt afgeleid die door het totale aantal nieuwe Lood worden gedeeld.
