@@ -4,7 +4,7 @@ description: Gebruikend een Gebied van de Bedrag van de Opbrengst van de Douane 
 title: Een veld Aangepaste omzettingsbedrag gebruiken
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
+source-git-commit: 03342bde87b75ab702eea4c63b581479a7e303c1
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -104,6 +104,6 @@ De volgende stappen gelden voor Salesforce Classic-gebruikers. Als u de schakela
 
    Nadat u deze stappen hebt uitgevoerd, moeten de kansen worden bijgewerkt om de workflow te activeren en de nieuwe waarde uit het veld [!UICONTROL custom opportunity] te laten ophalen.
 
-   Dit kan door uw kansen door de Lader van Gegevens in SFDC in werking te stellen worden verwezenlijkt. Vind details bij het gebruiken van de Lader van Gegevens in [ dit artikel ](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Dit kan door uw kansen door de Lader van Gegevens in SFDC in werking te stellen worden verwezenlijkt. Vind details bij het gebruiken van de Lader van Gegevens in [ dit artikel ](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}.
 
 Als er om het even welke vragen langs de manier zijn, aarzel niet om uit te reiken aan het Team van de Rekening van de Adobe (uw Manager van de Rekening) of [[!DNL Marketo]  Steun ](https://nation.marketo.com/t5/support/ct-p/Support) {target="_blank"}.
