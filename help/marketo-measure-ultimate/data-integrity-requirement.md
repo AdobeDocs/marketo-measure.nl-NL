@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] Eis voor de integriteit van gegevens - [!DNL Marketo Measure]'
-title: '''[!DNL Marketo Measure] Eis voor de integriteit van gegevens'
+description: '[!DNL Marketo Measure] Vereiste voor Ultimate-gegevensintegriteit -  [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Vereiste voor Ultimate-gegevensintegriteit'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
+source-git-commit: 4f504bd940e2d28603af65b75151d8143cdcbea8
 workflow-type: tm+mt
 source-wordcount: '1611'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# [!DNL Marketo Measure] Eis voor de ultieme gegevensintegriteit {#marketo-measure-ultimate-data-integrity-requirement}
+# [!DNL Marketo Measure] Vereiste voor Ultimate-gegevensintegriteit {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valideert de binnenkomende AEP-gegevenssets om ervoor te zorgen dat de gegevens toereikend en samenhangend zijn voor toewijzing. Als niet wordt voldaan aan de gegevensintegriteitsvereiste, wordt de gegevensset afgewezen door het [!DNL Marketo Measure] -systeem. Dit artikel detailleert de vereiste van de gegevensintegriteit, verstrekt vraagvoorbeelden voor gegevensinspectie, en adviseert een oplossing voor vereiste gebieden met een ongeldige waarde.
+[!DNL Marketo Measure] valideert de binnenkomende AEP-gegevenssets om ervoor te zorgen dat de gegevens toereikend en consistent zijn voor toewijzing. Als niet wordt voldaan aan de gegevensintegriteitsvereiste, wordt de gegevensset afgewezen door het [!DNL Marketo Measure] -systeem. Dit artikel detailleert de vereiste van de gegevensintegriteit, verstrekt vraagvoorbeelden voor gegevensinspectie, en adviseert een oplossing voor vereiste gebieden met een ongeldige waarde.
 
 ## Object Entiteit {#entity-object}
 
@@ -201,7 +201,7 @@ ht-degree: 6%
       <td>Voor campagnekosten</td>
     </tr>
     <tr>
-      <td colspan="7"><strong> Lid van de Campagne </strong> (het Lid van de Campagne voor Salesforce, Lidmaatschappen van het Programma voor Marketo)</td>
+      <td colspan="7"><strong> Lid van de Campagne </strong> (Lid van de Campagne voor Salesforce, Lidmaatschappen van het Programma voor Marketo)</td>
     </tr>
     <tr>
       <td rowspan="14">XDM Business Campaign-leden</td>
@@ -817,7 +817,7 @@ ht-degree: 6%
       <td>string</td>
       <td></td>
       <td>Ja</td>
-      <td>Bijvoorbeeld Salesforce</td>
+      <td>Bijvoorbeeld - Salesforce</td>
     </tr>
     <tr>
       <td></td>
@@ -1322,13 +1322,13 @@ select 'addToCampaign campaign instance id', count(*) from marketo_activity wher
 union all
 select 'addToCampaign campaign key', count(*) from marketo_activity where eventType = 'leadOperation.addToCampaign' and leadOperation.addToCampaign.campaignKey.sourceKey is null
 union all
-select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceId is null
+select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceType is null
+select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceType is null
 union all
-select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
+select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
+select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
 ```
 
 ```
