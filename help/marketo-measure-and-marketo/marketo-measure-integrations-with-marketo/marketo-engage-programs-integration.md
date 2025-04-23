@@ -4,9 +4,9 @@ description: '[!DNL Marketo Engage] Integratie van programma''s -  [!DNL Marketo
 title: '[!DNL Marketo Engage] Integratie van programma''s'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
+source-git-commit: c0fca7f9a91763aeb211973630bbe7a5fd3dc880
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,10 @@ In de lijst met Marketo Program Channels wilt u de waarden toewijzen aan de aang
 ## Programmakosten {#program-costs}
 
 Via de gegevensimport van Marketo-programma&#39;s worden de kosten automatisch gedownload van de kosten van de periode en worden de gerapporteerde kosten in Marketo over de toegewezen maand verdeeld. Als bijvoorbeeld $1000 wordt gerapporteerd voor januari 2021, wordt $1000 gesplitst over 31 dagen. De kosten vindt u in [!DNL Marketo Measure Discover] .
+
+>[!NOTE]
+>
+>Marketo Measure ondersteunt slechts één prijsvermelding voor de periode per maand. Om ervoor te zorgen dat alle kosten worden ingevoerd, telt u de totale maandelijkse kosten samen in één keer. Meerdere Periode-kosten voor dezelfde maand worden niet ondersteund.
 
 ## Hoe het werkt {#how-it-works}
 
