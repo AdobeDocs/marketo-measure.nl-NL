@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Kenmerk Salesforce-activiteiten {#salesforce-activities-attribution}
 
-De integratie van [!DNL Marketo Measure] Salesforce-activiteiten maakt specifieke taak- en gebeurtenisrecords in uw toewijzingsmodel. Begin met het volgen van zaken zoals verkoope-mails of telefoongesprekken die geen creditering kregen. Om uw activiteitenregel te vormen, ga [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure) {target="_blank"}. Ga vervolgens naar de tab **[!UICONTROL Settings]** en klik op de tab **[!UICONTROL Activities]** .
+De integratie van [!DNL Marketo Measure] Salesforce-activiteiten maakt specifieke taak- en gebeurtenisrecords in uw toewijzingsmodel. Begin met het volgen van zaken zoals verkoope-mails of telefoongesprekken die geen creditering kregen. Om uw activiteitenregel te vormen, ga [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} . Ga vervolgens naar de tab **[!UICONTROL Settings]** en klik op de tab **[!UICONTROL Activities]** .
 
 ![](assets/1.png)
 
@@ -64,7 +64,7 @@ Vergeet niet verschillende regels voor Taken of Gebeurtenissen in te stellen. Je
 
 ![](assets/5.png)
 
-U zult waarschijnlijk deze nieuwe aanraakpunten in hun aangewezen [ het In de handel brengen Kanaal ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20 Kanalen) {target="_blank"} willen plaatsen. Doe dat door het Kanaal met zijn nieuwe afbeelding van de Campagne te bepalen die enkel werd gecreeerd.
+U zult waarschijnlijk deze nieuwe aanraakpunten in hun aangewezen [ het In de handel brengen Kanaal ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20 Kanalen){target="_blank"}  willen plaatsen. Doe dat door het Kanaal met zijn nieuwe afbeelding van de Campagne te bepalen die enkel werd gecreeerd.
 
 >[!TIP]
 >
@@ -72,11 +72,11 @@ U zult waarschijnlijk deze nieuwe aanraakpunten in hun aangewezen [ het In de ha
 >
 >begint met ( Uitgaand &#42; )
 >
-bevat ( &#42; Uitgaand &#42;)
+>bevat ( &#42; Uitgaand &#42;)
 >
-eindigt met ( &#42; Uitgaand)
+>eindigt met ( &#42; Uitgaand)
 >
-Geen wilde kaart betekent in feite &quot;is gelijk aan&quot;, dus gebruik ze zo nodig.
+>Geen wilde kaart betekent in feite &quot;is gelijk aan&quot;, dus gebruik ze zo nodig.
 
 | **Exploitant** | **Geval van het Gebruik** |
 |---|---|
@@ -87,10 +87,10 @@ Geen wilde kaart betekent in feite &quot;is gelijk aan&quot;, dus gebruik ze zo 
 
 ![](assets/6.png)
 
-En last but not least, hebt u de optie om kosten voor uw nieuwe kanalen in te voeren. De [ Marketing besteedt uploadt ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend) {target="_blank"} staat u toe om uw uitgaven op het niveau van het Kanaal, het niveau Subchannel, of het niveau van de Campagne in te gaan. Met uw nieuwe [!DNL Marketo Measure] Campagnes, kunt u die verwante kosten per maand toevoegen, dan het ROI voor elke Campagne zien!
+En last but not least, hebt u de optie om kosten voor uw nieuwe kanalen in te voeren. De [ Marketing besteedt uploadt ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"}  staat u toe om uw uitgaven op het niveau van het Kanaal, het niveau Subchannel, of het niveau van de Campagne in te gaan. Met uw nieuwe [!DNL Marketo Measure] Campagnes, kunt u die verwante kosten per maand toevoegen, dan het ROI voor elke Campagne zien!
 
 ![](assets/7.png)
 
 >[!MORELIKETHIS]
 >
-[ Veelgestelde vragen van de Attributie van de Activiteit ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>[ Veelgestelde vragen van de Attributie van de Activiteit ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

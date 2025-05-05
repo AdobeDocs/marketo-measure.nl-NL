@@ -24,13 +24,13 @@ Bovendien worden sessies die gebruikmaken van aanmelden via een sociaal netwerk 
 
 Voor nieuwe klanten, is de overdracht van het zittingskanaal nu het standaardgedrag. Bestaande klanten kunnen dit inschakelen door de optie Sessiekanaaloverdracht in te schakelen onder Instellingen > Aanraakkenmerk. Deze instelling kan niet ongedaan worden gemaakt nadat deze is geactiveerd.
 
-Documentatie: [ Definitie van de Zittingen van het Web van Marketo Measure ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions) {target="_blank"}
+Documentatie: [ Definitie van de Zittingen van het Web van Marketo Measure ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"} 
 
 ### Trefwoord ROI-dashboard
 
 Het nieuwe ROI Dashboard van het Sleutelwoord biedt gedetailleerde inzichten in de prestaties van Paid onderzoekscampagnes, die een uitvoerig overzicht van sleutelwoordvlakke kosten, toegeschreven opbrengst, en de geproduceerde kansen verstrekken. Met dit dashboard kunt u de ROI van elk trefwoord evalueren in Google Adwords, LinkedIn en Bing Ads, enzovoort.
 
-Documentatie: [ ROI Dashboard van het Sleutelwoord ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard) {target="_blank"}
+Documentatie: [ ROI Dashboard van het Sleutelwoord ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"} 
 
 ### Verbeterde segmentregels
 
@@ -67,7 +67,7 @@ Om u aan deze verandering te helpen aanpassen, hebben wij documentatie over de n
 
 ### Herinnering: Salesforce Field Deprecations - 14 juni
 
-Zoals vorig jaar aangekondigd, zullen wij [ geleidelijk aan onze uitvoerbanen aan Lood/de voorwerpen van het Contact ](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179) {target="_blank"} zijn om onze integratie te vereenvoudigen en de behoefte te elimineren om naar Salesforce standaardvoorwerpen uit te voeren. U kunt de zelfde gegevens uit uw voorwerpen verkrijgen Touchpoint door de stappen te volgen [ hier wordt gedocumenteerd ](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. We delen ook documentatie over het maken van workflows om deze gegevens toe te voegen aan het object Lead/Contact. De afschrijving wordt van kracht op 14 juni 2024.
+Zoals vorig jaar aangekondigd, zullen wij [ geleidelijk aan onze uitvoerbanen aan Lood/de voorwerpen van het Contact ](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}  zijn om onze integratie te vereenvoudigen en de behoefte te elimineren om naar Salesforce standaardvoorwerpen uit te voeren. U kunt de zelfde gegevens uit uw voorwerpen verkrijgen Touchpoint door de stappen te volgen [ hier wordt gedocumenteerd ](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. We delen ook documentatie over het maken van workflows om deze gegevens toe te voegen aan het object Lead/Contact. De afschrijving wordt van kracht op 14 juni 2024.
 
 Deze wijziging zal twee belangrijke voordelen opleveren:
 
@@ -103,7 +103,7 @@ Voorheen alleen beschikbaar voor klanten van Tier 3, is de functie van het werkg
 
 In reactie op de toenemende bezorgdheid over privacy worden cookies van derden geleidelijk afgeschaft, waarbij de Google Chrome de deadline van het derde kwartaal van 2024 aangeeft. Marketo Measure zal bepaalde functies vervangen die afhankelijk zijn van cookies van derden, met name Cross-Domain Tracking en View-through Attribution, die afhankelijk zijn van het Google/DoubleClick-imitatiecookie. Deze wijziging heeft geen invloed op andere Marketo Measure-functies of het gebruik van cookies van andere leveranciers. Na de tijdlijn van Google zullen deze functies naar verwachting op 1 juni verouderd zijn, hoewel de gegevens die vóór deze datum verzameld zijn nog steeds toegankelijk zijn voor klanten.
 
-* [ het Aanpassen aan de Afschrijving van de Koekjesie van de Derde in Marketo Measure ](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110) {target="_blank"}
+* [ het Aanpassen aan de Afschrijving van de Koekjesie van de Derde in Marketo Measure ](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"} 
 * [ de Koekjes van Marketo Measure ](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
 
 ### Gestroomlijnde implementatie van onze verbeterde foutafhandeling

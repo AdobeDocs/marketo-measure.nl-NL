@@ -55,7 +55,7 @@ Wij adviseren gebruikend een auto-generatienut om tien standaardB2B- schema&#39;
 
 * Stappen om het hulpprogramma te downloaden en in te stellen [hier te vinden](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Voor degenen met een _**CDP-machtiging**_: Maak schema&#39;s door naar de pagina Bronnen te gaan.
+Voor degenen met een _&#x200B;**CDP-machtiging**&#x200B;_: Maak schema&#39;s door naar de pagina Bronnen te gaan.
 
 * Selecteer Gegevens toevoegen > Sjablonen gebruiken in een bron
 

@@ -319,7 +319,7 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
  </tbody> 
 </table>
 
-**de Rol van het Contact van 0} Opportunity**
+**de Rol van het Contact van 0&rbrace; Opportunity**
 
 <table> 
  <tbody> 

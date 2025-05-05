@@ -31,7 +31,7 @@ Deze modellen variëren in complexiteit. First Touch en Lead Creation zijn eenvo
 
 ![](assets/1-1.png)
 
-In de **single-touch modellen**Afschrijvingskrediet wordt slechts aan één mijlpaal toegekend, vandaar de naam &#39;single-touch&#39;.
+In de **single-touch modellen**&#x200B;Afschrijvingskrediet wordt slechts aan één mijlpaal toegekend, vandaar de naam &#39;single-touch&#39;.
 In de **multi-touchmodellen** Het grootste deel van het toewijzingskrediet wordt toegewezen aan twee of meer mijlpalen. Het resterende krediet wordt toegeschreven aan aanraakpunten die zich tussen de mijlpalen bevinden.
 
 In de volgende secties wordt elk attributiemodel beschreven en wordt aangegeven hoe het attribuut credit wordt toegewezen.

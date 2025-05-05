@@ -221,7 +221,7 @@ Er is extra werk nodig om de nieuwe gebieden in het schema van de Data Warehouse
 
 **Hoe kan ik bevestigen dat mijn extractie uitdrukking geldig is en de correcte waarde trekt?**
 
-Er is een online hulpmiddel ([[!DNL https]://regex101.com/](https://regex101.com/) {target="_blank"}) dat u de uitdrukking kunt in werking stellen en uittesten. De expressie wordt groen weergegeven als deze geldig is of rood als deze ongeldig is. Het vak [!UICONTROL explanation] rechtsboven is bovendien handig en vertelt u wat u wilt extraheren.
+Er is een online hulpmiddel ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"} ) dat u de uitdrukking kunt in werking stellen en uittesten. De expressie wordt groen weergegeven als deze geldig is of rood als deze ongeldig is. Het vak [!UICONTROL explanation] rechtsboven is bovendien handig en vertelt u wat u wilt extraheren.
 
 ![](assets/twelve.png)
 

@@ -28,7 +28,7 @@ Met Data Warehouse kunt u zoveel bijhouden als u wilt, gegevens rapporteren over
 
 Het _Model van Gegevens van de Data Warehouse_ ERD toont hoe de gegevens in het gegevenspakhuis bedoeld zijn om te stromen en samen worden verbonden. Dit diagram omvat niet alle lijsten beschikbaar in het gegevenspakhuis omdat sommige van hen kaartlijsten, meningen van andere reeds aanwezige lijsten, of afgekeurde lijsten vertegenwoordigen wij niet meer het gebruiken adviseren. Zie de gedetailleerde beschrijvingen van lijsten en kolommen aanwezig in het gegevenspakhuis hieronder. Veel van deze lijsten bevatten gedenormaliseerde gebieden, echter, is dit diagram het geadviseerde gegevensmodel, leveraging gegevens van dimensionele lijsten in plaats daarvan.
 
-Extra _voegt het Model van Gegevens 1} ERD van Dimensionele Gegevens van Gegevens toe {stelt een mening van voor hoe de lijsten voor advertenties specifieke dimensies het best terug naar de lijsten in het belangrijkste gegevensmodel kunnen worden verbonden._ Hoewel de afmetingen van advertenties ook in andere lijsten worden gedenormaliseerd, vertegenwoordigt dit het geadviseerde model om zich bij deze dimensies aan te sluiten.
+Extra _voegt het Model van Gegevens 1&rbrace; ERD van Dimensionele Gegevens van Gegevens toe &lbrace;stelt een mening van voor hoe de lijsten voor advertenties specifieke dimensies het best terug naar de lijsten in het belangrijkste gegevensmodel kunnen worden verbonden._ Hoewel de afmetingen van advertenties ook in andere lijsten worden gedenormaliseerd, vertegenwoordigt dit het geadviseerde model om zich bij deze dimensies aan te sluiten.
 
 _klik een beeld voor zijn full-size versie_
 

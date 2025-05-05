@@ -106,4 +106,4 @@ De volgende stappen gelden voor Salesforce Classic-gebruikers. Als u de schakela
 
    Dit kan door uw kansen door de Lader van Gegevens in SFDC in werking te stellen worden verwezenlijkt. Vind details bij het gebruiken van de Lader van Gegevens in [ dit artikel ](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}.
 
-Als er om het even welke vragen langs de manier zijn, aarzel niet om uit te reiken aan het Team van de Rekening van de Adobe (uw Manager van de Rekening) of [[!DNL Marketo]  Steun ](https://nation.marketo.com/t5/support/ct-p/Support) {target="_blank"}.
+Als er om het even welke vragen langs de manier zijn, aarzel niet om uit te reiken aan het Team van de Rekening van de Adobe (uw Manager van de Rekening) of [[!DNL Marketo]  Steun ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} .
