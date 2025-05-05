@@ -50,9 +50,9 @@ Hier volgen verschillende koppelingen naar relevante artikelen/video&#39;s om u 
 Hier zijn een paar video&#39;s die u helpen om op snelheid te komen:
 
 * [[!DNL Marketo Measure] Introductietraining](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 minuten)
-* [[!DNL Marketo Measure] Rapportage in SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 minuten)
+* [[!DNL Marketo Measure] Rapportage in SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=nl-NL) (30-45 minuten)
 
-**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30 minuten)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=nl-NL) (~30 minuten)**
 
 Deze cursusreeks is ontworpen als een algemene inleiding op de basisconcepten die u moet kennen om te leiden [!DNL Marketo Measure]. Het geeft een inleiding aan het concept van attributie, wat [!DNL Marketo Measure] als instrument en het algemene kader waarop [!DNL Marketo Measure] werkt.
 
@@ -64,7 +64,7 @@ Onderwerpen die worden behandeld:
 * Aanraakpunten
 * Attributievormen
 
-**[[!DNL Marketo Measure] Rapportage in SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 minuten)**
+**[[!DNL Marketo Measure] Rapportage in SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=nl-NL) (30-45 minuten)**
 
 Deze cursusreeks is ontworpen als een inleiding op de [!DNL Marketo Measure] voorraadrapporten die in Salesforce zijn geïnstalleerd. Deze rapporten fungeren als de basis voor de meeste rapportages die u doet [!DNL Marketo Measure] gegevens.
 
@@ -77,7 +77,7 @@ Onderwerpen die worden behandeld:
 * Opportuniteiten op ID-rapport
 * Kanaalopties
 
-**[Kanaalbeheer](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
+**[Kanaalbeheer](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=nl-NL)**
 
 Deze cursus behandelt verschillende manieren waarop u deze kunt aanpassen [!DNL Marketo Measure], in termen van online en offline volgen. Deze cursus is geavanceerder en is mogelijk niet voor alle gebruikers relevant.
 
@@ -89,4 +89,4 @@ Onderwerpen die worden behandeld:
 * Campagne en Campagne lidvelden
 * Offline kanaalbeheer
 
-Hier zijn alles [e-learningvideo&#39;s starten](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html).
+Hier zijn alles [e-learningvideo&#39;s starten](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=nl-NL).

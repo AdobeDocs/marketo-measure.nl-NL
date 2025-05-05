@@ -126,6 +126,6 @@ Om dit probleem op te lossen, [!DNL Marketo Measure] een [!DNL Marketo Measure] 
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: Objectvelden campagne](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Objectvelden campagne](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure] Tutorials: Offlinekanalen toewijzen](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Offlinekanalen toewijzen](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

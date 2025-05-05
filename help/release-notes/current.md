@@ -24,13 +24,13 @@ Bovendien worden sessies die gebruikmaken van aanmelden via een sociaal netwerk 
 
 Voor nieuwe klanten, is de overdracht van het zittingskanaal nu het standaardgedrag. Bestaande klanten kunnen dit inschakelen door de optie Sessiekanaaloverdracht in te schakelen onder Instellingen > Aanraakkenmerk. Deze instelling kan niet ongedaan worden gemaakt nadat deze is geactiveerd.
 
-Documentatie: [ Definitie van de Zittingen van het Web van Marketo Measure ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"} 
+Documentatie: [ Definitie van de Zittingen van het Web van Marketo Measure ](https://experienceleague.adobe.com/nl/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"} 
 
 ### Trefwoord ROI-dashboard
 
 Het nieuwe ROI Dashboard van het Sleutelwoord biedt gedetailleerde inzichten in de prestaties van Paid onderzoekscampagnes, die een uitvoerig overzicht van sleutelwoordvlakke kosten, toegeschreven opbrengst, en de geproduceerde kansen verstrekken. Met dit dashboard kunt u de ROI van elk trefwoord evalueren in Google Adwords, LinkedIn en Bing Ads, enzovoort.
 
-Documentatie: [ ROI Dashboard van het Sleutelwoord ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"} 
+Documentatie: [ ROI Dashboard van het Sleutelwoord ](https://experienceleague.adobe.com/nl/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"} 
 
 ### Verbeterde segmentregels
 

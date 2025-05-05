@@ -35,4 +35,4 @@ Als u het &quot;aantal contacten&quot;wilt begrijpen kunt u de gebieden &quot;Te
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: SFDC-rapporten voor aandelen](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: SFDC-rapporten voor aandelen](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

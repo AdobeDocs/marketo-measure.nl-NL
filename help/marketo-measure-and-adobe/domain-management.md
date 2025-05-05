@@ -20,7 +20,7 @@ IMS-gebruikers met toegang tot de Adobe Admin Console kunnen domeinen die ze bez
 
 ![](assets/domain-management-1.png)
 
-Instructies voor het toevoegen van domeinen vindt u in het dialoogvenster [Documentatie Admin Console](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Wanneer een domein is toegevoegd, moet het worden [gekoppeld aan een map](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
+Instructies voor het toevoegen van domeinen vindt u in het dialoogvenster [Documentatie Admin Console](https://helpx.adobe.com/nl/enterprise/using/add-domains-directories.html). Wanneer een domein is toegevoegd, moet het worden [gekoppeld aan een map](https://helpx.adobe.com/nl/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## Domeinen beheren in [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 

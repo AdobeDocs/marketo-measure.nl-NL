@@ -22,11 +22,11 @@ Wanneer geïnstalleerd en gevormd in de Lancering van de Adobe, [!DNL Marketo Me
 >
 >Raadpleeg de volgende koppelingen voor meer informatie over het starten van de Adobe en de extensies.
 >
->* [[!DNL Marketo Measure] Extensie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
->* [Overzicht van starten van Adobe](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
->* [Overzicht extensie starten Adobe](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
+>* [[!DNL Marketo Measure] Extensie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=nl-NL#catalog){target="_blank"}
+>* [Overzicht van starten van Adobe](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=nl-NL){target="_blank"}
+>* [Overzicht extensie starten Adobe](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html?lang=nl-NL){target="_blank"}
 
-1. Een eigenschap maken na de stappen [in dit artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
+1. Een eigenschap maken na de stappen [in dit artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=nl-NL#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Klik op de eigenschap die u hebt gemaakt.
 

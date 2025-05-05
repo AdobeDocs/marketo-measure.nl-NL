@@ -155,7 +155,7 @@ Salesforce-documentatie over stroomtriggers <a href="https://admin.salesforce.co
             <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Marketo Measure-integratie met Adobe Analytics</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html">Een bron voor klantkenmerken maken en het gegevensbestand uploaden</a>
+            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=nl-NL">Een bron voor klantkenmerken maken en het gegevensbestand uploaden</a>
           </li>
         </ul>
       </td>

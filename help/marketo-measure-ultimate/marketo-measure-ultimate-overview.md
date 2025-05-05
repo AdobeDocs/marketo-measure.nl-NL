@@ -111,6 +111,6 @@ Attribution Touchpoints worden niet naar CRM geschreven omdat Ultimate geen dire
 
 >[!MORELIKETHIS]
 >
->* [ Marketo Measure Ultimate Bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"} 
+>* [ Marketo Measure Ultimate Bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=nl-NL){target="_blank"} 
 >
->* [ VIDEO: Marketo Measure Ultimate Overzicht ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"} 
+>* [ VIDEO: Marketo Measure Ultimate Overzicht ](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"} 
