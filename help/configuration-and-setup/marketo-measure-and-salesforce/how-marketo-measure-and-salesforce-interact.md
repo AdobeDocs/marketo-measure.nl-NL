@@ -4,9 +4,9 @@ description: Hoe  [!DNL Marketo Measure]  en  [!DNL Salesforce]  in wisselwerkin
 title: Hoe  [!DNL Marketo Measure]  en  [!DNL Salesforce]  interactie hebben
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
+source-git-commit: ec5172286951f482905f97268f33f063d1860694
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1287'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 Laten we eens kijken naar de relatie tussen [!DNL Marketo Measure] en Salesforce.
 
-## Salesforce en [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
+## Salesforce en [!DNL Marketo Measure]  {#salesforce-and-marketo-measure}
 
 Nadat de [!DNL Marketo Measure] -account is gemaakt en [!DNL Salesforce] is verbonden, worden marketinggegevens door [!DNL Marketo Measure] naar de CRM-instantie verplaatst zolang het [!DNL Marketo Measure] beheerde pakket is geïnstalleerd en de [!DNL Marketo Measure] Salesforce-gebruiker over bewerkingsmachtigingen beschikt.
 
@@ -31,7 +31,7 @@ Standaard exporteert [!DNL Marketo Measure] 200 records per API-credit telkens w
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het is raadzaam de batch alleen te verkleinen als u een CPU-time-out of een hoge CPU-belasting hebt in uw CRM.
+Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het wordt aangeraden de batch alleen te verkleinen als u een CPU-time-out of een hoge CPU-belasting in uw CRM-systeem hebt.
 
 ## Salesforce Connected-gebruikersmachtigingen {#salesforce-connected-user-permissions}
 
@@ -319,7 +319,7 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
  </tbody> 
 </table>
 
-**de Rol van het Contact van 0&rbrace; Opportunity**
+**de Rol van het Contact van 0} Opportunity**
 
 <table> 
  <tbody> 
@@ -449,7 +449,19 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
    <td>Type</td> 
    <td>Standard</td> 
    <td>x</td> 
-   <td><br></td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>StartDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>EndDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
   </tr>
   <tr> 
    <td>Naam</td> 
@@ -583,7 +595,7 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
 >* Taak
 
 
-## [!DNL Marketo Measure] Aangepaste objecten in [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
+## [!DNL Marketo Measure] Aangepaste objecten in [!DNL Salesforce]  {#marketo-measure-custom-objects-in-salesforce}
 
 Naast het maken van aangepaste velden op standaardobjecten van SFDC, maakt het pakket een aantal aangepaste objecten nadat het [!DNL Marketo Measure] -pakket is geïnstalleerd. Hieronder ziet u een lijst met deze aangepaste objecten, samen met een tabel die de velden aangeeft waarnaar [!DNL Marketo Measure] gaat schrijven.
 
