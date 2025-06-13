@@ -22,7 +22,7 @@ Als u [!DNL Marketo Measure] wilt toestaan een rechtstreekse koppeling naar het 
 
 ## Beperkingen {#limitations}
 
-[!DNL Marketo Measure] kan alleen Snowflake Direct-aandelen instellen met accounts in Azure East US 2 (dit is een beperking in Marketo Measure, niet in Snowflake). Als u uw gegevens om in andere gebieden van Snowflake moet worden ter beschikking gesteld, adviseren wij het maken van een exemplaar van de gegevens in een rekening van Snowflake die in Azure East US 2 wordt gevestigd en het gebruiken van de ](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} eigenschap van de Replicatie van het Gegevensbestand 0} Snowflake om uw gegevens in het gebied van Snowflake/de rekening van uw keus te kopiëren.[
+[!DNL Marketo Measure] kan alleen Snowflake Direct-aandelen instellen met accounts in Azure East US 2 (dit is een beperking in Marketo Measure, niet in Snowflake). Als u uw gegevens om in andere gebieden van Snowflake moet worden ter beschikking gesteld, adviseren wij het maken van een exemplaar van de gegevens in een rekening van Snowflake die in Azure East US 2 wordt gevestigd en het gebruiken van de [&#128279;](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} eigenschap van de Replicatie van het Gegevensbestand 0&rbrace; Snowflake om uw gegevens in het gebied van Snowflake/de rekening van uw keus te kopiëren.
 
 ## Snowflake-account-id invoeren {#enter-snowflake-account-id}
 
@@ -63,4 +63,4 @@ GRANT IMPORTED PRIVILEGES ON DATABASE <database_name> TO ROLE <role_name>
 GRANT IMPORTED PRIVILEGES ON ALL SCHEMAS IN DATABASE <database_name> TO ROLE <role_name>
 ```
 
-Voor meer gedetailleerde instructies en stappen om deze stappen van Snowflake UI te verwezenlijken, verwijzing {de documentatie van 0} Snowflake direct ](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.[
+Voor meer gedetailleerde instructies en stappen om deze stappen van Snowflake UI te verwezenlijken, verwijzing {de documentatie van 0} Snowflake direct [&#128279;](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.
