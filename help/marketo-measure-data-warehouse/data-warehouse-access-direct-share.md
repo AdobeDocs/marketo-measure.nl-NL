@@ -1,42 +1,42 @@
 ---
-description: Toegang tot Data Warehouse - Direct delen - Productdocumentatie
-title: Toegang tot Data Warehouse - Direct delen
+description: Data Warehouse Access - Direct Share - Productdocumentatie
+title: Data Warehouse Access - Direct delen
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: bff10626589aba8c3dfe995dabde6eac1fc7809f
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-# Toegang tot Data Warehouse - Direct delen {#data-warehouse-access-direct-share}
+# Data Warehouse Access - Direct delen {#data-warehouse-access-direct-share}
 
 ## Vereisten {#requirements}
 
-Voor [!DNL Marketo Measure] aan opstelling moet een direct aandeel aan het gegevenspakhuis u aan de volgende vereisten voldoen.
+Als u [!DNL Marketo Measure] wilt toestaan een rechtstreekse koppeling naar het gegevenspakhuis in te stellen, moet u aan de volgende vereisten voldoen.
 
-* Je hebt je eigen Snowflake-instantie.
-* Uw instantie van de Snowflake is in de Azure East US 2 Snowflake regio.
-* U verstrekt [!DNL Marketo Measure] met uw account-id voor Snowflaken.
+* Je hebt je eigen Snowflake-exemplaar.
+* Uw Snowflake-instantie bevindt zich in de Azure East US 2 Snowflake-regio.
+* U geeft [!DNL Marketo Measure] op met de id van uw Snowflake-account.
 
 ## Beperkingen {#limitations}
 
-[!DNL Marketo Measure] alleen Snowflake Direct Shares met accounts in Azure East US 2 kunnen instellen vanwege de huidige beperkingen van Direct Share voor Snowflaken. Als u uw gegevens in andere gebieden van de Snowflake ter beschikking wilt stellen, adviseren wij een exemplaar van de gegevens in een rekening van de Snowflake in Azure East US 2 en gebruiken [Replicatie database Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} om uw gegevens in het gebied/de rekening van uw keuze van de Snowflake te kopiëren.
+[!DNL Marketo Measure] kan alleen Snowflake Direct-aandelen instellen met accounts in Azure East US 2 (dit is een beperking in Marketo Measure, niet in Snowflake). Als u uw gegevens om in andere gebieden van Snowflake moet worden ter beschikking gesteld, adviseren wij het maken van een exemplaar van de gegevens in een rekening van Snowflake die in Azure East US 2 wordt gevestigd en het gebruiken van de ](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} eigenschap van de Replicatie van het Gegevensbestand 0} Snowflake om uw gegevens in het gebied van Snowflake/de rekening van uw keus te kopiëren.[
 
-## Account-ID Snowflake invoeren {#enter-snowflake-account-id}
+## Snowflake-account-id invoeren {#enter-snowflake-account-id}
 
-Open de **Instellingen** in de Marketo Measure-app en navigeer naar de **Data Warehouse** pagina. In de **Direct delen** in, voert u uw [ID Snowflake-account](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in het meegeleverde vak en klik op **Verbinden**.
+Open de **sectie van Montages** in Marketo Measure app en navigeer aan de **Data Warehouse** pagina. In de **Directe sectie van het Aandeel**, ga uw [ Snowflake rekeningsidentiteitskaart ](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in de verstrekte doos in en klik **verbinden**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 
 ## Toegang tot het delen {#accessing-the-share}
 
-Nadat het aandeel voor verstrekte rekening-identiteitskaart wordt gecreeerd moet u voltooien [installatiestappen](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} binnen uw instantie van de Snowflake om tot de gegevens toegang te hebben.
+Nadat het aandeel voor verstrekte rekeningidentiteitskaart wordt gecreeerd, moet u de [ opstellingsstappen ](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} binnen uw instantie van Snowflake voltooien om tot de gegevens toegang te hebben.
 
 >[!NOTE]
 >
->U kunt elke gewenste databasenaam kiezen. U kunt de voorrechten aan om het even welke rol toewijzen u kiest, zolang het in uw instantie van de Snowflake bestaat.
+>U kunt elke gewenste databasenaam kiezen. U kunt de rechten toewijzen aan elke rol die u kiest, zolang deze bestaat in uw Snowflake-instantie.
 
 * De rol Account Admin gebruiken
 
@@ -63,4 +63,4 @@ GRANT IMPORTED PRIVILEGES ON DATABASE <database_name> TO ROLE <role_name>
 GRANT IMPORTED PRIVILEGES ON ALL SCHEMAS IN DATABASE <database_name> TO ROLE <role_name>
 ```
 
-Voor meer gedetailleerde instructies en stappen om deze stappen van Snowflake UI te verwezenlijken, verwijzing [Rechtstreeks documentatie van Snowflaken](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.
+Voor meer gedetailleerde instructies en stappen om deze stappen van Snowflake UI te verwezenlijken, verwijzing {de documentatie van 0} Snowflake direct ](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.[
