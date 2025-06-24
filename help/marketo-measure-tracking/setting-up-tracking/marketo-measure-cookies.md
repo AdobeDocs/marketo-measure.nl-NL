@@ -1,23 +1,23 @@
 ---
 unique-page-id: 18874590
-description: "[!DNL Marketo Measure] Cookies - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Cookies"
+description: '[!DNL Marketo Measure] Cookies -  [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Cookies'
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # Marketo Measure Cookies {#marketo-measure-cookies}
 
-Meer informatie over de verschillende [!DNL Marketo Measure] Cookies die op uw site worden geladen wanneer u de [!DNL Marketo Measure] JavaScript naar uw bestemmingspagina&#39;s. Deze informatie kan tijdens de implementatie nuttig zijn voor het webontwikkelingsteam.
+Meer informatie over de verschillende [!DNL Marketo Measure] cookies die op uw site worden geladen wanneer u de [!DNL Marketo Measure] JavaScript toepast op uw bestemmingspagina&#39;s. Deze informatie kan tijdens de implementatie nuttig zijn voor het webontwikkelingsteam.
 
 >[!IMPORTANT]
 >
->Vanwege privacyproblemen zijn cookies van derden op weg. Google Chrome kondigde in het derde kwartaal van 2024 de afleiding van cookies van derden aan, en markeert in feite het einde van deze vorm van bijhouden. Als gevolg hiervan worden Marketo Measure-functies die afhankelijk zijn van cookies van derden afgekeurd door de Adobe, met name Cross-Domain Tracking en View-through Attribution, die gebruikmaken van het Google/DoubleClick-imitatiecookie. Geen enkele andere functie van Marketo Measure wordt beïnvloed. Het cookie-gebruik van de eerste partij wordt ook niet beïnvloed. In het licht van het Google-schema is de verwachte vervaldatum voor de twee bovenstaande functies 16-01-2024. Verwante gegevens die vóór deze datum zijn verzameld, blijven beschikbaar voor klanten van de Adobe.
+>Vanwege privacyproblemen zijn cookies van derden op weg. Google Chrome kondigde aan dat de cookies van derden in het derde kwartaal van 2024 zijn vervangen. Dit betekent dat deze vorm van bijhouden is geëindigd. Als gevolg hiervan is Adobe bezig Marketo Measure-functies af te schaffen die afhankelijk zijn van cookies van derden, met name Cross-Domain Tracking and View-through Attribution, die gebruikmaken van het Google/DoubleClick-imitatiecookie. Geen enkele andere functie van Marketo Measure wordt beïnvloed. Het cookie-gebruik van de eerste partij wordt ook niet beïnvloed. In het licht van het Google-schema is de verwachte vervaldatum voor de twee bovenstaande functies 16-01-2024. Gerelateerde gegevens die vóór deze datum zijn verzameld, blijven beschikbaar voor Adobe-klanten.
 
 <table>
 <thead>
@@ -97,7 +97,7 @@ Meer informatie over de verschillende [!DNL Marketo Measure] Cookies die op uw s
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Third party, domain=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
+    <td>Third party, domain=.<a href="https://business.adobe.com/products/marketo/bizible.html"> bizible.com </a></td>
     <td>Universele gebruiker - identiteitskaart om een gebruiker over veelvoudige domeinen te identificeren.</td>
     <td>1 jaar</td>
     <td>Ja</td>
@@ -106,7 +106,7 @@ Meer informatie over de verschillende [!DNL Marketo Measure] Cookies die op uw s
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Third party, domain=.<a href="http://bizibly.com/">bizibly.com</a></td>
+    <td>Third party, domain=.<a href="https://bizibly.com/"> bizible.com </a></td>
     <td>Toewijzing tussen de cookie-id van Marketo Measure op het domein van de huurder en de Cookie-id van de Doubleclick.</td>
     <td>1 jaar</td>
     <td>Ja</td>
@@ -116,6 +116,6 @@ Meer informatie over de verschillende [!DNL Marketo Measure] Cookies die op uw s
 </tbody>
 </table>
 
-Als een waarschuwing van de Firewall van de Toepassing van het Web (WAF) tijdens de opstelling JavaScript wordt teweeggebracht, kunnen de gebruikers of die regel van WAF onbruikbaar maken of de koekjes lijsten van gewenste personen, zoals het hieronder voorbeeld:
+Als een waarschuwing van de Firewall van de Toepassing van het Web (WAF) tijdens de opstelling van JavaScript wordt teweeggebracht, kunnen de gebruikers of die regel van WAF onbruikbaar maken of de koekjes, zoals het volgende voorbeeld lijsten van gewenste personen:
 
 ![](assets/marketo-measure-cookies-1.png)
