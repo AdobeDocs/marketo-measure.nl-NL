@@ -4,9 +4,9 @@ description: Boomerang Stage Scenarios -  [!DNL Marketo Measure]
 title: Boomerang Stage Scenarios
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: ce54eb497c55c4ab8da55e9b2803dc59a87c7267
+source-git-commit: 855ae5abe6f8782ed1883f85be545c11bf86e7ce
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,9 @@ De FT- en LC-aanraakpunten op de Opportunity zijn afkomstig van Lead 1 (blauw), 
 
 De MQL-01 (laatste) van lead 2 wordt de eerste MQL op de opportuniteit. De MQL-01 van Lood 1 zal niet als aanraakpunt op de Kans verschijnen omdat Lood 2 MQL eerst voorkwam. Nochtans, zullen leiden 1 MQL-02 en MQL-03 op de Kans verschijnen.
 
-Het SQL-werkgebied wordt bijgehouden in aangepaste stadia en niet in boemerangfasen. Hoewel het SQL-werkgebied drie keer voorkomt tussen regel 1 en regel 2, wordt alleen de laatste SQL-instantie opgenomen als aanraakpunt op de opportunity.
+Het SQL-werkgebied wordt bijgehouden met aangepaste stadia en niet met boemerangfasen. Hoewel het SQL-werkgebied drie keer voorkomt tussen regel 1 en regel 2, wordt alleen de laatste SQL-instantie opgenomen als aanraakpunt op de opportunity.
 
-Het SAL-01 (laatste) aanraakpunt van Lood 1 wordt overgedragen als aanraakpunt op de Opportunity. Lood 1 wordt dan omgezet in een Contact met een Kans, die als OC aanraking wordt beschouwd. Lood 2 (laatste) zal aanraakpunt SAL-01 worden gecreeerd als aanraakpunt omdat deze werkgebiedovergang _na_ de OC aanraking voorkwam.
+Het SAL-01 (laatste) aanraakpunt van Lood 1 wordt overgedragen als aanraakpunt op de Opportunity. Lood 1 wordt dan omgezet in een Contact met een Kans, die als OC aanraking wordt beschouwd. Lood 2 (laatste) zal aanraakpunt SAL-01 niet als aanraakpunt worden gecreeerd omdat deze werkgebiedovergang _na_ de OC aanraking voorkwam.
 
 Hoofd 3&#39;s FT, LC en MQL, SQL, SAL touchpoints (oranje) voorkwamen allen na OC touchpoint op de Opportunity. Deze aanraakpunten worden opgenomen in de Opportunity, maar worden beschouwd als &#39;middelste aanraakpunten&#39;.
 
