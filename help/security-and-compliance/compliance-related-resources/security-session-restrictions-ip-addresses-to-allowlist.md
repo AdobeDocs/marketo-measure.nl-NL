@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Beperkingen van de Zitting van de veiligheid: IP Adressen aan Lijst van gewenste personen {#security-session-restrictions-ip-addresses-to-allowlist}
 
-Als er [Beveiligingsinstellingen sessie](https://help.salesforce.com/articleView?id=admin_sessions.htm&amp;type=0){target="_blank"} op zijn plaats verhinderend specifieke IP Adressen van het duwen/trekken van gegevens aan uw [!DNL Salesforce] instantie, zullen wij de volgende op de lijst met gewenste personen staan IP waaiers nodig hebben om toe te staan [!DNL Marketo Measure] om gegevens naar [!DNL Salesforce]:
+Als er [Beveiligingsinstellingen sessie](https://help.salesforce.com/articleView?id=admin_sessions.htm&type=0){target="_blank"} op zijn plaats verhinderend specifieke IP Adressen van het duwen/trekken van gegevens aan uw [!DNL Salesforce] instantie, zullen wij de volgende op de lijst met gewenste personen staan IP waaiers nodig hebben om toe te staan [!DNL Marketo Measure] om gegevens naar [!DNL Salesforce]:
 
 * 52.162.84.192 - 52.162.84.207
 * 23.100.229.112 - 23.100.229.127

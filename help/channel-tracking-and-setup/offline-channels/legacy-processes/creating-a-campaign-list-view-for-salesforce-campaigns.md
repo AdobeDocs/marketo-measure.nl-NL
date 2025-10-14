@@ -44,4 +44,4 @@ In de keuzelijst Campagne die u kunt maken, kunt u een &#39;go-to&#39;-locatie i
 
 >[!MORELIKETHIS]
 >
->[Problemen met algemene problemen met Inline lijstweergave oplossen](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}
+>[Problemen met algemene problemen met Inline lijstweergave oplossen](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

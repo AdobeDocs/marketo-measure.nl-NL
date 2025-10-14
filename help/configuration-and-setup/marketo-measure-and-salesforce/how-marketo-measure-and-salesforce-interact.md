@@ -1266,4 +1266,4 @@ De Buyer Attribution Touchpoint is een [!DNL Marketo Measure] aangepast object w
 
 >[!MORELIKETHIS]
 >
->[ Overzicht van de Toestemmingen van de Integratie ](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}
+>[&#x200B; Overzicht van de Toestemmingen van de Integratie &#x200B;](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}

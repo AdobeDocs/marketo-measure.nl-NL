@@ -27,7 +27,7 @@ De beheerde rechtenset geeft een SFDC-beheerder de mogelijkheid om records te ma
 
 * Toestemmingsset voor omgezette leads weergeven en bewerken
 
-Dit maakt [!DNL Marketo Measure] om leidingen te versieren nadat ze zijn omgezet in contacten. Als deze rechtenset niet is ingeschakeld, kunnen er belangrijke hiaten in het bijhouden van gegevens zijn. Meer informatie vindt u in [[!DNL Salesforce Trailblazer] gemeenschap](https://help.salesforce.com/s/articleView?language=en_US&amp;id=leads_view_edit_converted.htm&amp;type=5).
+Dit maakt [!DNL Marketo Measure] om leidingen te versieren nadat ze zijn omgezet in contacten. Als deze rechtenset niet is ingeschakeld, kunnen er belangrijke hiaten in het bijhouden van gegevens zijn. Meer informatie vindt u in [[!DNL Salesforce Trailblazer] gemeenschap](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
 
 * [!DNL Salesforce] Selectievakje voor marketinggebruiker
 

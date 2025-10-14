@@ -35,7 +35,7 @@ Om tot de Reeksen van de Toestemming in Salesforce toegang te hebben en toe te w
  <tbody> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Beheerder</strong></span></td> 
-   <td><span>Biedt een SFDC-beheerder de mogelijkheid om records te maken, lezen, schrijven, verwijderen uit [!DNL Marketo Measure] objecten. De vergunning waarbij [!DNL Marketo Measure] deze machtigingsset moet zijn ingeschakeld wanneer gegevens naar SFDC worden gestuurd. Bovendien wordt aangeraden dat deze licentie geconverteerde leads kan bewerken in de scenario's waarin de lead eerder wordt geconverteerd [!DNL Marketo Measure] gegevens toepassen op de record. Dit zorgt voor een juiste rapportage tussen Salesforce en [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">Meer hier lezen</a>.</span></td> 
+   <td><span>Biedt een SFDC-beheerder de mogelijkheid om records te maken, lezen, schrijven, verwijderen uit [!DNL Marketo Measure] objecten. De vergunning waarbij [!DNL Marketo Measure] deze machtigingsset moet zijn ingeschakeld wanneer gegevens naar SFDC worden gestuurd. Bovendien wordt aangeraden dat deze licentie geconverteerde leads kan bewerken in de scenario's waarin de lead eerder wordt geconverteerd [!DNL Marketo Measure] gegevens toepassen op de record. Dit zorgt voor een juiste rapportage tussen Salesforce en [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&type=5&release=206&language=en_us">Meer hier lezen</a>.</span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Gebruiker van marketing</strong></span></td> 

@@ -50,11 +50,11 @@ Andere redenen daarvoor kunnen aanleiding geven tot een herziening...
 
 >[!NOTE]
 >
->Wanneer u het exporteren van gegevens van Marketo Measure naar Salesforce uitschakelt, worden bestaande gegevens niet verwijderd. Volg de stappen in om het bestand te verwijderen [dit Help-artikel voor Salesforce](https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
+>Wanneer u het exporteren van gegevens van Marketo Measure naar Salesforce uitschakelt, worden bestaande gegevens niet verwijderd. Volg de stappen in om het bestand te verwijderen [dit Help-artikel voor Salesforce](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [Aanraakpuntpakket voor koper bijwerken](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [[!DNL Marketo Measure] Machtigingssets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [Map Rapporten en dashboards delen](https://help.salesforce.com/s/articleView?language=en_US&amp;id=analytics_share_folder.htm&amp;type=0)
+>* [Map Rapporten en dashboards delen](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
 >* [Marketo Measure verbinden met Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

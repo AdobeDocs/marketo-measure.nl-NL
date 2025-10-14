@@ -26,13 +26,13 @@ Als u [!DNL Marketo Measure] wilt toestaan een rechtstreekse koppeling naar het 
 
 ## Snowflake-account-id invoeren {#enter-snowflake-account-id}
 
-Open de **sectie van Montages** in Marketo Measure app en navigeer aan de **Data Warehouse** pagina. In de **Directe sectie van het Aandeel**, ga uw [ Snowflake rekeningsidentiteitskaart ](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in de verstrekte doos in en klik **verbinden**.
+Open de **sectie van Montages** in Marketo Measure app en navigeer aan de **Data Warehouse** pagina. In de **Directe sectie van het Aandeel**, ga uw [&#x200B; Snowflake rekeningsidentiteitskaart &#x200B;](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in de verstrekte doos in en klik **verbinden**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 
 ## Toegang tot het delen {#accessing-the-share}
 
-Nadat het aandeel voor verstrekte rekeningidentiteitskaart wordt gecreeerd, moet u de [ opstellingsstappen ](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} binnen uw instantie van Snowflake voltooien om tot de gegevens toegang te hebben.
+Nadat het aandeel voor verstrekte rekeningidentiteitskaart wordt gecreeerd, moet u de [&#x200B; opstellingsstappen &#x200B;](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} binnen uw instantie van Snowflake voltooien om tot de gegevens toegang te hebben.
 
 >[!NOTE]
 >

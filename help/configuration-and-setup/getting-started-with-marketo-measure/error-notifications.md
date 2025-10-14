@@ -30,7 +30,7 @@ Het volledige kennisgevingsbericht weergeven in [!DNL Marketo Measure], klikt u 
       <td>API_DISABLED</td>
       <td>Er is een fout opgetreden tijdens het importeren van CRM: API_DISABLED: API-aanroepen zijn uitgeschakeld voor deze gebruiker</td>
       <td>De API-machtiging is uitgeschakeld voor de Marketo Measure-gebruiker.</td>
-      <td>Raadpleeg de volgende documentatie bij Salesforce op <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">API-toegang inschakelen</a>.</td>
+      <td>Raadpleeg de volgende documentatie bij Salesforce op <a href="https://help.salesforce.com/s/articleView?language=en_US&id=sf.branded_apps_commun_api_permset.htm&type=5">API-toegang inschakelen</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -78,7 +78,7 @@ Salesforce-documentatie over stroomtriggers <a href="https://admin.salesforce.co
       Ontbrekende machtigingen voor het object.</td>
       <td>Controleer de triggercode waardoor het invoegen/bijwerken mislukt. Raadpleeg de volgende documentatie bij Salesforce voor meer informatie over triggers:
         <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5">Apex-triggers</a>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&type=5">Apex-triggers</a>
           </li>
           <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">Stroom triggers</a>
           </li>
@@ -91,7 +91,7 @@ Salesforce-documentatie over stroomtriggers <a href="https://admin.salesforce.co
       <td>DUPLICATES_DETECTED</td>
       <td>Er is een fout opgetreden tijdens de Crm-export: DUPLICATES_DETECTED : Type entiteit 'Contact': CRM ErrorCode: DUPLICATES_DETECTED, CRM ErrorMessage: U maakt een gedupliceerde record. We raden u aan een bestaande record te gebruiken., RecordId: 0123456</td>
       <td>De record die wordt geïmporteerd in de Salesforce Org bestaat al.</td>
-      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">De instelling Regel dupliceren uitschakelen</a> om duplicaten toe te staan.
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">De instelling Regel dupliceren uitschakelen</a> om duplicaten toe te staan.
           <p>
           De specifieke Marketo Measure-gebruiker uitsluiten van <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">aangepaste validatieregels</a>.</td>
     </tr>
@@ -99,7 +99,7 @@ Salesforce-documentatie over stroomtriggers <a href="https://admin.salesforce.co
       <td>DUPLICATE_VALUE</td>
       <td>Fout opgetreden tijdens Crm Export: DUPLICATE_VALUE : Type entiteit 'Lead': CRM ErrorCode: DUPLICATE_VALUE, CRM ErrorMessage: duplicate value found: Email_Unique__c duplicates value on record with id: 123, RecordId: 456</td>
       <td>In het veld dat wordt geïmporteerd in de Salesforce Org zijn geen dubbele waarden toegestaan.</td>
-      <td>Schakel het selectievakje <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Uniek selectievakje"</a> in Salesforce.
+      <td>Schakel het selectievakje <a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">"Uniek selectievakje"</a> in Salesforce.
           <p>
           De specifieke Marketo Measure-gebruiker uitsluiten van <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">aangepaste validatieregels</a>.</td>
     </tr>
@@ -119,7 +119,7 @@ Salesforce-documentatie over stroomtriggers <a href="https://admin.salesforce.co
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
       <td>Fout opgetreden tijdens Crm-export: FIELD_FILTER_VALIDATION_EXCEPTION: Type entiteit 'Lead': CRM ErrorCode: FIELD_FILTER_VALIDATION_EXCEPTION, Field(s): User__C, CRM ErrorMessage: Value does not exist or not match filter criteria. Selecteer een gebruiker met de rol "Account Executive, Inside Sales"; RecordId: 0123456</td>
       <td>Gewijzigde record voldoet niet meer aan opzoekfilters die op het object zijn gedefinieerd.</td>
-      <td>Controleren op filters op het object dat Marketo Measure probeert te wijzigen. Zie <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">dit Salesforce-artikel</a> om te leren controleren op filters op een object.</td>
+      <td>Controleren op filters op het object dat Marketo Measure probeert te wijzigen. Zie <a href="https://help.salesforce.com/s/articleView?id=000384756&type=1">dit Salesforce-artikel</a> om te leren controleren op filters op een object.</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
@@ -128,7 +128,7 @@ Salesforce-documentatie over stroomtriggers <a href="https://admin.salesforce.co
       <td>Het meest voorkomende geval hiervan is dat de in de Salesforce Org vastgestelde naamgevingsnormen voor landen/landen niet worden nageleefd, omdat de velden Staat/Land zijn gestandaardiseerd om alleen bepaalde keuzelijstwaarden te accepteren. U kunt dit probleem oplossen door:
         <ul>
           <li>Werk de record bij volgens de geaccepteerde waarden van de organisatie voor dat veld. Neem contact op met uw SFDC-beheerder om de lijst met toegestane waarden op te halen.</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">Frame/land-picklists uitschakelen</a>.
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&type=5">Frame/land-picklists uitschakelen</a>.
           </li>
         </ul>
       </td>
@@ -137,7 +137,7 @@ Salesforce-documentatie over stroomtriggers <a href="https://admin.salesforce.co
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>Fout opgetreden tijdens Crm-export: INACTIVE_OWNER_OR_USER: Type entiteit 'Contact': CRM ErrorCode: INACTIVE_OWNER_OR_USER, CRM-foutmelding: bewerking uitgevoerd met niet-actieve gebruiker [1234] als eigenaar van contact, RecordId: 0123456</td>
       <td>Marketo Measure beschikt niet over de machtiging "Records bijwerken met inactieve eigenaars".</td>
-      <td>Marketo Measure de opdracht "<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">Records bijwerken met inactieve eigenaars</a>" toestemming.</td>
+      <td>Marketo Measure de opdracht "<a href="https://help.salesforce.com/s/articleView?id=000386699&type=1">Records bijwerken met inactieve eigenaars</a>" toestemming.</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
@@ -254,7 +254,7 @@ Salesforce-documentatie over stroomtriggers <a href="https://admin.salesforce.co
       <td>De record die wordt bijgewerkt, voldoet niet aan een validatieregel die is ingesteld op de Salesforce org.</td>
       <td>De specifieke Marketo Measure-gebruiker uitsluiten van <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">aangepaste validatieregels</a>.
       <p>
-      Werk uw <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">validatieregels</a>.</td>
+      Werk uw <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&type=5">validatieregels</a>.</td>
     </tr>
     <tr>
       <td>RESTRICT_PICKLIST_VALUES_ENABLED</td>

@@ -29,9 +29,9 @@ Wanneer u een bezoeker aan één van uw pagina&#39;s van de Inhoud op uw plaats 
 * Openingspagina
 * Verwijzen naar website
 
-Als u wilt aanpassen in welk segment uw leads worden geplaatst op basis van hun UTM-parameters, kunt u Kanaalregels gebruiken. Voor meer bij vestiging en het handhaven van uw Regels van het Kanaal, [ klik hier ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Als u wilt aanpassen in welk segment uw leads worden geplaatst op basis van hun UTM-parameters, kunt u Kanaalregels gebruiken. Voor meer bij vestiging en het handhaven van uw Regels van het Kanaal, [&#x200B; klik hier &#x200B;](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
-Leer hoe te opstelling uw [ Online Kanalen ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md) en [ Offlinekanalen ](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md), evenals het verschil tussen hen.
+Leer hoe te opstelling uw [&#x200B; Online Kanalen &#x200B;](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md) en [&#x200B; Offlinekanalen &#x200B;](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md), evenals het verschil tussen hen.
 
 **het Marketing Kanaal**
 

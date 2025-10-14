@@ -101,7 +101,7 @@ Google URL Builder is een standaardprogramma voor het maken van correct opgemaak
 
 **Google Spreadsheet gegenereerd door EpikOne**
 
-Dit spreadsheet heeft een formule die geëtiketteerde bestemmingsURLs automatisch zal produceren. Dit is een handig gereedschap als u een groot aantal koppelingen van tags wilt voorzien. De spreadsheet openen [hier](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
+Dit spreadsheet heeft een formule die geëtiketteerde bestemmingsURLs automatisch zal produceren. Dit is een handig gereedschap als u een groot aantal koppelingen van tags wilt voorzien. De spreadsheet openen [hier](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&hl=en){target="_blank"}.
 
 **Reparatieopter - gereedschap Koppelingstags**
 

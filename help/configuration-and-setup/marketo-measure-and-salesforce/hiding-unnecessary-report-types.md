@@ -29,4 +29,4 @@ Nadat u uw installatie hebt voltooid en rapporten hebt gebruikt, niet elk rappor
 
 >[!MORELIKETHIS]
 >
->[Salesforce - Niet-gebruikte rapporttypen verbergen](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&amp;type=5&amp;language=en_us)
+>[Salesforce - Niet-gebruikte rapporttypen verbergen](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

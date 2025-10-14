@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Bij het samenvoegen van leads in [!DNL Salesforce], is het altijd beter om voorzichtig te zijn om ervoor te zorgen dat geen gegevens worden verloren.
 
-Hier is de uitsplitsing van [hoe te om Leads samen te voegen](https://help.salesforce.com/s/articleView?id=leads_merge.htm&amp;language=en_US&amp;type=5) van [!DNL Salesforce] Ondersteuning.
+Hier is de uitsplitsing van [hoe te om Leads samen te voegen](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5) van [!DNL Salesforce] Ondersteuning.
 
 Wanneer [!DNL Marketo Measure] komt binnen is wanneer het tijd is om gebieden te selecteren die op het samengevoegde verslag bevolken. Nadat u het hoofdrecord hebt geselecteerd, controleert u of de [!DNL Marketo Measure] velden worden geselecteerd om over te dragen naar de nieuwe record.
 

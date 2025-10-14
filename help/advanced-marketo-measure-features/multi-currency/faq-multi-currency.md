@@ -61,4 +61,4 @@ Omdat onze aanbieding nu de omzettingen voor de klant zal behandelen, adviseren 
 
 >[!MORELIKETHIS]
 >
->[ Meldingen van de Fout ](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[&#x200B; Meldingen van de Fout &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

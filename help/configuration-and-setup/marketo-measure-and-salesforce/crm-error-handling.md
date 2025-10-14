@@ -15,7 +15,7 @@ Met de functie Pauzeren bij exportfouten kunt u bepalen of CRM-exporttaken moete
 
 Het plaatsen kan onder **Mijn Rekening** worden gevonden > **Montages** > **CRM** > **Algemeen**.
 
-![ Pauzeren op de Fouten van de Uitvoer ](assets/stop-progress.png)
+![&#x200B; Pauzeren op de Fouten van de Uitvoer &#x200B;](assets/stop-progress.png)
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Wanneer deze functie is ingeschakeld, gaat de exporttaak niet verder en blijft d
 
 Als u deze functie uitschakelt, wordt een waarschuwingspop-up weergegeven met de melding dat dit tot inconsistenties in de gegevens kan leiden. Het is uw verantwoordelijkheid om eventuele problemen die uit deze inconsistenties kunnen voortvloeien, aan te pakken.
 
-![ de inconsistentiewaarschuwing van Gegevens ](assets/data-inconsistency.png)
+![&#x200B; de inconsistentiewaarschuwing van Gegevens &#x200B;](assets/data-inconsistency.png)
 
 In beide gevallen, of de functie nu in- of uitgeschakeld is, worden alle aangetroffen fouten op recordniveau aangemeld in de tabel `ExportErrors` en probeert de `CRMExport_ExportError` -taak automatisch deze records dagelijks opnieuw te exporteren. Dit elimineert de behoefte aan een steunverzoek om een heruitvoer in werking te stellen, aangezien het automatisch zonder enige ontwikkelaarsinterventie zal gebeuren.
 
