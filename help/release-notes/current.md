@@ -24,19 +24,19 @@ Bovendien worden sessies die gebruikmaken van aanmelden via een sociaal netwerk 
 
 Voor nieuwe klanten, is de overdracht van het zittingskanaal nu het standaardgedrag. Bestaande klanten kunnen dit inschakelen door de optie Sessiekanaaloverdracht in te schakelen onder Instellingen > Aanraakkenmerk. Deze instelling kan niet ongedaan worden gemaakt nadat deze is geactiveerd.
 
-Documentatie: [&#x200B; Definitie van de Zittingen van het Web van Marketo Measure &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"} 
+Documentatie: [ Definitie van de Zittingen van het Web van Marketo Measure ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### Trefwoord ROI-dashboard
 
-Het nieuwe ROI Dashboard van het Sleutelwoord biedt gedetailleerde inzichten in de prestaties van Paid onderzoekscampagnes, die een uitvoerig overzicht van sleutelwoordvlakke kosten, toegeschreven opbrengst, en de geproduceerde kansen verstrekken. Met dit dashboard kunt u de ROI van elk trefwoord evalueren in Google Adwords, LinkedIn en Bing Ads, enzovoort.
+Het nieuwe ROI Dashboard van het Sleutelwoord biedt gedetailleerde inzichten in de prestaties van Paid onderzoekscampagnes, die een uitvoerig overzicht van sleutelwoordvlakke kosten, toegeschreven opbrengst, en de geproduceerde kansen verstrekken. Met dit dashboard kunt u de ROI van elk trefwoord evalueren in Google Adwords, LinkedIn, Bing Ads, enzovoort.
 
-Documentatie: [&#x200B; ROI Dashboard van het Sleutelwoord &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"} 
+Documentatie: [ het Dashboard van ROI van het Sleutelwoord ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Verbeterde segmentregels
 
 U kunt nu segmenten maken met de velden Campagne en Campagne-lid, in aanvulling op de velden Aanraakpunt en Contactpersoon. Op deze manier kunt u uw gegevens effectiever analyseren en ontleden in Discover.
 
-![&#x200B; Verbeterde Regels van het Segment &#x200B;](assets/mm-q4-release-1.png)
+![ Verbeterde Regels van het Segment ](assets/mm-q4-release-1.png)
 
 ### Update: instelling voor foutafhandeling voor CRM-export
 
@@ -58,7 +58,7 @@ We hebben geluisterd naar uw feedback over de aanpak voor het stoppen van taken 
 
 Om u aan deze verandering te helpen aanpassen, hebben wij documentatie over de nieuwe eigenschap en duidelijke foutenbeschrijvingen met uitvoerige het oplossen van problemenstappen gecreeerd.
 
-* Nieuwe documentatie: [&#x200B; de Behandeling van de Fout die voor CRM uitvoert &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
+* Nieuwe documentatie: [ de Behandeling van de Fout die voor CRM uitvoert ](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [Foutmeldingen](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## Q3 Release {#q3-release}
@@ -67,7 +67,7 @@ Om u aan deze verandering te helpen aanpassen, hebben wij documentatie over de n
 
 ### Herinnering: Salesforce Field Deprecations - 14 juni
 
-Zoals vorig jaar aangekondigd, zullen wij [&#x200B; geleidelijk aan onze uitvoerbanen aan Lood/de voorwerpen van het Contact &#x200B;](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}  zijn om onze integratie te vereenvoudigen en de behoefte te elimineren om naar Salesforce standaardvoorwerpen uit te voeren. U kunt de zelfde gegevens uit uw voorwerpen verkrijgen Touchpoint door de stappen te volgen [&#x200B; hier wordt gedocumenteerd &#x200B;](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. We delen ook documentatie over het maken van workflows om deze gegevens toe te voegen aan het object Lead/Contact. De afschrijving wordt van kracht op 14 juni 2024.
+Zoals vorig jaar aangekondigd, zullen wij [ geleidelijk aan onze uitvoerbanen aan Lood/de voorwerpen van het Contact ](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} zijn om onze integratie te vereenvoudigen en de behoefte te elimineren om naar Salesforce standaardvoorwerpen uit te voeren. U kunt de zelfde gegevens uit uw voorwerpen verkrijgen Touchpoint door de stappen te volgen [ hier wordt gedocumenteerd ](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. We delen ook documentatie over het maken van workflows om deze gegevens toe te voegen aan het object Lead/Contact. De afschrijving wordt van kracht op 14 juni 2024.
 
 Deze wijziging zal twee belangrijke voordelen opleveren:
 
@@ -76,22 +76,22 @@ Deze wijziging zal twee belangrijke voordelen opleveren:
 
 ### Toegewezen opportuniteitsdashboard
 
-Wij zijn opgetogen om het nieuwe [&#x200B; Attributed Dashboard van de Kans &#x200B;](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"} te introduceren, die wordt ontworpen om u een uitvoerige mening van te geven hoe uw marketing inspanningen aan zowel ontluikende als volwassen pijpleidingskansen bijdragen. Met dit dashboard kunt u de details bekijken van elke open en gesloten kans die aan uw strategieën is toe te schrijven, met de flexibiliteit om per opportuniteitsfase te filteren. Het biedt inzicht in welke kanalen, subkanalen, of campagnes het hoogst in termen van toegewezen opportuniteitsbedrag zijn, en toont het totale toegewezen opportuniteitsbedrag samen met het aantal toegewezen open en gesloten kansen.
+Wij zijn opgetogen om het nieuwe [ Attributed Dashboard van de Kans ](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"} te introduceren, die wordt ontworpen om u een uitvoerige mening van te geven hoe uw marketing inspanningen aan zowel ontluikende als volwassen pijpleidingskansen bijdragen. Met dit dashboard kunt u de details bekijken van elke open en gesloten kans die aan uw strategieën is toe te schrijven, met de flexibiliteit om per opportuniteitsfase te filteren. Het biedt inzicht in welke kanalen, subkanalen, of campagnes het hoogst in termen van toegewezen opportuniteitsbedrag zijn, en toont het totale toegewezen opportuniteitsbedrag samen met het aantal toegewezen open en gesloten kansen.
 
 ### Marketo Engage Cookie Sync voor Marketo Measure Ultimate
 
 Marketo Engage Cookie Sync is nu beschikbaar voor Marketo Measure Ultimate. Deze functie gebruiken:
 
-1. Bewerk op de pagina AEP-schema&#39;s het B2B-personeschema en voeg de veldgroep &quot;Marketo Engage Person Details&quot; toe.
+1. Bewerk op de pagina AEP-schema&#39;s het B2B-personenschema en voeg de veldgroep &quot;Marketo Engage Person Details&quot; toe.
 1. Wanneer het opnemen van de gegevens aan MMU, kaart het gebied van identiteitskaart van de Koek van de gebiedsgroep aan het gebied van Koekjes van Marketo Engage.
 
 ### Boomerang-fasen ingeschakeld voor Tier 2-klanten
 
 Voorheen alleen beschikbaar voor klanten van Tier 3, is de functie van het werkgebied van Boomerang ook beschikbaar voor alle klanten van Tier 2 die op 13 juni 2024 aanvangen. Raadpleeg de onderstaande documentatie voor meer informatie over deze functie.
 
-* [&#x200B; Boomerang Stages en Touchpoints &#x200B;](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
-* [&#x200B; Vestiging Boomerang Stages &#x200B;](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
-* [&#x200B; Boomerang de Scenario&#39;s van het Stadium &#x200B;](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
+* [ Boomerang Stages en Touchpoints ](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [ Vestiging Boomerang Stages ](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [ Boomerang de Scenario&#39;s van het Stadium ](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 <p>
 
@@ -103,8 +103,8 @@ Voorheen alleen beschikbaar voor klanten van Tier 3, is de functie van het werkg
 
 In reactie op de toenemende bezorgdheid over privacy worden cookies van derden geleidelijk afgeschaft, waarbij de Google Chrome de deadline van het derde kwartaal van 2024 aangeeft. Marketo Measure zal bepaalde functies vervangen die afhankelijk zijn van cookies van derden, met name Cross-Domain Tracking en View-through Attribution, die afhankelijk zijn van het Google/DoubleClick-imitatiecookie. Deze wijziging heeft geen invloed op andere Marketo Measure-functies of het gebruik van cookies van andere leveranciers. Na de tijdlijn van Google zullen deze functies naar verwachting op 1 juni verouderd zijn, hoewel de gegevens die vóór deze datum verzameld zijn nog steeds toegankelijk zijn voor klanten.
 
-* [&#x200B; het Aanpassen aan de Afschrijving van de Koekjesie van de Derde in Marketo Measure &#x200B;](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"} 
-* [&#x200B; de Koekjes van Marketo Measure &#x200B;](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
+* [ het Aanpassen aan de Verdringing van de Koekjesindustrie van de Derde in Marketo Measure ](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
+* [ de Koekjes van Marketo Measure ](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
 
 ### Gestroomlijnde implementatie van onze verbeterde foutafhandeling
 
@@ -121,10 +121,10 @@ Onmiddellijke zichtbaarheid: de introductie van pulsmeldingen maakt een snelle r
 
 _ondersteunend Uw Overgang_
 
-Om u aan deze verandering aan te passen, [&#x200B; hebben wij documentatie &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} met duidelijke foutenbeschrijvingen en uitvoerige het oplossen van problemenstappen gecreeerd.
+Om u aan deze verandering aan te passen, [ hebben wij documentatie ](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} met duidelijke foutenbeschrijvingen en uitvoerige het oplossen van problemenstappen gecreeerd.
 
 <br>
 
-### Actie vereist voor LinkedIn-integratie
+### Actie vereist voor Integratie LinkedIn
 
-LinkedIn heeft onlangs een bijgewerkte versie uitgebracht van de bijbehorende API voor Lead Sync. Verifieer de LinkedIn-verbinding uiterlijk op 20 mei in uw Marketo Measure-exemplaar om onderbrekingen te voorkomen.
+LinkedIn heeft onlangs een bijgewerkte versie van hun API voor het synchroniseren van leads uitgebracht. Please re-authenticate the LinkedIn connection in your Marketo Measure instance by May 20 to avoid any onderbrekingen.

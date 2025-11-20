@@ -2,12 +2,12 @@
 cloud: Experience Cloud
 product: Bizible
 audience: end-user
-user-guide-title: "[!DNL Marketo Measure] Handleiding"
-user-guide-description: "[!DNL Marketo Measure] geeft marketeers inzicht in welke marketinginspanningen het meest effectief zijn in het aansturen van inkomsten voor hun bedrijf."
+user-guide-title: '[!DNL Marketo Measure] Handleiding'
+user-guide-description: '[!DNL Marketo Measure] biedt marketeers inzicht in welke marketinginspanningen het meest effectief zijn om de omzet van hun onderneming te verhogen.'
 source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
          + [Toevoegend  [!DNL Marketo Measure]  aan gedoe-op Forms](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-to-act-on-forms.md)
          + [Toevoegend  [!DNL Marketo Measure]  aan Hubspot](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-to-hubspot.md)
          + [Toevoegend  [!DNL Marketo Measure]  aan Marketo het Landen Pagina&#39;s](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-to-marketo-landing-pages.md)
-         + [Formulierverwerking AJAX](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md)
+         + [AJAX-formulierverwerking](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md)
          + [Verbindend  [!DNL Marketo Measure]  aan Unbounce Manager van het Manuscript](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/connecting-marketo-measure-to-unbounce-script-manager.md)
          + [IFrame Forms en  [!DNL Marketo Measure]](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/iframe-forms-and-marketo-measure.md)
       + [Exclusief  [!DNL Marketo Measure]  van Specifieke Forms](marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
@@ -49,10 +49,10 @@ ht-degree: 0%
       + [Adobe Admin Console Setup](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [Verschil tussen aanraakpunten voor kopers en aanraakpunten voor koperkenmerken](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
       + [Foutmeldingen](configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
-      + [Uitleg van plaatsen van het Aanraakpunt en Generatie over BT en  [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
+      + [Uitleg van plaatsen van het Aanraakpunt en Generatie over BTs en  [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [[!DNL Marketo Measure] CRM Packageless Integration](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + [!DNL Marketo Measure] en Salesforce {#marketo-measure-and-salesforce}
-      + [[!DNL Marketo Measure] Installatie en installatie van het Salesforce-pakket](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
+      + [[!DNL Marketo Measure] Salesforce-pakket installeren en instellen](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
       + [[!DNL Salesforce] Pakketconsolidatie](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
       + [Verbind  [!DNL Marketo Measure]  met Salesforce](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Beste praktijken voor  [!DNL Marketo Measure]  het Pakket van CRM](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
@@ -67,12 +67,12 @@ ht-degree: 0%
       + [[!DNL Marketo Measure] Machtigingssets](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
       + [Geadviseerde  [!DNL Salesforce]  Toestemmingen voor  [!DNL Marketo Measure]  Verbonden Gebruiker](configuration-and-setup/marketo-measure-and-salesforce/recommended-salesforce-permissions-for-marketo-measure-connected-user.md)
    + Sandbox-tests {#sandbox-testing}
-      + [Testen van de  [!DNL Marketo Measure]  Integratie met een zandbak van Salesforce](configuration-and-setup/sandbox-testing/testing-the-marketo-measure-integration-with-a-salesforce-sandbox.md)
-      + [Salesforce Sandbox naar productie-migratie](configuration-and-setup/sandbox-testing/salesforce-sandbox-to-production-migration.md)
+      + [Testen van  [!DNL Marketo Measure]  Integratie met een zandbak van Salesforce](configuration-and-setup/sandbox-testing/testing-the-marketo-measure-integration-with-a-salesforce-sandbox.md)
+      + [Salesforce-sandbox naar productie-migratie](configuration-and-setup/sandbox-testing/salesforce-sandbox-to-production-migration.md)
    + [!DNL Marketo Measure] Insights (Canvas App) {#marketo-measure-insights-canvas-app}
       + [[!DNL Marketo Measure] Uitgelichte inzichten](configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-explained.md)
       + [[!DNL Marketo Measure] Configuratie van inzichten](configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md)
-+ Kanalen bijhouden en instellen {#channel-tracking-and-setup}
++ Kanaal bijhouden en instellen {#channel-tracking-and-setup}
    + Onlinekanalen {#online-channels}
       + [Aanbevolen procedures voor onlinekanalen](channel-tracking-and-setup/online-channels/best-practices-for-online-channels.md)
       + [Online aangepaste kanaalinstelling](channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
@@ -92,18 +92,18 @@ ht-degree: 0%
          + [Historische gegevens synchroniseren](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
          + [Offlinecampagnes synchroniseren](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 + API-verbindingen {#api-connections}
-   + De API-verbindingen van [!DNL Marketo Measure] gebruiken {#utilizing-marketo-measures-api-connections}
+   + API-verbindingen van [!DNL Marketo Measure] gebruiken {#utilizing-marketo-measures-api-connections}
       + [Geïntegreerde AD-platforms](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
       + [Overzicht van integratierechten](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [Aanbevolen procedures voor API-verbindingen](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
       + [De invloed van Bodmanager-programma&#39;s  [!DNL Marketo Measure]](api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
       + [[!DNL Marketo Measure] Parameters](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
-      + [FACEBOOK API](api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
+      + [Facebook-API](api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
       + [[!DNL LinkedIn] Integratie](api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
       + [Begrijpend  [!DNL Marketo Measure]  AdWords Tagging](api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
       + [Verbonden accounts opnieuw autoriseren](api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
-+ Marketingbestedingen {#marketing-spend}
-   + Spend Management {#spend-management}
++ Marketinguitgaven {#marketing-spend}
+   + Beheer van uitgaven {#spend-management}
       + [Methoden voor uitgavenbeheer](marketing-spend/spend-management/spend-management-methods.md)
       + [Kosten marketingkanaal](marketing-spend/spend-management/marketing-channel-costs.md)
       + [Marketingbestedingen rapporteren](marketing-spend/spend-management/report-marketing-spend.md)
@@ -115,18 +115,18 @@ ht-degree: 0%
       + [Aanbevolen procedures voor werkgebiedtoewijzing](advanced-marketo-measure-features/custom-attribution-models/best-practices-for-stage-mapping.md)
       + [Aangepaste modelinstelling: Enable Field History Tracking](advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
       + [Veelgestelde vragen over het leermodel voor machines](advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)
-   + Instellingen aanraakpunt {#touchpoint-settings}
+   + Instellingen voor aanraakpunten {#touchpoint-settings}
       + [Aanbevolen werkwijzen voor aanraakpuntinstellingen](advanced-marketo-measure-features/touchpoint-settings/best-practices-for-touchpoint-settings.md)
       + [Aanraakpunt verwijderen en onderdrukking aanraakpunt](advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
       + [Waarom u geen aanraakpunten wilt verwijderen](advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
    + Segmentatie {#segmentation}
       + [Beste praktijken voor Segmentatie](advanced-marketo-measure-features/segmentation/best-practices-for-segmentation.md)
       + [Aangepaste segmentatie](advanced-marketo-measure-features/segmentation/custom-segmentation.md)
-   + Kenmerk activiteiten {#activities-attribution}
+   + Activiteitenkenmerk {#activities-attribution}
       + [Aanbevolen procedures voor kenmerk Activiteiten](advanced-marketo-measure-features/activities-attribution/best-practices-for-activities-attribution.md)
       + [[!DNL Salesforce] Activiteitenkenmerk](advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
       + [Veelgestelde vragen over activiteitenkenmerk](advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
-   + Boomerang {#boomerang}
+   + Boemerang {#boomerang}
       + [Boomerang Stages en Touchpoints](advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md)
       + [Boomerang Stages instellen](advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md)
       + [Boomerang Stage Scenarios](advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md)
@@ -152,7 +152,7 @@ ht-degree: 0%
       + [Instellingen](advanced-marketo-measure-features/multi-currency/settings.md)
       + [Melding detecteren](advanced-marketo-measure-features/multi-currency/discover-reporting.md)
       + [Veelgestelde vragen (meerdere valuta&#39;s)](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
-+ [!DNL Marketo Measure] Interface van Discover {#marketo-measure-discover-ui}
++ [!DNL Marketo Measure] Interface detecteren {#marketo-measure-discover-ui}
    + Dashboards {#dashboards}
       + [Basisprincipes van dashboard ontdekken](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Nieuwe Discover-dashboardgids](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
@@ -169,10 +169,10 @@ ht-degree: 0%
       + [Webverkeersdashboard](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
 + [!DNL Marketo Measure] en Adobe {#marketo-measure-and-adobe}
    + [[!DNL Marketo Measure] Integraties met Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
-   + [[!DNL Marketo Measure] Integratie met starten van Adobe](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
+   + [[!DNL Marketo Measure] Integratie met Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
    + [Domeinbeheer](marketo-measure-and-adobe/domain-management.md)
    + [Overzicht Adobe Experience Cloud Interface](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
-+ [!DNL Marketo Measure] en Dynamics {#marketo-measure-and-dynamics}
++ [!DNL Marketo Measure] en dynamiek {#marketo-measure-and-dynamics}
    + Aan de slag met [!DNL Marketo Measure] en Dynamics {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure] Dynamisch schema](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)
       + [Installatiehandleiding voor Microsoft Dynamics CRM](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md)
@@ -184,12 +184,12 @@ ht-degree: 0%
 + [!DNL Marketo Measure] en Marketo {#marketo-measure-and-marketo}
    + [!DNL Marketo Measure] Integraties met Marketo {#marketo-measure-integrations-with-marketo}
       + [Opstelling  [!DNL Marketo]  Verbinding](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
-      + [Integratie van Marketo&#39;s Engage](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-activities-integration.md)
-      + [Integratie van Marketo&#39;s Engage](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-people-integration.md)
+      + [Integratie van Marketo Engage-activiteiten](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-activities-integration.md)
+      + [Marketo Engage People Integration](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-people-integration.md)
       + [Integratie van Marketo Engage-programma&#39;s](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md)
 + [!DNL Marketo Measure] Salesforce Reporting {#marketo-measure-salesforce-reporting}
    + Nieuwe rapporttypen {#new-report-types}
-      + [Creërend de Types van Rapport van de Douane  [!DNL Marketo Measure] &#x200B;](marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md)
+      + [Creërend de Types van Rapport van de Douane  [!DNL Marketo Measure] ](marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md)
       + [Rapporttype voor contactpersonen zonder kansen](marketo-measure-salesforce-reporting/new-report-types/report-type-for-contacts-without-opportunities.md)
    + [!DNL Marketo Measure] Rapporten {#marketo-measure-reports}
       + [[!DNL Marketo Measure] Rapportagehandleiding](marketo-measure-salesforce-reporting/marketo-measure-reports/marketo-measure-reporting-guide.md)
@@ -206,8 +206,8 @@ ht-degree: 0%
       + [Aanbevolen procedures voor het samenvoegen van leads](marketo-measure-salesforce-reporting/additional-functionality/best-practices-for-merging-leads.md)
       + [Toestaan dat de machtiging voor het bewerken van omgezette leads wordt verleend](marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md)
 + [!DNL Marketo Measure] Data Warehouse {#marketo-measure-data-warehouse}
-   + [Toegang tot Data Warehouse - Account Reader](marketo-measure-data-warehouse/data-warehouse-access-reader-account.md)
-   + [Toegang tot Data Warehouse - Direct delen](marketo-measure-data-warehouse/data-warehouse-access-direct-share.md)
+   + [Data Warehouse Access - Reader-account](marketo-measure-data-warehouse/data-warehouse-access-reader-account.md)
+   + [Data Warehouse Access - Direct delen](marketo-measure-data-warehouse/data-warehouse-access-direct-share.md)
    + [Data Warehouse Schema](marketo-measure-data-warehouse/data-warehouse-schema.md)
 + BI-rapportsjablonen {#bi-report-templates}
    + [[!DNL Marketo Measure] Rapportsjabloon - Power BI](bi-report-templates/marketo-measure-report-template-power-bi.md)
@@ -218,23 +218,23 @@ ht-degree: 0%
       + [Het verzekeren van Toestemming voor GDPR in  [!DNL Marketo Measure]  JS](security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md)
       + [Beperkingen van de Zitting van de veiligheid: IP Adressen aan Lijst van gewenste personen](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate}
-   + [[!DNL Marketo Measure] Ultieme overzicht](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
+   + [[!DNL Marketo Measure] Overzicht van Ultimate](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
    + [Vereiste gegevensintegriteit](marketo-measure-ultimate/data-integrity-requirement.md)
    + [Handleiding implementatie](marketo-measure-ultimate/implementation-guide.md)
-   + [Migratie van Tier 1-2 aan  [!DNL Marketo Measure]  Ultieme](marketo-measure-ultimate/migration-from-tier-to-marketo-measure-ultimate.md)
-+ Diversen {#miscellaneous}
+   + [Migratie van Tier 1-2 aan  [!DNL Marketo Measure]  Ultimate](marketo-measure-ultimate/migration-from-tier-to-marketo-measure-ultimate.md)
++ Overige {#miscellaneous}
    + Overige gerelateerde bronnen {#other-related-resources}
       + [[!DNL Marketo Measure] Onderhoud](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
       + [[!DNL Marketo Measure] Bronlijst](miscellaneous/other-related-resources/marketo-measure-resource-list.md)
       + [Integratie van het bijhouden van oproepen](miscellaneous/other-related-resources/call-tracking-integration.md)
-      + [Verschil tussen een conversie van Googles Analytics en een Buyer Touchpoint](miscellaneous/other-related-resources/difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint.md)
+      + [Verschil tussen een Google Analytics-conversie en een Buyer Touchpoint](miscellaneous/other-related-resources/difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint.md)
       + [Parameter voor bijhouden van e-mail](miscellaneous/other-related-resources/email-tracking-parameter.md)
       + [Het verlenen van  [!DNL Salesforce]  Toegang tot  [!DNL Marketo Measure]  Steun](miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
       + [Privacy-aanvraag](miscellaneous/other-related-resources/privacy-requests.md)
-      + [Verwijder  [!DNL Marketo Measure]  het Volgen Parameters van de Openende Pagina URL in Googles Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
+      + [Verwijder  [!DNL Marketo Measure]  het Volgen Parameters van de Openende Pagina URL in Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Overgangen aan  [!DNL Marketo Measure]  van Volledige Cirkel](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
    + [Testen](miscellaneous/test.md)
-+ Opmerkingen bij de release {#release-notes}
++ Aanvullende informatie {#release-notes}
    + [Opmerkingen bij de huidige release](release-notes/current.md)
-   + Vorige versies {#previous-releases}
+   + Eerdere releases {#previous-releases}
       + [Opmerkingen bij de release: 2023](release-notes/previous-releases/2023.md)
