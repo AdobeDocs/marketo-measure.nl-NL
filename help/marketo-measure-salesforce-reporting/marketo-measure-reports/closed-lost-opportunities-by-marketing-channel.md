@@ -46,4 +46,4 @@ Hoewel dit rapport van uw Stages van de Kans zou kunnen afhangen, zal dit rappor
    Dit is een rapport van Kansen samengevat door de meting van het Kanaal van de Marketing Gesloten Kans van het Verlies over uw kanalen. Dit rapport stelt u in staat te begrijpen welke kanalen ondermaats kunnen zijn. Voel u vrij om filters of velden toe te voegen die u wilt melden.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De extra Rapporten van SFDC &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De extra Rapporten van SFDC &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

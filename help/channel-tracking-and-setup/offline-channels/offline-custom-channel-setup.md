@@ -81,6 +81,6 @@ Nadat u het spreadsheet hebt bewerkt en bijgewerkt met uw aangepaste regels, kun
 Klik op **[!UICONTROL Save]** als u klaar bent en [!DNL Marketo Measure] uploadt de wijzigingen en verwerkt de gegevens opnieuw.
 
 >[!MORELIKETHIS]
-> [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
-> [[!DNL Marketo Measure] Zelfstudies: Offlinecampagnes synchroniseren &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+> [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+> [[!DNL Marketo Measure] Zelfstudies: Offlinecampagnes synchroniseren &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 > [Integratie van Marketo Engage-programma&#39;s &#x200B;](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

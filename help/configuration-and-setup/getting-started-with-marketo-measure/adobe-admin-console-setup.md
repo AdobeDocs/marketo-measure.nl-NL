@@ -19,7 +19,7 @@ De eerste stap bij het gebruik van [!DNL Marketo Measure] is het maken van en aa
 
 Als product in de Adobe Suite gebruikt [!DNL Marketo Measure] de volledige functionaliteit van Adobe Admin Console voor Identity Management. Meer middelen kunnen worden gevonden [&#x200B; hier &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
 
-Het wordt geadviseerd om de middelen, beste praktijken, en opties te herzien beschikbaar aan u voor [&#x200B; Identity Management &#x200B;](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+Het wordt geadviseerd om de middelen, beste praktijken, en opties te herzien beschikbaar aan u voor [&#x200B; Identity Management &#x200B;](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html).
 
 Neem contact op met uw [!DNL Marketo Measure] accountvertegenwoordiger voor hulp bij en controle over het instellen van uw Identity Management in de Adobe Admin Console.
 
@@ -48,7 +48,7 @@ De volgende stap bestaat uit het verlenen van toegang tot de [!DNL Marketo Measu
 | Admins | Dit zijn beheerders en veeleisende gebruikers van de [!DNL Marketo Measure] -toepassing die volledig in staat zijn om [!DNL Marketo Measure]-specifieke configuratieopties bij te werken en te beheren |
 | Gebruikers | Dit zijn standaardgebruikers van de [!DNL Marketo Measure] -toepassing met alleen-lezen machtigingen in de [!DNL Marketo Measure] -toepassing |
 
-Wanneer het toevoegen van een gebruiker aan hun respectieve groep, ziet u hun [&#x200B; vermeld Type van Identiteit &#x200B;](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+Wanneer het toevoegen van een gebruiker aan hun respectieve groep, ziet u hun [&#x200B; vermeld Type van Identiteit &#x200B;](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html).
 
 >[!NOTE]
 >Om a [!DNL Marketo Measure] beheerder (in [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}) te zijn, moet een gebruiker als Gebruiker _en_ worden toegevoegd Admin aan om het even welk [!DNL Marketo Measure] productprofiel binnen de [!DNL Marketo Measure] productkaart.

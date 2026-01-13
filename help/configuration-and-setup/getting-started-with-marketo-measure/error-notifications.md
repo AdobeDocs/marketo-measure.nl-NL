@@ -157,7 +157,7 @@ De documentatie van Salesforce op debiettrekkers <a href="https://admin.salesfor
             <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md"> Integraties van Marketo Measure met Adobe Analytics </a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html"> creeer een bron van Attributen van de Klant en upload het gegevensbestand </a>
+            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=nl-NL"> creeer een bron van Attributen van de Klant en upload het gegevensbestand </a>
           </li>
         </ul>
       </td>

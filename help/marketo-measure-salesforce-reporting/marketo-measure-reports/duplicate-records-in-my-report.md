@@ -33,4 +33,4 @@ Dit verslag toont echter het aantal aanraakpunten met James. In het rapport ziet
 Als u het &quot;aantal contacten&quot;wilt begrijpen kunt u de gebieden &quot;Telling - Eerste Aanraking&quot;, &quot;Telling-Lood Aanraking&quot;of &quot;Telling-U-Vormde&quot;gebruiken om te begrijpen hoeveel contacten marketing interactie hebben gehad.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

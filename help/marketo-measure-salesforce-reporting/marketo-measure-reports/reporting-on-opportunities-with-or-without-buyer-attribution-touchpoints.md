@@ -39,4 +39,4 @@ Maak een nieuw rapporttype waarin alle mogelijkheden worden opgenomen met of zon
    ![&#x200B; 1 &#x200B;](assets/4-1.jpg)
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De extra Rapporten van SFDC &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De extra Rapporten van SFDC &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

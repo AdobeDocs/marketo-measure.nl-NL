@@ -34,4 +34,4 @@ Dit rapport behandelt het aantal kansen die door uw Kanalen van de Marketing wor
    Dit is een rapport van Kansen samengevat door het Kanaal van de Marketing. Dit rapport is gericht op alle Opps, maar voelt vrij om te filtreren gebaseerd van stadium/type van kans. Bovendien, voel vrij om in om het even welke gebieden toe te voegen die u zou willen melden.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

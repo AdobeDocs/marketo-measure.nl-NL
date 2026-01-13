@@ -96,7 +96,7 @@ Meer informatie over de verschillende [!DNL Marketo Measure] cookies die op uw s
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Third party, domain=.<a href="https://business.adobe.com/products/marketo/bizible.html"> bizible.com </a></td>
+    <td>Third party, domain=.<a href="https://business.adobe.com/nl/products/marketo/bizible.html"> bizible.com </a></td>
     <td>Universele gebruiker - identiteitskaart om een gebruiker over veelvoudige domeinen te identificeren.</td>
     <td>1 jaar</td>
     <td>Ja</td>

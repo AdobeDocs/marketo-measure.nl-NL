@@ -71,5 +71,5 @@ Wanneer u deze campagne creeert, klik het &quot;[!UICONTROL Enable Buyer Touchpo
 Nadat u een van deze selecties hebt gekozen, wijst [!DNL Marketo Measure] aan elk campagnetelid indien van toepassing een aanraakpunt toe. De Lood of het Contact dat aan de campagne _wordt toegevoegd moet_ een e-mailadres hebben verbonden aan hun verslag opdat [!DNL Marketo Measure] om een touchpoint tot stand te brengen. Zonder een e-mailadres wijst [!DNL Marketo Measure] geen aanraakpunt toe aan het lid van de campagne.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
->[[!DNL Marketo Measure] Zelfstudies: Objectvelden voor campagne uitlijnen &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] Zelfstudies: Objectvelden voor campagne uitlijnen &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

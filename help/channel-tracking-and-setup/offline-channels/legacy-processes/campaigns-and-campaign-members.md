@@ -122,5 +122,5 @@ Om dit probleem te verhelpen, heeft [!DNL Marketo Measure] een [!DNL Marketo Mea
 >Houd er rekening mee dat met deze trigger geen campagnegeleden worden bijgehouden die in het verleden zijn verwijderd. Dit werkt dus alleen als u verder gaat. Als u een groot aantal afgelopen de contactpunten van campagnegeleden moet verwijderen, contacteer [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Gebieden van de Objecten van de campagne &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
->[[!DNL Marketo Measure] Zelfstudies: Offlinekanalen toewijzen &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Gebieden van de Objecten van de campagne &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] Zelfstudies: Offlinekanalen toewijzen &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
