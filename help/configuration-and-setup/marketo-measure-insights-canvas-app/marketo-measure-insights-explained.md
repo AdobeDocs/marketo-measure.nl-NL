@@ -1,25 +1,25 @@
 ---
-unique-page-id: 18874676
-description: "[!DNL Marketo Measure] Inzichten uitgelegd - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Inzichten beschreven"
+description: '[!DNL Marketo Measure] Uitgelichte inzichten -  [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Uitgelichte inzichten'
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
+
 # [!DNL Marketo Measure] Uitgelichte inzichten {#marketo-measure-insights-explained}
 
-Meer informatie over de [!DNL Marketo Measure] Weergave Inzichten in [!DNL Salesforce], met inbegrip van wat de verschillende pictogrammen vertegenwoordigen en hoe te om de eigenschap te gebruiken. Deze functie is vooral handig voor het bekijken van de eerste 20 sessies van een lead, contactpersoon of account.
+Leer meer over de weergave [!DNL Marketo Measure] Inzichten in [!DNL Salesforce] , inclusief wat de verschillende pictogrammen vertegenwoordigen en hoe u de functie kunt gebruiken. Deze functie is vooral handig voor het bekijken van de eerste 20 sessies van een lead, contactpersoon of account.
 
-Als iemand door de [!DNL Marketo Measure] JavaScript en vult een formulier in op uw website. De persoon wordt een lead in uw systeem en de gegevens over digitale marketing worden naar uw Salesforce (SFDC) org verzonden. Wanneer dit voorkomt, ziet u de touchpoint gegevens bevolkt binnen [!DNL Marketo Measure] Sectie met leads (een Canvas-app) voor de objecten Lead/Contact/Opportunity/Account.
+Zodra iemand door de [!DNL Marketo Measure] JavaScript wordt bijgehouden en een formulier op uw website invult, wordt de persoon een lead in uw systeem en worden de digitale marketinggegevens ervan verzonden naar uw Salesforce (SFDC) org. Wanneer dit gebeurt, worden de gegevens van het aanraakpunt weergegeven die zijn ingevuld in de sectie [!DNL Marketo Measure] Inzichten van lead (een Canvas-app) op de objecten Lead/Contact/Opportunity/Account.
 
 Eerst zie je in het midden van je inzichten het aantal sessies dat de persoon op je website heeft gehad. U kunt door deze zittingen scrollen en navigeren bij wil.
 
-![](assets/1.png)
+![ de zittingslijst van Inzichten die aantal bijgehouden zittingen tonen ](assets/1.png)
 
 U kunt de roll-up van al uw zittingen bekijken als u &quot;allen&quot;in het midden-hogere deel van uw inzichten klikt. Daar begrijpt u de data van de afzonderlijke sessies, welk kanaal of bron deze bestuurde, en een reeks pictogrammen die meer informatie specificeren.
 
@@ -27,18 +27,18 @@ Het eerste wat je ziet, zijn de FT- of LC-pictogrammen. Deze vertegenwoordigen d
 
 De pictogrammen die er als papier uitzien, geven aan dat er een paginaweergave is opgetreden binnen de sessie. Het is waarschijnlijk dat elke sessie dit pictogram bevat.
 
-![](assets/2.png)
+![ Inzicht rolup mening met touchpoint posities en kanaaldetails ](assets/2.png)
 
 Het pictogram dat er als een bekeraar uitziet, geeft aan dat er een A/B-testexperiment is uitgevoerd. We integreren nu met Optimizely en VWO. Met deze integratie kunnen we het experiment en de variatie die de gebruiker op zijn specifieke sessie zag, kracht bijzetten.
 
-![](assets/3.png)
+![ de zittingslijst van Inzichten die A/B het pictogram van de testbekeraar benadrukken ](assets/3.png)
 
 Als u op een specifieke sessie klikt (u doet dit door op de werkelijke datum van de sessie of in het bovenste middelste deel van de gegroepeerde sessies te klikken), kunt u de sessiedetails bekijken. In elke sessie kunt u alle specifieke pagina&#39;s zien die de gebruiker op datum en tijd heeft besteld.
 
-![](assets/4.png)
+![ het detailpaneel dat van de Zitting paginameningen binnen een zitting toont ](assets/4.png)
 
-Aan de rechterkant van elke sessie kunt u meer granulaire marketinggegevens zien die de [!DNL Marketo Measure] velden in uw SFDC. In dit voorbeeld ziet u Advertentiegroep, Advertentie Inhoud, Campagne, Trefwoord, Normaal. U kunt ook omlaag schuiven om meer van de [!DNL Marketo Measure] gegevens die we verstrekken.
+Aan de rechterkant van elke sessie kunt u meer granulaire marketinggegevens zien die de velden [!DNL Marketo Measure] in uw SFDC verdringen. In dit voorbeeld ziet u Advertentiegroep, Advertentie Inhoud, Campagne, Sleutelwoord, Medium. U kunt ook omlaag schuiven om meer [!DNL Marketo Measure] gegevens te zien die we verschaffen.
 
-Als iemand een groot aantal sessies heeft, kunt u ook bepaalde filters gebruiken binnen [!UICONTROL Insights] om te zoeken naar specifieke onderdelen van hun betrokkenheid op uw site. U kunt filteren op [!UICONTROL Touchpoint Position] bijvoorbeeld.
+Ten slotte kunt u, zodra iemand een groot aantal sessies heeft, bepaalde filters gebruiken binnen [!UICONTROL Insights] om te zoeken naar specifieke onderdelen van de betrokkenheid op uw site. U kunt bijvoorbeeld filteren op [!UICONTROL Touchpoint Position] .
 
 U kunt ook zoeken op Paginaweergaven, AB Tests of Forms.

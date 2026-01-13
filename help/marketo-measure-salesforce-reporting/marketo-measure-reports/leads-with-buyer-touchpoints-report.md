@@ -1,38 +1,37 @@
 ---
-unique-page-id: 18874614
-description: Leads met rapport met aanraakpunten voor kopers - [!DNL Marketo Measure]
+description: Leads met rapport met aanraakpunten voor kopers -  [!DNL Marketo Measure]
 title: Leads met rapport met aanraakpunten voor kopers
 exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
 feature: Touchpoints, Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
+
 # Leads met rapport met aanraakpunten voor kopers {#leads-with-buyer-touchpoints-report}
 
 >[!NOTE]
->
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar nog steeds &quot;[!DNL Bizible]&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;[!DNL Bizible]&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-U hebt veel rapportagemogelijkheden binnen handbereik als het gaat om [!DNL Marketo Measure], maar er zijn een aantal extra rapporttypes wij adviseren bouw. Meer informatie over het maken van een inclusief leadtype met kopersaanraakpunten vindt u hieronder.
+Uit de doos hebt u vele rapporteringsmogelijkheden bij uw vingertoppen wanneer het over [!DNL Marketo Measure] komt, maar er zijn sommige extra rapporttypes wij adviseren bouw. Meer informatie over het maken van een inclusief leadtype met kopersaanraakpunten vindt u hieronder.
 
-1. Navigeer naar de instellingsoptie binnen [!DNL Salesforce]. Vouw van daaruit de groep &quot;Maken&quot; uit en selecteer **[!UICONTROL Report Types]**.
+1. Navigeer binnen [!DNL Salesforce] naar de instellingsoptie. Vouw vervolgens de groep Maken uit en selecteer **[!UICONTROL Report Types]** .
 
-   ![](assets/1.jpg)
+   ![ de pagina van de Types van Rapport van Salesforce die Leads met de opstelling van Aanraakpunten van de Koper toont ](assets/1.jpg)
 
-1. Selecteren **[!UICONTROL New Custom Report Type]**.
+1. Selecteer **[!UICONTROL New Custom Report Type]**.
 
-   ![](assets/2.jpg)
+   ![ Nieuwe tovenaar van het Type van Rapport van de Douane in Salesforce ](assets/2.jpg)
 
-1. Stel het primaire object in als &#39;Leads&#39; en binnen de invoer &#39;Label voor rapporttype&#39; als &#39;Leads met aanraakpunten voor kopers - inclusief&#39;. Sla het rapport op in de categorie &quot;Leads&quot; en wijzig de implementatiestatus in **[!UICONTROL Deployed]**. Selecteer vervolgens **[!UICONTROL Next]**.
+1. Stel het primaire object in als &#39;Leads&#39; en binnen de invoer &#39;Label voor rapporttype&#39; als &#39;Leads met aanraakpunten voor kopers - inclusief&#39;. Sla het rapport op in de categorie &quot;Leads&quot; en wijzig de implementatiestatus in **[!UICONTROL Deployed]** . Selecteer vervolgens **[!UICONTROL Next]** .
 
-   ![](assets/3.jpg)
+   ![ het type van Rapport details met Leads als primair voorwerp ](assets/3.jpg)
 
-1. Selecteer voor de objectrelaties de optie **[!DNL Marketo Measure]Personen** als het secundaire object. Selecteer de relatie A tot B als &quot;Elk A-record moet minstens één verwant B-record hebben.&quot; Vervolgens brengt u het object &quot;Aanraakpunt koper&quot; aan en selecteert u dezelfde relatie tussen de objecten B en C.
+1. Voor de objecten verhoudingen, selecteer het **[!DNL Marketo Measure]voorwerp van Personen** als secundair voorwerp. Selecteer de relatie A tot B als &quot;Elk A-record moet minstens één verwant B-record hebben.&quot; Daarna koppelt u het object &quot;Buyer Touchpoint&quot; en selecteert u dezelfde relatie tussen de objecten B en C.
 
-   ![](assets/4.jpg)
+   ![ de relatieselectie van Objecten met inbegrip van de Personen van Marketo Measure en de Aanraakpunten van de Koper ](assets/4.jpg)
 
 1. Sla enkele rapporten op en maak deze.

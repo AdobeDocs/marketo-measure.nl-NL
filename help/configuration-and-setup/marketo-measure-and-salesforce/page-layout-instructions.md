@@ -1,152 +1,146 @@
 ---
-unique-page-id: 18874799
-description: Pagina-indelingsinstructies - [!DNL Marketo Measure]
+description: Instructies voor paginalayout - [!DNL Marketo Measure]
 title: Pagina-indelingsinstructies
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '837'
 ht-degree: 1%
 
 ---
 
+
 # Pagina-indelingsinstructies {#page-layout-instructions}
 
 >[!NOTE]
->
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-Eenvoudig te zien [!DNL Marketo Measure] gegevens, wordt aangeraden om de pagina-indelingen bij te werken voor de [!UICONTROL Account], [!UICONTROL Contact], [!UICONTROL Lead], [!UICONTROL Opportunity], en [!UICONTROL Campaign] Objecten. De instructies worden uitgesplitst voor elke indeling van de objectpagina hieronder.
+Als u [!DNL Marketo Measure] -gegevens gemakkelijk wilt kunnen zien, is het raadzaam om de pagina-indelingen voor de objecten [!UICONTROL Account] , [!UICONTROL Contact] , [!UICONTROL Lead] , [!UICONTROL Opportunity] en [!UICONTROL Campaign]  bij te werken. De instructies worden uitgesplitst voor elke indeling van de objectpagina hieronder.
 
-Eerst navigeert u naar uw [!DNL Salesforce] Instellingen instellen en de locatie van de [!UICONTROL Customize] tab.
+Navigeer eerst naar de instellingen voor [!DNL Salesforce] Instellingen en zoek het tabblad [!UICONTROL Customize] .
 
 ## Campagneobject {#campaign-object}
 
-U wordt aangeraden het [!DNL Marketo Measure] velden alleen voor uw sandbox naar uw SFDC-campagne. De velden kunnen worden gebruikt om het genereren van aanraakpunten te testen. In productie wordt het aangeraden alleen het [!DNL Marketo Measure] Bulk Touchpoint Date-knop bijwerken. U wordt niet aangeraden het [!DNL Marketo Measure] velden voor productie aangezien u de regel Campagne Sync kunt maken.
+U wordt aangeraden de [!DNL Marketo Measure] -velden alleen voor uw sandbox toe te voegen aan uw SFDC-campagne. De velden kunnen worden gebruikt om het genereren van aanraakpunten te testen. In productie wordt alleen aangeraden de knop [!DNL Marketo Measure] Aanraakpunt datum bulkupdate toe te voegen. Het wordt afgeraden de [!DNL Marketo Measure] -velden aan de productie toe te voegen omdat u de regel Campagne Sync kunt maken.
 
-1. Selecteer in uw Build-optie **[!UICONTROL Campaigns]**.
+1. Selecteer **[!UICONTROL Campaigns]** in de optie Build.
 
 1. Klik op **[!UICONTROL Page Layouts]**.
 
-   ![](assets/1-1.jpg)
+   ![ de Opstelling van Salesforce die de optie van de Lay-outs van de Pagina onder Campagnes toont ](assets/1-1.jpg)
 
-1. Klikken **[!UICONTROL Edit]** naast de pagina-indeling die u wilt bijwerken.
+1. Klik op **[!UICONTROL Edit]** naast de pagina-indeling die u wilt bijwerken.
 
-   ![](assets/2-1.jpg)
+   ![ de lijst van de Lay-outs van de Pagina van de Campagne met Edit knoop naast lay-outnaam ](assets/2-1.jpg)
 
-1. Binnen de [!UICONTROL fields] selecteert u de optie **[!UICONTROL Enable Buyer Touchpoints]** en sleep het naar de gewenste positie op de pagina. Voeg vervolgens de **[!UICONTROL Touchpoint Start Date]** en **[!UICONTROL Touchpoint End Date]** velden.
+1. Selecteer het veld [!UICONTROL fields] in de optie **[!UICONTROL Enable Buyer Touchpoints]** en sleep het veld naar de gewenste positie op de pagina. Voeg vervolgens de velden **[!UICONTROL Touchpoint Start Date]** en **[!UICONTROL Touchpoint End Date]** toe.
 
-   ![](assets/3-2.png)
+   ![ de Redacteur van de Lay-out van de Pagina die het gebied van Aanraakpunten van de Koper met de gebieden van het Begin en van de Datum van het Eind van het Aanraakpunt toont ](assets/3-2.png)
 
-1. Klik vervolgens boven aan de pagina op de knop &quot;[!UICONTROL Buttons]&quot; in het menu Snel zoeken.
+1. Vervolgens klikt u boven aan de pagina op de optie &quot;[!UICONTROL Buttons]&quot; in het snelmenu Zoeken.
 
-1. Sleep de **[!UICONTROL Bulk Update Touchpoint Date]** aan uw sectie van douaneknoppen.
+1. Sleep de knop **[!UICONTROL Bulk Update Touchpoint Date]** naar het gedeelte met aangepaste knoppen.
 
-   ![](assets/4-1.jpg)
+   ![ de Redacteur van de Lay-out van de Pagina met de Bulk knoop van de Datum van het Aanraakpunt van de Update in de sectie van douaneknoppen ](assets/4-1.jpg)
 
 1. Klik op **[!UICONTROL Save]**.
 
    >[!NOTE]
-   >
-   >Als u meerdere soorten campagnemerrecords gebruikt, moet u de waarden in de keuzelijst voor de **[!UICONTROL Enable Buyer Touchpoints]** veld. Zie [dit artikel](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) voor instructies.
+   >Als u meerdere soorten campagnemerrecords gebruikt, moet u de waarden in de keuzelijst voor het veld **[!UICONTROL Enable Buyer Touchpoints]** bijwerken. Verwijs naar [ dit artikel ](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md) voor instructies.
 
 ## Leads {#leads}
 
-1. Selecteer in uw Build-optie **[!UICONTROL Leads]**.
+1. Selecteer **[!UICONTROL Leads]** in de optie Build.
 
 1. Klik op **[!UICONTROL Page Layouts]**.
 
-1. Klikken **[!UICONTROL Edit]** naast de pagina-indeling die u wilt bijwerken. Houd er rekening mee dat lay-outs voor meerdere pagina&#39;s de secties Aanraakpunten voor kopers kunnen bevatten.
+1. Klik op **[!UICONTROL Edit]** naast de pagina-indeling die u wilt bijwerken. Houd er rekening mee dat lay-outs voor meerdere pagina&#39;s de secties Aanraakpunten voor kopers kunnen bevatten.
 
 1. Klik de de paginaoptie VisualForce op de linkerzijde binnen uw snel zoekmenu.
 
 1. Maak een sectie en noem deze &quot;Aanraakpunten koper&quot;.
 
    >[!NOTE]
-   >
    >Selecteer de notatie Eén kolom voor elk van deze secties.
 
-1. Sleep de **[!UICONTROL Marketo Measure Lead Related List]** De pagina VisualForce in uw sectie van de paginalay-out.
+1. Sleep de pagina **[!UICONTROL Marketo Measure Lead Related List]** VisualForce in uw sectie van de paginalay-out.
 
-   ![](assets/5-1.png)
+   ![ de Redacteur van de Lay-out van de Pagina van de Leiding met de Leiding Verwante pagina VisualForce van de Lijst ](assets/5-1.png)
 
-1. Klik op de moersleutel in het dialoogvenster [!DNL VisualForce] pagina, wijzigt u de hoogte in 100 en schakelt u schuifbalken in.
+1. Klik op de moersleutel in de pagina [!DNL VisualForce] en wijzig de hoogte in 100 en schakel schuifbalken in.
 
-1. Selecteer de optie [!UICONTROL Canvas Apps] sectie en maak een sectie met de naam &quot;Marketo Measure Insights&quot; onder de Touchpoints [!DNL VisualForce] -sectie die u hebt gemaakt.
+1. Selecteer vervolgens de sectie [!UICONTROL Canvas Apps] in het menu en maak een sectie met de naam &quot;Marketo Measure Insights&quot; onder de sectie Touchpoints [!DNL VisualForce] die u hebt gemaakt.
 
    >[!NOTE]
-   >
    >Selecteer de notatie Eén kolom voor elk van deze secties.
 
-1. Sleep de [!DNL Marketo Measure Insights] Canvas App in die nieuwe sectie. Klikken **Opslaan**. Soms is het nodig om de paginalay-out eerst op te slaan voordat u de canvasapp neerzet, omdat Salesforce deze niet direct herkent. Sla dus na het maken van de sectie de paginalay-out op en bewerk deze opnieuw om de canvasapp in die sectie te slepen. Dit geldt voor elk object.
+1. Sleep de [!DNL Marketo Measure Insights] Canvas-app naar die nieuwe sectie. Klik **sparen**. Soms is het nodig om de paginalay-out eerst op te slaan voordat u de canvasapp neerzet, omdat Salesforce deze niet direct herkent. Sla dus na het maken van de sectie de paginalay-out op en bewerk deze opnieuw om de canvasapp in die sectie te slepen. Dit geldt voor elk object.
 
    >[!NOTE]
-   >
-   >Voor de [!DNL Marketo Measure Insights] Canvas App correct laten functioneren, [machtigingen moeten correct zijn geconfigureerd](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
+   >Voor [!DNL Marketo Measure Insights] App van het Canvas behoorlijk te functioneren, [ toestemmingen moeten behoorlijk worden gevormd ](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
    >[!TIP]
-   >
-   >De meeste klanten gebruiken niet de gebieden die met (FT) of (LC) beëindigen omdat zij erfenisgebieden van vóór zijn [!DNL Marketo Measure] Het aanraakpunt bestond als een object.
+   >De meeste klanten gebruiken de velden die eindigen met (FT) of (LC) niet omdat het oudere velden zijn van vóór het aanraakpunt van [!DNL Marketo Measure] als een object.
 
-Als u het [!DNL Marketo Measure] ABM-functie, [klik hier voor extra instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, [ klik hier voor extra instructies van de paginalay-out ](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contactpersonen {#contacts}
 
-1. Selecteer in uw Build-optie **[!UICONTROL Contacts]**.
+1. Selecteer **[!UICONTROL Contacts]** in de optie Build.
 
 1. Klik op **[!UICONTROL Page Layouts]**.
 
 1. Selecteer de pagina-indeling die u wilt bewerken.
 
-   Ga naar de optie Verwante lijsten in het snelmenu Zoeken en voeg de optie **[!UICONTROL Buyer Touchpoints]** verwante lijst.
+   Ga naar de optie Verwante lijsten in het snelmenu Zoeken en voeg de lijst met verwante lijsten **[!UICONTROL Buyer Touchpoints]** toe.
 
 1. Klik op het moersleutelpictogram en voeg de volgende kolommen in deze volgorde toe:
 
-   * Aanraakpunt koper
+   * Buyer Touchpoint
    * Marketingkanaal
-   * Aanraakpuntbron
+   * Aanraakpunt Source
    * Naam advertentiecampagne
    * Positie aanraakpunt
    * Aanraakpuntdatum
 
 1. Sorteren op: aanraakpuntdatum, oplopend.
 
-   ![](assets/6.jpg)
+   ![ Aanraakpunten van de Koper Verwante configuratie van de Lijst met kolommen en de montages van de soortorde ](assets/6.jpg)
 
-1. De optie Knoppen uitvouwen en de selectie opheffen **[!UICONTROL New]**.
+1. Vouw de optie Knoppen uit en hef de selectie van **[!UICONTROL New]** op.
 
-   ![](assets/7.png)
+   ![ Verwante eigenschappen van de Lijst die Nieuwe knoop tonen in de sectie van Knopen wordt geschrapt ](assets/7.png)
 
-1. Ga terug naar de [!UICONTROL Related List] in het menu en voeg nu de optie **[!UICONTROL Buyer Attribution Touchpoint]** verwante lijst.
+1. Ga terug naar de optie [!UICONTROL Related List] in het menu en voeg nu de lijst met verwante **[!UICONTROL Buyer Attribution Touchpoint]** toe.
 
 1. Klik op het moersleutelpictogram en voeg de volgende kolommen in deze volgorde toe:
 
    * Attributie-aanraakpunt
    * Marketingkanaal
-   * Opportunity
+   * Kans
    * Naam advertentiecampagne
    * Type aanraakpunt
    * Positie aanraakpunt
-   * Attributie % W-Shaped (_of het meest robuuste attributiemodel, zoals Volledig pad of Aangepast_)
-   * Inkomsten in W-vorm (_of het meest robuuste attributiemodel, zoals Volledig pad of Aangepast_)
+   * Attributie % W-Vormde (_of het meest robuuste attributiemodel zoals Volledige Weg of Douane_)
+   * De opbrengst W-Vormd (_of het meest robuuste attributiemodel zoals Volledige Weg of Douane_)
    * Aanraakpuntdatum
 
-1. Sorteren op aanraakpunt [!UICONTROL Date] > [!UICONTROL Ascending].
+1. Sorteren op aanraakpunt [!UICONTROL Date] > [!UICONTROL Ascending] .
 
-1. Vouw het gedeelte Knoppen uit en schakel het selectievakje uit **[!UICONTROL New]**.
+1. Vouw het gedeelte Knoppen uit en hef de selectie van **[!UICONTROL New]** op.
 
 1. Klik op **[!UICONTROL Save]**.
 
 ## Kansen {#opportunities}
 
-1. Selecteer in uw Build-optie **[!UICONTROL Opportunities]**.
+1. Selecteer **[!UICONTROL Opportunities]** in de optie Build.
 
 1. Klik op **[!UICONTROL Page Layouts]**.
 
 1. Selecteer de pagina-indeling die u wilt bewerken.
 
-1. Voeg de **[!UICONTROL Buyer Attribution Touchpoint]** Verwante Lijst en klik op de moersleutel om de volgende kolommen voor Kansen toe te voegen:
+1. Voeg de **[!UICONTROL Buyer Attribution Touchpoint]** Verwante lijst toe en klik op de moersleutel om de volgende kolommen voor Kansen toe te voegen:
 
    * Attributie-aanraakpunt
    * Marketingkanaal
@@ -154,40 +148,40 @@ Als u het [!DNL Marketo Measure] ABM-functie, [klik hier voor extra instructies 
    * Naam advertentiecampagne
    * Type aanraakpunt
    * Positie aanraakpunt
-   * Attributie % W-Shaped (_of het meest robuuste attributiemodel, zoals Volledig pad of Aangepast_)
-   * Inkomsten in W-vorm (_of het meest robuuste attributiemodel, zoals Volledig pad of Aangepast_)
+   * Attributie % W-Vormde (_of het meest robuuste attributiemodel zoals Volledige Weg of Douane_)
+   * De opbrengst W-Vormd (_of het meest robuuste attributiemodel zoals Volledige Weg of Douane_)
    * Aanraakpuntdatum
 
-1. Sorteren op [!UICONTROL Touchpoint Date] > [!UICONTROL Ascending].
+1. Sorteren op [!UICONTROL Touchpoint Date] > [!UICONTROL Ascending] .
 
-1. Deselecteren **[!UICONTROL New]** binnen de [!UICONTROL Buttons] sectie.
+1. Hef de selectie van **[!UICONTROL New]** op in de sectie [!UICONTROL Buttons] .
 
 1. Klik op **[!UICONTROL Save]**.
 
 ## Accounts {#accounts}
 
-1. Selecteer in uw Build-optie **[!UICONTROL Accounts]**.
+1. Selecteer **[!UICONTROL Accounts]** in de optie Build.
 
 1. Klik op **[!UICONTROL Page Layouts]**.
 
 1. Selecteer de pagina-indeling die u wilt bewerken.
 
-1. Voeg de **[!UICONTROL Buyer Attribution Touchpoint]** Verwante lijst en klik op de moersleutel om de volgende kolommen toe te voegen:
+1. Voeg de **[!UICONTROL Buyer Attribution Touchpoint]** Verwante lijst toe en klik op de moersleutel om de volgende kolommen toe te voegen:
 
    * Attributie-aanraakpunt
    * Marketingkanaal
-   * Opportunity
+   * Kans
    * Naam advertentiecampagne
    * Type aanraakpunt
    * Positie aanraakpunt
-   * Attributie % W-Shaped (_of het meest robuuste attributiemodel, zoals Volledig pad of Aangepast_)
-   * Inkomsten in W-vorm (_of het meest robuuste attributiemodel, zoals Volledig pad of Aangepast_)
+   * Attributie % W-Vormde (_of het meest robuuste attributiemodel zoals Volledige Weg of Douane_)
+   * De opbrengst W-Vormd (_of het meest robuuste attributiemodel zoals Volledige Weg of Douane_)
    * Aanraakpuntdatum
 
 1. Sorteren op Aanraakpuntdatum > Oplopend.
 
-1. Deselecteren **[!UICONTROL New]** binnen de [!UICONTROL Buttons] sectie.
+1. Hef de selectie van **[!UICONTROL New]** op in de sectie [!UICONTROL Buttons] .
 
 1. Klik op **[!UICONTROL Save]**.
 
-Als u het [!DNL Marketo Measure] ABM-functie, bekijk de [extra instructies voor de pagina-indeling](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, herzie de [ extra instructies van de paginalay-out ](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).

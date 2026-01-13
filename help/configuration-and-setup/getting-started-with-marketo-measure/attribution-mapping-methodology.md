@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874716
 description: Methodologie voor toewijzing van kenmerken -  [!DNL Marketo Measure]
 title: Methodologie voor toewijzing van kenmerken
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 90d0d6481e5b338d08a56f555ca3addea8bdd304
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
+
 
 # Methodologie voor toewijzing van kenmerken {#attribution-mapping-methodology}
 
@@ -19,7 +19,7 @@ De Methodologie van de Toewijzing van de attributen is het proces om bepaalde vo
 
 Uit het vak, geeft [!DNL Marketo Measure] de toewijzing van de account-id weer. Dit betekent dat [!DNL Marketo Measure] naar de marketing-informatie van de Rekening en zijn Contacten kijkt om Attribution Touchpoints tot stand te brengen verbonden aan de kans. Hieronder volgt een eenvoudige weergave van dat proces.
 
-![](assets/1-1.png)
+![ 1 ](assets/1-1.png)
 
 Houd in mening dat **niet alle** aanraakpunten van uw contacten in de Kans als Aanraakpunten van de Attributie worden geduwd. De tijdlijn van de Kans (zijn eerste aanrakingsdatum - gesloten datum) bepaalt of een aanraakpunt als beïnvloeding op de Kans telt. Daarom als een aanraakpunt op Contact A voorkwam nadat de Kans Won/Verloren wordt gesloten, zal [!DNL Marketo Measure] niet dat aanraakpunt aan de Kans duwen. Deze tijdlijnprocedure wordt gevolgd voor alle andere toewijzingen van toewijzingsobjecten.
 
@@ -35,7 +35,7 @@ Cons: Als er sterke Marketing &amp; Verkoop SLAs zijn die bepalen wie krediet vo
 
 Terwijl de meeste cliënten de afbeelding van identiteitskaart van de Rekening gebruiken, [!DNL Marketo Measure] kan tot de contactrollen (contacten verbonden aan de Kans) binnen een Kans opzoeken om het attributieproces te verdelen. Dit betekent dat [!DNL Marketo Measure] alleen marketinginteracties zal uitvoeren die zijn gekoppeld aan de contactrollen bij Opportunity als aanraakpunten voor koperkenmerken. Hieronder ziet u een voorstelling van dit proces.
 
-![](assets/2-1.png)
+![ 1 ](assets/2-1.png)
 
 Pros: Als uw team een duidelijk gedefinieerd proces van contactrollen heeft, kan dit type van attributie afbeelding ideaal voor u zijn. Het helpt verkoop en marketing een beetje meer richten aangezien iedereen volledig zou begrijpen hoe de attributie wordt verdeeld. Dit proces is ook nuttig wanneer de organisaties zich richten op veelvoudige bedrijfseenheden binnen een groot bedrijf en wanneer zij verschillende producten tezelfdertijd verkopen.
 
@@ -45,7 +45,7 @@ Cons: Nochtans, als er geen proces van de contactrol bestaat, verliest de market
 
 Naast het eenvoudig bekijken van de contactrollen op de kans, kan [!DNL Marketo Measure] zich nog meer concentreren om slechts de Primaire Contacten op een Kans te bekijken. Met deze opstelling in mening, [!DNL Marketo Measure] krijgt slechts het marketing aanraakpunt verbonden aan de primaire contacten op een kans en duwt die informatie in het attributieverhaal van die specifieke kans. Zie de onderstaande afbeelding.
 
-![](assets/3.png)
+![ het kaartdiagram van de Attributie die primaire contactrollen slechts gebruikt ](assets/3.png)
 
 Pros: Als uw team slechts in het begrijpen van de marketing invloed op contacten geinteresseerd is die als &quot;primair&quot;op de kans worden geplaatst, past dit type van afbeelding het team het best.
 

@@ -1,40 +1,40 @@
 ---
-unique-page-id: 18874584
-description: "[!DNL Marketo Measure] Object- en veldtaxonomie - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Object en veldtaxonomie"
+description: '[!DNL Marketo Measure] Object en Field Taxonomy -  [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Object en veldtaxonomie'
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Object- en veldtaxonomie {#marketo-measure-object-and-field-taxonomy}
 
-Hieronder ziet u een stroomdiagram dat aangeeft hoe [!DNL Marketo Measure] Aangepaste objecten die betrekking hebben op [!DNL Salesforce] Standaardobjecten.
+# [!DNL Marketo Measure] Object en veldtaxonomie {#marketo-measure-object-and-field-taxonomy}
 
-![](assets/1-2.png)
+Hieronder ziet u een stroomdiagram dat aangeeft hoe [!DNL Marketo Measure] Aangepaste objecten zijn gerelateerd aan [!DNL Salesforce] Standaardobjecten.
 
-Voor de afbeelding op volledige grootte: [klik hier](assets/bizible-object-and-field-taxonomy-graph-full.png).
+![ 2 ](assets/1-2.png)
 
-Definities van de [!DNL Marketo Measure] velden die in elk object leven [hier te vinden](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
+Voor het volledig-gerangschikte beeld, [ klik hier ](assets/bizible-object-and-field-taxonomy-graph-full.png).
+
+De definities van de [!DNL Marketo Measure] gebieden die in elk voorwerp [ leven kunnen hier ](/help/glossary.md) worden gevonden.
 
 ## Veelgestelde vragen {#faq}
 
-**Wat is de logica in de pijlen?**
+**wat is de logica in de pijlen?**
 
-Elke pijl beschrijft de relatie tussen een object en het andere. U ziet bijvoorbeeld dat de [!DNL Marketo Measure] Persoon vult velden op de standaard in [!DNL Salesforce] Object lead. Als het ernaar wijst, betekent het dat het het ontvangende uiteinde van de pijl vult.
+Elke pijl beschrijft de relatie tussen een object en het andere. U ziet bijvoorbeeld dat de [!DNL Marketo Measure] Persoon velden in het standaard [!DNL Salesforce] object Lead vult. Als het ernaar wijst, betekent het dat het het ontvangende uiteinde van de pijl vult.
 
-**Wat is de [!DNL Marketo Measure] Persoon?**
+**wat is de [!DNL Marketo Measure] Persoon?**
 
-Het is een Aangepast [!DNL Marketo Measure] Object in [!DNL Salesforce] Hiermee worden aanraakpunten voor kopers gekoppeld aan leads en contactpersonen.
+Het is een aangepast [!DNL Marketo Measure] object in [!DNL Salesforce] dat aanraakpunten met kopers koppelt aan regelafstand en contactpersonen.
 
-**Wat is de [!DNL Bizible].JS?**
+**wat is [!DNL Bizible].JS?**
 
-Het is ons aangepaste JavaScript dat wij gebruiken om Webinformatie te volgen die een persoon op een specifieke plaats heeft.
+Het is onze aangepaste JavaScript die we gebruiken om webinformatie bij te houden die een persoon op een specifieke site heeft.
 
-**Wat is het Dashboard van het Marketing ROI?**
+**wat is het Dashboard van ROI van de Marketing?**
 
-Het is een dashboard voor aangepaste marketingkanalen dat in het [!DNL Marketo Measure] app. Het kan worden betreden door naar uw [!DNL Marketo Measure] tab in [!DNL Salesforce].
+Het is een dashboard voor aangepaste marketingkanalen dat in de app [!DNL Marketo Measure] woont. U kunt deze openen door naar de tab [!DNL Marketo Measure] in [!DNL Salesforce] te gaan.

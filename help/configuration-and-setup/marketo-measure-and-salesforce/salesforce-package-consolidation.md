@@ -1,14 +1,15 @@
 ---
-description: '[!DNL Salesforce] Pakketconsolidatie - [!DNL Marketo Measure]'
+description: '[!DNL Salesforce] Pakketconsolidatie -  [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] Pakketconsolidatie'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
+
 
 # [!DNL Salesforce] Pakketconsolidatie {#salesforce-package-consolidation}
 
@@ -25,11 +26,11 @@ Het nieuwe geconsolideerde V2-pakket bevat alle functies en functies van de vori
 Er zijn twee nieuwe gebieden om uw rapporteringsmogelijkheden te verbeteren:
 
 * form_name: Nu beschikbaar in BT/BAT-objecten, kunnen gebruikers in dit veld rapporten maken op basis van formuliernamen.
-* user_touchpoint_id: Met dit veld kunnen gebruikers rapporten maken met unieke aantallen gebruikers-aanraakpunten (`bizible2__User_Touchpoint_V2__c` in Salesforce).
+* user_touchpoint_id: Dit gebied laat gebruikers toe om rapporten met unieke gebruikers te creëren aanraakpunt tellingen (`bizible2__User_Touchpoint_V2__c` in Salesforce).
 
 ## Ondersteuning en overgang {#support-and-transition}
 
-De [Ondersteuningsteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} is beschikbaar om vragen te beantwoorden en te helpen bij het waarborgen van een soepele overgang naar het nieuwe geconsolideerde pakket.
+Het [ team van de Steun ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} is beschikbaar om het even welke vragen te beantwoorden en met het verzekeren van een vlotte overgang aan het nieuwe geconsolideerde pakket bij te wonen.
 
 ## Vereiste handelingen {#retired-actions}
 
@@ -41,28 +42,28 @@ De [Ondersteuningsteam](https://nation.marketo.com/t5/support/ct-p/Support){targ
       * V2_EXT-query:
          * bizible2_ext__Ad_Content_FT__c contains Outreach
 
-![](assets/package-consolidation-1.png)
+![ het rapportfilter van de Steekproef gebruikend V2_EXT en het gebied van FT van de Inhoud ](assets/package-consolidation-1.png)
 
 * Overeenkomende query in het geconsolideerde pakket:
    * bizible2__Touchpoint_Position__c bevat FT AND
    * bizible2__Ad_Content__c bevat Outreach
 
-![](assets/salesforce-package-consolidation-2.png)
+![ Equivalent rapportfilter gebruikend geconsolideerde touchpoint gebieden ](assets/salesforce-package-consolidation-2.png)
 
 ## Veelgestelde vragen {#faq}
 
-**Heeft het geconsolideerde pakket conflicten met velden in mijn bestaande pakket?**
+**zal het geconsolideerde pakket conflicten met gebieden in mijn bestaand pakket hebben?**
 
 U hoeft het pakket niet te verwijderen voordat u het geconsolideerde pakket installeert. Er treden geen conflicten op in velden omdat deze zich in een andere naamruimte bevinden.
 
-**Hoe kan ik back-ups maken van de gegevens uit mijn huidige pakketten?**
+**Hoe kan ik backfill de gegevens van mijn huidige pakketten?**
 
-U kunt een ticket indienen [met ondersteuning](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} voor het terugvullen en opwerken van BT/BAT-gegevens om de velden Aanraakpunt-id en Formulier-id in te vullen.
+U kunt een kaartje [ met Steun ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} voor het terugvullen en het opwerken van gegevens van BT/BAT dossier om identiteitskaart van het Aanraakpunt en de gebieden van identiteitskaart van de Vorm in te vullen.
 
-**Zijn de velden in de pakketten V1 en V2_EXT beschikbaar in het geconsolideerde pakket?**
+**zullen de gebieden in V1 en V2_EXT pakketten in het geconsolideerde pakket beschikbaar zijn?**
 
 Ja. Het geconsolideerde pakket bevat dezelfde velden in V1 met verdere uitsplitsingen naar objecten en V2_EXT-velden via aanraakpuntvelden.
 
-**Kunnen rapporten die V2_EXT gebieden gebruiken opnieuw worden gecreeerd in het geconsolideerde pakket?**
+**kan rapporten die V2_EXT gebieden gebruiken in het geconsolideerde pakket worden opnieuw gecreeerd?**
 
-Ja. Voer de stappen in het dialoogvenster [Vereiste handelingen](#retired-actions) sectie.
+Ja. Volg de stappen in de [ Vereiste sectie van Acties ](#retired-actions).

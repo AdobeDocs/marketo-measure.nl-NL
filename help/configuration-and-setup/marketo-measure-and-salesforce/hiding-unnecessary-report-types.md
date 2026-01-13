@@ -1,32 +1,31 @@
 ---
-unique-page-id: 18874785
-description: Het verbergen van onnodige rapporttypes - [!DNL Marketo Measure]
+description: Het verbergen van Onnoodzakelijke Types van Rapport -  [!DNL Marketo Measure]
 title: Onnodige rapporttypen verbergen
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
 
+
 # Onnodige rapporttypen verbergen {#hiding-unnecessary-report-types}
 
-Nadat u uw installatie hebt voltooid en rapporten hebt gebruikt, niet elk rapport [!DNL Marketo Measure] het pakket wordt geleverd met zal door uw organisatie worden gebruikt. Daarom is het nuttig om rapporttypes te verbergen die u niet gebruikt om het even welke verwarring te elimineren en voor een helderdere verschijning toe te staan. U kunt rapporten verbergen die u wilt, maar de rapporten die in onderstaande afbeelding worden geïdentificeerd, worden meestal verborgen.
+Nadat u de installatie hebt voltooid en rapporten hebt gebruikt, wordt niet elk rapport waarin het [!DNL Marketo Measure] -pakket wordt geleverd, door uw organisatie gebruikt. Daarom is het nuttig om rapporttypes te verbergen die u niet gebruikt om het even welke verwarring te elimineren en voor een helderdere verschijning toe te staan. U kunt rapporten verbergen die u wilt, maar de rapporten die in onderstaande afbeelding worden geïdentificeerd, worden meestal verborgen.
 
 1. Ga naar het tabblad **[!UICONTROL Reports]**.
 
-1. Klik op de knop **[!UICONTROL Create New Report]** aan de bovenkant van het scherm.
+1. Klik op de knop **[!UICONTROL Create New Report]** boven in het scherm.
 
 1. Typ het woord &quot;Aanraakpunt&quot; om de rapporten te vullen.
 
-1. Selecteer de **[!UICONTROL Select Report Types to Hide]** Schakel het selectievakje linksboven in.
+1. Schakel het selectievakje **[!UICONTROL Select Report Types to Hide]** linksboven in.
 
 1. Klik op de onderstaande rapporten met een oranje X om de rapportlijst er hetzelfde te laten uitzien als de onderstaande afbeelding.
 
-   ![](assets/1-4.png)
+   ![ 4 ](assets/1-4.png)
 
 >[!MORELIKETHIS]
->
->[Salesforce - Niet-gebruikte rapporttypen verbergen](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)
+>[ Salesforce - verberg Ongebruikte Types van Rapport ](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

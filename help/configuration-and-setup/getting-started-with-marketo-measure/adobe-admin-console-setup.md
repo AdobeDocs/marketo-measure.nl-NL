@@ -1,60 +1,60 @@
 ---
-description: Adobe Admin Console Setup - Marketo Measure - Productdocumentatie
+description: Adobe Admin Console Setup
 title: Adobe Admin Console Setup
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
+
 # Adobe Admin Console Setup {#adobe-admin-console-setup}
 
-De eerste stap naar [!DNL Marketo Measure] is om te maken en u aan te melden bij uw Adobe Admin Console waarvoor u een abonnement hebt genomen. Als u het e-mailbericht niet hebt ontvangen met aanmeldingsinstructies, neemt u contact op met uw [!DNL Marketo Measure] Accountvertegenwoordiger.
+De eerste stap bij het gebruik van [!DNL Marketo Measure] is het maken van en aanmelden bij uw Adobe Admin Console waarvoor u een abonnement hebt genomen. Neem contact op met uw [!DNL Marketo Measure] accountvertegenwoordiger als u het e-mailbericht niet met aanmeldingsinstructies hebt ontvangen.
 
 ## Adobe Admin Console en identiteitsprovider instellen {#set-up-your-adobe-admin-console-and-identity-provider}
 
-Als product binnen de Adobe Suite [!DNL Marketo Measure] gebruikt de volledige functionaliteit van Adobe Admin Console for Identity Management. Meer bronnen zijn mogelijk [hier gevonden](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
+Als product in de Adobe Suite gebruikt [!DNL Marketo Measure] de volledige functionaliteit van Adobe Admin Console voor Identity Management. Meer middelen kunnen worden gevonden [ hier ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
 
-U wordt aangeraden de bronnen, aanbevolen werkwijzen en opties te bekijken waarvoor u [Identity Management](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html).
+Het wordt geadviseerd om de middelen, beste praktijken, en opties te herzien beschikbaar aan u voor [ Identity Management ](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
-Voor hulp bij en revisie over het instellen van je Identity Management in de Adobe Admin Console, raadpleegt u uw [!DNL Marketo Measure] Accountvertegenwoordiger.
+Neem contact op met uw [!DNL Marketo Measure] accountvertegenwoordiger voor hulp bij en controle over het instellen van uw Identity Management in de Adobe Admin Console.
 
-Om gebruikersauthentificatie en vergunning met uw te vergemakkelijken [!DNL Marketo Measure] In de Adobe Admin Console zijn de volgende stappen vereist:
+Om gebruikersverificatie en autorisatie met uw [!DNL Marketo Measure] -instanties te vergemakkelijken, zijn de volgende stappen vereist in de Adobe Admin Console:
 
-**Het instellen van het dialoogvenster [!DNL Marketo Measure] Productkaart**
+**Vestiging de [!DNL Marketo Measure] Kaart van het Product**
 
-Wanneer u de Adobe Admin Console opent, ziet u uw [!DNL Marketo Measure] De instanties van het product aanwezig in de sectie van het Overzicht.
+Wanneer u de Adobe Admin Console opent, ziet u de [!DNL Marketo Measure] Product-instanties in de sectie Overzicht.
 
-![](assets/adobe-admin-console-setup-1.png)
+![ Adobe Admin Console die Marketo Measure productkaart ](assets/adobe-admin-console-setup-1.png) tonen
 
-Klik op de knop [!DNL Marketo Measure] Met de productkaart kunt u al uw [!DNL Marketo Measure] instanties. Standaard, elk [!DNL Marketo Measure] Instantie heeft een eigen profiel met het voorvoegsel &#39;[!DNL Marketo Measure]&quot;. Beheerders of gebruikers die aan dit profiel of een ander profiel in deze instantie zijn toegevoegd, kunnen zich aanmelden bij [!DNL Marketo Measure].
+Als u op de productkaart van [!DNL Marketo Measure] klikt, worden alle [!DNL Marketo Measure] -exemplaren weergegeven. Standaard heeft elke [!DNL Marketo Measure] -instantie een eigen profiel, voorafgegaan door &#39;[!DNL Marketo Measure]&#39;. Beheerders of gebruikers die aan dit profiel of een ander profiel in deze instantie zijn toegevoegd, kunnen zich aanmelden bij [!DNL Marketo Measure] .
 
-![](assets/adobe-admin-console-setup-2.png)
+![ de lijst van het het productprofiel van Adobe Admin Console voor de instanties van Marketo Measure ](assets/adobe-admin-console-setup-2.png)
 
-Er is geen actie vereist om een profiel te maken in het dialoogvenster [!DNL Marketo Measure] Product-exemplaar(s).
+Er is geen actie vereist om een profiel te maken binnen de [!DNL Marketo Measure] Product-instantie(s).
 
-Beginnen met het toevoegen van gebruikers die toegang hebben tot [!DNL Marketo Measure], verwijst u naar de [Toevoegen [!DNL Marketo Measure] Beheerders en [!DNL Marketo Measure] Gebruikers](#adding-marketo-measure-admins-and-marketo-measure-users) hieronder.
+Begin toevoegend gebruikers die tot [!DNL Marketo Measure] kunnen toegang hebben, verwijs naar [ het Toevoegen  [!DNL Marketo Measure]  Admins en  [!DNL Marketo Measure]  gebruikers ](#adding-marketo-measure-admins-and-marketo-measure-users) hieronder sectie.
 
-## Toevoegen [!DNL Marketo Measure] Beheerders en [!DNL Marketo Measure] Gebruikers {#adding-marketo-measure-admins-and-marketo-measure-users}
+## [!DNL Marketo Measure] Admins and [!DNL Marketo Measure] Users toevoegen {#adding-marketo-measure-admins-and-marketo-measure-users}
 
-De volgende stap is het verlenen van toegang tot [!DNL Marketo Measure] door gebruikers toe te voegen. Dit kan in de beheers en gebruikersfolder van worden gedaan [!DNL Marketo Measure] productkaart.
+De volgende stap bestaat uit het verlenen van toegang tot de [!DNL Marketo Measure] -toepassing door gebruikers toe te voegen. Dit kan worden gedaan in de directory voor beheerders en gebruikers van de [!DNL Marketo Measure] -productkaart.
 
 | Gebruikerstype | Beschrijving |
 |---|---|
-| Admins | dit zijn beheerders en machtsgebruikers van [!DNL Marketo Measure] Toepassing met volledige mogelijkheid om bij te werken en te beheren [!DNL Marketo Measure]-specifieke configuratieopties |
-| Gebruikers | dit zijn standaardgebruikers van de [!DNL Marketo Measure] Toepassing met read-only toestemmingen binnen [!DNL Marketo Measure] toepassing |
+| Admins | Dit zijn beheerders en veeleisende gebruikers van de [!DNL Marketo Measure] -toepassing die volledig in staat zijn om [!DNL Marketo Measure]-specifieke configuratieopties bij te werken en te beheren |
+| Gebruikers | Dit zijn standaardgebruikers van de [!DNL Marketo Measure] -toepassing met alleen-lezen machtigingen in de [!DNL Marketo Measure] -toepassing |
 
-Wanneer u een gebruiker toevoegt aan zijn of haar respectievelijke groep, ziet u hun [Identiteitstype vermeld](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html).
+Wanneer het toevoegen van een gebruiker aan hun respectieve groep, ziet u hun [ vermeld Type van Identiteit ](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
 >[!NOTE]
->
->Als een [!DNL Marketo Measure] beheerder (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}), moet een gebruiker als Gebruiker worden toegevoegd _en_ een beheerder van een [!DNL Marketo Measure] productprofiel in de [!DNL Marketo Measure] productkaart.
+>Om a [!DNL Marketo Measure] beheerder (in [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}) te zijn, moet een gebruiker als Gebruiker _en_ worden toegevoegd Admin aan om het even welk [!DNL Marketo Measure] productprofiel binnen de [!DNL Marketo Measure] productkaart.
 
 **Aanmelden bij[!DNL Marketo Measure]**
 
-Nadat een gebruiker aan een Profiel van het Product is toegevoegd, kunnen zij tot hun toegang hebben [!DNL Marketo Measure] instanties door de **Aanmelden met Adobe ID** optie bij [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+Nadat een gebruiker aan een Profiel van het Product is toegevoegd, kunnen zij tot hun [!DNL Marketo Measure] instanties toegang hebben door het **Teken binnen met Adobe ID** optie te kiezen [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
-![](assets/adobe-admin-console-setup-3.png)
+![ Marketo Measure login scherm met Sign in met de optie van Adobe ID ](assets/adobe-admin-console-setup-3.png)

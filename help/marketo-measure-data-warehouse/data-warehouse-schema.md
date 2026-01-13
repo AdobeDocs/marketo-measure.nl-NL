@@ -1,48 +1,46 @@
 ---
-unique-page-id: 35586140
-description: Data Warehouse Schema - Marketo Measure - Productdocumentatie
+description: Data Warehouse Schema
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: e9861f8032475d3e60a3bb3ebf67dfee520bbb75
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '21110'
+source-wordcount: '21106'
 ht-degree: 1%
 
 ---
 
+
 # Data Warehouse Schema {#data-warehouse-schema}
 
-Met Data Warehouse kunt u zoveel bijhouden als u wilt, gegevens rapporteren over uw toewijzingsgegevens op de gewenste locatie en deze koppelen aan andere gegevenssets.
+Met Data Warehouse kunt u zo veel bijhouden als u wilt, gegevens rapporteren over uw toewijzingsgegevens op de gewenste locatie en deze koppelen aan andere gegevenssets.
 
 >[!IMPORTANT]
->
->* Rijen met een waarde voor _DELETED_DATE worden 7 dagen bewaard en vervolgens uit de Snowflake verwijderd.
->* De tijdzones die in Snowflake worden gebruikt, voldoen aan de UTC (Coordinated Universal Time).
+> Rijen met een waarde voor _DELETED_DATE worden 7 dagen bewaard en vervolgens uit Snowflake verwijderd.
+> De tijdzones die in Snowflake worden gebruikt, voldoen aan de UTC (Coordinated Universal Time).
 
 >[!NOTE]
->
->[&#x200B; klik hier &#x200B;](#sample-queries) om steekproefvragen bij de bodem van dit artikel te zien.
+>[ klik hier ](#sample-queries) om steekproefvragen bij de bodem van dit artikel te zien.
 
 ## Relatiediagrammen voor entiteiten {#entity-relationship-diagrams}
 
-Het _Model van Gegevens van de Data Warehouse_ ERD toont hoe de gegevens in het gegevenspakhuis bedoeld zijn om te stromen en samen worden verbonden. Dit diagram omvat niet alle lijsten beschikbaar in het gegevenspakhuis omdat sommige van hen kaartlijsten, meningen van andere reeds aanwezige lijsten, of afgekeurde lijsten vertegenwoordigen wij niet meer het gebruiken adviseren. Zie de gedetailleerde beschrijvingen van lijsten en kolommen aanwezig in het gegevenspakhuis hieronder. Veel van deze lijsten bevatten gedenormaliseerde gebieden, echter, is dit diagram het geadviseerde gegevensmodel, leveraging gegevens van dimensionele lijsten in plaats daarvan.
+Het _Model van de Gegevens van Data Warehouse_ ERD toont hoe de gegevens in het gegevenspakhuis bedoeld zijn om te stromen en samen worden verbonden. Dit diagram omvat niet alle lijsten beschikbaar in het gegevenspakhuis omdat sommige van hen kaartlijsten, meningen van andere reeds aanwezige lijsten, of afgekeurde lijsten vertegenwoordigen wij niet meer het gebruiken adviseren. Zie de gedetailleerde beschrijvingen van lijsten en kolommen aanwezig in het gegevenspakhuis hieronder. Veel van deze lijsten bevatten gedenormaliseerde gebieden, echter, is dit diagram het geadviseerde gegevensmodel, leveraging gegevens van dimensionele lijsten in plaats daarvan.
 
-Extra _voegt het Model van Gegevens 1&rbrace; ERD van Dimensionele Gegevens van Gegevens toe &lbrace;stelt een mening van voor hoe de lijsten voor advertenties specifieke dimensies het best terug naar de lijsten in het belangrijkste gegevensmodel kunnen worden verbonden._ Hoewel de afmetingen van advertenties ook in andere lijsten worden gedenormaliseerd, vertegenwoordigt dit het geadviseerde model om zich bij deze dimensies aan te sluiten.
+Extra _voegt het Model van Gegevens 1} ERD van Dimensionele Gegevens van Gegevens toe {stelt een mening van voor hoe de lijsten voor advertenties specifieke dimensies het best terug naar de lijsten in het belangrijkste gegevensmodel kunnen worden verbonden._ Hoewel de afmetingen van advertenties ook in andere lijsten worden gedenormaliseerd, vertegenwoordigt dit het geadviseerde model om zich bij deze dimensies aan te sluiten.
 
 _klik een beeld voor zijn full-size versie_
 
 <table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <th>Gegevensmodel Data Warehouse</th>
+   <th>Data Warehouse-gegevensmodel</th>
    <th>Hiermee voegt u een dimensionaal gegevensmodel toe</th>
   </tr> 
   <tr> 
    <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
-   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td> 
-  </tr> 
- </tbody> 
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td>
+  </tr>
+ </tbody>
 </table>
 
 ## Weergaven {#views}
@@ -128,13 +126,13 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
@@ -212,13 +210,13 @@ Toewijzingstabel tussen bekende e-mailadressen en accounts van leads/contactpers
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -328,13 +326,13 @@ Activiteiten die zijn geïmporteerd uit een bronsysteem of een aangesloten adver
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -515,13 +513,13 @@ Advertenties die zijn geïmporteerd van een verbonden advertentieaccount.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -670,13 +668,13 @@ Adverteerders die zijn geïmporteerd uit een verbonden advertentieaccount.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -1054,13 +1052,13 @@ Advertentierekeningen die van om het even welk verbonden Advertentierekening wor
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -1370,13 +1368,13 @@ Campagnes die van verbonden Advertentierekeningen, bronsystemen, utm, en zelf wo
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -1571,13 +1569,13 @@ Advertentie Forms geïmporteerd van een verbonden advertentierekening.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
@@ -1897,13 +1895,13 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -1966,13 +1964,13 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -2016,7 +2014,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id voor de opportuniteit waaraan de BAT is toegewezen.</p>
+        <p>Id voor de Opportunity waaraan de BAT is toegewezen.</p>
       </td>
       <td>
         <p>0060Z00000lFHtOQAW</p>
@@ -2026,7 +2024,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       <td>CONTACT_ID</td>
       <td>varchar</td>
       <td>
-        <p>Id voor de contactpersoon die aan de BAT is gekoppeld.</p>
+        <p>Id voor de contactpersoon die is gekoppeld aan de BAT.</p>
       </td>
       <td>
         <p>0030Z0003K5bpKQAR</p>
@@ -2035,7 +2033,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     <tr>
       <td>EMAIL</td>
       <td>varchar</td>
-      <td>E-mailadres dat aan de BAT is gekoppeld.</td>
+      <td>E-mailadres gekoppeld aan de BAT.</td>
       <td>person@adobe.com</td>
     </tr>
     <tr>
@@ -2077,7 +2075,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     <tr>
       <td>VISITOR_ID</td>
       <td>varchar</td>
-      <td>Id voor de bezoeker die aan de BAT is gekoppeld.</td>
+      <td>Id voor de bezoeker die is gekoppeld aan de BAT.</td>
       <td>v_277d79d01678498fea067c9b631bf6df</td>
     </tr>
     <tr>
@@ -2424,7 +2422,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campaign van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] een advertentie kan oplossen, kan het waarden zoals "Google AdWords"of "Facebook zijn." Wordt in de CRM aangeduid als "Touchpoint Source".</p>
+        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan worden ontleed vanaf de URL van utm_source, doorgaans ingesteld als 'CRM-campagne' als deze is gesynchroniseerd vanuit de CRM, of als [!DNL Marketo Measure] een advertentie kan oplossen, kan dit waarden zijn zoals 'Google AdWords' of 'Facebook'. Wordt in de CRM aangeduid als "Touchpoint Source".</p>
       </td>
       <td>
         <p>gekoppeld</p>
@@ -2604,7 +2602,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
+        <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbleclick Campagne Manager en Facebook (display).</p>
       </td>
       <td>
         <p>dc.6114.882972.25272734.492579576</p>
@@ -2616,7 +2614,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
+        <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbleclick Campagne Manager en Facebook (display).</p>
       </td>
       <td>
         <p>Webinar - zijbalk</p>
@@ -2628,7 +2626,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van Creative van de advertentie-account waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>Id van de Creative van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>aw.6601259029.317738075.23105327435.182716179597</p>
@@ -2640,7 +2638,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>De naam van de Creative vanuit het advertentieaccount waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>Naam van de Creative van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>B2B-marketingkenmerk</p>
@@ -2652,7 +2650,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>De eerste regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>De eerste regel van de Creative uit de zoekadvertentie, die is opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>Download de Gids van GMOs</p>
@@ -2664,7 +2662,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>De tweede regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>De tweede regel van de Creative uit de zoekadvertentie, die is opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>Leer hoe de toewijzing van ROI door marketing activiteiten aan opbrengst te verbinden</p>
@@ -3021,13 +3019,13 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -3035,7 +3033,7 @@ Groepen toevoegen die zijn geïmporteerd uit een gekoppeld advertentieaccount.
 
 ### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
 
-Gegevens die zijn gegenereerd door de Attribution AI-integratie. Deze velden worden alleen ingevuld voor Marketo Measure Ultimate-klanten.
+Gegevens die zijn gegenereerd door de integratie van Attribution AI. Deze velden worden alleen ingevuld voor Marketo Measure Ultimate-klanten.
 
 <table>
 <thead>
@@ -3068,7 +3066,7 @@ Gegevens die zijn gegenereerd door de Attribution AI-integratie. Deze velden wor
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>original MM event id for the conversion event 
+    <td>original MM event id for the conversion event
     <br> kaarten aan een gebruiker touchpoint of een werkgebiedovergang</td>
     <td>00U0Z0000pCZmyUAG</td>
   </tr>
@@ -3433,13 +3431,13 @@ Campagneleden die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg als
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -3496,19 +3494,19 @@ Marketingkanalen, zoals gemaakt in de [!DNL Marketo Measure] -toepassing.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record in Snowflake is gemaakt.</td>
+      <td>De datum waarop de record is gemaakt in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>De datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -3691,13 +3689,13 @@ Contactpersonen die zijn geïmporteerd uit het bronsysteem.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
@@ -3793,13 +3791,13 @@ Wisselkoersen die uit het bronsysteem zijn geïmporteerd.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -4065,7 +4063,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van de Creative Cloud uit de advertentie-verbinding.</p>
+        <p>Id van de Creative die is opgehaald uit de advertentie-verbinding.</p>
       </td>
       <td>
         <p>aw.6601259029.285114995.51749608028.266050115160</p>
@@ -4077,7 +4075,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
       </td>
       <td>varchar</td>
       <td>
-        <p>Naam van de Creative Cloud die uit de advertentie-verbinding is gehaald.</p>
+        <p>Naam van de Creative die is opgehaald uit de advertentie-verbinding.</p>
       </td>
       <td>
         <p>Gartner Magic Quadrant 2019</p>
@@ -4091,7 +4089,7 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
         <p>boolean</p>
       </td>
       <td>
-        <p>Hiermee geeft u aan of de rij kosten bevat die kunnen worden samengevat door Creative. (Met andere woorden om Creative Cost te krijgen, som rijen waar deze kolom waar is.)</p>
+        <p>Hiermee wordt aangegeven of de rij Kosten bevat die door Creative kunnen worden samengevat. (Als u bijvoorbeeld Creative Cost wilt ophalen, som de rijen waar deze kolom waar is.)</p>
       </td>
       <td>
         <p>false</p>
@@ -4318,13 +4316,13 @@ Kostengegevens die zijn geïmporteerd uit verbonden advertentierekeningen of uit
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -4346,7 +4344,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
        <td>ID</td>
       <td>varchar</td>
       <td>
-        <p>Een unieke id voor Creative.</p>
+        <p>Een unieke id voor de Creative.</p>
       </td>
       <td>
         <p>ba.3284209.132855866,4556709270,10426699711</p>
@@ -4368,7 +4366,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id voor de advertentierekening waarvan Creative werd ingevoerd.</p>
+        <p>Id voor de advertentieaccount waaruit de Creative is geïmporteerd.</p>
       </td>
       <td>fb.106851586409075</td>
     </tr>
@@ -4378,7 +4376,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Naam voor de advertentierekening waarvan Creative werd ingevoerd.</p>
+        <p>Naam voor de advertentierekening waaruit de Creative is geïmporteerd.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure]</p>
@@ -4390,7 +4388,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van Advertiser voor Creative, met name voor Doubleclick.</p>
+        <p>Id van Advertiser voor de Creative, met name voor Doubleclick.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -4402,7 +4400,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Naam van de Advertiser voor Creative, met name voor Doubleclick.</p>
+        <p>Naam van de Adverteerder voor de Creative, met name voor Doubleclick.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Marketinganalyses</p>
@@ -4424,7 +4422,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Naam van Advertentiegroep voor Creative.</p>
+        <p>Naam van de advertentiegroep voor de Creative.</p>
       </td>
       <td>Advertentieset voor advertentie B</td>
     </tr>
@@ -4434,7 +4432,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van de campagne voor Creatief.</p>
+        <p>Id van de campagne voor de Creative.</p>
       </td>
       <td>
         <p>ba.3284209.132855866</p>
@@ -4446,7 +4444,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Naam van de Campagne voor Creatief.</p>
+        <p>Naam van de campagne voor de Creative.</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -4460,7 +4458,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>boolean</p>
       </td>
       <td>
-        <p>Geeft aan of Creative nog actief is in het bronsysteem.</p>
+        <p>Of de Creative al dan niet nog actief is in het bronsysteem.</p>
       </td>
       <td>
         <p>true</p>
@@ -4474,7 +4472,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>boolean</p>
       </td>
       <td>
-        <p>Of Creative al dan niet is verwijderd in het bronsysteem.</p>
+        <p>Of de Creative al dan niet is verwijderd in het bronsysteem.</p>
       </td>
       <td>
         <p>false</p>
@@ -4508,7 +4506,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Naam van Creative, van het bronsysteem.</p>
+        <p>Naam van de Creative, van het bronsysteem.</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -4522,7 +4520,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>boolean</p>
       </td>
       <td>
-        <p>Of Creative Cloud moet worden bijgewerkt voor [!DNL Marketo Measure] -tags.</p>
+        <p>Of de Creative moet worden bijgewerkt voor [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostisch veld, wordt gebruikt door interne verwerking.)</p>
       </td>
       <td>
@@ -4543,10 +4541,10 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval 'Creative'.</p>
+        <p>Het hoofdobject of de entiteit voor deze tabel. In dit geval "Creative".</p>
       </td>
       <td>
-        <p>Creatief</p>
+        <p>Creative</p>
       </td>
     </tr>
     <tr>
@@ -4580,7 +4578,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>De verkorte en vriendelijke URL die wordt weergegeven op Creative.</p>
+        <p>De verkorte en vriendelijke URL die wordt weergegeven op de Creative.</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -4613,7 +4611,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
         <p>URL_SHORTENED</p>
       </td>
       <td>varchar</td>
-      <td>De verkorte en vriendelijke URL die wordt weergegeven op Creative. (Alleen gebruikt voor LinkedIn-advertenties.)</td>
+      <td>De verkorte en vriendelijke URL die wordt weergegeven op de Creative. (Wordt alleen gebruikt voor LinkedIn-advertenties.)</td>
       <td></td>
     </tr>
     <tr>
@@ -4720,7 +4718,7 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
       </td>
       <td>varchar</td>
       <td>
-        <p>De aandeel-id. (Alleen gebruikt voor LinkedIn-advertenties.)</p>
+        <p>De aandeel-id. (Wordt alleen gebruikt voor LinkedIn-advertenties.)</p>
       </td>
       <td>
         <p>urn :li: aandeel:6376987561897848832</p>
@@ -4745,13 +4743,13 @@ Creatieve producten die zijn geïmporteerd van een verbonden advertentieaccount.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -4920,13 +4918,13 @@ Gebeurtenissen die zijn geïmporteerd uit het bronsysteem. Deze tabel is leeg al
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -5083,13 +5081,13 @@ Taken die zijn geïmporteerd uit het bronsysteem. Deze lijst zal bevolken als de
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -5184,13 +5182,13 @@ Tabel van alle ISO-valuta&#39;s.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -5323,13 +5321,13 @@ AB Tests geregistreerd. Deze lijst zal leeg zijn als de Tests van AB niet worden
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -5434,13 +5432,13 @@ Gebeurtenissen van het Web die gebruikend douanegebeurtenissen in Javascript zij
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -5669,13 +5667,13 @@ Openingspagina&#39;s die zijn gedownload van een aangesloten advertentieaccount.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -5774,13 +5772,13 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -5791,8 +5789,7 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
 Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulieren, aanraakpunten voor gebruikers, aanraakpunten (BT), aanraakpunten (BAT) en kostengegevens. Wordt intern gebruikt ter ondersteuning van [!DNL Marketo Measure] -rapportage.
 
 >[!IMPORTANT]
->
->Marketo Measure zal deze tabel medio 2024 afschaffen. Als u wenst om het op uw kant tot stand te brengen, stel [&#x200B; deze SQL vraag &#x200B;](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql) in werking.
+>Marketo Measure zal deze tabel medio 2024 afschaffen. Als u wenst om het op uw kant tot stand te brengen, stel [ deze SQL vraag ](/help/data-warehouse/assets/BIZ_FACTS.sql) in werking.
 
 <table>
   <tbody>
@@ -6472,7 +6469,7 @@ Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulier
         <p>boolean</p>
       </td>
       <td>
-        <p>Hiermee geeft u aan of de rij kosten bevat die kunnen worden samengevat door Creative. (Met andere woorden om Creative Cost te krijgen, som rijen waar deze kolom waar is.)</p>
+        <p>Hiermee wordt aangegeven of de rij Kosten bevat die door Creative kunnen worden samengevat. (Als u bijvoorbeeld Creative Cost wilt ophalen, som de rijen waar deze kolom waar is.)</p>
       </td>
       <td>
         <p>false</p>
@@ -6549,13 +6546,13 @@ Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulier
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -6664,7 +6661,7 @@ Vastgelegde formulierverzendingen.
         <p>URL waar het formulier is verzonden, inclusief eventuele queryparameters.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZd PdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZd PdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6818,13 +6815,13 @@ Vastgelegde formulierverzendingen.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -6918,7 +6915,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>URL waar de Indrukking werd gediend, met inbegrip van om het even welke vraagparameters.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZd PdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZd PdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -7210,7 +7207,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
+        <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbleclick Campagne Manager en Facebook (display).</p>
       </td>
       <td>
         <p>68035923</p>
@@ -7222,7 +7219,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       </td>
       <td>varchar</td>
       <td>
-        <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
+        <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbleclick Campagne Manager en Facebook (display).</p>
       </td>
       <td>
         <p>centurylink_banner_98121</p>
@@ -7234,7 +7231,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       </td>
       <td>varchar</td>
       <td>
-        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
+        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creative bevat.</p>
       </td>
       <td>
         <p>null</p>
@@ -7246,7 +7243,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       </td>
       <td>varchar</td>
       <td>
-        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
+        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creative bevat.</p>
       </td>
       <td>null</td>
     </tr>
@@ -7256,7 +7253,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       </td>
       <td>varchar</td>
       <td>
-        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
+        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creative bevat.</p>
       </td>
       <td>null</td>
     </tr>
@@ -7266,7 +7263,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       </td>
       <td>varchar</td>
       <td>
-        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
+        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creative bevat.</p>
       </td>
       <td>null</td>
     </tr>
@@ -7276,7 +7273,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       </td>
       <td>varchar</td>
       <td>
-        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
+        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creative bevat.</p>
       </td>
       <td>null</td>
     </tr>
@@ -7286,7 +7283,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       </td>
       <td>varchar</td>
       <td>
-        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creatief bevat.</p>
+        <p>De waarde null wordt verwacht omdat de dubbelklikhiërarchie voor afbeeldingen geen Creative bevat.</p>
       </td>
       <td>null</td>
     </tr>
@@ -7459,13 +7456,13 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -7824,13 +7821,13 @@ Trefwoorden die zijn geïmporteerd uit een verbonden advertentieaccount.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -8043,13 +8040,13 @@ Pagina&#39;s die zijn geïmporteerd van een aangesloten advertentieaccount aanla
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -8336,13 +8333,13 @@ Leads die zijn geïmporteerd uit het bronsysteem.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -8577,13 +8574,13 @@ Werkgebiedovergangen voor leads of contactpersonen.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -8858,13 +8855,13 @@ Kansen die uit het bronsysteem worden ingevoerd.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
@@ -9118,13 +9115,13 @@ Werkgebiedovergangen voor opportunity.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -9333,7 +9330,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
         <p>URL waarvan de paginaweergave afkomstig is, inclusief queryparameters.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9399,13 +9396,13 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -9629,19 +9626,19 @@ Een tabel waarin alle locaties zijn opgeslagen die zijn gedownload van gekoppeld
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Door de Snowflake gemaakte datum van de record</td>
+      <td>Door Snowflake aanmaakdatum van de record</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Gewijzigde datum van de record van de Snowflake</td>
+      <td>Snowflake wijzigde datum van de record</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake heeft de verwijderde datum van de record indien deze verwijderd is</td>
+      <td>Snowflake heeft de datum van de record verwijderd als deze is verwijderd</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -9704,13 +9701,13 @@ Segmentwaarden zoals gedefinieerd in de [!DNL Marketo Measure] -toepassing.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -9783,13 +9780,13 @@ Wijst de naam van het douanesegment aan het zijn categoriewaarde toe. (Hiermee w
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -9888,7 +9885,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Naam van de webpagina.</p>
       </td>
       <td>
-        <p>Salesforce Googles Analytics | [!DNL Marketo Measure]</p>
+        <p>Salesforce Google Analytics | [!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -9912,7 +9909,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>URL van de eerste paginaweergave van de sessie, inclusief queryparameters.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -10196,7 +10193,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>Naam van de advertentiegroep waaruit de advertentie is opgelost. Dit geldt alleen voor Google Adwords.</p>
       </td>
       <td>
-        <p>SALESFORCE - GOOGLES ANALYTICS</p>
+        <p>SALESFORCE - GOOGLE ANALYTICS</p>
       </td>
     </tr>
     <tr>
@@ -10205,7 +10202,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van advertentie is opgelost van. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
+        <p>Id van advertentie is opgelost van. Dit geldt voor Dubbleclick Campagne Manager en Facebook (display).</p>
       </td>
       <td>aw.6601259029.321586235.23182235435</td>
     </tr>
@@ -10215,7 +10212,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       </td>
       <td>varchar</td>
       <td>
-        <p>De naam van de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
+        <p>De naam van de advertentie is opgelost. Dit geldt voor Dubbleclick Campagne Manager en Facebook (display).</p>
       </td>
       <td>Winter promotie - groen</td>
     </tr>
@@ -10225,7 +10222,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van Creative the Ad is opgelost vanuit. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>Id van de Creative waarvan de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>aw.6601259029.321586235.23182235435.835898035</p>
@@ -10237,7 +10234,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       </td>
       <td>varchar</td>
       <td>
-        <p>De naam van de Creative the Ad is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>De naam van de Creative waarvan de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>Integratie van GA en Salesforce</p>
@@ -10249,7 +10246,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       </td>
       <td>varchar</td>
       <td>
-        <p>De eerste regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>De eerste regel van de Creative uit de zoekadvertentie, die is opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>Salesforce en analyse integreren in</p>
@@ -10261,7 +10258,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
       </td>
       <td>varchar</td>
       <td>
-        <p>De tweede regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>De tweede regel van de Creative uit de zoekadvertentie, die is opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>Optimaliseren voor inkomsten. Leer hoe.</p>
@@ -10542,13 +10539,13 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -10784,13 +10781,13 @@ Sites die zijn geïmporteerd uit een gekoppeld advertentieaccount.
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -11067,19 +11064,19 @@ Plaatst koppelingen van een verbonden advertentiekader.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Door de Snowflake gemaakte datum van de record</td>
+      <td>Door Snowflake aanmaakdatum van de record</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Gewijzigde datum van de record van de Snowflake</td>
+      <td>Snowflake wijzigde datum van de record</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake heeft de verwijderde datum van de record indien deze verwijderd is</td>
+      <td>Snowflake heeft de datum van de record verwijderd als deze is verwijderd</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -11256,13 +11253,13 @@ Lijst met stadia die worden geïmporteerd of gedefinieerd in de [!DNL Marketo Me
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -11305,7 +11302,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>EMAIL</p>
       </td>
       <td>varchar</td>
-      <td>E-mailadres dat aan de BT is gekoppeld.</td>
+      <td>E-mailadres gekoppeld aan de BT.</td>
       <td>
         <p>person@adobe.com</p>
       </td>
@@ -11314,7 +11311,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       <td>CONTACT_ID</td>
       <td>varchar</td>
       <td>
-        <p>Id voor de contactpersoon die aan de BT is gekoppeld.</p>
+        <p>Id voor de contactpersoon die is gekoppeld aan de BT.</p>
       </td>
       <td>0030Z0003K5bpKQAR</td>
     </tr>
@@ -11336,7 +11333,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>Id voor de lead die aan de BT is gekoppeld.</p>
+        <p>Id voor de lead die is gekoppeld aan de BT.</p>
       </td>
       <td>
         <p>00Q0Z00013e2PYUAY</p>
@@ -11369,7 +11366,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     <tr>
       <td>VISITOR_ID</td>
       <td>varchar</td>
-      <td>Id voor de bezoeker die aan de BT is gekoppeld.</td>
+      <td>Id voor de bezoeker die is gekoppeld aan de BT.</td>
       <td>v_277d79d01678498fea067c9b631bf6df</td>
     </tr>
     <tr>
@@ -11613,7 +11610,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>De eerste openingspagina van de sessie die tot een aanraakpunt heeft geleid. Een onbewerkte bestemmingspagina bevat alle queryparameters in de URL. In de CRM aangeduid als "Landing Page - Raw".</p>
       </td>
       <td>
-        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -11722,7 +11719,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campaign van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] een advertentie kan oplossen, kan het waarden zoals "Google AdWords"of "Facebook zijn." Wordt in de CRM aangeduid als "Touchpoint Source".</p>
+        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan worden ontleed vanaf de URL van utm_source, doorgaans ingesteld als 'CRM-campagne' als deze is gesynchroniseerd vanuit de CRM, of als [!DNL Marketo Measure] een advertentie kan oplossen, kan dit waarden zijn zoals 'Google AdWords' of 'Facebook'. Wordt in de CRM aangeduid als "Touchpoint Source".</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -11898,7 +11895,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
+        <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbleclick Campagne Manager en Facebook (display).</p>
       </td>
       <td>dc.6114.882972.25272734.492579576</td>
     </tr>
@@ -11908,7 +11905,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
+        <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbleclick Campagne Manager en Facebook (display).</p>
       </td>
       <td>Webinar - zijbalk</td>
     </tr>
@@ -11918,7 +11915,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van Creative van de advertentie-account waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>Id van de Creative van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>li.502664737.138949954.66452504</p>
@@ -11930,7 +11927,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>De naam van de Creative vanuit het advertentieaccount waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>Naam van de Creative van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>lisu03151846</p>
@@ -11942,7 +11939,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>De eerste regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>De eerste regel van de Creative uit de zoekadvertentie, die is opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>Loodgen wordt uitgevoerd</p>
@@ -11954,7 +11951,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
       </td>
       <td>varchar</td>
       <td>
-        <p>De tweede regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>De tweede regel van de Creative uit de zoekadvertentie, die is opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>Download de definitieve gids aan pijpleiding marketing: https://lnkd.in/e9xYj5M</p>
@@ -12316,13 +12313,13 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -12391,13 +12388,13 @@ Samenvoeging van URL&#39;s van bestemmingspagina&#39;s, verwijzingspagina&#39;s,
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -12628,7 +12625,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>De eerste openingspagina van de sessie die tot een aanraakpunt heeft geleid. Een onbewerkte bestemmingspagina bevat alle queryparameters in de URL. In de CRM aangeduid als "Landing Page - Raw".</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ markto+%maat%27s+Pipeline+Marketing+blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ markto+%maat%27s+Pipeline+Marketing+blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12676,7 +12673,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>Het eerste formulier dat is opgenomen in een sessie en dat heeft geresulteerd in een aanraakpunt. Verdere formulierverzendingen worden niet weergegeven in de tabel Attribution_Touchpoints, maar in de tabel Form_Submits. Een onbewerkte formulierpagina kan queryparameters in de URL bevatten. Wordt in de CRM aangeduid als "Form URL - Raw".</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm_campagne=Content%20-%20adWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm_campagne=Content%20-%20adWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -12745,7 +12742,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
       <td>varchar</td>
       <td>
-        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan uit URL van utm_source worden ontleed, algemeen geplaatst als "Campaign van CRM"als het van CRM werd gesynchroniseerd, of als [!DNL Marketo Measure] een advertentie kan oplossen, kan het waarden zoals "Google AdWords"of "Facebook zijn." Wordt in de CRM aangeduid als "Touchpoint Source".</p>
+        <p>Hiermee definieert u de bron die het aanraakpunt heeft veroorzaakt. Dit kan worden ontleed vanaf de URL van utm_source, doorgaans ingesteld als 'CRM-campagne' als deze is gesynchroniseerd vanuit de CRM, of als [!DNL Marketo Measure] een advertentie kan oplossen, kan dit waarden zijn zoals 'Google AdWords' of 'Facebook'. Wordt in de CRM aangeduid als "Touchpoint Source".</p>
       </td>
       <td>
         <p>gekoppeld</p>
@@ -12925,7 +12922,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
+        <p>Id van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbleclick Campagne Manager en Facebook (display).</p>
       </td>
       <td>dc.6114.882972.25272734.492579576</td>
     </tr>
@@ -12935,7 +12932,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
       <td>varchar</td>
       <td>
-        <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbelklik op Campagne Manager en Facebook (display).</p>
+        <p>Naam van de advertentie van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Dubbleclick Campagne Manager en Facebook (display).</p>
       </td>
       <td>Webinar - zijbalk</td>
     </tr>
@@ -12945,7 +12942,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
       <td>varchar</td>
       <td>
-        <p>Id van Creative van de advertentie-account waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>Id van de Creative van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>aw.6601259029.208548635.1675016675.195329631298</p>
@@ -12957,7 +12954,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
       <td>varchar</td>
       <td>
-        <p>De naam van de Creative vanuit het advertentieaccount waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>Naam van de Creative van de advertentierekening waarin de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Officiële site</p>
@@ -12969,7 +12966,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
       <td>varchar</td>
       <td>
-        <p>De eerste regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>De eerste regel van de Creative uit de zoekadvertentie, die is opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>Ontvangsten plannen en toewijzen</p>
@@ -12981,7 +12978,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
       </td>
       <td>varchar</td>
       <td>
-        <p>De tweede regel van Creative van de zoekAdvertentie, getrokken uit de Advertentierekening waarin Advertentie werd opgelost van. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
+        <p>De tweede regel van de Creative uit de zoekadvertentie, die is opgehaald van de advertentierekening waaruit de advertentie is opgelost. Dit geldt voor Google AdWords en Bing Ads (zoekopdracht).</p>
       </td>
       <td>
         <p>Lees waarom meer dan 250 bedrijven [!DNL Marketo Measure] kiezen voor marketingtoewijzing. Maak een demo!</p>
@@ -13176,13 +13173,13 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -13190,7 +13187,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
 
 ### BIZ_WEB_HOST_MAPPINGS {#biz-web-host-mappings}
 
-Tabel toewijzen om sessie-id [!DNL Marketo Measure] toe te wijzen aan Adobe-ECID en Munckin-id.
+Tabel toewijzen om sessie-id [!DNL Marketo Measure] toe te wijzen aan Adobe ECID en Munckin ID.
 
 <table>
   <tbody>
@@ -13265,7 +13262,7 @@ Tabel toewijzen om sessie-id [!DNL Marketo Measure] toe te wijzen aan Adobe-ECID
       <td>varchar</td>
       <td>URL van de paginaweergave, inclusief queryparameters.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>
@@ -13343,13 +13340,13 @@ Tabel toewijzen om sessie-id [!DNL Marketo Measure] toe te wijzen aan Adobe-ECID
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record voor het laatst in de Snowflake is gewijzigd.</td>
+      <td>Datum waarop de record voor het laatst is gewijzigd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>De datum waarop de record is gemarkeerd als verwijderd in de Snowflake.</td>
+      <td>De datum waarop de record is gemarkeerd als verwijderd in Snowflake.</td>
       <td>2020-01-01 01 :01: 00.000</td>
     </tr>
   </tbody>
@@ -13357,11 +13354,11 @@ Tabel toewijzen om sessie-id [!DNL Marketo Measure] toe te wijzen aan Adobe-ECID
 
 ## Voorbeeldquery&#39;s {#sample-queries}
 
-**hoeveel Aanraakpunten van de Koper (BT) waren er voor elk kanaal/subkanaal vorige maand?**
+**hoeveel Aanraakpunten van de Koper (BTs) waren er voor elk kanaal/subkanaal vorige maand?**
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,trim(split(ch.name,'.')[1])  as subchannel
       ,count(bt.id)                 as buyer_touchpoint_count
@@ -13383,7 +13380,7 @@ group by 1,2
 
 ```
 --Note: This query does not perform any currency conversion.  If your data contains multiple currencies, you will need to add in logic to perform the conversion to the desired currency using the biz_conversion_rates table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,sum(opp.amount*(bat.full_path_percentage/100))   as attributed_revenue
   from biz_user_touchpoints         ut
@@ -13447,10 +13444,9 @@ group by 1,2
 order by 1
 ```
 
-**toon alle Aanraakpunten van de Attributie van de Koper (BAT) en hun Toegewezen Ontvangsten voor één enkele kans.**
+**toon alle Aanraakpunten van de Attributie van de Koper (BBTs) en hun Toegewezen Ontvangsten voor één enkele kans.**
 
 >[!NOTE]
->
 >Deze vraag keert bestemmingsopbrengst voor het model van de W vorm terug. Wijzig het model door het veld bij te werken in de berekening van de toegerekende opbrengsten.
 
 ```

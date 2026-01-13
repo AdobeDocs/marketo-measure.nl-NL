@@ -1,74 +1,70 @@
 ---
-unique-page-id: 18874580
-description: Marketo Measure verbinden met Salesforce - [!DNL Marketo Measure]
+description: Marketo Measure verbinden met Salesforce -  [!DNL Marketo Measure]
 title: Marketo Measure verbinden met Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
+
 # Marketo Measure verbinden met Salesforce {#connect-marketo-measure-to-salesforce}
 
-Dit artikel biedt een overzicht van hoe u verbinding kunt maken met uw [!DNL Salesforce] account aan uw [!DNL Marketo Measure] account.
+Dit artikel biedt een overzicht van hoe u uw [!DNL Salesforce] -account kunt verbinden met uw [!DNL Marketo Measure] -account.
 
-## Verbinding maken [!DNL Marketo Measure] with [!DNL Salesforce] {#connecting-marketo-measure-with-salesforce}
+## Verbinding maken [!DNL Marketo Measure] met [!DNL Salesforce] {#connecting-marketo-measure-with-salesforce}
 
-1. Een incognitobrowser gebruiken om u aan te melden [!DNL Marketo Measure].
+1. Gebruik een incognitobrowser om u aan te melden bij [!DNL Marketo Measure] .
 
-1. Navigeer in de menubalk boven aan het scherm naar **[!UICONTROL My Account]** en klik op de knop **[!UICONTROL Settings]** -optie.
+1. Navigeer in de menubalk boven aan het scherm naar **[!UICONTROL My Account]** en klik op de optie **[!UICONTROL Settings]** .
 
-1. Klik in de kolom met opties links in het scherm op **[!UICONTROL Connections]** die zich onder [!UICONTROL Integrations] sectie.
+1. Klik in de kolom met opties links in het scherm op **[!UICONTROL Connections]** onder de sectie [!UICONTROL Integrations] .
 
-   ![](assets/connect-marketo-measure-to-salesforce-1.png)
+   ![ het menu van Montages die de optie van Verbindingen onder de sectie van Integraties tonen ](assets/connect-marketo-measure-to-salesforce-1.png)
 
-1. Klik onder de sectie CRM in Verbindingen op **[!UICONTROL Set Up New CRM Connection]**.
+1. Klik onder de sectie CRM in Verbindingen op **[!UICONTROL Set Up New CRM Connection]** .
 
-   ![](assets/connect-marketo-measure-to-salesforce-2.png)
+   ![ de Verbinding van CRM pagina met de Nieuwe knoop van de Verbinding van CRM van de Opstelling ](assets/connect-marketo-measure-to-salesforce-2.png)
 
-1. Er verschijnt een pop-upvenster waarin u wordt gevraagd een CRM-verbinding te selecteren. Klikken **[!UICONTROL Connect]** naast de [!DNL Salesforce] logo.
+1. Er verschijnt een pop-upvenster waarin u wordt gevraagd een CRM-verbinding te selecteren. Klik op **[!UICONTROL Connect]** naast het logo van [!DNL Salesforce] .
 
-   ![](assets/connect-marketo-measure-to-salesforce-3.png)
+   ![ Uitgezochte de verbinding van CRM popup venster met het embleem van Salesforce en verbindt knoop ](assets/connect-marketo-measure-to-salesforce-3.png)
 
-1. Er verschijnt een laatste pop-upvenster waarin u wordt gevraagd [!DNL Salesforce] referenties, sandbox of productie. Voer uw gegevens in en klik op **[!UICONTROL Authorize]** om verbinding te maken met de account [!DNL Marketo Measure].
+1. Er wordt een laatste pop-upvenster weergegeven met de vraag naar uw [!DNL Salesforce] -referenties, sandbox of productie. Voer uw gegevens in en klik op **[!UICONTROL Authorize]** om de account te verbinden met [!DNL Marketo Measure] .
 
 >[!NOTE]
->
->[!DNL Marketo Measure] kan slechts met één worden verbonden [!DNL Salesforce] -instantie tegelijk.
->
->* A [!DNL Marketo Measure] -instantie kan worden aangesloten op een SFDC-sandbox-instantie om de integratie te testen voordat de verbinding naar uw SFDC Production-instantie wordt geschakeld.
->* Als u eerst met een zandbak SFDC test, adviseren wij hoogst u met één te testen die een nauwkeurige replica van uw productieInstantie van SFDC in termen van gebieden op de Lood, het Contact, de Rekening, de Kans, de Campagne, en de voorwerpen van het Geval is. Als u actieve APEX-triggers in productie hebt die worden geactiveerd bij updates van de objecten Lead, Contact, Account, Opportunity, Campagne en Case, moet u proberen deze actief te maken in uw sandbox.
->* Wanneer u klaar bent met testen, werkt u uw [!DNL Marketo Measure] account voor aanwijzen bij productie [!DNL Salesforce] (in plaats van Sandbox [!DNL Salesforce]). Als gevolg van de manier waarop de integratie werd opgebouwd, [!DNL Marketo Measure] account is verbonden met productie [!DNL Salesforce]kunt u niet achterwaarts gaan en verbinding maken met een sandbox [!DNL Salesforce] org.
+>[!DNL Marketo Measure] kan slechts met één [!DNL Salesforce] -instantie tegelijk worden verbonden.
+> Een [!DNL Marketo Measure] -instantie kan met een SFDC Sandbox-instantie worden verbonden om de integratie te testen voordat de verbinding naar uw SFDC Production-instantie wordt overgeschakeld.
+> Als u eerst test met een SFDC-sandbox, raden we u ten zeerste aan om één test uit te voeren die een exacte replica is van uw SFDC-productiefunctie in termen van velden op de objecten Lead, Contact, Account, Opportunity, Campagne en Case. Als u actieve APEX-triggers in productie hebt die worden geactiveerd bij updates van de objecten Lead, Contact, Account, Opportunity, Campagne en Case, moet u proberen deze actief te maken in uw sandbox.
+> Wanneer u klaar bent met testen, werkt u uw [!DNL Marketo Measure] -account bij zodat deze naar uw productie verwijst [!DNL Salesforce] (in plaats van Sandbox [!DNL Salesforce] ). Als een [!DNL Marketo Measure] -account eenmaal is verbonden met Production [!DNL Salesforce] , kunt u vanwege de manier waarop de integratie is gemaakt, niet achterwaarts gaan en verbinding maken met een Sandbox [!DNL Salesforce] -org.
 
 ## Gebruik van API-credits {#api-credits-usage}
 
-Marketo Measure gebruikt een integratietaak van CRM om met Salesforce van een cliënt door een Geïntegreerde Gebruiker om te zetten. Alle gegevensuitwisselingen via deze gebruiker maken gebruik van Salesforce API-credits. U hebt de mogelijkheid om een kredietquotum toe te wijzen aan een integratiegebruiker, die buitensporige API-aanroepen reguleert. Deze quota of limiet wordt elke 24 uur opnieuw ingesteld.
+Marketo Measure gebruikt een CRM-integratietaak om te communiceren met de Salesforce van een klant via een geïntegreerde gebruiker. Alle gegevensuitwisselingen via deze gebruiker gebruiken Salesforce API-credits. U hebt de mogelijkheid om een kredietquotum toe te wijzen aan een integratiegebruiker, die buitensporige API-aanroepen reguleert. Deze quota of limiet wordt elke 24 uur opnieuw ingesteld.
 
-U kunt deze limiet in Marketo Measure openen via: **Mijn account** > **Instellingen** > **CRM** > **Algemeen** > **Limiet voor dagelijkse CRM-API** en kan het voor uw huurders configureren.
+U kunt tot deze grens in Marketo Measure toegang hebben via: **Mijn Rekening** > **Montages** > **CRM** > **Algemeen** > **Dagelijkse grens van CRM API**, en kan het voor uw huurders vormen.
 
-![](assets/connect-marketo-measure-to-salesforce-4.png)
+![ Dagelijkse het plaatsen van de grens van CRM API het tonen van configuratiegebied voor API kredietquota ](assets/connect-marketo-measure-to-salesforce-4.png)
 
 ### Limiet instellen voor API-credits {#setting-a-limit-for-api-credits}
 
-1. Navigeren naar **Mijn account** > **Instellingen**.
+1. Navigeer aan **Mijn Rekening** > **Montages**.
 
-1. Klik onder CRM op **Algemeen**. U ziet de **Limiet voor dagelijkse CRM-API** -optie.
+1. Onder CRM, klik **Algemeen**. U ziet de **Dagelijkse de grens van CRM API** optie.
 
 1. Klik op het vergrendelingspictogram dat u wilt bewerken.
 
-   ![](assets/connect-marketo-measure-to-salesforce-5.png)
+   ![ het pictogram van het Slot voor het uitgeven van het Dagelijkse de grensgebied van CRM API ](assets/connect-marketo-measure-to-salesforce-5.png)
 
-1. Voer een gewenste limiet in van 100.000 of hoger. Klikken **Opslaan** wanneer gereed.
+1. Voer een gewenste limiet in van 100.000 of hoger. Klik **sparen** wanneer gedaan.
 
-   ![](assets/connect-marketo-measure-to-salesforce-6.png)
+   ![ dagelijkse de grensinputgebied van CRM API met ingegane waarde en sparen knoop ](assets/connect-marketo-measure-to-salesforce-6.png)
 
 >[!NOTE]
->
->Neem contact op met uw Salesforce-beheerder en neem contact op met uw Salesforce-beheerder om de beschikbare Salesforce API-credits voor de aangesloten oplossing te verhogen [dit Salesforce-document](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.
+>Om beschikbare Salesforce API kredieten voor uw verbonden oplossing te verhogen, contacteer uw beheerder van Salesforce en verwijs [ dit document van Salesforce ](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.
 
 >[!MORELIKETHIS]
->
->[Foutmeldingen](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[ Meldingen van de Fout ](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

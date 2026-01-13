@@ -1,80 +1,79 @@
 ---
-unique-page-id: 18874582
-description: "[!DNL Marketo Measure] Salesforce-objecten - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Salesforce-objecten"
+description: '[!DNL Marketo Measure] Salesforce-objecten -  [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Salesforce-objecten'
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
 
+
 # [!DNL Marketo Measure] Salesforce-objecten {#marketo-measure-salesforce-objects}
 
 >[!NOTE]
->
->Mogelijk ziet u instructies die &quot;[!DNL Marketo Measure]&quot; in de documentatie, maar zie nog steeds &quot;Bizible&quot; in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+>U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-Wanneer [!DNL Marketo Measure] is geïnstalleerd in [!DNL Salesforce] (SFDC), meerdere aangepaste [!DNL Marketo Measure] Objecten worden toegevoegd. In dit artikel wordt een uitleg gegeven van verschillende van deze aangepaste [!DNL Marketo Measure] Objecten. Sommige objecten die [!DNL Marketo Measure] toevoegen aan [!DNL Salesforce] zijn:
+Wanneer [!DNL Marketo Measure] is geïnstalleerd in [!DNL Salesforce] (SFDC), worden verschillende aangepaste [!DNL Marketo Measure] -objecten toegevoegd. In dit artikel wordt een uitleg gegeven van verschillende van deze aangepaste [!DNL Marketo Measure] objecten. Sommige objecten die [!DNL Marketo Measure] toevoegt aan [!DNL Salesforce] zijn:
 
-* [Aanraakpunt koper](#touchpoint)
-* [Aanraakpunt koperkenmerk](#attribution)
+* [Buyer Touchpoint](#touchpoint)
+* [Buyer Attribution Touchpoint](#attribution)
 * [[!DNL Marketo Measure] Persoon](#person)
 * [[!DNL Marketo Measure] A/B-tests](#ab)
 * [[!DNL Marketo Measure] Gebeurtenissen](#events)
 
-Aanraakpunten die zijn vastgelegd door de dingen die u wilt bijhouden, schrijven naar de aangepaste objecten die zijn gemaakt door de installatie van de [!DNL Bizible Salesforce] pakket.
+Aanraakpunten die zijn vastgelegd door de dingen die u wilt bijhouden, schrijven naar de aangepaste objecten die zijn gemaakt door de installatie van het [!DNL Bizible Salesforce] -pakket.
 
-[!DNL Marketo Measure] Objecten hebben betrekking op specifieke norm [!DNL Salesforce] Objecten. Op deze manier kunt u rapporteren over [!DNL Marketo Measure] en [!DNL Salesforce] Objecten bij elkaar. In de onderstaande tabel wordt aangegeven welke [!DNL Salesforce] Object van [!DNL Marketo Measure] Object heeft betrekking op.
+[!DNL Marketo Measure] Objecten hebben betrekking op specifieke standaard [!DNL Salesforce] -objecten. Op deze manier kunt u [!DNL Marketo Measure] en [!DNL Salesforce] -objecten samen rapporteren. In de onderstaande tabel wordt aangegeven op welk [!DNL Salesforce] -object het [!DNL Marketo Measure] -object betrekking heeft.
 
-![](assets/1-1.png)
+![ Diagram die verband tussen de Voorwerpen van Marketo Measure en standaardSalesforce ](assets/1-1.png) tonen
 
-## Aanraakpunt koper {#buyer-touchpoint}
+## Buyer Touchpoint {#buyer-touchpoint}
 
-De [!UICONTROL Buyer Touchpoint] (BT) Object vertelt het marketingverhaal van een individu. Het bevat alle gegevens met betrekking tot de marketingaanraakpunten die door Leads en Contacten worden gegenereerd. In het BT ziet u informatie over het marketingkanaal waar het aanraakpunt vandaan komt of over welke Ad Campaign die de desbetreffende lead/contactpersoon naar uw website heeft geleid.
+Met het object [!UICONTROL Buyer Touchpoint] (BT) wordt het marketingverhaal van een individu verteld. Het bevat alle gegevens met betrekking tot de marketingaanraakpunten die door Leads en Contacten worden gegenereerd. Op de BT wordt informatie weergegeven over het marketingkanaal waar het aanraakpunt vandaan kwam of over de advertentiecampagne die die bepaalde lead/contactpersoon naar uw website heeft gebracht.
 
-Het object BT is op de pagina&#39;s Leads en Contacten als een **Verwante lijst** (zie onderstaande afbeelding).
+Het Voorwerp van BT is zichtbaar op de Pagina&#39;s van Leads en van Contacten als a **Verwante Lijst** (zie hieronder beeld).
 
-![](assets/2-1.png)
+![ de Verwante Lijst van Buyer Touchpoint die op Lood en de pagina&#39;s van het Contact in Salesforce wordt getoond ](assets/2-1.png)
 
-In de lijst Verwante koppelingen worden alle aanraakpunten weergegeven die bij de lead of contactpersoon horen. Binnen de lijst zijn aangepaste [!DNL Marketo Measure] Velden die nadere gegevens over elk aanraakpunt bevatten. Als u op het nummer van de contactpersoon voor kopers klikt, gaat u naar de pagina Details aanraakpunt voor kopers, die nog meer informatie bevat over het aanraakpunt, zoals de eerste webpagina die tijdens die websessie is bezocht (**landingspagina**).
+In de lijst Verwante BT worden alle aanraakpunten weergegeven die bij de lead of contactpersoon horen. In de lijst staan aangepaste [!DNL Marketo Measure] velden die meer informatie over elk aanraakpunt bevatten. Het klikken op het aantal van identiteitskaart van Buyer Touchpoint zal u aan de pagina van het Detail van Buyer Touchpoint leiden, die zelfs meer details over touchpoint, als de eerste Web-pagina het Lood/Contact tijdens die Webzitting (**landende pagina**) verstrekt.
 
-## Aanraakpunt koperkenmerk {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-De [!UICONTROL Buyer Attribution Touchpoint] Object vertelt het verhaal van de marketinginteracties van uw contactpersonen met betrekking tot een opportuniteit. De interface geeft de *toewijzing* gegevens met betrekking tot de marketingaanraakpunten. Met dit object kunt u zien hoeveel inkomstenkrediet wordt toegewezen aan elk marketingaanraakpunt. Het type toewijzingsmodel dat u gebruikt, bepaalt het percentage aan aanraakpunten toegewezen inkomsten.
+Het [!UICONTROL Buyer Attribution Touchpoint] -object vertelt het verhaal van de marketinginteracties van uw contactpersonen met betrekking tot een opportuniteit. Het toont de *attributie* gegevens met betrekking tot marketing touchpoints. Met dit object kunt u zien hoeveel inkomstenkrediet wordt toegewezen aan elk marketingaanraakpunt. Het type toewijzingsmodel dat u gebruikt, bepaalt het percentage aan aanraakpunten toegewezen inkomsten.
 
-Aanraakpunten voor koperkenmerken (BBT&#39;s) worden pas gecreëerd wanneer een opportunity wordt gecreëerd die betrekking heeft op contactpersonen die BT-gegevens (Buyer Touchpoint) hebben. BBT&#39;s worden niet gemaakt zonder opportuniteit. Zodra de Opportunity is gemaakt, gebruikt het BBT-object de [!DNL Salesforce] *Hoeveelheid* veld op de Opportunity om te begrijpen hoeveel omzet aan de aanraakpunten moet worden toegewezen.
+Aanraakpunten voor koperkenmerken (BBT&#39;s) worden pas gecreëerd wanneer een Opportunity is gemaakt die betrekking heeft op contactpersonen die gegevens van Buyer Touchpoint (BT) bevatten. BBT&#39;s worden niet gemaakt zonder opportuniteit. Zodra de Kans is gecreeerd, zal het Voorwerp van BAT het [!DNL Salesforce] *2} gebied van het Bedrag {op de Kans gebruiken om te begrijpen hoeveel opbrengst aan attributen aan touchpoints.*
 
-A **werkstroom** moet worden gemaakt als u een [aangepast bedrag, veld](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) om opbrengsten op het Voorwerp van de Opportunity te tonen. [!DNL Marketo Measure] kan de informatie in de velden Aangepast bedrag niet lezen en kan bijgevolg geen gegevens over inkomstentoewijzing op de aanraakpunten invullen. In deze workflow wordt gebruikgemaakt van de **[!DNL Marketo Measure]Aantal kansen** Veld, een van de [!DNL Marketo Measure] aangepaste velden, om de opbrengstwaarde van het veld Aangepast bedrag toe te wijzen aan het veld Opportunity Amount.
+A **werkschema** moet worden gecreeerd als u het gebied van het Bedrag van de a [ douane ](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) gebruikt om opbrengst op het Voorwerp van de Kans te tonen. [!DNL Marketo Measure] kan de informatie niet lezen die in de velden Aangepast bedrag wordt weergegeven en kan daarom de toewijzingsgegevens van de inkomsten niet vullen op de aanraakpunten. Deze werkstroom zal het **[!DNL Marketo Measure]Gebied van het Bedrag van de Kans**, één van [!DNL Marketo Measure] douanevelden gebruiken, om de opbrengstwaarde van het gebied van het Bedrag van de douane aan het gebied van het Bedrag van de Kans in kaart te brengen.
 
-![](assets/3-1.png)
+![ Verwante die Lijst van Buyer Attribution Touchpoint op Kansen, Contact, en de voorwerpen van de Rekening wordt getoond ](assets/3-1.png)
 
-Het BBT-object is zichtbaar op het tabblad [!UICONTROL Opportunity], [!UICONTROL Contact], en [!UICONTROL Account] Object als een verwante lijst. In deze lijst worden alle aanraakpunten weergegeven met de toewijzingsgegevens die bij een opportunity horen. Als u op de ID Aanraakpunt voor koperkenmerk klikt, gaat u naar de pagina Details aanraakpunt voor koperkenmerken. Hier kunt u specifiekere toewijzingsgegevens en informatie bekijken over waar het aanraakpunt vandaan komt (vergelijkbaar met wat er wordt geleverd met het object Aanraakpunt koper).
+Het object BAT is op het object [!UICONTROL Opportunity] , [!UICONTROL Contact] en [!UICONTROL Account] zichtbaar als een verwante lijst. In deze lijst worden alle aanraakpunten weergegeven met de toewijzingsgegevens die bij een opportunity horen. Als u op de Buyer Attribution Touchpoint-id klikt, gaat u naar de Buyer Attribution Touchpoint-detailpagina. Hier kunt u specifiekere toewijzingsgegevens en informatie zien over waar het aanraakpunt vandaan komt (vergelijkbaar met wat er van het Buyer Touchpoint-object wordt aangeboden).
 
 ## [!DNL Marketo Measure] Persoon {#marketo-measure-person}
 
-De [!DNL Marketo Measure] Persoonsobject koppelt de objecten Lead en Contact. Salesforce beschikt niet over de optie om rapporten te maken met het object Lead en Contact in hetzelfde rapport. Door het object Lead en Contact te koppelen, [!DNL Marketo Measure] Met Persoon kunt u in hetzelfde rapport over beide objecten rapporteren. Dit is vooral handig wanneer een lead is omgezet in een contactpersoon. Op een [!DNL Marketo Measure] Persoonsrecord dat u ziet, wordt opgezocht op de corresponderende lijst met leads en/of contactpersonen, een verwante lijst met de aanraakpunten die aan de persoon zijn gekoppeld en de persoon-id (dit is altijd het e-mailadres van de lead/contactpersoon). Aangezien de [!DNL Marketo Measure] Persoon heeft betrekking op het object Lead &amp; Contact, er zal nooit een [!DNL Marketo Measure] Persoonsrecord die is gekoppeld aan een aanraakpunt voor koperkenmerken. Hieronder ziet u een voorbeeld van een [!DNL Marketo Measure] Persoonsregistratie in Salesforce:
+Met het [!DNL Marketo Measure] object Person worden de objecten Lead en Contact aan elkaar gekoppeld. Salesforce beschikt niet over de optie om rapporten te maken met behulp van het object Lead en Contact in hetzelfde rapport. Door met betrekking tot het Lood en Voorwerp van het Contact te werken, staat de [!DNL Marketo Measure] Persoon u toe om over beide Voorwerpen binnen het zelfde rapport te melden. Dit is vooral handig wanneer een lead is omgezet in een contactpersoon. Op een [!DNL Marketo Measure] Personen-record wordt een zoekopdracht weergegeven naar de bijbehorende lijst met leads en/of contactpersonen, een verwante lijst met de aan de persoon gekoppelde aanraakpunten en de persoon-id (dit is altijd het e-mailadres van de lead/contactpersoon). Aangezien de persoon van [!DNL Marketo Measure] betrekking heeft op het object Lead &amp; Contact, is er nooit een [!DNL Marketo Measure] Person-record die is gekoppeld aan een Buyer Attribution Touchpoint. Hieronder ziet u een voorbeeld van een [!DNL Marketo Measure] Person-record in Salesforce:
 
-![](assets/4.png)
+![ het verslag van de Persoon van Marketo Measure in Salesforce die raadpleging aan Lood/Contact en verwante touchpoints tonen ](assets/4.png)
 
 ## [!DNL Marketo Measure] A/B-test {#marketo-measure-a-b-test}
 
-Als u A/B tests door [!DNL Optimizely] of VWO (Visuele Optimizer van het Web), kunt u die rekeningen met uw verbinden [!DNL Marketo Measure] account om de A/B-testgegevens in Salesforce weer te geven. De [!DNL Marketo Measure] Met een A/B-testobject kunt u in feite A/B-testgegevens van Optimizely/VWO nemen en de gegevens koppelen aan Leads en Contacten.
+Als u A/B tests door [!DNL Optimizely] of (Visuele Optimizer van het Web) in werking stelt, kunt u die rekeningen met uw [!DNL Marketo Measure] rekening verbinden om A/B testgegevens binnen Salesforce te bekijken. Met het [!DNL Marketo Measure] A/B-testobject kunt u in feite A/B-testgegevens van Optimizely/VWO nemen en de gegevens koppelen aan Leads en Contacten.
 
-![](assets/5.png)
+![ Marketo Measure A/B de Test Verwante Lijst op Leidingen, Contacten, en de pagina&#39;s die van de Kans experimenten en variaties tonen ](assets/5.png)
 
-De [!DNL Marketo Measure] A/B-testobject wordt weergegeven als een verwante lijst in [!UICONTROL Leads], [!UICONTROL Contacts] en [!UICONTROL Opportunity] pagina&#39;s. De lijst bevat alle experimenten en variaties die u doorloopt via Optimizely of VWO. U kunt de experimenten/variaties bekijken zoals deze betrekking hebben op specifieke leads en contactpersonen.
+Het [!DNL Marketo Measure] A/B-testobject wordt op de pagina&#39;s [!UICONTROL Leads] , [!UICONTROL Contacts] en [!UICONTROL Opportunity] weergegeven als een verwante lijst. De lijst bevat alle experimenten en variaties die u doorloopt via Optimizely of VWO. U kunt de experimenten/variaties bekijken zoals deze betrekking hebben op specifieke leads en contactpersonen.
 
 ## [!DNL Marketo Measure] Gebeurtenissen {#marketo-measure-events}
 
-De [!DNL Marketo Measure] Met Events Object kunt u specifieke gebeurtenissen bijhouden die op uw website plaatsvinden. Als u specifieke gebeurtenissen op uw website wilt bijhouden, moet u naast de [!DNL Marketo Measure] JavaScript. De vastgelegde informatie wordt weergegeven in het [!DNL Marketo Measure] Lijst met verwante objecten, die u kunt vinden op het tabblad [!UICONTROL Leads], [!UICONTROL Contacts] en [!UICONTROL Opportunity] pagina&#39;s. De [!DNL Marketo Measure] Object Events *niet* koppelen aan toewijzingsgegevens. Het doel van dit object is om te zien of mensen specifieke handelingen op uw website uitvoeren.
+Met het gebeurtenisobject [!DNL Marketo Measure] kunt u specifieke gebeurtenissen bijhouden die op uw website plaatsvinden. Als u specifieke gebeurtenissen op uw website wilt bijhouden, moet er naast [!DNL Marketo Measure] JavaScript ook een aangepaste code aan uw pagina&#39;s worden toegevoegd. De vastgelegde informatie wordt weergegeven in de [!DNL Marketo Measure] Objectgerelateerde lijst, die u kunt vinden op de pagina&#39;s [!UICONTROL Leads] , [!UICONTROL Contacts] en [!UICONTROL Opportunity] . Het [!DNL Marketo Measure] Voorwerp van Gebeurtenissen *bindt niet* aan attributiegegevens. Het doel van dit object is om te zien of mensen specifieke handelingen op uw website uitvoeren.
 
 ## [!DNL Marketo Measure] Velden {#marketo-measure-fields}
 
-Gegevens vastgelegd door de [!DNL Marketo Measure] JavaScript wordt in de aangepaste versie geplaatst [!DNL Marketo Measure] Velden binnen de [!DNL Marketo Measure] Objecten. Bepaalde velden zijn alleen beschikbaar op bepaalde objecten. U kunt de [woordenlijst van [[!DNL Marketo Measure] velden]](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) en [visualisatie van de [!DNL Marketo Measure] Objecten](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Gegevens die zijn vastgelegd door de [!DNL Marketo Measure] JavaScript, worden geduwd in de aangepaste [!DNL Marketo Measure] -velden binnen de [!DNL Marketo Measure] -objecten. Bepaalde velden zijn alleen beschikbaar op bepaalde objecten. U kunt de [ verklarende woordenlijst van [[!DNL Marketo Measure] gebieden] ](/help/glossary.md) en a [ visualisatie van de verwante  [!DNL Marketo Measure]  Voorwerpen ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md) herzien.
 
 ## [!DNL Marketo Measure] Rapporten en dashboards {#marketo-measure-reports-and-dashboards}
 
-De [!DNL Marketo Measure] Rapporten en dashboards die aan uw worden toegevoegd [!DNL Salesforce] biedt u mogelijkheden voor out-of-the-box rapportage en gegevensvisualisatie. Deze zijn fundamenteel [!DNL Marketo Measure] rapporten zodat u snel aanraakpuntgegevens kunt ordenen, analyseren en begrijpen.
+De [!DNL Marketo Measure] rapporten en dashboards die aan uw [!DNL Salesforce] worden toegevoegd voorzien u van uit-van-de-doos rapportering en gegevensvisualiseringsmogelijkheden. Dit zijn eenvoudige [!DNL Marketo Measure] -rapporten waarmee u snel aanraakpuntgegevens kunt ordenen, analyseren en begrijpen.
