@@ -497,13 +497,13 @@ We zijn blij dat we het dashboard van Discover opnieuw ontwerpen. Ons primaire d
 
 ## Nieuwe toevoegingen en verbeteringen {#new-additions-and-improvements}
 
-De nieuwe eigenschappen kunnen in [ worden gevonden ontdekken het artikel van de Grondbeginselen van het Dashboard ](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}.
+De nieuwe eigenschappen kunnen in [&#x200B; worden gevonden ontdekken het artikel van de Grondbeginselen van het Dashboard &#x200B;](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}.
 
 ## Feedback {#feedback}
 
 Omdat we voortdurend proberen uw ervaring te verbeteren, stellen we uw feedback over deze laatste update zeer op prijs. Uw gedachten zullen toekomstige verfijningen direct beïnvloeden, die ervoor zorgen ons platform altijd op uw behoeften richt. Houd rekening met een feedbackformulier in Marketo Measure.
 
 >[!MORELIKETHIS]
->[ ontdekt de Grondbeginselen van het Dashboard ](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
->[Zichtbaarheidsbeleid voor dashboardgegevens ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>[&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>[Zichtbaarheidsbeleid voor dashboardgegevens &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

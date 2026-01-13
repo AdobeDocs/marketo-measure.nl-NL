@@ -31,7 +31,7 @@ Het Paspoort-dashboard biedt marketers een dynamische weergave van leads, contac
 * Eindfasen zoals &quot;Closed Won&quot; en &quot;Closed Lost&quot; zijn uitgesloten.
 * Zowel begin- als einddatum zijn inclusief.
 
-![ dashboard van het Paspoort die kansen in stadium door werkgebiednaam toont ](assets/passport-dashboard-1.png)
+![&#x200B; dashboard van het Paspoort die kansen in stadium door werkgebiednaam toont &#x200B;](assets/passport-dashboard-1.png)
 
 ### Leads of contactpersonen in werkgebied op werkgebiednaam {#leads-or-contacts-in-stage-by-stage-name}
 
@@ -41,7 +41,7 @@ Het Paspoort-dashboard biedt marketers een dynamische weergave van leads, contac
 * Eindfasen zoals &quot;Closed Won&quot; en &quot;Closed Lost&quot; zijn uitgesloten.
 * Zowel begin- als einddatum zijn inclusief.
 
-![ dashboard van het Paspoort die lood of contacten in stadium door werkgebiednaam toont ](assets/passport-dashboard-2.png)
+![&#x200B; dashboard van het Paspoort die lood of contacten in stadium door werkgebiednaam toont &#x200B;](assets/passport-dashboard-2.png)
 
 ## Filtervenster {#filter-pane}
 
@@ -53,5 +53,5 @@ Dit dashboard is uitgerust met de volgende instellingen en filters:
 * Segmenten
 
 >[!MORELIKETHIS]
-> [ ontdekt de Grondbeginselen van het Dashboard ](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Zichtbaarheidsbeleid voor dashboardgegevens ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+> [&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+> [Zichtbaarheidsbeleid voor dashboardgegevens &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

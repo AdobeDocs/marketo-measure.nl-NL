@@ -22,7 +22,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]** .
 
-   ![ het menunavigatie van de Opstelling van Salesforce aan de Nieuwe Types van Rapport van de Douane ](assets/1.png)
+   ![&#x200B; het menunavigatie van de Opstelling van Salesforce aan de Nieuwe Types van Rapport van de Douane &#x200B;](assets/1.png)
 
 1. Bepaal het Type van Rapport van de Douane.
 
@@ -31,7 +31,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * [!UICONTROL Store in Category]: Overige rapporten
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Geïmporteerd
 
-   ![ de vorm van de het rapporttype van de Douane met Lood als primair voorwerp ](assets/2.png)
+   ![&#x200B; de vorm van de het rapporttype van de Douane met Lood als primair voorwerp &#x200B;](assets/2.png)
 
 1. Definieer de objectrelaties.
 
@@ -39,13 +39,13 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * Zorg ervoor dat &quot;[!UICONTROL Each A/B record must have at least one B/C]&quot;-record is geselecteerd
    * [!UICONTROL Save]
 
-   ![ het relatiediagram van Objecten die Lood aan Persoon tonen aan de verbindingen van Touchpoint ](assets/3.png)
+   ![&#x200B; het relatiediagram van Objecten die Lood aan Persoon tonen aan de verbindingen van Touchpoint &#x200B;](assets/3.png)
 
 ## [!DNL Marketo Measure] Persoon met aanraakpunten koper (aangepast) {#marketo-measure-person-with-buyer-touchpoints-custom}
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]** .
 
-   ![ het menunavigatie van de Opstelling van Salesforce aan de Nieuwe Types van Rapport van de Douane ](assets/4.png)
+   ![&#x200B; het menunavigatie van de Opstelling van Salesforce aan de Nieuwe Types van Rapport van de Douane &#x200B;](assets/4.png)
 
 1. Bepaal het Type van Rapport van de Douane.
 
@@ -54,7 +54,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * [!UICONTROL Store in Category]: Overige rapporten
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Geïmporteerd
 
-   ![ de vorm van de het rapporttype van de Douane met de Persoon van Marketo Measure als primair voorwerp ](assets/5.png)
+   ![&#x200B; de vorm van de het rapporttype van de Douane met de Persoon van Marketo Measure als primair voorwerp &#x200B;](assets/5.png)
 
 1. Definieer de objectrelaties.
 
@@ -62,13 +62,13 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * Zorg ervoor dat &quot;[!UICONTROL Each A record must have at least one B]&quot;-record is geselecteerd
    * [!UICONTROL Save]
 
-   ![ het relatiediagram van Objecten die Persoon aan Verbinding van het Aanraakpunt tonen ](assets/6.png)
+   ![&#x200B; het relatiediagram van Objecten die Persoon aan Verbinding van het Aanraakpunt tonen &#x200B;](assets/6.png)
 
 ## Kansen met Buyer Attribution Touchpoint (aangepast) {#opportunities-with-buyer-attribution-touchpoint-custom}
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]** .
 
-   ![ het menunavigatie van de Opstelling van Salesforce aan de Nieuwe Types van Rapport van de Douane ](assets/7.png)
+   ![&#x200B; het menunavigatie van de Opstelling van Salesforce aan de Nieuwe Types van Rapport van de Douane &#x200B;](assets/7.png)
 
 1. Bepaal het Type van Rapport van de Douane.
 
@@ -77,7 +77,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * [!UICONTROL Store in Category]: Overige rapporten
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Geïmporteerd
 
-   ![ de vorm van de het rapporttype van de Douane met Kansen als primair voorwerp ](assets/8.png)
+   ![&#x200B; de vorm van de het rapporttype van de Douane met Kansen als primair voorwerp &#x200B;](assets/8.png)
 
 1. Definieer de objectrelaties.
 
@@ -85,14 +85,14 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * Zorg ervoor dat &quot;[!UICONTROL Each A record must have at least one B]&quot;-record is geselecteerd
    * [!UICONTROL Save]
 
-   ![ het relatiediagram dat van Objecten Kanaal aan de verbinding van het Aanraakpunt van de Attributie toont ](assets/9.png)
+   ![&#x200B; het relatiediagram dat van Objecten Kanaal aan de verbinding van het Aanraakpunt van de Attributie toont &#x200B;](assets/9.png)
 
 ## Aangepaste velden toevoegen aan aangepaste rapporttypen {#adding-custom-fields-to-custom-report-types}
 
 1. Zodra de rapporten worden gecreeerd, zult u aan een overzicht van het rapporttype worden opnieuw gericht. Klik op **[!UICONTROL Edit Layout]**.
 
-   ![ het type van Rapport het overzichtsscherm met de Edit knoop van de Lay-out ](assets/10.png)
+   ![&#x200B; het type van Rapport het overzichtsscherm met de Edit knoop van de Lay-out &#x200B;](assets/10.png)
 
 1. Zorg ervoor dat de aangepaste velden die u aan het rapport wilt toevoegen, worden weergegeven in de sectie Eigenschappen van veldindeling. Als er andere gebieden zijn u zou willen toevoegen, gebruik &quot;[!UICONTROL Add fields related via lookup]&quot;optie.
 
-   ![ de sectie van de Eigenschappen van de Lay-out van het Gebied met beschikbare douanegebieden ](assets/11.png)
+   ![&#x200B; de sectie van de Eigenschappen van de Lay-out van het Gebied met beschikbare douanegebieden &#x200B;](assets/11.png)

@@ -51,5 +51,5 @@ Andere redenen die kunnen leiden tot een herziening van de activiteitenregels zi
 * Wijzigingen of updates van de tools voor verkoopactivering
 
 >[!MORELIKETHIS]
-> [ Attributie van Activiteiten ](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [Veelgestelde vragen over kenmerken van verkoopactiviteiten ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+> [&#x200B; Attributie van Activiteiten &#x200B;](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
+> [Veelgestelde vragen over kenmerken van verkoopactiviteiten &#x200B;](/help/advanced-features/activities-attribution/activities-attribution-faq.md)

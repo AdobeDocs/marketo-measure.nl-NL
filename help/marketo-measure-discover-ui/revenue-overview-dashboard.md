@@ -41,7 +41,7 @@ Deze side-by-side grafiek van de tijdreeksgrafiek contrasteert Total Revenue met
 * Welk percentage van onze inkomsten uit augustus 2022 kan worden toegeschreven aan onze marketinginitiatieven?
 * Hoe stapelen de toegerekende ontvangsten in het derde kwartaal van vorig jaar zich op ten opzichte van het vierde kwartaal?
 
-![ Overzicht van de Ontvangsten grafiek die totaal en toegeschreven opbrengst in tijd vergelijkt ](assets/revenue-overview-dashboard-1.png)
+![&#x200B; Overzicht van de Ontvangsten grafiek die totaal en toegeschreven opbrengst in tijd vergelijkt &#x200B;](assets/revenue-overview-dashboard-1.png)
 
 ### Attribuutdekking {#attribution-coverage-chart}
 
@@ -51,7 +51,7 @@ Dit cirkeldiagram visualiseert duidelijk uw attributiedekking door totale opbren
 
 * Wat was het percentage van de inkomstendekking dat vorig jaar aan onze marketinginspanningen werd toegeschreven?
 
-![ de cirkeldiagramsplitsing van de het dekking van de Attributie toegeschreven versus niet toegeschreven opbrengst ](assets/revenue-overview-dashboard-2.png)
+![&#x200B; de cirkeldiagramsplitsing van de het dekking van de Attributie toegeschreven versus niet toegeschreven opbrengst &#x200B;](assets/revenue-overview-dashboard-2.png)
 
 ## Filtervenster {#filter-pane}
 
@@ -60,5 +60,5 @@ Dit dashboard is uitgerust met de volgende instellingen en filters:
 * Datum (gebaseerd op einddatum)
 
 >[!MORELIKETHIS]
-> [ ontdekt de Grondbeginselen van het Dashboard ](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Zichtbaarheidsbeleid voor dashboardgegevens ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+> [&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+> [Zichtbaarheidsbeleid voor dashboardgegevens &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

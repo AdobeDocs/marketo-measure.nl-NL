@@ -55,7 +55,7 @@ Marketo Measure accepteert de volgende waarden: E-mailadres, Salesforce Lead-id 
    <td><p>Pardot</p></td>
    <td><p>%%email% </p><p>of</p><p>%%user_crm_id%%</p></td>
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%</p></td>
-   <td><p>https://help.salesforce.com/s/articleView?language=en_US&amp;id=pardot_variable_tags_reference.htm&amp;type=5</p></td>
+   <td><p>https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5</p></td>
   </tr>
   <tr>
    <td><p>Hubspot</p></td>
@@ -74,4 +74,4 @@ Marketo Measure accepteert de volgende waarden: E-mailadres, Salesforce Lead-id 
 
 Tot slot moet u binnen [!DNL Marketo Measure] de parameter tracking opgeven, zodat [!DNL Marketo Measure] de waarde van de e-mail of id kan vinden. Het gebrek is &quot;mailId&quot;zoals aangetoond in de bovenstaande voorbeelden en het hieronder opgenomen scherm. Voer de waarde in uw instellingen in [!DNL Marketo Measure] in en klik op **[!UICONTROL Save]** .
 
-![ de optie van het E-mail Volgen ](assets/one.png)
+![&#x200B; de optie van het E-mail Volgen &#x200B;](assets/one.png)

@@ -21,6 +21,6 @@ We zien in veel gevallen dat het IFrame wordt beheerd via een marketingprovider,
 
 Het wordt aanbevolen de JavaScript in het hoofd van het IFrame te plaatsen en vanaf dat punt zullen we automatisch aan de formulieren binnen dat frame koppelen.
 
-![ code van HTML ](assets/1-1.png)
+![&#x200B; code van HTML &#x200B;](assets/1-1.png)
 
-Als u om het even welke vragen rond het toevoegen van onze JavaScript aan IFrame vormen hebt, reek uit aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [ de Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Als u om het even welke vragen rond het toevoegen van onze JavaScript aan IFrame vormen hebt, reek uit aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

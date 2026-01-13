@@ -27,7 +27,7 @@ In het verleden, wanneer klanten aan boord met [!DNL Marketo Measure] zijn en in
 
 Navigeer in het menu Instellingen van [!DNL Marketo Measure] naar de pagina Aanraakpuntvelden. Van daar, kunt u de eigenschap toelaten door **ja** te selecteren onder **laat Berekende Gebieden** toe. Nadat de functie is ingeschakeld, kunt u aanraakpuntvelden maken.
 
-![ de montagespagina van de Gebieden van het Aanraakpunt met toelaat de Berekende optie van Gebieden ](assets/one.png)
+![&#x200B; de montagespagina van de Gebieden van het Aanraakpunt met toelaat de Berekende optie van Gebieden &#x200B;](assets/one.png)
 
 ## Procedure {#how-to}
 
@@ -52,7 +52,7 @@ Doel: gebruik de waarde van een aangepast veld en plaats dit in het Touchpoint-o
    * **)** merkt het eind van de extractie
    * **.&#42;** vertelt ons dat we de volledige tekenreeks extraheren
 
-![ Berekende configuratie van het Gebied voor het gebiedsextractie van Source van de Campagne ](assets/two.png)
+![&#x200B; Berekende configuratie van het Gebied voor het gebiedsextractie van Source van de Campagne &#x200B;](assets/two.png)
 
 **Voorbeeld #2**
 
@@ -72,7 +72,7 @@ Een veel voorkomend geval waarin deze functie wordt ingeschakeld, is het uittrek
    * **+** extraheert de volledige waarde van de parameter zonder limiet voor tekens
    * Let op: u gebruikt een slash in plaats van een slash
 
-![ het gebiedsconfiguratie die van de Code van de Korting promo parameter uit URL haalt ](assets/three.png)
+![&#x200B; het gebiedsconfiguratie die van de Code van de Korting promo parameter uit URL haalt &#x200B;](assets/three.png)
 
 **Voorbeeld #3**
 
@@ -90,7 +90,7 @@ Laten we een vergelijkbaar voorbeeld proberen waarbij we een trackingcode extrah
    * **\ d** vertelt ons dat wij een &quot;cijfer&quot;halen
    * **{6}** is het aantal karakters wij extraheren
 
-![ het gebied van identiteitskaart van Adobe Campaign die 6-cijferig cid parameter haalt ](assets/four.png)
+![&#x200B; het gebied van identiteitskaart van Adobe Campaign die 6-cijferig cid parameter haalt &#x200B;](assets/four.png)
 
 **Voorbeeld #4**
 
@@ -119,7 +119,7 @@ Aangezien uw landingspagina&#39;s ingewikkelder worden en u veelvoudige het volg
    * **\ d** vertelt ons dat wij een &quot;cijfer&quot;halen
    * **{6}** is het aantal karakters wij extraheren
 
-![ Veelvoudige berekende gebieden die land en campagneID parameters ](assets/five.png) halen
+![&#x200B; Veelvoudige berekende gebieden die land en campagneID parameters &#x200B;](assets/five.png) halen
 
 ### Kaarten aan {#maps-to}
 
@@ -129,7 +129,7 @@ De operator [!UICONTROL maps to] maakt een tabel met waarden die moeten worden o
 
 Er zijn campagnes die je hebt gemaakt voor een &#39;Aanbieding voor einde zomer&#39; en &#39;Aanbieding voor Zwarte Vrijdag&#39; die via meerdere kanalen lopen. U wilt een Berekend Gebied tot stand brengen genoemd &quot;Initiatief&quot;en u wilt om het even welke aanraakpunten met een &quot;Bevordering van het Eind van de zomer&quot;of &quot;Zwarte Vrijdag&quot;aan een waarde van het Initiatief zoals &quot;Bevorderingen,&quot;naast andere mogelijke waarden in kaart brengen.
 
-![ het gebied van het Initiatief in kaart brengende campagnes aan promotiecategorieën ](assets/six.png)
+![&#x200B; het gebied van het Initiatief in kaart brengende campagnes aan promotiecategorieën &#x200B;](assets/six.png)
 
 **Voorbeeld #2**
 
@@ -165,7 +165,7 @@ Nu we hebben geleerd hoe we die acties kunnen extraheren en toewijzen aan velden
    * Als u 03 wilt extraheren, definieert u de waarde als &quot;BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}&quot;
    * Als u de 10-waarde wilt extraheren, definieert u deze als &quot;BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**&quot;
 
-![ de toewijzingstabel van de Naam van het Gebied met numerieke codes aan gebiedsnamen ](assets/seven.png)
+![&#x200B; de toewijzingstabel van de Naam van het Gebied met numerieke codes aan gebiedsnamen &#x200B;](assets/seven.png)
 
 ### Concatenaten {#concatenates}
 
@@ -175,7 +175,7 @@ De operator [!UICONTROL concatenates] combineert waarden van meerdere velden tot
 
 Er zijn afzonderlijke velden in het object Opportunity voor Segment__c en Grade__c die de gebruiker voor rapportagedoeleinden in één veld op het Touchpoint-object wil combineren. Door de velden samen te voegen, ziet u waarden zoals Enterprise_A of Mid-Market_B.
 
-![ samenvoegen configuratie die de gebieden van het Segment en van de Grade combineert ](assets/eight.png)
+![&#x200B; samenvoegen configuratie die de gebieden van het Segment en van de Grade combineert &#x200B;](assets/eight.png)
 
 ## Aanraakpuntvelden en -segmenten {#touchpoint-fields-and-segments}
 
@@ -183,17 +183,17 @@ Nu de waarden van uw URL zijn geparseerd en aanwezig zijn op het aanraakpunt, zi
 
 De mogelijkheid om segmenten te maken met aanraakpuntvelden is beschikbaar in deze productrelease. Segmenten konden niet eerder met aanraakpuntvelden worden gemaakt.
 
-![ de aanmaakinterface die van het Segment beschikbare touchpoint gebieden toont ](assets/nine.png)
+![&#x200B; de aanmaakinterface die van het Segment beschikbare touchpoint gebieden toont &#x200B;](assets/nine.png)
 
 Om de bouw van Segmenten gemakkelijker te maken, is het nu mogelijk om dynamische Segmenten van de Gebieden te creëren Touchpoint die werden gecreeerd. Als u bijvoorbeeld een aanraakpuntveld hebt gemaakt dat een geografisch gebied heeft geparseerd in plaats van een segment te maken voor elk mogelijk gebied, kunt u één segment instellen en maken we voor elke instantie een nieuwe waarde. Dit is bijzonder nuttig als een attribuut zoals postcode moest worden ontleed en als segment worden gebruikt!
 
 Uw setup zou er ongeveer als de onderstaande schermafbeelding uitzien. De segmentnaam vult dynamisch de waarde van het aanraakpuntveld met de accolades naar het veld.
 
-![ Dynamische segmentconfiguratie met de krullende verwijzing van het steungebied ](assets/ten.png)
+![&#x200B; Dynamische segmentconfiguratie met de krullende verwijzing van het steungebied &#x200B;](assets/ten.png)
 
 De regel verwijst naar hetzelfde aanraakpuntveld en zoekt naar waarden die niet gelijk zijn aan null.
 
-![ regel van het Segment met niet gelijk aan ongeldige voorwaarde ](assets/eleven.png)
+![&#x200B; regel van het Segment met niet gelijk aan ongeldige voorwaarde &#x200B;](assets/eleven.png)
 
 ## Veelgestelde vragen {#faq}
 
@@ -220,6 +220,6 @@ Er is extra werk nodig om de nieuwe gebieden in het schema van Data Warehouse va
 
 Er is een online hulpmiddel ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) dat u kunt lopen en uittesten de uitdrukking. De expressie wordt groen weergegeven als deze geldig is of rood als deze ongeldig is. Het vak [!UICONTROL explanation] rechtsboven is bovendien handig en vertelt u wat u wilt extraheren.
 
-![ Regex bevestigingshulpmiddel dat geldige uitdrukking in groen toont ](assets/twelve.png)
+![&#x200B; Regex bevestigingshulpmiddel dat geldige uitdrukking in groen toont &#x200B;](assets/twelve.png)
 
-![ Regex bevestigingshulpmiddel dat ongeldige uitdrukking in rood toont ](assets/thirteen.png)
+![&#x200B; Regex bevestigingshulpmiddel dat ongeldige uitdrukking in rood toont &#x200B;](assets/thirteen.png)

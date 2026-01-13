@@ -29,7 +29,7 @@ Deze modellen variëren in complexiteit. First Touch en Lead Creation zijn eenvo
 * Opportunity maken (OC)
 * Gesloten deal (CW)
 
-![ de reischronologie van de Klant die vier mijlpalen aanraakpunten toont: Eerste Aanraking, Lood Aanmaak, Aanmaak van de Kanaal, en Gesloten-Won ](assets/1-1.png)
+![&#x200B; de reischronologie van de Klant die vier mijlpalen aanraakpunten toont: Eerste Aanraking, Lood Aanmaak, Aanmaak van de Kanaal, en Gesloten-Won &#x200B;](assets/1-1.png)
 
 In **enig-aanraak modellen**, wordt de attributietekening slechts toegeschreven aan één mijlpaal touchpoint - vandaar de naam &quot;enig-aanraking&quot;.
 In de **multi-aanrakingsmodellen**, wordt het grootste deel van de attributietekening toegewezen aan twee of meer mijlpaal touchpoints. Het resterende krediet wordt toegeschreven aan aanraakpunten die zich tussen de mijlpalen bevinden.
@@ -44,7 +44,7 @@ Het First Touch-model is alleen gericht op de eerste interactie die een lead met
 
 Zeg Kate `www.adobe.com` voor het eerst via een Adwords Ad bezoekt en bekijkt een whitepaper. Het kanaal Adwords zou 100% van de attributietekening van die Kans ontvangen.
 
-![ Eerste het modeldiagram van de Aanraak die 100% attributietekening aan het kanaal van Adwords toont ](assets/2.png)
+![&#x200B; Eerste het modeldiagram van de Aanraak die 100% attributietekening aan het kanaal van Adwords toont &#x200B;](assets/2.png)
 
 **het Model van de Aanmaak van de Lood**
 
@@ -52,7 +52,7 @@ Het model van het Aanmaken van de Lood kenmerkt 100% van het attribuut krediet a
 
 Als vervolg op het vorige voorbeeld, na het eerste bezoek van Kate aan `www.adobe.com` via Adwords, bezoekt Austin de website via een Linkedin-post. Austin vult een formulier in en wordt een lead. In dit model zou Linkedin 100% van het toewijzingskrediet ontvangen.
 
-![ het modeldiagram van de Aanmaak van de Lood die 100% attributietekening aan LinkedIn kanaal ](assets/3.png) tonen
+![&#x200B; het modeldiagram van de Aanmaak van de Lood die 100% attributietekening aan LinkedIn kanaal &#x200B;](assets/3.png) tonen
 
 ## Multitouch-modellen {#multi-touch-models}
 
@@ -64,7 +64,7 @@ Het U-Vormd model concentreert zich op zowel de aanraak van FT als van LC. In di
 
 Kate&#39;s eerste bezoek aan `www.adobe.com` via een Adwords-advertentie zou 50% van het attributiekrediet ontvangen. De resterende 50% zou worden toegeschreven aan de linkedin post die Austin ertoe heeft gebracht een formulier in te vullen en een leidende rol te spelen.
 
-![ u-Vormd modeldiagram dat 50% krediet aan Adwords en 50% aan LinkedIn ](assets/4.png) toont
+![&#x200B; u-Vormd modeldiagram dat 50% krediet aan Adwords en 50% aan LinkedIn &#x200B;](assets/4.png) toont
 
 **W-Vormd Model**
 
@@ -74,7 +74,7 @@ Kate en Austin noemen Marketo Measure aan hun collega Hillary. Ze vindt een stuk
 
 Hillary ontvangt een e-mail met een koppeling naar de prijspagina en bezoekt de pagina. Vervolgens wordt een Opportunity gemaakt voor hun account. Het webbezoek van Hillary aan de prijspagina ontvangt krediet voor het maken van de opportunity, omdat dit de dichtstbijzijnde marketinginteractie was met de aanmaakdatum van Opportunity. Aan elk van de mijlpaalaanraakpunten wordt 30% van het toewijzingskrediet toegewezen en aan de intermediaire aanraakpunten wordt de resterende 10% toegewezen.
 
-![ W-Vormd modeldiagram dat 30% krediet toont elk aan FT, LC, en OC touchpoints met 10% aan intermediaire touchpoints ](assets/5.png)
+![&#x200B; W-Vormd modeldiagram dat 30% krediet toont elk aan FT, LC, en OC touchpoints met 10% aan intermediaire touchpoints &#x200B;](assets/5.png)
 
 **Volledig Model van de Weg**
 
@@ -82,7 +82,7 @@ Het volledige padmodel bevat alle vier de mijlpaalaanraakpunten. FT, LC, OC en C
 
 Nadat Kate, Austin en Hillary de kans hebben gecreëerd, beslissen ze Marketo Measure aan hun GMO te presenteren, Elizabeth. Elizabeth woont een conferentie bij waar Marketo Measure een evenement organiseert. Kate ziet een Linkedin-artikel over een casestudy en vult een formulier in om de inhoud te downloaden. Elizabeth woont een verkoopdiner bij dat wordt gehost door Marketo Measure. Na het diner besluit ze Marketo Measure te kopen en wordt ze een klant. In dit scenario zou het verkoopdiner 22,5% van het inkomstenkrediet uit de gesloten overeenkomst krijgen. Ook de FT-, LC- en OC-aanraakpunten ontvangen elk 22,5% van het krediet. Ook de overige 10% van het inkomstenkrediet wordt toegewezen aan de intermediaire aanspreekpunten.
 
-![ Volledig het modeldiagram dat van de Weg 2.5% krediet toont elk aan FT, LC, OC, en CW touchpoints met 10% aan intermediaire touchpoints ](assets/6.png)
+![&#x200B; Volledig het modeldiagram dat van de Weg 2.5% krediet toont elk aan FT, LC, OC, en CW touchpoints met 10% aan intermediaire touchpoints &#x200B;](assets/6.png)
 
 **Model van de Attributie van de Douane**
 

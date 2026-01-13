@@ -24,11 +24,11 @@ Nadat de [!DNL Marketo Measure] -account is gemaakt en [!DNL Salesforce] is verb
 
 Als u het [!DNL Marketo Measure] Salesforce-pakket niet hebt geïnstalleerd, schrijft [!DNL Marketo Measure] geen gegevens naar uw Salesforce-instantie.
 
-![ 3 ](assets/1-3.png)
+![&#x200B; 3 &#x200B;](assets/1-3.png)
 
 Standaard exporteert [!DNL Marketo Measure] 200 records per API-credit telkens wanneer een taak gegevens naar uw CRM verzendt. Voor de meeste klanten biedt dit de optimale balans tussen API-credits die door [!DNL Marketo Measure] worden verbruikt en CPU-bronvereisten voor de CRM. Voor klanten met complexe CRM-configuraties, zoals workflows en triggers, kan een kleinere batch-omvang echter nuttig zijn om de CRM-prestaties te verbeteren. Met het oog hierop kunnen klanten in [!DNL Marketo Measure] de grootte van de CRM-exportbatch configureren. Deze instelling is beschikbaar op de pagina [!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL General] in de [!DNL Marketo Measure] -webtoepassing. Klanten kunnen kiezen uit batchgrootten 200 (standaard), 100, 50 of 25.
 
-![ Marketo Measure CRM de grootte van de de uitvoerpartij die in Web app ](assets/how-bizible-and-salesforce-interact-2.png) plaatst
+![&#x200B; Marketo Measure CRM de grootte van de de uitvoerpartij die in Web app &#x200B;](assets/how-bizible-and-salesforce-interact-2.png) plaatst
 
 Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het wordt aangeraden de batch alleen te verkleinen als u een CPU-time-out of een hoge CPU-belasting in uw CRM-systeem hebt.
 
@@ -318,7 +318,7 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
  </tbody>
 </table>
 
-**de Rol van het Contact van 0} Opportunity**
+**de Rol van het Contact van 0&rbrace; Opportunity**
 
 <table>
  <tbody>
@@ -1261,4 +1261,4 @@ De Buyer Attribution Touchpoint is een [!DNL Marketo Measure] aangepast object w
 </table>
 
 >[!MORELIKETHIS]
->[ Overzicht van de Toestemmingen van de Integratie ](/help/api-connections/integration-permissions-overview.md){target="_blank"}
+>[&#x200B; Overzicht van de Toestemmingen van de Integratie &#x200B;](/help/api-connections/integration-permissions-overview.md){target="_blank"}

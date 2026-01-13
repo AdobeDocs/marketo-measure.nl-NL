@@ -117,4 +117,4 @@ Meer informatie over de verschillende [!DNL Marketo Measure] cookies die op uw s
 
 Als een waarschuwing van de Firewall van de Toepassing van het Web (WAF) tijdens de opstelling van JavaScript wordt teweeggebracht, kunnen de gebruikers of die regel van WAF onbruikbaar maken of de koekjes, zoals het volgende voorbeeld lijsten van gewenste personen:
 
-![ de waarschuwing van WAF van het Voorbeeld vragend om de koekjes van Marketo Measure van de lijst van gewenste personen te voeren ](assets/marketo-measure-cookies-1.png)
+![&#x200B; de waarschuwing van WAF van het Voorbeeld vragend om de koekjes van Marketo Measure van de lijst van gewenste personen te voeren &#x200B;](assets/marketo-measure-cookies-1.png)

@@ -44,10 +44,10 @@ Het toewijzingsproces voor aanraakpunten beantwoordt de vraag: &quot;Hoe weet [!
 | Verkoopactiviteit | CRM-activiteitssync | Via de [!UICONTROL Online Channels] -pagina in [!DNL Marketo Measure] , door te verwijzen naar de campagnenaam die is toegewezen op de [!UICONTROL Activities] -pagina |
 
 >[!MORELIKETHIS]
-> [ het In kaart brengen Online Touchpoints aan  [!DNL Marketo Measure]  Kanalen/Subkanalen ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
-> [CRM-campagnes synchroniseren vanuit SFDC ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+> [&#x200B; het In kaart brengen Online Touchpoints aan  [!DNL Marketo Measure]  Kanalen/Subkanalen &#x200B;](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+> [CRM-campagnes synchroniseren vanuit SFDC &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 > [CRM-campagnes synchroniseren vanuit  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
-> [De Campagnes van CRM van het in kaart brengen aan  [!DNL Marketo Measure]  Kanalen/Subkanalen ](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
-> [Aanraakpunten maken van verkoopactiviteiten ](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [Activiteiten Veelgestelde vragen en Toewijzing van aanraakpunten aan kanalen/subkanalen ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+> [De Campagnes van CRM van het in kaart brengen aan  [!DNL Marketo Measure]  Kanalen/Subkanalen &#x200B;](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+> [Aanraakpunten maken van verkoopactiviteiten &#x200B;](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
+> [Activiteiten Veelgestelde vragen en Toewijzing van aanraakpunten aan kanalen/subkanalen &#x200B;](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
 

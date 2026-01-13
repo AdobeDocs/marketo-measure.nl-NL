@@ -189,7 +189,7 @@ ht-degree: 3%
       + [Integratie van Marketo Engage-programma&#39;s](marketo-measure-and-marketo/marketo-engage-programs-integration.md)
 + [!DNL Marketo Measure] Salesforce Reporting {#marketo-measure-salesforce-reporting}
    + Nieuwe rapporttypen {#new-report-types}
-      + [Creërend de Types van Rapport van de Douane  [!DNL Marketo Measure] ](marketo-measure-salesforce-reporting/new-report-types/creating-report-types.md)
+      + [Creërend de Types van Rapport van de Douane  [!DNL Marketo Measure] &#x200B;](marketo-measure-salesforce-reporting/new-report-types/creating-report-types.md)
       + [Rapporttype voor contactpersonen zonder kansen](marketo-measure-salesforce-reporting/new-report-types/report-no-opps.md)
    + [!DNL Marketo Measure] Rapporten {#marketo-measure-reports}
       + [[!DNL Marketo Measure] Rapportagehandleiding](marketo-measure-salesforce-reporting/marketo-measure-reports/marketo-measure-reporting-guide.md)

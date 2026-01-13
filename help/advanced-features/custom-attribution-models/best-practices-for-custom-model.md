@@ -68,6 +68,6 @@ Andere redenen die een herziening van het aangepaste model kunnen veroorzaken, z
 * Aanraakpunten weergeven die zijn gevuld en die niet meer relevant zijn voor uw organisaties funnel
 
 >[!MORELIKETHIS]
-> [ Model en Opstelling van de Attributie van de Douane ](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
-> [Enable Field History Tracking for Custom Model ](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
-> [Machine Learning Model ](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)
+> [&#x200B; Model en Opstelling van de Attributie van de Douane &#x200B;](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+> [Enable Field History Tracking for Custom Model &#x200B;](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+> [Machine Learning Model &#x200B;](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)

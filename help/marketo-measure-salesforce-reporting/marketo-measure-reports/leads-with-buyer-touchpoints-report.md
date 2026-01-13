@@ -20,18 +20,18 @@ Uit de doos hebt u vele rapporteringsmogelijkheden bij uw vingertoppen wanneer h
 
 1. Navigeer binnen [!DNL Salesforce] naar de instellingsoptie. Vouw vervolgens de groep Maken uit en selecteer **[!UICONTROL Report Types]** .
 
-   ![ de pagina van de Types van Rapport van Salesforce die Leads met de opstelling van Aanraakpunten van de Koper toont ](assets/1.jpg)
+   ![&#x200B; de pagina van de Types van Rapport van Salesforce die Leads met de opstelling van Aanraakpunten van de Koper toont &#x200B;](assets/1.jpg)
 
 1. Selecteer **[!UICONTROL New Custom Report Type]**.
 
-   ![ Nieuwe tovenaar van het Type van Rapport van de Douane in Salesforce ](assets/2.jpg)
+   ![&#x200B; Nieuwe tovenaar van het Type van Rapport van de Douane in Salesforce &#x200B;](assets/2.jpg)
 
 1. Stel het primaire object in als &#39;Leads&#39; en binnen de invoer &#39;Label voor rapporttype&#39; als &#39;Leads met aanraakpunten voor kopers - inclusief&#39;. Sla het rapport op in de categorie &quot;Leads&quot; en wijzig de implementatiestatus in **[!UICONTROL Deployed]** . Selecteer vervolgens **[!UICONTROL Next]** .
 
-   ![ het type van Rapport details met Leads als primair voorwerp ](assets/3.jpg)
+   ![&#x200B; het type van Rapport details met Leads als primair voorwerp &#x200B;](assets/3.jpg)
 
 1. Voor de objecten verhoudingen, selecteer het **[!DNL Marketo Measure]voorwerp van Personen** als secundair voorwerp. Selecteer de relatie A tot B als &quot;Elk A-record moet minstens één verwant B-record hebben.&quot; Daarna koppelt u het object &quot;Buyer Touchpoint&quot; en selecteert u dezelfde relatie tussen de objecten B en C.
 
-   ![ de relatieselectie van Objecten met inbegrip van de Personen van Marketo Measure en de Aanraakpunten van de Koper ](assets/4.jpg)
+   ![&#x200B; de relatieselectie van Objecten met inbegrip van de Personen van Marketo Measure en de Aanraakpunten van de Koper &#x200B;](assets/4.jpg)
 
 1. Sla enkele rapporten op en maak deze.

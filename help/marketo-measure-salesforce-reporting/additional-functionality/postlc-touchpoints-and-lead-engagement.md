@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Marketo Measure] Post-Lead Creation (PostLC)-aanraakpunten zijn beschikbaar voor klanten die gebruikmaken van multitouch-attributiemodellen (W-Shape en hoger). Wanneer een lead of contactpersoon terugkeert naar uw website en door blijft gaan met het invullen van formulieren, worden deze formulierverzendingen geregistreerd als PostLC-aanraakpunten. Met deze aanraakpunten kunt u zien welke inhoud de Leads ertoe brengt om lang na de eerste conversie door te gaan met uw site. PostLC-aanraakpunten delen toewijzingskrediet met alle intermediaire aanraakpunten binnen een Opportunity; 10% toewijzingskrediet wordt toegewezen aan intermediaire aanraakpunten en wordt gelijkelijk verdeeld over alle aanraakpunten.
 
-![ het verslag van het lood dat PostLC aanraakpunten in Salesforce toont ](assets/1.png)
+![&#x200B; het verslag van het lood dat PostLC aanraakpunten in Salesforce toont &#x200B;](assets/1.png)
 
 U kunt het aantal PostLC-aanraakpunten aanpassen dat wordt weergegeven in [!DNL SFDC] . Doorgaans raden we u aan maximaal vijf PostLC-aanraakpunten in te drukken. Elk aanraakpunt neemt 1 kB in beslag [!DNL SFDC] .
 
@@ -24,7 +24,7 @@ U kunt het aantal PostLC-aanraakpunten aanpassen dat wordt weergegeven in [!DNL 
 
 PostLC-aanraakpunten zijn dynamisch. Aangezien een lead of contactpersoon PostLC-formulieren blijft verzenden, werkt [!DNL Marketo Measure] de PostLC-aanraakpunten in uw CRM bij om hun meest recente formulierverzendingen weer te geven. Specifiek, als u een grens van 5 aanraakpunten PostLC hebt geplaatst, [!DNL Marketo Measure] duw altijd vijf _meest recente_ aanraakpunten aan uw CRM.  In dit voorbeeld heeft dit account de PostLC-limiet ingesteld op vier aanraakpunten. Deze lead heeft al het maximum aantal PostLC-aanraakpunten bereikt dat deze in uw CRM kan hebben. De laatste PostLC touch was op 6-2-2018. Als deze persoon de volgende dag een ander formulier invult, verwijdert [!DNL Marketo Measure] het eerste PostLC-aanraakpunt van 11-9-2017 om het laatste aanraakpunt toe te voegen van 2-7-2018.
 
-![ PostLC touchpoint lijst die aan vier meest recente voorlegging ](assets/2.png) wordt gelimiteerd
+![&#x200B; PostLC touchpoint lijst die aan vier meest recente voorlegging &#x200B;](assets/2.png) wordt gelimiteerd
 
 >[!NOTE]
 >[!DNL Marketo Measure] werkt alleen PostLC-aanraakpunten op de lead of contactpersoon bij en werkt geen PostLC-aanknopingspunten voor toewijzingen bij op een opportunity. Alle relevante PostLC-aanraakpunten op een contactpersoon worden opgenomen in de opportunity.
@@ -35,20 +35,20 @@ Volg onderstaande instructies om de PostLC-aanraakpuntinstellingen voor uw leads
 
 **Leads**
 
-1. Login aan uw [!DNL Marketo Measure] rekening in [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
+1. Login aan uw [!DNL Marketo Measure] rekening in [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
 
 1. Selecteer **[!UICONTROL Leads]** onder CRM.
 
 1. Voer het aantal PostLC-aanraakpunten in dat u op uw leads wilt drukken en klik op **[!UICONTROL Save]** .
 
-   ![ de montagespagina van de Lood om PostLC te plaatsen touchpoint grens ](assets/3.png)
+   ![&#x200B; de montagespagina van de Lood om PostLC te plaatsen touchpoint grens &#x200B;](assets/3.png)
 
 **Contacten**
 
-1. Login aan uw [!DNL Marketo Measure] rekening in [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
+1. Login aan uw [!DNL Marketo Measure] rekening in [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
 
 1. Selecteer **[!UICONTROL Contacts]** onder CRM.
 
 1. Voer het aantal postLC-aanraakpunten in dat u op uw contactpersonen wilt toepassen en klik op **[!UICONTROL Save]** .
 
-   ![ pagina van de montages van het Contact om PostLC te plaatsen touchpoint grens ](assets/4.png)
+   ![&#x200B; pagina van de montages van het Contact om PostLC te plaatsen touchpoint grens &#x200B;](assets/4.png)

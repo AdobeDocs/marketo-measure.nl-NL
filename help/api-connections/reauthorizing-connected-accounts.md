@@ -19,11 +19,11 @@ Als de verbinding met uw advertentieplatform wordt verbroken, kan [!DNL Marketo 
 
 Als de verbinding met uw CRM-platform wordt verbroken, kan [!DNL Marketo Measure] [!DNL Marketo Measure] -gegevens niet bijwerken of nieuwe aanraakpunten op uw org plaatsen. Nadat de CRM-verbinding opnieuw tot stand is gebracht, stuurt [!DNL Marketo Measure] alle gegevens die tijdens het verbreken van de verbinding zijn overgeslagen.
 
-![ 1 ](assets/1-1.png)
+![&#x200B; 1 &#x200B;](assets/1-1.png)
 
 ## Ongekoppelde accounts opnieuw autoriseren {#re-authorizing-disconnected-accounts}
 
-1. Ga naar [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en login.
+1. Ga naar [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en login.
 1. Selecteer **[!UICONTROL Settings]** onder het tabblad [!UICONTROL My Account] in de linkerbovenhoek.
 1. Zoek de sectie Integraties aan de linkerkant en klik op **[!UICONTROL Connections]** .
 1. Selecteer het symbool Rode sleutel naast het account dat opnieuw moet worden verbonden.

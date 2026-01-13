@@ -19,7 +19,7 @@ Zodra iemand door de [!DNL Marketo Measure] JavaScript wordt bijgehouden en een 
 
 Eerst zie je in het midden van je inzichten het aantal sessies dat de persoon op je website heeft gehad. U kunt door deze zittingen scrollen en navigeren bij wil.
 
-![ de zittingslijst van Inzichten die aantal bijgehouden zittingen tonen ](assets/1.png)
+![&#x200B; de zittingslijst van Inzichten die aantal bijgehouden zittingen tonen &#x200B;](assets/1.png)
 
 U kunt de roll-up van al uw zittingen bekijken als u &quot;allen&quot;in het midden-hogere deel van uw inzichten klikt. Daar begrijpt u de data van de afzonderlijke sessies, welk kanaal of bron deze bestuurde, en een reeks pictogrammen die meer informatie specificeren.
 
@@ -27,15 +27,15 @@ Het eerste wat je ziet, zijn de FT- of LC-pictogrammen. Deze vertegenwoordigen d
 
 De pictogrammen die er als papier uitzien, geven aan dat er een paginaweergave is opgetreden binnen de sessie. Het is waarschijnlijk dat elke sessie dit pictogram bevat.
 
-![ Inzicht rolup mening met touchpoint posities en kanaaldetails ](assets/2.png)
+![&#x200B; Inzicht rolup mening met touchpoint posities en kanaaldetails &#x200B;](assets/2.png)
 
 Het pictogram dat er als een bekeraar uitziet, geeft aan dat er een A/B-testexperiment is uitgevoerd. We integreren nu met Optimizely en VWO. Met deze integratie kunnen we het experiment en de variatie die de gebruiker op zijn specifieke sessie zag, kracht bijzetten.
 
-![ de zittingslijst van Inzichten die A/B het pictogram van de testbekeraar benadrukken ](assets/3.png)
+![&#x200B; de zittingslijst van Inzichten die A/B het pictogram van de testbekeraar benadrukken &#x200B;](assets/3.png)
 
 Als u op een specifieke sessie klikt (u doet dit door op de werkelijke datum van de sessie of in het bovenste middelste deel van de gegroepeerde sessies te klikken), kunt u de sessiedetails bekijken. In elke sessie kunt u alle specifieke pagina&#39;s zien die de gebruiker op datum en tijd heeft besteld.
 
-![ het detailpaneel dat van de Zitting paginameningen binnen een zitting toont ](assets/4.png)
+![&#x200B; het detailpaneel dat van de Zitting paginameningen binnen een zitting toont &#x200B;](assets/4.png)
 
 Aan de rechterkant van elke sessie kunt u meer granulaire marketinggegevens zien die de velden [!DNL Marketo Measure] in uw SFDC verdringen. In dit voorbeeld ziet u Advertentiegroep, Advertentie Inhoud, Campagne, Sleutelwoord, Medium. U kunt ook omlaag schuiven om meer [!DNL Marketo Measure] gegevens te zien die we verschaffen.
 

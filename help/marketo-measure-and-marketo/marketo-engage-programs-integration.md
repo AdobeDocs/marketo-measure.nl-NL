@@ -33,26 +33,26 @@ Alle lagen.
 
 1. Navigeer naar **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Programs]** om regels voor Marketo-programma&#39;s in te stellen. Klik op het pictogram **+** om de eerste regel te maken.
 
-   ![ pagina van de montages van Programma&#39;s in de rekening van Marketo Measure ](assets/one.png)
+   ![&#x200B; pagina van de montages van Programma&#39;s in de rekening van Marketo Measure &#x200B;](assets/one.png)
 
-   ![ creeer nieuwe regeldialoog met toevoegen knoop ](assets/two.png)
+   ![&#x200B; creeer nieuwe regeldialoog met toevoegen knoop &#x200B;](assets/two.png)
 
 1. U kunt desgewenst een naam voor de regel instellen als u deze beter kunt bijhouden. u zult eerst het gebied selecteren om uw regel van de lijst van het Programma en de gebieden van het Lidmaatschap van het Programma te bepalen. Ga door met het bouwen van de regel door de operator en de verwachte waarde te selecteren.
 
-   ![ Bouwer van de Regel met de dropdown van de gebiedsselectie en exploitant opties ](assets/three.png)
+   ![&#x200B; Bouwer van de Regel met de dropdown van de gebiedsselectie en exploitant opties &#x200B;](assets/three.png)
 
 1. Voeg een andere instructie in hetzelfde vak toe om de criteria &quot;en&quot; in de regel in te stellen of klik op het pictogram + buiten het vak om de instructie &quot;of&quot; in te stellen.
 
-   ![ Bouwer van de Regel die veelvoudige voorwaarden met en/of logische opties toont ](assets/four.png)
+   ![&#x200B; Bouwer van de Regel die veelvoudige voorwaarden met en/of logische opties toont &#x200B;](assets/four.png)
 
 1. Kies welke datum- of datum-/tijdveld moet worden gebruikt voor toewijzing aan de datum van het aanraakpunt. Als u de lijst met waarden die beschikbaar zijn in Marketo wilt weergeven, voert u een accolade `{` in en geeft u de beschikbare velden weer.
 
-   ![ het gebiedstoewijzing van de Datum met autocomplete dropdown tonen beschikbare gebieden ](assets/five.png)
+   ![&#x200B; het gebiedstoewijzing van de Datum met autocomplete dropdown tonen beschikbare gebieden &#x200B;](assets/five.png)
 
    >[!NOTE]
    >Als uw regel de Datum van de Activiteit, of de datum wilt vangen dat een Lid van het Programma een bepaalde status bereikte, zult u [!DNL Marketo Engage] de Integratie van Activiteiten willen gebruiken en opstelling een regel voor het &quot;Status van de Verandering in de activiteitstype van de Progressie&quot;.
 
-   ![ Voltooide regelconfiguratie die gebiedstoewijzingen en voorwaarden tonen ](assets/six.png)
+   ![&#x200B; Voltooide regelconfiguratie die gebiedstoewijzingen en voorwaarden tonen &#x200B;](assets/six.png)
 
 De voltooide regel moet er ongeveer als volgt uitzien:
 
@@ -62,21 +62,21 @@ Nadat u sommige regels hebt gecreeerd, kunt u het willen uittesten om te verifi√
 
 1. Als u een test wilt uitvoeren, klikt u op de knop **[!UICONTROL TEST]** zoals hieronder wordt weergegeven.
 
-   ![ knoop van de Test in interface van programmalijnen ](assets/seven.png)
+   ![&#x200B; knoop van de Test in interface van programmalijnen &#x200B;](assets/seven.png)
 
 1. Er wordt een modaal model weergegeven waar u de programma-id vanuit Marketo kunt invoeren.
 
-   ![ de modale dialoog van de Test met de inputgebied van identiteitskaart van het Programma ](assets/eight.png)
+   ![&#x200B; de modale dialoog van de Test met de inputgebied van identiteitskaart van het Programma &#x200B;](assets/eight.png)
 
    Nadat u de id hebt ingevoerd en op de knop [!UICONTROL Test] hebt geklikt, controleert de regelengine elke regel en of het programma aan een van de regels voldoet. In het onderstaande voorbeeld ziet u dat Program 1002, genaamd [!DNL Marketo Measure] Ebook, vijf programmaleden heeft en in aanmerking komt vanwege de regel die wordt weergegeven.
 
    De regels worden uitgevoerd op steekproefgrootte van 5000 leden. Als uw programma meer dan 5000 leden bevat, is het mogelijk dat wij niet de verenigbaarheid van alle leden controleren. Met dit gereedschap kunt u eenvoudig controleren of de regels correct zijn opgebouwd.
 
-   ![ de resultaten van de Test die aangepast programma met lidtelling tonen ](assets/nine.png)
+   ![&#x200B; de resultaten van de Test die aangepast programma met lidtelling tonen &#x200B;](assets/nine.png)
 
    Klik op Lidmaatschap om een lijst weer te geven met Marketo People Ids die in aanmerking komen voor het programma.
 
-   ![ Lijst van in aanmerking komende Marketo Mensen IDs van testresultaten ](assets/ten.png)
+   ![&#x200B; Lijst van in aanmerking komende Marketo Mensen IDs van testresultaten &#x200B;](assets/ten.png)
 
 ## Kanaaltoewijzing {#channel-mapping}
 
@@ -88,7 +88,7 @@ In de lijst met Marketo Program Channels wilt u de waarden toewijzen aan de aang
 
 1. Selecteer eerst het kanaal dat aan de waarde zou moeten in kaart brengen, dan naar keuze Subchannel. Als u klaar bent, klikt u op **[!UICONTROL Save]** onderaan.
 
-   ![ Off-line montages van Kanalen die de toewijzingsopties van het Kanaal van het Programma van Marketo tonen ](assets/eleven.png)
+   ![&#x200B; Off-line montages van Kanalen die de toewijzingsopties van het Kanaal van het Programma van Marketo tonen &#x200B;](assets/eleven.png)
 
 ## Programmakosten {#program-costs}
 

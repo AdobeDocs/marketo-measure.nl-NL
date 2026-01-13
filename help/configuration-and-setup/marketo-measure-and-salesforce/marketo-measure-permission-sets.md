@@ -27,7 +27,7 @@ Machtigingen openen en toewijzen in Salesforce:
 1. Klik op **[!UICONTROL Manage Assignments]** en vervolgens op **[!UICONTROL Add Assignments]** .
 1. Selecteer de gebruikers voor de rechtenset en klik op **[!UICONTROL Assign]** .
 
-   ![ 5 ](assets/1-5.png)
+   ![&#x200B; 5 &#x200B;](assets/1-5.png)
 
 ## [!DNL Marketo Measure] Verklaarde machtigingssets {#marketo-measure-permission-sets-explained}
 
@@ -35,7 +35,7 @@ Machtigingen openen en toewijzen in Salesforce:
  <tbody>
   <tr>
    <td><span><strong>[!DNL Marketo Measure] Beheerder</strong></span></td>
-   <td><span>Hiermee kan een SFDC-beheerder records maken, lezen, schrijven en verwijderen uit [!DNL Marketo Measure] -objecten. Voor de licentie waaronder [!DNL Marketo Measure] gegevens naar SFDC verzendt, moet deze machtiging zijn ingeschakeld. Bovendien wordt aangeraden dat deze licentie geconverteerde leads kan bewerken in de scenario's waarin de lead wordt geconverteerd voordat [!DNL Marketo Measure] gegevens op de record toepast. Dit zorgt voor een juiste rapportage tussen Salesforce en [!DNL Marketo Measure] . <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us"> hier gelezen meer </a>.</span></td>
+   <td><span>Hiermee kan een SFDC-beheerder records maken, lezen, schrijven en verwijderen uit [!DNL Marketo Measure] -objecten. Voor de licentie waaronder [!DNL Marketo Measure] gegevens naar SFDC verzendt, moet deze machtiging zijn ingeschakeld. Bovendien wordt aangeraden dat deze licentie geconverteerde leads kan bewerken in de scenario's waarin de lead wordt geconverteerd voordat [!DNL Marketo Measure] gegevens op de record toepast. Dit zorgt voor een juiste rapportage tussen Salesforce en [!DNL Marketo Measure] . <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&type=5&release=206&language=en_us"> hier gelezen meer </a>.</span></td>
   </tr>
   <tr>
    <td><span><strong>[!DNL Marketo Measure] Gebruiker van marketing</strong></span></td>

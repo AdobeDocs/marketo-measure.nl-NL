@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Alle [!DNL Marketo Measure] klanten die [!DNL Marketo Measure] en [!DNL Salesforce] gebruiken, hebben toegang tot de map &#39;Buyer Touchpoints Reports&#39; in hun SFDC-exemplaar. Deze map bevat een aantal vooraf samengestelde rapporten die u kunnen helpen aan de slag te gaan met het rapporteren van Buyer Touchpoint-gegevens.
 
-![ de omslag van de Rapporten van de Aanraakpunten van de Koper van Salesforce in Marketo Measure 101 ](assets/bizible-101-reports-overview-1.png)
+![&#x200B; de omslag van de Rapporten van de Aanraakpunten van de Koper van Salesforce in Marketo Measure 101 &#x200B;](assets/bizible-101-reports-overview-1.png)
 
 Terwijl veel van deze rapporten reeds specifieke rapporteringsdoelstellingen hebben, zijn er zes &quot;_[!DNL Marketo Measure]101..._&quot;vertegenwoordigd door drie zeer belangrijke rapporttypes die een meerderheid van rapporteringsbehoeften behandelen.
 
@@ -26,7 +26,7 @@ Terwijl veel van deze rapporten reeds specifieke rapporteringsdoelstellingen heb
 * [!DNL Marketo Measure] Personen met aanraakpunten voor kopers
 * Aanraakpunten voor koperkenmerk met mogelijkheden
 
-![ het rapportlijst van het voorbeeld Marketo Measure 101 in Salesforce ](assets/bizible-101-reports-overview-2.png)
+![&#x200B; het rapportlijst van het voorbeeld Marketo Measure 101 in Salesforce &#x200B;](assets/bizible-101-reports-overview-2.png)
 
 Deze rapporten bieden u de basisvelden en -infrastructuur die nodig zijn voor elk [!DNL Marketo Measure] -gerelateerd rapport dat u wilt maken. Wij moedigen alle klanten aan, nieuw en oud, om met deze rapporten te beginnen wanneer het onderzoeken van de kwesties van de marketingtoeschrijving. Hieronder zult u een verklaring van elk van de zes &quot;_[!DNL Marketo Measure]101..._&quot;rapporten vinden.
 
@@ -55,4 +55,4 @@ Het wordt beschouwd als beste praktijken om &quot;_[!DNL Marketo Measure]101..._
 
 De map &quot;Buyer Touchpoint Reports&quot; is ontworpen om u te helpen aan de slag te gaan met uw [!DNL Marketo Measure] -rapportering. Voor uitvoerbare rapporten moet u deze rapporten aanpassen zodat ze zijn afgestemd op uw rapportagebehoeften. u zult noodzakelijke filters moeten toevoegen om ervoor te zorgen de verslagen binnen het rapport (en hun verwante aanraakpunten) worden gericht aan uw rapporteringsdoel.
 
-Wanneer u met &quot;_[!DNL Marketo Measure]101.._&quot;rapporten vertrouwd bent, kunt u hen van de types van douanerapport voor meer douanerapporteringsbehoeften willen ontspannen. Creërend de [[!DNL Marketo Measure]  Types van Rapport van de Douane ](/help/marketo-measure-salesforce-reporting/new-report-types/creating-report-types.md) zal u toestaan om in douanegebieden te trekken die u algemeen in andere rapporten van CRM zou kunnen gebruiken. Hiermee kunt u [!DNL Marketo Measure] -rapporten op een hoger niveau plaatsen.
+Wanneer u met &quot;_[!DNL Marketo Measure]101.._&quot;rapporten vertrouwd bent, kunt u hen van de types van douanerapport voor meer douanerapporteringsbehoeften willen ontspannen. Creërend de [[!DNL Marketo Measure]  Types van Rapport van de Douane &#x200B;](/help/marketo-measure-salesforce-reporting/new-report-types/creating-report-types.md) zal u toestaan om in douanegebieden te trekken die u algemeen in andere rapporten van CRM zou kunnen gebruiken. Hiermee kunt u [!DNL Marketo Measure] -rapporten op een hoger niveau plaatsen.

@@ -19,7 +19,7 @@ Onze integratie met [!DNL CallTrackingMetrics] is bedoeld om een Webzitting met 
 
 &#39;Call Tracking&#39; in de algemene zin is een product van bedrijven zoals [!DNL CallTrackingMetrics] , [!DNL DiaglogTech] , [!DNL Invoca] of [!DNL CallRail] , om er een paar te noemen. De unieke telefoonaantallen worden getoond aan gebruikers die op de verschillende marketing kanalen of de campagnes worden gebaseerd die zij uit komen. Op deze manier kunnen marketeers zien hoe die kanalen of campagnes presteren.
 
-![ Diagram die unieke telefoonaantallen tonen die op verschillende marketing kanalen en campagnes worden gebaseerd ](assets/1.png)
+![&#x200B; Diagram die unieke telefoonaantallen tonen die op verschillende marketing kanalen en campagnes worden gebaseerd &#x200B;](assets/1.png)
 
 ## Voor en Na {#before-and-after}
 
@@ -27,7 +27,7 @@ Bekijk het stroomschema hieronder om te zien hoe [!DNL Marketo Measure] gebruikt
 
 Met de integratie, kunt u zien dat de Webzitting eigenlijk aan een telefoongesprek werd gebonden. De volgende invulling van het formulier wordt dan een PostLC-aanraking en wordt nog steeds bijgehouden tijdens de reis.
 
-![ vóór en na stroomschema het vergelijken van telefoonvraag het volgen zonder en met integratie CallTrackingMetrics ](assets/2.png)
+![&#x200B; vóór en na stroomschema het vergelijken van telefoonvraag het volgen zonder en met integratie CallTrackingMetrics &#x200B;](assets/2.png)
 
 ## Hoe het werkt {#how-it-works}
 
@@ -39,7 +39,7 @@ Wanneer een bezoeker naar uw plaats komt en een telefoongesprek voert, is het de
 
 Hieronder ziet u een voorbeeld van een taakrecord met de map [!DNL BizibleId] .
 
-![ het verslagvoorbeeld dat van het het taakverslag van Salesforce het gebied BizibleId toont met waarde ](assets/3.png) wordt bevolkt
+![&#x200B; het verslagvoorbeeld dat van het het taakverslag van Salesforce het gebied BizibleId toont met waarde &#x200B;](assets/3.png) wordt bevolkt
 
 Wanneer [!DNL Marketo Measure] een taakrecord zoekt waarvan de bekende [!DNL BizibleId] waarde is ingevuld, kan [!DNL Marketo Measure] die gebruiker toewijzen aan een websessie met dezelfde [!DNL BizibleId] en die sessie toewijzen aan een telefoongesprek in plaats van een webbezoek.
 
@@ -49,13 +49,13 @@ Wanneer [!DNL Marketo Measure] de taak kan importeren/downloaden, verwerken we d
 
 Het [!UICONTROL Touchpoint] Type &quot;Vraag&quot;wordt getrokken uit de Taak, van het hierboven geschetste scherm, dat ook door CallTrackingMetrics wordt bevolkt wanneer de Taak wordt gecreeerd.
 
-![ het verslag dat van het Aanraakpunt Type als Vraag van samengevoegde Webzitting en telefoongespreksgegevens toont ](assets/4.png)
+![&#x200B; het verslag dat van het Aanraakpunt Type als Vraag van samengevoegde Webzitting en telefoongespreksgegevens toont &#x200B;](assets/4.png)
 
 ## Rapportage {#reporting}
 
 De waarden van het Type van aanraakpunt die [!DNL Marketo Measure] typisch duikt zijn het Bezoek van het Web, de Vorm van het Web, of het Praatje van het Web, maar in het geval van CallTrackingMetrics touchpoints, is het aanraakpunttype de Vraag van de Telefoon. Dit helpt marketers zien welke kanalen in de meeste telefoongesprekken trekken en opbrengst voor hun organisatie produceren.
 
-![ Rapport dat touchpoint types met inbegrip van Vraag van de Telefoon toont voor het volgen van vraag-geproduceerde opbrengst door kanaal ](assets/5.png)
+![&#x200B; Rapport dat touchpoint types met inbegrip van Vraag van de Telefoon toont voor het volgen van vraag-geproduceerde opbrengst door kanaal &#x200B;](assets/5.png)
 
 ## Veelgestelde vragen {#faq}
 
@@ -73,7 +73,7 @@ Controleer eerst de taak of er een [!DNL BizibleId] is ingevuld. Als er geen waa
 
 Als er een waarde is, merken wij op dat wij slechts alle Webzittingen als 30 minuten beschouwen. Als een Ad van Google bij 12 :17pm (begin van de zitting op de website) werd geklikt, maar het telefoongesprek kwam niet voor tot 1 :05pm, zullen wij niet de Webzitting en telefoongesprek samenvoegen. In plaats daarvan maakt [!DNL Marketo Measure] een apart [!DNL Salesforce Task] -aanraakpunt om het telefoongesprek bij te houden, maar heeft het geen websessiegegevens.
 
-![ Diagram die het venster van de 30 minieme Webzitting time-out tussen en telefoonvraag tonen ](assets/6.png)
+![&#x200B; Diagram die het venster van de 30 minieme Webzitting time-out tussen en telefoonvraag tonen &#x200B;](assets/6.png)
 
 ## Partnerschappen {#partnerships}
 

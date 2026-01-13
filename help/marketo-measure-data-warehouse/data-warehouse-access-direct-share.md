@@ -23,17 +23,17 @@ Als u [!DNL Marketo Measure] wilt toestaan een rechtstreekse koppeling naar het 
 
 ## Beperkingen {#limitations}
 
-[!DNL Marketo Measure] kan alleen Snowflake Direct-aandelen instellen met accounts in Azure East US 2 (dit is een beperking in Marketo Measure, niet in Snowflake). Als u uw gegevens om in andere gebieden van Snowflake moet worden ter beschikking gesteld, adviseren wij het maken van een exemplaar van de gegevens in een rekening van Snowflake die in Azure East US 2 wordt gevestigd en het gebruiken van de [ eigenschap van de Replicatie van het Gegevensbestand 0} Snowflake om uw gegevens in het gebied van Snowflake/de rekening van uw keus te kopiëren.](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"}
+[!DNL Marketo Measure] kan alleen Snowflake Direct-aandelen instellen met accounts in Azure East US 2 (dit is een beperking in Marketo Measure, niet in Snowflake). Als u uw gegevens om in andere gebieden van Snowflake moet worden ter beschikking gesteld, adviseren wij het maken van een exemplaar van de gegevens in een rekening van Snowflake die in Azure East US 2 wordt gevestigd en het gebruiken van de [&#x200B; eigenschap van de Replicatie van het Gegevensbestand 0&rbrace; Snowflake om uw gegevens in het gebied van Snowflake/de rekening van uw keus te kopiëren.](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"}
 
 ## Snowflake-account-id invoeren {#enter-snowflake-account-id}
 
-Open de **sectie van Montages** in Marketo Measure app en navigeer aan de **Data Warehouse** pagina. In de **Directe sectie van het Aandeel**, ga uw [ Snowflake rekeningsidentiteitskaart ](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in de verstrekte doos in en klik **verbinden**.
+Open de **sectie van Montages** in Marketo Measure app en navigeer aan de **Data Warehouse** pagina. In de **Directe sectie van het Aandeel**, ga uw [&#x200B; Snowflake rekeningsidentiteitskaart &#x200B;](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in de verstrekte doos in en klik **verbinden**.
 
-![ de montages van Marketo Measure Data Warehouse die de vorm van het Aandeel van Snowflake Direct tonen ](assets/data-warehouse-access-direct-share-1.png)
+![&#x200B; de montages van Marketo Measure Data Warehouse die de vorm van het Aandeel van Snowflake Direct tonen &#x200B;](assets/data-warehouse-access-direct-share-1.png)
 
 ## Toegang tot het delen {#accessing-the-share}
 
-Nadat het aandeel voor verstrekte rekeningidentiteitskaart wordt gecreeerd, moet u de [ opstellingsstappen ](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} binnen uw instantie van Snowflake voltooien om tot de gegevens toegang te hebben.
+Nadat het aandeel voor verstrekte rekeningidentiteitskaart wordt gecreeerd, moet u de [&#x200B; opstellingsstappen &#x200B;](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} binnen uw instantie van Snowflake voltooien om tot de gegevens toegang te hebben.
 
 >[!NOTE]
 >U kunt elke gewenste databasenaam kiezen. U kunt de rechten toewijzen aan elke rol die u kiest, zolang deze bestaat in uw Snowflake-instantie.

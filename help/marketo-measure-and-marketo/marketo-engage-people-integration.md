@@ -20,7 +20,7 @@ Dankzij de integratie van Marketo-personen kan [!DNL Marketo Measure] beginnen m
 * Production Marketo-instantie
 * Production [!DNL Salesforce] of [!DNL Microsoft Dynamics] -instantie
 * Alle betaalde [!DNL Marketo Measure] -abonnementen
-* SOLR toegelaten (reik uit aan [ de Steun van Marketo ](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"} om dit te hebben toegelaten)
+* SOLR toegelaten (reik uit aan [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"} om dit te hebben toegelaten)
 
 ## Hoe het werkt {#how-it-works}
 
@@ -32,9 +32,9 @@ Wanneer [!DNL Marketo Measure] de Marketo-persoon met succes toewijst aan een we
 
 Om deze duplicaten te kunnen detecteren, moet u ervoor zorgen dat uw [!DNL Marketo-Salesforce] - of [!DNL Marketo-Dynamics] -sync de ID van de lead en contactpersoon vult op de Marketo-persoon. Als identiteitskaart behoorlijk synchroniseert, zou u CRM Id op het Persoon verslag moeten kunnen zien, als dit:
 
-![ a ](assets/5a.png)
+![&#x200B; a &#x200B;](assets/5a.png)
 
-![ b ](assets/5b.png)
+![&#x200B; b &#x200B;](assets/5b.png)
 
 Klanten kunnen de volledige set Marketo-personen en CRM-personen rapporteren in [!DNL Marketo Measure] Discover. Als u in het melden van de mensen van CRM slechts geinteresseerd bent, adviseren wij het creëren van een Segment om hen te filtreren.
 
@@ -42,9 +42,9 @@ Klanten kunnen de volledige set Marketo-personen en CRM-personen rapporteren in 
 
 Bij rapportage over leads (personen) in [!DNL Marketo Measure Discover] wordt het totaal van uw Marketo- en CRM-leads weergegeven. Als u alleen Marketo-personen of alleen CRM-leads wilt rapporteren, wilt u een Segmentcategorie voor uw bron maken en vervolgens Segmentregels voor Marketo en CRM maken met het veld Source System om de regel te definiëren. Nadat u de segmenten hebt gemaakt, ziet u de Source-categorie die beschikbaar is om te filteren over de [!DNL Marketo Measure Discover] -dashboards.
 
-![ Marketo Measure Discover dashboard die Marketo vs CRM loodtotalen toont ](assets/bizible-discover-1.png)
+![&#x200B; Marketo Measure Discover dashboard die Marketo vs CRM loodtotalen toont &#x200B;](assets/bizible-discover-1.png)
 
-![ ontdekt filters die het systeemsegmenten van Source benadrukken ](assets/bizible-discover-2.png)
+![&#x200B; ontdekt filters die het systeemsegmenten van Source benadrukken &#x200B;](assets/bizible-discover-2.png)
 
 ## Veldtoewijzingen {#field-mappings}
 

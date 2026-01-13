@@ -60,4 +60,4 @@ Voor de geïnteresseerde lezer is dit de reden waarom het zo werkt. Onze aanraak
 Omdat onze aanbieding nu de omzettingen voor de klant zal behandelen, adviseren wij zij de werkschema&#39;s en het douanegebied verwijderen en ons toestaan om hun ruwe waarde van het Bedrag in te voeren.
 
 >[!MORELIKETHIS]
->[ Meldingen van de Fout ](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[&#x200B; Meldingen van de Fout &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

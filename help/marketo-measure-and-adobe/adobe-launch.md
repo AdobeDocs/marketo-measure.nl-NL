@@ -21,57 +21,57 @@ Wanneer de extensie [!DNL Marketo Measure] is geïnstalleerd en geconfigureerd i
 
 >[!PREREQUISITES]
 >Raadpleeg de volgende koppelingen voor meer informatie over Adobe Launch en de extensies ervan:
-> [[!DNL Marketo Measure] Extensie ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
-> [Adobe-overzicht van starten ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
-> [Overzicht Adobe-extensie starten ](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
+> [[!DNL Marketo Measure] Extensie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+> [Adobe-overzicht van starten &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
+> [Overzicht Adobe-extensie starten &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. Creeer een bezit na de stappen [ in dit artikel ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
+1. Creeer een bezit na de stappen [&#x200B; in dit artikel &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Klik op de eigenschap die u hebt gemaakt.
 
-   ![ het scherm van de het bezitsselectie van de Lancering van Adobe het tonen van beschikbare eigenschappen ](assets/marketo-measure-integrations-1.png)
+   ![&#x200B; het scherm van de het bezitsselectie van de Lancering van Adobe het tonen van beschikbare eigenschappen &#x200B;](assets/marketo-measure-integrations-1.png)
 
 1. Klik op **[!UICONTROL Extensions]**.
 
-   ![ het lusje van Uitbreidingen in het bezitsmontages van de Lancering van Adobe ](assets/marketo-measure-integrations-2.png)
+   ![&#x200B; het lusje van Uitbreidingen in het bezitsmontages van de Lancering van Adobe &#x200B;](assets/marketo-measure-integrations-2.png)
 
 1. Klik op het tabblad **[!UICONTROL Catalog]** en zoek naar &quot;[!UICONTROL Bizible]&quot;.
 
-   ![ het catalogusonderzoek van de Uitbreiding tonend Bizible uitbreiding ](assets/marketo-measure-integrations-3.png)
+   ![&#x200B; het catalogusonderzoek van de Uitbreiding tonend Bizible uitbreiding &#x200B;](assets/marketo-measure-integrations-3.png)
 
 1. Klik in de [!UICONTROL Bizible Analytics] -tegel op **[!UICONTROL Install]** .
 
-   ![ Bizible Analytics uitbreidingstegel met Install knoop ](assets/marketo-measure-integrations-4.png)
+   ![&#x200B; Bizible Analytics uitbreidingstegel met Install knoop &#x200B;](assets/marketo-measure-integrations-4.png)
 
 1. Typ in het veld Bizible AccountId de URL van uw website (bijvoorbeeld `adobe.com` ).
 
-   ![ Bizible uitbreidingsconfiguratie met gebied AccountId ](assets/marketo-measure-integrations-5.png)
+   ![&#x200B; Bizible uitbreidingsconfiguratie met gebied AccountId &#x200B;](assets/marketo-measure-integrations-5.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![ sparen knoop voor Bizible uitbreidingsconfiguratie ](assets/marketo-measure-integrations-6.png)
+   ![&#x200B; sparen knoop voor Bizible uitbreidingsconfiguratie &#x200B;](assets/marketo-measure-integrations-6.png)
 
 1. Klik op **[!UICONTROL Rules]** en selecteer vervolgens **[!UICONTROL Create New Rule]** .
 
-   ![ Regels lusje met Create Nieuwe knoop van de Regel ](assets/marketo-measure-integrations-7.png)
+   ![&#x200B; Regels lusje met Create Nieuwe knoop van de Regel &#x200B;](assets/marketo-measure-integrations-7.png)
 
 1. Klik op de knop **[!UICONTROL Add]** onder [!UICONTROL Events] .
 
-   ![ voegt knoop in de sectie van Gebeurtenissen van regelconfiguratie ](assets/marketo-measure-integrations-8.png) toe
+   ![&#x200B; voegt knoop in de sectie van Gebeurtenissen van regelconfiguratie &#x200B;](assets/marketo-measure-integrations-8.png) toe
 
 1. Selecteer **[!UICONTROL Core]** in de vervolgkeuzelijst Extensie. Selecteer vervolgens **[!UICONTROL Library Loaded (Page Top)]** in de vervolgkeuzelijst Type gebeurtenis. Als u de gebeurtenis geen naam geeft, wordt een standaardnaam toegepast. Klik op **[!UICONTROL Keep Changes]** als u klaar bent.
 
-   ![ de configuratiedialoog van de Gebeurtenis met de uitbreiding van de Kern en Bibliotheek Geladen gebeurtenistype ](assets/marketo-measure-integrations-9.png)
+   ![&#x200B; de configuratiedialoog van de Gebeurtenis met de uitbreiding van de Kern en Bibliotheek Geladen gebeurtenistype &#x200B;](assets/marketo-measure-integrations-9.png)
 
 1. Klik op de knop **[!UICONTROL Add]** onder Handelingen.
 
-   ![ voegt knoop in de sectie van Acties van regelconfiguratie ](assets/marketo-measure-integrations-10.png) toe
+   ![&#x200B; voegt knoop in de sectie van Acties van regelconfiguratie &#x200B;](assets/marketo-measure-integrations-10.png) toe
 
 1. Selecteer **[!UICONTROL Bizible Analytics]** in de vervolgkeuzelijst Extensie. Selecteer vervolgens **[!UICONTROL Initialize]** in de vervolgkeuzelijst Type actie. Als u de handeling geen naam geeft, wordt er een standaardnaam toegepast. Klik op **[!UICONTROL Keep Changes]** als u klaar bent.
 
-   ![ de configuratiedialoog van de Actie met Bizible uitbreiding Analytics en Initialiseert actietype ](assets/marketo-measure-integrations-11.png)
+   ![&#x200B; de configuratiedialoog van de Actie met Bizible uitbreiding Analytics en Initialiseert actietype &#x200B;](assets/marketo-measure-integrations-11.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![ sparen knoop voor regelconfiguratie ](assets/marketo-measure-integrations-12.png)
+   ![&#x200B; sparen knoop voor regelconfiguratie &#x200B;](assets/marketo-measure-integrations-12.png)
 

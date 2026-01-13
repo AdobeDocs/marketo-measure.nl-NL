@@ -34,7 +34,7 @@ Begin met het toevoegen van een regel en het selecteren van het Gebied dat uw cr
 
 Maak een keuze in een lijst met operatoren die betrekking hebben op de volgende reeks waarden die u in de volgende kolom toevoegt.
 
-![ 1 ](assets/1-1.png)
+![&#x200B; 1 &#x200B;](assets/1-1.png)
 
 >[!TIP]
 >Als u meerdere waarden in een veld wilt toevoegen, gebruikt u de operator &quot;Komt overeen met een&quot; met komma&#39;s die elke waarde scheiden.
@@ -48,19 +48,19 @@ Maak een keuze in een lijst met operatoren die betrekking hebben op de volgende 
 `2)` Voeg regels binnen dezelfde groep toe om de logica AND in uw instructie te gebruiken.
 U kunt ook nieuwe instructies buiten de groep toevoegen om de logica &quot;OR&quot; in uw instructie te gebruiken.
 
-![ Bouwer van de Regel van de Onderdrukking die gegroepeerde EN/OF logica ](assets/2.png) toont
+![&#x200B; Bouwer van de Regel van de Onderdrukking die gegroepeerde EN/OF logica &#x200B;](assets/2.png) toont
 
 `3)` Als uw regels complex worden en u groepen opnieuw moet maken en kleine wijzigingen in elke instructie moet aanbrengen, gebruikt u de optie [!UICONTROL Clone] om de regels eenvoudiger te maken.
 
-![ optie van de Kloon om de groepen van de onderdrukkingsregel te dupliceren ](assets/3.png)
+![&#x200B; optie van de Kloon om de groepen van de onderdrukkingsregel te dupliceren &#x200B;](assets/3.png)
 
 Als je een fout maakt, maak je dan geen zorgen. U kunt ook afzonderlijke rijen van uw instructie of volledige groepen verwijderen.
 
-![ schrapt pictogrammen voor individuele verklaringen en regelgroepen ](assets/4.png)
+![&#x200B; schrapt pictogrammen voor individuele verklaringen en regelgroepen &#x200B;](assets/4.png)
 
 `4)` Stel regels in voor de aanraakpunten voor koperkenmerken als u deze op beide objecten wilt toepassen. Met onze flexibiliteit kunt u regels instellen voor één object of beide objecten en deze voor beide instellen als deze van toepassing zijn.
 
-![ de Configuratie van de de suppressieregels van de Attributie van de Koper Touchpoints ](assets/5.png)
+![&#x200B; de Configuratie van de de suppressieregels van de Attributie van de Koper Touchpoints &#x200B;](assets/5.png)
 
 Om te voltooien, [!UICONTROL Save and Process] uw regels. Als u veel wijzigingen aanbrengt, moet u uw wijzigingen onderweg opslaan. [!DNL Marketo Measure] verwijdert uw aanraakpunten pas wanneer u klikt
 [!UICONTROL **sparen en Proces**].

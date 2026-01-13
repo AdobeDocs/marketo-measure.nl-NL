@@ -21,4 +21,4 @@ Er zijn twee afzonderlijke functiebits gekoppeld aan deze functie op het tabblad
 
 Onder uw [!UICONTROL User Settings] in de [!DNL Marketo Measure] toepassing, zullen wij de Collectieve Valuta en om het even welke Gesteunde Valuta tonen die van CRM wordt getrokken. Omdat deze waarden allemaal worden opgehaald uit de CRM, zijn deze velden alleen-lezen en kunnen ze niet worden gewijzigd. De dashboardvaluta is de standaardvaluta voor elke keer dat een dashboard wordt geladen. Je kunt terugkomen en de valuta naar wens wijzigen.
 
-![ Valuta&#39;s ](assets/one-1.png)
+![&#x200B; Valuta&#39;s &#x200B;](assets/one-1.png)

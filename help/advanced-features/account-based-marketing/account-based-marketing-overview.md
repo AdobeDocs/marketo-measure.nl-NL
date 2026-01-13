@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Overzicht van accountgebaseerde marketing {#account-based-marketing-overview}
 
-In de volgende secties vindt u een kort overzicht van ABM, de componenten van de functie [!DNL Marketo Measure] ABM en hoe u deze kunt toevoegen aan de pagina-indeling van [!DNL Salesforce] . Om meer over ABM te lezen, herzie Adobe [ ABM blog ](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
+In de volgende secties vindt u een kort overzicht van ABM, de componenten van de functie [!DNL Marketo Measure] ABM en hoe u deze kunt toevoegen aan de pagina-indeling van [!DNL Salesforce] . Om meer over ABM te lezen, herzie Adobe [&#x200B; ABM blog &#x200B;](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
 
-Voor gedetailleerde instructies voor vestiging ABM binnen uw [!DNL Salesforce] instantie, ga [ Vestiging ABM paginalay-out in Salesforce ](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
+Voor gedetailleerde instructies voor vestiging ABM binnen uw [!DNL Salesforce] instantie, ga [&#x200B; Vestiging ABM paginalay-out in Salesforce &#x200B;](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## Wat is ABM {#what-is-abm}
 
@@ -76,16 +76,16 @@ Als u de ODA&#39;s wilt gaan gebruiken, moet u het veld ODA&#39;s en de lijst Ve
 1. Navigeer naar **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Accounts]** > **[!UICONTROL Page Layout]** . Selecteer vervolgens de pagina-indeling die u wilt bewerken.
 1. Ga naar [!UICONTROL Fields] en verplaats het veld &quot;Predictive Engagement Score&quot; in de sectie Accountinformatie.
 
-   ![ de paginalay-out van de Rekening die het Voorspelende gebied van de Score van de Betrokkenheid toont ](assets/1.png)
+   ![&#x200B; de paginalay-out van de Rekening die het Voorspelende gebied van de Score van de Betrokkenheid toont &#x200B;](assets/1.png)
 
 1. Ga ten slotte naar [!UICONTROL Related Lists] en verplaats de lijst met verwante leads naar uw paginalay-out.
 
-   ![ het Toevoegen van Leidingen verwante lijst aan de paginalay-out van de Rekening ](assets/2.png)
+   ![&#x200B; het Toevoegen van Leidingen verwante lijst aan de paginalay-out van de Rekening &#x200B;](assets/2.png)
 
 1. Navigeer vervolgens naar **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Leads]** > **[!UICONTROL Page Layout]** en selecteer de gewenste paginalay-outs die u wilt bewerken.
 1. Klik op **[!UICONTROL Fields]** en voeg het veld [!UICONTROL Account] toe waar u de pagina ziet passen.
 
-   ![ Lead paginalay-out met toegevoegd gebied van de Rekening ](assets/3.png)
+   ![&#x200B; Lead paginalay-out met toegevoegd gebied van de Rekening &#x200B;](assets/3.png)
 
 U bent klaar!
 

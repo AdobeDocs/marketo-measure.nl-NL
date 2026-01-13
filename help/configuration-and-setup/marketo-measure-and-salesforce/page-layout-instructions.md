@@ -28,26 +28,26 @@ U wordt aangeraden de [!DNL Marketo Measure] -velden alleen voor uw sandbox toe 
 
 1. Klik op **[!UICONTROL Page Layouts]**.
 
-   ![ de Opstelling van Salesforce die de optie van de Lay-outs van de Pagina onder Campagnes toont ](assets/1-1.jpg)
+   ![&#x200B; de Opstelling van Salesforce die de optie van de Lay-outs van de Pagina onder Campagnes toont &#x200B;](assets/1-1.jpg)
 
 1. Klik op **[!UICONTROL Edit]** naast de pagina-indeling die u wilt bijwerken.
 
-   ![ de lijst van de Lay-outs van de Pagina van de Campagne met Edit knoop naast lay-outnaam ](assets/2-1.jpg)
+   ![&#x200B; de lijst van de Lay-outs van de Pagina van de Campagne met Edit knoop naast lay-outnaam &#x200B;](assets/2-1.jpg)
 
 1. Selecteer het veld [!UICONTROL fields] in de optie **[!UICONTROL Enable Buyer Touchpoints]** en sleep het veld naar de gewenste positie op de pagina. Voeg vervolgens de velden **[!UICONTROL Touchpoint Start Date]** en **[!UICONTROL Touchpoint End Date]** toe.
 
-   ![ de Redacteur van de Lay-out van de Pagina die het gebied van Aanraakpunten van de Koper met de gebieden van het Begin en van de Datum van het Eind van het Aanraakpunt toont ](assets/3-2.png)
+   ![&#x200B; de Redacteur van de Lay-out van de Pagina die het gebied van Aanraakpunten van de Koper met de gebieden van het Begin en van de Datum van het Eind van het Aanraakpunt toont &#x200B;](assets/3-2.png)
 
 1. Vervolgens klikt u boven aan de pagina op de optie &quot;[!UICONTROL Buttons]&quot; in het snelmenu Zoeken.
 
 1. Sleep de knop **[!UICONTROL Bulk Update Touchpoint Date]** naar het gedeelte met aangepaste knoppen.
 
-   ![ de Redacteur van de Lay-out van de Pagina met de Bulk knoop van de Datum van het Aanraakpunt van de Update in de sectie van douaneknoppen ](assets/4-1.jpg)
+   ![&#x200B; de Redacteur van de Lay-out van de Pagina met de Bulk knoop van de Datum van het Aanraakpunt van de Update in de sectie van douaneknoppen &#x200B;](assets/4-1.jpg)
 
 1. Klik op **[!UICONTROL Save]**.
 
    >[!NOTE]
-   >Als u meerdere soorten campagnemerrecords gebruikt, moet u de waarden in de keuzelijst voor het veld **[!UICONTROL Enable Buyer Touchpoints]** bijwerken. Verwijs naar [ dit artikel ](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md) voor instructies.
+   >Als u meerdere soorten campagnemerrecords gebruikt, moet u de waarden in de keuzelijst voor het veld **[!UICONTROL Enable Buyer Touchpoints]** bijwerken. Verwijs naar [&#x200B; dit artikel &#x200B;](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md) voor instructies.
 
 ## Leads {#leads}
 
@@ -66,7 +66,7 @@ U wordt aangeraden de [!DNL Marketo Measure] -velden alleen voor uw sandbox toe 
 
 1. Sleep de pagina **[!UICONTROL Marketo Measure Lead Related List]** VisualForce in uw sectie van de paginalay-out.
 
-   ![ de Redacteur van de Lay-out van de Pagina van de Leiding met de Leiding Verwante pagina VisualForce van de Lijst ](assets/5-1.png)
+   ![&#x200B; de Redacteur van de Lay-out van de Pagina van de Leiding met de Leiding Verwante pagina VisualForce van de Lijst &#x200B;](assets/5-1.png)
 
 1. Klik op de moersleutel in de pagina [!DNL VisualForce] en wijzig de hoogte in 100 en schakel schuifbalken in.
 
@@ -78,12 +78,12 @@ U wordt aangeraden de [!DNL Marketo Measure] -velden alleen voor uw sandbox toe 
 1. Sleep de [!DNL Marketo Measure Insights] Canvas-app naar die nieuwe sectie. Klik **sparen**. Soms is het nodig om de paginalay-out eerst op te slaan voordat u de canvasapp neerzet, omdat Salesforce deze niet direct herkent. Sla dus na het maken van de sectie de paginalay-out op en bewerk deze opnieuw om de canvasapp in die sectie te slepen. Dit geldt voor elk object.
 
    >[!NOTE]
-   >Voor [!DNL Marketo Measure Insights] App van het Canvas behoorlijk te functioneren, [ toestemmingen moeten behoorlijk worden gevormd ](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
+   >Voor [!DNL Marketo Measure Insights] App van het Canvas behoorlijk te functioneren, [&#x200B; toestemmingen moeten behoorlijk worden gevormd &#x200B;](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
    >[!TIP]
    >De meeste klanten gebruiken de velden die eindigen met (FT) of (LC) niet omdat het oudere velden zijn van vóór het aanraakpunt van [!DNL Marketo Measure] als een object.
 
-Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, [ klik hier voor extra instructies van de paginalay-out ](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).
+Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, [&#x200B; klik hier voor extra instructies van de paginalay-out &#x200B;](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contactpersonen {#contacts}
 
@@ -106,11 +106,11 @@ Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, [ klik hier voor extra 
 
 1. Sorteren op: aanraakpuntdatum, oplopend.
 
-   ![ Aanraakpunten van de Koper Verwante configuratie van de Lijst met kolommen en de montages van de soortorde ](assets/6.jpg)
+   ![&#x200B; Aanraakpunten van de Koper Verwante configuratie van de Lijst met kolommen en de montages van de soortorde &#x200B;](assets/6.jpg)
 
 1. Vouw de optie Knoppen uit en hef de selectie van **[!UICONTROL New]** op.
 
-   ![ Verwante eigenschappen van de Lijst die Nieuwe knoop tonen in de sectie van Knopen wordt geschrapt ](assets/7.png)
+   ![&#x200B; Verwante eigenschappen van de Lijst die Nieuwe knoop tonen in de sectie van Knopen wordt geschrapt &#x200B;](assets/7.png)
 
 1. Ga terug naar de optie [!UICONTROL Related List] in het menu en voeg nu de lijst met verwante **[!UICONTROL Buyer Attribution Touchpoint]** toe.
 
@@ -184,4 +184,4 @@ Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, [ klik hier voor extra 
 
 1. Klik op **[!UICONTROL Save]**.
 
-Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, herzie de [ extra instructies van de paginalay-out ](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).
+Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, herzie de [&#x200B; extra instructies van de paginalay-out &#x200B;](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).

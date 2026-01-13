@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Kosten marketingkanaal {#marketing-channel-costs}
 
-Een van de meest fundamentele voordelen van het gebruik van [!DNL Marketo Measure] is de mogelijkheid om marketinginspanningen rechtstreeks te koppelen aan de invloed op de inkomsten, met zo veel granulariteit als u wilt. Het rendement van investeringen kan op het niveau van de aanspreekpunten worden gezien. Als u van dit voordeel wilt profiteren, moeten de kanaalkosten naar de app [!DNL Marketo Measure] worden geüpload. ROI de rapporten worden automatisch gecreeerd en beschikbaar in het **Op de markt brengend ROI Dashboard** in [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}.
+Een van de meest fundamentele voordelen van het gebruik van [!DNL Marketo Measure] is de mogelijkheid om marketinginspanningen rechtstreeks te koppelen aan de invloed op de inkomsten, met zo veel granulariteit als u wilt. Het rendement van investeringen kan op het niveau van de aanspreekpunten worden gezien. Als u van dit voordeel wilt profiteren, moeten de kanaalkosten naar de app [!DNL Marketo Measure] worden geüpload. ROI de rapporten worden automatisch gecreeerd en beschikbaar in het **Op de markt brengend ROI Dashboard** in [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Klik hier om rechtstreeks naar de instructies te navigeren.](/help/marketing-spend/marketing-channel-costs.md#uploading-marketing-costs)
 
@@ -77,13 +77,13 @@ Zodra afzetkanalen en regels zijn opgezet of bijgewerkt, kunnen de bijbehorende 
 
 Ga naar het menu **[!UICONTROL My Account]** , klik **[!UICONTROL Settings]** en navigeer naar de optie **[!UICONTROL Marketing Spend]** in de linkerzijbalk onder de sectie **[!UICONTROL Reporting]** .
 
-![ de montagespagina van de Uitgaven van de Marketing in Marketo Measure ](assets/1.png)
+![&#x200B; de montagespagina van de Uitgaven van de Marketing in Marketo Measure &#x200B;](assets/1.png)
 
 **Stap 2: Download de Huidige Kosten CSV**
 
 Navigeer rechts van het scherm en klik op **[!UICONTROL Download Current Costs].** Met deze optie kunt u een spreadsheet in CSV-indeling downloaden.
 
-![ de Huidige optie van de Kosten van de Download op de pagina van de Uitgaven van de Marketing ](assets/2.png)
+![&#x200B; de Huidige optie van de Kosten van de Download op de pagina van de Uitgaven van de Marketing &#x200B;](assets/2.png)
 
 **Stap 3: Open het CSV- Dossier en maak Veranderingen**
 
@@ -95,7 +95,7 @@ Controleer de logische regels in uw vel. Elke rij moet een kanaal en een van de 
 
 Als u bijvoorbeeld Facebook als subkanaal en sociaal kanaal wilt aanduiden als kanaal, moet de regel als volgt worden geschreven: &quot;Social.Facebook&quot;. Op dezelfde manier moet de kanaalsyntaxis voor het bijhouden van een offlinegebeurtenis &#39;Events.Big Conference&#39; zijn. In de onderstaande afbeelding worden voorbeelden weergegeven:
 
-![ Csv- voorbeeld die kanaal en subchannel kosteningangen tonen ](assets/3.png)
+![&#x200B; Csv- voorbeeld die kanaal en subchannel kosteningangen tonen &#x200B;](assets/3.png)
 
 _Extra Nota&#39;s_:
 

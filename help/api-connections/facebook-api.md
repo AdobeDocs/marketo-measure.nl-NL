@@ -24,7 +24,7 @@ Net als bij onze integratie van Advertentiewoorden en -[!DNL Bing Ads] doet onze
 
 Voor de installatie moeten er zeven stappen worden uitgevoerd in de app [!DNL Marketo Measure] .
 
-1. Navigeer aan [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en login.
+1. Navigeer aan [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en login.
 1. Selecteer onder Mijn account **[!UICONTROL Settings]** .
 1. Selecteer onder Integraties **[!UICONTROL Connections]** .
 1. Selecteer **[!UICONTROL Set Up New Ads Connection]** en er verschijnt een pop-up. Selecteer **[!UICONTROL Facebook]** en meld u aan met uw Facebook-referenties.
@@ -37,20 +37,20 @@ Voor de installatie moeten er zeven stappen worden uitgevoerd in de app [!DNL Ma
 
 ## De account verbinden {#connecting-the-account}
 
-![ Vestiging een nieuwe Facebook advertenties verbinding in Marketo Measure ](assets/1.gif)
+![&#x200B; Vestiging een nieuwe Facebook advertenties verbinding in Marketo Measure &#x200B;](assets/1.gif)
 
 ## Automatisch labelen inschakelen {#enabling-autotagging}
 
 >[!NOTE]
->Als u automatische labeling inschakelt, stellen we de omzetgeschiedenis en het sociale bewijs van alle advertenties die we labelen opnieuw in. Wij adviseren hoogst [ het uitvoeren van deze gegevens als CSV ](https://www.facebook.com/business/help/205067636197240) alvorens u auto-etiketteren toelaat.
+>Als u automatische labeling inschakelt, stellen we de omzetgeschiedenis en het sociale bewijs van alle advertenties die we labelen opnieuw in. Wij adviseren hoogst [&#x200B; het uitvoeren van deze gegevens als CSV &#x200B;](https://www.facebook.com/business/help/205067636197240) alvorens u auto-etiketteren toelaat.
 
-![ 2 ](assets/2-2.png)
+![&#x200B; 2 &#x200B;](assets/2-2.png)
 
 Zodra u de integratie hebt ingeschakeld, begint [!DNL Marketo Measure] met het downloaden van ad-level kosten naar het [!DNL Marketo Measure Marketing ROI] -dashboard.
 
 De integratie werkt alleen correct als u automatische labeling voor uw [!DNL Facebook] -account inschakelt. Hierdoor kan ons systeem een _bf-parameter toevoegen aan alle advertentiekoppelingen. Tijdens dit proces wordt de nieuwe parameter toegevoegd boven op andere trackingparameters die u al hebt toegevoegd aan uw [!DNL Facebook] -advertenties.
 
-![ toelatend auto-etiketteren in de verbindingsmontages van Facebook ](assets/3.gif)
+![&#x200B; toelatend auto-etiketteren in de verbindingsmontages van Facebook &#x200B;](assets/3.gif)
 
 ## Veldtoewijzing {#field-mapping}
 

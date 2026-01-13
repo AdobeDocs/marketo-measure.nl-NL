@@ -50,7 +50,7 @@ Naast een jaarlijkse evaluatie, kunnen bepaalde organisatorische veranderingen d
 * Wijzigingen in de manier waarop inkomsten worden gerapporteerd door de organisatie
 
 >[!MORELIKETHIS]
-> [ Gebruikend een Gebied van de Bedrag van de Opbrengst van de Douane ](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
-> [Het gebruiken van de Lader van Gegevens om het Gebied van het Bedrag van de Douane bij te werken ](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
-> [Overzicht van Multi-Currency ](/help/advanced-features/multi-currency/overview.md)
-> [Instellingen voor meerdere valuta&#39;s ](/help/advanced-features/multi-currency/settings.md)
+> [&#x200B; Gebruikend een Gebied van de Bedrag van de Opbrengst van de Douane &#x200B;](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+> [Het gebruiken van de Lader van Gegevens om het Gebied van het Bedrag van de Douane bij te werken &#x200B;](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+> [Overzicht van Multi-Currency &#x200B;](/help/advanced-features/multi-currency/overview.md)
+> [Instellingen voor meerdere valuta&#39;s &#x200B;](/help/advanced-features/multi-currency/settings.md)

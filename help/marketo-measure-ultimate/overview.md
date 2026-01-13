@@ -30,11 +30,11 @@ ht-degree: 0%
 
 **[!DNL Marketo Measure]Niveaus 1-3**
 
-![ diagram van de Architectuur dat Marketo Measure Tiers 1-3 gegevensstroom en verbindingen toont ](assets/marketo-measure-ultimate-overview-1.png)
+![&#x200B; diagram van de Architectuur dat Marketo Measure Tiers 1-3 gegevensstroom en verbindingen toont &#x200B;](assets/marketo-measure-ultimate-overview-1.png)
 
 **[!DNL Marketo Measure Ultimate]**
 
-![ diagram van de Architectuur dat Marketo Measure Ultimate met de integratie van AEP toont ](assets/marketo-measure-ultimate-overview-2.png)
+![&#x200B; diagram van de Architectuur dat Marketo Measure Ultimate met de integratie van AEP toont &#x200B;](assets/marketo-measure-ultimate-overview-2.png)
 
 ## Nieuwe functies in [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
@@ -42,13 +42,13 @@ ht-degree: 0%
 
 Van markeerders wordt verwacht dat zij hun B2B-gegevens (bijvoorbeeld account, opportunity, Contact, lead, campagne, campagnemiddel, campagnelid, activiteit) via AEP doorgeven. De directe verbindingen CRM en Marketo Engage zijn niet meer beschikbaar voor Ultimate. Marketers blijven gegevens van het Advertentieplatform leveren via directe verbindingen en webactiviteiten volgen via [!DNL Marketo Measure] javascript.
 
-![ het stroomdiagram van Gegevens die B2B- gegevensinvoer door het platform van AEP tonen ](assets/marketo-measure-ultimate-overview-3.png)
+![&#x200B; het stroomdiagram van Gegevens die B2B- gegevensinvoer door het platform van AEP tonen &#x200B;](assets/marketo-measure-ultimate-overview-3.png)
 
 **StandaardInstelling van de Valuta**
 
 [!DNL Marketo Measure Ultimate] stelt de standaardvaluta in op USD totdat de gebruiker deze wijzigt. Als u een nieuwe standaardvaluta instelt, worden de gegevens bijgewerkt zonder dat ze opnieuw worden verwerkt. Zolang de geselecteerde valuta als doel-ISO-code aanwezig is, is het niet nodig conversiekoersen in te dienen.
 
-![ interface van de Standaard muntmontages met USD muntoptie ](assets/marketo-measure-ultimate-overview-4.png)
+![&#x200B; interface van de Standaard muntmontages met USD muntoptie &#x200B;](assets/marketo-measure-ultimate-overview-4.png)
 
 **[!DNL Marketo Measure Ultimate]Sandbox**
 
@@ -57,11 +57,11 @@ Van markeerders wordt verwacht dat zij hun B2B-gegevens (bijvoorbeeld account, o
 >[!NOTE]
 >Een [!DNL Marketo Measure Ultimate] -productieinstantie moet worden toegewezen aan een AEP-productiestandaard, een [!DNL Marketo Measure Ultimate] -ontwikkelingsinstantie moet worden toegewezen aan een AEP-ontwikkelaarssandbox.
 
-Wanneer de selectie van de sandboxtoewijzing is opgeslagen, kunt u deze niet meer wijzigen in de toepassing. Om het te veranderen, reik uit aan [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Wanneer de selectie van de sandboxtoewijzing is opgeslagen, kunt u deze niet meer wijzigen in de toepassing. Om het te veranderen, reik uit aan [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 De gegevens voor een bepaalde entiteit (bijvoorbeeld, Rekening) van een bepaalde gegevensbron kunnen slechts in één dataset gaan. Elke dataset kan slechts in één gegevensstroom worden omvat. Overtredingen stoppen de gegevensstroom bij uitvoering.
 
-![ Sandbox kaartconfiguratie die dataset en dataflow verhoudingen ](assets/marketo-measure-ultimate-overview-5.png) toont
+![&#x200B; Sandbox kaartconfiguratie die dataset en dataflow verhoudingen &#x200B;](assets/marketo-measure-ultimate-overview-5.png) toont
 
 **Toewijzing van het Stadium**
 
@@ -92,13 +92,13 @@ De voorwaarden van de regel zijn datasetspecifiek. Er moeten regels voor werkgeb
 
 Geen selectie voor funnel versus boemerang versus aangepast model. Alle stadia worden geselecteerd voor funnel, boemerang, en douanemodel. Er is een limiet voor het aantal fasen dat we ondersteunen: 15 aangepaste plus 6 ingebouwde stappen.
 
-![ de kaartinterface van het Stadium die ingebouwde en configuraties van het douanestadium tonen ](assets/marketo-measure-ultimate-overview-6.png)
+![&#x200B; de kaartinterface van het Stadium die ingebouwde en configuraties van het douanestadium tonen &#x200B;](assets/marketo-measure-ultimate-overview-6.png)
 
 De de aanraakpuntregels van het Lid van de campagne en van het aanraakpunt van de Activiteit zijn datasetspecifiek.
 
-![ de configuratie van de de toepassingsregels van het Lid van de campagne door dataset ](assets/marketo-measure-ultimate-overview-7.png)
+![&#x200B; de configuratie van de de toepassingsregels van het Lid van de campagne door dataset &#x200B;](assets/marketo-measure-ultimate-overview-7.png)
 
-![ de configuratie van de aanrakingsregels van de Activiteit touchpoint door dataset ](assets/marketo-measure-ultimate-overview-8.png)
+![&#x200B; de configuratie van de aanrakingsregels van de Activiteit touchpoint door dataset &#x200B;](assets/marketo-measure-ultimate-overview-8.png)
 
 Attribution Touchpoints worden niet naar CRM geschreven omdat Ultimate geen directe CRM-verbinding heeft.
 
@@ -110,5 +110,5 @@ Attribution Touchpoints worden niet naar CRM geschreven omdat Ultimate geen dire
 * Er is geen migratiepad voor bestaande gebruikers van niveau 1/2/3. Vereist nieuwe implementatie, maar wij helpen de bijgehouden webactiviteitsgegevens van het bestaande exemplaar te migreren.
 
 >[!MORELIKETHIS]
-> [ Ultimate van Marketo Measure Bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
-> [VIDEO: Marketo Measure Ultimate - Overzicht ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+> [&#x200B; Ultimate van Marketo Measure Bestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
+> [VIDEO: Marketo Measure Ultimate - Overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

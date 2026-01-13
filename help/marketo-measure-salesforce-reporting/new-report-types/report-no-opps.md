@@ -20,18 +20,18 @@ Om over Contacten met de Aanraakpunten van de Koper te rapporteren die niet aan 
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Report Types]** .
 
-   ![ pagina van de Types van Rapport in de Opstelling van Salesforce ](assets/1.jpg)
+   ![&#x200B; pagina van de Types van Rapport in de Opstelling van Salesforce &#x200B;](assets/1.jpg)
 
 1. Selecteer **[!UICONTROL New Custom Report Type]**.
 
-   ![ Nieuw de selectiescherm van het Type van Rapport van de Douane ](assets/2.jpg)
+   ![&#x200B; Nieuw de selectiescherm van het Type van Rapport van de Douane &#x200B;](assets/2.jpg)
 
 1. Stel de [!UICONTROL Primary Object] in op &quot;[!UICONTROL Contacts]&quot;. Geef het rapporttype Label de naam &quot;Contactpersonen met aanraakpunten koper&quot;. Gebruik het zelfde noemen voor de Naam van het Type van Rapport. Binnen de ingevoerde beschrijving, &quot;Contacten met de Aanraakpunten van de Koper.&quot; Sparen het Rapport binnen &quot;[!UICONTROL Other]&quot;en plaats het rapport aan &quot;[!UICONTROL Deployed]&quot;.
 
-   ![ het type van Rapport details met Contacten als primair voorwerp ](assets/3.jpg)
+   ![&#x200B; het type van Rapport details met Contacten als primair voorwerp &#x200B;](assets/3.jpg)
 
 1. Hierna koppelt u het object Contacten aan het object Aanraakpunten koper. Zorg ervoor dat u de knop Elk A-record moet minstens één verwant B-record hebben.
 
-   ![ de relatieconfiguratie die van Objecten Contacten met de Aanraakpunten van de Koper verbindt ](assets/4.jpg)
+   ![&#x200B; de relatieconfiguratie die van Objecten Contacten met de Aanraakpunten van de Koper verbindt &#x200B;](assets/4.jpg)
 
 1. Klik op **[!UICONTROL Save]** en u bent klaar!

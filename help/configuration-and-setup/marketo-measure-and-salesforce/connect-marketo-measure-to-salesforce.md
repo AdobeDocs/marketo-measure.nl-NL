@@ -23,15 +23,15 @@ Dit artikel biedt een overzicht van hoe u uw [!DNL Salesforce] -account kunt ver
 
 1. Klik in de kolom met opties links in het scherm op **[!UICONTROL Connections]** onder de sectie [!UICONTROL Integrations] .
 
-   ![ het menu van Montages die de optie van Verbindingen onder de sectie van Integraties tonen ](assets/connect-marketo-measure-to-salesforce-1.png)
+   ![&#x200B; het menu van Montages die de optie van Verbindingen onder de sectie van Integraties tonen &#x200B;](assets/connect-marketo-measure-to-salesforce-1.png)
 
 1. Klik onder de sectie CRM in Verbindingen op **[!UICONTROL Set Up New CRM Connection]** .
 
-   ![ de Verbinding van CRM pagina met de Nieuwe knoop van de Verbinding van CRM van de Opstelling ](assets/connect-marketo-measure-to-salesforce-2.png)
+   ![&#x200B; de Verbinding van CRM pagina met de Nieuwe knoop van de Verbinding van CRM van de Opstelling &#x200B;](assets/connect-marketo-measure-to-salesforce-2.png)
 
 1. Er verschijnt een pop-upvenster waarin u wordt gevraagd een CRM-verbinding te selecteren. Klik op **[!UICONTROL Connect]** naast het logo van [!DNL Salesforce] .
 
-   ![ Uitgezochte de verbinding van CRM popup venster met het embleem van Salesforce en verbindt knoop ](assets/connect-marketo-measure-to-salesforce-3.png)
+   ![&#x200B; Uitgezochte de verbinding van CRM popup venster met het embleem van Salesforce en verbindt knoop &#x200B;](assets/connect-marketo-measure-to-salesforce-3.png)
 
 1. Er wordt een laatste pop-upvenster weergegeven met de vraag naar uw [!DNL Salesforce] -referenties, sandbox of productie. Voer uw gegevens in en klik op **[!UICONTROL Authorize]** om de account te verbinden met [!DNL Marketo Measure] .
 
@@ -47,7 +47,7 @@ Marketo Measure gebruikt een CRM-integratietaak om te communiceren met de Salesf
 
 U kunt tot deze grens in Marketo Measure toegang hebben via: **Mijn Rekening** > **Montages** > **CRM** > **Algemeen** > **Dagelijkse grens van CRM API**, en kan het voor uw huurders vormen.
 
-![ Dagelijkse het plaatsen van de grens van CRM API het tonen van configuratiegebied voor API kredietquota ](assets/connect-marketo-measure-to-salesforce-4.png)
+![&#x200B; Dagelijkse het plaatsen van de grens van CRM API het tonen van configuratiegebied voor API kredietquota &#x200B;](assets/connect-marketo-measure-to-salesforce-4.png)
 
 ### Limiet instellen voor API-credits {#setting-a-limit-for-api-credits}
 
@@ -57,14 +57,14 @@ U kunt tot deze grens in Marketo Measure toegang hebben via: **Mijn Rekening** >
 
 1. Klik op het vergrendelingspictogram dat u wilt bewerken.
 
-   ![ het pictogram van het Slot voor het uitgeven van het Dagelijkse de grensgebied van CRM API ](assets/connect-marketo-measure-to-salesforce-5.png)
+   ![&#x200B; het pictogram van het Slot voor het uitgeven van het Dagelijkse de grensgebied van CRM API &#x200B;](assets/connect-marketo-measure-to-salesforce-5.png)
 
 1. Voer een gewenste limiet in van 100.000 of hoger. Klik **sparen** wanneer gedaan.
 
-   ![ dagelijkse de grensinputgebied van CRM API met ingegane waarde en sparen knoop ](assets/connect-marketo-measure-to-salesforce-6.png)
+   ![&#x200B; dagelijkse de grensinputgebied van CRM API met ingegane waarde en sparen knoop &#x200B;](assets/connect-marketo-measure-to-salesforce-6.png)
 
 >[!NOTE]
->Om beschikbare Salesforce API kredieten voor uw verbonden oplossing te verhogen, contacteer uw beheerder van Salesforce en verwijs [ dit document van Salesforce ](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.
+>Om beschikbare Salesforce API kredieten voor uw verbonden oplossing te verhogen, contacteer uw beheerder van Salesforce en verwijs [&#x200B; dit document van Salesforce &#x200B;](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.
 
 >[!MORELIKETHIS]
->[ Meldingen van de Fout ](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[&#x200B; Meldingen van de Fout &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

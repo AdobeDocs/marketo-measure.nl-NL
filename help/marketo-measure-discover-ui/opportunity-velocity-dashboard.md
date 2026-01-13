@@ -38,7 +38,7 @@ Vragen in de grafiek:
 >[!NOTE]
 >Fases vóór &#39;Opportunity Creation&#39; gebruiken de meest recente aanraakpuntdatum als de &#39;transitiedatum&#39;.
 
-![ de snelheid van de Kans door grafiek van de de bar van het verkoopstadium ](assets/lead-velocity-dashboard-1.png)
+![&#x200B; de snelheid van de Kans door grafiek van de de bar van het verkoopstadium &#x200B;](assets/lead-velocity-dashboard-1.png)
 
 ### Opportunity-snelheid in de tijd {#opportunity-velocity-over-time}
 
@@ -52,7 +52,7 @@ Vragen in de grafiek:
 * Wat zijn de trends in de tijd die in elk stadium wordt doorgebracht voor kansen gedurende de waargenomen maanden?
 * In welke maand hebben de kansen de snelste vooruitgang door de verkoopstadia ervaren?
 
-![ de snelheidstendensen van de Kans over de grafiek van de tijdlijn ](assets/lead-velocity-dashboard-2.png)
+![&#x200B; de snelheidstendensen van de Kans over de grafiek van de tijdlijn &#x200B;](assets/lead-velocity-dashboard-2.png)
 
 ### Snelheid van opportunity door Kanaal {#opportunity-velocity-by-channel}
 

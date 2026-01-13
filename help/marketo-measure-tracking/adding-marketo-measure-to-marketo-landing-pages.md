@@ -31,7 +31,7 @@ Voorbeeld in onderstaande schermafbeelding
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![ Marketo Landing de redacteur van de Pagina met Bizible manuscript dat aan het hoofd ](assets/adding-bizible-to-marketo-landing-pages-1.png) wordt toegevoegd
+   ![&#x200B; Marketo Landing de redacteur van de Pagina met Bizible manuscript dat aan het hoofd &#x200B;](assets/adding-bizible-to-marketo-landing-pages-1.png) wordt toegevoegd
 
 ## Aanvullende opmerkingen {#additional-notes}
 
@@ -41,4 +41,4 @@ Voorbeeld in onderstaande schermafbeelding
 
 * Het is waarschijnlijk dat u veelvoudige het Bestaan van de Pagina malplaatjes in gebruik hebt, ben zeker om de code aan alle malplaatjes toe te voegen die vormen op hen hebben.
 
-* Wanneer u de sjabloon voor bestemmingspagina&#39;s bewerkt, moet u soms de pagina&#39;s die de bestemmingspagina gebruikt, opnieuw goedkeuren. Dit artikel verklaart [ hoe te om massa goed te keuren ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.
+* Wanneer u de sjabloon voor bestemmingspagina&#39;s bewerkt, moet u soms de pagina&#39;s die de bestemmingspagina gebruikt, opnieuw goedkeuren. Dit artikel verklaart [&#x200B; hoe te om massa goed te keuren &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

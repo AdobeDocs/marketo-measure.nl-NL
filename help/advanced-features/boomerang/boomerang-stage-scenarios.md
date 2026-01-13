@@ -28,13 +28,13 @@ In dit scenario, heeft een klant ervoor gekozen om hun **MQL** en **SQL** stadia
 
 Lood 1 wordt dan omgezet in een Contact met een Kans, die als OC aanraking wordt beschouwd.
 
-![ Loodreisdiagram dat MQL en SQL boemerang touchpoints met chronologische progressie aan Kans toont ](assets/1-1.png)
+![&#x200B; Loodreisdiagram dat MQL en SQL boemerang touchpoints met chronologische progressie aan Kans toont &#x200B;](assets/1-1.png)
 
 **Scenario 2: Boomerang Touchpoints EN de Staven van de Douane voor een Lood**
 
 In dit scenario, heeft een klant ervoor gekozen slechts om het **SQL stadium** met boemerang te volgen aanraakpunten. De fasen MQL en SAL worden nog steeds bijgehouden, maar met de functie Aangepast werkgebied van [!DNL Marketo Measure] .
 
-![ Loodreis die SQL boemerang touchpoints met MQL en SAL toont die als douanestadia worden gevolgd ](assets/2-1.png)
+![&#x200B; Loodreis die SQL boemerang touchpoints met MQL en SAL toont die als douanestadia worden gevolgd &#x200B;](assets/2-1.png)
 
 U ziet dat de positie van het MQL-aanraakpunt niet met een getal is aangeduid. De reden hiervoor is dat deze optie niet is geselecteerd om te worden bijgehouden met Boomerang-aanraakpunten. Wanneer u aanraakpunten maakt voor stadia die zijn opgenomen in het aangepaste model, maar niet worden bijgehouden met Boommeren, neemt [!DNL Marketo Measure] de laatste instantie van dat werkgebied.
 
@@ -48,7 +48,7 @@ Lood 1 wordt dan omgezet in een Contact met een Kans, die als OC aanraking wordt
 
 In dit scenario worden dezelfde criteria gehanteerd als in scenario 2. Een klant heeft ervoor gekozen het SQL-werkgebied alleen bij te houden met boemerang-aanraakpunten. MQL en SAL worden nog steeds bijgehouden, maar met de functie Aangepast werkgebied van [!DNL Marketo Measure] .
 
-![ de reis die van het lood het overgeslagen stadium van SAL met SAL en OC posities toont die in zelfde touchpoint worden gecombineerd ](assets/3.png)
+![&#x200B; de reis die van het lood het overgeslagen stadium van SAL met SAL en OC posities toont die in zelfde touchpoint worden gecombineerd &#x200B;](assets/3.png)
 
 In dit scenario gaat de lead nooit over naar het SAL-stadium. Het zet in een Contact om alvorens het SAL stadium bereikt, hoofdzakelijk &quot;overslaat&quot;het SAL stadium. In deze situatie, veronderstelt [!DNL Marketo Measure] dat SAL met OC aanraakpunt voorkomt, en zowel zal de positie van SAL als van OC op het zelfde aanraakpunt verschijnen.
 
@@ -64,7 +64,7 @@ De bovenste regel (met het label Lead 1 in blauw) geeft de individuele route van
 
 In dit scenario, heeft een klant verkiezen om de **MQL** en **stadia van de VAL** met boemerang te volgen aanraakpunten. Het SQL-werkgebied wordt bijgehouden in de standaard aangepaste stadia.
 
-![ Drie loodreisdiagram die MQL en SAL boemerang touchpoints tonen die aan Kans ](assets/4.png) vertalen
+![&#x200B; Drie loodreisdiagram die MQL en SAL boemerang touchpoints tonen die aan Kans &#x200B;](assets/4.png) vertalen
 
 De FT- en LC-aanraakpunten op de Opportunity zijn afkomstig van Lead 1 (blauw), omdat ze optraden vóór de FT en LC van Lead 2 (roze). Het LC-aanraakpunt voor lead 2 wordt weergegeven als aanraakpunt voor een formulier op de opportunity.
 
@@ -84,7 +84,7 @@ In dit scenario, heeft een klant ervoor gekozen om **MQL**, **SQL**, en **SAL** 
 
 Alle aanraakpunten van Lead 1 worden bij de gelegenheid opgenomen, van FT tot SAL-01 (Laatste). Het LC-aanraakpunt van lead 2 wordt opgenomen als een aanraakpunt op formulier tussen de aanraakpunten LC en MQL-01 op de opportunity.
 
-![ Drie belangrijke reis die MQL, SQL, en SAL boemerang touchpoints met positie nummering op Kans ](assets/5.png) tonen
+![&#x200B; Drie belangrijke reis die MQL, SQL, en SAL boemerang touchpoints met positie nummering op Kans &#x200B;](assets/5.png) tonen
 
 De MQL-01 (laatste) van Lood 2 is uiteindelijk het MQL-04 (laatste) aanraakpunt op de Opportunity. Omdat in dit scenario wordt gekeken naar de trajecten van meerdere leads binnen één opportunity, kunnen de plaatsing en nummering van de touchpoints van de Leads veranderen wanneer ze worden vertaald als aanraakpunten op de Opportunity. Op dezelfde manier wordt SQL-01 (Laatste) van Lood 2 SQL-04 (Laatste) op de Opp. Lood 2 SAL-01 (Laatste) wordt ook SAL-02 van de Kans (Laatste).
 
@@ -98,7 +98,7 @@ De aanrakingen MQL, SQL, en SAL van lood 3 komen allen tezelfdertijd voor, na de
 
 In dit scenario, heeft een klant ervoor gekozen om **MQL**, **SQL**, en **SAL** stadia met boemerang te volgen aanraakpunten. Dit scenario is vrijwel identiek aan het bovenstaande scenario, met enkele uitzonderingen.
 
-![ Drie belangrijke reis die van het Webbezoek boemerang touchpoints tonen die van Kans worden uitgesloten wanneer voorkomen na SQL stadium ](assets/6.png)
+![&#x200B; Drie belangrijke reis die van het Webbezoek boemerang touchpoints tonen die van Kans worden uitgesloten wanneer voorkomen na SQL stadium &#x200B;](assets/6.png)
 
 Alle aanraakpunten van regel 1 worden bij de gelegenheid opgenomen, van FT tot SAL-01 (Laatste). Het LC-aanraakpunt van lead 2 wordt opgenomen als een aanraakpunt op formulier tussen de aanraakpunten LC en MQL-01 op de opportunity.
 
@@ -114,7 +114,7 @@ De MQL-, SQL- en SAL-touches van lead 3 worden als aanraakpunt opgenomen omdat d
 
 In dit scenario, heeft een klant ervoor gekozen om **MQL**, **SQL**, en **SAL** stadia met boemerang te volgen aanraakpunten.
 
-![ Drie belangrijke reis die boemerang attributieweging met veelvoudige werkgebiedovergangen toont ](assets/7.png)
+![&#x200B; Drie belangrijke reis die boemerang attributieweging met veelvoudige werkgebiedovergangen toont &#x200B;](assets/7.png)
 
 De FT- en LC-aanraakpunten op de Opportunity zijn afkomstig van Lead 1 (blauw), omdat ze optraden vóór de FT en LC van Lead 2 (roze). Het LC-aanraakpunt voor lead 2 wordt weergegeven als een aanraakpunt voor een formulier op de opportunity.
 
@@ -136,7 +136,7 @@ SQL-01 (laatste)-aanraakpunt van lead 2 wordt niet opgenomen als aanraakpunt op 
 
 In dit scenario, heeft een klant ervoor gekozen om de **overgangen van het Stadium van de Demo en van de Onderhandeling** op het **Contact** te volgen. Elk boemerangstadium kan maximaal twee aanraakpunten ontvangen. Het verschil tussen werkgebiedovergangen op een Contact tegenover werkgebiedovergangen op een Lood is dat de overgangen van het werkgebied van het Contact als aanraakpunten Boommeren op de Kans _na_ OC kunnen verschijnen aanraakpunt. Dit geldt niet voor werkgebiedovergangen die zich op de lead voordoen, aangezien deze als touchpoint Formulier worden weergegeven.
 
-![ de reis die van het contact de van de Demo en van de Onderhandeling boemerang touchpoints tonen na OC touchpoint op Opportunity ](assets/8.png) verschijnen
+![&#x200B; de reis die van het contact de van de Demo en van de Onderhandeling boemerang touchpoints tonen na OC touchpoint op Opportunity &#x200B;](assets/8.png) verschijnen
 
 In dit voorbeeld worden de overgangen in de Stage van de Demo en de Onderhandeling van Contact 1 opgenomen als Demo-01- en onderhandelingsaanraakpunten op de Opportunity. De overgang van het werkgebied van de Demo van contact 2 komt voor _na_ Contact 1&#39;s, en verschijnt als (Laatste) aanraakpunt demo-02 op de Kans.
 

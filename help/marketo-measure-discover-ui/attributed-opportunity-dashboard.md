@@ -39,7 +39,7 @@ Gestapelde staafgrafiek met het Totaal toegewezen bedrag van de Kans, die door K
 * Welke kanalen produceerden het meest toegeschreven opportuniteitsbedrag elk kwartaal?
 * Wat was de uitsplitsing van toegewezen opportuniteitsbedrag per kanaal vorige maand?
 
-![ Attributed opportuniteitsbedrag door kanaal over tijdgrafiek ](assets/attributed-opportunity-dashboard-1.png)
+![&#x200B; Attributed opportuniteitsbedrag door kanaal over tijdgrafiek &#x200B;](assets/attributed-opportunity-dashboard-1.png)
 
 ### Tabel met toegewezen opportuniteitsbedrag {#attributed-opportunity-amount-table}
 
@@ -56,7 +56,7 @@ De tabellarische weergave biedt duidelijke en georganiseerde inzichten in de ver
 
 Klik op het pictogram **+** naast elk kanaal om de uitsplitsing naar subkanaal en campagne weer te geven.
 
-![ Attributed opportuniteitsbedrag tabelvormige mening door kanaal en campagne ](assets/attributed-opportunity-dashboard-2.png)
+![&#x200B; Attributed opportuniteitsbedrag tabelvormige mening door kanaal en campagne &#x200B;](assets/attributed-opportunity-dashboard-2.png)
 
 #### Boomstructuurweergave {#tree-view}
 
@@ -64,7 +64,7 @@ De boomweergave maakt een interactieve en korrelere gegevensverkenning mogelijk,
 
 Klik op een vertakking om dieper naar de volgende hiërarchische laag te gaan.
 
-![ Attributed de hiërarchie van de opportuniteitswaarde boommening ](assets/attributed-opportunity-dashboard-3.png)
+![&#x200B; Attributed de hiërarchie van de opportuniteitswaarde boommening &#x200B;](assets/attributed-opportunity-dashboard-3.png)
 
 ### Filtervenster
 

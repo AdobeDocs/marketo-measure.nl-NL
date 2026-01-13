@@ -25,11 +25,11 @@ Nadat u zich hebt aangemeld bij uw [!DNL Pardot] -account, voert u de onderstaan
 
 1. Selecteer **[!UICONTROL Layout Template]**.
 
-   ![ 3 ](assets/1-3.png)
+   ![&#x200B; 3 &#x200B;](assets/1-3.png)
 
 1. Bepaal de juiste lay-outsjabloon en klik rechts op **[!UICONTROL Edit]** .
 
-   ![ 1 ](assets/2-1.png)
+   ![&#x200B; 1 &#x200B;](assets/2-1.png)
 
 1. Kopieer en plak de [!DNL Marketo Measure] JavaScript-code net voor de eindkoptag op de HTML-pagina.
 

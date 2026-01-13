@@ -49,10 +49,10 @@ Andere redenen daarvoor kunnen aanleiding geven tot een herziening...
 * Controleer of u de meest recente versie van het pakket met aanraakpunten voor kopers hebt geïnstalleerd in [!DNL Salesforce]
 
 >[!NOTE]
->Als u het exporteren van gegevens naar Salesforce uitschakelt, worden bestaande gegevens niet verwijderd. Om het te verwijderen, volg de stappen in [ dit Salesforce hulpartikel ](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
+>Als u het exporteren van gegevens naar Salesforce uitschakelt, worden bestaande gegevens niet verwijderd. Om het te verwijderen, volg de stappen in [&#x200B; dit Salesforce hulpartikel &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
-> [ Update Buyer Touchpoint Package ](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
-> [[!DNL Marketo Measure] Machtigingssets ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
-> [Mappen Rapporten en dashboards delen ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
-> [Marketo Measure verbinden met Salesforce ](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+> [&#x200B; Update Buyer Touchpoint Package &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
+> [[!DNL Marketo Measure] Machtigingssets &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+> [Mappen Rapporten en dashboards delen &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+> [Marketo Measure verbinden met Salesforce &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

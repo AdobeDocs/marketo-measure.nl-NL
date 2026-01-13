@@ -19,6 +19,6 @@ Het [!DNL Marketo Measure] -verwerkingssysteem registreert niet dat een aanraakp
 
 Wanneer een aanraakpunt wordt verwijderd, ontstaat een gat in de toewijzingsgegevens. Typisch, zal dit in attributie aanraakpunten op een Kans duidelijk worden. In de onderstaande afbeelding is het aanraakpunt dat de Opportunity Creation-aanraking zou hebben gekregen, verwijderd. Als gevolg hiervan ontbreekt deze kans aan het aanraakpunt van de OC en zal het toewijzingspercentage voor deze Opp niet oplopen tot 100%.
 
-![ Ontbrekende Kans van de Aanmaak van de Kans touchpoint na schrapping ](assets/1.png)
+![&#x200B; Ontbrekende Kans van de Aanmaak van de Kans touchpoint na schrapping &#x200B;](assets/1.png)
 
-Als de touchpoints van uw SFDC zijn geschrapt, reik uit aan [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om een herinvoer van uw gegevens te verzoeken.
+Als de touchpoints van uw SFDC zijn geschrapt, reik uit aan [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om een herinvoer van uw gegevens te verzoeken.

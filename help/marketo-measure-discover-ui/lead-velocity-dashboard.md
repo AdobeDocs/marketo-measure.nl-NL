@@ -33,7 +33,7 @@ Vragen in de grafiek:
 * Welk verkoopstadium heeft typisch de langste duur voor lood/contacten?
 * Hoe verhoudt de tijd die in het stadium &#39;First touch&#39; doorgebracht wordt tot het stadium &#39;MQL&#39;?
 
-![ Lood of contactsnelheid door de grafiek van de de bar van het verkoopstadium ](assets/lead-velocity-dashboard-1.png)
+![&#x200B; Lood of contactsnelheid door de grafiek van de de bar van het verkoopstadium &#x200B;](assets/lead-velocity-dashboard-1.png)
 
 ### Snelheid van lead/contactpersoon in de loop der tijd {#lead-contact-velocity-over-time}
 
@@ -47,7 +47,7 @@ Vragen in de grafiek:
 * Wat zijn de trends in de tijd die in elk stadium wordt doorgebracht voor contacten/contacten gedurende de waargenomen maanden?
 * In welke maand hebben leads/contacten de snelste vooruitgang door de verkoopstadia ervaren?
 
-![ tendensen van de snelheid van het lood over de grafiek van de tijdlijn ](assets/lead-velocity-dashboard-2.png)
+![&#x200B; tendensen van de snelheid van het lood over de grafiek van de tijdlijn &#x200B;](assets/lead-velocity-dashboard-2.png)
 
 ### Snelheid lood/contact via kanaal {#lead-contact-velocity-by-channel}
 
@@ -60,7 +60,7 @@ Vragen in de grafiek:
 * Welk kanaal toont de snelste loodprogressie door de stadia van funnel?
 * Hoe varieert de snelheid van de lead in het &#39;MQL&#39;-werkgebied tussen de verschillende kanalen?
 
-![ de snelheid van het lood door grafiek van de kanaalvergelijking ](assets/lead-velocity-dashboard-3.png)
+![&#x200B; de snelheid van het lood door grafiek van de kanaalvergelijking &#x200B;](assets/lead-velocity-dashboard-3.png)
 
 ## Filtervenster {#filter-pane}
 

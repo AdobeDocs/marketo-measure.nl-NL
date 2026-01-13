@@ -55,7 +55,7 @@ Andere items die uw team ertoe kunnen aanzetten online kanaalonderhoud uit te vo
 Als een van de bovenstaande problemen zich onlangs in uw team heeft voorgedaan, raadt [!DNL Marketo Measure] u aan de regels voor online kanalen te herzien en de juiste wijzigingen aan te brengen.
 
 >[!MORELIKETHIS]
-> [ Online Opstelling van het Kanaal ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
-> [UTM-parameters ](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
-> [Het Kanaal van de marketing en Subchannel ](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
-> [Beste praktijken UTM ](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
+> [&#x200B; Online Opstelling van het Kanaal &#x200B;](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+> [UTM-parameters &#x200B;](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
+> [Het Kanaal van de marketing en Subchannel &#x200B;](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
+> [Beste praktijken UTM &#x200B;](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)

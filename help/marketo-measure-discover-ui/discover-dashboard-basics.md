@@ -52,7 +52,7 @@ Elk dashboard heeft een reeks filters, vergezeld van de volgende besturingseleme
 
 Houd de muisaanwijzer boven de rechterbovenhoek van een visuele afbeelding om een alleen-lezen lijst met toegepaste filters weer te geven.
 
-![ Filters-op-visuele tooltip lijst toegepaste filters ](assets/discover-dashboard-basics-3b.png)
+![&#x200B; Filters-op-visuele tooltip lijst toegepaste filters &#x200B;](assets/discover-dashboard-basics-3b.png)
 
 ## Rapportmogelijkheden {#report-capabilities}
 
@@ -60,49 +60,49 @@ Houd de muisaanwijzer boven de rechterbovenhoek van een visuele afbeelding om ee
 
 * Houd de muisaanwijzer boven een visueel element om te bepalen of het een hiërarchie heeft. De aanwezigheid van opties voor boorbesturing op de actiebalk geeft dit aan.
 
-![ ontdekt dashboard die boorcontroles op visueel ](assets/discover-dashboard-basics-4.png) tonen
+![&#x200B; ontdekt dashboard die boorcontroles op visueel &#x200B;](assets/discover-dashboard-basics-4.png) tonen
 
 * Activeer de boor-down door de enige benedenpijl te klikken, die door een grijze achtergrond wordt benadrukt. Gebruik het boor-uppictogram om terug te keren.
 
-![ Single-level die boor op een grafiek ](assets/discover-dashboard-basics-5.png) wordt geactiveerd
+![&#x200B; Single-level die boor op een grafiek &#x200B;](assets/discover-dashboard-basics-5.png) wordt geactiveerd
 
 Als u één veld tegelijk omlaag wilt boren, schakelt u het pictogram voor de keuzelijst in en selecteert u een visueel element, zoals een balk.
 
-![ die onderaan één gebied in een tijd op een grafiek ](assets/discover-dashboard-basics-6.gif) aandrijft
+![&#x200B; die onderaan één gebied in een tijd op een grafiek &#x200B;](assets/discover-dashboard-basics-6.gif) aandrijft
 
 Gebruik het pictogram met de dubbele pijl om naar het volgende hiërarchische niveau te gaan.
 
-![ Gebruikend dubbel-pijlboor neer aan volgende hiërarchie ](assets/discover-dashboard-basics-7.gif)
+![&#x200B; Gebruikend dubbel-pijlboor neer aan volgende hiërarchie &#x200B;](assets/discover-dashboard-basics-7.gif)
 
 Gebruik het vorkachtige pictogram om een extra hiërarchisch niveau in uw huidige mening toe te voegen.
 
-![ Toevoegend een extra hiërarchieniveau met het vorkpictogram ](assets/discover-dashboard-basics-8.gif)
+![&#x200B; Toevoegend een extra hiërarchieniveau met het vorkpictogram &#x200B;](assets/discover-dashboard-basics-8.gif)
 
 ### Doorboor {#drill-through}
 
 Als u de gegevens achter het visuele element wilt verkennen, klikt u met de rechtermuisknop op het visuele element en selecteert u de optie &quot;boor-through&quot;.
 
-![ klik boren-door met de rechtermuisknop aan gedetailleerde gegevens voor visueel ](assets/discover-dashboard-basics-9.gif)
+![&#x200B; klik boren-door met de rechtermuisknop aan gedetailleerde gegevens voor visueel &#x200B;](assets/discover-dashboard-basics-9.gif)
 
 ### Gegevens exporteren {#export-data}
 
 Als u de onderliggende gegevens vanuit een visuele achtergrond wilt exporteren, houdt u de muisaanwijzer boven de rechterbovenhoek. Klik op de knop &quot;Meer opties&quot;, kies &quot;Gegevens exporteren&quot;, selecteer de gewenste indeling en klik op &quot;Exporteren&quot;.
-![ het gegevensmenu van de Uitvoer van visueel dashboard ](assets/discover-dashboard-basics-10.gif)
+![&#x200B; het gegevensmenu van de Uitvoer van visueel dashboard &#x200B;](assets/discover-dashboard-basics-10.gif)
 
 ### Focusmodus {#focus-mode}
 
 Als u wilt inzoomen op een bepaald visueel of naast elkaar geplaatste tegel, beweegt u de muisaanwijzer over de rechterbovenhoek en selecteert u de knop &quot;Focus&quot;.
 
-![ die een dashboard visueel schakelen in nadrukwijze ](assets/discover-dashboard-basics-11.gif)
+![&#x200B; die een dashboard visueel schakelen in nadrukwijze &#x200B;](assets/discover-dashboard-basics-11.gif)
 
 ### Gekruist filteren {#cross-filtering}
 
 Als u een waarde- of aslabel in één visualisatie selecteert, worden andere visuele elementen op de rapportpagina kruisgefilterd, zodat alleen de relevante, gefilterde gegevens worden weergegeven.
 
-![ dwars-filtrerende visuals door een waarde op een grafiek te selecteren ](assets/discover-dashboard-basics-12.gif)
+![&#x200B; dwars-filtrerende visuals door een waarde op een grafiek te selecteren &#x200B;](assets/discover-dashboard-basics-12.gif)
 
 ### Knopinfo {#tooltips}
 
 Knopinfo bevat aanvullende informatie over de weergegeven gegevens. Houd de muisaanwijzer boven een visueel element en een contextafhankelijke knopinfo die inzichten of uitleg verschaft met betrekking tot dat specifieke gegevenspunt.
 
-![ tooltip die van de Bedekking contextafhankelijke gegevens over een dashboard visueel ](assets/discover-dashboard-basics-13.gif) tonen
+![&#x200B; tooltip die van de Bedekking contextafhankelijke gegevens over een dashboard visueel &#x200B;](assets/discover-dashboard-basics-13.gif) tonen

@@ -17,11 +17,11 @@ Met het besturingselement [!UICONTROL Discover Data Download] kunnen [!DNL Marke
 
 1. Klik op **[!UICONTROL Data Access]** onder [!UICONTROL Security] .
 
-   ![ de montagespagina van de Veiligheid met benadrukte optie van de Toegang van Gegevens ](assets/discover-data-download-access-control-1.png)
+   ![&#x200B; de montagespagina van de Veiligheid met benadrukte optie van de Toegang van Gegevens &#x200B;](assets/discover-data-download-access-control-1.png)
 
 1. Klik de drop-down en selecteer de aangewezen optie voor uw console.
 
-   ![ Gegevens downloadtoegang dropdown tonen Alle Gebruikers, slechts Gebruikers Admin, en niets ](assets/discover-data-download-access-control-2.png)
+   ![&#x200B; Gegevens downloadtoegang dropdown tonen Alle Gebruikers, slechts Gebruikers Admin, en niets &#x200B;](assets/discover-data-download-access-control-2.png)
 
    <table>
     <tr>
@@ -40,7 +40,7 @@ Met het besturingselement [!UICONTROL Discover Data Download] kunnen [!DNL Marke
 
 1. Klik op **[!UICONTROL Save]** als u klaar bent.
 
-   ![ ontdekt het beleid van de gegevensdownload opgeslagen bevestiging ](assets/discover-data-download-access-control-3.png)
+   ![&#x200B; ontdekt het beleid van de gegevensdownload opgeslagen bevestiging &#x200B;](assets/discover-data-download-access-control-3.png)
 
 >[!NOTE]
 >De instelling wordt mogelijk pas van kracht nadat gebruikers zich opnieuw hebben afgemeld en opnieuw zijn aangemeld.

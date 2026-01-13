@@ -87,10 +87,10 @@ Redenen voor het verbreken en opnieuw autoriseren zijn onder meer..
 Als uw team een van de bovenstaande scenario&#39;s heeft ervaren, controleert u uw API-verbindingen in de app van [!DNL Marketo Measure] om te controleren of deze niet opnieuw hoeven te worden geautoriseerd.
 
 >[!MORELIKETHIS]
-> [ Geïntegreerde Ad Platforms (APIs) ](/help/api-connections/integrated-ad-platforms.md)
+> [&#x200B; Geïntegreerde Ad Platforms (APIs) &#x200B;](/help/api-connections/integrated-ad-platforms.md)
 > [De invloed van Bodmanager-programma&#39;s  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
-> [[!DNL Marketo Measure] Uitgebreide API-parameters ](/help/api-connections/marketo-measure-parameters.md)
-> [Overzicht van Facebook API ](/help/api-connections/facebook-api.md)
-> [[!DNL LinkedIn] Overzicht van integratie ](/help/api-connections/linkedin-integration.md)
-> [Overzicht van de integratie van AdWords ](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
-> [Verbonden API-accounts opnieuw autoriseren ](/help/api-connections/reauthorizing-connected-accounts.md)
+> [[!DNL Marketo Measure] Uitgebreide API-parameters &#x200B;](/help/api-connections/marketo-measure-parameters.md)
+> [Overzicht van Facebook API &#x200B;](/help/api-connections/facebook-api.md)
+> [[!DNL LinkedIn] Overzicht van integratie &#x200B;](/help/api-connections/linkedin-integration.md)
+> [Overzicht van de integratie van AdWords &#x200B;](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
+> [Verbonden API-accounts opnieuw autoriseren &#x200B;](/help/api-connections/reauthorizing-connected-accounts.md)

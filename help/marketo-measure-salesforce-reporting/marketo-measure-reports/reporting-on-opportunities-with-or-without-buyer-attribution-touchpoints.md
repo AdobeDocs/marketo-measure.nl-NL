@@ -20,11 +20,11 @@ Maak een nieuw rapporttype waarin alle mogelijkheden worden opgenomen met of zon
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Report Types]** .
 
-   ![ 1 ](assets/1-1.jpg)
+   ![&#x200B; 1 &#x200B;](assets/1-1.jpg)
 
 1. Selecteer **[!UICONTROL New Custom Report Type]**.
 
-   ![ 1 ](assets/2-1.jpg)
+   ![&#x200B; 1 &#x200B;](assets/2-1.jpg)
 
 1. Stel het primaire object in als &quot;[!UICONTROL Opportunities]&quot;.
 
@@ -32,11 +32,11 @@ Maak een nieuw rapporttype waarin alle mogelijkheden worden opgenomen met of zon
    * Gebruik het zelfde noemen voor de Naam van het Type van Rapport. Binnen de ingevoerde beschrijving &quot;Opportunity with or without Buyer Attribution Touchpoints&quot;.
    * Sparen het Rapport binnen &quot;[!UICONTROL Other]&quot;en plaats het rapport aan &quot;[!UICONTROL Deployed]&quot;.
 
-   ![ 1 ](assets/3-1.jpg)
+   ![&#x200B; 1 &#x200B;](assets/3-1.jpg)
 
 1. Hierna koppelt u het Opportunity-object aan het object Aanraakpunten voor koperkenmerk. Zorg ervoor dat u de knop A-records kiest, maar dat deze al dan niet gerelateerde B-records hebben. Klik op **[!UICONTROL Save]** als u klaar bent.
 
-   ![ 1 ](assets/4-1.jpg)
+   ![&#x200B; 1 &#x200B;](assets/4-1.jpg)
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De extra Rapporten van SFDC ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De extra Rapporten van SFDC &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

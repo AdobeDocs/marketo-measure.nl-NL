@@ -55,7 +55,7 @@ Redenen om uw [!UICONTROL Touchpoint] -instellingen te bekijken zijn...
 * Wijzigingen in de velden die worden gebruikt om de onderdrukking- of verwijderingsregels te definiëren
 
 >[!MORELIKETHIS]
-> [ het Overzicht van de Verwijdering en van de Onderdrukking van het Aanraakpunt ](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
-> [Waarom aanraakpunten nooit mogen worden verwijderd ](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
-> [Aanraakpunten koper (BT) vs Aanraakpunten koper (BAT) ](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-differences.md)
+> [&#x200B; het Overzicht van de Verwijdering en van de Onderdrukking van het Aanraakpunt &#x200B;](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
+> [Waarom aanraakpunten nooit mogen worden verwijderd &#x200B;](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+> [Aanraakpunten koper (BT) vs Aanraakpunten koper (BAT) &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-differences.md)
 

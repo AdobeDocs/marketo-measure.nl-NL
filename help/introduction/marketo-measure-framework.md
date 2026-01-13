@@ -27,7 +27,7 @@ De Marketo Measure JavaScript volgt alle online marketinginteracties, ook wel aa
 `<script type="text/javascript" src="//[cdn.bizible.com/scripts/bizible.js](http://cdn.bizible.com/scripts/bizible.js)" async=""></script>`
 
 >[!NOTE]
->Voor instructies op hoe te om Marketo Measure JS toe te voegen, [ klik hier ](/help/marketo-measure-tracking/adding-marketo-measure-script.md).
+>Voor instructies op hoe te om Marketo Measure JS toe te voegen, [&#x200B; klik hier &#x200B;](/help/marketo-measure-tracking/adding-marketo-measure-script.md).
 
 Marketo Measure JS legt gegevens vast van webbezoeken (inclusief anonieme webbezoeken), algemene navigatie in het verkeer/de pagina, het downloaden van inhoud en het verzenden van formulieren. Deze gegevens worden in uw CRM geduwd en elke marketing interactie wordt getoond als touchpoint.
 
@@ -35,7 +35,7 @@ Marketo Measure JS legt gegevens vast van webbezoeken (inclusief anonieme webbez
 
 Marketo Measure integreert met CRM&#39;s om alle gegevens die door de JS van Marketo Measure zijn vastgelegd, te huisvesten en te organiseren. Marketo Measure heeft momenteel API-integratie met twee CRM&#39;s:
 
-![ 2 ](assets/1-2.png)
+![&#x200B; 2 &#x200B;](assets/1-2.png)
 
 Door Marketo Measure-gegevens in uw CRM op te zoeken, kunt u de korrelinformatie met betrekking tot elk aanraakpunt bekijken en rapporten genereren om te begrijpen hoe uw kanalen presteren.
 
@@ -43,7 +43,7 @@ Door Marketo Measure-gegevens in uw CRM op te zoeken, kunt u de korrelinformatie
 
 De meeste marketeers vertrouwen op een paar verschillende toepassingen om hun marketinginspanningen te kunnen uitvoeren. Naast Salesforce en MS Dynamics is Marketo Measure geïntegreerd met 13 toepassingen van derden (zie hieronder).
 
-![ 1 ](assets/2-1.png)
+![&#x200B; 1 &#x200B;](assets/2-1.png)
 
 Als u marketingactiviteiten uitvoert met bovenstaande toepassingen, kunt u deze accounts koppelen aan uw Marketo Measure-account. Zo kunt u gegevens gemakkelijk bijhouden en naar uw Marketo Measure-account overdragen.
 
