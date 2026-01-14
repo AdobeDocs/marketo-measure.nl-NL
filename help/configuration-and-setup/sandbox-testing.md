@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Een van de kernfuncties van [!DNL Marketo Measure] is de mogelijkheid om uw digitale marketinginspanningen te volgen via acties op uw website en deze gegevens vervolgens naar uw productie te verplaatsen [!DNL Salesforce org] via leads en contactpersonen. Er zijn echter meestal geen inkomende leads gemaakt van uw website binnen een Sandbox-integratie, zodat de focus op gegevens louter offline zal zijn.
 
-Hier zijn de twee bronnen waarnaar voor beide fasen van de test wordt verwezen. [ Stappen 1-4 ](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5) en [ Stappen 5-6 ](/help/channel-tracking-and-setup/syncing-offline-campaigns.md). Het wordt aanbevolen deze documenten te herzien omdat ze op sommige gebieden gedetailleerder zijn.
+Hier zijn de twee bronnen waarnaar voor beide fasen van de test wordt verwezen. [&#x200B; Stappen 1-4 &#x200B;](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5) en [&#x200B; Stappen 5-6 &#x200B;](/help/channel-tracking-and-setup/syncing-offline-campaigns.md). Het wordt aanbevolen deze documenten te herzien omdat ze op sommige gebieden gedetailleerder zijn.
 
 1. U moet enkele leads maken in een CSV zodat u deze kunt uploaden naar een campagne. De manier om dit te doen is sommige Leads door een rapport in uw productie Salesforce uit te voeren. Anders kunt u handmatig leads maken in een Excel-bestand en deze vervolgens opslaan als een CSV-bestand voor importeren. U hebt maar ongeveer 20 records nodig. Het bestand moet de volgende kolommen hebben:
 

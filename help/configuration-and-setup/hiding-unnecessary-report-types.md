@@ -24,8 +24,8 @@ Nadat u de installatie hebt voltooid en rapporten hebt gebruikt, wordt niet elk 
 
 1. Klik op de onderstaande rapporten met een oranje X om de rapportlijst er hetzelfde te laten uitzien als de onderstaande afbeelding.
 
-   ![1. Klik op de onderstaande rapporten met een oranje X om deze te maken ](assets/bizible-full-1.png)
+   ![1. Klik op de onderstaande rapporten met een oranje X om deze te maken &#x200B;](assets/bizible-full-1.png)
 
 >[!MORELIKETHIS]
 >
->[ Salesforce - verberg Ongebruikte Types van Rapport ](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)
+>[&#x200B; Salesforce - verberg Ongebruikte Types van Rapport &#x200B;](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

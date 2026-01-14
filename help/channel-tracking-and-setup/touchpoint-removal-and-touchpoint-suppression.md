@@ -33,7 +33,7 @@ Begin met het toevoegen van een regel en het selecteren van het Gebied dat uw cr
 
 Maak een keuze in een lijst met operatoren die betrekking hebben op de volgende reeks waarden die u in de volgende kolom toevoegt.
 
-![ kies van een lijst van Exploitanten die op volgende ](assets/touchpoint-settings-10.png) zullen betrekking hebben
+![&#x200B; kies van een lijst van Exploitanten die op volgende &#x200B;](assets/touchpoint-settings-10.png) zullen betrekking hebben
 
 >[!TIP]
 >
@@ -50,19 +50,19 @@ Maak een keuze in een lijst met operatoren die betrekking hebben op de volgende 
 `2)` Voeg regels binnen dezelfde groep toe om de logica AND in uw instructie te gebruiken.
 U kunt ook nieuwe instructies buiten de groep toevoegen om de logica &quot;OR&quot; in uw instructie te gebruiken.
 
-![ of, voeg nieuwe verklaringen buiten de groep toe om &quot;OF&quot;logica ](assets/touchpoint-settings-11.png) te gebruiken
+![&#x200B; of, voeg nieuwe verklaringen buiten de groep toe om &quot;OF&quot;logica &#x200B;](assets/touchpoint-settings-11.png) te gebruiken
 
 `3)` Als uw regels complex worden en u groepen opnieuw moet maken en kleine wijzigingen in elke instructie moet aanbrengen, gebruikt u de optie [!UICONTROL Clone] om de regels eenvoudiger te maken.
 
-![  als uw regels complex worden en u groepen ](assets/touchpoint-settings-6.png) moet ontspannen
+![&#x200B;  als uw regels complex worden en u groepen &#x200B;](assets/touchpoint-settings-6.png) moet ontspannen
 
 Als je een fout maakt, maak je dan geen zorgen. U kunt ook afzonderlijke rijen van uw instructie of volledige groepen verwijderen.
 
-![ als u een fout maakt, maak zich geen zorgen. U kunt afzonderlijke rijen verwijderen ](assets/touchpoint-settings-7.png)
+![&#x200B; als u een fout maakt, maak zich geen zorgen. U kunt afzonderlijke rijen verwijderen &#x200B;](assets/touchpoint-settings-7.png)
 
 `4)` Stel regels in voor de aanraakpunten voor koperkenmerken als u deze op beide objecten wilt toepassen. Met onze flexibiliteit kunt u regels instellen voor één object of beide objecten en deze voor beide instellen als deze van toepassing zijn.
 
-![  de regels van de opstelling voor de Aanraakpunten van de Attributie van de Koper als u ](assets/touchpoint-settings-8.png) wilt
+![&#x200B;  de regels van de opstelling voor de Aanraakpunten van de Attributie van de Koper als u &#x200B;](assets/touchpoint-settings-8.png) wilt
 
 Om te voltooien, [!UICONTROL Save and Process] uw regels. Als u veel wijzigingen aanbrengt, moet u uw wijzigingen onderweg opslaan. [!DNL Marketo Measure] verwijdert uw aanraakpunten pas wanneer u klikt
 [!UICONTROL **sparen en Proces**].

@@ -32,23 +32,23 @@ U wordt aangeraden de [!DNL Marketo Measure] -velden alleen voor uw sandbox toe 
 
 1. Klik op **[!UICONTROL Edit]** naast de pagina-indeling die u wilt bijwerken.
 
-   ![1. Klik op Bewerken naast de gewenste pagina-indeling ](assets/marketo-salesforce-1.jpg)
+   ![1. Klik op Bewerken naast de gewenste pagina-indeling &#x200B;](assets/marketo-salesforce-1.jpg)
 
 1. Selecteer het veld [!UICONTROL fields] in de optie **[!UICONTROL Enable Buyer Touchpoints]** en sleep het veld naar de gewenste positie op de pagina. Voeg vervolgens de velden **[!UICONTROL Touchpoint Start Date]** en **[!UICONTROL Touchpoint End Date]** toe.
 
-   ![1. Selecteer de optie Aanraakpunten koper inschakelen binnen de velden ](assets/bizible-full-1.png)
+   ![1. Selecteer de optie Aanraakpunten koper inschakelen binnen de velden &#x200B;](assets/bizible-full-1.png)
 
 1. Vervolgens klikt u boven aan de pagina op de optie &quot;[!UICONTROL Buttons]&quot; in het snelmenu Zoeken.
 
 1. Sleep de knop **[!UICONTROL Bulk Update Touchpoint Date]** naar het gedeelte met aangepaste knoppen.
 
-   ![1. Sleep de Bulk knoop van de Datum van het Aanraakpunt van de Update aan uw douane ](assets/bizible-taxonomy-1.png)
+   ![1. Sleep de Bulk knoop van de Datum van het Aanraakpunt van de Update aan uw douane &#x200B;](assets/bizible-taxonomy-1.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
-   >Als u meerdere soorten campagnemerrecords gebruikt, moet u de waarden in de keuzelijst voor het veld **[!UICONTROL Enable Buyer Touchpoints]** bijwerken. Verwijs naar [ dit artikel ](/help/channel-tracking-and-setup/configurations-record-types.md) voor instructies.
+   >Als u meerdere soorten campagnemerrecords gebruikt, moet u de waarden in de keuzelijst voor het veld **[!UICONTROL Enable Buyer Touchpoints]** bijwerken. Verwijs naar [&#x200B; dit artikel &#x200B;](/help/channel-tracking-and-setup/configurations-record-types.md) voor instructies.
 
 ## Leads {#leads}
 
@@ -64,7 +64,7 @@ U wordt aangeraden de [!DNL Marketo Measure] -velden alleen voor uw sandbox toe 
 
 1. Sleep de pagina **[!UICONTROL Marketo Measure Lead Related List]** VisualForce in uw sectie van de paginalay-out.
 
-   ![1. Sleep de Marketo Measure Lead Related pagina VisualForce in ](assets/connect-salesforce-1.png)
+   ![1. Sleep de Marketo Measure Lead Related pagina VisualForce in &#x200B;](assets/connect-salesforce-1.png)
 
 1. Klik op de moersleutel in de pagina [!DNL VisualForce] en wijzig de hoogte in 100 en schakel schuifbalken in.
 
@@ -74,9 +74,9 @@ U wordt aangeraden de [!DNL Marketo Measure] -velden alleen voor uw sandbox toe 
 
    >[!NOTE]
    >
-   >Voor [!DNL Marketo Measure Insights] App van het Canvas behoorlijk te functioneren, [ toestemmingen moeten behoorlijk worden gevormd ](/help/configuration-and-setup/marketo-measure-insights-configuration.md).
+   >Voor [!DNL Marketo Measure Insights] App van het Canvas behoorlijk te functioneren, [&#x200B; toestemmingen moeten behoorlijk worden gevormd &#x200B;](/help/configuration-and-setup/marketo-measure-insights-configuration.md).
 
-Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, [ klik hier voor extra instructies van de paginalay-out ](/help/channel-tracking-and-setup/account-based-marketing-overview.md).
+Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, [&#x200B; klik hier voor extra instructies van de paginalay-out &#x200B;](/help/channel-tracking-and-setup/account-based-marketing-overview.md).
 
 ## Contactpersonen {#contacts}
 
@@ -177,4 +177,4 @@ Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, [ klik hier voor extra 
 
 1. Klik op **[!UICONTROL Save]**.
 
-Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, herzie de [ extra instructies van de paginalay-out ](/help/channel-tracking-and-setup/account-based-marketing-overview.md).
+Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, herzie de [&#x200B; extra instructies van de paginalay-out &#x200B;](/help/channel-tracking-and-setup/account-based-marketing-overview.md).

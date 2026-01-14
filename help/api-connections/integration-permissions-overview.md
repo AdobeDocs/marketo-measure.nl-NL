@@ -106,11 +106,11 @@ Beveiligingsrollen bevinden zich hier: Instellingen &gt; Beveiliging &gt; Beveil
 <br>
 Voor aangepaste Marketo Measure-entiteiten hebben we volledige machtigingen voor al onze entiteiten nodig.
 <p>
-<b> de StandaardToestemmingen van het Gebied van de Dynamiek 0} {
+<b> de StandaardToestemmingen van het Gebied van de Dynamiek 0&rbrace; &lbrace;
 </b>
 <br> het Schema van de Dynamica van Marketo Measure <a href="/help/marketo-measure-dynamics-schema.md"></a>
 <p>
-<b> de Toestemmingen van het Gebied van de Douane van 0} Dynamiek
+<b> de Toestemmingen van het Gebied van de Douane van 0&rbrace; Dynamiek
 </b>
 Wij hebben LEZEN toegang voor om het even welk gebied op de Leiding of entiteit van het Contact nodig die de klant voor de regels van de Montages van de Douane wil gebruiken onderdrukken/verwijderen Touchpoint.
 <br>
@@ -241,4 +241,4 @@ Marketo Measure volgt campagnes, ad-hocgroepen, Creative Cloud, Site Links en Tr
 </table>
 
 >[!MORELIKETHIS]
->[ Meldingen van de Fout ](/help/configuration-and-setup/error-notifications.md){target="_blank"}
+>[&#x200B; Meldingen van de Fout &#x200B;](/help/configuration-and-setup/error-notifications.md){target="_blank"}

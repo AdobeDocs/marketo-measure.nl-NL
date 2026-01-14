@@ -16,7 +16,7 @@ Leer wat de functie Datums synchroniseren van de Campagne doet, en bied enkele g
 
 >[!NOTE]
 >
->Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [ nieuwe, verbeterde in-app proces ](/help/channel-tracking-and-setup/custom-campaign-sync.md){target="_blank"} te gebruiken.
+>Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [&#x200B; nieuwe, verbeterde in-app proces &#x200B;](/help/channel-tracking-and-setup/custom-campaign-sync.md){target="_blank"} te gebruiken.
 
 **[!DNL Marketo Measure]Vereist pakket: 6.9 of hoger**
 
@@ -27,7 +27,7 @@ Deze functie bestaat uit twee eenvoudige datumvelden in het [!DNL Salesforce] Ca
 
 Wanneer Aanraakpunten voor kopers zijn ingeschakeld voor een bepaalde campagne, kunt u met de synchronisatiedatums voor campagnes de parameters Aanraakpunt datum instellen voor de afzonderlijke campagne. Als u dus een einddatum van het aanraakpunt van 1 maart 2017 toevoegt, maakt [!DNL Marketo Measure] alleen aanraakpunten op campagneleden die vóór die datum aan de campagne zijn toegevoegd. [!DNL Marketo Measure] maakt geen aanraakpunten voor campagsleden die na 1 maart 2017 zijn toegevoegd.
 
-![ Zodra de Aanraakpunten van de Koper op een bepaalde campagne worden toegelaten, de Datums van de Synchronisatie van de Campagne ](assets/legacy-processes-3.gif)
+![&#x200B; Zodra de Aanraakpunten van de Koper op een bepaalde campagne worden toegelaten, de Datums van de Synchronisatie van de Campagne &#x200B;](assets/legacy-processes-3.gif)
 
 En als u een aanraakpunt Begindatum toevoegt aan een campagne (bijvoorbeeld 1 januari 2017), maakt [!DNL Marketo Measure] geen aanraakpunten op campagneleden die vóór 1 januari 2017 zijn toegevoegd aan de campagne. U hoeft geen Begindatum van een aanraakpunt toe te voegen als u een Einddatum van een aanraakpunt en vice versa toevoegt.
 
@@ -41,4 +41,4 @@ Er kunnen tijden zijn wanneer een marketing team het toevoegen van parameters va
 
 Als u een nieuwe [!DNL Marketo Measure] klant bent, bent u wellicht geïnteresseerd in het doorgeven van enkele marketinggegevens die u via SFDC Campaigns hebt bijgehouden. Als u echter aanraakpunten wilt inschakelen voor uw online SFDC-campagnes, kunt u het probleem van de attributie van dubbeltelling oplossen, aangezien [!DNL Marketo Measure] automatisch aanraakpunten maakt voor uw online marketingactiviteiten. Als u wilt voorkomen dat gegevens dubbel worden geteld, kunt u Einddatums van aanraakpunten gebruiken om een limiet in te stellen voor de aanraakpuntdatums die door [!DNL Marketo Measure] in de SFDC-campagne zijn gemaakt. Als u bijvoorbeeld retroactieve conversies wilt toevoegen voor een sociale campagne die u hebt bijgehouden in SFDC, maar u begrijpt dat u de [!DNL Marketo Measure] JavaScript (die online aanraakpunten maakt) op 1 juli hebt toegevoegd, kunt u de campagne voor sociale SFDC bewerken met een aanraakpunteinddatum die gelijk is aan 1 juli en Aanraakpunten voor die campagne inschakelen.
 
-Er kunnen vele andere gebruiksgevallen zijn voor de Einddata van het Aanraakpunt. Als u hulp het uitzoeken van een specifieke situatie nodig hebt, aarzel niet om uit te reiken aan [ de Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Er kunnen vele andere gebruiksgevallen zijn voor de Einddata van het Aanraakpunt. Als u hulp het uitzoeken van een specifieke situatie nodig hebt, aarzel niet om uit te reiken aan [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

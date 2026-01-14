@@ -22,14 +22,14 @@ Als op uw SFDC-org meerdere typen campagnemerecords worden gebruikt, moeten de k
 
 1. Selecteer de types van Verslag van de Campagne door **[!UICONTROL Record Type Label]** te klikken, niet de [!UICONTROL edit] knoop.
 
-   ![1. Selecteer de Types van Verslag van de Campagne door het Type van Verslag te klikken ](assets/offline-channels-15.jpg)
+   ![1. Selecteer de Types van Verslag van de Campagne door het Type van Verslag te klikken &#x200B;](assets/offline-channels-15.jpg)
 
 1. Hier wordt u gebracht aan het scherm met de beschikbare picklists voor dat verslagtype. Selecteer **[!UICONTROL Edit]** naast het veld Aanraakpunten koper inschakelen.
 
-   ![1. Hier wordt u gebracht aan het scherm met de beschikbare picklists voor ](assets/offline-channels-18.jpg)
+   ![1. Hier wordt u gebracht aan het scherm met de beschikbare picklists voor &#x200B;](assets/offline-channels-18.jpg)
 
 1. Voeg alle drie waarden uit de groep Beschikbare waarden toe aan de groep Geselecteerde waarden.
 
-   ![1. Voeg alle drie waarden van de &quot;Beschikbare Waarden&quot;groepering aan ](assets/offline-channels-10.jpg) toe
+   ![1. Voeg alle drie waarden van de &quot;Beschikbare Waarden&quot;groepering aan &#x200B;](assets/offline-channels-10.jpg) toe
 
 1. Stel de standaardwaarde in op Geen en klik op **[!UICONTROL Save]** . Herhaal deze bewerking voor alle extra typen campagneopnamen.

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [ nieuwe, verbeterde in-app proces ](/help/channel-tracking-and-setup/custom-campaign-sync.md){target="_blank"} te gebruiken.
+>Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [&#x200B; nieuwe, verbeterde in-app proces &#x200B;](/help/channel-tracking-and-setup/custom-campaign-sync.md){target="_blank"} te gebruiken.
 
 ## Campagnes {#campaigns}
 
@@ -24,23 +24,23 @@ De Campagnes van de dynamiek zijn goed voor het volgen van off-line marketing ac
 
 Wanneer de Leads of de Contacten rechtstreeks aan een Campagne worden toegevoegd, zijn zij ingegaan als verslag van de Reactie van de Campagne.
 
-![ wanneer de Leidingen of de Contacten direct aan een Campagne worden toegevoegd, zijn zij ingegaan ](assets/dynamics-lists-1.png)
+![&#x200B; wanneer de Leidingen of de Contacten direct aan een Campagne worden toegevoegd, zijn zij ingegaan &#x200B;](assets/dynamics-lists-1.png)
 
 ## Aanraakpunten inschakelen {#enable-touchpoints}
 
 Om deze verslagen in touchpoint reis te omvatten, zijn er een paar opties voor de types van de Reacties van de Campagne aan synchronisatie. Voor het verslag van de Campagne, zou er een douanegebied van de geïnstalleerde oplossing geëtiketteerd, &quot;[!UICONTROL Enable Buyer Touchpoints] moeten zijn.&quot; Als dit niet wordt weergegeven, moet het veld worden toegevoegd via de formuliereditor.
 
-![ om deze verslagen in de touchpoint reis te omvatten, zijn er enkelen ](assets/dynamics-lists-10.png)
+![&#x200B; om deze verslagen in de touchpoint reis te omvatten, zijn er enkelen &#x200B;](assets/dynamics-lists-10.png)
 
 U kunt selecteren om alle verslagen op te nemen die een Reactie van de Campagne in de Campagne hebben, of slechts die met een Reactie van &quot;Geïnteresseerde,&quot;of door gebrek, kunt u de Reacties van de Campagne bij allen niet omvatten. U kunt het veld leeg laten of expliciet uitsluiten.
 
 [!DNL Marketo Measure] biedt geen ondersteuning voor aangepaste reactiewaarden.
 
-![ Marketo Measure steunt de geen waarden van de douaneReactie.](assets/dynamics-lists-2.png)
+![&#x200B; Marketo Measure steunt de geen waarden van de douaneReactie.](assets/dynamics-lists-2.png)
 
 Dit zijn de reactiewaarden van de voorraad voor de Campagne Reactie:
 
-![ dit zijn de waarden van de voorraadreactie voor de Reactie van de Campagne:](assets/dynamics-lists-3.png)
+![&#x200B; dit zijn de waarden van de voorraadreactie voor de Reactie van de Campagne:](assets/dynamics-lists-3.png)
 
 Gebaseerd op uw selectie, zijn deze verslagen nu verkiesbaar voor aanraakpunten in de reis van de Lood, van het Contact, of van de Kans. Als ze hiervoor in aanmerking komen, verschijnt er op de reis een aanraakpunt met de titel &quot;Dynamics Campaign&quot;.
 
@@ -52,7 +52,7 @@ De aanraakpuntdatum voor een campagne bevindt zich gewoonlijk op de datum waarop
 
 Dit veld wordt veel gebruikt voor gebeurtenissen waarbij een lijst met badge-scans van een gebeurtenis wordt toegevoegd aan de CRM-dagen nadat de gebeurtenis heeft plaatsgevonden, zodat de gebruiker de Buyer Touchpoint-datum kan wijzigen van het moment waarop de gebeurtenis heeft plaatsgevonden.
 
-![ Één gemeenschappelijk voorbeeld dat dit gebied gebruikt is voor gebeurtenissen waar een lijst ](assets/dynamics-lists-4.png)
+![&#x200B; Één gemeenschappelijk voorbeeld dat dit gebied gebruikt is voor gebeurtenissen waar een lijst &#x200B;](assets/dynamics-lists-4.png)
 
 ## Marketinglijsten {#marketing-lists}
 
@@ -60,7 +60,7 @@ Marketing List is een andere manier om leads of contactpersonen op te nemen in e
 
 [!DNL Marketo Measure] ondersteunt alleen statische marketinglijsten. Dynamische marketinglijsten worden niet ondersteund omdat de verwerking vereist dat we de Gewijzigde datum van een record inchecken, maar omdat een dynamische lijst vaak wordt gewijzigd, is er geen Gewijzigde datum waarop [!DNL Marketo Measure] moet worden gecontroleerd. Dit zou een constante download van de volledige gegevensreeks door de dag vereisen.
 
-![ Marketo Measure steunt slechts Statische Marketing Lijsten. We bieden geen ondersteuning voor ](assets/dynamics-lists-5.png)
+![&#x200B; Marketo Measure steunt slechts Statische Marketing Lijsten. We bieden geen ondersteuning voor &#x200B;](assets/dynamics-lists-5.png)
 
 De bovenstaande schermafbeelding is een marketinglijst voor leads. Marketinglijsten zijn gekoppeld aan campagnes en kunnen worden gekoppeld aan meerdere campagnes. Tenzij u slechts één Marketing List voor één Campagne creeert, adviseert [!DNL Marketo Measure] niet dat de klanten de Lijsten van de Marketing gebruiken om hun Campagnes te volgen. Het is onwaarschijnlijk dat dezelfde exacte lijst van leads/contactpersonen in aanmerking komt voor aanraakpunten in meerdere campagnes.
 
@@ -68,13 +68,13 @@ De bovenstaande schermafbeelding is een marketinglijst voor leads. Marketinglijs
 
 Om een Lijst van de Marketing voor touchpoints toe te laten, is er een afzonderlijke het plaatsen op het verslag van de Campagne geëtiketteerd, &quot;[!UICONTROL Sync Marketing Lists],&quot;wat een eenvoudige ja/neen schakelaar is. Als dit niet wordt weergegeven, moet het veld worden toegevoegd via de formuliereditor. Terwijl op het verslag van de Campagne, kunt u zien welke Lijsten van de Marketing met de Campagne verwant zijn zodat u weet hoeveel Lijsten u toelaat.
 
-![ om een Lijst van de Marketing voor touchpoints toe te laten, is er het afzonderlijke plaatsen ](assets/legacy-processes-10.png)
+![&#x200B; om een Lijst van de Marketing voor touchpoints toe te laten, is er het afzonderlijke plaatsen &#x200B;](assets/legacy-processes-10.png)
 
 ## Aanraakpuntdatum {#touchpoint-date-1}
 
 De Datum van het Aanraakpunt voor een Lijst van de Marketing is typisch ListMember gecreeerd datum, zodat de datum dat de Lood of het Contact aan de Lijst van de Marketing werd toegevoegd. Het kan worden met voeten getreden als het douanegebied van de geïnstalleerde oplossing geëtiketteerd, &quot;Datum van Buyer Touchpoint,&quot;bevolkt is. Als dit niet wordt weergegeven, moet het veld worden toegevoegd via de formuliereditor.
 
-![ de Datum van het Aanraakpunt voor een Lijst van de Marketing is typisch ListMember gecreeerd ](assets/dynamics-lists-6.png)
+![&#x200B; de Datum van het Aanraakpunt voor een Lijst van de Marketing is typisch ListMember gecreeerd &#x200B;](assets/dynamics-lists-6.png)
 
 ## Kanaaltoewijzing {#channel-mapping}
 
@@ -84,9 +84,9 @@ De waarden in het menu Type campagne worden in de [!DNL Marketo Measure] -toepas
 
 Voor elk Type van Campagne, kan het aan een combinatie van het Kanaal en Subchannel worden in kaart gebracht zodat elk aanraakpunt dat uit de Campagne voortkomt het correcte in kaart gebrachte Kanaal en Subchannel zal hebben.
 
-![ voor elk Type van Campagne, kan het aan een Kanaal worden in kaart gebracht en ](assets/dynamics-lists-7.png)
+![&#x200B; voor elk Type van Campagne, kan het aan een Kanaal worden in kaart gebracht en &#x200B;](assets/dynamics-lists-7.png)
 
-![ voor elk Type van Campagne, kan het aan een Kanaal worden in kaart gebracht en ](assets/dynamics-lists-8.png)
+![&#x200B; voor elk Type van Campagne, kan het aan een Kanaal worden in kaart gebracht en &#x200B;](assets/dynamics-lists-8.png)
 
 ## Synchronisatiedatum campagne {#campaign-sync-date}
 

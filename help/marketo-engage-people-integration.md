@@ -19,7 +19,7 @@ Dankzij de integratie van Marketo-personen kan [!DNL Marketo Measure] beginnen m
 * Production Marketo-instantie
 * Production [!DNL Salesforce] of [!DNL Microsoft Dynamics] -instantie
 * Alle betaalde [!DNL Marketo Measure] -abonnementen
-* SOLR toegelaten (reik uit aan [ de Steun van Marketo ](https://nation.marketo.com/t5/Support/ct-p/Support) om dit te hebben toegelaten)
+* SOLR toegelaten (reik uit aan [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/Support/ct-p/Support) om dit te hebben toegelaten)
 
 ## Hoe het werkt {#how-it-works}
 
@@ -31,9 +31,9 @@ Wanneer [!DNL Marketo Measure] de Marketo-persoon met succes toewijst aan een we
 
 Om deze duplicaten te kunnen detecteren, moet u ervoor zorgen dat uw [!DNL Marketo-Salesforce] - of [!DNL Marketo-Dynamics] -sync de ID van de lead en contactpersoon vult op de Marketo-persoon. Als identiteitskaart behoorlijk synchroniseert, zou u CRM Id op het Persoon verslag moeten kunnen zien, als dit:
 
-![ zodat wij deze duplicaten ontdekken, zorg uw ](assets/marketo-engage-programs-06.png) ervoor
+![&#x200B; zodat wij deze duplicaten ontdekken, zorg uw &#x200B;](assets/marketo-engage-programs-06.png) ervoor
 
-![ zodat wij deze duplicaten ontdekken, zorg uw ](assets/marketo-engage-programs-07.png) ervoor
+![&#x200B; zodat wij deze duplicaten ontdekken, zorg uw &#x200B;](assets/marketo-engage-programs-07.png) ervoor
 
 Klanten kunnen de volledige set Marketo-personen en CRM-personen rapporteren in [!DNL Marketo Measure] Discover. Als u in het melden van de mensen van CRM slechts geinteresseerd bent, adviseren wij het creëren van een Segment om hen te filtreren.
 
@@ -41,9 +41,9 @@ Klanten kunnen de volledige set Marketo-personen en CRM-personen rapporteren in 
 
 Bij rapportage over leads (personen) in [!DNL Marketo Measure Discover] wordt het totaal van uw Marketo- en CRM-leads weergegeven. Als u alleen Marketo-personen of alleen CRM-leads wilt rapporteren, wilt u een Segmentcategorie voor uw bron maken en vervolgens Segmentregels voor Marketo en CRM maken met het veld Source System om de regel te definiëren. Nadat u de segmenten hebt gemaakt, ziet u de Source-categorie die beschikbaar is om te filteren over de [!DNL Marketo Measure Discover] -dashboards.
 
-![ wanneer het melden van lood (mensen) in Marketo Measure Discover, zult u ](assets/bizible-discover-1.png)
+![&#x200B; wanneer het melden van lood (mensen) in Marketo Measure Discover, zult u &#x200B;](assets/bizible-discover-1.png)
 
-![ wanneer het melden van lood (mensen) in Marketo Measure Discover, zult u ](assets/bizible-discover-2.png)
+![&#x200B; wanneer het melden van lood (mensen) in Marketo Measure Discover, zult u &#x200B;](assets/bizible-discover-2.png)
 
 ## Veldtoewijzingen {#field-mappings}
 

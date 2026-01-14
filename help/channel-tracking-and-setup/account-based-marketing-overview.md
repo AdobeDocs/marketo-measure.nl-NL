@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Overzicht van accountgebaseerde marketing {#account-based-marketing-overview}
 
-In de volgende secties vindt u een kort overzicht van ABM, de componenten van de functie [!DNL Marketo Measure] ABM en hoe u deze kunt toevoegen aan de pagina-indeling van [!DNL Salesforce] . Om meer over ABM te lezen, herzie Adobe [ ABM blog ](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
+In de volgende secties vindt u een kort overzicht van ABM, de componenten van de functie [!DNL Marketo Measure] ABM en hoe u deze kunt toevoegen aan de pagina-indeling van [!DNL Salesforce] . Om meer over ABM te lezen, herzie Adobe [&#x200B; ABM blog &#x200B;](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
 
-Voor gedetailleerde instructies voor vestiging ABM binnen uw [!DNL Salesforce] instantie, ga [ Vestiging ABM paginalay-out in Salesforce ](/help/channel-tracking-and-setup/account-based-marketing-overview.md){target="_blank"}.
+Voor gedetailleerde instructies voor vestiging ABM binnen uw [!DNL Salesforce] instantie, ga [&#x200B; Vestiging ABM paginalay-out in Salesforce &#x200B;](/help/channel-tracking-and-setup/account-based-marketing-overview.md){target="_blank"}.
 
 ## Wat is ABM {#what-is-abm}
 
@@ -82,12 +82,12 @@ Als u de ODA&#39;s wilt gaan gebruiken, moet u het veld ODA&#39;s en de lijst Ve
 
 1. Ga ten slotte naar [!UICONTROL Related Lists] en verplaats de lijst met verwante leads naar uw paginalay-out.
 
-   ![1. Tot slot ga naar Verwante Lijsten en verplaats de &quot;Verwante Leads&quot;Verwante ](assets/account-marketing-4.jpg)
+   ![1. Tot slot ga naar Verwante Lijsten en verplaats de &quot;Verwante Leads&quot;Verwante &#x200B;](assets/account-marketing-4.jpg)
 
 1. Navigeer vervolgens naar **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Leads]** > **[!UICONTROL Page Layout]** en selecteer de gewenste paginalay-outs die u wilt bewerken.
 1. Klik op **[!UICONTROL Fields]** en voeg het veld [!UICONTROL Account] toe waar u de pagina ziet passen.
 
-   ![1. Klik Gebieden en voeg het gebied van de Rekening toe waar u ](assets/account-marketing-5.png)
+   ![1. Klik Gebieden en voeg het gebied van de Rekening toe waar u &#x200B;](assets/account-marketing-5.png)
 
 U bent klaar!
 

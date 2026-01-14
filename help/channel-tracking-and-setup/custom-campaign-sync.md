@@ -28,7 +28,7 @@ Vandaag kunt u met het geïnstalleerde [!DNL Marketo Measure] -pakket aangeven w
 
 1. U kunt een regel maken in [!UICONTROL Campaign] - of [!UICONTROL Campaign Member] -velden. Vul de rest van de regel in met de operator en de waarde die we moeten valideren. In het onderstaande voorbeeld zoeken we op naam naar een specifieke campagne.
 
-   ![1. U hebt de optie om een regel van Campagne te creëren ](assets/offline-channels-10.jpg)
+   ![1. U hebt de optie om een regel van Campagne te creëren &#x200B;](assets/offline-channels-10.jpg)
 
    >[!NOTE]
    >
@@ -36,7 +36,7 @@ Vandaag kunt u met het geïnstalleerde [!DNL Marketo Measure] -pakket aangeven w
 
 1. Kies de aanraakpuntdatum. De lijst met mogelijke datums wordt weergegeven nadat u een accolade hebt ingevoerd `{` . Vervolgens kunt u de datum selecteren die u wilt toepassen op alle aanraakpunten die met de regel zijn gemaakt.
 
-   ![1. Kies de aanraakpuntdatum. De lijst met mogelijke datums wordt weergegeven ](assets/offline-channels-11.png)
+   ![1. Kies de aanraakpuntdatum. De lijst met mogelijke datums wordt weergegeven &#x200B;](assets/offline-channels-11.png)
 
    >[!NOTE]
    >
@@ -44,13 +44,13 @@ Vandaag kunt u met het geïnstalleerde [!DNL Marketo Measure] -pakket aangeven w
 
 1. Klik op het vinkje en voeg desgewenst aanvullende regels voor extra campagnes toe.
 
-   ![1. Klik het controleteken, dan voeg extra regels voor extra campagnes toe zoals ](assets/offline-channels-12.png)
+   ![1. Klik het controleteken, dan voeg extra regels voor extra campagnes toe zoals &#x200B;](assets/offline-channels-12.png)
 
    >[!NOTE]
    >
    >Nu de regels naast de synchronisatie van CRM worden bepaald, zullen de regels die worden verklaard natuurlijk beginnen in conflict te komen. Als het verkiezen om zowel de synchronisatie van de douanecampagne te blijven gebruiken _als_ het Type van Synchronisatie van CRM, is het kritiek om regels tot stand te brengen zodat worden uw Types van Synchronisatie van CRM niet genegeerd.
 
-   ![ nu dat de regels naast de Synchronisatie van CRM worden bepaald, de regels die ](assets/offline-channels-13.png)
+   ![&#x200B; nu dat de regels naast de Synchronisatie van CRM worden bepaald, de regels die &#x200B;](assets/offline-channels-13.png)
 
    >[!NOTE]
    >
@@ -62,22 +62,22 @@ Hier is een voorbeeld van hoe dat eruit zou zien, zodat geen bestaande aanraakpu
 
 U kunt eenvoudig de aanraakpunten voor kopers en de Buyer Attribution Touchpoint-records in de campagne controleren om te controleren of de regels correct werken. Hier is een BAT die [!DNL Marketo Measure] heeft gemaakt met de juiste dynamische aanraakpuntdatum, opgehaald uit de campagne. Het veld Gemaakt op datum staat in de afbeelding eronder.
 
-![ u kunt de Aanraakpunten van de Koper en de verslagen van Buyer Attribution Touchpoint gemakkelijk controleren ](assets/offline-channels-14.png)
+![&#x200B; u kunt de Aanraakpunten van de Koper en de verslagen van Buyer Attribution Touchpoint gemakkelijk controleren &#x200B;](assets/offline-channels-14.png)
 
 ## Testen {#testing}
 
 1. De functie Campagne synchroniseren wordt geleverd met een testfunctie, zodat u kunt controleren of de regels die u hebt gemaakt, ook daadwerkelijk voldoen aan de criteria voor campagnes. Klik eerst op de knop [!UICONTROL Test] . De regels moeten eerst worden opgeslagen voordat u kunt beginnen met testen.
 
-   ![1. De eigenschap van de Synchronisatie van de Campagne komt met een het testen eigenschap zodat ](assets/offline-channels-15.jpg)
+   ![1. De eigenschap van de Synchronisatie van de Campagne komt met een het testen eigenschap zodat &#x200B;](assets/offline-channels-15.jpg)
 
    Een pop-up zal verschijnen waar u een Identiteitskaart van de Campagne (of 15 of 18 karakters van CRM) aan test kunt ingaan. Het punt moet identiteitskaart van de Campagne van CRM ingaan die u aan synchronisatie probeerde om het met de regel te verzekeren u creeerde.
 
-   ![ pop-up A zal verschijnen waar u een Identiteitskaart van de Campagne (één van beide ](assets/offline-channels-16.png) kunt ingaan
+   ![&#x200B; pop-up A zal verschijnen waar u een Identiteitskaart van de Campagne (één van beide &#x200B;](assets/offline-channels-16.png) kunt ingaan
 
 1. Nadat u op [!UICONTROL Test] hebt geklikt, ziet u de naam van de campagne en het aantal campagneleden dat in aanmerking komt voor aanraakpunten. Hieronder ziet u een tabel met alle regels die overeenkomen met uw campagne-id. Alleen de overeenkomsten worden weergegeven.
 
-   ![1. Nadat u Test klikt, zult u de naam van ](assets/offline-channels-17.png) zien
+   ![1. Nadat u Test klikt, zult u de naam van &#x200B;](assets/offline-channels-17.png) zien
 
 1. U kunt ook op het aantal leden klikken om een lijst weer te geven met de leads en contactpersonen en hun id&#39;s die deel uitmaken van de geschiktheid voor de campagneregel. Dit is slechts een steekproefreeks en zal tot 50 tonen zodat u een idee kunt krijgen van welke verslagen kwalificeren.
 
-   ![1. U kunt de telling van het Lid ook klikken om een lijst te zien ](assets/offline-channels-18.jpg)
+   ![1. U kunt de telling van het Lid ook klikken om een lijst te zien &#x200B;](assets/offline-channels-18.jpg)

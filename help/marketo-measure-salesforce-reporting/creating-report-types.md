@@ -23,7 +23,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]** .
 
-   ![1. Ga naar Opstelling bouwen Nieuwe Types van Rapport ](assets/new-types-1.png)
+   ![1. Ga naar Opstelling bouwen Nieuwe Types van Rapport &#x200B;](assets/new-types-1.png)
 
 1. Bepaal het Type van Rapport van de Douane.
 
@@ -32,7 +32,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * [!UICONTROL Store in Category]: Overige rapporten
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Geïmporteerd
 
-   ![ Status van de Plaatsing van de Plaatsing: Gedistribueerd ](assets/new-types-10.jpg)
+   ![&#x200B; Status van de Plaatsing van de Plaatsing: Gedistribueerd &#x200B;](assets/new-types-10.jpg)
 
 1. Definieer de objectrelaties.
 
@@ -40,13 +40,13 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * Zorg ervoor dat &quot;[!UICONTROL Each A/B record must have at least one B/C]&quot;-record is geselecteerd
    * [!UICONTROL Save]
 
-   ![ sparen ](assets/new-types-11.png)
+   ![&#x200B; sparen &#x200B;](assets/new-types-11.png)
 
 ## [!DNL Marketo Measure] Persoon met aanraakpunten koper (aangepast) {#marketo-measure-person-with-buyer-touchpoints-custom}
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]** .
 
-   ![1. Ga naar Opstelling bouwen Nieuwe Types van Rapport ](assets/new-types-12.png)
+   ![1. Ga naar Opstelling bouwen Nieuwe Types van Rapport &#x200B;](assets/new-types-12.png)
 
 1. Bepaal het Type van Rapport van de Douane.
 
@@ -55,7 +55,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * [!UICONTROL Store in Category]: Overige rapporten
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Geïmporteerd
 
-   ![ Status van de Plaatsing van de Plaatsing: Gedistribueerd ](assets/new-types-13.jpg)
+   ![&#x200B; Status van de Plaatsing van de Plaatsing: Gedistribueerd &#x200B;](assets/new-types-13.jpg)
 
 1. Definieer de objectrelaties.
 
@@ -63,13 +63,13 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * Zorg ervoor dat &quot;[!UICONTROL Each A record must have at least one B]&quot;-record is geselecteerd
    * [!UICONTROL Save]
 
-   ![ sparen ](assets/new-types-9.png)
+   ![&#x200B; sparen &#x200B;](assets/new-types-9.png)
 
 ## Kansen met Buyer Attribution Touchpoint (aangepast) {#opportunities-with-buyer-attribution-touchpoint-custom}
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]** .
 
-   ![1. Ga naar Opstelling bouwen Nieuwe Types van Rapport ](assets/new-types-8.png)
+   ![1. Ga naar Opstelling bouwen Nieuwe Types van Rapport &#x200B;](assets/new-types-8.png)
 
 1. Bepaal het Type van Rapport van de Douane.
 
@@ -78,7 +78,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * [!UICONTROL Store in Category]: Overige rapporten
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Geïmporteerd
 
-   ![ Status van de Plaatsing van de Plaatsing: Gedistribueerd ](assets/new-types-14.jpg)
+   ![&#x200B; Status van de Plaatsing van de Plaatsing: Gedistribueerd &#x200B;](assets/new-types-14.jpg)
 
 1. Definieer de objectrelaties.
 
@@ -86,14 +86,14 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * Zorg ervoor dat &quot;[!UICONTROL Each A record must have at least one B]&quot;-record is geselecteerd
    * [!UICONTROL Save]
 
-   ![ sparen ](assets/new-types-15.png)
+   ![&#x200B; sparen &#x200B;](assets/new-types-15.png)
 
 ## Aangepaste velden toevoegen aan aangepaste rapporttypen {#adding-custom-fields-to-custom-report-types}
 
 1. Zodra de rapporten worden gecreeerd, zult u aan een overzicht van het rapporttype worden opnieuw gericht. Klik op **[!UICONTROL Edit Layout]**.
 
-   ![1. Zodra de rapporten worden gecreeerd, zult u aan ](assets/new-types-2.png) worden opnieuw gericht
+   ![1. Zodra de rapporten worden gecreeerd, zult u aan &#x200B;](assets/new-types-2.png) worden opnieuw gericht
 
 1. Zorg ervoor dat de aangepaste velden die u aan het rapport wilt toevoegen, worden weergegeven in de sectie Eigenschappen van veldindeling. Als er andere gebieden zijn u zou willen toevoegen, gebruik &quot;[!UICONTROL Add fields related via lookup]&quot;optie.
 
-   ![1. Zorg ervoor dat de douanevelden u aan ](assets/new-types-3.png) wenst toe te voegen
+   ![1. Zorg ervoor dat de douanevelden u aan &#x200B;](assets/new-types-3.png) wenst toe te voegen

@@ -33,4 +33,4 @@ Meer informatie over de verschillende [!DNL Marketo Measure] cookies die op uw s
 
 Als een waarschuwing van de Firewall van de Toepassing van het Web (WAF) tijdens de opstelling van JavaScript wordt teweeggebracht, kunnen de gebruikers of die regel van WAF onbruikbaar maken of de koekjes, zoals het volgende voorbeeld lijsten van gewenste personen:
 
-![ als een waarschuwing van de Firewall van de Toepassing van het Web (WAF) tijdens JavaScript ](assets/adding-script-1.png) wordt teweeggebracht
+![&#x200B; als een waarschuwing van de Firewall van de Toepassing van het Web (WAF) tijdens JavaScript &#x200B;](assets/adding-script-1.png) wordt teweeggebracht

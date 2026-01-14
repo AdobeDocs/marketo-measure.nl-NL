@@ -27,19 +27,19 @@ Als onderdeel van de algemene [!DNL Marketo Measure] - en [!DNL Marketo Engage] 
 
 1. Beginnen met vestiging de Activiteiten van Marketo, navigeer aan **Mijn Rekening** > **Montages** > **Activiteiten**.
 
-   ![1. Als u Marketo-activiteiten wilt instellen, navigeert u naar Mijn accountinstellingen ](assets/marketo-engage-activities-01.png)
+   ![1. Als u Marketo-activiteiten wilt instellen, navigeert u naar Mijn accountinstellingen &#x200B;](assets/marketo-engage-activities-01.png)
 
-   ![1. Als u Marketo-activiteiten wilt instellen, navigeert u naar Mijn accountinstellingen ](assets/marketo-engage-activities-02.png)
+   ![1. Als u Marketo-activiteiten wilt instellen, navigeert u naar Mijn accountinstellingen &#x200B;](assets/marketo-engage-activities-02.png)
 
    Het eerste vereiste ding is de lijst van de Types van Activiteit te selecteren die u van plan bent om regels op te bouwen. Er is geen hard aantal vereiste activiteitstypen, maar u wordt aangeraden uw aanraakpunten niet te veel te laden en het belang van belangrijke mijlpalen af te zwakken. Met dat gezegd, hebt u misschien niet meer dan vijf soorten activiteit nodig om de relevante overeenkomsten te volgen.
 
 1. Klik op het vervolgkeuzemenu onder [!UICONTROL Select Activities Types] om de verschillende typen te kiezen.
 
-   ![1. Klik het drop-down menu onder Uitgezochte Types van Activiteiten om te beginnen ](assets/marketo-engage-activities-03.png)
+   ![1. Klik het drop-down menu onder Uitgezochte Types van Activiteiten om te beginnen &#x200B;](assets/marketo-engage-activities-03.png)
 
 1. Wanneer alle activiteiten die u nodig hebt, zijn geselecteerd, worden deze in de [!UICONTROL Selected Activities List] en onder [!UICONTROL Define Rules] gevuld.
 
-   ![1. Wanneer alle activiteiten u nodig hebt worden geselecteerd, kunt u zien ](assets/marketo-engage-activities-04.png)
+   ![1. Wanneer alle activiteiten u nodig hebt worden geselecteerd, kunt u zien &#x200B;](assets/marketo-engage-activities-04.png)
 
 1. Voor elk Type van Activiteit, moet u één of meerdere regels bepalen die welke verslagen verkiesbaar voor aanraakpunten zijn. In dit voorbeeld voegen we een regel toe voor het activiteitstype &#39;Score wijzigen&#39;, zodat het systeem een aanraakpunt maakt wanneer een Marketo-persoon een score van 90 of hoger haalt.
 
@@ -47,23 +47,23 @@ Als onderdeel van de algemene [!DNL Marketo Measure] - en [!DNL Marketo Engage] 
 
    Hier is een voorbeeld van hoe die extra stap eruit zou zien:
 
-   ![ hier is een voorbeeld van wat die extra stap als zou kijken:](assets/marketo-engage-activities-05.png)
+   ![&#x200B; hier is een voorbeeld van wat die extra stap als zou kijken:](assets/marketo-engage-activities-05.png)
 
 1. In het voorbeeld van de &quot;Score van de Verandering&quot;, is er behoefte om een Naam van de Campagne in te gaan aangezien die informatie uit het Programma van Marketo wordt getrokken. Maak nu de regelexpressie. Na dit voorbeeld, selecteer het gebied &quot;[!UICONTROL New Value]&quot;met een exploitant van &quot;[!UICONTROL is greater than]&quot;met een waarde van 90.
 
    U kunt de regels uitvouwen en aanvullende filters of criteria toevoegen door instructies &#39;en&#39; of &#39;of&#39; toe te voegen om de resultaten te beperken.
 
-   ![ u kunt op de regels uitbreiden en extra filters of criteria toevoegen ](assets/marketo-engage-activities-06.png)
+   ![&#x200B; u kunt op de regels uitbreiden en extra filters of criteria toevoegen &#x200B;](assets/marketo-engage-activities-06.png)
 
-   ![ u kunt op de regels uitbreiden en extra filters of criteria toevoegen ](assets/marketo-engage-activities-07.png)
+   ![&#x200B; u kunt op de regels uitbreiden en extra filters of criteria toevoegen &#x200B;](assets/marketo-engage-activities-07.png)
 
 1. Kies ten slotte de datum waarop u het aanraakpunt wilt gebruiken. Alle beschikbare datum- of datum-/tijdvelden worden hier weergegeven vanuit Marketo. Tenzij u de gebieden van de douanedatum hebt, ziet u &quot;[!UICONTROL Activity Date]&quot;.
 
-   ![1. Kies ten slotte de datum waarop u het aanraakpunt wilt gebruiken. Alle beschikbare ](assets/marketo-engage-activities-08.png)
+   ![1. Kies ten slotte de datum waarop u het aanraakpunt wilt gebruiken. Alle beschikbare &#x200B;](assets/marketo-engage-activities-08.png)
 
 1. Zorg ervoor dat u onderweg op **[!UICONTROL Save As Draft]** klikt, zodat de wijzigingen niet verloren gaan.
 
-   ![1. Ben zeker om te klikken sparen als Ontwerp langs de manier ](assets/marketo-engage-activities-09.png)
+   ![1. Ben zeker om te klikken sparen als Ontwerp langs de manier &#x200B;](assets/marketo-engage-activities-09.png)
 
 1. Ga naar het tabblad **[!UICONTROL Attribute Mapping]**.
 
@@ -158,9 +158,9 @@ Aangepaste activiteit (xxx)
 
 ## Kanaaltoewijzing {#channel-mapping}
 
-Voor om het even welke regels van een Type van Activiteit met een Identiteitskaart van het Programma, wordt het Kanaal van het Programma van Marketo bepaald van het Programma. Wij gebruiken het Kanaal van het Programma om aan uw douane Offline Kanalen in kaart te brengen, zodat moet u ervoor zorgen uw kanalen behoorlijk [ zoals hier geïnstrueerd ](/help/marketo-engage-programs-integration.md) worden gevormd.
+Voor om het even welke regels van een Type van Activiteit met een Identiteitskaart van het Programma, wordt het Kanaal van het Programma van Marketo bepaald van het Programma. Wij gebruiken het Kanaal van het Programma om aan uw douane Offline Kanalen in kaart te brengen, zodat moet u ervoor zorgen uw kanalen behoorlijk [&#x200B; zoals hier geïnstrueerd &#x200B;](/help/marketo-engage-programs-integration.md) worden gevormd.
 
-En voor om het even welke regels van een Type van Activiteit zonder Programma Id, was uw eerste stap een Naam van de Campagne te creëren. Gebruik deze Naam van de Campagne aan opstelling uw douane Online Kanalen [ hier opgemaakt ](/help/channel-tracking-and-setup/online-custom-channel-setup.md).
+En voor om het even welke regels van een Type van Activiteit zonder Programma Id, was uw eerste stap een Naam van de Campagne te creëren. Gebruik deze Naam van de Campagne aan opstelling uw douane Online Kanalen [&#x200B; hier opgemaakt &#x200B;](/help/channel-tracking-and-setup/online-custom-channel-setup.md).
 
 Als de Kanalen voor uw Activiteiten van Marketo niet behoorlijk worden gevormd, is het waarschijnlijk uw nieuwe aanraakpunten onder het &quot;Andere&quot;kanaal vallen.
 

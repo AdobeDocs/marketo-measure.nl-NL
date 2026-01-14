@@ -46,7 +46,7 @@ Vragen in de grafiek:
 * Hoe verhouden trends in Totaal aantal bezoeken zich met Unieke Bezoekers en Formulierverzendingen gedurende de weergegeven tijdlijn?
 * In welke periode heeft de website het hoogste aantal unieke bezoekers gezien in vergelijking met het totale aantal bezoeken en het aantal ingediende formulieren?
 
-![ In welke periode zag de website het hoogste aantal Unieke ](assets/web-dashboard-1.png)
+![&#x200B; In welke periode zag de website het hoogste aantal Unieke &#x200B;](assets/web-dashboard-1.png)
 
 ## Overzicht van webverkeer {#web-traffic-summary-table}
 
@@ -63,7 +63,7 @@ Tabel met paginaweergaven, bezoeken, bezoekers, Forms, unieke e-mails van formul
 * Unieke e-mails van formulieren
 * Maken van leads via formulieren
 
-![ Leiding verwezenlijking van vormen ](assets/web-dashboard-2.png)
+![&#x200B; Leiding verwezenlijking van vormen &#x200B;](assets/web-dashboard-2.png)
 
 ## Refererentabel {#referrer-table}
 
@@ -75,7 +75,7 @@ Tabel met totale bezoeken en unieke bezoekers per referentie.
 * Bezoeken
 * Unieke bezoekers
 
-![ Unieke Bezoekers ](assets/web-dashboard-3.png)
+![&#x200B; Unieke Bezoekers &#x200B;](assets/web-dashboard-3.png)
 
 ## Bezoeken/Bezoekers via het Kanaal {#visits-visitors-by-channel}
 
@@ -89,7 +89,7 @@ Vragen in de grafiek:
 * Welk kanaal/subkanaal/campagne trekt het hoogste aantal bezoeken of unieke bezoekers aan?
 * Hoe verhoudt het aantal unieke bezoekers zich tot het totale aantal bezoeken binnen een specifiek kanaal/subkanaal/campagne?
 
-![ hoe vergelijk het aantal unieke bezoekers met totale bezoeken binnen ](assets/web-dashboard-4.png)
+![&#x200B; hoe vergelijk het aantal unieke bezoekers met totale bezoeken binnen &#x200B;](assets/web-dashboard-4.png)
 
 ## Filtervenster {#filter-pane}
 

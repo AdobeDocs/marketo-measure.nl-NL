@@ -65,10 +65,10 @@ Doorgaans gebruiken klanten Buyer Touchpoint-gegevens om Top van de Funnel en he
 
 Hier is een schermafbeelding van een BT in [!DNL Salesforce] :
 
-![ hier is een schermafbeelding van een BT in Salesforce:](assets/adobe-setup-1.png)
+![&#x200B; hier is een schermafbeelding van een BT in Salesforce:](assets/adobe-setup-1.png)
 
 **wat kijkt een Buyer Attribution Touchpoint als in Salesforce?**
 
 Hier is een schermafbeelding van een BAT in [!DNL Salesforce] :
 
-![ hier is een schermafbeelding van een BAT in Salesforce:](assets/adobe-setup-2.png)
+![&#x200B; hier is een schermafbeelding van een BAT in Salesforce:](assets/adobe-setup-2.png)

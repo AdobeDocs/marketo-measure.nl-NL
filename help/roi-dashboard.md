@@ -36,7 +36,7 @@ Het Dashboard van ROI voorziet marketers van een korrelige mening van rendemente
 * **Eenvoudige ROI**: Attributed opbrengst die door kosten in de gefilterde datumperiode wordt gedeeld.
 * **Realized ROI**: Geregistreerde toegerekende opbrengst gedeeld door kosten in de gefilterde datumperiode.
 
-![ Realized ROI: Geregistreerde toegeschreven opbrengst gedeeld door kosten in de gefiltreerde datum ](assets/roi-dashboard-9.png)
+![&#x200B; Realized ROI: Geregistreerde toegeschreven opbrengst gedeeld door kosten in de gefiltreerde datum &#x200B;](assets/roi-dashboard-9.png)
 
 ### Kosten en opbrengsten per kanaalgrafiek {#cost-and-revenue-by-channel-graph}
 
@@ -50,7 +50,7 @@ Staafdiagram dat de kosten en opbrengsten weergeeft en dat is ontworpen om een v
 * Wat waren de ROI waarden voor elk kanaal, subchannel, en campagne?
 * Zijn er uitbijters of subkanalen met ongewoon hoge of lage kosten in verhouding tot hun inkomsten?
 
-![ zijn er om het even welke outlier kanalen of subkanalen met ongewoon hoog of laag ](assets/roi-dashboard-8.png)
+![&#x200B; zijn er om het even welke outlier kanalen of subkanalen met ongewoon hoog of laag &#x200B;](assets/roi-dashboard-8.png)
 
 ### Gegraaliseerd versus eenvoudig rendement in de loop der tijd {#realized-vs-simple-roi-over-time}
 
@@ -63,7 +63,7 @@ De lijngrafiek van de tijdreeks die de vergelijking tussen Geregistreerde en Een
 * Hoe vergelijk het gerealiseerde ROI met het Eenvoudige ROI over specifieke tijdsperiodes?
 * Hoe verhoudt de trend van het RoI zich tot significante marketinggebeurtenissen in dezelfde periode?
 
-![ hoe de trend van Realized ROI betrekking heeft op om het even welke significante marketing ](assets/roi-dashboard-7.png)
+![&#x200B; hoe de trend van Realized ROI betrekking heeft op om het even welke significante marketing &#x200B;](assets/roi-dashboard-7.png)
 
 ### Kosten in tijdsgrafiek {#cost-over-time-graph}
 
@@ -77,7 +77,7 @@ Gestapelde staafgrafiek die de Totale Kosten toont, die door bijbehorende Kanale
 * Hoe vergelijken de gecombineerde kosten van alle kanalen van één kwartaal/maand aan volgende?
 * Hoe zijn de kosten voor een specifiek kanaal in de loop der tijd geëvolueerd?
 
-![ hoe zijn kosten voor een specifiek kanaal in tijd geëvolueerd?](assets/roi-dashboard-6.png)
+![&#x200B; hoe zijn kosten voor een specifiek kanaal in tijd geëvolueerd?](assets/roi-dashboard-6.png)
 
 ### Kosten per kanaalgrafiek {#cost-by-channel-graph}
 
@@ -90,7 +90,7 @@ Staafdiagram met marketinguitgaven die zijn gesegmenteerd door Kanaal/Subkanaal/
 * Welke subkanalen of campagnes binnen een primair kanaal hebben de hoogste toewijzing?
 * Welke marketingmiddelen (kanaal, subkanaal of campagne) lijken ondergefinancierd in vergelijking met andere?
 
-![ Welke marketing wegen (kanaal, subchannel, of campagne) lijken ondergefinancierd vergeleken bij anderen?](assets/roi-dashboard-5.png)
+![&#x200B; Welke marketing wegen (kanaal, subchannel, of campagne) lijken ondergefinancierd vergeleken bij anderen?](assets/roi-dashboard-5.png)
 
 ### Overzichtstabel ROI {#roi-summary-table}
 
@@ -141,6 +141,6 @@ Dit dashboard is uitgerust met de volgende instellingen en filters:
 
 >[!MORELIKETHIS]
 >
->* [ ontdekt de Grondbeginselen van het Dashboard ](/help/discover-dashboard-basics.md){target="_blank"}
->* [ Beleid van de Zichtbaarheid van Gegevens van het Dashboard ](/help/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/discover-dashboard-basics.md){target="_blank"}
+>* [&#x200B; Beleid van de Zichtbaarheid van Gegevens van het Dashboard &#x200B;](/help/dashboard-data-visibility-policy.md){target="_blank"}
 

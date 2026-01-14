@@ -22,11 +22,11 @@ Wanneer de extensie [!DNL Marketo Measure] is geïnstalleerd en geconfigureerd i
 >
 >Raadpleeg de volgende koppelingen voor meer informatie over Adobe Launch en de extensies ervan:
 >
->* [[!DNL Marketo Measure]  Uitbreiding ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
->* [ het Overzicht van de Lancering van Adobe ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
->* [ het Overzicht van de Uitbreiding van de Lancering van Adobe ](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
+>* [[!DNL Marketo Measure]  Uitbreiding &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+>* [&#x200B; het Overzicht van de Lancering van Adobe &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
+>* [&#x200B; het Overzicht van de Uitbreiding van de Lancering van Adobe &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. Creeer een bezit na de stappen [ in dit artikel ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
+1. Creeer een bezit na de stappen [&#x200B; in dit artikel &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Klik op de eigenschap die u hebt gemaakt.
 
@@ -46,7 +46,7 @@ Wanneer de extensie [!DNL Marketo Measure] is geïnstalleerd en geconfigureerd i
 
 1. Typ in het veld Bizible AccountId de URL van uw website (bijvoorbeeld `adobe.com` ).
 
-   ![1. Typ in het veld Bizible AccountId de URL van uw ](assets/marketo-launch-6.png)
+   ![1. Typ in het veld Bizible AccountId de URL van uw &#x200B;](assets/marketo-launch-6.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -62,7 +62,7 @@ Wanneer de extensie [!DNL Marketo Measure] is geïnstalleerd en geconfigureerd i
 
 1. Selecteer **[!UICONTROL Core]** in de vervolgkeuzelijst Extensie. Selecteer vervolgens **[!UICONTROL Library Loaded (Page Top)]** in de vervolgkeuzelijst Type gebeurtenis. Als u de gebeurtenis geen naam geeft, wordt een standaardnaam toegepast. Klik op **[!UICONTROL Keep Changes]** als u klaar bent.
 
-   ![1. Selecteer Core in de vervolgkeuzelijst Extensie. Dan in de Gebeurtenis ](assets/marketo-launch-1.png)
+   ![1. Selecteer Core in de vervolgkeuzelijst Extensie. Dan in de Gebeurtenis &#x200B;](assets/marketo-launch-1.png)
 
 1. Klik op de knop **[!UICONTROL Add]** onder Handelingen.
 
@@ -70,7 +70,7 @@ Wanneer de extensie [!DNL Marketo Measure] is geïnstalleerd en geconfigureerd i
 
 1. Selecteer **[!UICONTROL Bizible Analytics]** in de vervolgkeuzelijst Extensie. Selecteer vervolgens **[!UICONTROL Initialize]** in de vervolgkeuzelijst Type actie. Als u de handeling geen naam geeft, wordt er een standaardnaam toegepast. Klik op **[!UICONTROL Keep Changes]** als u klaar bent.
 
-   ![1. Selecteer Bizible Analytics in de vervolgkeuzelijst Extensie. Dan in de Actie ](assets/marketo-launch-4.png)
+   ![1. Selecteer Bizible Analytics in de vervolgkeuzelijst Extensie. Dan in de Actie &#x200B;](assets/marketo-launch-4.png)
 
 1. Klik op **[!UICONTROL Save]**.
 

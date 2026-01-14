@@ -18,7 +18,7 @@ Als u toegang wilt tot uw Snowflake-gegevenspaket, moet u naar de specifieke URL
 
 1. Klik in [!DNL Marketo Measure] boven aan de pagina op **[!UICONTROL My Account]** > **[!UICONTROL Settings]** .
 
-   ![1. In Marketo Measure, bij de bovenkant van de pagina, klik ](assets/data-account-7.png)
+   ![1. In Marketo Measure, bij de bovenkant van de pagina, klik &#x200B;](assets/data-account-7.png)
 
 1. Klik in het linkermenu onder Beveiliging op **[!UICONTROL Data Warehouse]** .
 
@@ -26,7 +26,7 @@ Als u toegang wilt tot uw Snowflake-gegevenspaket, moet u naar de specifieke URL
 
 1. Deze pagina heeft de verbinding aan uw Snowflake gegevenspakhuis en uw gebruikersbenaming.
 
-   ![1. Deze pagina heeft de verbinding aan uw het gegevenspakhuis van Snowflake en ](assets/data-account-9.png)
+   ![1. Deze pagina heeft de verbinding aan uw het gegevenspakhuis van Snowflake en &#x200B;](assets/data-account-9.png)
 
    >[!NOTE]
    >
@@ -34,15 +34,15 @@ Als u toegang wilt tot uw Snowflake-gegevenspaket, moet u naar de specifieke URL
 
 1. Klik op de koppeling in de URL van Snowflake. Hiermee gaat u naar de aanmeldingspagina van Snowflake waar u uw gebruikersnaam en wachtwoord invoert. _als u uw wachtwoord niet hebt, zie de stappen hieronder om het_ terug te stellen.
 
-   ![1. Klik op de koppeling in de URL van Snowflake, zodat u deze koppeling kunt gebruiken ](assets/data-account-5.png)
+   ![1. Klik op de koppeling in de URL van Snowflake, zodat u deze koppeling kunt gebruiken &#x200B;](assets/data-account-5.png)
 
 1. Klik op **[!UICONTROL Worksheets]** boven aan de pagina als u zich hebt aangemeld.
 
-   ![1. Zodra het programma geopend, klik Werkbladen bij de bovenkant van ](assets/data-account-6.png)
+   ![1. Zodra het programma geopend, klik Werkbladen bij de bovenkant van &#x200B;](assets/data-account-6.png)
 
 1. De BIZIBLE_ROI_V3-databaseobjecten bevinden zich aan de linkerkant van het scherm. Ga het Warehouse, het Gegevensbestand, en het Schema van de dropdown opties bij de bovenkant van het vraagvenster in. Er mag slechts één optie voor elke optie zijn. Nu kunt u query&#39;s uitvoeren in de Snowflake-query-editor.
 
-   ![1. De BIZIBLEROIV3 gegevensbestandvoorwerpen zijn op de linkerkant van ](assets/data-account-4.png)
+   ![1. De BIZIBLEROIV3 gegevensbestandvoorwerpen zijn op de linkerkant van &#x200B;](assets/data-account-4.png)
 
 ## Wachtwoord opnieuw instellen {#reset-your-password}
 
@@ -53,9 +53,9 @@ Als u toegang wilt tot uw Snowflake-gegevenspaket, moet u naar de specifieke URL
 >* Als u het wachtwoord opnieuw instelt, wordt dit opnieuw ingesteld voor alle [!DNL Marketo Measure] -gebruikers in uw organisatie, en niet alleen voor de gebruiker die momenteel is aangemeld.
 >* Het tijdelijke wachtwoord wordt alleen weergegeven in de gebruikersinterface. Er wordt geen e-mail verzonden.
 
-![ wij tonen slechts het tijdelijke wachtwoord in UI. Een e-mail zal ](assets/data-account-3.png)
+![&#x200B; wij tonen slechts het tijdelijke wachtwoord in UI. Een e-mail zal &#x200B;](assets/data-account-3.png)
 
-![ wij tonen slechts het tijdelijke wachtwoord in UI. Een e-mail zal ](assets/data-account-1.png)
+![&#x200B; wij tonen slechts het tijdelijke wachtwoord in UI. Een e-mail zal &#x200B;](assets/data-account-1.png)
 
 ## Verbinding maken met Snowflake via tools van derden {#connecting-to-snowflake-via-third-party-tools}
 
@@ -76,4 +76,4 @@ U moet een paar stukken informatie ingaan om uw Snowflake gegevenspakhuis met ee
 * **Naam van het Warehouse** (niet altijd vereist)
    * Het pakhuis is wat vragen in Snowflake uitvoert. Het is de berekende bron. De pakhuisnaam wordt vermeld op de Data Warehouse informatiepagina in [!DNL Marketo Measure].
 
-  ![ het pakhuis is wat vragen in Snowflake uitvoert. Het is gegevens verwerkt ](assets/data-account-2.png)
+  ![&#x200B; het pakhuis is wat vragen in Snowflake uitvoert. Het is gegevens verwerkt &#x200B;](assets/data-account-2.png)

@@ -16,9 +16,9 @@ ht-degree: 0%
 >
 >U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
-Voordat u een [!DNL Marketo Measure] -rapport gaat maken, is het het meest belangrijk om te bevestigen dat uw [!DNL Marketo Measure] -accountinstellingen zijn gecontroleerd en geconfigureerd om ervoor te zorgen dat de gegevens in de rapporten accuraat zijn en de specifieke kenmerken van uw bedrijf weerspiegelen. Daarnaast werken de rapportageprojecten het best wanneer ze een gestructureerd proces volgen. Justin Norris, a [!DNL Marketo Measure] macht-gebruiker, pleitte en partner van [ Perkuto ](https://perkuto.com/) vatte deskundig [ samen hoe te om rapportering in  [!DNL Marketo Measure] te benaderen ](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
+Voordat u een [!DNL Marketo Measure] -rapport gaat maken, is het het meest belangrijk om te bevestigen dat uw [!DNL Marketo Measure] -accountinstellingen zijn gecontroleerd en geconfigureerd om ervoor te zorgen dat de gegevens in de rapporten accuraat zijn en de specifieke kenmerken van uw bedrijf weerspiegelen. Daarnaast werken de rapportageprojecten het best wanneer ze een gestructureerd proces volgen. Justin Norris, a [!DNL Marketo Measure] macht-gebruiker, pleitte en partner van [&#x200B; Perkuto &#x200B;](https://perkuto.com/) vatte deskundig [&#x200B; samen hoe te om rapportering in  [!DNL Marketo Measure] te benaderen &#x200B;](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
 
-**Vestig Doelstellingen**: &quot;De eerste vraag is &quot;waarom meten wij?&quot; De Tovenaar van Lori van [ Forrester Onderzoek ](https://go.forrester.com/) vatte het in een mooi overzicht in webinar van a [ Marketo ](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/). Volgens haar &quot;meten we om een besluit of de waarde van marketing te bewijzen of te valideren of om beter te worden (procesverbetering)&quot;. We willen hieraan toevoegen dat de inzichten van goede metingen ook input en begeleiding geven in het marketingplanningsproces.
+**Vestig Doelstellingen**: &quot;De eerste vraag is &quot;waarom meten wij?&quot; De Tovenaar van Lori van [&#x200B; Forrester Onderzoek &#x200B;](https://go.forrester.com/) vatte het in een mooi overzicht in webinar van a [&#x200B; Marketo &#x200B;](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/). Volgens haar &quot;meten we om een besluit of de waarde van marketing te bewijzen of te valideren of om beter te worden (procesverbetering)&quot;. We willen hieraan toevoegen dat de inzichten van goede metingen ook input en begeleiding geven in het marketingplanningsproces.
 
 Dus voordat je begint, is het essentieel om kristalhelder te zijn over je doelen, de vragen die je probeert te beantwoorden, of de problemen die je probeert op te lossen. Welk verhaal wil je vertellen? Welke besluiten zullen er naar aanleiding hiervan worden genomen? Maar al te vaak worden deze fundamentals slecht bedacht, wat leidt tot frustratie voor alle betrokkenen.&quot;
 
@@ -47,7 +47,7 @@ een offlinecampagne of activiteit.
 >
 >BBT&#39;s worden gemaakt op basis van BT&#39;s. In wezen begint het bijhouden op het individuele niveau via de BT&#39;s. Zodra een Kans op een Rekening wordt gecreeerd, worden alle BTs van Contacten onder de zelfde Rekening van verwijzingen voorzien en verkiesbaar om BBTs tot stand te brengen die op de Kans betrekking hebben, zodat zult u één of andere willen gebruiken afhankelijk van welke vragen u probeert te antwoorden: vragen met betrekking tot de metriek van &quot;Mensen&quot;(de rapporten van BT), of vragen met betrekking tot &quot;Kans&quot;metriek (de rapporten van BAT)
 
-Het Artikel van de steun: [ Verschil tussen de Aanraakpunten van de Aanwijzing van de Koper en de Aanraakpunten van de Attributie van de Koper ](/help/configuration-and-setup/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+Het Artikel van de steun: [&#x200B; Verschil tussen de Aanraakpunten van de Aanwijzing van de Koper en de Aanraakpunten van de Attributie van de Koper &#x200B;](/help/configuration-and-setup/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 
 ## Buyer Touchpoint (BT) {#buyer-touchpoint-bt}
 
@@ -67,7 +67,7 @@ De Aanraakpunten van de koper worden gebruikt om vragen met betrekking tot _mens
 
 Bedrijven moeten vooral weten: &quot;Waar komen mijn leads/contactpersonen vandaan?&quot; Historisch gezien werd dit beantwoord met een enkele, eendimensionale waarde (bijvoorbeeld Source-leads). Zoals hierboven in #1 en #2 is uiteengezet, weten we echter dat Leads meerdere aanraakpunten kunnen hebben tijdens hun reis om leider te worden. De Buyer Touchpoint stelt ons in staat insight de twee meest cruciale interacties te geven die aangeven hoe een lead is gegenereerd: hun First Touch en hun Lead Creation Touch. De aanraakpunten van de koper zijn ook _multidimensionaal_ betekenend zij ladingen marketing gegevens, hoofdzakelijk waar de persoon uit kwam (het Kanaal van de Marketing) en wat de persoon die met (Inhoud) in dienst wordt genomen.
 
-De [ attributiemodellen ](/help/attribution-models.md) die beste insight in op mensen-gebaseerde metriek verstrekken zijn:
+De [&#x200B; attributiemodellen &#x200B;](/help/attribution-models.md) die beste insight in op mensen-gebaseerde metriek verstrekken zijn:
 
 * **Eerste aanraking** - 100% attributietekening aan de Eerste Aanraking van de Lood (FT)
 * **Lood creatie** - 100% attributietekening aan de Lood van de Aanraking van de Aanmaak van de Lood (LC)
@@ -499,7 +499,7 @@ Gezien de persoon van [!DNL Marketo Measure] staat ons toe om op alle aanraakpun
 * [Online aangepaste kanaalinstelling](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
 * [Aangepaste kanaalinstelling offline](/help/channel-tracking-and-setup/offline-custom-channel-setup.md)
 
-In wezen, zullen de aanraakpuntgegevens op wat door [!DNL Marketo Measure] wordt gevolgd wijzen en kunnen worden gecontroleerd om uw configuratie te verzekeren input die op dingen wordt gebaseerd zoals: UTM parameterwaarden, Verwijzende Pagina&#39;s, of de Types van Campagne aanpast. Als de aanraakpuntgegevens niet overeenkomen met uw configuratie, moet waarschijnlijk iets worden aangepast. Buiten de opstelling van het Kanaal van de Marketing, kunt u touchpoint gegevens bekijken om te bepalen welke touchpoints [ ](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) of [ gesegmenteerde ](/help/channel-tracking-and-setup/custom-segmentation.md) moeten worden onderdrukt. Het wordt geadviseerd om uw aanraakpuntgegevens binnen een rapport van &quot;[!DNL Marketo Measure] Personen en Aanraakpunten van de Koper&quot;aan het eind van elke maand of elk kwartaal te controleren als mogelijk. Zo weet u zeker dat uw toewijzing zo nauwkeurig mogelijk is. De &#39;[!DNL Marketo Measure] 101 | Het rapport Leads/Contacts by Channel dat offline beschikbaar is, is een uitstekende plaats om aan de slag te gaan. Neem de volgende velden op als deze nog niet zijn opgenomen om enkele van de meest essentiële onderdelen van de configuratie te controleren:
+In wezen, zullen de aanraakpuntgegevens op wat door [!DNL Marketo Measure] wordt gevolgd wijzen en kunnen worden gecontroleerd om uw configuratie te verzekeren input die op dingen wordt gebaseerd zoals: UTM parameterwaarden, Verwijzende Pagina&#39;s, of de Types van Campagne aanpast. Als de aanraakpuntgegevens niet overeenkomen met uw configuratie, moet waarschijnlijk iets worden aangepast. Buiten de opstelling van het Kanaal van de Marketing, kunt u touchpoint gegevens bekijken om te bepalen welke touchpoints [&#x200B; &#x200B;](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) of [&#x200B; gesegmenteerde &#x200B;](/help/channel-tracking-and-setup/custom-segmentation.md) moeten worden onderdrukt. Het wordt geadviseerd om uw aanraakpuntgegevens binnen een rapport van &quot;[!DNL Marketo Measure] Personen en Aanraakpunten van de Koper&quot;aan het eind van elke maand of elk kwartaal te controleren als mogelijk. Zo weet u zeker dat uw toewijzing zo nauwkeurig mogelijk is. De &#39;[!DNL Marketo Measure] 101 | Het rapport Leads/Contacts by Channel dat offline beschikbaar is, is een uitstekende plaats om aan de slag te gaan. Neem de volgende velden op als deze nog niet zijn opgenomen om enkele van de meest essentiële onderdelen van de configuratie te controleren:
 
 * **het Marketing Kanaal** - Weg = Marketing Channel.Subchannel (waarden die in [!DNL Marketo Measure] worden geplaatst)
 * **Aanraakpunt Source** = utm_source
@@ -520,7 +520,7 @@ Het overwegen van BBTs primaire verhouding is met de Kans, worden zij gebruikt o
 * Hoeveel nieuwe pijpleidingsopbrengst kan ik aan elk van mijn marketing kanalen toeschrijven?
 * Welke van mijn campagnes hebben vorig kwartaal het grootste rendement op investeringen gezien?
 
-De [ attributiemodellen ](/help/attribution-models.md) die beste insight in Op opportuniteit-gebaseerde metriek verstrekken zijn:
+De [&#x200B; attributiemodellen &#x200B;](/help/attribution-models.md) die beste insight in Op opportuniteit-gebaseerde metriek verstrekken zijn:
 
 **W-Vormde** - het &#39;_Model van de Pijpleiding_&#39;. In het W-Shaped-model zijn drie mijlpalen aanraakpunten opgenomen. In dit model worden de FT-, LC- en OC-aanraakpunten elk toegeschreven aan 30% van het attribuut credit. De resterende 10% wordt in gelijke mate toegeschreven aan alle tussenliggende aanraakpunten tussen de drie mijlpalen.
 
@@ -726,16 +726,16 @@ De hieronder gemarkeerde filters zijn van cruciaal belang voor een ROI-rapport i
 
 **5.1 | ROI in de Raad van het Overzicht**
 
-![ 5.1 | ROI in de Raad van het Overzicht ](assets/bizible-guide-1.png)
+![&#x200B; 5.1 | ROI in de Raad van het Overzicht &#x200B;](assets/bizible-guide-1.png)
 
 Het bereik &#39;Datum&#39; stelt niet alleen de cohort van aanraakpunten (op aanraakpuntdatum) in die de toewijzing ontvangen, maar definieert ook het bereik dat de tegel of kolommen van de &#39;Snijden&#39; vertegenwoordigen.
 [!DNL Marketo Measure] bekijkt eenvoudig de waaier van de &quot;Datum&quot;om te bepalen hoeveel of in totaal, of op het Kanaal van de Marketing, Subchannel, of de niveaus van de Campagne werd uitgegeven Zie hieronder:
 
-![ Marketo Measure kijkt eenvoudig de &quot;waaier van de Datum&quot;om te bepalen hoe ](assets/bizible-guide-2.png)
+![&#x200B; Marketo Measure kijkt eenvoudig de &quot;waaier van de Datum&quot;om te bepalen hoe &#x200B;](assets/bizible-guide-2.png)
 
 In de bovenstaande screenshot worden de gegevens over marketinguitgaven in de afgelopen 3 volledige maanden weergegeven. In dit voorbeeld werd $12.970 uitgegeven over alle kanalen. Dit nummer bestaat uit de gegevens over marketinguitgaven [!DNL Marketo Measure] die afkomstig zijn van integratie met een van uw verbonden advertentierekeningen (Google AdWords, Bing Ads, Facebook Ads, LinkedIn, DoubleClick) en eventuele extra marketinguitgaven die binnen uw account zijn geüpload of die automatisch zijn opgenomen uit een campagneresbestand in uw CRM. In het voorbeeld wordt ook getoond hoeveel gesloten &#39;Revenue&#39; ook kan worden toegeschreven aan aanraakpunten die zich in hetzelfde datumbereik (groene vakken) hebben voorgedaan. Dit is hoe het rendement van investeringen wordt berekend: inkomsten die worden toegerekend aan aanraakpunten die afkomstig zijn van investeringen in dezelfde datumbereik:
 
-![ het schermschot hierboven toont de gegevens van de Uitgaven van de Marketing over het verleden 3 ](assets/bizible-guide-3.png)
+![&#x200B; het schermschot hierboven toont de gegevens van de Uitgaven van de Marketing over het verleden 3 &#x200B;](assets/bizible-guide-3.png)
 
 **HERINNERING**: [!DNL Marketo Measure] bepaalt &quot;Inkomsten&quot;als gesloten gewonnen Inkomsten of Boekingen en bepaalt &quot;Inkomsten van de Pijpleiding&quot;als _open/potentiële opbrengst van open Kansen_.
 
@@ -745,4 +745,4 @@ Een andere belangrijke terugname van het hierboven vermelde ROI-verslag is de &q
 >
 >Filter in op de Kanalen van de Marketing, Subkanalen, en/of Campagnes waarin u de gegevens van de Uitgaven van de Marketing kent volledig en nauwkeurig is. Het bovenstaande voorbeeld is voor alle Kanalen van de Marketing, maar als sommige Kanalen niet de verwante geuploade gegevens van de Uitgaven van de Marketing hebben, zou de ROI rapportering onnauwkeurig kunnen zijn. Zie het voorbeeld hieronder, dit keer in het &quot;ROI&quot;bord dat op de Campagnes binnen het Kanaal van de Marketing van &quot;Betaalde Onderzoek&quot;wordt geconcentreerd, een Kanaal met zeer korrelige gegevens van de Uitgaven van de Marketing via de integraties.
 
-![ filter binnen op de Marketingkanalen, Subkanalen, en/of Campagnes waarin u ](assets/bizible-guide-4.png) kent
+![&#x200B; filter binnen op de Marketingkanalen, Subkanalen, en/of Campagnes waarin u &#x200B;](assets/bizible-guide-4.png) kent

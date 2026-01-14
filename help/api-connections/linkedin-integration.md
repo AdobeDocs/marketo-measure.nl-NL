@@ -34,7 +34,7 @@ Beschikbaar voor alle gebruikers.
 * Accountmanager
 * Campagnebeheer
 
-Leer meer: [ Rollen en Functies van de Gebruiker in de Manager van de Campagne ](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager).
+Leer meer: [&#x200B; Rollen en Functies van de Gebruiker in de Manager van de Campagne &#x200B;](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager).
 
 ### Betaalde rollen voor mediabeheer
 
@@ -43,7 +43,7 @@ Als u wilt dat [!DNL Marketo Measure] gesponsorde Creative Cloud kan maken/bijwe
 * Poster met gesponsorde inhoud
 * Generaal-leider Forms Manager
 
-Leer meer: [ LinkedIn Rollen van Admin van de Pagina ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
+Leer meer: [&#x200B; LinkedIn Rollen van Admin van de Pagina &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
 Er zijn andere [!DNL LinkedIn] rollen die wij **niet** voor onze integratie vereisen. Deze rollen worden vaak verward met de vereiste rollen, zodat is er een verschil!
 
@@ -53,7 +53,7 @@ Als u wilt dat [!DNL Marketo Measure] leads kan downloaden/integreren van lead g
 
 * Super Admin
 
-Leer meer: [ LinkedIn Rollen van Admin van de Pagina ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
+Leer meer: [&#x200B; LinkedIn Rollen van Admin van de Pagina &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
 ## LinkedIn-advertentietypen {#linkedin-ad-types}
 
@@ -65,7 +65,7 @@ De typen inhoud en indelingen die door [!DNL Marketo Measure] worden ondersteund
 
 [!DNL Marketo Measure] biedt geen ondersteuning voor gesponsorde berichten, tekstadvertenties of dynamische advertenties.
 
-![ Marketo Measure steunt geen Gesponsord Overseinen, de Advertentie van de Tekst, of Dynamisch ](assets/bizible-guide-1.png)
+![&#x200B; Marketo Measure steunt geen Gesponsord Overseinen, de Advertentie van de Tekst, of Dynamisch &#x200B;](assets/bizible-guide-1.png)
 
 >[!TIP]
 >
@@ -106,7 +106,7 @@ Creative B : Share 234\
 Creative C: Share 234\
 Creative D : Share 234
 
-![ Creative D: Deel 234 ](../assets/marketo-engage-activities-05.png)
+![&#x200B; Creative D: Deel 234 &#x200B;](../assets/marketo-engage-activities-05.png)
 
 `1)` [!DNL Marketo Measure] doorzoekt eerst alle campagnes, Creative Cloud en shares met de status Actief. In [!DNL Marketo Measure] worden geen tags toegewezen voor gepauzeerde, gearchiveerde of geannuleerde advertenties. Als een advertentie is gepauzeerd, wordt deze ingesteld op [!UICONTROL active] , labelen we deze zodra de advertentie weer actief is. Als we een uniek Delen kunnen vinden, wat betekent dat het niet wordt gebruikt voor meerdere Creative Cloud of Campagnes (bijvoorbeeld Creative A: Share 123), voegt [!DNL Marketo Measure] onze aangepaste parameter `>> ?_bl={creativeId}` toe aan de gedeelde URL.
 
@@ -122,7 +122,7 @@ Creative D : Share 234
 >
 >Dit betekent dat onze klanten de advertentiegeschiedenis van Creative B zullen verliezen: Share 234, Creative C: Share 234 en Creative D: Share 234 omdat het nu opnieuw wordt gemaakt met Creative E: Share 345, Share F: Share 456, en Creative G: Share 567 respectievelijk.
 
-![ Uitvoerend dit zal betekenen dat onze klanten de advertentiegeschiedenis ](assets/api-connections-01.png) zullen verliezen
+![&#x200B; Uitvoerend dit zal betekenen dat onze klanten de advertentiegeschiedenis &#x200B;](assets/api-connections-01.png) zullen verliezen
 
 ## Hoe het werkt: Gen-leider Forms {#how-it-works-lead-gen-forms}
 
@@ -262,7 +262,7 @@ Omdat [!DNL Marketo Measure] rechtstreeks is geïntegreerd met [!DNL LinkedIn] ,
 
 Net als bij andere vormen van advertentie-integratie heeft [!DNL Marketo Measure] een regel voor het marketingkanaal gedefinieerd waarin alle [!DNL LinkedIn] -campagnes, -creatieven en -kosten worden geplaatst. Om de regel te gebruiken, zal de klant een nieuwe rij voor hun Betaalde [!DNL LinkedIn] inspanningen willen opnemen. Het kan een nieuw of bestaand kanaal zijn. In de kolom Referenter gebruikt u de definitie &quot;[[!DNL LinkedIn] Betaald]&quot; die [!DNL Marketo Measure] heeft gedefinieerd als elk aanraakpunt met een tag [!DNL Marketo Measure] .
 
-![ zoals met andere advertentierespelingen, heeft Marketo Measure marketing ](../assets/marketo-engage-activities-01.png) bepaald
+![&#x200B; zoals met andere advertentierespelingen, heeft Marketo Measure marketing &#x200B;](../assets/marketo-engage-activities-01.png) bepaald
 
 ## [!DNL Marketo Measure] Detecteren {#marketo-measure-discover}
 
@@ -314,7 +314,7 @@ LinkedIn vereist dat alle advertenties die worden gecreeerd of gewijzigd door he
 
 Beide. Dankzij de integratie met [!DNL Marketo Measure] kunnen we de doel-URL van de klik tot en met de afbeelding in de advertentie labelen, maar wordt ook automatisch de verkorte URL in de beschrijving van de advertentie bijgewerkt.
 
-![ allebei. De integratie van Marketo Measure staat ons toe om de bestemming ](assets/select-type-1.png) te etiketteren
+![&#x200B; allebei. De integratie van Marketo Measure staat ons toe om de bestemming &#x200B;](assets/select-type-1.png) te etiketteren
 
 **Ik heb mijn [!DNL LinkedIn ads] rekening verbonden. Waarom is het niet [!DNL Marketo Measure] etiketteren van mijn verbindingen?**
 
@@ -324,7 +324,7 @@ De verbonden gebruiker van [!DNL LinkedIn] moet juiste het uitgeven toegang hebb
 
 De aandeel-id is niet opgenomen in een [!DNL LinkedIn] -rapport, dus er is geen duidelijke en duidelijke manier om te controleren op toewijzingen van creatief naar gedeeld materiaal. Als u vermoedt dat een creatief item een kopie is, kunt u dit handmatig controleren door de advertentie te openen vanuit uw [!DNL LinkedIn] Campagne-manager. Hierdoor wordt de advertentie op een nieuw tabblad geopend en kunt u de id voor delen vinden in de URL.
 
-![ identiteitskaart van het aandeel wordt niet verstrekt in een rapport LinkedIn, zodat ](assets/linkedin-integration-02.png)
+![&#x200B; identiteitskaart van het aandeel wordt niet verstrekt in een rapport LinkedIn, zodat &#x200B;](assets/linkedin-integration-02.png)
 
 ## Generaal-leider Forms - Veelgestelde vragen {#lead-gen-forms-faq}
 

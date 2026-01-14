@@ -32,27 +32,27 @@ Alle lagen.
 
 1. Navigeer naar **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Programs]** om regels voor Marketo-programma&#39;s in te stellen. Klik op het pictogram **+** om de eerste regel te maken.
 
-   ![1. Ga naar ](assets/marketo-engage-programs-01.png) om regels voor Marketo-programma&#39;s in te stellen.
+   ![1. Ga naar &#x200B;](assets/marketo-engage-programs-01.png) om regels voor Marketo-programma&#39;s in te stellen.
 
-   ![1. Ga naar ](assets/marketo-engage-programs-06.png) om regels voor Marketo-programma&#39;s in te stellen.
+   ![1. Ga naar &#x200B;](assets/marketo-engage-programs-06.png) om regels voor Marketo-programma&#39;s in te stellen.
 
 1. U kunt desgewenst een naam voor de regel instellen als u deze beter kunt bijhouden. u zult eerst het gebied selecteren om uw regel van de lijst van het Programma en de gebieden van het Lidmaatschap van het Programma te bepalen. Ga door met het bouwen van de regel door de operator en de verwachte waarde te selecteren.
 
-   ![1. U kunt naar keuze een naam voor de regel plaatsen als het ](assets/marketo-engage-programs-07.png)
+   ![1. U kunt naar keuze een naam voor de regel plaatsen als het &#x200B;](assets/marketo-engage-programs-07.png)
 
 1. Voeg een andere instructie in hetzelfde vak toe om de criteria &quot;en&quot; in de regel in te stellen of klik op het pictogram + buiten het vak om de instructie &quot;of&quot; in te stellen.
 
-   ![1. Voeg een andere verklaring binnen de zelfde doos aan opstelling toe ](assets/bizible-discover-1.png)
+   ![1. Voeg een andere verklaring binnen de zelfde doos aan opstelling toe &#x200B;](assets/bizible-discover-1.png)
 
 1. Kies welke datum- of datum-/tijdveld moet worden gebruikt voor toewijzing aan de datum van het aanraakpunt. Als u de lijst met waarden die beschikbaar zijn in Marketo wilt weergeven, voert u een accolade `{` in en geeft u de beschikbare velden weer.
 
-   ![1. Kies welke datum of datum/tijdgebied zou moeten worden gebruikt om in kaart te brengen ](assets/marketo-engage-programs-02.png)
+   ![1. Kies welke datum of datum/tijdgebied zou moeten worden gebruikt om in kaart te brengen &#x200B;](assets/marketo-engage-programs-02.png)
 
    >[!NOTE]
    >
    >Als uw regel de Datum van de Activiteit, of de datum wilt vangen dat een Lid van het Programma een bepaalde status bereikte, zult u [!DNL Marketo Engage] de Integratie van Activiteiten willen gebruiken en opstelling een regel voor het &quot;Status van de Verandering in de activiteitstype van de Progressie&quot;.
 
-   ![ als uw regel de Datum van de Activiteit, of de datum ](assets/bizible-discover-2.png) wil vangen
+   ![&#x200B; als uw regel de Datum van de Activiteit, of de datum &#x200B;](assets/bizible-discover-2.png) wil vangen
 
 De voltooide regel moet er ongeveer als volgt uitzien:
 
@@ -62,21 +62,21 @@ Nadat u sommige regels hebt gecreeerd, kunt u het willen uittesten om te verifi√
 
 1. Als u een test wilt uitvoeren, klikt u op de knop **[!UICONTROL TEST]** zoals hieronder wordt weergegeven.
 
-   ![1. Om een test in werking te stellen, klik de knoop van de TEST zoals getoond ](assets/marketo-engage-programs-03.png)
+   ![1. Om een test in werking te stellen, klik de knoop van de TEST zoals getoond &#x200B;](assets/marketo-engage-programs-03.png)
 
 1. Er wordt een modaal model weergegeven waar u de programma-id vanuit Marketo kunt invoeren.
 
-   ![1. Een modaal zal verschijnen waar u in het Programma kunt ingaan ](assets/marketo-engage-programs-04.png)
+   ![1. Een modaal zal verschijnen waar u in het Programma kunt ingaan &#x200B;](assets/marketo-engage-programs-04.png)
 
    Nadat u de id hebt ingevoerd en op de knop [!UICONTROL Test] hebt geklikt, controleert de regelengine elke regel en of het programma aan een van de regels voldoet. In het onderstaande voorbeeld ziet u dat Program 1002, genaamd [!DNL Marketo Measure] Ebook, vijf programmaleden heeft en in aanmerking komt vanwege de regel die wordt weergegeven.
 
    De regels worden uitgevoerd op steekproefgrootte van 5000 leden. Als uw programma meer dan 5000 leden bevat, is het mogelijk dat wij niet de verenigbaarheid van alle leden controleren. Met dit gereedschap kunt u eenvoudig controleren of de regels correct zijn opgebouwd.
 
-   ![ de regels worden in werking gesteld op steekproefgrootte van 5000 leden. Als uw ](assets/marketo-engage-programs-05.png)
+   ![&#x200B; de regels worden in werking gesteld op steekproefgrootte van 5000 leden. Als uw &#x200B;](assets/marketo-engage-programs-05.png)
 
    Klik op Lidmaatschap om een lijst weer te geven met Marketo People Ids die in aanmerking komen voor het programma.
 
-   ![ u kunt de Telling van het Lid klikken om een lijst van Marketo ](assets/marketo-engage-activities-08.png) te zien
+   ![&#x200B; u kunt de Telling van het Lid klikken om een lijst van Marketo &#x200B;](assets/marketo-engage-activities-08.png) te zien
 
 ## Kanaaltoewijzing {#channel-mapping}
 
@@ -88,7 +88,7 @@ In de lijst met Marketo Program Channels wilt u de waarden toewijzen aan de aang
 
 1. Selecteer eerst het kanaal dat aan de waarde zou moeten in kaart brengen, dan naar keuze Subchannel. Als u klaar bent, klikt u op **[!UICONTROL Save]** onderaan.
 
-   ![1. Selecteer eerst het Kanaal dat aan de waarde zou moeten in kaart brengen, toen ](assets/marketo-engage-programs-08.png)
+   ![1. Selecteer eerst het Kanaal dat aan de waarde zou moeten in kaart brengen, toen &#x200B;](assets/marketo-engage-programs-08.png)
 
 ## Programmakosten {#program-costs}
 

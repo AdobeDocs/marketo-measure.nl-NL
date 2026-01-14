@@ -27,13 +27,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ Instructies op hoe te opstelling Boommeren Stages ](/help/channel-tracking-and-setup/setting-up-boomerang-stages.md).
+>[&#x200B; Instructies op hoe te opstelling Boommeren Stages &#x200B;](/help/channel-tracking-and-setup/setting-up-boomerang-stages.md).
 
 ## Hoe ziet Boommeren en aanraakpunten eruit in uw CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
 Zonder Boomerang-stappen (de &quot;voor&quot;) ziet u alleen het meest recente MQL- of meest recente SQL-aanraakpunt dat is gekoppeld aan een lijst met leads/contactpersonen.
 
-![ Zonder Boemerang stadia (&quot;vóór&quot;), ziet u slechts meest recente MQL ](assets/boomerang-stages-18.png)
+![&#x200B; Zonder Boemerang stadia (&quot;vóór&quot;), ziet u slechts meest recente MQL &#x200B;](assets/boomerang-stages-18.png)
 
 Met de Stages en aanraakpunten van Boemerang ziet u aanraakpunten die voor elke overgang van het werkgebied voorkomen. De naamgevingsconventie voor deze boemerang-aanraakpunten is:
 
@@ -41,7 +41,7 @@ Met de Stages en aanraakpunten van Boemerang ziet u aanraakpunten die voor elke 
 
 In het onderstaande voorbeeld heeft deze [!DNL Marketo Measure] -account MQL en SQL in hun boemerangfasen opgenomen en ervoor gekozen om 2 boemerang-aanraakpunten per werkgebied weer te geven.
 
-![ Gebruikend het voorbeeld hieronder, heeft deze rekening van Marketo Measure MQL ](assets/boomerang-stages-19.png) omvat
+![&#x200B; Gebruikend het voorbeeld hieronder, heeft deze rekening van Marketo Measure MQL &#x200B;](assets/boomerang-stages-19.png) omvat
 
 **MQL-01** is de eerste MQL stadium overgang.
 

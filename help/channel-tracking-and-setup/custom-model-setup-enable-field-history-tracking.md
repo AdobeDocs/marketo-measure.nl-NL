@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## Waarom en wanneer om het Volgen van de Geschiedenis van het Gebied toe te laten {#why-and-when-to-enable-field-history-tracking}
 
-Als u besluit om een douanegebied als stadium in uw model van de douaneattributie te omvatten, moet het volgen van de gebiedsgeschiedenis **** voor dit gebied worden toegelaten. Door het bijhouden van de veldgeschiedenis in te schakelen, kan [!DNL Salesforce] elke keer dat het aangepaste veld wordt bewerkt, bijhouden door een record te maken in de tabel Historie bijhouden. [!DNL Marketo Measure] kan die tabel downloaden en deze informatie gebruiken om de tijd en de dag te meten waarop een &quot;overgang&quot; heeft plaatsgevonden. Zonder het bijhouden van de veldgeschiedenis kan [!DNL Marketo Measure] geen wijzigingen bijhouden die betrekking hebben op dit veld.
+Als u besluit om een douanegebied als stadium in uw model van de douaneattributie te omvatten, moet het volgen van de gebiedsgeschiedenis **&#x200B;**&#x200B;voor dit gebied worden toegelaten. Door het bijhouden van de veldgeschiedenis in te schakelen, kan [!DNL Salesforce] elke keer dat het aangepaste veld wordt bewerkt, bijhouden door een record te maken in de tabel Historie bijhouden. [!DNL Marketo Measure] kan die tabel downloaden en deze informatie gebruiken om de tijd en de dag te meten waarop een &quot;overgang&quot; heeft plaatsgevonden. Zonder het bijhouden van de veldgeschiedenis kan [!DNL Marketo Measure] geen wijzigingen bijhouden die betrekking hebben op dit veld.
 
 Als alleen [!UICONTROL Lead Status] - of Opportunity-fasen worden gebruikt in het aangepaste model, hoeft u het bijhouden van veldgeschiedenis niet in te schakelen, omdat dit automatisch wordt bijgehouden als een overgang in het werkgebied.
 
@@ -29,7 +29,7 @@ Volg onderstaande instructies om het bijhouden van veldgeschiedenis in te schake
 
 1. Ga naar het object waar het aangepaste veld zich bevindt en klik op de knop **[!UICONTROL Set History Tracking]** .
 
-   ![1. Ga naar het Voorwerp waar het douanegebied leeft en klikt ](assets/custom-models-1.png)
+   ![1. Ga naar het Voorwerp waar het douanegebied leeft en klikt &#x200B;](assets/custom-models-1.png)
 
 1. Selecteer de velden waarop u wijzigingen wilt bijhouden.
 

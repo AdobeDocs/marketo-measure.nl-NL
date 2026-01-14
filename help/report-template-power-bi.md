@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ## Aan de slag {#getting-started}
 
-U kunt tot het het rapportmalplaatje van Power BI [ hier ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} toegang hebben.
+U kunt tot het het rapportmalplaatje van Power BI [&#x200B; hier &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} toegang hebben.
 
 Open het Adobe [!DNL Marketo Measure] Reporting Template Power BI-bestand.
 
-![ open het dossier van Power BI van het Malplaatje van de Rapportering van Adobe Marketo Measure.](assets/marketo-bi-1.png)
+![&#x200B; open het dossier van Power BI van het Malplaatje van de Rapportering van Adobe Marketo Measure.](assets/marketo-bi-1.png)
 
-U kunt uw specifieke server-, vakantie- en schemagegevens vinden in de gebruikersinterface van [!DNL Marketo Measure] op de informatiepagina van [!DNL Data Warehouse] . De instructies voor hoe te om van deze pagina de plaats te bepalen zijn gedetailleerd [ hier ](/help/data-warehouse-access-reader-account.md){target="_blank"}.
+U kunt uw specifieke server-, vakantie- en schemagegevens vinden in de gebruikersinterface van [!DNL Marketo Measure] op de informatiepagina van [!DNL Data Warehouse] . De instructies voor hoe te om van deze pagina de plaats te bepalen zijn gedetailleerd [&#x200B; hier &#x200B;](/help/data-warehouse-access-reader-account.md){target="_blank"}.
 
 De parameters QueryFilterStartDate en QueryFilterEndDate worden gebruikt om de hoeveelheid geïmporteerde gegevens te beperken. Deze parameters moeten de SQL-indeling hebben, zoals ze worden gebruikt in de query&#39;s die naar [!DNL Snowflake] worden verzonden. Als u gegevens bijvoorbeeld wilt beperken tot de afgelopen twee jaar, is de QueryFilterStartDate `dateadd` (year,-2,current_date()). Deze parameters worden vergeleken met datetime gegevenstypen, zodat wordt geadviseerd `dateadd` (dag,1,current_date()) voor QueryFilterEndDate te gebruiken om alle gegevens aan de huidige tijd terug te keren.
 
 ## Gegevensverbinding {#data-connection}
 
-De parameters die bij het openen van het bestand worden ingevoerd, worden gebruikt om native query&#39;s te structureren die tabellen importeren uit het gegevenspakhuis. U moet nog steeds een gegevensverbinding met uw [!DNL Snowflake] -instantie instellen. Voor dit, hebt u de zelfde namen van de Server en van het Pakhuis samen met uw Gebruikersnaam en Wachtwoord nodig. De details op waar te om uw Gebruikersnaam te vinden en uw Wachtwoord terug te stellen, indien nodig, worden gedocumenteerd [ hier ](/help/data-warehouse-access-reader-account.md){target="_blank"}.
+De parameters die bij het openen van het bestand worden ingevoerd, worden gebruikt om native query&#39;s te structureren die tabellen importeren uit het gegevenspakhuis. U moet nog steeds een gegevensverbinding met uw [!DNL Snowflake] -instantie instellen. Voor dit, hebt u de zelfde namen van de Server en van het Pakhuis samen met uw Gebruikersnaam en Wachtwoord nodig. De details op waar te om uw Gebruikersnaam te vinden en uw Wachtwoord terug te stellen, indien nodig, worden gedocumenteerd [&#x200B; hier &#x200B;](/help/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Gegevens importeren {#data-import}
 
@@ -36,7 +36,7 @@ Om rapportprestaties te verbeteren, en uit transformatiemogelijkheden in de Vraa
 
 Om de gegevens te beperken die in het model worden ingevoerd, wordt elke lijst opstelling gebruikend een inheemse vraag als bron. Voor native query&#39;s is goedkeuring vereist om te worden uitgevoerd. U moet op uitvoering klikken voor elke query. Deze stap is slechts nodig de eerste keer dat de vragen in werking worden gesteld, of als de parameters veranderen.
 
-![ om de gegevens te beperken die in het model worden ingevoerd, wordt elke lijst geplaatst ](assets/marketo-bi-2.png)
+![&#x200B; om de gegevens te beperken die in het model worden ingevoerd, wordt elke lijst geplaatst &#x200B;](assets/marketo-bi-2.png)
 
 Alle query&#39;s filteren verwijderde rijen en de [!UICONTROL facts] -tabellen zijn ingesteld op filteren op rijen met een gewijzigde datum tussen de begin- en einddatum die als parameters zijn ingevoerd.
 
@@ -44,7 +44,7 @@ Alle query&#39;s filteren verwijderde rijen en de [!UICONTROL facts] -tabellen z
 >
 >Omdat de datumfilters worden toegepast op de gewijzigde datum van een rij, is voorzichtigheid geboden bij het melden van datums die buiten het beperkte datumbereik vallen. Het gewijzigde datumbereik is bijvoorbeeld beperkt tot de afgelopen twee jaar. Dit kan een gebeurtenis omvatten met een datum van een gebeurtenis van drie jaar geleden, maar die onlangs is gewijzigd. De rapportage over gebeurtenissen van drie jaar geleden retourneert echter onvolledige resultaten, aangezien niet alle rijen binnen de termijn van twee jaar zijn gewijzigd.
 
-![ omdat de datumfilters op de gewijzigde datum van a ](assets/marketo-bi-3.png) worden toegepast
+![&#x200B; omdat de datumfilters op de gewijzigde datum van a &#x200B;](assets/marketo-bi-3.png) worden toegepast
 
 De volgende lijsten worden behandeld als feitenlijsten; de datumgrenzen op gewijzigde datum zijn toegevoegd aan deze vragen.
 
@@ -76,7 +76,7 @@ De volgende lijsten worden behandeld als afmetingslijsten; geen datumgrenzen wor
 
 Er zijn een paar transformaties toegepast op de gegevens in Power Query. Als u de specifieke transformaties voor een tabel wilt weergeven, opent u Power Query, navigeert u naar een tabel en noteert u de toegepaste stappen links in het venster. Enkele specifieke transformaties worden hieronder beschreven.
 
-![ een paar transformaties zijn toegepast op de gegevens in de Vraag van de Macht.](assets/marketo-bi-6.png)
+![&#x200B; een paar transformaties zijn toegepast op de gegevens in de Vraag van de Macht.](assets/marketo-bi-6.png)
 
 ### Verwijderde kolommen {#removed-columns}
 
@@ -89,19 +89,19 @@ Om het gegevensmodel te vereenvoudigen en overtollige en onnodige gegevens te ve
 >* De meeste tabellen in het [!DNL Marketo Measure] -gegevenspakhuis bevatten gedenormaliseerde dimensionale gegevens. We hebben er alles aan gedaan om het model in Power BI zoveel mogelijk te normaliseren en op te schonen om de prestaties en gegevensnauwkeurigheid te verbeteren. Wees voorzichtig met het opnemen van eventuele aanvullende gedenormaliseerde velden in feitentabellen, dit kan het filteren van dimensies in verschillende tabellen afbreken en kan ook leiden tot onjuiste rapportage.
 
 
-![ de Meeste lijsten in het de gegevenspakhuis van Marketo Measure bevatten gedenormaliseerde dimensionale ](assets/marketo-bi-7.png)
+![&#x200B; de Meeste lijsten in het de gegevenspakhuis van Marketo Measure bevatten gedenormaliseerde dimensionale &#x200B;](assets/marketo-bi-7.png)
 
 ### Naam van kolommen wijzigen {#renamed-columns}
 
 Tabellen en kolommen hebben een andere naam gekregen om ze gebruiksvriendelijker te maken en de naamgevingsconventies te standaardiseren. Als u de wijzigingen in de kolomnaam wilt weergeven, navigeert u naar de stap &#39;Kolommen hernoemd&#39; na de stap &#39;Overige kolommen verwijderd&#39; in een tabel.
 
-![ de Lijsten en de kolommen zijn anders genoemd om hen gebruikersvriendelijker te maken en ](assets/marketo-bi-5.png)
+![&#x200B; de Lijsten en de kolommen zijn anders genoemd om hen gebruikersvriendelijker te maken en &#x200B;](assets/marketo-bi-5.png)
 
 ### Hernoemde segmenten {#renamed-segments}
 
 Aangezien de segmentnamen aanpasbaar zijn, hebben zij generische kolomnamen in het de gegevenspakhuis van Snowflake. [!DNL BIZ_SEGMENT_NAMES] is een toewijzingstabel waarin de generieke segmentnaam en de toegewezen aangepaste segmentnaam worden vermeld, die worden gedefinieerd in de segmentsectie in de [!DNL Marketo Measure] -gebruikersinterface. De tabel Segmentnaam wordt gebruikt om de naam te wijzigen van de segmentkolommen in de tabellen Aanraakpunt lead en Kenmerk. Als er geen aangepast segment bestaat, blijft de generieke segmentnaam behouden.
 
-![ aangezien de segmentnamen klantgericht zijn, hebben zij generische kolomnamen in ](assets/marketo-bi-4.png)
+![&#x200B; aangezien de segmentnamen klantgericht zijn, hebben zij generische kolomnamen in &#x200B;](assets/marketo-bi-4.png)
 
 ### Hoofdlettergevoelige ID-omzetting {#case-sensitive-id-conversion}
 
@@ -109,19 +109,19 @@ Aangezien de segmentnamen aanpasbaar zijn, hebben zij generische kolomnamen in h
 /10/06/power-bi-and-case-sensitive/) {target="_blank"}. Deze hoofdlettergevoelige id-waarden worden gelabeld als &quot;Id&#39;s samenvoegen&quot; en worden gebruikt als verbindingssleutels in de relatielaag. We hebben de samenvoegings-id&#39;s uit de rapportlaag verborgen, zodat de oorspronkelijke id-waarden zichtbaar blijven voor gebruik in de rapportage, aangezien onzichtbare tekens de cut kunnen beïnvloeden
 /paste functies en het filtreren.
 
-![ /paste functies en het filtreren.](assets/marketo-bi-8.png)
+![&#x200B; /paste functies en het filtreren.](assets/marketo-bi-8.png)
 
-![ /paste functies en het filtreren.](assets/marketo-bi-11.png)
+![&#x200B; /paste functies en het filtreren.](assets/marketo-bi-11.png)
 
 ### Rijen toegevoegd {#rows-added}
 
-Om de mogelijkheden van de muntomzetting aan de berekeningen in het model toe te voegen, hebben wij een collectieve kolom van de omrekeningskoers aan zowel de lijsten van de Mogelijkheid als van de Kosten toegevoegd. De waarde in deze kolom wordt toegevoegd op rijniveau en door zich bij de lijst van het Tarief van de Omzetting op zowel datum als muntidentiteitskaart aan te sluiten geëvalueerd. Voor meer details op hoe de muntomzetting in dit model werkt, zie de [ sectie van de Omzetting van de Valuta 0} {in deze documentatie.](#currency-conversion)
+Om de mogelijkheden van de muntomzetting aan de berekeningen in het model toe te voegen, hebben wij een collectieve kolom van de omrekeningskoers aan zowel de lijsten van de Mogelijkheid als van de Kosten toegevoegd. De waarde in deze kolom wordt toegevoegd op rijniveau en door zich bij de lijst van het Tarief van de Omzetting op zowel datum als muntidentiteitskaart aan te sluiten geëvalueerd. Voor meer details op hoe de muntomzetting in dit model werkt, zie de [&#x200B; sectie van de Omzetting van de Valuta 0&rbrace; &lbrace;in deze documentatie.](#currency-conversion)
 
-![ om de mogelijkheden van de muntomzetting aan de berekeningen in het model toe te voegen, hebben wij ](assets/marketo-bi-10.png)
+![&#x200B; om de mogelijkheden van de muntomzetting aan de berekeningen in het model toe te voegen, hebben wij &#x200B;](assets/marketo-bi-10.png)
 
 De in [!DNL Snowflake] opgeslagen tabel met conversiesnelheid bevat een datumbereik voor elke conversie. Power BI staat geen samenvoeging van criteria op een berekening toe (dat wil zeggen tussen een datumbereik). Om op datum toe te treden, hebben wij stappen aan de lijst van het Tarief van de Omzetting toegevoegd om de rijen uit te breiden zodat is er één rij voor elke datum in de waaier van de omzettingsdatum.
 
-![ de lijst van het Tarief van de Omzetting die in Snowflake wordt opgeslagen bevat een datumwaaier ](assets/marketo-bi-9.png)
+![&#x200B; de lijst van het Tarief van de Omzetting die in Snowflake wordt opgeslagen bevat een datumwaaier &#x200B;](assets/marketo-bi-9.png)
 
 ## Gegevensmodel {#data-model}
 
@@ -168,19 +168,19 @@ Omdat conversiekoersen niet statisch hoeven te zijn en kunnen worden gewijzigd m
 
 De omrekeningsmaatregelen in dit model vervangen de koers 1,0 als geen omrekeningskoers kan worden vastgesteld. Er zijn afzonderlijke maatregelen genomen om de valutawaarde voor de maatregel weer te geven en er wordt gewaarschuwd als een berekening meer dan één valutawaarde bevat (een waarde kan dus niet in de geselecteerde valuta worden omgezet).
 
-![ de maatregelen van de muntomzetting in dit model substitueren een waarde van 1.0 ](assets/marketo-bi-13.png)
+![&#x200B; de maatregelen van de muntomzetting in dit model substitueren een waarde van 1.0 &#x200B;](assets/marketo-bi-13.png)
 
 ## Gegevensdefinities {#data-definitions}
 
 Er zijn definities toegevoegd aan het Power BI-model voor tabellen, aangepaste kolommen en maatregelen.
 
-![ Definities zijn toegevoegd aan het model van Power BI voor lijsten, douane ](assets/marketo-bi-15.png)
+![&#x200B; Definities zijn toegevoegd aan het model van Power BI voor lijsten, douane &#x200B;](assets/marketo-bi-15.png)
 
-![ Definities zijn toegevoegd aan het model van Power BI voor lijsten, douane ](assets/marketo-bi-16.png)
+![&#x200B; Definities zijn toegevoegd aan het model van Power BI voor lijsten, douane &#x200B;](assets/marketo-bi-16.png)
 
-![ Definities zijn toegevoegd aan het model van Power BI voor lijsten, douane ](assets/marketo-bi-14.png)
+![&#x200B; Definities zijn toegevoegd aan het model van Power BI voor lijsten, douane &#x200B;](assets/marketo-bi-14.png)
 
-Om definities voor kolommen te bekijken die direct uit [!DNL Snowflake] komen, zie de [ documentatie van het gegevenspakhuis ](/help/data-warehouse-schema.md){target="_blank"}
+Om definities voor kolommen te bekijken die direct uit [!DNL Snowflake] komen, zie de [&#x200B; documentatie van het gegevenspakhuis &#x200B;](/help/data-warehouse-schema.md){target="_blank"}
 
 ## Verschillen tussen sjablonen en ontdekken {#discrepancies-between-templates-and-discover}
 
@@ -202,7 +202,7 @@ Deze metriek, zoals aangetoond in de rapporteringsmalplaatjes, wordt niet weersp
 
 ### Webverkeer {#web-traffic}
 
-Het gegevensmodel van het rapportmalplaatje normaliseert kanaal, subchannel, en campagnedimensionele gegevens via het verband tussen Zitting en Aanraakpunt. Dit is anders dan het gegevensmodel Discover, dat deze dimensies aan Zitting ontleedt. Wegens dit onderscheid, zouden de totale aantallen voor bezoeken en bezoekers tussen Discover en het rapporteringsmalplaatje moeten aanpassen, echter, zodra getoond of gefilterd door dimensie, worden deze aantallen niet verwacht om op te zetten. De reden hiervoor is dat de dimensionale gegevens in de sjabloon alleen beschikbaar zijn voor webgebeurtenissen die tot een aanraakpunt hebben geleid (d.w.z. niet-anonieme gebeurtenissen). Voor meer details, verwijs het [ Model van Gegevens ](#data-model) sectie van deze documentatie.
+Het gegevensmodel van het rapportmalplaatje normaliseert kanaal, subchannel, en campagnedimensionele gegevens via het verband tussen Zitting en Aanraakpunt. Dit is anders dan het gegevensmodel Discover, dat deze dimensies aan Zitting ontleedt. Wegens dit onderscheid, zouden de totale aantallen voor bezoeken en bezoekers tussen Discover en het rapporteringsmalplaatje moeten aanpassen, echter, zodra getoond of gefilterd door dimensie, worden deze aantallen niet verwacht om op te zetten. De reden hiervoor is dat de dimensionale gegevens in de sjabloon alleen beschikbaar zijn voor webgebeurtenissen die tot een aanraakpunt hebben geleid (d.w.z. niet-anonieme gebeurtenissen). Voor meer details, verwijs het [&#x200B; Model van Gegevens &#x200B;](#data-model) sectie van deze documentatie.
 
 Er kunnen kleine verschillen zijn in het totale aantal sitevormen tussen [!DNL Discover] en de sjabloon. Dit komt omdat het gegevensmodel in het rapporteringsmalplaatje dimensionele gegevens voor de Vorm van de Plaats via een verhouding aan Zitting en dan Aanraakpunt verkrijgt; er zijn een paar gevallen waar de gegevens van de plaatvorm geen gecorreleerde zitting hebben.
 

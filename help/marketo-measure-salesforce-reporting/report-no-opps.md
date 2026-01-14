@@ -28,10 +28,10 @@ Om over Contacten met de Aanraakpunten van de Koper te rapporteren die niet aan 
 
 1. Stel de [!UICONTROL Primary Object] in op &quot;[!UICONTROL Contacts]&quot;. Geef het rapporttype Label de naam &quot;Contactpersonen met aanraakpunten koper&quot;. Gebruik het zelfde noemen voor de Naam van het Type van Rapport. Binnen de ingevoerde beschrijving, &quot;Contacten met de Aanraakpunten van de Koper.&quot; Sparen het Rapport binnen &quot;[!UICONTROL Other]&quot;en plaats het rapport aan &quot;[!UICONTROL Deployed]&quot;.
 
-   ![1. Stel het primaire object in als &quot;Contactpersonen&quot;. Noem het Rapport ](assets/new-types-11.png)
+   ![1. Stel het primaire object in als &quot;Contactpersonen&quot;. Noem het Rapport &#x200B;](assets/new-types-11.png)
 
 1. Hierna koppelt u het object Contacten aan het object Aanraakpunten koper. Zorg ervoor dat u de knop Elk A-record moet minstens één verwant B-record hebben.
 
-   ![1. Van daar, zult u het Voorwerp van Contacten aan de Koper verbinden ](assets/new-types-12.png)
+   ![1. Van daar, zult u het Voorwerp van Contacten aan de Koper verbinden &#x200B;](assets/new-types-12.png)
 
 1. Klik op **[!UICONTROL Save]** en u bent klaar!

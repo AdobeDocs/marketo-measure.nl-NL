@@ -17,10 +17,10 @@ Dit document biedt een overzicht van het beheer van individuele privacyverzoeken
 
 U kunt afzonderlijke aanvragen voor toegang tot en verwijdering van consumentengegevens uit [!DNL Marketo Measure] op twee manieren verzenden:
 
-* Door [[!DNL Privacy Service]  UI ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
-* Via de **[!DNL Privacy Service]API** . Zie hier de documentatie [ ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} en API verwijzing [ ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Door [[!DNL Privacy Service]  UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Via de **[!DNL Privacy Service]API** . Zie hier de documentatie [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} en API verwijzing [&#x200B; &#x200B;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-[ Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} steunt twee soorten verzoeken: gegevenstoegang en gegevensschrapping.
+[&#x200B; Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} steunt twee soorten verzoeken: gegevenstoegang en gegevensschrapping.
 
 Zie hoe u verzoeken van de Toegang en van de Schrapping kunt tot stand brengen.
 

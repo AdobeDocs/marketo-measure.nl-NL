@@ -20,11 +20,11 @@ Aangezien een formulier in een lichtbak in feite een formulier binnen een iFrame
 
 Zoek eerst het iFrame waarin het formulier [!UICONTROL lightbox] zich bevindt.
 
-![ eerst, bepaal de plaats van het iFrame van de lichtbakvorm leven binnen.](assets/adding-providers-8.png)
+![&#x200B; eerst, bepaal de plaats van het iFrame van de lichtbakvorm leven binnen.](assets/adding-providers-8.png)
 
 Plaats vervolgens de JavaScript van [!DNL Marketo Measure] in het iFrame.
 
-![ daarna, plaats Marketo Measure JavaScript binnen iFrame.](assets/adding-providers-5.png)
+![&#x200B; daarna, plaats Marketo Measure JavaScript binnen iFrame.](assets/adding-providers-5.png)
 
 Wanneer de JavaScript wordt toegevoegd, worden formulierverzendingen ten slotte in de volgende richtingen bijgehouden:
 

@@ -14,4 +14,4 @@ ht-degree: 0%
 
 Binnen [!UICONTROL User Settings] kunnen gebruikers de valuta wijzigen van de standaardvaluta in een van de vermelde bedrijfsvaluta&#39;s. Dit zal de vertoning van bedragen zoals Kosten, Ontvangsten, en de Inkomsten van de Pijpleiding bijvoorbeeld, naast de drieletterige muntcode veranderen.
 
-![ binnen de Montages van de Gebruiker, zullen de gebruikers de optie hebben om ](assets/multi-currency-1.png) te veranderen
+![&#x200B; binnen de Montages van de Gebruiker, zullen de gebruikers de optie hebben om &#x200B;](assets/multi-currency-1.png) te veranderen

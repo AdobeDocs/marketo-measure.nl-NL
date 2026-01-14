@@ -31,13 +31,13 @@ Ultimate-gebruikers beschikken over AEP. Als ze AEP al hebben, zullen we geen ni
 
 * De versie van AEP provisioned omvat alle bronschakelaars, schema gegevensmodellering, datasets, de ad hoc vraagdienst, en een bestemming voor slechts Marketo Measure.
 
-Leer meer over [ Marketo Measure Ultimate ](/help/migration-from-tier-to-marketo-measure-ultimate.md){target="_blank"}.
+Leer meer over [&#x200B; Marketo Measure Ultimate &#x200B;](/help/migration-from-tier-to-marketo-measure-ultimate.md){target="_blank"}.
 
 ## Schema&#39;s en gegevenssets {#schemas-and-datasets}
 
 >[!NOTE]
 >
->Controle uit [ Bouwstenen van een Schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} voor een overzicht van schema&#39;s, klassen, en gebiedsgroepen.
+>Controle uit [&#x200B; Bouwstenen van een Schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} voor een overzicht van schema&#39;s, klassen, en gebiedsgroepen.
 
 **XDM Schema = Klasse + de Groep van het Gebied van het Schema&#42;**
 
@@ -46,25 +46,25 @@ Leer meer over [ Marketo Measure Ultimate ](/help/migration-from-tier-to-marketo
 
 &#42; _het schema van A bestaat uit een klasse en nul of meer groepen van het schemagebied. Dit betekent u een datasetschema kon samenstellen zonder gebiedsgroepen te gebruiken._
 
-![&amp;42; Een schema bestaat uit een klasse en nul of meer schemaveld ](assets/marketo-guide-1.png)
+![&42; Een schema bestaat uit een klasse en nul of meer schemaveld &#x200B;](assets/marketo-guide-1.png)
 
-[ Overzicht van Datasets ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Alle gegevens die met succes in AEP worden opgenomen worden voortgeduurd binnen het meer van Gegevens als datasets. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
+[&#x200B; Overzicht van Datasets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Alle gegevens die met succes in AEP worden opgenomen worden voortgeduurd binnen het meer van Gegevens als datasets. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
 
 ## Een schema maken {#creating-a-schema}
 
 Wij adviseren gebruikend een auto-generatienut om tien standaardB2B- schema&#39;s tot stand te brengen.
 
-* De stappen aan download en opstelling het nut [ kunnen hier ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"} worden gevonden.
+* De stappen aan download en opstelling het nut [&#x200B; kunnen hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"} worden gevonden.
 
-Voor die met a _**CDP beding**_: Creeer schema&#39;s door naar de Bronpagina te gaan.
+Voor die met a _&#x200B;**CDP beding**&#x200B;_: Creeer schema&#39;s door naar de Bronpagina te gaan.
 
 * Selecteer Gegevens toevoegen > Sjablonen gebruiken in een bron
 
-![ Van een bron, voegt de uitgezochte malplaatjes van het Gebruik van Gegevens toe ](assets/marketo-guide-2.png)
+![&#x200B; Van een bron, voegt de uitgezochte malplaatjes van het Gebruik van Gegevens toe &#x200B;](assets/marketo-guide-2.png)
 
 * Selecteer een account en alle B2B-sjablonen om tien standaard B2B-schema&#39;s te maken.
 
-![ selecteer een rekening en alle B2B malplaatjes om tien standaardB2B ](assets/marketo-guide-3.png) tot stand te brengen
+![&#x200B; selecteer een rekening en alle B2B malplaatjes om tien standaardB2B &#x200B;](assets/marketo-guide-3.png) tot stand te brengen
 
 ## Gegevensstromen {#dataflows}
 
@@ -72,7 +72,7 @@ Voor die met a _**CDP beding**_: Creeer schema&#39;s door naar de Bronpagina te 
 >
 >Wanneer het toevoegen van een nieuwe dataset, adviseren wij het creëren van een stroom in plaats van het gebruiken van bestaande.
 
-[ Dataflows Overzicht ](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
+[&#x200B; Dataflows Overzicht &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
 **Stappen om een dataflow tot stand te brengen:**
 
@@ -87,7 +87,7 @@ Voor die met a _**CDP beding**_: Creeer schema&#39;s door naar de Bronpagina te 
    >* Als u een schematype aan een andere identieke kaart toewijst, wordt het automatisch gedaan.
    >* U kunt ook toewijzingen importeren uit een andere flow in het systeem.
    >* U kunt één Source-veld toewijzen aan meerdere doelvelden, maar u kunt niet het tegenovergestelde doen.
-   >* U kunt berekende gebieden tot stand brengen ([ Gegevens Prep toewijzingsfuncties ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
+   >* U kunt berekende gebieden tot stand brengen ([&#x200B; Gegevens Prep toewijzingsfuncties &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
 
    >[!CAUTION]
    >
@@ -96,7 +96,7 @@ Voor die met a _**CDP beding**_: Creeer schema&#39;s door naar de Bronpagina te 
 
    >[!NOTE]
    >
-   >[ Marketo Measure Ultimate Vereiste van de Integriteit van Gegevens ](/help/data-integrity-requirement.md){target="_blank"}
+   >[&#x200B; Marketo Measure Ultimate Vereiste van de Integriteit van Gegevens &#x200B;](/help/data-integrity-requirement.md){target="_blank"}
 
 1. Stel een cadence voor gegevensbelasting in.
 1. Controleren en voltooien.
@@ -113,9 +113,9 @@ Bronnen > Gegevensstroom pagina om de status van gegevensstromen te controleren
 
 Optie 1: Om vragen van UI direct in werking te stellen, heb toegang tot het lusje van Vragen onder het Beheer van Gegevens.
 
-![ Optie 1: Om vragen van UI direct in werking te stellen, heb toegang tot de Vragen ](assets/marketo-guide-4.png)
+![&#x200B; Optie 1: Om vragen van UI direct in werking te stellen, heb toegang tot de Vragen &#x200B;](assets/marketo-guide-4.png)
 
-Optie 2: [ Download en gebruik PSQL ](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (sneller en betrouwbaarder).
+Optie 2: [&#x200B; Download en gebruik PSQL &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (sneller en betrouwbaarder).
 
 ## Dataset activeren voor Marketo Measure {#activate-dataset-for-marketo-measure}
 
@@ -148,11 +148,11 @@ We importeren stadia niet automatisch uit gebruikersgegevens, zodat alle fasen h
 
 * Gebruikers kunnen fasen toewijzen uit verschillende bronnen.
 
-![ de Gebruikers kunnen stadia van verschillende bronnen in kaart brengen.](assets/marketo-guide-5.png)
+![&#x200B; de Gebruikers kunnen stadia van verschillende bronnen in kaart brengen.](assets/marketo-guide-5.png)
 
 Als de fases niet in kaart worden gebracht, zal het systeem niet functioneren omdat er nergens gegevens zullen zijn om te gaan.
 
-Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([ leert meer hier ](/help/data-integrity-requirement.md){target="_blank"}).
+Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([&#x200B; leert meer hier &#x200B;](/help/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

@@ -53,7 +53,7 @@ Vragen in de grafiek:
 * Hoe is het aantal aanraakpunten en mensen met een aanraking in de loop der tijd geëvolueerd?
 * Hoe vergelijken de aanraakpunten per persoon van een kwartaal/maand met volgende?
 
-![ hoe de touchpoints per persoon van één kwart/maand aan ](assets/engagement-dashboard-1.png) vergelijkt
+![&#x200B; hoe de touchpoints per persoon van één kwart/maand aan &#x200B;](assets/engagement-dashboard-1.png) vergelijkt
 
 ### Aanraakpunten/Personen met Kanaal {#touchpoints-people-touched-by-channel}
 
@@ -67,7 +67,7 @@ Vragen in de grafiek:
 * Welk kanaal/Subkanaal/Campagne leidde de meeste betrokkenheid?
 * Hoe vergelijk het aantal aanraakpunten met de personen die binnen een specifiek kanaal/subkanaal/campagne worden aangeraakt?
 
-![ hoe vergelijk het aantal aanraakpunten met Mensen die binnen a ](assets/engagement-dashboard-2.png) worden geraakt
+![&#x200B; hoe vergelijk het aantal aanraakpunten met Mensen die binnen a &#x200B;](assets/engagement-dashboard-2.png) worden geraakt
 
 ## Filtervenster {#filter-pane}
 

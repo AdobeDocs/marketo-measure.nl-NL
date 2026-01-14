@@ -43,7 +43,7 @@ Gestapelde staafgrafiek met de totale toegerekende opbrengsten, gesegmenteerd do
 * Welke kanalen produceerden de meest toegeschreven inkomsten elk kwartaal?
 * Wat was de uitsplitsing van de bestemmingsontvangsten per kanaal vorige maand?
 
-![ wat was de uitsplitsing van toegewezen opbrengst door kanaal vorige maand?](assets/attributed-dashboard-4.png)
+![&#x200B; wat was de uitsplitsing van toegewezen opbrengst door kanaal vorige maand?](assets/attributed-dashboard-4.png)
 
 ### Toegewezen inkomstentabel {#attributed-revenue-table}
 
@@ -59,14 +59,14 @@ De totale toegewezen opbrengst die door Kanaal, Subchannel, en Campagne wordt ge
 * De tabelweergave biedt duidelijke en georganiseerde inzichten in de verdeling van de toegewezen inkomsten. Gebruikers kunnen snel prestatiepatronen herkennen en marketingstrategieën met een hoog effect aanwijzen door gegevens te categoriseren in kanalen, subkanalen en campagnes.
 * Klik op het pictogram &quot;+&quot; naast elk kanaal om de uitsplitsing naar subkanaal en campagne weer te geven.
 
-![ klik &quot;+&quot;pictogram naast elk Kanaal om de mislukking door ](assets/attributed-dashboard-5.png) te openbaren
+![&#x200B; klik &quot;+&quot;pictogram naast elk Kanaal om de mislukking door &#x200B;](assets/attributed-dashboard-5.png) te openbaren
 
 **de Mening van de Boom**
 
 * De boomweergave maakt een interactieve en korrelere gegevensverkenning mogelijk, zodat marketeers trends, anomalieën of vooraanstaande personen kunnen identificeren in hun marketingactiviteiten.
 * Klik op een vertakking om dieper in de volgende hiërarchische laag te gaan.
 
-![ klik een tak om dieper in de verdere hiërarchische laag te delven.](assets/attributed-dashboard-6.png)
+![&#x200B; klik een tak om dieper in de verdere hiërarchische laag te delven.](assets/attributed-dashboard-6.png)
 
 ## Filtervenster {#filter-pane}
 
@@ -80,6 +80,6 @@ Dit dashboard is uitgerust met de volgende instellingen en filters:
 
 >[!MORELIKETHIS]
 >
->* [ ontdekt de Grondbeginselen van het Dashboard ](/help/discover-dashboard-basics.md){target="_blank"}
->* [ Beleid van de Zichtbaarheid van Gegevens van het Dashboard ](/help/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/discover-dashboard-basics.md){target="_blank"}
+>* [&#x200B; Beleid van de Zichtbaarheid van Gegevens van het Dashboard &#x200B;](/help/dashboard-data-visibility-policy.md){target="_blank"}
 

@@ -20,7 +20,7 @@ Uit de doos hebt u vele rapporteringsmogelijkheden bij uw vingertoppen wanneer h
 
 1. Navigeer binnen [!DNL Salesforce] naar de instellingsoptie. Vouw vervolgens de groep Maken uit en selecteer **[!UICONTROL Report Types]** .
 
-   ![1. Navigeer naar de instellingsoptie in Salesforce. Van daar, breid uit ](assets/bizible-guide-1.png)
+   ![1. Navigeer naar de instellingsoptie in Salesforce. Van daar, breid uit &#x200B;](assets/bizible-guide-1.png)
 
 1. Selecteer **[!UICONTROL New Custom Report Type]**.
 
@@ -28,10 +28,10 @@ Uit de doos hebt u vele rapporteringsmogelijkheden bij uw vingertoppen wanneer h
 
 1. Stel het primaire object in als &#39;Leads&#39; en binnen de invoer &#39;Label voor rapporttype&#39; als &#39;Leads met aanraakpunten voor kopers - inclusief&#39;. Sla het rapport op in de categorie &quot;Leads&quot; en wijzig de implementatiestatus in **[!UICONTROL Deployed]** . Selecteer vervolgens **[!UICONTROL Next]** .
 
-   ![1. Plaats het primaire voorwerp als &quot;Leidingen&quot;en binnen het &quot;Type van Rapport ](assets/marketo-reports-18.jpg)
+   ![1. Plaats het primaire voorwerp als &quot;Leidingen&quot;en binnen het &quot;Type van Rapport &#x200B;](assets/marketo-reports-18.jpg)
 
 1. Voor de objecten verhoudingen, selecteer het **[!DNL Marketo Measure]voorwerp van Personen** als secundair voorwerp. Selecteer de relatie A tot B als &quot;Elk A-record moet minstens één verwant B-record hebben.&quot; Daarna koppelt u het object &quot;Buyer Touchpoint&quot; en selecteert u dezelfde relatie tussen de objecten B en C.
 
-   ![1. Voor de objecten verhoudingen, selecteer het voorwerp van Personen van Marketo Measure ](assets/bizible-guide-2.png)
+   ![1. Voor de objecten verhoudingen, selecteer het voorwerp van Personen van Marketo Measure &#x200B;](assets/bizible-guide-2.png)
 
 1. Sla enkele rapporten op en maak deze.

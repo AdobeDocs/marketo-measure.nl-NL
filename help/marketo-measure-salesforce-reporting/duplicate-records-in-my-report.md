@@ -24,7 +24,7 @@ Neem het volgende rapport als voorbeeld:
 
 Dit is a **Contacten met de Aanraakpunten van de Koper** rapport. Nogmaals, dit betekent dat we kijken naar het aantal aanraakpunten dat gekoppeld is aan een individueel contact.
 
-![ dit is een Contacten met het rapport van de Aanraakpunten van de Koper. Opnieuw, betekent dit dat ](assets/marketo-reports-1.gif)
+![&#x200B; dit is een Contacten met het rapport van de Aanraakpunten van de Koper. Opnieuw, betekent dit dat &#x200B;](assets/marketo-reports-1.gif)
 
 Zoals je ziet, lijken er drie James Williams-contacten in het verslag te zitten, en daarom denk je misschien: &quot;duplicaten!&quot;
 
@@ -34,4 +34,4 @@ Als u het &quot;aantal contacten&quot;wilt begrijpen kunt u de gebieden &quot;Te
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

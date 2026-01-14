@@ -22,15 +22,15 @@ Dit artikel biedt een overzicht van hoe u uw [!DNL Salesforce] -account kunt ver
 
 1. Klik in de kolom met opties links in het scherm op **[!UICONTROL Connections]** onder de sectie [!UICONTROL Integrations] .
 
-   ![1. In de kolom van het plaatsen van opties op de linkerzijde, klik ](assets/bizible-full-1.png)
+   ![1. In de kolom van het plaatsen van opties op de linkerzijde, klik &#x200B;](assets/bizible-full-1.png)
 
 1. Klik onder de sectie CRM in Verbindingen op **[!UICONTROL Set Up New CRM Connection]** .
 
-   ![1. Onder de sectie van CRM in Verbindingen, klik Nieuwe Opstelling ](assets/bizible-taxonomy-1.png)
+   ![1. Onder de sectie van CRM in Verbindingen, klik Nieuwe Opstelling &#x200B;](assets/bizible-taxonomy-1.png)
 
 1. Er verschijnt een pop-upvenster waarin u wordt gevraagd een CRM-verbinding te selecteren. Klik op **[!UICONTROL Connect]** naast het logo van [!DNL Salesforce] .
 
-   ![1. Er verschijnt een pop-upvenster waarin u wordt gevraagd een CRM-verbinding te selecteren. Klikken ](assets/connect-salesforce-1.png)
+   ![1. Er verschijnt een pop-upvenster waarin u wordt gevraagd een CRM-verbinding te selecteren. Klikken &#x200B;](assets/connect-salesforce-1.png)
 
 1. Er wordt een laatste pop-upvenster weergegeven met de vraag naar uw [!DNL Salesforce] -referenties, sandbox of productie. Voer uw gegevens in en klik op **[!UICONTROL Authorize]** om de account te verbinden met [!DNL Marketo Measure] .
 
@@ -48,7 +48,7 @@ Marketo Measure gebruikt een CRM-integratietaak om te communiceren met de Salesf
 
 U kunt tot deze grens in Marketo Measure toegang hebben via: **Mijn Rekening** > **Montages** > **CRM** > **Algemeen** > **Dagelijkse grens van CRM API**, en kan het voor uw huurders vormen.
 
-![ u kunt tot deze grens in Marketo Measure toegang hebben via: Mijn Montages van de Rekening ](assets/connect-salesforce-2.png)
+![&#x200B; u kunt tot deze grens in Marketo Measure toegang hebben via: Mijn Montages van de Rekening &#x200B;](assets/connect-salesforce-2.png)
 
 ### Limiet instellen voor API-credits {#setting-a-limit-for-api-credits}
 
@@ -62,12 +62,12 @@ U kunt tot deze grens in Marketo Measure toegang hebben via: **Mijn Rekening** >
 
 1. Voer een gewenste limiet in van 100.000 of hoger. Klik **sparen** wanneer gedaan.
 
-   ![1. Voer een gewenste limiet in van 100.000 of hoger. Klikken ](assets/connect-salesforce-1.png)
+   ![1. Voer een gewenste limiet in van 100.000 of hoger. Klikken &#x200B;](assets/connect-salesforce-1.png)
 
 >[!NOTE]
 >
->Om beschikbare Salesforce API kredieten voor uw verbonden oplossing te verhogen, contacteer uw beheerder van Salesforce en verwijs [ dit document van Salesforce ](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.
+>Om beschikbare Salesforce API kredieten voor uw verbonden oplossing te verhogen, contacteer uw beheerder van Salesforce en verwijs [&#x200B; dit document van Salesforce &#x200B;](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
->[ Meldingen van de Fout ](/help/configuration-and-setup/error-notifications.md){target="_blank"}
+>[&#x200B; Meldingen van de Fout &#x200B;](/help/configuration-and-setup/error-notifications.md){target="_blank"}

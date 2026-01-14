@@ -16,11 +16,11 @@ Hieronder wordt beschreven hoe u verbinding maakt met Marketo.
 
 >[!PREREQUISITES]
 >
->[ creeer een slechts rol van de Gebruiker van API ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) voor de [!DNL Marketo Measure]/verbinding van Marketo Engage.
+>[&#x200B; creeer een slechts rol van de Gebruiker van API &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) voor de [!DNL Marketo Measure]/verbinding van Marketo Engage.
 
 1. Klik in [!DNL Marketo Measure] op de vervolgkeuzelijst **[!UICONTROL My Account]** en selecteer **[!UICONTROL Settings]** .
 
-   ![1. Klik in Marketo Measure op de vervolgkeuzelijst Mijn account en ](assets/set-connection-7.png)
+   ![1. Klik in Marketo Measure op de vervolgkeuzelijst Mijn account en &#x200B;](assets/set-connection-7.png)
 
 1. Klik onder [!UICONTROL Integrations] op **[!UICONTROL Connections]** .
 
@@ -40,7 +40,7 @@ Hieronder wordt beschreven hoe u verbinding maakt met Marketo.
 
 1. Nog in Marketo Engage, uitgezochte **LaunchPoint** in de boom op de linkerzijde. Vind de douanedienst die u met Marketo Measure wilt verbinden en **Details van de Mening** klikken.
 
-   ![1. Stilstaand in Marketo Engage, uitgezochte LaunchPoint in de boom op ](assets/set-connection-4.png)
+   ![1. Stilstaand in Marketo Engage, uitgezochte LaunchPoint in de boom op &#x200B;](assets/set-connection-4.png)
 
 1. Markeer en sla de client-id en het clientgeheim op. Klik **dicht**.
 
@@ -48,11 +48,11 @@ Hieronder wordt beschreven hoe u verbinding maakt met Marketo.
 
 1. Vul de velden weer in [!DNL Marketo Measure] met de gegevens die u hebt verzameld.
 
-   ![1. Terug in Marketo Measure, bevolk de gebieden met de gegevens ](assets/set-connection-1.png)
+   ![1. Terug in Marketo Measure, bevolk de gebieden met de gegevens &#x200B;](assets/set-connection-1.png)
 
 1. Klik op **[!UICONTROL Authenticate]** nadat u de waarden hebt ingevoerd. Uw Marketo Engage-account is verbonden met [!DNL Marketo Measure] .
 
-   ![1. Nadat u de waarden ingaat, klik voor authentiek verklaren. Uw Marketo Engage ](assets/set-connection-2.png)
+   ![1. Nadat u de waarden ingaat, klik voor authentiek verklaren. Uw Marketo Engage &#x200B;](assets/set-connection-2.png)
 
    >[!NOTE]
    >
