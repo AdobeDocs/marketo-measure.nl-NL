@@ -32,7 +32,7 @@ Marketo Measure accepteert de volgende waarden: E-mailadres, Salesforce Lead-id 
 
 | Marketingautomatisering | Token/Tag/macro | Voorbeeld | Ondersteunend materiaal |
 | --- | --- | --- | --- |
-| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [&#x200B; Tokens overzicht &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html) |
+| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [&#x200B; Tokens overzicht &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=nl-NL) |
 | Pardot | %%email% of %%user_crm_id% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [&#x200B; Pardot veranderlijke de markeringsverwijzing &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
 | Hubspot | (ingevoegd via de Editor) | nvt | [&#x200B; HubSpot personaliseert inhoud &#x200B;](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
 | Act-On | (ingevoegd via Message Composer) | nvt | [&#x200B; handeling-op personaliseer e-mailinhoud &#x200B;](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |

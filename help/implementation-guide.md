@@ -37,7 +37,7 @@ Leer meer over [&#x200B; Marketo Measure Ultimate &#x200B;](/help/migration-from
 
 >[!NOTE]
 >
->Controle uit [&#x200B; Bouwstenen van een Schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} voor een overzicht van schema&#39;s, klassen, en gebiedsgroepen.
+>Controle uit [&#x200B; Bouwstenen van een Schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#building-blocks-of-a-schema){target="_blank"} voor een overzicht van schema&#39;s, klassen, en gebiedsgroepen.
 
 **XDM Schema = Klasse + de Groep van het Gebied van het Schema&#42;**
 
@@ -48,13 +48,13 @@ Leer meer over [&#x200B; Marketo Measure Ultimate &#x200B;](/help/migration-from
 
 ![&42; Een schema bestaat uit een klasse en nul of meer schemaveld &#x200B;](assets/marketo-guide-1.png)
 
-[&#x200B; Overzicht van Datasets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Alle gegevens die met succes in AEP worden opgenomen worden voortgeduurd binnen het meer van Gegevens als datasets. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
+[&#x200B; Overzicht van Datasets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Alle gegevens die met succes in AEP worden opgenomen worden voortgeduurd binnen het meer van Gegevens als datasets. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
 
 ## Een schema maken {#creating-a-schema}
 
 Wij adviseren gebruikend een auto-generatienut om tien standaardB2B- schema&#39;s tot stand te brengen.
 
-* De stappen aan download en opstelling het nut [&#x200B; kunnen hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"} worden gevonden.
+* De stappen aan download en opstelling het nut [&#x200B; kunnen hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=nl-NL#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"} worden gevonden.
 
 Voor die met a _&#x200B;**CDP beding**&#x200B;_: Creeer schema&#39;s door naar de Bronpagina te gaan.
 
@@ -72,7 +72,7 @@ Voor die met a _&#x200B;**CDP beding**&#x200B;_: Creeer schema&#39;s door naar d
 >
 >Wanneer het toevoegen van een nieuwe dataset, adviseren wij het creëren van een stroom in plaats van het gebruiken van bestaande.
 
-[&#x200B; Dataflows Overzicht &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
+[&#x200B; Dataflows Overzicht &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=nl-NL){target="_blank"}
 
 **Stappen om een dataflow tot stand te brengen:**
 
@@ -87,7 +87,7 @@ Voor die met a _&#x200B;**CDP beding**&#x200B;_: Creeer schema&#39;s door naar d
    >* Als u een schematype aan een andere identieke kaart toewijst, wordt het automatisch gedaan.
    >* U kunt ook toewijzingen importeren uit een andere flow in het systeem.
    >* U kunt één Source-veld toewijzen aan meerdere doelvelden, maar u kunt niet het tegenovergestelde doen.
-   >* U kunt berekende gebieden tot stand brengen ([&#x200B; Gegevens Prep toewijzingsfuncties &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
+   >* U kunt berekende gebieden tot stand brengen ([&#x200B; Gegevens Prep toewijzingsfuncties &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=nl-NL){target="_blank"}).
 
    >[!CAUTION]
    >
@@ -115,7 +115,7 @@ Optie 1: Om vragen van UI direct in werking te stellen, heb toegang tot het lusj
 
 ![&#x200B; Optie 1: Om vragen van UI direct in werking te stellen, heb toegang tot de Vragen &#x200B;](assets/marketo-guide-4.png)
 
-Optie 2: [&#x200B; Download en gebruik PSQL &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (sneller en betrouwbaarder).
+Optie 2: [&#x200B; Download en gebruik PSQL &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html?lang=nl-NL){target="_blank"} (sneller en betrouwbaarder).
 
 ## Dataset activeren voor Marketo Measure {#activate-dataset-for-marketo-measure}
 
