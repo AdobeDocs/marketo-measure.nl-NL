@@ -3,9 +3,9 @@ description: Het toevoegen van  [!DNL Marketo Measure]  Manuscript aan Lichtbak 
 title: Toevoegend  [!DNL Marketo Measure]  Manuscript aan Lichtbak Forms
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Aangezien een formulier in een lichtbak in feite een formulier binnen een iFrame
 
 Zoek eerst het iFrame waarin het formulier [!UICONTROL lightbox] zich bevindt.
 
-![](assets/adding-providers-8.png)
+![ eerst, bepaal de plaats van het iFrame van de lichtbakvorm leven binnen.](assets/adding-providers-8.png)
 
 Plaats vervolgens de JavaScript van [!DNL Marketo Measure] in het iFrame.
 
-![](assets/adding-providers-5.png)
+![ daarna, plaats Marketo Measure JavaScript binnen iFrame.](assets/adding-providers-5.png)
 
 Wanneer de JavaScript wordt toegevoegd, worden formulierverzendingen ten slotte in de volgende richtingen bijgehouden:
 

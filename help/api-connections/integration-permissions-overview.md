@@ -3,7 +3,7 @@ description: Overzicht van integratierechten voor Marketo Measure-gebruikers
 title: Overzicht van integratierechten
 feature: APIs, Integration
 exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 1%
@@ -30,7 +30,7 @@ In deze handleiding worden de benodigde machtigingen beschreven voor naadloze in
 <tbody>
   <tr>
     <td>Salesforce</td>
-    <td>B2B-systeemgegevens  
+    <td>B2B-systeemgegevens
 </td>
     <td>Marketo Measure volgt:
     <p>
@@ -61,7 +61,7 @@ Aanraakpunten en andere gegevens worden in aangepaste, bizible velden geschreven
     <p>
     <b> Salesforce Standaard de Toestemmingen van het Gebied </b>
     <br>
-    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md"> Salesforce standaardobjecten en toegang </a>
+    <a href="/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md"> Salesforce standaardobjecten en toegang </a>
     <p>
     <b> de Toestemmingen van het Gebied van de Douane van Salesforce </b>
     <br>
@@ -106,11 +106,11 @@ Beveiligingsrollen bevinden zich hier: Instellingen &gt; Beveiliging &gt; Beveil
 <br>
 Voor aangepaste Marketo Measure-entiteiten hebben we volledige machtigingen voor al onze entiteiten nodig.
 <p>
-<b> de StandaardToestemmingen van het Gebied van de Dynamiek 0&rbrace; &lbrace;
+<b> de StandaardToestemmingen van het Gebied van de Dynamiek 0} {
 </b>
-<br> het Schema van de Dynamica van Marketo Measure <a href="/help/marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md"></a>
+<br> het Schema van de Dynamica van Marketo Measure <a href="/help/marketo-measure-dynamics-schema.md"></a>
 <p>
-<b> de Toestemmingen van het Gebied van de Douane van 0&rbrace; Dynamiek
+<b> de Toestemmingen van het Gebied van de Douane van 0} Dynamiek
 </b>
 Wij hebben LEZEN toegang voor om het even welk gebied op de Leiding of entiteit van het Contact nodig die de klant voor de regels van de Montages van de Douane wil gebruiken onderdrukken/verwijderen Touchpoint.
 <br>
@@ -212,16 +212,16 @@ Marketo Measure volgt campagnes, ad-hocgroepen, Creative Cloud, Site Links en Tr
   <tr>
     <td>Marketo Engage</td>
     <td>B2B-systeemgegevens</td>
-    <td>Dankzij de Marketo-integratie kan Marketo Measure Marketo-activiteiten, -mensen, -programma's en -programmamakers verzamelen. Bovendien, volgt Marketo Measure de koekjes van Marketo (Munchkin IDs) voor het verbinden van het Webactiviteiten van Marketo met Marketo Measure loodtouchpoints, <a href="/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#cookie-mapping"> zoals hier beschreven </a>:
+    <td>Dankzij de Marketo-integratie kan Marketo Measure Marketo-activiteiten, -mensen, -programma's en -programmamakers verzamelen. Bovendien, volgt Marketo Measure de koekjes van Marketo (Munchkin IDs) voor het verbinden van het Webactiviteiten van Marketo met Marketo Measure loodtouchpoints, <a href="/help/marketo-engage-programs-integration.md#cookie-mapping"> zoals hier beschreven </a>:
     <p>
     <i> als resultaat van de integratie van Marketo Measure met Marketo, wordt Marketo Measure Cookie ID nu in kaart gebracht en gesynchroniseerd met Marketo Munchkin Id. Dit helpt de hiaat te sluiten om de anonieme eerste aanraking aan een Webzitting eerder dan het toeschrijven van zowel FT als LC aan een Activiteit van Marketo toe te schrijven.</i>
     </td>
-    <td>De klant moet een speciale Marketo Engage API-gebruiker maken en de referenties aan Marketo Measure leveren. Er is geen configuratie met extra machtigingen vereist. <a href="/help/marketo-measure-and-marketo/set-up-marketo-connection.md#configuring-the-integration"> leer meer </a>.</td>
+    <td>De klant moet een speciale Marketo Engage API-gebruiker maken en de referenties aan Marketo Measure leveren. Er is geen configuratie met extra machtigingen vereist. <a href="/help/set-up-marketo-connection.md#configuring-the-integration"> leer meer </a>.</td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
     <td>B2B-systeemgegevens</td>
-    <td>Dankzij de integratie van B2B-klantkenmerken kunnen wederzijdse gebruikers van Marketo Measure en Adobe Analytics hun Adobe Analytics-gebruikersprofielen verrijken met waardevolle metagegevens die zijn afgeleid van de Marketo Measure-toewijzingsengine en via de synchronisatiefunctie met CRM's (Microsoft Dynamics en Salesforce). <a href="/help/marketo-measure-and-adobe/adobe-analytics.md"> leer meer </a>.</td>
+    <td>Dankzij de integratie van B2B-klantkenmerken kunnen wederzijdse gebruikers van Marketo Measure en Adobe Analytics hun Adobe Analytics-gebruikersprofielen verrijken met waardevolle metagegevens die zijn afgeleid van de Marketo Measure-toewijzingsengine en via de synchronisatiefunctie met CRM's (Microsoft Dynamics en Salesforce). <a href="/help/adobe-analytics.md"> leer meer </a>.</td>
     <td>De klant moet Marketo Measure een alias-id en FTP-serverreferenties verstrekken op een locatie waar de gegevens naar de instantie Analytics worden geüpload.
     <p>
     Neem nota van de volgende informatie, aangezien u het voor enkele recentere stappen in het proces zult nodig hebben:
@@ -229,7 +229,7 @@ Marketo Measure volgt campagnes, ad-hocgroepen, Creative Cloud, Site Links en Tr
     <li>De alias-id. Dit kan elke gewenste waarde zijn. We raden 'marketeasure_id' aan</li>
     <li>De hostnaam en referenties van de FTP-server (gebruikersnaam en wachtwoord)</li>
     <p>
-    <a href="/help/marketo-measure-and-adobe/adobe-analytics.md#configuring-the-integration">Meer informatie</a></td>
+    <a href="/help/adobe-analytics.md#configuring-the-integration">Meer informatie</a></td>
   </tr>
   <tr>
     <td>Bizible Javascript</td>
@@ -241,4 +241,4 @@ Marketo Measure volgt campagnes, ad-hocgroepen, Creative Cloud, Site Links en Tr
 </table>
 
 >[!MORELIKETHIS]
->[&#x200B; Meldingen van de Fout &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[ Meldingen van de Fout ](/help/configuration-and-setup/error-notifications.md){target="_blank"}

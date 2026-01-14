@@ -1,0 +1,37 @@
+---
+description: Leads met aanraakpunten voor kopers sturen hulp aan Marketo Measure-gebruikers
+title: Leads met rapport met aanraakpunten voor kopers
+exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
+feature: Touchpoints, Reporting
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 2%
+
+---
+
+# Leads met rapport met aanraakpunten voor kopers {#leads-with-buyer-touchpoints-report}
+
+>[!NOTE]
+>
+>U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;[!DNL Bizible]&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+
+Uit de doos hebt u vele rapporteringsmogelijkheden bij uw vingertoppen wanneer het over [!DNL Marketo Measure] komt, maar er zijn sommige extra rapporttypes wij adviseren bouw. Meer informatie over het maken van een inclusief leadtype met kopersaanraakpunten vindt u hieronder.
+
+1. Navigeer binnen [!DNL Salesforce] naar de instellingsoptie. Vouw vervolgens de groep Maken uit en selecteer **[!UICONTROL Report Types]** .
+
+   ![1. Navigeer naar de instellingsoptie in Salesforce. Van daar, breid uit ](assets/bizible-guide-1.png)
+
+1. Selecteer **[!UICONTROL New Custom Report Type]**.
+
+   ![1. Selecteer het Nieuwe Type van Rapport van de Douane.](assets/marketo-reports-17.jpg)
+
+1. Stel het primaire object in als &#39;Leads&#39; en binnen de invoer &#39;Label voor rapporttype&#39; als &#39;Leads met aanraakpunten voor kopers - inclusief&#39;. Sla het rapport op in de categorie &quot;Leads&quot; en wijzig de implementatiestatus in **[!UICONTROL Deployed]** . Selecteer vervolgens **[!UICONTROL Next]** .
+
+   ![1. Plaats het primaire voorwerp als &quot;Leidingen&quot;en binnen het &quot;Type van Rapport ](assets/marketo-reports-18.jpg)
+
+1. Voor de objecten verhoudingen, selecteer het **[!DNL Marketo Measure]voorwerp van Personen** als secundair voorwerp. Selecteer de relatie A tot B als &quot;Elk A-record moet minstens één verwant B-record hebben.&quot; Daarna koppelt u het object &quot;Buyer Touchpoint&quot; en selecteert u dezelfde relatie tussen de objecten B en C.
+
+   ![1. Voor de objecten verhoudingen, selecteer het voorwerp van Personen van Marketo Measure ](assets/bizible-guide-2.png)
+
+1. Sla enkele rapporten op en maak deze.

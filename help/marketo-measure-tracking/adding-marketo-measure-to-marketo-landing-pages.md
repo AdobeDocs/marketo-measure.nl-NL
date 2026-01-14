@@ -3,9 +3,9 @@ description: Het toevoegen van  [!DNL Marketo Measure]  aan Marketo die de richt
 title: Toevoegend  [!DNL Marketo Measure]  aan Marketo het Landen Pagina's
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Voorbeeld in onderstaande schermafbeelding
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![](assets/adding-pages-1.png)
+   ![1. Klik op Opslaan.](assets/adding-pages-1.png)
 
 ## Aanvullende opmerkingen {#additional-notes}
 
@@ -41,4 +41,4 @@ Voorbeeld in onderstaande schermafbeelding
 
 * Het is waarschijnlijk dat u veelvoudige het Bestaan van de Pagina malplaatjes in gebruik hebt, ben zeker om de code aan alle malplaatjes toe te voegen die vormen op hen hebben.
 
-* Wanneer u de sjabloon voor bestemmingspagina&#39;s bewerkt, moet u soms de pagina&#39;s die de bestemmingspagina gebruikt, opnieuw goedkeuren. Dit artikel verklaart [&#x200B; hoe te om massa goed te keuren &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=nl-NL){target="_blank"}.
+* Wanneer u de sjabloon voor bestemmingspagina&#39;s bewerkt, moet u soms de pagina&#39;s die de bestemmingspagina gebruikt, opnieuw goedkeuren. Dit artikel verklaart [ hoe te om massa goed te keuren ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

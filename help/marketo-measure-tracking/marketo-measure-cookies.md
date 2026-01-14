@@ -4,9 +4,9 @@ title: '[!DNL Marketo Measure] Cookies'
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
 hidefromtoc: true
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '386'
 ht-degree: 4%
 
 ---
@@ -33,4 +33,4 @@ Meer informatie over de verschillende [!DNL Marketo Measure] cookies die op uw s
 
 Als een waarschuwing van de Firewall van de Toepassing van het Web (WAF) tijdens de opstelling van JavaScript wordt teweeggebracht, kunnen de gebruikers of die regel van WAF onbruikbaar maken of de koekjes, zoals het volgende voorbeeld lijsten van gewenste personen:
 
-![](assets/adding-script-1.png)
+![ als een waarschuwing van de Firewall van de Toepassing van het Web (WAF) tijdens JavaScript ](assets/adding-script-1.png) wordt teweeggebracht

@@ -3,7 +3,7 @@ description: AJAX Form Handling Guidance for Marketo Measure users
 title: AJAX-formulierverwerking
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -23,21 +23,21 @@ Als u uw eigen formulierverzendingen verwerkt, kunt u [!DNL Marketo Measure] exp
 **hieronder is een codesteekproef gebruikend JQuery (veronderstellend identiteitskaart op de vorm is &quot;formId&quot;):**
 
 ```javascript
-///////////////////////////////////////////////////////////////////////  
-// Preamble for all API usage.  
-window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-  
-// Give Marketo Measure the JQuery Selector for the form and we'll collect the data automatically.  
+///////////////////////////////////////////////////////////////////////
+// Preamble for all API usage.
+window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
+
+// Give Marketo Measure the JQuery Selector for the form and we'll collect the data automatically.
 Bizible.Push('Form',$('#*formId*'));
 ```
 
 **hieronder is een codesteekproef die geen JQuery gebruikt (veronderstellend identiteitskaart op de vorm is &quot;formId&quot;):**
 
 ```javascript
-///////////////////////////////////////////////////////////////////////  
-// Preamble for all API usage.  
-window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-  
+///////////////////////////////////////////////////////////////////////
+// Preamble for all API usage.
+window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
+
 // Give Marketo Measure the Form ID and we'll collect the data automatically.
 Bizible.Push('Form','MyFormID');
 ```
@@ -47,14 +47,14 @@ Bizible.Push('Form','MyFormID');
 Als informatie uit een geconverteerde lead wordt verzameld met JavaScript of eenvoudige tekstvelden zonder HTML-formulier, werkt deze oplossing voor u. Hieronder wordt de API gedeeld die in dit scenario moet worden gebruikt:
 
 ```javascript
-///////////////////////////////////////////////////////////////////////  
-// Preamble for all API usage.  
-window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-  
-// If your site is using Ajax, or you are running a secure site, it is best to send us the data directly.  
+///////////////////////////////////////////////////////////////////////
+// Preamble for all API usage.
+window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
+
+// If your site is using Ajax, or you are running a secure site, it is best to send us the data directly.
 Bizible.Push('User', {
-eMail: 'user@gmail.com' // required  
-});  
+eMail: 'user@gmail.com' // required
+});
 ```
 
 In deze code is het veld [!UICONTROL email] vereist. [!DNL Marketo Measure] plaatst deze gegevens asynchroon op onze servers.
@@ -66,8 +66,8 @@ Soms is het handiger om de leidende informatie naar [!DNL Marketo Measure] te me
 **bijvoorbeeld:**
 
 ```html
-<div id="bizible.reportUser" style="display:none"  
-data-email="user@gmail.com">  
+<div id="bizible.reportUser" style="display:none"
+data-email="user@gmail.com">
 ```
 
 Het maakt niet uit of het verborgen element een div-, script- of ander labeltype is. [!DNL Marketo Measure] zoekt naar id=&quot;bizible.reportUser&quot; om de informatie te lezen.

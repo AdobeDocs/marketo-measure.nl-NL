@@ -3,10 +3,10 @@ description: Begrijpend  [!DNL Marketo Measure]  AdWords die begeleiding voor de
 title: Begrijpend  [!DNL Marketo Measure]  AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 0%
+source-wordcount: '630'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Dezelfde URL levert echter korrelige gegevens vanwege de parameters [!DNL Market
 **als [!DNL Marketo Measure] een Volgend Malplaatje vindt:**
 
 * [!DNL Marketo Measure] voegt de parameters ervan toe aan de sjabloon voor reeksspatiëring.
-* Als een doorverwijzing van een derde wordt gevonden in een volgsjabloon zoals Kenshoo of Marin, voert [!DNL Marketo Measure] geen actie uit. In plaats daarvan, moet u [&#x200B; parameters aan het derdehulpmiddel in uw rekening  [!DNL Marketo Measure]  toevoegen.](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}
+* Als een doorverwijzing van een derde wordt gevonden in een volgsjabloon zoals Kenshoo of Marin, voert [!DNL Marketo Measure] geen actie uit. In plaats daarvan, moet u [ parameters aan het derdehulpmiddel in uw rekening  [!DNL Marketo Measure]  toevoegen.](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}
 
 Als er echter geen volgsjabloon wordt gevonden, zal [!DNL Marketo Measure]:
 
@@ -40,7 +40,7 @@ Als er echter geen volgsjabloon wordt gevonden, zal [!DNL Marketo Measure]:
 
 ## Sjablonen bijhouden {#tracking-templates}
 
-Zoals uitgelegd door [!DNL Google AdWords] is een sjabloon voor bijhouden de URL die wordt gebruikt om een bestemmingspagina te bereiken. De verzamelde trackinggegevens worden gebruikt om uw advertentieverkeer te begrijpen. [&#x200B; klik hier &#x200B;](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} voor meer informatie van Google.
+Zoals uitgelegd door [!DNL Google AdWords] is een sjabloon voor bijhouden de URL die wordt gebruikt om een bestemmingspagina te bereiken. De verzamelde trackinggegevens worden gebruikt om uw advertentieverkeer te begrijpen. [ klik hier ](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} voor meer informatie van Google.
 
 [!DNL Marketo Measure] raadt u aan een sjabloon voor het bijhouden van accounts, campagnes of groepen toevoegen te gebruiken, omdat hiermee parameters voor alle advertenties kunnen worden toegevoegd en afgetrokken zonder dat het risico bestaat dat de advertentie wordt onderbroken of verwijderd.
 
@@ -60,11 +60,11 @@ Er zijn twee volgsjablonen die [!DNL Marketo Measure] aanbeveelt. Gebruik het vo
 
 1. Klik op **[!UICONTROL All campaigns]** en vervolgens op **[!UICONTROL Settings]** in het uitbreidende venster.
 
-   ![](assets/utilizing-connections-13.png)
+   ![1. Klik Alle campagnes en toen Montages in het uitbreiden ](assets/utilizing-connections-13.png)
 
 1. Klik op **[!UICONTROL Account Settings]** boven en vervolgens op **[!UICONTROL Tracking Template]** . Voer de [!DNL Marketo Measure] volgsjabloon in.
 
-   ![](assets/bizible-guide-1.png)
+   ![1. Klik de Montages van de Rekening bij de bovenkant en dan het Volgen ](assets/bizible-guide-1.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -72,11 +72,11 @@ Er zijn twee volgsjablonen die [!DNL Marketo Measure] aanbeveelt. Gebruik het vo
 
 1. Klik op **[!UICONTROL All campaigns]** en vervolgens op **[!UICONTROL Campaigns]** in het uitbreidende venster.
 
-   ![](assets/utilizing-connections-12.png)
+   ![1. Klik Alle campagnes en dan Campagnes in het uitbreiden ](assets/utilizing-connections-12.png)
 
 1. Selecteer alle toepasselijke campagnes of **[!UICONTROL Select All]**, klik **[!UICONTROL Edit]**, en klik dan **[!UICONTROL Change Tracking Templates]**.
 
-   ![](assets/five-five-1.png)
+   ![1. Selecteer alle toepasselijke campagnes of selecteer allen, klik uitgeven, ](../assets/marketo-engage-activities-05.png)
 
 1. Voer de [!DNL Marketo Measure] Sjabloon bijhouden in en klik op **[!UICONTROL Apply]** .
 
@@ -84,13 +84,13 @@ Er zijn twee volgsjablonen die [!DNL Marketo Measure] aanbeveelt. Gebruik het vo
 
 1. Klik op **[!UICONTROL All campaigns]** en vervolgens op **[!UICONTROL Ad Groups]** in het uitbreidende venster.
 
-   ![](assets/four-four-1.png)
+   ![1. Klik Alle campagnes en dan voeg Groepen in ](assets/api-connections-01.png) toe
 
 1. Selecteer alle toepasselijke Advertentiegroepen of selecteer allen, klik **[!UICONTROL Edit]** en klik dan **[!UICONTROL Change Tracking Templates]**.
 
 1. Voer de [!DNL Marketo Measure] Sjabloon bijhouden in en klik op **[!UICONTROL Apply]** .
 
-   ![](assets/one-one-1.png)
+   ![1. Ga het Sjabloon van het Volgen van Marketo Measure in en de klik is van toepassing.](../assets/marketo-engage-activities-01.png)
 
 ## Veelgestelde vragen {#faq}
 
@@ -112,6 +112,6 @@ A: We kunnen geen individuele creatieve details ophalen voor dynamische zoekopdr
 
 >[!NOTE]
 >
->Als de wijzigingen eenmaal zijn aangebracht, bent u klaar. Voel vrij om uit te reiken aan [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} als er om het even welke vragen tijdens opstelling zijn.
+>Als de wijzigingen eenmaal zijn aangebracht, bent u klaar. Voel vrij om uit te reiken aan [ de Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} als er om het even welke vragen tijdens opstelling zijn.
 
-[&#x200B; klik hier &#x200B;](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} voor instructies van Google bij het creëren van de Malplaatjes van het Rekening-Vlakke Volgen.
+[ klik hier ](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} voor instructies van Google bij het creëren van de Malplaatjes van het Rekening-Vlakke Volgen.

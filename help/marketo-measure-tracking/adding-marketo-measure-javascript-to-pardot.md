@@ -3,10 +3,10 @@ description: Toevoegend  [!DNL Marketo Measure]  JavaScript aan  [!DNL Pardot]  
 title: Het toevoegen van  [!DNL Marketo Measure]  JavaScript aan  [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 1%
+source-wordcount: '239'
+ht-degree: 2%
 
 ---
 
@@ -24,11 +24,11 @@ Nadat u zich hebt aangemeld bij uw [!DNL Pardot] -account, voert u de onderstaan
 
 1. Selecteer **[!UICONTROL Layout Template]**.
 
-   ![](assets/adding-providers-4.png)
+   ![1. Selecteer Lay-outsjabloon.](assets/adding-providers-4.png)
 
 1. Bepaal de juiste lay-outsjabloon en klik rechts op **[!UICONTROL Edit]** .
 
-   ![](assets/adding-pages-1.png)
+   ![1. Bepaal het aangewezen Malplaatje van de Lay-out en klik uitgeven aan ](assets/adding-pages-1.png)
 
 1. Kopieer en plak de [!DNL Marketo Measure] JavaScript-code net voor de eindkoptag op de HTML-pagina.
 
