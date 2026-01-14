@@ -31,7 +31,7 @@ Voor verbinding en authentificatie, steunt [!DNL Marketo Measure] de volgende Ac
 
 ## De beheerde oplossing installeren {#install-the-managed-solution}
 
-[ Download en installeer ](assets/marketo-measure-dynamics-extension.zip) het zip dossier binnen Dynamica CRM.
+[&#x200B; Download en installeer &#x200B;](assets/marketo-measure-dynamics-extension.zip) het zip dossier binnen Dynamica CRM.
 
 **[!UICONTROL Settings]** > **[!UICONTROL Customizations]** > **[!UICONTROL Solutions]** > **[!UICONTROL Import]** (knop) > **[!UICONTROL Choose File]** .
 
@@ -130,7 +130,7 @@ Nadat u zich hebt aangemeld bij de [!DNL Marketo Measure] -toepassing en u bent 
 
    >[!NOTE]
    >
-   >Voor meer informatie over OAuth, bezoek [ dit artikel ](/help/marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). Neem contact op met uw [!DNL Marketo Measure] accountvertegenwoordiger als u vragen hebt over het proces.
+   >Voor meer informatie over OAuth, bezoek [&#x200B; dit artikel &#x200B;](/help/marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). Neem contact op met uw [!DNL Marketo Measure] accountvertegenwoordiger als u vragen hebt over het proces.
 
 1. In dit voorbeeld hebben we Credentials gekozen. Voer uw referenties in en klik op **[!UICONTROL Next]** .
 
@@ -166,7 +166,7 @@ Als u een verbinding wilt maken met Advertentierekeningen met [!DNL Marketo Meas
    >
    >Neem contact op met uw [!DNL Marketo Measure] accountvertegenwoordiger als u meerdere hoofddomeinen wilt toevoegen.
 
-1. [[!DNL Marketo Measure]  JavaScript ](/help/marketo-measure-tracking/adding-marketo-measure-script.md) dan moet over de volledige plaats en landende pagina&#39;s worden geplaatst. Wij adviseren hardcoding het manuscript binnen het hoofd van uw landende pagina&#39;s of het toevoegen door een Systeem van Tag Management zoals [ de Manager van de Markering van Google ](/help/marketo-measure-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
+1. [[!DNL Marketo Measure]  JavaScript &#x200B;](/help/marketo-measure-tracking/adding-marketo-measure-script.md) dan moet over de volledige plaats en landende pagina&#39;s worden geplaatst. Wij adviseren hardcoding het manuscript binnen het hoofd van uw landende pagina&#39;s of het toevoegen door een Systeem van Tag Management zoals [&#x200B; de Manager van de Markering van Google &#x200B;](/help/marketo-measure-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
 
    >[!NOTE]
    >
@@ -180,4 +180,4 @@ Als u een verbinding wilt maken met Advertentierekeningen met [!DNL Marketo Meas
 
    >[!MORELIKETHIS]
    >
-   >[ Meldingen van de Fout ](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+   >[&#x200B; Meldingen van de Fout &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

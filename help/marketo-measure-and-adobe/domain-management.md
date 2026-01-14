@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Domeinbeheer {#domain-management}
 
-Voor IMS-huurders die [!DNL Marketo Measure] uitvoeren in de Experience Cloud Interface, biedt [!DNL Marketo Measure] een interface waarmee gebruikers hun eigen lijst met domeinen kunnen beheren. [!DNL Marketo Measure] de gebruikers moeten eerst om het even welke domeinen verifiëren die zij om in [ Adobe Admin Console ](https://adminconsole.adobe.com/) wensen te volgen. Zodra domeinen in de Admin Console worden geverifieerd, kunnen gebruikers beheren als [!DNL Marketo Measure] deze domeinen gebruikt voor het bijhouden van websiteverkeer.
+Voor IMS-huurders die [!DNL Marketo Measure] uitvoeren in de Experience Cloud Interface, biedt [!DNL Marketo Measure] een interface waarmee gebruikers hun eigen lijst met domeinen kunnen beheren. [!DNL Marketo Measure] de gebruikers moeten eerst om het even welke domeinen verifiëren die zij om in [&#x200B; Adobe Admin Console &#x200B;](https://adminconsole.adobe.com/) wensen te volgen. Zodra domeinen in de Admin Console worden geverifieerd, kunnen gebruikers beheren als [!DNL Marketo Measure] deze domeinen gebruikt voor het bijhouden van websiteverkeer.
 
 ## Domeinen toevoegen in Admin Console {#adding-domains-in-admin-console}
 
@@ -21,7 +21,7 @@ IMS-gebruikers met toegang tot de Adobe Admin Console kunnen domeinen die ze bez
 
 ![](assets/domain-management-4.png)
 
-De instructies voor het toevoegen van domeinen kunnen in de [ documentatie van Admin Console ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html) worden gevonden. Zodra een domein wordt toegevoegd, moet het [ met een folder ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies) worden verbonden.
+De instructies voor het toevoegen van domeinen kunnen in de [&#x200B; documentatie van Admin Console &#x200B;](https://helpx.adobe.com/enterprise/using/add-domains-directories.html) worden gevonden. Zodra een domein wordt toegevoegd, moet het [&#x200B; met een folder &#x200B;](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies) worden verbonden.
 
 ## Domeinen beheren in [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [ nieuwe, verbeterde in-app proces ](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
+>Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [&#x200B; nieuwe, verbeterde in-app proces &#x200B;](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
 
 ## Aanraakpunten inschakelen {#enabling-touchpoints}
 
@@ -92,7 +92,7 @@ De datum van het aanraakpunt voor bulkupdates is opgenomen in het geïnstalleerd
 
 Als een groot aantal Campagne-lidverslagen moet worden bijgewerkt, kunt u de [!UICONTROL Bulk Update Touchpoint Date] knoop aan massa uitgeven.
 
-Als er unieke gebruiksgevallen zijn die deze interface niet behandelt, kunt u de [ Loader van Gegevens ](https://dataloader.io/){target="_blank"} ook gebruiken om de verslagen uit te voeren, de verandering aan te brengen, en de verslagen terug binnen te uploaden.
+Als er unieke gebruiksgevallen zijn die deze interface niet behandelt, kunt u de [&#x200B; Loader van Gegevens &#x200B;](https://dataloader.io/){target="_blank"} ook gebruiken om de verslagen uit te voeren, de verandering aan te brengen, en de verslagen terug binnen te uploaden.
 
 Begin door naar de verslagen te zoeken en degenen te filtreren die u een Datum van Buyer Touchpoint wilt plaatsen voor.
 
@@ -112,7 +112,7 @@ Nadat u de datum en tijd hebt ingesteld, klikt u op de knop **[!UICONTROL Update
 
 ## Campagnekosten {#campaign-costs}
 
-Leer allen over de Kosten van de Campagne [ in dit artikel ](/help/marketing-spend/crm-campaign-costs.md){target="_blank"}.
+Leer allen over de Kosten van de Campagne [&#x200B; in dit artikel &#x200B;](/help/marketing-spend/crm-campaign-costs.md){target="_blank"}.
 
 ## Campagne verwijderen van lid {#campaign-member-removal}
 
@@ -122,10 +122,10 @@ Om dit probleem te verhelpen, heeft [!DNL Marketo Measure] een [!DNL Marketo Mea
 
 >[!CAUTION]
 >
->Houd er rekening mee dat met deze trigger geen campagnegeleden worden bijgehouden die in het verleden zijn verwijderd. Dit werkt dus alleen als u verder gaat. Als u een groot aantal afgelopen de contactpunten van campagnegeleden moet verwijderen, contacteer [ de Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+>Houd er rekening mee dat met deze trigger geen campagnegeleden worden bijgehouden die in het verleden zijn verwijderd. Dit werkt dus alleen als u verder gaat. Als u een groot aantal afgelopen de contactpunten van campagnegeleden moet verwijderen, contacteer [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Gebieden van de Objecten van de campagne ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Gebieden van de Objecten van de campagne &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

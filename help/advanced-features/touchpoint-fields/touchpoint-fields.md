@@ -34,7 +34,7 @@ Houd er rekening mee dat een gebruiker drie verschillende handelingen kan uitvoe
 
 Extracten
 
-De [!UICONTROL extracts] exploitant trekt de waarde uit een gebied van een andere plaats, zoals: een gebied van de Campagne, het gebied van het Lood, of in een geavanceerder gebruiksgeval, [ trekt douaneparameters van de het landen pagina ](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. Het plaatst het dan op een Gebied van het Aanraakpunt (zie [ Kaarten aan Voorbeeld ](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+De [!UICONTROL extracts] exploitant trekt de waarde uit een gebied van een andere plaats, zoals: een gebied van de Campagne, het gebied van het Lood, of in een geavanceerder gebruiksgeval, [&#x200B; trekt douaneparameters van de het landen pagina &#x200B;](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. Het plaatst het dan op een Gebied van het Aanraakpunt (zie [&#x200B; Kaarten aan Voorbeeld &#x200B;](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Voorbeeld #1**
 

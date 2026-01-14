@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ Instructies op hoe te opstelling Boommeren Stages ](/help/advanced-features/boomerang/setting-up-boomerang-stages.md).
+>[&#x200B; Instructies op hoe te opstelling Boommeren Stages &#x200B;](/help/advanced-features/boomerang/setting-up-boomerang-stages.md).
 
 ## Hoe ziet Boommeren en aanraakpunten eruit in uw CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 

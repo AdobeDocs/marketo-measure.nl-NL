@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Overzicht van accountgebaseerde marketing {#account-based-marketing-overview}
 
-In de volgende secties vindt u een kort overzicht van ABM, de componenten van de functie [!DNL Marketo Measure] ABM en hoe u deze kunt toevoegen aan de pagina-indeling van [!DNL Salesforce] . Om meer over ABM te lezen, herzie Adobe [ ABM blog ](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
+In de volgende secties vindt u een kort overzicht van ABM, de componenten van de functie [!DNL Marketo Measure] ABM en hoe u deze kunt toevoegen aan de pagina-indeling van [!DNL Salesforce] . Om meer over ABM te lezen, herzie Adobe [&#x200B; ABM blog &#x200B;](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
 
-Voor gedetailleerde instructies voor vestiging ABM binnen uw [!DNL Salesforce] instantie, ga [ Vestiging ABM paginalay-out in Salesforce ](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
+Voor gedetailleerde instructies voor vestiging ABM binnen uw [!DNL Salesforce] instantie, ga [&#x200B; Vestiging ABM paginalay-out in Salesforce &#x200B;](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## Wat is ABM {#what-is-abm}
 

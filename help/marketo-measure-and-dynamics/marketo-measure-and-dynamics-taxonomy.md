@@ -14,4 +14,4 @@ ht-degree: 0%
 
 Hieronder ziet u een stroomdiagram dat aangeeft hoe de [!DNL Marketo Measure] Aangepaste objecten zich verhouden tot dynamische standaardobjecten.<p>
 
-![ grafiek van de Stroom die de douanevoorwerpen van Marketo Measure met betrekking tot de standaardobjecten van de Dynamiek tonen ](assets/bizible-taxonomy-1.png)
+![&#x200B; grafiek van de Stroom die de douanevoorwerpen van Marketo Measure met betrekking tot de standaardobjecten van de Dynamiek tonen &#x200B;](assets/bizible-taxonomy-1.png)

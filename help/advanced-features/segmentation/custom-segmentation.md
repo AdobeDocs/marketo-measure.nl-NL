@@ -34,7 +34,7 @@ Voordat u deze functie gebruikt, moet u uitzoeken op welke aanraakpuntinformatie
 
 Stap 2 - Meld u aan en zoek de functie [!UICONTROL Segments] .
 
-* Ga naar [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en login
+* Ga naar [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en login
 * Selecteer onder de tab [!UICONTROL My Account] de optie [!UICONTROL Settings]
 * Selecteer [!UICONTROL Segments] in de opties op de zijbalk links, onder de sectie [!UICONTROL Reporting] .
 
@@ -76,7 +76,7 @@ Als de regels niet opstelling voor zowel Leads/Contacten als Kansen zijn, zult u
 
 Wanneer u klaar bent, klikt u eerst op [!UICONTROL Save] , dubbelklikt u op alles en klikt u vervolgens op [!UICONTROL Save and Process] . U kunt de instellingen zeven dagen na het opslaan en verwerken niet bewerken, omdat [!DNL Marketo Measure] de gegevens tijdens deze periode opnieuw opmaakt.
 
-Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([ leert meer ](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([&#x200B; leert meer &#x200B;](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

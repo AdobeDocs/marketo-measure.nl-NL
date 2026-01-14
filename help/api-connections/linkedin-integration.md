@@ -34,7 +34,7 @@ Beschikbaar voor alle gebruikers.
 * Accountmanager
 * Campagnebeheer
 
-Leer meer: [ Rollen en Functies van de Gebruiker in de Manager van de Campagne ](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager).
+Leer meer: [&#x200B; Rollen en Functies van de Gebruiker in de Manager van de Campagne &#x200B;](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager).
 
 ### Betaalde rollen voor mediabeheer
 
@@ -43,7 +43,7 @@ Als u wilt dat [!DNL Marketo Measure] gesponsorde Creative Cloud kan maken/bijwe
 * Poster met gesponsorde inhoud
 * Generaal-leider Forms Manager
 
-Leer meer: [ LinkedIn Rollen van Admin van de Pagina ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
+Leer meer: [&#x200B; LinkedIn Rollen van Admin van de Pagina &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
 Er zijn andere [!DNL LinkedIn] rollen die wij **niet** voor onze integratie vereisen. Deze rollen worden vaak verward met de vereiste rollen, zodat is er een verschil!
 
@@ -53,7 +53,7 @@ Als u wilt dat [!DNL Marketo Measure] leads kan downloaden/integreren van lead g
 
 * Super Admin
 
-Leer meer: [ LinkedIn Rollen van Admin van de Pagina ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
+Leer meer: [&#x200B; LinkedIn Rollen van Admin van de Pagina &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
 ## LinkedIn-advertentietypen {#linkedin-ad-types}
 

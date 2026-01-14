@@ -36,7 +36,7 @@ Volg onderstaande instructies om de PostLC-aanraakpuntinstellingen voor uw leads
 
 **Leads**
 
-1. Login aan uw [!DNL Marketo Measure] rekening in [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
+1. Login aan uw [!DNL Marketo Measure] rekening in [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
 
 1. Selecteer **[!UICONTROL Leads]** onder CRM.
 
@@ -46,7 +46,7 @@ Volg onderstaande instructies om de PostLC-aanraakpuntinstellingen voor uw leads
 
 **Contacten**
 
-1. Login aan uw [!DNL Marketo Measure] rekening in [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
+1. Login aan uw [!DNL Marketo Measure] rekening in [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
 
 1. Selecteer **[!UICONTROL Contacts]** onder CRM.
 

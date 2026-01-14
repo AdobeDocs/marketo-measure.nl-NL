@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Veelgestelde vragen over driverintegratie {#drift-integration-faq}
 
-In het kader van de [!DNL Marketo Measure] -integratie met Drift stelt u enkele van de meest gestelde vragen. Als er om het even welke vragen zijn die hieronder niet worden geschetst, bereik aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+In het kader van de [!DNL Marketo Measure] -integratie met Drift stelt u enkele van de meest gestelde vragen. Als er om het even welke vragen zijn die hieronder niet worden geschetst, bereik aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **hoe wordt de integratie toegelaten?**
 

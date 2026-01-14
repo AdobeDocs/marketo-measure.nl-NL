@@ -27,7 +27,7 @@ Vanaf hier beginnen we de workflow te maken.
 
 ## De workflow maken in Salesforce Lightning {#create-the-workflow-in-salesforce-lightning}
 
-De volgende stappen zijn bedoeld voor gebruikers van Salesforce Lightning. Als u nog Salesforce Klassiek gebruikt, zijn die stappen [ hieronder vermeld ](#create-the-workflow-in-salesforce-classic).
+De volgende stappen zijn bedoeld voor gebruikers van Salesforce Lightning. Als u nog Salesforce Klassiek gebruikt, zijn die stappen [&#x200B; hieronder vermeld &#x200B;](#create-the-workflow-in-salesforce-classic).
 
 1. Typ in Setup &quot;Stroom&quot; in het vak Snel zoeken en selecteer **[!UICONTROL Flows]** om de Flow Builder te starten. Klik in het rechterdeelvenster op de knop **[!UICONTROL New Flow]** .
 
@@ -76,7 +76,7 @@ De volgende stappen zijn bedoeld voor gebruikers van Salesforce Lightning. Als u
 
 ## De workflow maken in Salesforce Classic {#create-the-workflow-in-salesforce-classic}
 
-De volgende stappen gelden voor Salesforce Classic-gebruikers. Als u de schakelaar aan de Bliksem van Salesforce hebt gemaakt, kunnen die stappen [ hierboven ](#create-the-workflow-in-salesforce-lightning) worden gevonden.
+De volgende stappen gelden voor Salesforce Classic-gebruikers. Als u de schakelaar aan de Bliksem van Salesforce hebt gemaakt, kunnen die stappen [&#x200B; hierboven &#x200B;](#create-the-workflow-in-salesforce-lightning) worden gevonden.
 
 1. Navigeer naar **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Workflow & Approvals]** > **[!UICONTROL Workflow Rules]** .
 
@@ -103,6 +103,6 @@ De volgende stappen gelden voor Salesforce Classic-gebruikers. Als u de schakela
 
    Nadat u deze stappen hebt uitgevoerd, moeten de kansen worden bijgewerkt om de workflow te activeren en de nieuwe waarde uit het veld [!UICONTROL custom opportunity] te laten ophalen.
 
-   Dit kan door uw kansen door de Lader van Gegevens in SFDC in werking te stellen worden verwezenlijkt. Vind details bij het gebruiken van de Lader van Gegevens in [ dit artikel ](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Dit kan door uw kansen door de Lader van Gegevens in SFDC in werking te stellen worden verwezenlijkt. Vind details bij het gebruiken van de Lader van Gegevens in [&#x200B; dit artikel &#x200B;](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Als er om het even welke vragen langs de manier zijn, aarzel niet om uit te reiken aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [[!DNL Marketo]  Steun ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Als er om het even welke vragen langs de manier zijn, aarzel niet om uit te reiken aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [[!DNL Marketo]  Steun &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

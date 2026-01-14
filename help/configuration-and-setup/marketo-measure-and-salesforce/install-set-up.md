@@ -29,7 +29,7 @@ Het [!DNL Marketo Measure] basispakket bevat:
 
 Voer de onderstaande stappen uit om het basispakket [!DNL Marketo Measure Salesforce] te installeren.
 
-1. Gebruikend incognito browser, ga naar [ Salesforce AppExchange ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} en login.
+1. Gebruikend incognito browser, ga naar [&#x200B; Salesforce AppExchange &#x200B;](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} en login.
 
 1. Installeer in het [!DNL Marketo Measure] -pakket in een sandbox of productie.
 
@@ -43,11 +43,11 @@ Voer de onderstaande stappen uit om het basispakket [!DNL Marketo Measure Salesf
 
    ![](assets/bizible-taxonomy-1.png)
 
-Nadat u de installatie hebt voltooid, kunt u uw [[!DNL Salesforce]  paginalay-outs ](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} met de [!DNL Marketo Measure] gebieden indien gewenst bijwerken.
+Nadat u de installatie hebt voltooid, kunt u uw [[!DNL Salesforce]  paginalay-outs &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} met de [!DNL Marketo Measure] gebieden indien gewenst bijwerken.
 
 >[!NOTE]
 >
->Lees over de [!DNL Marketo Measure] gecreeerde Reeksen van Toestemmingen en [ hoe zij ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"} worden gebruikt.
+>Lees over de [!DNL Marketo Measure] gecreeerde Reeksen van Toestemmingen en [&#x200B; hoe zij &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"} worden gebruikt.
 
 ## Een [!DNL Marketo Measure] profiel en gebruiker maken {#creating-a-marketo-measure-profile-and-user}
 
@@ -92,6 +92,6 @@ Stap 4: Meld u aan bij uw [!DNL Marketo Measure] -account en autoriseer de [!DNL
 
 >[!MORELIKETHIS]
 >
->* [ Overzicht van de Toestemmingen van de Integratie ](/help/api-connections/integration-permissions-overview.md){target="_blank"}
+>* [&#x200B; Overzicht van de Toestemmingen van de Integratie &#x200B;](/help/api-connections/integration-permissions-overview.md){target="_blank"}
 >
->* [ de Opstelling van Adobe Admin Console ](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
+>* [&#x200B; de Opstelling van Adobe Admin Console &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}

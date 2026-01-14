@@ -59,7 +59,7 @@ Alle bestaande campagneretypen moeten in uw kanaalkaart worden opgenomen en &quo
 
 Neem de tijd om in [!DNL Salesforce] te gaan om het aantal en de aard van uw bestaande recordtypen te bepalen, die u wilt opnemen, en of u aanvullende campagnes moet maken op basis van de bovenstaande informatie. Als u alle benodigde gegevens hebt ingevuld, kunt u deze uploaden.
 
-Leer meer over [ synchroniserend off-line  [!DNL Salesforce]  Campagnes met  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
+Leer meer over [&#x200B; synchroniserend off-line  [!DNL Salesforce]  Campagnes met  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
 
 ## SFDC-campagnes verwerken voor online marketinginspanningen {#handling-sfdc-campaigns-for-online-marketing-efforts}
 
@@ -83,8 +83,8 @@ Klik op **[!UICONTROL Save]** als u klaar bent en [!DNL Marketo Measure] uploadt
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het synchroniseren Offline Campagnes ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het synchroniseren Offline Campagnes &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
->* [ de Integratie van de Programma&#39;s van Marketo Engage ](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
+>* [&#x200B; de Integratie van de Programma&#39;s van Marketo Engage &#x200B;](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

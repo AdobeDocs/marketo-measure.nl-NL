@@ -74,7 +74,7 @@ Elke wijziging van de kosten of de verdeling moet plaatsvinden in de BCR, zodat 
 
 **ik heb de begindatum, de einddatum, en de gevulde kosten maar waarom worden mijn kosten nog niet getoond in [!DNL Marketo Measure]?**
 
-Controleer of u de waarde &quot;Buyer Touchpoint inschakelen&quot; hebt ingesteld op &quot;Alle campagneleden opnemen&quot; of op zijn minst &quot;Alle leden van campagne opnemen die zijn gereageerd&quot;, of dat u een aangepaste regel voor campagnecorrectie hebt gemaakt die deze campagne omvat. Als u dit hebt bevestigd en nog niet de Campagne ziet, reik uit naar [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} zodat kunnen wij controleren dat uw Campagnes behoorlijk invoeren.
+Controleer of u de waarde &quot;Buyer Touchpoint inschakelen&quot; hebt ingesteld op &quot;Alle campagneleden opnemen&quot; of op zijn minst &quot;Alle leden van campagne opnemen die zijn gereageerd&quot;, of dat u een aangepaste regel voor campagnecorrectie hebt gemaakt die deze campagne omvat. Als u dit hebt bevestigd en nog niet de Campagne ziet, reik uit naar [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} zodat kunnen wij controleren dat uw Campagnes behoorlijk invoeren.
 
 **ik moet de distributie van mijn Campagne veranderen zodat ik het in bepaalde maanden kan zwaarder wegen. Hoe doe ik dat?**
 

@@ -11,7 +11,7 @@ ht-degree: 2%
 
 # Marketo Measure Help Documentation
 
-![ banner ](/help/assets/marketo-measure-banner.jpg)
+![&#x200B; banner &#x200B;](/help/assets/marketo-measure-banner.jpg)
 
 Marketo Measure (voorheen Bizible) verenigt gedrags- en advertentiegegevens met verkoopresultaten en het leren van machines, zodat u de juiste marketingbeslissingen kunt nemen.
 

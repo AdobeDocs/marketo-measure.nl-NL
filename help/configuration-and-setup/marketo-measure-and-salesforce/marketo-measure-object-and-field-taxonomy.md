@@ -16,9 +16,9 @@ Hieronder ziet u een stroomdiagram dat aangeeft hoe [!DNL Marketo Measure] Aange
 
 ![](assets/bizible-full-1.png)
 
-Voor het volledig-gerangschikte beeld, [ klik hier ](assets/bizible-full-1.png).
+Voor het volledig-gerangschikte beeld, [&#x200B; klik hier &#x200B;](assets/bizible-full-1.png).
 
-De definities van de [!DNL Marketo Measure] gebieden die in elk voorwerp [ leven kunnen hier ](/help/introduction/glossary.md) worden gevonden.
+De definities van de [!DNL Marketo Measure] gebieden die in elk voorwerp [&#x200B; leven kunnen hier &#x200B;](/help/introduction/glossary.md) worden gevonden.
 
 ## Veelgestelde vragen {#faq}
 

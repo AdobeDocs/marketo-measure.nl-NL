@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kenmerk Salesforce-activiteiten {#salesforce-activities-attribution}
 
-De integratie van [!DNL Marketo Measure] Salesforce-activiteiten maakt specifieke taak- en gebeurtenisrecords in uw toewijzingsmodel. Begin met het volgen van zaken zoals verkoope-mails of telefoongesprekken die geen creditering kregen. Om uw activiteitenregel te vormen, ga [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}. Ga vervolgens naar de tab **[!UICONTROL Settings]** en klik op de tab **[!UICONTROL Activities]** .
+De integratie van [!DNL Marketo Measure] Salesforce-activiteiten maakt specifieke taak- en gebeurtenisrecords in uw toewijzingsmodel. Begin met het volgen van zaken zoals verkoope-mails of telefoongesprekken die geen creditering kregen. Om uw activiteitenregel te vormen, ga [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}. Ga vervolgens naar de tab **[!UICONTROL Settings]** en klik op de tab **[!UICONTROL Activities]** .
 
 ![](assets/activities-attribution-10.png)
 
@@ -59,7 +59,7 @@ Vergeet niet verschillende regels voor Taken of Gebeurtenissen in te stellen. Je
 
 ![](assets/activities-attribution-5.png)
 
-U zult waarschijnlijk deze nieuwe aanraakpunten in hun aangewezen [ het In de handel brengen Kanaal ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20 Kanalen){target="_blank"} willen plaatsen. Doe dat door het Kanaal met zijn nieuwe afbeelding van de Campagne te bepalen die enkel werd gecreeerd.
+U zult waarschijnlijk deze nieuwe aanraakpunten in hun aangewezen [&#x200B; het In de handel brengen Kanaal &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20 Kanalen){target="_blank"} willen plaatsen. Doe dat door het Kanaal met zijn nieuwe afbeelding van de Campagne te bepalen die enkel werd gecreeerd.
 
 >[!TIP]
 >
@@ -82,10 +82,10 @@ U zult waarschijnlijk deze nieuwe aanraakpunten in hun aangewezen [ het In de ha
 
 ![](assets/activities-attribution-8.png)
 
-En last but not least, hebt u de optie om kosten voor uw nieuwe kanalen in te voeren. De [ Marketing besteedt uploadt ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} staat u toe om uw uitgaven op het niveau van het Kanaal, Subchannel niveau, of het niveau van de Campagne in te gaan. Met uw nieuwe [!DNL Marketo Measure] Campagnes, kunt u die verwante kosten per maand toevoegen, dan het ROI voor elke Campagne zien!
+En last but not least, hebt u de optie om kosten voor uw nieuwe kanalen in te voeren. De [&#x200B; Marketing besteedt uploadt &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} staat u toe om uw uitgaven op het niveau van het Kanaal, Subchannel niveau, of het niveau van de Campagne in te gaan. Met uw nieuwe [!DNL Marketo Measure] Campagnes, kunt u die verwante kosten per maand toevoegen, dan het ROI voor elke Campagne zien!
 
 ![](assets/activities-attribution-9.png)
 
 >[!MORELIKETHIS]
 >
->[ Veelgestelde vragen van de Attributie van de Activiteit ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+>[&#x200B; Veelgestelde vragen van de Attributie van de Activiteit &#x200B;](/help/advanced-features/activities-attribution/activities-attribution-faq.md)

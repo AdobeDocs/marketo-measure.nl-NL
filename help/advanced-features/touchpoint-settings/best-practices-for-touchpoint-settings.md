@@ -55,7 +55,7 @@ Redenen om uw [!UICONTROL Touchpoint] -instellingen te bekijken zijn...
 
 >[!MORELIKETHIS]
 >
->* [ het Overzicht van de Verwijdering en van de Onderdrukking van het Aanraakpunt ](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
->* [ waarom de Aanraakpunten nooit zouden moeten worden geschrapt ](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
->* [ Aanraakpunten van de Koper (BT) vs Aanraakpunten van de Attributie van de Koper (BAT) ](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+>* [&#x200B; het Overzicht van de Verwijdering en van de Onderdrukking van het Aanraakpunt &#x200B;](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
+>* [&#x200B; waarom de Aanraakpunten nooit zouden moeten worden geschrapt &#x200B;](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+>* [&#x200B; Aanraakpunten van de Koper (BT) vs Aanraakpunten van de Attributie van de Koper (BAT) &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 

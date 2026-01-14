@@ -70,11 +70,11 @@ Wijzigingen die uw team mogelijk kunnen aanzetten om updates uit te voeren voor 
 Als uw team onlangs om het even welk bovengenoemd heeft ervaren, [!DNL Marketo Measure] adviseert dat u uw Offline Kanaalafbeelding en Off-line Campagnes controleert om de aangewezen veranderingen aan te brengen en hen te verzekeren correct gesynchroniseerd.
 
 >[!MORELIKETHIS]
-> [ Offline Opstelling van het Kanaal ](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
-> [Aangepaste campagnesynchronisatie - App Sync ](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
-> [Offlinecampagnes synchroniseren - de Synchronisatie van CRM ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
-> [Offline Campagne &amp; Campagne Leden - de Synchronisatie van CRM ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
-> [Datums van de Synchronisatie van de campagne - de Synchronisatie van CRM ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
-> [Configuraties voor de Veelvoudige Types van Verslag van de Campagne ](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md)
-> [Het creëren van een Mening van de Lijst van de Campagne ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-> [Historische gegevens synchroniseren ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
+> [&#x200B; Offline Opstelling van het Kanaal &#x200B;](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+> [Aangepaste campagnesynchronisatie - App Sync &#x200B;](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
+> [Offlinecampagnes synchroniseren - de Synchronisatie van CRM &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+> [Offline Campagne &amp; Campagne Leden - de Synchronisatie van CRM &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+> [Datums van de Synchronisatie van de campagne - de Synchronisatie van CRM &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+> [Configuraties voor de Veelvoudige Types van Verslag van de Campagne &#x200B;](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md)
+> [Het creëren van een Mening van de Lijst van de Campagne &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+> [Historische gegevens synchroniseren &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

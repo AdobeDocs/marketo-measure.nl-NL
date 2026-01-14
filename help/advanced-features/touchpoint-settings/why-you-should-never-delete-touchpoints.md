@@ -20,4 +20,4 @@ Wanneer een aanraakpunt wordt verwijderd, ontstaat een gat in de toewijzingsgege
 
 ![](assets/touchpoint-settings-10.png)
 
-Als de touchpoints van uw SFDC zijn geschrapt, reik uit aan [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om een herinvoer van uw gegevens te verzoeken.
+Als de touchpoints van uw SFDC zijn geschrapt, reik uit aan [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om een herinvoer van uw gegevens te verzoeken.

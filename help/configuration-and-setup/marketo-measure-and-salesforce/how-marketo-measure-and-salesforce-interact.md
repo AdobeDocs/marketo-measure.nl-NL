@@ -358,7 +358,7 @@ Hier worden de [!DNL Salesforce] standaardobjecten weergegeven waarmee [!DNL Mar
  </tbody> 
 </table>
 
-**de Rol van het Contact van 0} Opportunity**
+**de Rol van het Contact van 0&rbrace; Opportunity**
 
 <table> 
  <tbody> 
@@ -1317,4 +1317,4 @@ De Buyer Attribution Touchpoint is een [!DNL Marketo Measure] aangepast object w
 
 >[!MORELIKETHIS]
 >
->[ Overzicht van de Toestemmingen van de Integratie ](/help/api-connections/integration-permissions-overview.md){target="_blank"}
+>[&#x200B; Overzicht van de Toestemmingen van de Integratie &#x200B;](/help/api-connections/integration-permissions-overview.md){target="_blank"}

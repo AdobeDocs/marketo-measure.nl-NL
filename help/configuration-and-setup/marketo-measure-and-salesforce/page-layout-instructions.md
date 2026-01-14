@@ -48,7 +48,7 @@ U wordt aangeraden de [!DNL Marketo Measure] -velden alleen voor uw sandbox toe 
 
    >[!NOTE]
    >
-   >Als u meerdere soorten campagnemerrecords gebruikt, moet u de waarden in de keuzelijst voor het veld **[!UICONTROL Enable Buyer Touchpoints]** bijwerken. Verwijs naar [ dit artikel ](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md) voor instructies.
+   >Als u meerdere soorten campagnemerrecords gebruikt, moet u de waarden in de keuzelijst voor het veld **[!UICONTROL Enable Buyer Touchpoints]** bijwerken. Verwijs naar [&#x200B; dit artikel &#x200B;](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md) voor instructies.
 
 ## Leads {#leads}
 
@@ -74,9 +74,9 @@ U wordt aangeraden de [!DNL Marketo Measure] -velden alleen voor uw sandbox toe 
 
    >[!NOTE]
    >
-   >Voor [!DNL Marketo Measure Insights] App van het Canvas behoorlijk te functioneren, [ toestemmingen moeten behoorlijk worden gevormd ](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
+   >Voor [!DNL Marketo Measure Insights] App van het Canvas behoorlijk te functioneren, [&#x200B; toestemmingen moeten behoorlijk worden gevormd &#x200B;](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
-Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, [ klik hier voor extra instructies van de paginalay-out ](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).
+Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, [&#x200B; klik hier voor extra instructies van de paginalay-out &#x200B;](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contactpersonen {#contacts}
 
@@ -177,4 +177,4 @@ Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, [ klik hier voor extra 
 
 1. Klik op **[!UICONTROL Save]**.
 
-Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, herzie de [ extra instructies van de paginalay-out ](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).
+Als u de [!DNL Marketo Measure] eigenschap ABM gebruikt, herzie de [&#x200B; extra instructies van de paginalay-out &#x200B;](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).

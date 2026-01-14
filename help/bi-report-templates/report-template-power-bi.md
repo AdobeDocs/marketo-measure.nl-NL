@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ## Aan de slag {#getting-started}
 
-U kunt tot het het rapportmalplaatje van Power BI [ hier ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} toegang hebben.
+U kunt tot het het rapportmalplaatje van Power BI [&#x200B; hier &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} toegang hebben.
 
 Open het Adobe [!DNL Marketo Measure] Reporting Template Power BI-bestand.
 
 ![](assets/marketo-bi-1.png)
 
-U kunt uw specifieke server-, vakantie- en schemagegevens vinden in de gebruikersinterface van [!DNL Marketo Measure] op de informatiepagina van [!DNL Data Warehouse] . De instructies voor hoe te om van deze pagina de plaats te bepalen zijn gedetailleerd [ hier ](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+U kunt uw specifieke server-, vakantie- en schemagegevens vinden in de gebruikersinterface van [!DNL Marketo Measure] op de informatiepagina van [!DNL Data Warehouse] . De instructies voor hoe te om van deze pagina de plaats te bepalen zijn gedetailleerd [&#x200B; hier &#x200B;](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 De parameters QueryFilterStartDate en QueryFilterEndDate worden gebruikt om de hoeveelheid geïmporteerde gegevens te beperken. Deze parameters moeten de SQL-indeling hebben, zoals ze worden gebruikt in de query&#39;s die naar [!DNL Snowflake] worden verzonden. Als u gegevens bijvoorbeeld wilt beperken tot de afgelopen twee jaar, is de QueryFilterStartDate `dateadd` (year,-2,current_date()). Deze parameters worden vergeleken met datetime gegevenstypen, zodat wordt geadviseerd `dateadd` (dag,1,current_date()) voor QueryFilterEndDate te gebruiken om alle gegevens aan de huidige tijd terug te keren.
 
 ## Gegevensverbinding {#data-connection}
 
-De parameters die bij het openen van het bestand worden ingevoerd, worden gebruikt om native query&#39;s te structureren die tabellen importeren uit het gegevenspakhuis. U moet nog steeds een gegevensverbinding met uw [!DNL Snowflake] -instantie instellen. Voor dit, hebt u de zelfde namen van de Server en van het Pakhuis samen met uw Gebruikersnaam en Wachtwoord nodig. De details op waar te om uw Gebruikersnaam te vinden en uw Wachtwoord terug te stellen, indien nodig, worden gedocumenteerd [ hier ](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+De parameters die bij het openen van het bestand worden ingevoerd, worden gebruikt om native query&#39;s te structureren die tabellen importeren uit het gegevenspakhuis. U moet nog steeds een gegevensverbinding met uw [!DNL Snowflake] -instantie instellen. Voor dit, hebt u de zelfde namen van de Server en van het Pakhuis samen met uw Gebruikersnaam en Wachtwoord nodig. De details op waar te om uw Gebruikersnaam te vinden en uw Wachtwoord terug te stellen, indien nodig, worden gedocumenteerd [&#x200B; hier &#x200B;](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Gegevens importeren {#data-import}
 
@@ -115,7 +115,7 @@ Aangezien de segmentnamen aanpasbaar zijn, hebben zij generische kolomnamen in h
 
 ### Rijen toegevoegd {#rows-added}
 
-Om de mogelijkheden van de muntomzetting aan de berekeningen in het model toe te voegen, hebben wij een collectieve kolom van de omrekeningskoers aan zowel de lijsten van de Mogelijkheid als van de Kosten toegevoegd. De waarde in deze kolom wordt toegevoegd op rijniveau en door zich bij de lijst van het Tarief van de Omzetting op zowel datum als muntidentiteitskaart aan te sluiten geëvalueerd. Voor meer details op hoe de muntomzetting in dit model werkt, zie de [ sectie van de Omzetting van de Valuta 0} {in deze documentatie.](#currency-conversion)
+Om de mogelijkheden van de muntomzetting aan de berekeningen in het model toe te voegen, hebben wij een collectieve kolom van de omrekeningskoers aan zowel de lijsten van de Mogelijkheid als van de Kosten toegevoegd. De waarde in deze kolom wordt toegevoegd op rijniveau en door zich bij de lijst van het Tarief van de Omzetting op zowel datum als muntidentiteitskaart aan te sluiten geëvalueerd. Voor meer details op hoe de muntomzetting in dit model werkt, zie de [&#x200B; sectie van de Omzetting van de Valuta 0&rbrace; &lbrace;in deze documentatie.](#currency-conversion)
 
 ![](assets/marketo-bi-10.png)
 
@@ -180,7 +180,7 @@ Er zijn definities toegevoegd aan het Power BI-model voor tabellen, aangepaste k
 
 ![](assets/marketo-bi-14.png)
 
-Om definities voor kolommen te bekijken die direct uit [!DNL Snowflake] komen, zie de [ documentatie van het gegevenspakhuis ](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
+Om definities voor kolommen te bekijken die direct uit [!DNL Snowflake] komen, zie de [&#x200B; documentatie van het gegevenspakhuis &#x200B;](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Verschillen tussen sjablonen en ontdekken {#discrepancies-between-templates-and-discover}
 
@@ -202,7 +202,7 @@ Deze metriek, zoals aangetoond in de rapporteringsmalplaatjes, wordt niet weersp
 
 ### Webverkeer {#web-traffic}
 
-Het gegevensmodel van het rapportmalplaatje normaliseert kanaal, subchannel, en campagnedimensionele gegevens via het verband tussen Zitting en Aanraakpunt. Dit is anders dan het gegevensmodel Discover, dat deze dimensies aan Zitting ontleedt. Wegens dit onderscheid, zouden de totale aantallen voor bezoeken en bezoekers tussen Discover en het rapporteringsmalplaatje moeten aanpassen, echter, zodra getoond of gefilterd door dimensie, worden deze aantallen niet verwacht om op te zetten. De reden hiervoor is dat de dimensionale gegevens in de sjabloon alleen beschikbaar zijn voor webgebeurtenissen die tot een aanraakpunt hebben geleid (d.w.z. niet-anonieme gebeurtenissen). Voor meer details, verwijs het [ Model van Gegevens ](#data-model) sectie van deze documentatie.
+Het gegevensmodel van het rapportmalplaatje normaliseert kanaal, subchannel, en campagnedimensionele gegevens via het verband tussen Zitting en Aanraakpunt. Dit is anders dan het gegevensmodel Discover, dat deze dimensies aan Zitting ontleedt. Wegens dit onderscheid, zouden de totale aantallen voor bezoeken en bezoekers tussen Discover en het rapporteringsmalplaatje moeten aanpassen, echter, zodra getoond of gefilterd door dimensie, worden deze aantallen niet verwacht om op te zetten. De reden hiervoor is dat de dimensionale gegevens in de sjabloon alleen beschikbaar zijn voor webgebeurtenissen die tot een aanraakpunt hebben geleid (d.w.z. niet-anonieme gebeurtenissen). Voor meer details, verwijs het [&#x200B; Model van Gegevens &#x200B;](#data-model) sectie van deze documentatie.
 
 Er kunnen kleine verschillen zijn in het totale aantal sitevormen tussen [!DNL Discover] en de sjabloon. Dit komt omdat het gegevensmodel in het rapporteringsmalplaatje dimensionele gegevens voor de Vorm van de Plaats via een verhouding aan Zitting en dan Aanraakpunt verkrijgt; er zijn een paar gevallen waar de gegevens van de plaatvorm geen gecorreleerde zitting hebben.
 

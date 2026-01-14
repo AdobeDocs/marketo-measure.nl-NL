@@ -69,6 +69,6 @@ Andere redenen die een herziening van het aangepaste model kunnen veroorzaken, z
 
 >[!MORELIKETHIS]
 >
->* [ Model en Opstelling van de Attributie van de Douane ](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
->* [ laat het Volgen van de Geschiedenis van het Gebied voor het Model van de Douane toe ](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
->* [ het Leren van de Machine Model ](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)
+>* [&#x200B; Model en Opstelling van de Attributie van de Douane &#x200B;](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [&#x200B; laat het Volgen van de Geschiedenis van het Gebied voor het Model van de Douane toe &#x200B;](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+>* [&#x200B; het Leren van de Machine Model &#x200B;](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)

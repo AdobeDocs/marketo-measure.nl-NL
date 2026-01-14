@@ -23,7 +23,7 @@ Deze setup is bedoeld voor nieuwe [!DNL Marketo Measure] -klanten die Dynamics C
 
 ## Nieuwe toepassing instellen {#set-up-new-application}
 
-1. Teken binnen aan uw [ Azure Portaal ](https://portal.azure.com/#home).
+1. Teken binnen aan uw [&#x200B; Azure Portaal &#x200B;](https://portal.azure.com/#home).
 
 1. Kies de Azure AD-huurder door op uw account in de rechterbovenhoek van de pagina te klikken, gevolgd door op de navigatie Switch Directory te klikken en vervolgens de juiste huurder te selecteren. Sla deze stap over als u slechts één Azure AD-huurder onder uw account hebt of als u al de juiste Azure AD-huurder hebt geselecteerd.
 
@@ -41,7 +41,7 @@ Deze setup is bedoeld voor nieuwe [!DNL Marketo Measure] -klanten die Dynamics C
 
    ![](assets/getting-dynamics-10.png)
 
-1. Volg de aanwijzingen en maak een toepassing. Het maakt niet uit als het een Webtoepassing of een openbare cliënt (mobiel &amp; Desktop) toepassing is, maar als u specifieke voorbeelden voor Webtoepassingen of openbare cliënttoepassingen zou willen, controleer uit [ quickstart ](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview).\
+1. Volg de aanwijzingen en maak een toepassing. Het maakt niet uit als het een Webtoepassing of een openbare cliënt (mobiel &amp; Desktop) toepassing is, maar als u specifieke voorbeelden voor Webtoepassingen of openbare cliënttoepassingen zou willen, controleer uit [&#x200B; quickstart &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview).\
    a. De naam is de toepassingsnaam en beschrijft de toepassing die u voor de eindgebruikers wilt gebruiken.\
    b. Selecteer onder Ondersteunde accounttypen de optie Accounts in een willekeurige organisatiemap en persoonlijke Microsoft-accounts.\
    c. Geef de Redirect URI op. Voor webtoepassingen is dit de basis-URL van uw app waar gebruikers zich kunnen aanmelden. Bijvoorbeeld `http://localhost:12345` . Azure AD gebruikt deze voor openbare clients (mobiel en bureaublad) om tokenreacties te retourneren. Voer een waarde in die specifiek is voor uw toepassing. Bijvoorbeeld `http://MyFirstAADApp` .
@@ -106,7 +106,7 @@ Wanneer de toepassingsregistratie is voltooid, kan een toepassingsgebruiker word
 
 ## De instantie van de Dynamiek verbinden via OAuth {#connecting-your-dynamics-instance-via-oAuth}
 
-1. Wanneer vestiging uw verbinding van de Dynamiek voor het eerst, volg stappen 1-5 van &quot;CRM als sectie van de Leverancier van Gegevens&quot;in [ dit artikel ](/help/marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
+1. Wanneer vestiging uw verbinding van de Dynamiek voor het eerst, volg stappen 1-5 van &quot;CRM als sectie van de Leverancier van Gegevens&quot;in [&#x200B; dit artikel &#x200B;](/help/marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
 1. Wanneer ertoe aangezet voor OAuth geloofsbrieven, vul identiteitskaart van de Cliënt, Geheime cliënt, en identiteitskaart URI in van de Toepassing die opstelling in de sectie hierboven waren.
 

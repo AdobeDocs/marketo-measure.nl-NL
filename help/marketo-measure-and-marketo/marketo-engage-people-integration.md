@@ -19,7 +19,7 @@ Dankzij de integratie van Marketo-personen kan [!DNL Marketo Measure] beginnen m
 * Production Marketo-instantie
 * Production [!DNL Salesforce] of [!DNL Microsoft Dynamics] -instantie
 * Alle betaalde [!DNL Marketo Measure] -abonnementen
-* SOLR toegelaten (reik uit aan [ de Steun van Marketo ](https://nation.marketo.com/t5/Support/ct-p/Support) om dit te hebben toegelaten)
+* SOLR toegelaten (reik uit aan [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/Support/ct-p/Support) om dit te hebben toegelaten)
 
 ## Hoe het werkt {#how-it-works}
 

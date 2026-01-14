@@ -18,10 +18,10 @@ Als u ervoor kiest om [!DNL Marketo Measure] te testen in een [!DNL Salesforce] 
 
 * Installeer het [!DNL Marketo Measure] -pakket in Production met de instelling &quot;[!UICONTROL All Users]&quot;
 
-   * [ Pakket van de Basis ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [&#x200B; Pakket van de Basis &#x200B;](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
-* Voor meer informatie over de [!DNL Marketo Measure] verhouding met [!DNL Salesforce], bekijk [ dit artikel ](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
-* Een beetje van [!DNL Salesforce] configuratie is noodzakelijk. De specifieke actiepunten worden hieronder geschetst in [ Stap 4 hieronder ](#salesforce-configuration)
+* Voor meer informatie over de [!DNL Marketo Measure] verhouding met [!DNL Salesforce], bekijk [&#x200B; dit artikel &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
+* Een beetje van [!DNL Salesforce] configuratie is noodzakelijk. De specifieke actiepunten worden hieronder geschetst in [&#x200B; Stap 4 hieronder &#x200B;](#salesforce-configuration)
 
 ## Stap 2: Verwijder de huidige sandbox CRM-verbinding in de app [!DNL Marketo Measure] {#delete-the-current-sandbox-crm-connection-in-marketo-measure-app}
 
@@ -50,7 +50,7 @@ Als u ervoor kiest om [!DNL Marketo Measure] te testen in een [!DNL Salesforce] 
 
 [Machtigingssets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[ het Delen rapporten ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
+[&#x200B; het Delen rapporten &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
 
 [Overbodige rapporttypen verbergen](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 
