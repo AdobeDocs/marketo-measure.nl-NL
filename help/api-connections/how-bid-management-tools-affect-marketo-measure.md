@@ -1,15 +1,14 @@
 ---
-description: De invloed van Bodmanager-programma's op  [!DNL Marketo Measure]  -  [!DNL Marketo Measure]
+description: Hoe de Hulpmiddelen van het Beheer van het Bodd  [!DNL Marketo Measure]  begeleiding voor de gebruikers van Marketo Measure beïnvloeden
 title: De invloed van Bodmanager-programma's  [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
-
 
 # De invloed van Bodmanager-programma&#39;s [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 
@@ -31,6 +30,7 @@ Stel een volgsjabloon als volgt in:
       * `{lpurl}&_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
    * Als GEEN van je advertentie-URL&#39;s een &#39;?&#39; heeft in hen, gebruik deze URL:
       * `{lpurl}?_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
+
 
 ## Voor [!DNL Bing Ads] accounts {#for-bing-ads-accounts}
 

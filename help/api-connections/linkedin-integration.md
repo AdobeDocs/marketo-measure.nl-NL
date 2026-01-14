@@ -1,15 +1,14 @@
 ---
-description: LinkedIn Integratie -  [!DNL Marketo Measure]
+description: Richtlijnen voor LinkedIn-integratie voor Marketo Measure-gebruikers
 title: LinkedIn-integratie
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '2727'
+source-wordcount: '2634'
 ht-degree: 0%
 
 ---
-
 
 # LinkedIn-integratie {#linkedin-integration}
 
@@ -27,7 +26,7 @@ Beschikbaar voor alle gebruikers.
 
 ## Vereisten {#requirements}
 
-**Rollen van de Manager van de Campagne**
+### Rollen voor Campagnerbeheer
 
 [!DNL Marketo Measure] kan alleen kostengegevens voor Advertentiegegevens en -advertenties downloaden als u een van de volgende rollen hebt in Campagnebeheer:
 
@@ -35,54 +34,56 @@ Beschikbaar voor alle gebruikers.
 * Accountmanager
 * Campagnebeheer
 
-Leer meer: [&#x200B; Rollen en Functies van de Gebruiker in de Manager van de Campagne &#x200B;](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager).
+Leer meer: [ Rollen en Functies van de Gebruiker in de Manager van de Campagne ](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager).
 
-**Betaalde Rollen van Admin van Media**
+### Betaalde rollen voor mediabeheer
 
 Als u wilt dat [!DNL Marketo Measure] gesponsorde Creative Cloud kan maken/bijwerken, moet u een van de volgende rollen voor Gesteunde media Admin hebben:
 
 * Poster met gesponsorde inhoud
 * Generaal-leider Forms Manager
 
-Leer meer: [&#x200B; LinkedIn Rollen van Admin van de Pagina &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
+Leer meer: [ LinkedIn Rollen van Admin van de Pagina ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
 Er zijn andere [!DNL LinkedIn] rollen die wij **niet** voor onze integratie vereisen. Deze rollen worden vaak verward met de vereiste rollen, zodat is er een verschil!
 
-**Rollen van Admin van de Pagina Admin**
+### Paginabeheerrollen
 
 Als u wilt dat [!DNL Marketo Measure] leads kan downloaden/integreren van lead gen-gen-formulieren, hebt u de volgende rol voor Paginanummer nodig:
 
 * Super Admin
 
-Leer meer: [&#x200B; LinkedIn Rollen van Admin van de Pagina &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
+Leer meer: [ LinkedIn Rollen van Admin van de Pagina ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
 ## LinkedIn-advertentietypen {#linkedin-ad-types}
 
 [!DNL Marketo Measure] biedt ondersteuning voor:
 
-**Gesponsorde Inhoud:** Gesponsorde Inhoud staat u toe om inhoud aan het [!DNL LinkedIn] voer van leden voorbij die te leveren uw bedrijf volgen. Gesponsorde inhoud kan worden gericht op een specifiek publiek en kan adverteerders helpen [!DNL LinkedIn] leden te bereiken, waar en wanneer ze zich op het [!DNL LinkedIn] -platform engageren voor desktops, mobiele apparaten en tablets. Gesponsorde inhoud wordt ondersteund door Gen Forms.
+Met gesponsorde inhoud kunt u inhoud leveren aan de [!DNL LinkedIn] -feed van leden die verder gaan dan diegenen die uw bedrijf volgen. Gesponsorde inhoud kan worden gericht op een specifiek publiek en kan adverteerders helpen [!DNL LinkedIn] leden te bereiken, waar en wanneer ze zich op het [!DNL LinkedIn] -platform engageren voor desktops, mobiele apparaten en tablets. Gesponsorde inhoud wordt ondersteund door Gen Forms.
 
 De typen inhoud en indelingen die door [!DNL Marketo Measure] worden ondersteund, zijn Single Image Ads en Video Ads (via Lead Gen Forms). Vanwege de complexiteit van het schema ondersteunen we Carousel-advertenties niet.
 
 [!DNL Marketo Measure] biedt geen ondersteuning voor gesponsorde berichten, tekstadvertenties of dynamische advertenties.
 
-![&#x200B; LinkedIn ad formaattypes die Enige Advertentie van het Beeld, VideoAdvertentie tonen, en de opties van Carrousel met de steun van Forms van de Leiding &#x200B;](assets/one.png)
+![](assets/bizible-guide-1.png)
 
 >[!TIP]
+>
 >Voor om het even welk van uw Campagnes/uitgaven die uit een niet-Gesponsorde inhoudsbron (zoals het Type van Campagne van &quot;Tekst Ad&quot;of &quot;Gesponsorde InMail&quot;) voortkomen, [!DNL Marketo Measure] steunt _niet_ inherent het volgen van deze Types van Campagne. Als u de uitgaven voor campagnes zoals deze naast uw &quot;Gesponsorde Inhoud&quot;uitgaven wilt volgen, ben zeker om van onze uitgave van de Marketing CSV gebruik te maken om gezegd uitgaven manueel te registreren.
 
 ## Hoe het werkt: gesponsorde inhoud {#how-it-works-sponsored-content}
 
 >[!NOTE]
+>
 >Voordat u de functie voor het eerst gaat gebruiken, moet u deze instelling inschakelen door naar [!DNL Marketo Measure] [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Ads] > [!UICONTROL Enable LinkedIn Lead Gen Forms] te navigeren.
 
-**[!DNL LinkedIn's]Unieke vereisten voor automatische labeling**
+### [!DNL LinkedIn's] Unieke vereisten voor automatische labeling
 
 [!DNL Marketo Measure] kan u helpen de prestaties van uw [!DNL LinkedIn] -campagne te volgen door uw bestemmingspagina&#39;s automatisch te labelen.
 
 [!DNL Marketo Measure] zoekt naar creatieve elementen met een unieke LinkedIn Share en voegt een `?_bl={creativeId}` -parameter toe aan het einde ervan.
 
-**het Kopiëren Aandelen**
+### Delen kopiëren
 
 Met deze [!DNL Marketo Measure/LinkedIn] -integratie vragen we dat klanten bestaande Creative Cloud niet kopiëren of dupliceren. Als Delen worden gevonden en slechts op één Creative worden gebruikt, kan [!DNL Marketo Measure] de Delen labelen zonder dat Creative of Shares opnieuw hoeft te worden gemaakt en blijft alle advertentiegeschiedenis (indrukken, klikken, delen) behouden.
 
@@ -90,13 +91,13 @@ Zodra een Delen op meerdere Creative Cloud wordt gedeeld, moet [!DNL Marketo Mea
 
 Als u voorwaarts gaat, raadt [!DNL Marketo Measure] u aan geen [!DNL LinkedIn] -aandelen te dupliceren en alle creatieve en andere delen zo uniek mogelijk te houden, zodat we eenvoudig onze &#39;tracking&#39; kunnen toevoegen zonder dat u de advertentiegeschiedenis hoeft te wissen.
 
-**verkorte URLs**
+### Kortere URL&#39;s
 
 De reden voor de extra stap is dat LinkedIn bestemmings-URL&#39;s een verkorte URL (bit.ly, goog.le, enz.) toestaat, wat betekent dat [!DNL Marketo Measure] de lange, opgeloste URL niet ziet en [!DNL Marketo Measure] volgparameters aan een opgeloste URL moet toevoegen. Om dit probleem te verhelpen, zoekt [!DNL Marketo Measure] naar verkorte URL&#39;s voordat u een advertentie opnieuw maakt, breidt het de URL uit en maakt het vervolgens de nieuwe advertentie met de opgeloste URL en alle bijbehorende parameters, zodat [!DNL Marketo Measure] tags kan toevoegen. Als u een nieuwe advertentie maakt, wordt de historie gewist (indrukken, klikken en delen). Daarom is het nodig dat u toestemming hebt om ingekorte URL&#39;s van tags te voorzien.
 
 Als u veel gebruik maakt van verkorte URL&#39;s, kan dit ernstige gevolgen hebben voor uw creatieve projecten. We raden u aan geen verkorte URL&#39;s meer te gebruiken, zodat [!DNL Marketo Measure] de bestemmingspagina&#39;s kan labelen zonder dat u nieuwe advertenties hoeft te maken en Advertentiegeschiedenis hoeft te wissen.
 
-**het Proces**
+### Het proces
 
 Laten we beginnen met een paar voorbeelden. Laten we zeggen dat we...
 
@@ -105,7 +106,7 @@ Creative B : Share 234\
 Creative C: Share 234\
 Creative D : Share 234
 
-![&#x200B; Diagram die vier creatieve personen met hun bijbehorende aandelen vóór auto-etiketterend proces tonen &#x200B;](assets/two.png)
+![](assets/five-five-1.png)
 
 `1)` [!DNL Marketo Measure] doorzoekt eerst alle campagnes, Creative Cloud en shares met de status Actief. In [!DNL Marketo Measure] worden geen tags toegewezen voor gepauzeerde, gearchiveerde of geannuleerde advertenties. Als een advertentie is gepauzeerd, wordt deze ingesteld op [!UICONTROL active] , labelen we deze zodra de advertentie weer actief is. Als we een uniek Delen kunnen vinden, wat betekent dat het niet wordt gebruikt voor meerdere Creative Cloud of Campagnes (bijvoorbeeld Creative A: Share 123), voegt [!DNL Marketo Measure] onze aangepaste parameter `>> ?_bl={creativeId}` toe aan de gedeelde URL.
 
@@ -118,19 +119,16 @@ Creative D : Share 234
 `5)` [!DNL Marketo Measure] moet regelmatig controleren of Delen niet worden gedeeld en als dat het geval is, wordt het proces opnieuw gestart in stap 2 hierboven.
 
 >[!NOTE]
+>
 >Dit betekent dat onze klanten de advertentiegeschiedenis van Creative B zullen verliezen: Share 234, Creative C: Share 234 en Creative D: Share 234 omdat het nu opnieuw wordt gemaakt met Creative E: Share 345, Share F: Share 456, en Creative G: Share 567 respectievelijk.
 
-![&#x200B; Diagram die nieuwe creatieve elementen met unieke aandelen tonen na auto-etiketterend en archiverend proces &#x200B;](assets/three.png) worden gecreeerd
+![](assets/four-four-1.png)
 
 ## Hoe het werkt: Gen-leider Forms {#how-it-works-lead-gen-forms}
-
-**[!DNL LinkedIn's]Unieke vereisten voor automatische labeling**
 
 [!DNL Marketo Measure] kan u helpen de prestaties van uw [!DNL LinkedIn] -campagne te volgen door uw bestemmingspagina&#39;s automatisch te labelen.
 
 [!DNL Marketo Measure] zoekt naar creatieve elementen met een unieke LinkedIn Share en voegt een `?_bl={creativeId}` -parameter toe aan het einde ervan.
-
-**het Proces**
 
 Via de API voor het toevoegen van formulieren en de API voor het toevoegen van formulierreacties kunnen we formulierverzendgegevens verzamelen voor een advertentieaccount en het e-mailadres koppelen aan een lead van de CRM of Marketo.[!DNL LinkedIn's]
 
@@ -139,9 +137,9 @@ LinkedIn-formulieren kunnen meerdere e-mailadressen bevatten. Wanneer we formuli
 Ongeacht de Campagne- of Creative-status, zullen alle reacties op formulieren resulteren in een aanraakpunt. [!DNL Marketo Measure] heeft een terugkijkbeperking van 90 dagen, zodat [!DNL Marketo Measure] geen toegang heeft tot reacties op formulieren die ouder zijn dan 90 dagen, maar hoe langer de integratie van [!DNL Marketo Measure] en [!DNL LinkedIn] is ingeschakeld, des te groter de aantal aanraakpunten van het Formulier Lead Gen zijn zichtbaar via [!DNL Marketo Measure] .
 
 >[!NOTE]
+>
 >LinkedIn-kosten worden nog steeds gedownload als onderdeel van campagnes voor gesponsorde inhoud.
 
-**het Volgen Leider Gen Forms in CRM of Marketo**
 
 Voordat de integratie van [!DNL Marketo Measure] en LinkedIn-leider Forms bestond, was het gebruikelijk dat klanten hun formulierverzendingen naar een Marketo-programma en/of CRM-campagne zouden doorsturen om de formulieren te volgen en deze toe te wijzen aan deze activiteiten. Nadat de instelling voor Gen-leider Forms is ingeschakeld, willen we ervoor zorgen dat deze formulierverzendingen niet dubbel worden geteld. Controleer het volgende:
 
@@ -150,107 +148,108 @@ Voordat de integratie van [!DNL Marketo Measure] en LinkedIn-leider Forms beston
 * Verwante regels voor CRM-campagnes bijwerken
 
 >[!NOTE]
+>
 >LinkedIn API heeft een terugkijkbeperking van 90 dagen, zodat als u Marketo of de regels van CRM gebruikt, wordt geadviseerd dat u de einddatum op de regel aan 90 dagen voorafgaand aan de datum plaatst u de integratie in [!DNL Marketo Measure] toeliet.
 
 ## Details aanraakpunt {#touchpoint-details}
 
 Nadat [!DNL Marketo Measure] uw landingspagina op LinkedIn creatief met succes heeft geëtiketteerd, kunt u de opgeloste advertentiegegevens op touchpoint bekijken. Hier is de afbeelding van gegevenswaarden die u zou moeten verwachten te zien:
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th style="width:30%">Aanraakpuntveld</th>
-   <th>Samplewaarde</th>
-  </tr>
-  <tr>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <th style="width:30%">Aanraakpuntveld</th> 
+   <th>Samplewaarde</th> 
+  </tr> 
+  <tr> 
    <td>Advertentie-id</td>
    <td>84186224</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Inhoud toevoegen</td>
    <td>copy-1-image-2-man 95% van de #B2B-marketers beschouwt de strategie voor het creëren van vraag als succesvol. Meer informatie: [!DNL https] /lnkd.in/jgdi50vKrgv</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Groep-id toevoegen</td>
    <td>(leeg)</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Naam advertentiegroep</td>
    <td>(leeg)</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Campagne-id toevoegen</td>
    <td>138949954</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Naam advertentiecampagne</td>
    <td>SU - COM-accounts - vraagvaardigheden</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Doel-URL toevoegen <b>*</b></td>
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td>
-  </tr>
-  <tr>
-   <td>URL van formulier</td>
-   <td>info.bizible.com/demo</td>
-  </tr>
-  <tr>
-   <td>URL formulier - Raw</td>
-   <td>info.bizible.com/demo</td>
-  </tr>
-  <tr>
-   <td>Trefwoord-id</td>
-   <td>(leeg)</td>
-  </tr>
-  <tr>
-   <td>Type trefwoordovereenkomst</td>
-   <td>(leeg)</td>
-  </tr>
-  <tr>
-   <td>Openingspagina</td>
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td>
-  </tr>
-  <tr>
-   <td>Openingspagina - Raw</td>
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td>
-  </tr>
-  <tr>
-   <td>Marketingkanaal</td>
-   <td>Betaald sociaal</td>
-  </tr>
-  <tr>
-   <td>Marketingkanaal - pad</td>
-   <td>Betaald sociaal.LinkedIn</td>
-  </tr>
-  <tr>
-   <td>Medium</td>
-   <td>"cpc" of "Lead Gen Form"</td>
-  </tr>
-  <tr>
-   <td>Referentiepagina</td>
-   <td>www.linkedin.com/</td>
-  </tr>
-  <tr>
-   <td>Refereringspagina - Raw</td>
-   <td>www.linkedin.com/</td>
-  </tr>
-  <tr>
-   <td>Serach Phrase</td>
-   <td>(leeg)</td>
-  </tr>
-  <tr>
-   <td>Type aanraakpunt</td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
+  </tr> 
+  <tr> 
+   <td>URL van formulier</td> 
+   <td>info.bizible.com/demo</td> 
+  </tr> 
+  <tr> 
+   <td>URL formulier - Raw</td> 
+   <td>info.bizible.com/demo</td> 
+  </tr> 
+  <tr> 
+   <td>Trefwoord-id</td> 
+   <td>(leeg)</td> 
+  </tr> 
+  <tr> 
+   <td>Type trefwoordovereenkomst</td> 
+   <td>(leeg)</td> 
+  </tr> 
+  <tr> 
+   <td>Openingspagina</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
+  </tr> 
+  <tr> 
+   <td>Openingspagina - Raw</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
+  </tr> 
+  <tr> 
+   <td>Marketingkanaal</td> 
+   <td>Betaald sociaal</td> 
+  </tr> 
+  <tr> 
+   <td>Marketingkanaal - pad</td> 
+   <td>Betaald sociaal.LinkedIn</td> 
+  </tr> 
+  <tr> 
+   <td>Medium</td> 
+   <td>"cpc" of "Lead Gen Form"</td> 
+  </tr> 
+  <tr> 
+   <td>Referentiepagina</td> 
+   <td>www.linkedin.com/</td> 
+  </tr> 
+  <tr> 
+   <td>Refereringspagina - Raw</td> 
+   <td>www.linkedin.com/</td> 
+  </tr> 
+  <tr> 
+   <td>Serach Phrase</td> 
+   <td>(leeg)</td> 
+  </tr> 
+  <tr> 
+   <td>Type aanraakpunt</td> 
    <td>Webformulier</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Aanraakpunt Source</td>
    <td>LinkedIn</td>
-  </tr>
- </tbody>
+  </tr> 
+ </tbody> 
 </table>
 
 **&#42;** _Het veld &#39;URL van bestemming toevoegen&#39; wordt alleen gevuld voor gesponsorde inhoud. Het is niet bevolkt voor Lead Gen Forms._
@@ -263,7 +262,7 @@ Omdat [!DNL Marketo Measure] rechtstreeks is geïntegreerd met [!DNL LinkedIn] ,
 
 Net als bij andere vormen van advertentie-integratie heeft [!DNL Marketo Measure] een regel voor het marketingkanaal gedefinieerd waarin alle [!DNL LinkedIn] -campagnes, -creatieven en -kosten worden geplaatst. Om de regel te gebruiken, zal de klant een nieuwe rij voor hun Betaalde [!DNL LinkedIn] inspanningen willen opnemen. Het kan een nieuw of bestaand kanaal zijn. In de kolom Referenter gebruikt u de definitie &quot;[[!DNL LinkedIn] Betaald]&quot; die [!DNL Marketo Measure] heeft gedefinieerd als elk aanraakpunt met een tag [!DNL Marketo Measure] .
 
-![&#x200B; de configuratie van de kanaalregel van de Marketing die LinkedIn Betaalde kanaaldefinitie met verwijzerskolom &#x200B;](assets/four.png) toont
+![](assets/one-one-1.png)
 
 ## [!DNL Marketo Measure] Detecteren {#marketo-measure-discover}
 
@@ -315,7 +314,7 @@ LinkedIn vereist dat alle advertenties die worden gecreeerd of gewijzigd door he
 
 Beide. Dankzij de integratie met [!DNL Marketo Measure] kunnen we de doel-URL van de klik tot en met de afbeelding in de advertentie labelen, maar wordt ook automatisch de verkorte URL in de beschrijving van de advertentie bijgewerkt.
 
-![&#x200B; LinkedIn en het tonen van zowel bestemming URL als verkorte URL in beschrijving die geëtiketteerd worden &#x200B;](assets/five.png)
+![](assets/select-type-1.png)
 
 **Ik heb mijn [!DNL LinkedIn ads] rekening verbonden. Waarom is het niet [!DNL Marketo Measure] etiketteren van mijn verbindingen?**
 
@@ -325,7 +324,7 @@ De verbonden gebruiker van [!DNL LinkedIn] moet juiste het uitgeven toegang hebb
 
 De aandeel-id is niet opgenomen in een [!DNL LinkedIn] -rapport, dus er is geen duidelijke en duidelijke manier om te controleren op toewijzingen van creatief naar gedeeld materiaal. Als u vermoedt dat een creatief item een kopie is, kunt u dit handmatig controleren door de advertentie te openen vanuit uw [!DNL LinkedIn] Campagne-manager. Hierdoor wordt de advertentie op een nieuw tabblad geopend en kunt u de id voor delen vinden in de URL.
 
-![&#x200B; LinkedIn Manager die van de Campagne toont en in nieuw lusje met aandeel identiteitskaart zichtbaar in URL &#x200B;](assets/six.png) wordt geopend
+![](assets/six-six-1.png)
 
 ## Generaal-leider Forms - Veelgestelde vragen {#lead-gen-forms-faq}
 

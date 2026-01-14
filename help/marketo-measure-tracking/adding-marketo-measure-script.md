@@ -1,22 +1,23 @@
 ---
-description: Toevoegend  [!DNL Marketo Measure]  Manuscript -  [!DNL Marketo Measure]
+description: Het toevoegen van  [!DNL Marketo Measure]  begeleiding van het Manuscript voor de gebruikers van Marketo Measure
 title: Toevoegend  [!DNL Marketo Measure]  Manuscript
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] Script toevoegen {#adding-marketo-measure-script}
 
 [!DNL Marketo Measure] JavaScript die u wilt laten volgen door [!DNL Marketo Measure] , moet zo snel mogelijk aan alle wegeigenschappen worden toegevoegd. Zodra de JavaScript is geïmplementeerd, begint [!DNL Marketo Measure] met het verzamelen van uw digitale gegevens. In dit artikel worden de methoden voor het implementeren van [!DNL Marketo Measure] JavaScript en aanvullende overwegingen beschreven.
 
 >[!NOTE]
->Zorg ervoor u [&#x200B; alle aangewezen domeinen in  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} naast het opstellen van [!DNL Marketo Measure] JavaScript hebt geclaimd.
+>
+>Zorg ervoor u [ alle aangewezen domeinen in  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} naast het opstellen van [!DNL Marketo Measure] JavaScript hebt geclaimd.
 
 Wanneer u aan de slag gaat met [!DNL Marketo Measure] , kunt u de [!DNL Marketo Measure] JavaScript op twee manieren aan uw website toevoegen:
 
@@ -32,7 +33,8 @@ We raden u ten zeerste aan [!DNL Marketo Measure] JavaScript hardcoding toe te p
 Door de JavaScript te coderen in de `<head>` van uw pagina&#39;s, zorgt u ervoor dat het [!DNL Marketo Measure] -script eerst wordt geladen en dat de verwijzingsgegevens niet worden overgeslagen. De [!DNL Marketo Measure] JavaScript wordt asynchroon geladen. Als de hardcoding aanwezig is, moet de JavaScript handmatig worden toegevoegd aan Marketing Automation.
 
 >[!TIP]
->Leer hoe te ervoor te zorgen uw manuscript [&#x200B; GDPR-Volgzaam &#x200B;](/help/security/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"} is.
+>
+>Leer hoe u ervoor kunt zorgen dat uw script compatibel is met GDPR.
 
 ## Tag Management Systems {#tag-management-systems}
 
@@ -46,7 +48,7 @@ Als u [!DNL Marketo Measure] -script wilt toevoegen via een oplossing voor tagbe
 
 [!DNL Marketo Measure] raadt aan dat de tag in de paginaweergave wordt geactiveerd. Bovendien kunt u [!DNL Marketo Measure] het beste de hoogste prioriteit geven in de volgorde waarin de gegevens worden gemaakt en ervoor zorgen dat er geen synchrone scripts staan voor de tag [!DNL Marketo Measure] om de hoogste gegevenskwaliteit te garanderen.
 
-Meer informatie kan [&#x200B; hier &#x200B;](/help/marketo-measure-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target="_blank"} worden gevonden.
+Meer informatie kan [ hier ](/help/marketo-measure-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target="_blank"} worden gevonden.
 
 ## Aanvullende overwegingen {#additional-considerations}
 
@@ -56,7 +58,7 @@ Als u echter afzonderlijke of internationale domeinen gebruikt, moet u dit aan u
 
 Als u pagina&#39;s van derden gebruikt, voert u een gesprek over uw gebruikskwestie met uw [!DNL Marketo Measure] Consultant. Over het algemeen wilt u weten of u een aangepaste versie van [!DNL Marketo Measure] JavaScript kunt toevoegen om deze pagina&#39;s indien nodig bij te houden. Als dit niet mogelijk is, wordt het volgen via CRM Campaign-aanraakpunten besproken met uw [!DNL Marketo Measure] Consultant.
 
-Hebt u formulieren die NIET door [!DNL Marketo Measure] moeten worden bijgehouden omdat ze niet noodzakelijkerwijs zinvol zijn voor toewijzing (bijvoorbeeld het afmelden van formulieren, het aanmelden van klanten, enzovoort)? Als zo, zult u de uitsluitingscode [&#x200B; in dit artikel &#x200B;](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} aan elke vorm willen toevoegen
+Hebt u formulieren die NIET door [!DNL Marketo Measure] moeten worden bijgehouden omdat ze niet noodzakelijkerwijs zinvol zijn voor toewijzing (bijvoorbeeld het afmelden van formulieren, het aanmelden van klanten, enzovoort)? Als zo, zult u de uitsluitingscode [ in dit artikel ](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} aan elke vorm willen toevoegen
 
 Hebt u onveilige pagina&#39;s? U moet ze zo beveiligen dat ze door een beveiligde/niet-beveiligde pagina worden verbroken tijdens de volgende sessie.
 
@@ -64,14 +66,14 @@ Zorg ervoor dat u een gesprek hebt met uw webteam, zodat ze weten dat [!DNL Mark
 
 Als een [!DNL Web Application Firewall (WAF)] -waarschuwing wordt geactiveerd tijdens het instellen van de JavaScript, kunnen gebruikers de WAF-regel uitschakelen of de cookies lijsten van gewenste personen, zoals in het volgende voorbeeld:
 
-![&#x200B; de waarschuwingsherinnering van WAF van het Voorbeeld voor het manuscript van Marketo Measure &#x200B;](assets/adding-marketo-measure-script-1.png)
+![](assets/adding-script-1.png)
 
 ## Forms om extra aandacht te besteden aan {#forms-to-pay-extra-attention-to}
 
 **Multiform voorlegging**
 
 * Probleem: als u meerdere gekoppelde formulieren hebt als onderdeel van één formulier voor verzending, is het mogelijk dat het eerste formulier een aanraakpunt genereert, zelfs als het volledige formulier niet wordt verzonden.
-* Oplossing: u moet een van de formulieren forceren om de gebruiker aan [!DNL Marketo Measure] te melden op basis van gegevens in de cache en om praktijken voor het verlaten van de server te bespreken. Over het algemeen, [&#x200B; kan de code van de rapportgebruiker &#x200B;](/help/marketo-measure-tracking/ajax-form-handling.md){target="_blank"} voor dit oplossen.
+* Oplossing: u moet een van de formulieren forceren om de gebruiker aan [!DNL Marketo Measure] te melden op basis van gegevens in de cache en om praktijken voor het verlaten van de server te bespreken. Over het algemeen, [ kan de code van de rapportgebruiker ](/help/marketo-measure-tracking/ajax-form-handling.md){target="_blank"} voor dit oplossen.
 
 **login van de Rekening (niet verwezenlijking)**
 
@@ -79,6 +81,7 @@ Als een [!DNL Web Application Firewall (WAF)] -waarschuwing wordt geactiveerd ti
 * Oplossing: voeg Code uitsluiten toe aan het aanmeldingsformulier voor account/klant/partner.
 
 >[!NOTE]
+>
 >We raden u aan een aanraakpunt te maken voor het maken van een account of proefversie.
 
 **Download van activa**
@@ -104,7 +107,7 @@ Als een [!DNL Web Application Firewall (WAF)] -waarschuwing wordt geactiveerd ti
 **Forms die in `<div>` formaat** wordt georganiseerd
 
 * Probleem: [!DNL Marketo Measure] JS heeft moeite formulieren te herkennen in `<div>` -indeling, zodat aangepaste code nodig kan zijn.
-* Oplossing: Deze [&#x200B; malplaatjes van de rapportgebruiker &#x200B;](/help/marketo-measure-tracking/ajax-form-handling.md){target="_blank"} kunnen door uw Web Dev team worden gebruikt om de vereiste code toe te voegen.
+* Oplossing: Deze [ malplaatjes van de rapportgebruiker ](/help/marketo-measure-tracking/ajax-form-handling.md){target="_blank"} kunnen door uw Web Dev team worden gebruikt om de vereiste code toe te voegen.
 
 **Praatje**
 

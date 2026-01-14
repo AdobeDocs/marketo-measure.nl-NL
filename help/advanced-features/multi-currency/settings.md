@@ -1,15 +1,14 @@
 ---
-description: Instellingen - [!DNL Marketo Measure]
+description: Richtlijnen voor instellingen voor Marketo Measure-gebruikers
 title: Instellingen
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
-
 
 # Instellingen {#settings}
 
@@ -21,4 +20,4 @@ Er zijn twee afzonderlijke functiebits gekoppeld aan deze functie op het tabblad
 
 Onder uw [!UICONTROL User Settings] in de [!DNL Marketo Measure] toepassing, zullen wij de Collectieve Valuta en om het even welke Gesteunde Valuta tonen die van CRM wordt getrokken. Omdat deze waarden allemaal worden opgehaald uit de CRM, zijn deze velden alleen-lezen en kunnen ze niet worden gewijzigd. De dashboardvaluta is de standaardvaluta voor elke keer dat een dashboard wordt geladen. Je kunt terugkomen en de valuta naar wens wijzigen.
 
-![&#x200B; Valuta&#39;s &#x200B;](assets/one-1.png)
+![](assets/multi-currency-1.png)

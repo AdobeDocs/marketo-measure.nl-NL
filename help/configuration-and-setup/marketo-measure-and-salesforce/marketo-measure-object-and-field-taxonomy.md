@@ -3,23 +3,22 @@ description: '[!DNL Marketo Measure] Object en Field Taxonomy -  [!DNL Marketo M
 title: '[!DNL Marketo Measure] Object en veldtaxonomie'
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] Object en veldtaxonomie {#marketo-measure-object-and-field-taxonomy}
 
 Hieronder ziet u een stroomdiagram dat aangeeft hoe [!DNL Marketo Measure] Aangepaste objecten zijn gerelateerd aan [!DNL Salesforce] Standaardobjecten.
 
-![&#x200B; 2 &#x200B;](assets/1-2.png)
+![](assets/bizible-full-1.png)
 
-Voor het volledig-gerangschikte beeld, [&#x200B; klik hier &#x200B;](assets/bizible-object-and-field-taxonomy-graph-full.png).
+Voor het volledig-gerangschikte beeld, [ klik hier ](assets/bizible-full-1.png).
 
-De definities van de [!DNL Marketo Measure] gebieden die in elk voorwerp [&#x200B; leven kunnen hier &#x200B;](/help/glossary.md) worden gevonden.
+De definities van de [!DNL Marketo Measure] gebieden die in elk voorwerp [ leven kunnen hier ](/help/introduction/glossary.md) worden gevonden.
 
 ## Veelgestelde vragen {#faq}
 

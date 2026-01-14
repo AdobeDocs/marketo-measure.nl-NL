@@ -3,7 +3,8 @@ description: Marketingkenmerk
 title: Marketingkenmerk
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Marketo Measure geeft marketeers insight waar marketinginspanningen het meest ef
 
 **Aanraakpunten** verwijzen naar de interactie een vooruitzicht/lood met uw online of off-line marketing inspanningen heeft. Er zijn vier **belangrijke touchpoints** die in marketing attributie worden overwogen. Zij weerspiegelen de verschillende stadia van de reis van de klant. Deze belangrijke die aanraakpunten, ook als **worden bedoeld mijlpaal aanraakpunten**, zijn: Eerste Aanraking (FT), Loodschepping (LC), de Creatie van de Kanaal (OC), Gesloten overeenkomst van de Won (CW).
 
-![&#x200B; Diagram van milestone touchpoints van eerste aanraking door gesloten won &#x200B;](assets/1.png)
+![ Diagram van milestone touchpoints van eerste aanraking door gesloten won ](assets/overview-resources-8.png)
 
 Deze milestone aanrakingen zijn de stichting van Marketo Measure **attributiemodellen**. Marketo Measure biedt zes attributiemodellen. Elk model richt zich op verschillende stadia van de klantenreis en biedt een algemene structuur voor het toewijzen van opbrengstkredieten aan uw marketing touchpoints. Het model dat u gebruikt, hangt af van de stadia van de reis u het meest in meting geinteresseerd bent en hoeveel gegevens u wilt melden. Marketo Measure biedt de volgende toewijzingsmodellen:
 
@@ -35,7 +36,7 @@ Deze milestone aanrakingen zijn de stichting van Marketo Measure **attributiemod
 * Aangepast model
 
 >[!NOTE]
->[&#x200B; leer meer over elk attributiemodel &#x200B;](/help/attribution-models.md).
+>[ leer meer over elk attributiemodel ](/help/introduction/attribution-models.md).
 
 ## Waarom kenmerk belangrijk is {#why-attribution-is-important}
 

@@ -1,15 +1,14 @@
 ---
-description: Snelheidsdashboard voor lead -  [!DNL Marketo Measure]  - Product
+description: Gebruik het dashboard Snelheid lead voor het meten van de tijd in elk funnel-werkgebied en het vergelijken van snelheid per kanaal in de tijd
 title: Snelheidsdashboard voor lead
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
-
 
 # Snelheidsdashboard voor lead {#lead-velocity-dashboard}
 
@@ -33,7 +32,7 @@ Vragen in de grafiek:
 * Welk verkoopstadium heeft typisch de langste duur voor lood/contacten?
 * Hoe verhoudt de tijd die in het stadium &#39;First touch&#39; doorgebracht wordt tot het stadium &#39;MQL&#39;?
 
-![&#x200B; Lood of contactsnelheid door de grafiek van de de bar van het verkoopstadium &#x200B;](assets/lead-velocity-dashboard-1.png)
+![](assets/lead-dashboard-1.png)
 
 ### Snelheid van lead/contactpersoon in de loop der tijd {#lead-contact-velocity-over-time}
 
@@ -47,7 +46,7 @@ Vragen in de grafiek:
 * Wat zijn de trends in de tijd die in elk stadium wordt doorgebracht voor contacten/contacten gedurende de waargenomen maanden?
 * In welke maand hebben leads/contacten de snelste vooruitgang door de verkoopstadia ervaren?
 
-![&#x200B; tendensen van de snelheid van het lood over de grafiek van de tijdlijn &#x200B;](assets/lead-velocity-dashboard-2.png)
+![](assets/lead-dashboard-2.png)
 
 ### Snelheid lood/contact via kanaal {#lead-contact-velocity-by-channel}
 
@@ -60,7 +59,7 @@ Vragen in de grafiek:
 * Welk kanaal toont de snelste loodprogressie door de stadia van funnel?
 * Hoe varieert de snelheid van de lead in het &#39;MQL&#39;-werkgebied tussen de verschillende kanalen?
 
-![&#x200B; de snelheid van het lood door grafiek van de kanaalvergelijking &#x200B;](assets/lead-velocity-dashboard-3.png)
+![](assets/lead-dashboard-3.png)
 
 ## Filtervenster {#filter-pane}
 

@@ -1,15 +1,15 @@
 ---
-description: Paspoort-dashboard - [!DNL Marketo Measure]  - Product
+description: Beschrijft het dashboard van het Paspoort dat volgt hoe de contacten en de kansen door stadia in tijd bewegen
 title: Paspoort-dashboard
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
-
 
 # Paspoort-dashboard {#passport-dashboard}
 
@@ -31,7 +31,7 @@ Het Paspoort-dashboard biedt marketers een dynamische weergave van leads, contac
 * Eindfasen zoals &quot;Closed Won&quot; en &quot;Closed Lost&quot; zijn uitgesloten.
 * Zowel begin- als einddatum zijn inclusief.
 
-![&#x200B; dashboard van het Paspoort die kansen in stadium door werkgebiednaam toont &#x200B;](assets/passport-dashboard-1.png)
+![](assets/passport-dashboard-1.png)
 
 ### Leads of contactpersonen in werkgebied op werkgebiednaam {#leads-or-contacts-in-stage-by-stage-name}
 
@@ -41,7 +41,7 @@ Het Paspoort-dashboard biedt marketers een dynamische weergave van leads, contac
 * Eindfasen zoals &quot;Closed Won&quot; en &quot;Closed Lost&quot; zijn uitgesloten.
 * Zowel begin- als einddatum zijn inclusief.
 
-![&#x200B; dashboard van het Paspoort die lood of contacten in stadium door werkgebiednaam toont &#x200B;](assets/passport-dashboard-2.png)
+![](assets/passport-dashboard-2.png)
 
 ## Filtervenster {#filter-pane}
 
@@ -53,5 +53,6 @@ Dit dashboard is uitgerust met de volgende instellingen en filters:
 * Segmenten
 
 >[!MORELIKETHIS]
-> [&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Zichtbaarheidsbeleid voor dashboardgegevens &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [ ontdekt de Grondbeginselen van het Dashboard ](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [ Beleid van de Zichtbaarheid van Gegevens van het Dashboard ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

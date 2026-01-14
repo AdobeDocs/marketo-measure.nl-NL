@@ -1,11 +1,11 @@
 ---
-description: Betrokkenheidsdashboard -  [!DNL Marketo Measure]  - Product
+description: Ontdek het dashboard Betrokkenheid voor het bijhouden van aanraakpunten die mensen aanraakten en voor het doorlopen van de betrokkenheid via het kanaal
 title: Betrokkenheidsdashboard
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Vragen in de grafiek:
 * Hoe is het aantal aanraakpunten en mensen met een aanraking in de loop der tijd geëvolueerd?
 * Hoe vergelijken de aanraakpunten per persoon van een kwartaal/maand met volgende?
 
-![&#x200B; de tijdreeks van het dashboard van de Betrokkenheid van touchpoints en mensen aanraakten &#x200B;](assets/engagement-dashboard-1.png)
+![ de tijdreeks van het dashboard van de Betrokkenheid van touchpoints en mensen aanraakten ](assets/engagement-dashboard-1.png)
 
 ### Aanraakpunten/Personen met Kanaal {#touchpoints-people-touched-by-channel}
 
@@ -67,7 +67,7 @@ Vragen in de grafiek:
 * Welk kanaal/Subkanaal/Campagne leidde de meeste betrokkenheid?
 * Hoe vergelijk het aantal aanraakpunten met de personen die binnen een specifiek kanaal/subkanaal/campagne worden aangeraakt?
 
-![&#x200B; dashboardgrafiek van het Betrokkenheid van touchpoints en mensen door kanaal &#x200B;](assets/engagement-dashboard-2.png)
+![ dashboardgrafiek van het Betrokkenheid van touchpoints en mensen door kanaal ](assets/engagement-dashboard-2.png)
 
 ## Filtervenster {#filter-pane}
 

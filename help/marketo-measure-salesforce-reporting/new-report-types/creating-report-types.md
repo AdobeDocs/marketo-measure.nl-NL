@@ -1,19 +1,20 @@
 ---
-description: 'Creërend de Types van Rapport van de Douane  [!DNL Marketo Measure] '
+description: Creërend de leidraad van de Types van Rapport van de Douane  [!DNL Marketo Measure]  voor de gebruikers van Marketo Measure
 title: 'Creërend de Types van Rapport van de Douane  [!DNL Marketo Measure] '
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-
 # Aangepaste [!DNL Marketo Measure] rapporttypen maken {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
+>
 >U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;[!DNL Bizible]&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maakt. Er zijn drie verschillende rapporttypen die we aanraden te maken: leads met kopersaanraakpunten (Aangepast), [!DNL Marketo Measure] Person with Buyer Touchpoints (Aangepast), Opportunity with Buyer Attribution Touchpoint (Aangepast).
@@ -22,7 +23,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]** .
 
-   ![&#x200B; het menunavigatie van de Opstelling van Salesforce aan de Nieuwe Types van Rapport van de Douane &#x200B;](assets/1.png)
+   ![](assets/new-types-1.png)
 
 1. Bepaal het Type van Rapport van de Douane.
 
@@ -31,7 +32,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * [!UICONTROL Store in Category]: Overige rapporten
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Geïmporteerd
 
-   ![&#x200B; de vorm van de het rapporttype van de Douane met Lood als primair voorwerp &#x200B;](assets/2.png)
+   ![](assets/new-types-10.jpg)
 
 1. Definieer de objectrelaties.
 
@@ -39,13 +40,13 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * Zorg ervoor dat &quot;[!UICONTROL Each A/B record must have at least one B/C]&quot;-record is geselecteerd
    * [!UICONTROL Save]
 
-   ![&#x200B; het relatiediagram van Objecten die Lood aan Persoon tonen aan de verbindingen van Touchpoint &#x200B;](assets/3.png)
+   ![](assets/new-types-11.png)
 
 ## [!DNL Marketo Measure] Persoon met aanraakpunten koper (aangepast) {#marketo-measure-person-with-buyer-touchpoints-custom}
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]** .
 
-   ![&#x200B; het menunavigatie van de Opstelling van Salesforce aan de Nieuwe Types van Rapport van de Douane &#x200B;](assets/4.png)
+   ![](assets/new-types-12.png)
 
 1. Bepaal het Type van Rapport van de Douane.
 
@@ -54,7 +55,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * [!UICONTROL Store in Category]: Overige rapporten
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Geïmporteerd
 
-   ![&#x200B; de vorm van de het rapporttype van de Douane met de Persoon van Marketo Measure als primair voorwerp &#x200B;](assets/5.png)
+   ![](assets/new-types-13.jpg)
 
 1. Definieer de objectrelaties.
 
@@ -62,13 +63,13 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * Zorg ervoor dat &quot;[!UICONTROL Each A record must have at least one B]&quot;-record is geselecteerd
    * [!UICONTROL Save]
 
-   ![&#x200B; het relatiediagram van Objecten die Persoon aan Verbinding van het Aanraakpunt tonen &#x200B;](assets/6.png)
+   ![](assets/new-types-9.png)
 
 ## Kansen met Buyer Attribution Touchpoint (aangepast) {#opportunities-with-buyer-attribution-touchpoint-custom}
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]** .
 
-   ![&#x200B; het menunavigatie van de Opstelling van Salesforce aan de Nieuwe Types van Rapport van de Douane &#x200B;](assets/7.png)
+   ![](assets/new-types-8.png)
 
 1. Bepaal het Type van Rapport van de Douane.
 
@@ -77,7 +78,7 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * [!UICONTROL Store in Category]: Overige rapporten
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Geïmporteerd
 
-   ![&#x200B; de vorm van de het rapporttype van de Douane met Kansen als primair voorwerp &#x200B;](assets/8.png)
+   ![](assets/new-types-14.jpg)
 
 1. Definieer de objectrelaties.
 
@@ -85,14 +86,14 @@ Leer hoe u aangepaste rapporttypen [!DNL Marketo Measure] [!DNL Salesforce] maak
    * Zorg ervoor dat &quot;[!UICONTROL Each A record must have at least one B]&quot;-record is geselecteerd
    * [!UICONTROL Save]
 
-   ![&#x200B; het relatiediagram dat van Objecten Kanaal aan de verbinding van het Aanraakpunt van de Attributie toont &#x200B;](assets/9.png)
+   ![](assets/new-types-15.png)
 
 ## Aangepaste velden toevoegen aan aangepaste rapporttypen {#adding-custom-fields-to-custom-report-types}
 
 1. Zodra de rapporten worden gecreeerd, zult u aan een overzicht van het rapporttype worden opnieuw gericht. Klik op **[!UICONTROL Edit Layout]**.
 
-   ![&#x200B; het type van Rapport het overzichtsscherm met de Edit knoop van de Lay-out &#x200B;](assets/10.png)
+   ![](assets/new-types-2.png)
 
 1. Zorg ervoor dat de aangepaste velden die u aan het rapport wilt toevoegen, worden weergegeven in de sectie Eigenschappen van veldindeling. Als er andere gebieden zijn u zou willen toevoegen, gebruik &quot;[!UICONTROL Add fields related via lookup]&quot;optie.
 
-   ![&#x200B; de sectie van de Eigenschappen van de Lay-out van het Gebied met beschikbare douanegebieden &#x200B;](assets/11.png)
+   ![](assets/new-types-3.png)

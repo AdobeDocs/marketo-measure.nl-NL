@@ -3,13 +3,12 @@ description: '[!DNL Marketo Engage] Integratie van personen -  [!DNL Marketo Mea
 title: '[!DNL Marketo Engage] Integratie van personen'
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Engage] Integratie van personen {#marketo-engage-people-integration}
 
@@ -20,7 +19,7 @@ Dankzij de integratie van Marketo-personen kan [!DNL Marketo Measure] beginnen m
 * Production Marketo-instantie
 * Production [!DNL Salesforce] of [!DNL Microsoft Dynamics] -instantie
 * Alle betaalde [!DNL Marketo Measure] -abonnementen
-* SOLR toegelaten (reik uit aan [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"} om dit te hebben toegelaten)
+* SOLR toegelaten (reik uit aan [ de Steun van Marketo ](https://nation.marketo.com/t5/Support/ct-p/Support) om dit te hebben toegelaten)
 
 ## Hoe het werkt {#how-it-works}
 
@@ -32,9 +31,9 @@ Wanneer [!DNL Marketo Measure] de Marketo-persoon met succes toewijst aan een we
 
 Om deze duplicaten te kunnen detecteren, moet u ervoor zorgen dat uw [!DNL Marketo-Salesforce] - of [!DNL Marketo-Dynamics] -sync de ID van de lead en contactpersoon vult op de Marketo-persoon. Als identiteitskaart behoorlijk synchroniseert, zou u CRM Id op het Persoon verslag moeten kunnen zien, als dit:
 
-![&#x200B; a &#x200B;](assets/5a.png)
+![](assets/5a-5a-1.png)
 
-![&#x200B; b &#x200B;](assets/5b.png)
+![](assets/5b-5b-1.png)
 
 Klanten kunnen de volledige set Marketo-personen en CRM-personen rapporteren in [!DNL Marketo Measure] Discover. Als u in het melden van de mensen van CRM slechts geinteresseerd bent, adviseren wij het creëren van een Segment om hen te filtreren.
 
@@ -42,63 +41,63 @@ Klanten kunnen de volledige set Marketo-personen en CRM-personen rapporteren in 
 
 Bij rapportage over leads (personen) in [!DNL Marketo Measure Discover] wordt het totaal van uw Marketo- en CRM-leads weergegeven. Als u alleen Marketo-personen of alleen CRM-leads wilt rapporteren, wilt u een Segmentcategorie voor uw bron maken en vervolgens Segmentregels voor Marketo en CRM maken met het veld Source System om de regel te definiëren. Nadat u de segmenten hebt gemaakt, ziet u de Source-categorie die beschikbaar is om te filteren over de [!DNL Marketo Measure Discover] -dashboards.
 
-![&#x200B; Marketo Measure Discover dashboard die Marketo vs CRM loodtotalen toont &#x200B;](assets/bizible-discover-1.png)
+![](assets/bizible-discover-1.png)
 
-![&#x200B; ontdekt filters die het systeemsegmenten van Source benadrukken &#x200B;](assets/bizible-discover-2.png)
+![](assets/bizible-discover-2.png)
 
 ## Veldtoewijzingen {#field-mappings}
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th><p><strong>biz_leads</strong></p></th>
-   <th><p><strong>Marketo</strong></p></th>
-  </tr>
-  <tr>
-   <td><p>ID</p></td>
-   <td><p>id</p></td>
-  </tr>
-  <tr>
-   <td><p>MODIFIED_DATE</p></td>
-   <td><p>updatedAt<strong></strong></p></td>
-  </tr>
-  <tr>
-   <td><p>CREATED_DATE</p></td>
-   <td><p>createdAt</p></td>
-  </tr>
-  <tr>
-   <td><p>EMAIL</p></td>
-   <td><p>email</p></td>
-  </tr>
-  <tr>
-   <td><p>WEB_SITE</p></td>
-   <td><p>website</p></td>
-  </tr>
-  <tr>
-   <td><p>ONDERNEMING</p></td>
-   <td><p>bedrijf</p></td>
-  </tr>
-  <tr>
-   <td><p>IS_CONVERTED</p></td>
-   <td><p>nvt</p></td>
-  </tr>
-  <tr>
-   <td><p>ACCOUNT_ID</p></td>
-   <td><p>Account-ID (L2A)</p></td>
-  </tr>
-  <tr>
-   <td><p>BIZIBLE_STAGE</p></td>
-   <td><p>Status</p></td>
-  </tr>
-  <tr>
-   <td><p>IS_DELETED</p></td>
-   <td><p>true/false</p></td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <th><p><strong>biz_leads</strong></p></th> 
+   <th><p><strong>Marketo</strong></p></th> 
+  </tr> 
+  <tr> 
+   <td><p>ID</p></td> 
+   <td><p>id</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>MODIFIED_DATE</p></td> 
+   <td><p>updatedAt <strong>*</strong></p></td> 
+  </tr> 
+  <tr> 
+   <td><p>CREATED_DATE</p></td> 
+   <td><p>createdAt</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>EMAIL</p></td> 
+   <td><p>email</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>WEB_SITE</p></td> 
+   <td><p>website</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>ONDERNEMING</p></td> 
+   <td><p>bedrijf</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>IS_CONVERTED</p></td> 
+   <td><p>nvt</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>ACCOUNT_ID</p></td> 
+   <td><p>Account-ID (L2A)</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>BIZIBLE_STAGE</p></td> 
+   <td><p>Status</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>IS_DELETED</p></td> 
+   <td><p>true/false</p></td> 
+  </tr> 
+ </tbody> 
 </table>
 
 *Er is een bekend gedragsprobleem waarbij velden van de Marketo Company-entiteit geen invloed hebben op de updateAt-waarde van de persoon. Als relevante velden zoals Website of Bedrijf worden bijgewerkt, weet [!DNL Marketo Measure] niet dat deze waarden worden gewijzigd omdat de updateAt-datum/tijdwaarde niet wordt bijgewerkt. Dit is van invloed op de ABM-functie, waar we geen nieuwe gegevens zouden hebben om de Account for the lead op te lossen. Er is momenteel geen oplossing, maar er zijn plannen om dit in de toekomst aan te pakken.

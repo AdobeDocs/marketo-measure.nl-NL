@@ -1,15 +1,14 @@
 ---
-description: Verwijder  [!DNL Marketo Measure]  het Volgen Parameters van de Openende Pagina URL in Google Analytics
+description: Verwijder  [!DNL Marketo Measure]  het Volgen Parameters van de Openende Pagina URL in de begeleiding van Google Analytics voor de gebruikers van Marketo Measure
 title: Verwijder  [!DNL Marketo Measure]  het Volgen Parameters van de Openende Pagina URL in Google Analytics
 exl-id: ec81ba4a-bb10-49fd-b62e-5a1bc9e1a023
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] Trackingparameters verwijderen uit de URL van de bestemmingspagina in Google Analytics {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
 

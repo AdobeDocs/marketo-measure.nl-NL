@@ -1,19 +1,19 @@
 ---
-description: Kosten marketingkanaal
+description: Richtlijnen voor marketingkosten voor Marketo Measure-gebruikers
 title: Kosten marketingkanaal
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
 
-
 # Kosten marketingkanaal {#marketing-channel-costs}
 
-Een van de meest fundamentele voordelen van het gebruik van [!DNL Marketo Measure] is de mogelijkheid om marketinginspanningen rechtstreeks te koppelen aan de invloed op de inkomsten, met zo veel granulariteit als u wilt. Het rendement van investeringen kan op het niveau van de aanspreekpunten worden gezien. Als u van dit voordeel wilt profiteren, moeten de kanaalkosten naar de app [!DNL Marketo Measure] worden geüpload. ROI de rapporten worden automatisch gecreeerd en beschikbaar in het **Op de markt brengend ROI Dashboard** in [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}.
+Een van de meest fundamentele voordelen van het gebruik van [!DNL Marketo Measure] is de mogelijkheid om marketinginspanningen rechtstreeks te koppelen aan de invloed op de inkomsten, met zo veel granulariteit als u wilt. Het rendement van investeringen kan op het niveau van de aanspreekpunten worden gezien. Als u van dit voordeel wilt profiteren, moeten de kanaalkosten naar de app [!DNL Marketo Measure] worden geüpload. ROI de rapporten worden automatisch gecreeerd en beschikbaar in het **Op de markt brengend ROI Dashboard** in [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Klik hier om rechtstreeks naar de instructies te navigeren.](/help/marketing-spend/marketing-channel-costs.md#uploading-marketing-costs)
 
@@ -77,13 +77,13 @@ Zodra afzetkanalen en regels zijn opgezet of bijgewerkt, kunnen de bijbehorende 
 
 Ga naar het menu **[!UICONTROL My Account]** , klik **[!UICONTROL Settings]** en navigeer naar de optie **[!UICONTROL Marketing Spend]** in de linkerzijbalk onder de sectie **[!UICONTROL Reporting]** .
 
-![&#x200B; de montagespagina van de Uitgaven van de Marketing in Marketo Measure &#x200B;](assets/1.png)
+![](assets/spend-management-4.png)
 
 **Stap 2: Download de Huidige Kosten CSV**
 
 Navigeer rechts van het scherm en klik op **[!UICONTROL Download Current Costs].** Met deze optie kunt u een spreadsheet in CSV-indeling downloaden.
 
-![&#x200B; de Huidige optie van de Kosten van de Download op de pagina van de Uitgaven van de Marketing &#x200B;](assets/2.png)
+![](assets/spend-management-1.png)
 
 **Stap 3: Open het CSV- Dossier en maak Veranderingen**
 
@@ -95,7 +95,7 @@ Controleer de logische regels in uw vel. Elke rij moet een kanaal en een van de 
 
 Als u bijvoorbeeld Facebook als subkanaal en sociaal kanaal wilt aanduiden als kanaal, moet de regel als volgt worden geschreven: &quot;Social.Facebook&quot;. Op dezelfde manier moet de kanaalsyntaxis voor het bijhouden van een offlinegebeurtenis &#39;Events.Big Conference&#39; zijn. In de onderstaande afbeelding worden voorbeelden weergegeven:
 
-![&#x200B; Csv- voorbeeld die kanaal en subchannel kosteningangen tonen &#x200B;](assets/3.png)
+![](assets/spend-management-2.png)
 
 _Extra Nota&#39;s_:
 

@@ -1,15 +1,14 @@
 ---
-description: Ervoor zorgen dat toestemming voor GDPR in Marketo Measure Js
+description: Toont hoe te om bizible.js te vormen om op gebruikerstoestemming voor GDPR te wachten alvorens koekjes te plaatsen of gegevens te verzenden
 title: Ervoor zorgen dat toestemming voor GDPR in Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
-
 
 # Ervoor zorgen dat toestemming voor GDPR in Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
@@ -31,12 +30,11 @@ Optie 1 - De standaardscripttag [!DNL bizible.js] vervangen door:
 
 **Als u [!DNL Google Tag Manager] gebruikt om manuscript** te installeren, houd in mening GTM gegevens-attributen verwijdert, zo gebruik in plaats daarvan het volgende manuscript:
 
-```html
-<span id="bizible-settings" data-consent-button-id="ConsentButtonId"></span>
-<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async></script>
-```
+`<span id="bizible-settings" data-consent-button-id="ConsentButtonId"></span>`
+`<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
+>
 >In dit geval koppelt [!DNL bizible.js] een gebeurtenis on-click aan het HTML-element met id &quot;ConsentButtonId&quot;.
 
 Wanneer op dit HTML-element wordt geklikt, maakt [!DNL bizible.js] een cookie om te onthouden dat de toestemming van de gebruiker is ontvangen en om op de gebruikelijke wijze te beginnen met het verzamelen van analysegegevens.
@@ -49,18 +47,17 @@ Optie 2 - Vervang de standaard [!DNL bizible.js] -scripttag door:
 
 Dit vertelt [!DNL bizible.js] om niet te volgen tot de toestemming wordt bereikt, die met volgende JS API kan worden gedaan:
 
-*venster [ &quot;Bizible&quot;] = venster [ &quot;Bizible&quot;] || &lbrace;_queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); };*
+*venster [ &quot;Bizible&quot;] = venster [ &quot;Bizible&quot;] || {_queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); };*
 
 *Bizible. Push(&#39;Consent&#39;, true);*
 
 **Als u [!DNL Google Tag Manager] gebruikt om manuscript** te installeren, houd in mening GTM gegevens-attributen verwijdert, zo gebruik in plaats daarvan het volgende manuscript:
 
-```html
-<span id="bizible-settings" data-requires-user-consent="true"></span>
-<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async></script>
-```
+`<span id="bizible-settings" data-requires-user-consent="true"></span>`
+`<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
+>
 >bizible.js zal een koekje tot stand brengen om zich te herinneren dat de toestemming van de gebruiker is ontvangen en begint analysegegevens te verzamelen zoals gewoonlijk slechts nadat JS API wordt geroepen.
 
 Klanten kunnen deze API daarentegen ook gebruiken om de toestemming van de gebruiker in te trekken:

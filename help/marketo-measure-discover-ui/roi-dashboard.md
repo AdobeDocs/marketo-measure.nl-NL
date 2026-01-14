@@ -1,15 +1,15 @@
 ---
-description: ROI Dashboard - [!DNL Marketo Measure]  - Product
+description: Onderzoek het dashboard van ROI voor het vergelijken van kostenopbrengst en ROI over kanalen subkanalen en campagnes in tijd
 title: ROI Dashboard
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
-
 
 # ROI Dashboard {#roi-dashboard}
 
@@ -36,7 +36,7 @@ Het Dashboard van ROI voorziet marketers van een korrelige mening van rendemente
 * **Eenvoudige ROI**: Attributed opbrengst die door kosten in de gefilterde datumperiode wordt gedeeld.
 * **Realized ROI**: Geregistreerde toegerekende opbrengst gedeeld door kosten in de gefilterde datumperiode.
 
-![&#x200B; de tegels van KPI van het dashboard van het ROI voor kosten, toegeschreven opbrengst, en ROI &#x200B;](assets/roi-dashboard-1.png)
+![](assets/roi-dashboard-9.png)
 
 ### Kosten en opbrengsten per kanaalgrafiek {#cost-and-revenue-by-channel-graph}
 
@@ -50,7 +50,7 @@ Staafdiagram dat de kosten en opbrengsten weergeeft en dat is ontworpen om een v
 * Wat waren de ROI waarden voor elk kanaal, subchannel, en campagne?
 * Zijn er uitbijters of subkanalen met ongewoon hoge of lage kosten in verhouding tot hun inkomsten?
 
-![&#x200B; Kosten en opbrengst door kanaal gestapelde staafgrafiek &#x200B;](assets/roi-dashboard-2.png)
+![](assets/roi-dashboard-8.png)
 
 ### Gegraaliseerd versus eenvoudig rendement in de loop der tijd {#realized-vs-simple-roi-over-time}
 
@@ -63,7 +63,7 @@ De lijngrafiek van de tijdreeks die de vergelijking tussen Geregistreerde en Een
 * Hoe vergelijk het gerealiseerde ROI met het Eenvoudige ROI over specifieke tijdsperiodes?
 * Hoe verhoudt de trend van het RoI zich tot significante marketinggebeurtenissen in dezelfde periode?
 
-![&#x200B; Realized tegenover de eenvoudige grafiek van de de trendlijn van ROI &#x200B;](assets/roi-dashboard-3.png)
+![](assets/roi-dashboard-7.png)
 
 ### Kosten in tijdsgrafiek {#cost-over-time-graph}
 
@@ -77,7 +77,7 @@ Gestapelde staafgrafiek die de Totale Kosten toont, die door bijbehorende Kanale
 * Hoe vergelijken de gecombineerde kosten van alle kanalen van één kwartaal/maand aan volgende?
 * Hoe zijn de kosten voor een specifiek kanaal in de loop der tijd geëvolueerd?
 
-![&#x200B; Kosten over tijd gestapelde staafgrafiek met boor controles &#x200B;](assets/roi-dashboard-4.png)
+![](assets/roi-dashboard-6.png)
 
 ### Kosten per kanaalgrafiek {#cost-by-channel-graph}
 
@@ -90,7 +90,7 @@ Staafdiagram met marketinguitgaven die zijn gesegmenteerd door Kanaal/Subkanaal/
 * Welke subkanalen of campagnes binnen een primair kanaal hebben de hoogste toewijzing?
 * Welke marketingmiddelen (kanaal, subkanaal of campagne) lijken ondergefinancierd in vergelijking met andere?
 
-![&#x200B; Marketing besteedt door grafiek van de kanaalbar &#x200B;](assets/roi-dashboard-5.png)
+![](assets/roi-dashboard-5.png)
 
 ### Overzichtstabel ROI {#roi-summary-table}
 
@@ -140,6 +140,7 @@ Dit dashboard is uitgerust met de volgende instellingen en filters:
 * Campaign
 
 >[!MORELIKETHIS]
-> [&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Zichtbaarheidsbeleid voor dashboardgegevens &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [ ontdekt de Grondbeginselen van het Dashboard ](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [ Beleid van de Zichtbaarheid van Gegevens van het Dashboard ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

@@ -1,15 +1,14 @@
 ---
-description: Beste praktijken voor het Toewijzen van het Stadium -  [!DNL Marketo Measure]
+description: Tips en trucs voor Stage Mapping-richtlijnen voor Marketo Measure-gebruikers
 title: Aanbevolen procedures voor werkgebiedtoewijzing
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
-
 
 # Aanbevolen procedures voor werkgebiedtoewijzing {#best-practices-for-stage-mapping}
 
@@ -32,7 +31,7 @@ Of u nu voor het eerst de Stage Mapping evalueert of alleen de funnel-bestelling
    * Een Booleaans veld is de aanbevolen werkwijze
 * Merk op dat de sectie Lood of Contactgebied is onderverdeeld in Verloren, Openen en Omgezet; controleer of de stappen zich in hun juiste werkgebiedsectie bevinden
    * Een werkgebied in de onjuiste werkgebiedsectie kan resulteren in zeer onjuiste [!DNL Marketo Measure] -gegevens
-   * Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([&#x200B; leert meer &#x200B;](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([ leert meer ](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Merk op dat de sectie van het stadium van de Kans in Verloren, Open, en Won wordt verdeeld; bevestigt dat de stadia in hun aangewezen werkgebiedsectie zijn
@@ -52,4 +51,5 @@ Andere redenen die een revisie van de werkgebiedtoewijzing kunnen activeren, zij
 * Onjuiste inkomstengegevens weergeven in de [!DNL Marketo Measure] -rapportage
 
 >[!MORELIKETHIS]
->[&#x200B; het Verschil tussen de Stages van Funnel en de Stages van het Model van de Douane &#x200B;](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md#the-difference-between-funnel-stages-and-custom-model-stages)
+>
+>[ het Verschil tussen de Stages van Funnel en de Stages van het Model van de Douane ](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md#the-difference-between-funnel-stages-and-custom-model-stages)

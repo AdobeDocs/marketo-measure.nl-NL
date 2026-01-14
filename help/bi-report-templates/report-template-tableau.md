@@ -3,35 +3,34 @@ description: '[!DNL Marketo Measure] Rapportsjabloon - Tableau -  [!DNL Marketo 
 title: '[!DNL Marketo Measure] Rapportsjabloon - Tableau'
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] Rapportsjabloon - Tableau {#marketo-measure-report-template-tableau}
 
 ## Aan de slag {#getting-started}
 
-U kunt tot het [!DNL Tableau] rapportmalplaatje [&#x200B; hier &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} toegang hebben.
+U kunt tot het [!DNL Tableau] rapportmalplaatje [ hier ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} toegang hebben.
 
 Open het werkboekbestand voor de [!DNL Adobe Marketo Measure] rapportsjabloon.
 
 U moet de bestaande verbindingsgegevens bijwerken naar uw specifieke Snowflake-verbindingsgegevens. Klik op de knop [!UICONTROL Edit Connection] en volg de stappen die in de sectie [[!UICONTROL Data Connection]](#data-connection) van deze documentatie worden beschreven.
 
-![&#x200B; werkboek van Tableau dat de Edit knoop van de Verbinding toont &#x200B;](assets/marketo-measure-report-template-tableau-1.png)
+![](assets/marketo-tableau-7.png)
 
 ## Gegevensverbinding {#data-connection}
 
-U moet een gegevensverbinding instellen met uw Snowflake-exemplaar. Voor dit, hebt u de naam van de Server samen met uw Gebruikersnaam en Wachtwoord nodig. De details op waar te om deze informatie te vinden en uw wachtwoord terug te stellen, indien nodig, worden gedocumenteerd [&#x200B; hier &#x200B;](/help/data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+U moet een gegevensverbinding instellen met uw Snowflake-exemplaar. Voor dit, hebt u de naam van de Server samen met uw Gebruikersnaam en Wachtwoord nodig. De details op waar te om deze informatie te vinden en uw wachtwoord terug te stellen, indien nodig, worden gedocumenteerd [ hier ](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
-![&#x200B; de verbindingsdialoog van Snowflake met server en authentificatievelden &#x200B;](assets/marketo-measure-report-template-tableau-2.png)
+![](assets/marketo-tableau-5.png)
 
 U moet ook een eerste SQL-opdracht invoeren. Dit steunt het gebruik van douanevragen in dit gegevensmodel. De opdracht die moet worden ingevoerd, is &quot;Schema gebruiken `<your schema name>`&quot;. U kunt de naam van het schema vinden op de pagina [!UICONTROL data warehouse connections] . Raadpleeg hiervoor de documentatie.
 
-![&#x200B; Aanvankelijk SQL bevelgebied voor schemaspecificatie &#x200B;](assets/marketo-measure-report-template-tableau-3.png)
+![](assets/marketo-tableau-6.png)
 
 ### Aangepaste SQL-query&#39;s {#custom-sql-queries}
 
@@ -39,11 +38,11 @@ Omdat [!DNL Tableau] gegevensbronfilters op de algemene vraag en niet op de indi
 
 **Filters die aan Gegevens Source** worden toegevoegd
 
-```
+```sql
 --A deleted session removes this row completely and the touchpoint data is lost. Select *
    From Touchpoint    tp
       join Session sn
-      on tp.session_id = sn.session_id
+      on tp.session_id = sn.session_id 
  Where tp._deleted_date is null
     and sn._deleted_date is null
 ```
@@ -52,11 +51,11 @@ Dit is echter onjuist in die zin dat als een sessie is verwijderd, maar het bijb
 
 **Filters die via Aangepaste SQL** worden toegepast
 
-```
+```sql
 --A deleted session only removes the session related data, and the touchpoint data is preserved. Select *
    From Touchpoint       tp
       join Session sn
-      on tp.session_id          = sn.session_id
+      on tp.session_id          = sn.session_id 
       and sn._deleted_date      is null
   Where tp._deleted_date is null
 ```
@@ -65,15 +64,16 @@ Dit is echter onjuist in die zin dat als een sessie is verwijderd, maar het bijb
 
 Er zijn enkele transformaties toegepast op de gegevens in [!DNL Tableau] vanaf de oorspronkelijke staat in Snowflake. De meeste van deze transformaties worden toegepast in de aangepaste SQL-query&#39;s die de tabellen in het [!DNL Tableau] -model genereren. Als u de aangepaste SQL wilt weergeven die wordt gebruikt om een tabel te genereren, klikt u met de rechtermuisknop op de tabelnaam en selecteert u &quot;Aangepaste SQL-query bewerken&quot;. Enkele specifieke transformaties worden hieronder beschreven.
 
-![&#x200B; het menu van de Context die de optie van de Vraag van de Douane toont SQL &#x200B;](assets/marketo-measure-report-template-tableau-4.png)
+![](assets/marketo-tableau-1.png)
 
-![&#x200B; de redacteursdialoog van de Vraag van de Douane SQL in Tableau &#x200B;](assets/marketo-measure-report-template-tableau-5.png)
+![](assets/marketo-tableau-2.png)
 
 ### Verwijderde kolommen {#removed-columns}
 
 Om het gegevensmodel te vereenvoudigen en overtollige en onnodige gegevens te verwijderen, hebben wij het aantal kolommen verminderd die in Tableau van de originele Snowflake lijst worden ingevoerd. Verwijderde kolommen bevatten onnodige externe sleutels, gedenormaliseerde dimensionale gegevens die beter kunnen worden gebruikt via relaties met andere tabellen in het model, auditkolommen en velden die worden gebruikt voor interne [!DNL Marketo Measure] -verwerking. U kunt kolommen toevoegen of verwijderen zoals vereist voor uw bedrijfsbehoeften door de lijst van ingevoerde kolommen in de Uitgezochte sectie van douaneSQL uit te geven.
 
 >[!NOTE]
+>
 >De meeste tabellen in het gegevenspakhuis bevatten gedenormaliseerde dimensionale gegevens. We hebben er alles aan gedaan om het model in [!DNL Tableau] zoveel mogelijk te normaliseren en op te schonen om de prestaties en gegevensnauwkeurigheid te verbeteren. Wees voorzichtig met het opnemen van eventuele aanvullende gedenormaliseerde velden in feitentabellen, dit kan het filteren van dimensies in verschillende tabellen afbreken en kan ook leiden tot onjuiste rapportage.
 
 ### Naam van kolommen wijzigen {#renamed-columns}
@@ -82,13 +82,13 @@ Tabellen en kolommen hebben een andere naam gekregen om ze gebruiksvriendelijker
 
 ### Rijen toegevoegd {#rows-added}
 
-Om de mogelijkheden van de valutaconversie aan de berekeningen in het model toe te voegen, hebben wij een collectieve omrekeningskoers en een kolom van de doelwisselkoers aan zowel de lijsten van de Mogelijkheid als van de Kosten toegevoegd. De waarde in deze kolommen wordt toegevoegd op rijniveau en door zich bij de lijst van het Tarief van de Omzetting op zowel datum als muntidentiteitskaart aan te sluiten geëvalueerd. Aangezien in Tableau geen gegevens kunnen worden uitgewisseld in tabellen die meer dan één dimensietabel delen, zijn de conversietarieven rechtstreeks toegevoegd aan de tabellen die deze tabel gebruiken. Voor meer details op hoe de muntomzetting in dit model werkt, zie de [&#x200B; sectie van de Omzetting van de Valuta 0&rbrace; &lbrace;in deze documentatie.](#currency-conversion)
+Om de mogelijkheden van de valutaconversie aan de berekeningen in het model toe te voegen, hebben wij een collectieve omrekeningskoers en een kolom van de doelwisselkoers aan zowel de lijsten van de Mogelijkheid als van de Kosten toegevoegd. De waarde in deze kolommen wordt toegevoegd op rijniveau en door zich bij de lijst van het Tarief van de Omzetting op zowel datum als muntidentiteitskaart aan te sluiten geëvalueerd. Aangezien in Tableau geen gegevens kunnen worden uitgewisseld in tabellen die meer dan één dimensietabel delen, zijn de conversietarieven rechtstreeks toegevoegd aan de tabellen die deze tabel gebruiken. Voor meer details op hoe de muntomzetting in dit model werkt, zie de [ sectie van de Omzetting van de Valuta 0} {in deze documentatie.](#currency-conversion)
 
-![&#x200B; lijst van de Kans met de kolommen van de omzettingssnelheid &#x200B;](assets/marketo-measure-report-template-tableau-6.png)
+![](assets/marketo-tableau-4.png)
 
 Er zijn een paar plaatsen waar twee lijsten van [!DNL Snowflake] met een vereniging zijn gecombineerd om één lijst in het [!DNL Tableau] gegevensmodel tot stand te brengen. In deze gevallen is een kolom &quot;Type&quot; toegevoegd om aan te geven uit welke [!DNL Snowflake] -tabel deze bestaat en om aan te geven welke entiteit de rij vertegenwoordigt. Zie de sectie Relatie en Gegevensstroom in deze documentatie voor meer informatie over de tabellen die zijn gecombineerd.
 
-![&#x200B; Gecombineerde lijst die kolom van het Type voor entiteitidentificatie tonen &#x200B;](assets/marketo-measure-report-template-tableau-7.png)
+![](assets/marketo-tableau-3.png)
 
 ### Segmentnamen {#segment-names}
 
@@ -96,21 +96,21 @@ Aangezien de segmentnamen aanpasbaar zijn, hebben zij generische kolomnamen in h
 
 De kolom [!UICONTROL CATEGORY] geeft het categorienummer weer en de kolom SEGMENT_NAME heeft de aangepaste segmentnaam die eraan is toegewezen.
 
-![&#x200B; lijst van de Namen van het Segment die categorie en douanenamen &#x200B;](assets/marketo-measure-report-template-tableau-8.png) tonen
+![](assets/marketo-tableau-13.png)
 
 Namen kunnen op twee manieren worden bijgewerkt. De eerste optie is het bijwerken van de aangepaste SQL. In dit voorbeeld is de naam van de categorieën 1-6 gewijzigd op basis van de toewijzing in de tabel Segmentnamen.
 
-![&#x200B; SQL van de Douane met anders genoemde segmentcategorieën &#x200B;](assets/marketo-measure-report-template-tableau-9.png)
+![](assets/marketo-tableau-14.png)
 
 De andere optie is om de naam van de kolommen rechtstreeks in de tabel [!DNL Tableau] te wijzigen.
 
-![&#x200B; lijst van Tableau met segmentkolommen die worden anders genoemd &#x200B;](assets/marketo-measure-report-template-tableau-10.png)
+![](assets/marketo-tableau-9.png)
 
 ## Gegevensmodel {#data-model}
 
 Klik op de onderstaande afbeelding voor de volledige versie.
 
-[![&#x200B; het modeldiagram van het gegevensmodel van Tableau dat lijstverhoudingen &#x200B;](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target="_blank"} toont
+[![](assets/marketo-tableau-8.png)](/help/bi-report-templates/assets/tableau-model-1.png){target="_blank"}
 
 ### Relaties en gegevensstroom {#relationships-and-data-flow}
 
@@ -122,11 +122,12 @@ De overgangen van het Stadium van de kans en de Overgangen van het Stadium van d
 
 Zowel de kosten als de gegevens van het Aanraakpunt delen het Kanaal en de afmetingen van de Campagne. Tableau is echter beperkt in zijn vermogen om gedeelde dimensies tussen feitenlijsten te modelleren. Aangezien wij tot één gedeelde afmetinglijst beperkt zijn, zijn de gegevens van het Kanaal en van de Campagne gecombineerd in één lijst. Ze worden gecombineerd met een kruis van de twee dimensies in één tabel in Tableau: Kanaal en Campagne. De unieke id wordt gemaakt door de kanaal- en campagne-id samen te voegen. Dezelfde id-waarde wordt toegevoegd aan de tabellen Touchpoint en Cost om een relatie met deze gecombineerde dimensie-tabel te maken.
 
-![&#x200B; Gecombineerde de afmetingslijst van het Kanaal en van de Campagne &#x200B;](assets/marketo-measure-report-template-tableau-12.png)
+![](assets/marketo-tableau-10.png)
 
 In dit model zijn de afmetingen voor Campagne en Kanaal gekoppeld aan het aanraakpunt. Alle rapportage over deze afmetingen vindt dus plaats via deze koppeling. Dit betekent dat dimensionale rapportage over gebeurtenisgegevens mogelijk onvolledig is. Veel gebeurtenissen hebben namelijk pas koppelingen naar deze afmetingen nadat ze zijn verwerkt tot aanraakpunten.
 
 >[!NOTE]
+>
 >Sommige gebeurtenissen, zoals sessies, hebben directe koppelingen naar de afmetingen Campagne en Kanaal. Als het rapporteren op het niveau van de Zitting over deze dimensies wordt gewenst, adviseert men dat een afzonderlijk gegevensmodel voor dit doel wordt gecreeerd.
 
 Kostengegevens worden opgeslagen op verschillende aggregatieniveaus binnen de kostentabel van het Snowflake-gegevenspakhuis. Voor alle advertentieleveranciers, kunnen de het niveaugegevens van de Campagne tot het niveau van het Kanaal worden uitgebreid. Om deze reden, trekt dit model kostengegevens die op de &quot;campagne_is_aggregatable_cost&quot;vlag worden gebaseerd. De zelf-gemelde kosten kunnen op het niveau van het Kanaal slechts worden voorgelegd en worden vereist niet om de gegevens van de Campagne te hebben. Om de nauwkeurigste mogelijke kostenrapportage mogelijk te maken, worden zelf-gerapporteerde kosten opgehaald op basis van de markering &quot;channel_is_aggregatable_cost&quot;. De vraag die kostengegevens invoert wordt geschreven met de volgende logica: Als ad_provider = &quot;SelfReported&quot; dan channel_is_aggregatable_cost = waar, else campagne_is_aggregatable_cost = waar.
@@ -140,19 +141,19 @@ De koersen in de tabel Conversierente geven de waarde aan die nodig is om een be
 * Zet de oorspronkelijke waarde om in de waarde van de bedrijfsvaluta / omrekeningskoers = waarde in de bedrijfsvaluta
 * Omzetten van de waarde van de bedrijfswaarde in de geselecteerde valutawaarde in de bedrijfsvaluta `*` omrekeningskoers van de geselecteerde valuta = waarde in de geselecteerde valuta
 
-![&#x200B; de gebieden van de de omzettingsberekening van de Valuta in Tableau &#x200B;](assets/marketo-measure-report-template-tableau-13.png)
+![](assets/marketo-tableau-11.png)
 
 De omrekeningsmaatregelen in dit model vervangen de koers 1,0 als geen omrekeningskoers kan worden vastgesteld. Er zijn afzonderlijke maatregelen genomen om de valutawaarde voor de maatregel weer te geven en er wordt gewaarschuwd als een berekening meer dan één valutawaarde bevat (een waarde kan dus niet in de geselecteerde valuta worden omgezet). Deze maatstaven, Kostenvaluta en Winst Currency, zijn als tooltips opgenomen in elke visuele weergave die gegevens over kosten of opbrengsten weergeeft.
 
-![&#x200B; Knopinfo die de maatregelen van de muntomzetting toont &#x200B;](assets/marketo-measure-report-template-tableau-14.png)
+![](assets/marketo-tableau-12.png)
 
 ## Gegevensdefinities {#data-definitions}
 
 Er zijn definities toegevoegd aan de [!DNL Tableau model] voor parameters, aangepaste kolommen en maatregelen.
 
-![&#x200B; de definities van het Gebied in het model van Tableau dat beschrijvingen &#x200B;](assets/marketo-measure-report-template-tableau-15.png) toont
+![](assets/marketo-tableau-15.png)
 
-Om definities voor kolommen te bekijken die direct uit [!DNL Snowflake] komen, zie de [&#x200B; documentatie van het gegevenspakhuis &#x200B;](/help/data-warehouse/data-warehouse-schema.md){target="_blank"}.
+Om definities voor kolommen te bekijken die direct uit [!DNL Snowflake] komen, zie de [ documentatie van het gegevenspakhuis ](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Verschillen tussen sjablonen en ontdekken {#discrepancies-between-templates-and-discover}
 
@@ -161,6 +162,7 @@ Om definities voor kolommen te bekijken die direct uit [!DNL Snowflake] komen, z
 Aanraakpunten met regelafstand en kenmerkaanraakpunten nemen dimensionale gegevens over van het originele aanraakpunt. Het rapportsjabloonmodel genereert alle overgeërfde dimensionale gegevens van de relatie tot het aanraakpunt, terwijl in het detectiemodel de dimensionale gegevens worden gedenormaliseerd naar de aanraakpuntrecords voor leads en Attributies. De totale toegerekende inkomsten of de toegerekende inkomsten uit pijpleidingen moeten tussen de twee verslagen worden afgestemd. Er kunnen echter discrepanties worden waargenomen wanneer de inkomsten worden uitgesplitst of gefilterd op basis van dimensionale gegevens (kanaal, subkanaal of campagne). Als de dimensionale opbrengstbedragen niet tussen het malplaatje en Discover aanpassen, is het waarschijnlijk er ontbrekende aanraakpuntverslagen in de reeks van het malplaatjerapport zijn. Dit gebeurt wanneer er een Lead- of Attribution Touchpoint-record is, maar er is geen overeenkomstige record in de Touchpoint-tabel in de gegevensset die in het rapport is geïmporteerd. Omdat deze tabellen op gewijzigde datum worden gefilterd, is het mogelijk dat de Touchpoint-record voor lead/Attribution later is gewijzigd dan de Touchpoint-record. Hierdoor is het aanraakpunt voor lead/Attribution in de gegevensset geïmporteerd terwijl de oorspronkelijke Touchpoint-record dat niet was. Als u dit probleem wilt verhelpen, vergroot u het gefilterde datumbereik voor de tabel met aanraakpunten of verwijder de datumbeperking samen.
 
 >[!NOTE]
+>
 >Het aanraakpunt is een grote tabel. Houd daarom rekening met de voordelen van een vollediger gegevensset in vergelijking met de hoeveelheid gegevens die moet worden geïmporteerd.
 
 ### Kosten {#cost}
@@ -177,7 +179,7 @@ Deze metriek, zoals aangetoond in de rapporteringsmalplaatjes, wordt niet weersp
 
 ### Webverkeer {#web-traffic}
 
-Het gegevensmodel van het rapportmalplaatje normaliseert kanaal, subchannel, en campagnedimensionele gegevens via het verband tussen Zitting en Aanraakpunt. Dit is anders dan het gegevensmodel Discover, dat deze dimensies aan Zitting ontleedt. Wegens dit onderscheid, zouden de totale aantallen voor bezoeken en bezoekers tussen Discover en het rapporteringsmalplaatje moeten aanpassen, echter, zodra getoond of gefilterd door dimensie, worden deze aantallen niet verwacht om op te zetten. De reden hiervoor is dat de dimensionale gegevens in de sjabloon alleen beschikbaar zijn voor webgebeurtenissen die tot een aanraakpunt hebben geleid (dat wil zeggen, niet-anonieme gebeurtenissen). Voor meer details, verwijs het [&#x200B; Model van Gegevens &#x200B;](#data-model) sectie van deze documentatie.
+Het gegevensmodel van het rapportmalplaatje normaliseert kanaal, subchannel, en campagnedimensionele gegevens via het verband tussen Zitting en Aanraakpunt. Dit is anders dan het gegevensmodel Discover, dat deze dimensies aan Zitting ontleedt. Wegens dit onderscheid, zouden de totale aantallen voor bezoeken en bezoekers tussen Discover en het rapporteringsmalplaatje moeten aanpassen, echter, zodra getoond of gefilterd door dimensie, worden deze aantallen niet verwacht om op te zetten. De reden hiervoor is dat de dimensionale gegevens in de sjabloon alleen beschikbaar zijn voor webgebeurtenissen die tot een aanraakpunt hebben geleid (dat wil zeggen, niet-anonieme gebeurtenissen). Voor meer details, verwijs het [ Model van Gegevens ](#data-model) sectie van deze documentatie.
 
 Er kunnen kleine verschillen zijn in het totale aantal sitevormen tussen [!DNL Discover] en de sjabloon. Dit komt omdat het gegevensmodel in het rapporteringsmalplaatje dimensionele gegevens voor de Vorm van de Plaats via een verhouding aan Zitting en dan Aanraakpunt verkrijgt; er zijn een paar gevallen waar de gegevens van de plaatvorm geen gecorreleerde zitting hebben.
 

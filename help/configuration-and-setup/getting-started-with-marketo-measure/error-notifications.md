@@ -1,23 +1,22 @@
 ---
-description: Foutmeldingen - [!DNL Marketo Measure]
+description: Richtlijnen voor foutmeldingen voor Marketo Measure-gebruikers
 title: Foutmeldingen
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
 
-
 # Foutmeldingen {#error-notifications}
 
-Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de app of e-mail. Als u om het even welk van deze ontvangt, volg de respectieve het oplossen van problemenstappen. Als deze stappen niet de kwestie oplossen, contacteer [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support).
+Hieronder volgt een lijst met fouten die u kunt ontvangen via meldingen in de app of e-mail. Als u om het even welk van deze ontvangt, volg de respectieve het oplossen van problemenstappen. Als deze stappen niet de kwestie oplossen, contacteer [ de Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support).
 
 Om het volledige berichtbericht in [!DNL Marketo Measure] te zien, klik **Mening allen** bij de bodem van de Berichten tabel.
 
-![&#x200B; het paneel van Meldingen in Marketo Measure die foutenlijst tonen en Al verbinding van de Mening &#x200B;](assets/error-notifications-1.png)
+![](assets/adobe-setup-1.png)
 
 <table>
   <tbody>
@@ -31,7 +30,7 @@ Om het volledige berichtbericht in [!DNL Marketo Measure] te zien, klik **Mening
       <td>API_DISABLED</td>
       <td>Er is een fout opgetreden tijdens het importeren van CRM: API_DISABLED: API-aanroepen zijn uitgeschakeld voor deze gebruiker</td>
       <td>De API-machtiging is uitgeschakeld voor de Marketo Measure-gebruiker.</td>
-      <td>Verwijs naar de volgende documentatie van Salesforce op <a href="https://help.salesforce.com/s/articleView?language=en_US&id=sf.branded_apps_commun_api_permset.htm&type=5"> hoe te om API toegang </a> toe te laten.</td>
+      <td>Verwijs naar de volgende documentatie van Salesforce op <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5"> hoe te om API toegang </a> toe te laten.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -54,7 +53,7 @@ Om het volledige berichtbericht in [!DNL Marketo Measure] te zien, klik **Mening
             </li>
           </ul>
           <p>
-           <img src="assets/error-notifications-2.png">
+          <img src="assets/error-notifications-3.png">
           </p>
       </td>
     </tr>
@@ -80,7 +79,7 @@ De documentatie van Salesforce op debiettrekkers <a href="https://admin.salesfor
       Ontbrekende machtigingen voor het object.</td>
       <td>Controleer de triggercode waardoor het invoegen/bijwerken mislukt. Raadpleeg de volgende Salesforce-documentatie voor meer informatie over triggers:
         <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&type=5"> trekkers van de Apex </a>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5"> trekkers van de Apex </a>
           </li>
           <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated"> de trekkers van de Stroom </a>
           </li>
@@ -93,7 +92,7 @@ De documentatie van Salesforce op debiettrekkers <a href="https://admin.salesfor
       <td>DUPLICATES_DETECTED</td>
       <td>Er is een fout opgetreden tijdens de Crm-export: DUPLICATES_DETECTED : Type entiteit 'Contact': CRM ErrorCode: DUPLICATES_DETECTED, CRM ErrorMessage: U maakt een gedupliceerde record. We raden u aan een bestaande record te gebruiken., RecordId: 0123456</td>
       <td>De record die wordt geïmporteerd in de Salesforce Org bestaat al.</td>
-      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&type=1"> maak "Dubbele Regel"onbruikbaar plaatsend </a> om voor duplicaten toe te staan.
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1"> maak "Dubbele Regel"onbruikbaar plaatsend </a> om voor duplicaten toe te staan.
           <p>
           Sluit de Marketo Measure specifieke gebruiker van <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> regels van de douanevalidering </a> uit.</td>
     </tr>
@@ -101,7 +100,7 @@ De documentatie van Salesforce op debiettrekkers <a href="https://admin.salesfor
       <td>DUPLICATE_VALUE</td>
       <td>Fout opgetreden tijdens Crm Export: DUPLICATE_VALUE : Type entiteit 'Lead': CRM ErrorCode: DUPLICATE_VALUE, CRM ErrorMessage: duplicate value found: Email_Unique__c duplicates value on record with id: 123, RecordId: 456</td>
       <td>Het veld dat wordt geïmporteerd in de Salesforce-indeling staat geen dubbele waarden toe.</td>
-      <td>Schakel het selectievakje <a href="https://help.salesforce.com/s/articleView?id=000390009&type=1"> "Unique Checkbox"</a> in Salesforce uit.
+      <td>Schakel het selectievakje <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1"> "Unique Checkbox"</a> in Salesforce uit.
           <p>
           Sluit de Marketo Measure specifieke gebruiker van <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> regels van de douanevalidering </a> uit.</td>
     </tr>
@@ -121,7 +120,7 @@ De documentatie van Salesforce op debiettrekkers <a href="https://admin.salesfor
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
       <td>Fout opgetreden tijdens Crm-export: FIELD_FILTER_VALIDATION_EXCEPTION: Type entiteit 'Lead': CRM ErrorCode: FIELD_FILTER_VALIDATION_EXCEPTION, Field(s): User__C, CRM ErrorMessage: Value does not exist or not match filter criteria. Selecteer een gebruiker met de rol "Account Executive, Inside Sales"; RecordId: 0123456</td>
       <td>Gewijzigde record voldoet niet meer aan opzoekfilters die op het object zijn gedefinieerd.</td>
-      <td>Controleren op filters op het object dat Marketo Measure probeert te wijzigen. Zie <a href="https://help.salesforce.com/s/articleView?id=000384756&type=1"> dit artikel van Salesforce </a> leren hoe te om filters op een voorwerp te controleren.</td>
+      <td>Controleren op filters op het object dat Marketo Measure probeert te wijzigen. Zie <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1"> dit artikel van Salesforce </a> leren hoe te om filters op een voorwerp te controleren.</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
@@ -130,7 +129,7 @@ De documentatie van Salesforce op debiettrekkers <a href="https://admin.salesfor
       <td>Het meest voorkomende geval hiervan is dat de in de Salesforce Org vastgestelde naamgevingsnormen voor landen/landen niet worden nageleefd, omdat de velden Staat/Land zijn gestandaardiseerd om alleen bepaalde keuzelijstwaarden te accepteren. U kunt dit probleem oplossen door:
         <ul>
           <li>Werk de record bij volgens de geaccepteerde waarden van de organisatie voor dat veld. Neem contact op met uw SFDC-beheerder voor een lijst met toegestane waarden.</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&type=5"> maak de Staat/Land picklists </a> onbruikbaar.
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5"> maak de Staat/Land picklists </a> onbruikbaar.
           </li>
         </ul>
       </td>
@@ -139,7 +138,7 @@ De documentatie van Salesforce op debiettrekkers <a href="https://admin.salesfor
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>Fout opgetreden tijdens Crm-export: INACTIVE_OWNER_OR_USER: Type entiteit 'Contact': CRM ErrorCode: INACTIVE_OWNER_OR_USER, CRM-foutmelding: bewerking uitgevoerd met niet-actieve gebruiker [1234] als eigenaar van contact, RecordId: 0123456</td>
       <td>Marketo Measure beschikt niet over de machtiging "Records bijwerken met inactieve eigenaars".</td>
-      <td>Verleen Marketo Measure de "<a href="https://help.salesforce.com/s/articleView?id=000386699&type=1"> Verslagen van de Update met Inactieve Eigenaars </a>"toestemming.</td>
+      <td>Verleen Marketo Measure de "<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1"> Verslagen van de Update met Inactieve Eigenaars </a>"toestemming.</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
@@ -154,10 +153,10 @@ De documentatie van Salesforce op debiettrekkers <a href="https://admin.salesfor
       <td>Raadpleeg de volgende Help-artikelen voor een correcte configuratie:
         <ul>
           <li>
-            <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md"> Integraties van Marketo Measure met Adobe Analytics </a>
+            <a href="/help/marketo-measure-and-adobe/adobe-analytics.md"> Integraties van Marketo Measure met Adobe Analytics </a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=nl-NL"> creeer een bron van Attributen van de Klant en upload het gegevensbestand </a>
+            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html"> creeer een bron van Attributen van de Klant en upload het gegevensbestand </a>
           </li>
         </ul>
       </td>
@@ -256,7 +255,7 @@ De documentatie van Salesforce op debiettrekkers <a href="https://admin.salesfor
       <td>De record die wordt bijgewerkt, voldoet niet aan een validatieregel die is ingesteld in de Salesforce org.</td>
       <td>Sluit de Marketo Measure specifieke gebruiker van <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> regels van de douanevalidering </a> uit.
       <p>
-      Werk uw <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&type=5"> bevestigingsregels </a> bij.</td>
+      Werk uw <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5"> bevestigingsregels </a> bij.</td>
     </tr>
     <tr>
       <td>RESTRICT_PICKLIST_VALUES_ENABLED</td>

@@ -1,23 +1,18 @@
 ---
-description: veelgestelde vragen over activiteitenkenmerken -  [!DNL Marketo Measure]
+description: Activiteiten Algemene richtlijnen voor veelgestelde vragen voor Marketo Measure-gebruikers
 title: Veelgestelde vragen over activiteitenkenmerk
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
 
-
 # Veelgestelde vragen over activiteitenkenmerk {#activities-attribution-faq}
 
 [!DNL Marketo Measure] Met Activiteiten importeert u al uw activiteitsgegevens en genereert u aanraakpunten voor deze Activiteiten, zodat deze Activiteiten toewijzingskredieten krijgen. Het meest gebruikelijke gebruik is het volgen van Activiteiten van het team van de Verkoop, aangezien zij algemeen een verslag van telefoongesprekken of e-mails tot stand brengen die naar vooruitzichten worden verzonden. Andere unieke dingen die kunnen worden bijgehouden, zijn inhoudsinteracties zoals het downloaden van elementen of videoweergaven.
-
->[!AVAILABILITY]
->
->Deze functie is alleen beschikbaar voor klanten van Tier 2. Neem contact op met het Adobe-accountteam (uw accountmanager) als u een hogere accountlaag wilt aanvragen.
 
 **hoe is dit verschillend van Off-line Campagnes?**
 
@@ -41,7 +36,7 @@ Aangezien deze activiteiten resulteren in een aanraakpunt, moet [!DNL Marketo Me
 
 **Welke andere gebieden van het Aanraakpunt worden bevolkt?**
 
-| Aanraakpuntveld | Waarde |
+| **Gebied van het Aanraakpunt** | **Waarde** |
 |---|---|
 | Lead/contactpersoon | Alle activiteiten hebben betrekking op een lead of contactpersoon |
 | Campaign | Kanaal.Subkanaal [[!DNL Marketo Measure]] |

@@ -1,15 +1,14 @@
 ---
-description: Verschil tussen aanraakpunten voor kopers en kenmerkaanraakpunten voor kopers -  [!DNL Marketo Measure]
+description: Verschil tussen aanraakpunten voor kopers en richtlijnen voor aanraakpunten voor kopers voor Marketo Measure-gebruikers
 title: Verschil tussen aanraakpunten voor kopers en aanraakpunten voor koperkenmerken
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
-
 
 # Verschil tussen aanraakpunten voor kopers en aanraakpunten voor koperkenmerken {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
@@ -21,31 +20,31 @@ Terwijl het Buyer Attribution Touchpoint-object gerelateerd is aan de contact-, 
 
 Verschil tussen BT en BAT:
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <td>Buyer Touchpoint (BT)</td>
-   <td>Buyer Attribution Touchpoint (BAT)</td>
-  </tr>
-  <tr>
-   <td>
-    <ul>
-     <li>Heeft betrekking op de objecten Lead, Contact en Case</li>
-     <li>Heeft geen betrekking op het object Opportunity</li>
-     <li>Opbrengsten zijn niet gekoppeld aan een Buyer Touchpoint</li>
-    </ul></td>
-   <td>
-    <ul>
-     <li>Heeft betrekking op de contact-, account- en opportunity-objecten</li>
-     <li>Heeft geen betrekking op het object Lead</li>
-     <li>Aangezien een Buyer Attribution Touchpoint is gekoppeld aan een Opportunity, zijn er inkomsten aan alle BBT's gekoppeld</li>
-    </ul></td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <td>Buyer Touchpoint (BT)</td> 
+   <td>Buyer Attribution Touchpoint (BAT)</td> 
+  </tr> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Heeft betrekking op de objecten Lead, Contact en Case</li> 
+     <li>Heeft geen betrekking op het object Opportunity</li> 
+     <li>Opbrengsten zijn niet gekoppeld aan een Buyer Touchpoint</li> 
+    </ul></td> 
+   <td> 
+    <ul> 
+     <li>Heeft betrekking op de contact-, account- en opportunity-objecten</li> 
+     <li>Heeft geen betrekking op het object Lead</li> 
+     <li>Aangezien een Buyer Attribution Touchpoint is gekoppeld aan een Opportunity, zijn er inkomsten aan alle BBT's gekoppeld</li> 
+    </ul></td> 
+  </tr> 
+ </tbody> 
 </table>
 
 ## Veelgestelde vragen {#faq}
@@ -66,10 +65,10 @@ Doorgaans gebruiken klanten Buyer Touchpoint-gegevens om Top van de Funnel en he
 
 Hier is een schermafbeelding van een BT in [!DNL Salesforce] :
 
-![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-1.png){width="600" zoomable="yes"}
+![](assets/adobe-setup-1.png)
 
 **wat kijkt een Buyer Attribution Touchpoint als in Salesforce?**
 
 Hier is een schermafbeelding van een BAT in [!DNL Salesforce] :
 
-![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-2.png){width="600" zoomable="yes"}
+![](assets/adobe-setup-2.png)

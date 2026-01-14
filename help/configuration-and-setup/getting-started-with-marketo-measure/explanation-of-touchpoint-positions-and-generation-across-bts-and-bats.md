@@ -1,11 +1,11 @@
 ---
-description: Uitleg van de Plaatsen van het Aanraakpunt en Generatie over BTs en BBTs -  [!DNL Marketo Measure]
+description: Uitleg van de Plaatsen van het Aanraakpunt en Generatie over BTs en  [!DNL BATs]  begeleiding voor de gebruikers van Marketo Measure
 title: Uitleg van plaatsen van het Aanraakpunt en Generatie over BTs en  [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Kennis van de Buyer Touchpoint-posities en hoe deze worden geactiveerd is van cruciaal belang voor een geslaagde rapportage met [!DNL Marketo Measure] -gegevens. Je wilt een duidelijk inzicht hebben in wat je vooruitzichten deden toen ze door de reis van de koper gingen en op zijn beurt hoe dat eruit zal zien in de Touchpoint data. Voor meer context over dit onderwerp raden we aan het artikel [[!UICONTROL Touchpoint Generation & Mapping]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) te bekijken.
 
-[!DNL Marketo Measure] heeft verschillende aanraakpunten die worden geactiveerd door verschillende stappen tijdens de reis van de koper. Bij het rapporteren van [!DNL Marketo Measure] -gegevens zijn er twee sets aanraakpuntgegevens, aanraakpunten voor kopers (BT&#39;s) en aanraakpunten voor kopers (BBT&#39;s). Het kan zijn dat deze gegevenssets enigszins verschillende posities hebben, aangezien ze betrekking hebben op verschillende objecten. Voor meer context over dit onderwerp, adviseren wij het [&#x200B; Verschil tussen de Aanraakpunten van de Koper (BTs) &amp; de Aanraakpunten van de Attributie van de Koper (BBTs) &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) artikel te herzien.
+[!DNL Marketo Measure] heeft verschillende aanraakpunten die worden geactiveerd door verschillende stappen tijdens de reis van de koper. Bij het rapporteren van [!DNL Marketo Measure] -gegevens zijn er twee sets aanraakpuntgegevens, aanraakpunten voor kopers (BT&#39;s) en aanraakpunten voor kopers (BBT&#39;s). Het kan zijn dat deze gegevenssets enigszins verschillende posities hebben, aangezien ze betrekking hebben op verschillende objecten. Voor meer context over dit onderwerp, adviseren wij het [ Verschil tussen de Aanraakpunten van de Koper (BTs) &amp; de Aanraakpunten van de Attributie van de Koper (BBTs) ](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) artikel te herzien.
 
 **Aanraakpunten van de Koper (BTs)**: Dit zijn de aanraakpunten verbonden aan een individuele persoon en hun reis en zullen aan dat individu uniek zijn. Het volgende uit de vakrapporten wordt gebouwd van de gegevens van Buyer Touchpoint.
 

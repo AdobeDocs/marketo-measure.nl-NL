@@ -1,19 +1,19 @@
 ---
-description: Records dupliceren en  [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: Dubbele Verslagen en  [!DNL Marketo Measure]  begeleiding voor de gebruikers van Marketo Measure
 title: Records dupliceren en  [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
-
 # Records dupliceren en [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
+>
 >U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 [!DNL Marketo Measure] gebruikt het e-mailadres als een unieke identificatie bij het koppelen van gegevens aan een gerelateerde lead of contactpersoon in de CRM. Als [!DNL Marketo Measure] meerdere leads of contactpersonen met hetzelfde e-mailadres vindt, worden dezelfde gegevens over alle records weergegeven. Dit heeft gevolgen wanneer u rapporteert over de leads of contactpersonen met [!DNL Marketo Measure] en het aantal unieke personen met aanraakpunten voor kopers onjuist opbladert.
@@ -22,7 +22,7 @@ Hoe ziet dit eruit in [!DNL Marketo Measure] Reporting?
 
 _Rapport van het Voorbeeld: [!DNL Marketo Measure] Personen met de Aanraakpunten van de Koper._
 
-![&#x200B; 1 &#x200B;](assets/1-1.png)
+![](assets/additional-functionality-1.png)
 
 Voor de [!DNL Marketo Measure] persoon-id van kelsey@adobe.com ziet u dat er zowel een lead als een contactpersoon bestaat met dat e-mailadres. In dit rapport worden 2 First Touches gerapporteerd, twee Lead Creation Touches en twee PostLC-interacties. Deze dubbele gegevens delen de datum van het aanraakpunt en de informatie van het aanraakpunt, wat tot de conclusie zou kunnen leiden dat zij twee verschillende personen zijn, hoewel zij dezelfde persoon zijn.
 

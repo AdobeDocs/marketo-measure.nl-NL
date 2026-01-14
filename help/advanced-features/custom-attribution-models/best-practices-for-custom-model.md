@@ -1,15 +1,14 @@
 ---
-description: Beste praktijken voor het Model van de Douane -  [!DNL Marketo Measure]
+description: Tips en trucs voor richtlijnen voor aangepaste modellen voor Marketo Measure-gebruikers
 title: Aanbevolen procedures voor aangepast model
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
-
 
 # Aanbevolen procedures voor aangepast model {#best-practices-for-custom-model}
 
@@ -24,6 +23,7 @@ Er zijn twee belangrijke aspecten van uw Aangepast kenmerkingsmodel:
 **de Staven van de Douane** staan gebruikers toe om hun funnel te bepalen aangezien het op hun zaken en processen betrekking heeft. Aangepaste stappen moeten &#39;mijlpalen&#39; zijn tijdens de hele reis van de koper, net als de [!DNL Marketo Measure] -mijlpalen (First Touch, Lead Creation Touch, Opportunity Creation Touch en Closed Won Touch) die in de modellen voor voorraadtoewijzing worden gebruikt. Het is van cruciaal belang dat uw aangepaste stadia correct zijn gedefinieerd en in uw account zijn toegewezen om ervoor te zorgen dat [!DNL Marketo Measure] de werkgebiedovergangen correct bijhoudt. Hiermee wordt bepaald welke aanraakpunten aan elke fase moeten worden gekoppeld en wordt het krediet op passende wijze toegewezen. Aangepaste werkgebiedtoewijzing is in feite een uitbreiding van de standaard &#39;werkgebiedtoewijzing&#39; en moet dezelfde procedures volgen.
 
 >[!NOTE]
+>
 >Verwijs naar de Werkgebiedtoewijzing Best Practice-bron voor meer informatie
 
 **de Modellering van de Attributie van de Douane** wordt bepaald zodra u uw funnel van de Stages van de Douane selecteert. Gebruikers kunnen vervolgens bepalen hoeveel toewijzingkrediet aan elke aangepaste fase moet worden toegewezen, en welke mijlpaalfasen moeten worden gebruikt. [!DNL Marketo Measure] Gebruikers kunnen kredieten toewijzen aan elk werkgebied naar eigen inzicht, of verwijzen naar het [!DNL Marketo Measure] Machine Learning Model dat fungeert als een &quot;suggestief model&quot; op basis van historische gegevens.
@@ -68,6 +68,7 @@ Andere redenen die een herziening van het aangepaste model kunnen veroorzaken, z
 * Aanraakpunten weergeven die zijn gevuld en die niet meer relevant zijn voor uw organisaties funnel
 
 >[!MORELIKETHIS]
-> [&#x200B; Model en Opstelling van de Attributie van de Douane &#x200B;](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
-> [Enable Field History Tracking for Custom Model &#x200B;](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
-> [Machine Learning Model &#x200B;](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)
+>
+>* [ Model en Opstelling van de Attributie van de Douane ](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [ laat het Volgen van de Geschiedenis van het Gebied voor het Model van de Douane toe ](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+>* [ het Leren van de Machine Model ](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)

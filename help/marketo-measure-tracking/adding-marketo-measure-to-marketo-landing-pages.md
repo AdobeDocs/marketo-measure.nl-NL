@@ -1,21 +1,21 @@
 ---
-description: Toevoegend  [!DNL Marketo Measure]  aan  [!DNL Marketo]  het Bestaan Pagina's -  [!DNL Marketo Measure]
+description: Het toevoegen van  [!DNL Marketo Measure]  aan Marketo die de richtlijnen van de Pagina's voor de gebruikers van Marketo Measure Landing
 title: Toevoegend  [!DNL Marketo Measure]  aan Marketo het Landen Pagina's
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] toevoegen aan Marketo-bestemmingspagina&#39;s {#adding-marketo-measure-to-marketo-landing-pages}
 
 Leer hoe u reeksspatiëring toevoegt aan [!DNL Marketo Engage] bestemmingspagina&#39;s omdat deze extra verwerkingstijd vereisen. [!DNL Marketo Measure] JavaScript moet aanwezig zijn op zowel de landingspagina als het [!DNL Marketo Engage] -formulier zelf. Hiervoor moet u de [!DNL Marketo Measure] JavaScript in [!DNL Marketo Engage] laden, zoals in de volgende instructies wordt uitgelegd.
 
 >[!NOTE]
+>
 >Als u de JavaScript implementeert via een tagbeheerprovider zoals [!DNL Google Tag Manager] , hoeft u [!DNL Marketo Measure] JS niet handmatig aan [!DNL Marketo Engage] toe te voegen.
 
 ## [!DNL Marketo Measure] Script toevoegen aan [!DNL Marketo Engage] bestemmingspagina&#39;s {#how-to-add-marketo-measure-script-to-marketo-engage-landing-pages}
@@ -31,7 +31,7 @@ Voorbeeld in onderstaande schermafbeelding
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![&#x200B; Marketo Landing de redacteur van de Pagina met Bizible manuscript dat aan het hoofd &#x200B;](assets/adding-bizible-to-marketo-landing-pages-1.png) wordt toegevoegd
+   ![](assets/adding-pages-1.png)
 
 ## Aanvullende opmerkingen {#additional-notes}
 
@@ -41,4 +41,4 @@ Voorbeeld in onderstaande schermafbeelding
 
 * Het is waarschijnlijk dat u veelvoudige het Bestaan van de Pagina malplaatjes in gebruik hebt, ben zeker om de code aan alle malplaatjes toe te voegen die vormen op hen hebben.
 
-* Wanneer u de sjabloon voor bestemmingspagina&#39;s bewerkt, moet u soms de pagina&#39;s die de bestemmingspagina gebruikt, opnieuw goedkeuren. Dit artikel verklaart [&#x200B; hoe te om massa goed te keuren &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=nl-NL){target="_blank"}.
+* Wanneer u de sjabloon voor bestemmingspagina&#39;s bewerkt, moet u soms de pagina&#39;s die de bestemmingspagina gebruikt, opnieuw goedkeuren. Dit artikel verklaart [ hoe te om massa goed te keuren ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

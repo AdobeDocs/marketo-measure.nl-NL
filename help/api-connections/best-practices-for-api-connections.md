@@ -1,15 +1,14 @@
 ---
-description: Beste praktijken voor API Verbindingen -  [!DNL Marketo Measure]
+description: Tips en trucs voor API-verbindingen voor Marketo Measure-gebruikers
 title: Aanbevolen procedures voor API-verbindingen
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
-
 
 # Aanbevolen procedures voor API-verbindingen {#best-practices-for-api-connections}
 
@@ -40,6 +39,7 @@ Aan de hand van onze aanbevelingen voor best practices kan de [!DNL Marketo Meas
 * Informatie over download en kosten voor alle actieve [!DNL Facebook] advertenties
 
 >[!NOTE]
+>
 >Er is geen volgsjabloon voor [!DNL Facebook] . De API gebruikt de parameter auto-tagged (_bf) om de advertentiedetails te verzamelen.
 
 **AdWords**: Voer een het volgen malplaatje op het rekeningsniveau uit en laat auto-etiketteren toe
@@ -56,7 +56,6 @@ Aan de hand van onze aanbevelingen voor best practices kan de API [!DNL Marketo 
 Er bestaat geen risico dat advertentiegeschiedenis verloren gaat bij het instellen van de [!DNL Bing] API-verbinding, in tegenstelling tot sommige andere API-verbindingen.
 
 Aan de hand van onze aanbevelingen voor best practices kan de [!DNL Marketo Measure] Bing API:
-
 * Alle Bing Ads automatisch labelen met de volgende parameters van `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`
 * Downloaden en kostengegevens over alle actieve blogadvertenties
 
@@ -70,6 +69,7 @@ Aan de hand van onze aanbevelingen voor best practices kan de [!DNL Marketo Meas
 * Download- en kostengegevens over alle actieve en ondersteunde [!DNL LinkedIn] advertenties
 
 >[!NOTE]
+>
 >Er is geen sjabloon voor bijhouden van [!DNL LinkedIn] . De API gebruikt de parameter auto-tagged (_bl) om alle mogelijke advertentiedetails te verzamelen.
 
 ## Aanbevolen werkwijzen voor onderhoud {#best-practice-for-maintenance}
@@ -87,10 +87,11 @@ Redenen voor het verbreken en opnieuw autoriseren zijn onder meer..
 Als uw team een van de bovenstaande scenario&#39;s heeft ervaren, controleert u uw API-verbindingen in de app van [!DNL Marketo Measure] om te controleren of deze niet opnieuw hoeven te worden geautoriseerd.
 
 >[!MORELIKETHIS]
-> [&#x200B; Geïntegreerde Ad Platforms (APIs) &#x200B;](/help/api-connections/integrated-ad-platforms.md)
-> [De invloed van Bodmanager-programma&#39;s  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
-> [[!DNL Marketo Measure] Uitgebreide API-parameters &#x200B;](/help/api-connections/marketo-measure-parameters.md)
-> [Overzicht van Facebook API &#x200B;](/help/api-connections/facebook-api.md)
-> [[!DNL LinkedIn] Overzicht van integratie &#x200B;](/help/api-connections/linkedin-integration.md)
-> [Overzicht van de integratie van AdWords &#x200B;](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
-> [Verbonden API-accounts opnieuw autoriseren &#x200B;](/help/api-connections/reauthorizing-connected-accounts.md)
+>
+>* [ Geïntegreerde Ad Platforms (APIs) ](/help/api-connections/integrated-ad-platforms.md)
+>* [ hoe Bodmanager de Hulpmiddelen beïnvloedt  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [[!DNL Marketo Measure]  Verklaarde API Parameters ](/help/api-connections/marketo-measure-parameters.md)
+>* [ Facebook API Overzicht ](/help/api-connections/facebook-api.md)
+>* [[!DNL LinkedIn]  Overzicht van de Integratie ](/help/api-connections/linkedin-integration.md)
+>* [ het Overzicht van de Integratie AdWords ](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
+>* [ opnieuw goedkeurend Verbonden API Rekeningen ](/help/api-connections/reauthorizing-connected-accounts.md)

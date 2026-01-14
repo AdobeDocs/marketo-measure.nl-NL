@@ -1,15 +1,14 @@
 ---
-description: Aanraakpunt genereren en toewijzen - [!DNL Marketo Measure]
+description: Richtlijnen voor het genereren en toewijzen van aanraakpunten voor Marketo Measure-gebruikers
 title: Aanraakpunt genereren en toewijzen
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
-
 
 # Aanraakpunt genereren en toewijzen {#touchpoint-generation-and-mapping}
 
@@ -25,10 +24,11 @@ Methoden voor het genereren van aanraakpunten
 Het aanraakpuntgeneratieproces beantwoordt de vraag: &quot;Hoe gaat [!DNL Marketo Measure] weten dat dit is gebeurd?&quot; Afhankelijk van uw eigenschapreeks en de soorten interactie uw potentiële klanten kunnen hebben, zijn er tot drie manieren [!DNL Marketo Measure] op een interactie kan opnemen en een touchpoint creëren om het te vertegenwoordigen.
 
 >[!IMPORTANT]
+>
 >[!DNL Marketo Measure] genereert slechts één aanraakpunt per sessie. Als er meerdere formulieren zijn ingevuld, wordt alleen de eerste formuliervulling vastgelegd.
 
-| Type interactie | Voorbeeld | Methode voor het genereren van aanraakpunten |
-| ---|---|--- |
+| **Type van Interactie** | **Voorbeeld** | **Methode van de Generatie van het Aanraakpunt** |
+|---|---|---|
 | Online, op uw sites | Formuliervulling | [!DNL Marketo Measure] JavaScript |
 | Offline; niet online op uw sites | Handelaren; de partner van de syndicatie van de inhoud levert een lijst van Leidingen die met uw inhoud in dienst waren | Het lidmaatschap van de Campagne van CRM wordt gesynchroniseerd aan [!DNL Marketo Measure], of door het Type van Synchronisatie van de Campagne direct in de campagne te plaatsen of door regels op de pagina van Campagnes in te stellen in [!DNL Marketo Measure] |
 | Verkoopactiviteit | Uitgaande vraag door SDR. | CRM-activiteitenrecord (taak of gebeurtenis) gesynchroniseerd met [!DNL Marketo Measure] via logica op de [!UICONTROL Activities] pagina in [!DNL Marketo Measure] |
@@ -37,17 +37,18 @@ Methoden voor aanraakpunten
 
 Het toewijzingsproces voor aanraakpunten beantwoordt de vraag: &quot;Hoe weet [!DNL Marketo Measure] wanneer dit aanraakpunt is gemaakt, tot welk kanaal en subkanaal het behoort?&quot; Elke methode voor het genereren van aanraakpunten heeft een eigen methode voor het toewijzen van aanraakpunten.
 
-| Type interactie | Generatiemethode | Toewijzingsmethode |
-| ---|---|--- |
+| **Type van Interactie** | **de Methode van de Generatie** | **Toewijzingsmethode** |
+|---|---|---|
 | Online, op uw sites | [!DNL Marketo Measure] JavaScript | Via de [!DNL Online Channels] -pagina in [!DNL Marketo Measure] , door te verwijzen naar UTM-waarden, de landingspagina en de informatie over de verwijzingspagina |
 | Offline; online, niet op uw sites | Synchronisatie CRM-cameralidmaatschap | Via de [!UICONTROL Offline Channels] -pagina in [!DNL Marketo Measure] , door naar het campagneretype te verwijzen |
 | Verkoopactiviteit | CRM-activiteitssync | Via de [!UICONTROL Online Channels] -pagina in [!DNL Marketo Measure] , door te verwijzen naar de campagnenaam die is toegewezen op de [!UICONTROL Activities] -pagina |
 
 >[!MORELIKETHIS]
-> [&#x200B; het In kaart brengen Online Touchpoints aan  [!DNL Marketo Measure]  Kanalen/Subkanalen &#x200B;](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
-> [CRM-campagnes synchroniseren vanuit SFDC &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
-> [CRM-campagnes synchroniseren vanuit  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
-> [De Campagnes van CRM van het in kaart brengen aan  [!DNL Marketo Measure]  Kanalen/Subkanalen &#x200B;](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
-> [Aanraakpunten maken van verkoopactiviteiten &#x200B;](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [Activiteiten Veelgestelde vragen en Toewijzing van aanraakpunten aan kanalen/subkanalen &#x200B;](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+>
+>* [ het In kaart brengen Online Touchpoints aan  [!DNL Marketo Measure]  Kanalen/Subkanalen ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+>* [ het synchroniseren van de Campagnes van CRM van binnen SFDC ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+>* [ het synchroniseren van de Campagnes van CRM van binnen  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
+>* [ het In kaart brengen van CRM Campagnes aan  [!DNL Marketo Measure]  Kanalen/Subkanalen ](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+>* [ Creërend Touchpoints van de Activiteiten van de Verkoop ](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
+>* [ Veelgestelde vragen van Activiteiten en de Activiteiten van de Afbeelding richt aan Kanalen/Subkanalen ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
 

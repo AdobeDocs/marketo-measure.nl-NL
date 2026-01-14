@@ -1,21 +1,22 @@
 ---
-description: '[!DNL Marketo Measure] Installatie en installatie van Salesforce-pakketten -  [!DNL Marketo Measure]'
-title: '[!DNL Marketo Measure] [!DNL Salesforce]  de Installatie van het Pakket en Opstelling'
+description: Installatie en installatie van Salesforce-pakketten -  [!DNL Marketo Measure]
+title: '[!DNL Salesforce] Pakket installeren en instellen'
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-
-# [!DNL Marketo Measure] Salesforce-pakket installeren en instellen {#marketo-measure-salesforce-package-installation-and-set-up}
+# Salesforce-pakketinstallatie{#marketo-measure-salesforce-package-installation}
 
 Voordat u het basispakket [!DNL Marketo Measure] [!DNL Salesforce] installeert, moet u bepalen of u het eerst in een [!DNL Salesforce] -sandbox installeert voordat u naar de Salesforce-productieinstantie gaat.
 
 >[!NOTE]
+>
 >Wanneer uw [!DNL Marketo Measure] -account is verbonden met een [!DNL Salesforce] -productie-instantie, kunt u niet achterwaarts gaan en verbinding maken met een sandbox. Een [!DNL Marketo Measure] -account kan bovendien alleen worden verbonden met één [!DNL Salesforce] -productie-instantie.
 
 Het [!DNL Marketo Measure] basispakket bevat:
@@ -28,7 +29,7 @@ Het [!DNL Marketo Measure] basispakket bevat:
 
 Voer de onderstaande stappen uit om het basispakket [!DNL Marketo Measure Salesforce] te installeren.
 
-1. Gebruikend incognito browser, ga naar [&#x200B; Salesforce AppExchange &#x200B;](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} en login.
+1. Gebruikend incognito browser, ga naar [ Salesforce AppExchange ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} en login.
 
 1. Installeer in het [!DNL Marketo Measure] -pakket in een sandbox of productie.
 
@@ -36,16 +37,17 @@ Voer de onderstaande stappen uit om het basispakket [!DNL Marketo Measure Salesf
 
 1. Selecteer **[!UICONTROL Install]voor Alle Gebruikers**.
 
-   ![&#x200B; AppExchange van Salesforce installeert dialoog voor het pakket van Marketo Measure &#x200B;](assets/marketo-measure-salesforce-package-installation-and-set-up-1.png)
+   ![](assets/bizible-full-1.png)
 
 1. Nadat de installatie is voltooid, kunt u deze weergeven.
 
-   ![&#x200B; Geïnstalleerde het pakketdetailpagina van Marketo Measure in Salesforce &#x200B;](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
+   ![](assets/bizible-taxonomy-1.png)
 
-Nadat u de installatie hebt voltooid, kunt u uw [[!DNL Salesforce]  paginalay-outs &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} met de [!DNL Marketo Measure] gebieden indien gewenst bijwerken.
+Nadat u de installatie hebt voltooid, kunt u uw [[!DNL Salesforce]  paginalay-outs ](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} met de [!DNL Marketo Measure] gebieden indien gewenst bijwerken.
 
 >[!NOTE]
->Lees over de [!DNL Marketo Measure] gecreeerde Reeksen van Toestemmingen en [&#x200B; hoe zij &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"} worden gebruikt.
+>
+>Lees over de [!DNL Marketo Measure] gecreeerde Reeksen van Toestemmingen en [ hoe zij ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"} worden gebruikt.
 
 ## Een [!DNL Marketo Measure] profiel en gebruiker maken {#creating-a-marketo-measure-profile-and-user}
 
@@ -65,6 +67,7 @@ Stap 1: Een specifiek [!DNL Marketo Measure] -profiel maken
    * Hierdoor kan [!DNL Marketo Measure] leads decoreren nadat deze zijn omgezet in contactpersonen. Als deze rechtenset niet is ingeschakeld, kunnen er belangrijke hiaten in het bijhouden van gegevens zijn.
 
 >[!NOTE]
+>
 >Dit profiel kan een kloon zijn van een profiel voor systeembeheer.
 
 Stap 2: Maak een toegewijde [!DNL Marketo Measure] -gebruiker zodat u de impact van [!DNL Marketo Measure] op de [!DNL Salesforce] -instantie kunt volgen
@@ -88,5 +91,7 @@ Stap 4: Meld u aan bij uw [!DNL Marketo Measure] -account en autoriseer de [!DNL
 1. Klik het Zeer belangrijke Pictogram rechts van de huidige verbonden [!DNL Salesforce] verbinding en selecteer **opnieuw machtigen met Productie**. Meld u opnieuw aan met de nieuwe gebruikersgegevens (indien gevraagd).
 
 >[!MORELIKETHIS]
-> [&#x200B; Overzicht van de Toestemmingen van de Integratie &#x200B;](/help/api-connections/integration-permissions-overview.md){target="_blank"}
-> [Adobe Admin Console Setup &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
+>
+>* [ Overzicht van de Toestemmingen van de Integratie ](/help/api-connections/integration-permissions-overview.md){target="_blank"}
+>
+>* [ de Opstelling van Adobe Admin Console ](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}

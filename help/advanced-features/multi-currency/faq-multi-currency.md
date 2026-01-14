@@ -1,15 +1,14 @@
 ---
-description: Veelgestelde vragen (meerdere valuta's) - [!DNL Marketo Measure]
+description: Richtlijnen voor veelgestelde vragen (meerdere valuta's) voor Marketo Measure-gebruikers
 title: Veelgestelde vragen (meerdere valuta's)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
-
 
 # Veelgestelde vragen (meerdere valuta&#39;s) {#faq-multi-currency}
 
@@ -60,4 +59,5 @@ Voor de geïnteresseerde lezer is dit de reden waarom het zo werkt. Onze aanraak
 Omdat onze aanbieding nu de omzettingen voor de klant zal behandelen, adviseren wij zij de werkschema&#39;s en het douanegebied verwijderen en ons toestaan om hun ruwe waarde van het Bedrag in te voeren.
 
 >[!MORELIKETHIS]
->[&#x200B; Meldingen van de Fout &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>
+>[ Meldingen van de Fout ](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

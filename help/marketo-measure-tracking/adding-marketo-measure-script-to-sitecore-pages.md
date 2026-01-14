@@ -1,15 +1,14 @@
 ---
-description: Toevoegend  [!DNL Marketo Measure]  Manuscript aan de Pagina's van de Sitecore -  [!DNL Marketo Measure]
+description: Het toevoegen van  [!DNL Marketo Measure]  Manuscript aan de begeleiding van de Pagina's van de Architectuur voor de gebruikers van Marketo Measure
 title: Toevoegend  [!DNL Marketo Measure]  Manuscript aan de Pagina's van de Sitecore
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] Script toevoegen aan Sitecore Pages {#adding-marketo-measure-script-to-sitecore-pages}
 

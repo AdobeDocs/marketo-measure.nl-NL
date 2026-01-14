@@ -1,15 +1,14 @@
 ---
-description: Toevoegend  [!DNL Marketo Measure]  Manuscript aan  [!DNL Uberflip]  Forms -  [!DNL Marketo Measure]
+description: Toevoegend  [!DNL Marketo Measure]  Manuscript aan  [!DNL Uberflip]  de begeleiding van Forms voor de gebruikers van Marketo Measure
 title: Toevoegend  [!DNL Marketo Measure]  Manuscript aan  [!DNL Uberflip]  Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] Script toevoegen aan [!DNL Uberflip] Forms {#adding-marketo-measure-script-to-uberflip-forms}
 
@@ -25,27 +24,28 @@ Als u momenteel [!DNL Uberflip] gebruikt om uw inhoud te beheren, is het belangr
 
    Voeg deze preambule toe aan de [!DNL Hubs.onLoad] en de [!DNL Hubs.onPageChange] AJAX JavaScript-gebeurtenishaken hieronder. (Opmerking: in deze gebeurtenishaken kunt u ook andere code gebruiken. Zorg ervoor dat u ook de preambule opneemt.)
 
-```javascript
-   Hubs.onLoad = function () {
-    window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
-   }
-   Hubs.onPageChange = function () {
-   window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
-   }
-```
+   `Hubs.onLoad = function () {`
+
+   `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
+
+   `}`
+
+   `Hubs.onPageChange = function () {`
+
+   `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
+
+   `}`
 
 1. Maak en definieer een functie die gegevens naar Bizible duwt bij het verzenden van een Form CTA. Hier komt de sectie [!UICONTROL Custom Code>JavaScript] . (Opmerking: deze functie vereist alleen de ctaData-parameter die Uberflip biedt, maar u kunt de andere parameters ctaId en ctaName opnemen voor het geval de gebruiker zijn code wil aanpassen om deze gegevens ook door te geven).
 
-```javascript
-function bizibleFormCode(ctaId, ctaData, ctaName) {
-   var email = ctaData["email"];
-   if (email) {
-      Bizible.Push('User', {
-         eMail: email, // required
-      });
-   }
-}
-```
+   `function bizibleFormCode(ctaId, ctaData, ctaName) {`
+   `var email = ctaData["email"];`
+   `if(email){`
+   `Bizible.Push('User', {`
+   `eMail: email, // required`
+   `}); }`
+
+   `}`
 
 1. Wanneer een formulier-CTA wordt verzonden, moet de functie [!DNL Marketo Measure] hieronder worden uitgevoerd. Dit gebeurt binnen de sectie [!UICONTROL Custom Code>JS] . (Nota: U zou andere code binnen de de gebeurtenishaak van de gebeurtenis Hubs.onCtaFormSubmitSuccess JavaScript kunnen hebben, zorg ervoor u deze functievraag eveneens omvat).
 

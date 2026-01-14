@@ -1,19 +1,19 @@
 ---
-description: Records dupliceren in mijn rapport - [!DNL Marketo Measure]
+description: Records dupliceren in Mijn rapportrichtlijnen voor Marketo Measure-gebruikers
 title: Records dupliceren in Mijn rapport
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
-
 # Records dupliceren in Mijn rapport {#duplicate-records-in-my-report}
 
 >[!NOTE]
+>
 >U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;[!DNL Bizible]&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 Terwijl u naar de [!DNL Marketo Measure] rapporten in [!DNL Salesforce] duikt, kunt u beginnen &quot;dubbele&quot;verslagen in uw rapporten te vinden. U zult dit gevoel waarschijnlijk ervaren wanneer u [!DNL Marketo Measure] rapporten buiten de doos bekijkt.
@@ -24,7 +24,7 @@ Neem het volgende rapport als voorbeeld:
 
 Dit is a **Contacten met de Aanraakpunten van de Koper** rapport. Nogmaals, dit betekent dat we kijken naar het aantal aanraakpunten dat gekoppeld is aan een individueel contact.
 
-![&#x200B; Contacten met het rapport van de Aanraakpunten van de Koper die veelvoudige ingangen per contact tonen &#x200B;](assets/1.gif)
+![](assets/marketo-reports-1.gif)
 
 Zoals je ziet, lijken er drie James Williams-contacten in het verslag te zitten, en daarom denk je misschien: &quot;duplicaten!&quot;
 
@@ -33,4 +33,5 @@ Dit verslag toont echter het aantal aanraakpunten met James. In het rapport ziet
 Als u het &quot;aantal contacten&quot;wilt begrijpen kunt u de gebieden &quot;Telling - Eerste Aanraking&quot;, &quot;Telling-Lood Aanraking&quot;of &quot;Telling-U-Vormde&quot;gebruiken om te begrijpen hoeveel contacten marketing interactie hebben gehad.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

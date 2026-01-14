@@ -1,22 +1,22 @@
 ---
-description: Het creëren van een Mening van de Lijst van de Campagne voor  [!DNL Salesforce Campaigns]  -  [!DNL Marketo Measure]
+description: Creërend een Mening van de Lijst van de Campagne voor  [!DNL Salesforce]  begeleiding van Campagnes voor de gebruikers van Marketo Measure
 title: Creërend een Mening van de Lijst van de Campagne voor  [!DNL Salesforce]  Campagnes
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
-
 
 # Een Campagnelijstweergave maken voor [!DNL Salesforce] -campagnes {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Leer hoe u een lijstweergave maakt voor de campagnes die u wilt synchroniseren met de aanraakpunten voor kopers.
 
 >[!NOTE]
->Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [&#x200B; nieuwe, verbeterde in-app proces &#x200B;](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
+>
+>Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [ nieuwe, verbeterde in-app proces ](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
 
 Met de lijstweergave Campagne die kan worden gemaakt, kunt u een &#39;go-to&#39;-locatie hebben om de velden Type en Aanraakpunten voor kopers inschakelen te bekijken en te beheren. Op deze manier weet u zeker dat al uw [!DNL Salesforce] -campagnes die uw offlinemarketingkanalen informeren, op de juiste wijze zijn ingesteld.
 
@@ -24,7 +24,7 @@ Met de lijstweergave Campagne die kan worden gemaakt, kunt u een &#39;go-to&#39;
 1. Geef de weergave de naam &quot;Campagnes voor synchronisatie met [!DNL Marketo Measure]&quot;.
 1. We willen dat in deze lijst alleen de campagnes worden weergegeven die we met [!DNL Marketo Measure] willen synchroniseren, zodat we een paar filters nodig hebben:
 
-   * **Type** [ EQUALS ] &quot;Alle Types van Campagne die wij aan uw off-line kanalen in kaart hebben gebracht&quot;. Verwijs naar uw Plan van de Implementatie of het Off-line lusje van Kanalen in [!DNL Marketo Measure] ([&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mijn Rekening -> Montages -> Off-line Kanalen). U kunt de gewenste typen selecteren via het vergrootglaspictogram (de typen die zijn toegewezen aan een offlinemarketingkanaal).
+   * **Type** [ EQUALS ] &quot;Alle Types van Campagne die wij aan uw off-line kanalen in kaart hebben gebracht&quot;. Verwijs naar uw Plan van de Implementatie of het Off-line lusje van Kanalen in [!DNL Marketo Measure] ([ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mijn Rekening -> Montages -> Off-line Kanalen). U kunt de gewenste typen selecteren via het vergrootglaspictogram (de typen die zijn toegewezen aan een offlinemarketingkanaal).
 
       * Kies max. 3 typen voor elk filter. Er geldt een limiet voor tekens die in een filterveld kunnen voorkomen. Begin met 3 types per filter en voeg extra rijen van &quot;Type&quot;filters indien nodig toe.
 
@@ -42,4 +42,5 @@ Met de lijstweergave Campagne die kan worden gemaakt, kunt u een &#39;go-to&#39;
    * Zorg ervoor dat u beschikt over machtigingen voor de velden
 
 >[!MORELIKETHIS]
->[&#x200B; het Oplossen van problemen gemeenschappelijke kwesties met de Mening Inline het Uitgeven van de Lijst &#x200B;](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}
+>
+>[ het Oplossen van problemen gemeenschappelijke kwesties met de Mening Inline het Uitgeven van de Lijst ](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

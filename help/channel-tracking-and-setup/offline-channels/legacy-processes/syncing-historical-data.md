@@ -1,22 +1,22 @@
 ---
-description: Historische gegevens synchroniseren - [!DNL Marketo Measure]
+description: Historische gegevensrichtlijnen synchroniseren voor Marketo Measure-gebruikers
 title: Historische gegevens synchroniseren
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
-
 
 # Historische gegevens synchroniseren {#syncing-historical-data}
 
 [!DNL Marketo Measure] is een oplossing die de meest korrelige, uitvoerbare gegevens verstrekt. We begrijpen echter dat er bestaande gegevens zijn waarvoor u een kenmerk wilt hebben. Het is mogelijk om aanraakpunten te genereren voor historische gegevens, maar het is belangrijk om rekening te houden met een paar factoren voordat u verder gaat met dit proces.
 
 >[!NOTE]
->Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [&#x200B; nieuwe, verbeterde in-app proces &#x200B;](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
+>
+>Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [ nieuwe, verbeterde in-app proces ](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
 
 ## Te overwegen factoren {#factors-to-consider}
 
@@ -50,11 +50,12 @@ Dit is een onderwerp dat we ten zeerste aanmoedigen om eerst met uw [!DNL Market
 
 Als u historische online gegevens wilt synchroniseren, moeten de gegevens worden ingedeeld in Salesforce-campagnes die u vervolgens synchroniseert met [!DNL Marketo Measure] via [!DNL Salesforce] Campagne Sync rules in de app [!DNL Marketo Measure] . Het is belangrijk om ervoor te zorgen dat er geen aanraakpunten worden gegenereerd uit deze campagnes na de datum waarop je JavaScript live ging. De reden hiervoor is dubbele aanraakpunten te voorkomen. Nadat de JavaScript live is, worden online-inspanningen automatisch bijgehouden, dus we willen ze niet ook volgen via een SFDC-campagne. Om dit probleem te vermijden, zeker om een gevoel van tijd aan de regel toe te voegen. Misschien is iets als &quot;Gemaakte Datum van het Lid van de Campagne minder dan [ JavaScript go-live datum ]&quot;.
 
-![&#x200B; de regelvoorbeeld van de campagnecorrectie van Salesforce voor historische gegevens &#x200B;](assets/syncing-historical-data-1.png)
+![](assets/dynamics-lists-1.png)
 
 De component voor kanaaltoewijzing voor historische online gegevens kan een beetje lastig zijn. We willen dat deze zo nauw mogelijk aansluit bij uw huidige regels voor online kanalen (van het online regelblad) voor een schone rapportage. Hieronder ziet u een voorbeeld van ideale kanaaltoewijzing.
 
 >[!NOTE]
+>
 >Deze kanaaltoewijzing vindt plaats in de sectie [!UICONTROL Offline Channels] van de app [!DNL Marketo Measure] , omdat we SFDC-campagnes gebruiken.
 
 | Salesforce-type campagne | Kanaal | Subkanaal |
@@ -89,13 +90,14 @@ Historische digitale gegevens moeten worden georganiseerd in [!DNL Dynamics] -ca
 
 Als de gegevens ergens anders worden gehuisvest (bijvoorbeeld nog steeds in Marketing Automation wonen), moeten ze naar [!DNL Dynamics] worden geduwd en in de juiste campagnes worden georganiseerd. Dan zult u voor de Datum van het Aanraakpunt moeten rekenschap geven aangezien u het de datum van het verleden wilt weerspiegelen, niet de datum u het in [!DNL Dynamics] duwde. Als u deze datum wilt overschrijven, kunt u het aangepaste veld Buyer Touchpoint Date gebruiken om de datum te wijzigen. U moet dit toevoegen aan het formulier voor de marketinglijst.
 
-![&#x200B; Dynamiek marketing lijstopstelling met het gebied van de Datum van Buyer Touchpoint &#x200B;](assets/syncing-historical-data-2.png)
+![](assets/dynamics-lists-10.png)
 
 Dientengevolge, kunt u massa plaatsen de datum voor iedereen in die Lijst van de Marketing die voor de Datum van het Aanraakpunt zal worden gebruikt. Als u nauwkeuriger historische datums wilt, maakt u meerdere marketinglijsten voor dezelfde campagne, elk met een eigen aanraakpuntdatum. Als de Campagne een korte tijdspanne heeft, misschien zou het nuttig zijn om een Lijst van de Marketing voor elke dag tot stand te brengen. Als de Campagne een langere tijdspanne heeft, zou het steek kunnen zijn om een Lijst van de Marketing op een wekelijkse basis tot stand te brengen.
 
-Meer informatie bij het Synceren van de Lijst van de Marketing kan hier worden gevonden: [[!DNL Dynamics]  Campagnes en de Lijst van de Marketing &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
+Meer informatie bij het Synceren van de Lijst van de Marketing kan hier worden gevonden: [[!DNL Dynamics]  Campagnes en de Lijst van de Marketing ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
+>
 >Als om het even welke reden u een campagne het volgen online activiteit hebt die voorbij de levende datum van JavaScript actief is, ben zeker om het &quot;[!UICONTROL Touchpoint End Date]&quot;gebied aan de datum te plaatsen JS live ging. Dit om dubbele aanraakpunten voor dezelfde interactie te vermijden.
 
 Overwegingen: onlinegegevens die op deze manier worden toegevoegd, zijn van nature minder korrelig dan online [!DNL Marketo Measure] -tracks via JavaScript. Velden zoals: formulier-URL, bestemmingspagina, verwijzingspagina, enzovoort, worden bijvoorbeeld niet gevuld. Daarom wordt aangeraden de campagnes zo mogelijk over elke bron te verdelen. Hieronder ziet u een voorbeeld van ideale mapping.

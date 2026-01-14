@@ -1,19 +1,18 @@
 ---
-description: Veelgestelde vragen over driftintegratie -  [!DNL Marketo Measure]
+description: Richtlijnen voor driftintegratie in veelgestelde vragen voor Marketo Measure-gebruikers
 title: Veelgestelde vragen over driverintegratie
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 feature: Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
 
-
 # Veelgestelde vragen over driverintegratie {#drift-integration-faq}
 
-In het kader van de [!DNL Marketo Measure] -integratie met Drift stelt u enkele van de meest gestelde vragen. Als er om het even welke vragen zijn die hieronder niet worden geschetst, bereik aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+In het kader van de [!DNL Marketo Measure] -integratie met Drift stelt u enkele van de meest gestelde vragen. Als er om het even welke vragen zijn die hieronder niet worden geschetst, bereik aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **hoe wordt de integratie toegelaten?**
 
@@ -41,4 +40,4 @@ Als er campagnes CRM op zijn plaats zijn om touchpoints voor de praatjeinteracti
 
 Als er activiteitsregels op zijn plaats zijn om touchpoints voor de praatjeinteractie van de Drijving tot stand te brengen, moet een extra stuk van logica aan de regels worden toegevoegd. Voeg logica toe gebruikend het Taak Gemaakte gebied van de Datum om dubbel aanraakpunten te verhinderen worden gecreeerd (IE CrmTask.CreatedDate is minder dan de datum waarin het eigenschapbeetje werd toegelaten). Zie onderstaande schermafbeelding.
 
-![&#x200B; de activiteitenregel van CRM van het Voorbeeld die voor de praatjeaanraakpunten van de Drift wordt gevormd &#x200B;](assets/activity-rule-drift.png)
+![](assets/chat-integration-1.png)

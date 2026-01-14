@@ -1,15 +1,14 @@
 ---
-description: Verschil tussen een Google Analytics-conversie en een Buyer Touchpoint
+description: Verschil tussen Google Analytics-conversie en Buyer Touchpoint-richtlijnen voor Marketo Measure-gebruikers
 title: Verschil tussen een Google Analytics-conversie en een Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
-
 
 # Verschil tussen een Google Analytics-conversie en een Buyer Touchpoint {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
@@ -17,43 +16,43 @@ Leer wat een [!DNL Google Analytics (GA)] doel is en hoe het van een Buyer Touch
 
 **wat zijn de Omzettingen van de Analyse van Google?**
 
-[!UICONTROL Google Analytics] conversies worden bepaald door de manier waarop een markator of webontwikkelaar &#39;doel&#39;-voltooiing op een bepaalde website codeert. Doelen zouden volgens Google kunnen worden beschouwd als &quot;het maken van een aankoop (voor een e-commercesite), het voltooien van een gameniveau (voor een mobiele gaming app), of het indienen van een contactinformatieformulier (voor een marketing- of hoofdproductiesite).&quot; Meestal zien marketers doelen/conversies als iemand die een informatieve vorm invult.
+[!UICONTROL Google Analytics] conversies worden bepaald door de manier waarop een markator of webontwikkelaar &#39;doel&#39;-voltooiing op een bepaalde website codeert. Doelen zouden volgens Google kunnen worden beschouwd als het maken van een aankoop (voor een e-commercesite), het voltooien van een gameniveau (voor een mobiele game-app) of het verzenden van een contactformulier (voor een marketing- of hoofdproductiesite). Meestal zien marketers doelen/conversies als iemand die een informatieve vorm invult.
 
 Nochtans, kunnen de doelstellingen niet worden gecodeerd om specifiek gedrag te beheren. In plaats daarvan zijn er Goal Types die een webontwikkelaar kan configureren. Hieronder volgen enkele voorbeelden:
 
-<table>
- <colgroup>
-  <col>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <td><strong>Type doel</strong></td>
-   <td><p><strong>Beschrijving</strong></p></td>
-   <td><strong>Voorbeeld</strong></td>
-  </tr>
-  <tr>
-   <td><p>Bestemming</p></td>
-   <td>Een specifieke locatie wordt geladen</td>
-   <td><em> Dank u voor het registreren!</em> webpagina of toepassingsscherm</td>
-  </tr>
-  <tr>
-   <td>Duur</td>
-   <td>Sessies die een bepaalde hoeveelheid tijd of langer duren</td>
-   <td>10 minuten of langer besteed aan een ondersteuningssite</td>
-  </tr>
-  <tr>
-   <td>Pagina's/Screens per sessie</td>
-   <td>Een gebruiker bekijkt een specifiek aantal pagina's of schermen</td>
-   <td>Er zijn 5 pagina's of schermen geladen</td>
-  </tr>
-  <tr>
-   <td>Gebeurtenis</td>
-   <td>Een actie die is gedefinieerd als een gebeurtenis, wordt geactiveerd</td>
-   <td>Sociale aanbeveling, video afspelen en klikken</td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <td><strong>Type doel</strong></td> 
+   <td><p><strong>Beschrijving</strong></p></td> 
+   <td><strong>Voorbeeld</strong></td> 
+  </tr> 
+  <tr> 
+   <td><p>Bestemming</p></td> 
+   <td>Een specifieke locatie wordt geladen</td> 
+   <td><em> Dank u voor het registreren!</em> webpagina of toepassingsscherm</td> 
+  </tr> 
+  <tr> 
+   <td>Duur</td> 
+   <td>Sessies die een bepaalde hoeveelheid tijd of langer duren</td> 
+   <td>10 minuten of langer besteed aan een ondersteuningssite</td> 
+  </tr> 
+  <tr> 
+   <td>Pagina's/Screens per sessie</td> 
+   <td>Een gebruiker bekijkt een specifiek aantal pagina's of schermen</td> 
+   <td>Er zijn 5 pagina's of schermen geladen</td> 
+  </tr> 
+  <tr> 
+   <td>Gebeurtenis</td> 
+   <td>Een actie die is gedefinieerd als een gebeurtenis, wordt geactiveerd</td> 
+   <td>Sociale aanbeveling, video afspelen en klikken</td> 
+  </tr> 
+ </tbody> 
 </table>
 
 De meeste marketeers vormen hun omzettingen als &quot;Doeldoelstellingen,&quot;betekenend dat zij gewoonlijk een danku pagina na een vorm creëren om dat een formele omzetting in overweging te nemen.

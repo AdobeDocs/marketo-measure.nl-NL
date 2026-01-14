@@ -1,11 +1,11 @@
 ---
-description: De beste praktijken voor  [!DNL Marketo Measure]  Pakket van CRM -  [!DNL Marketo Measure]
+description: Beste praktijken voor  [!DNL Marketo Measure]  de begeleiding van het Pakket van CRM voor de gebruikers van Marketo Measure
 title: Beste praktijken voor  [!DNL Marketo Measure]  het Pakket van CRM
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -49,10 +49,10 @@ Andere redenen daarvoor kunnen aanleiding geven tot een herziening...
 * Controleer of u de meest recente versie van het pakket met aanraakpunten voor kopers hebt geïnstalleerd in [!DNL Salesforce]
 
 >[!NOTE]
->Als u het exporteren van gegevens naar Salesforce uitschakelt, worden bestaande gegevens niet verwijderd. Om het te verwijderen, volg de stappen in [&#x200B; dit Salesforce hulpartikel &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
+>Als u het exporteren van gegevens naar Salesforce uitschakelt, worden bestaande gegevens niet verwijderd. Om het te verwijderen, volg de stappen in [ dit Salesforce hulpartikel ](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
-> [&#x200B; Update Buyer Touchpoint Package &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
-> [[!DNL Marketo Measure] Machtigingssets &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
-> [Mappen Rapporten en dashboards delen &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
-> [Marketo Measure verbinden met Salesforce &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+> [ Update Buyer Touchpoint Package ](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
+> [[!DNL Marketo Measure] Machtigingssets ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+> [Mappen Rapporten en dashboards delen ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+> [Marketo Measure verbinden met Salesforce ](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

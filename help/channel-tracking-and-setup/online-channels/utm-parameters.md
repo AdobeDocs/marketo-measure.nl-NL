@@ -1,21 +1,21 @@
 ---
-description: UTM-parameters - [!DNL Marketo Measure]
+description: UTM-parameterrichtlijnen voor Marketo Measure-gebruikers
 title: UTM-parameters
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
-
 
 # UTM-parameters {#utm-parameters}
 
 Tags toewijzen aan URL&#39;s is een eenvoudige en effectieve manier om gegevens over uw digitale marketingactiviteiten vast te leggen. Het is het proces om parameters aan het eind van URLs toe te voegen die gegevens verzamelen en registreren. De meest gebruikte parameters zijn Urchin Tracking Modules (UTMs), die door Google worden gesteund. Er zijn vijf belangrijke parameters van UTMs beschikbaar: Medium, Source, Campagne, Inhoud, en Term. Deze worden meer gedetailleerd besproken in de volgende sectie.
 
-U kunt UTM-parameters handmatig aan URL&#39;s toevoegen of via automatische codering aan bepaalde platforms toevoegen, zoals AdWords. Automatisch labelen automatiseert het toevoegen van parameters aan URL&#39;s. Er is ook de optie van [&#x200B; Bouwers URL &#x200B;](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"} om het etiketteren van URLs manueel te versnellen. Met een bouwer URL, specificeert u eenvoudig de waarden die voor elke parameter moeten worden gebruikt en de bouwer formatteert URL voor u.
+U kunt UTM-parameters handmatig aan URL&#39;s toevoegen of via automatische codering aan bepaalde platforms toevoegen, zoals AdWords. Automatisch labelen automatiseert het toevoegen van parameters aan URL&#39;s. Er is ook de optie van [ Bouwers URL ](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"} om het etiketteren van URLs manueel te versnellen. Met een bouwer URL, specificeert u eenvoudig de waarden die voor elke parameter moeten worden gebruikt en de bouwer formatteert URL voor u.
 
 ## Wat zijn UTM-parameters? {#what-are-utm-parameters}
 
@@ -29,7 +29,7 @@ Nu, controleer een URL met UTMs:
 
 De tweede koppeling bevat meer tekst. UTM-parameters gaan altijd achter het domein op het hoogste niveau (.com in dit voorbeeld) en beginnen met een vraagteken. Hierna is de volgorde van de parameters niet van belang, maar wordt aangeraden een consistente naamgevingsconventie te volgen. Ampersanden moeten tussen elke parameter worden geplaatst om elke UTM te scheiden. Nu kunnen we meer in detail gaan over wat elke parameter vertegenwoordigt.
 
-Leer over [&#x200B; beste praktijken voor vestiging parameters UTM &#x200B;](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md).
+Leer over [ beste praktijken voor vestiging parameters UTM ](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md).
 
 **utm_medium**
 
@@ -74,7 +74,7 @@ Elke parameter verzamelt informatie die relevant is voor de toegewezen waarde. M
 
 Hier volgt een overzicht van de UTM-parameters die [!DNL Marketo Measure] parseert en het corresponderende aanraakpuntveld waaraan deze zijn gekoppeld:
 
-| UTM-parameter | Overeenkomend [!DNL Marketo Measure] veld |
+| **Parameter UTM** | **Overeenkomende [!DNL Marketo Measure] Gebied** |
 |---|---|
 | utm_medium | Medium |
 | utm_source | Aanraakpunt Source |

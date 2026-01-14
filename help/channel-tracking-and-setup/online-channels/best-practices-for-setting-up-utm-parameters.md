@@ -1,21 +1,21 @@
 ---
-description: Beste praktijken voor de Parameters van de Plaatsing UTM -  [!DNL Marketo Measure]
+description: Best practices voor het instellen van UTM-parameterrichtlijnen voor Marketo Measure-gebruikers
 title: Aanbevolen procedures voor het instellen van UTM-parameters
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
-
 
 # Aanbevolen procedures voor het instellen van UTM-parameters {#best-practices-for-setting-up-utm-parameters}
 
 UTM-parameters zijn ideaal om uw marketinggegevens te segmenteren en te verwerken. [!DNL Marketo Measure] gebruikt en legt alle UTM-parameters vast om velden in Salesforce en de [!DNL Marketo Measure] -app te vullen. Met deze informatie, kunt u een korrelig inzicht krijgen in waar uw lood, kansen, en gesloten/gewonnen overeenkomsten van komen.
 
-U kunt de [&#x200B; Bouwer van Google URL &#x200B;](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} gebruiken aan opstelling uw parameters UTM en hen toevoegen aan uw verbindingen binnen uw marketing inspanningen. Gebruik dit [&#x200B; Spreadsheet van Google &#x200B;](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} als u een gemakkelijkere manier wilt om al uw verbindingen te volgen UTM.
+U kunt de [ Bouwer van Google URL ](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} gebruiken aan opstelling uw parameters UTM en hen toevoegen aan uw verbindingen binnen uw marketing inspanningen. Gebruik dit [ Spreadsheet van Google ](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} als u een gemakkelijkere manier wilt om al uw verbindingen te volgen UTM.
 
 ## Waarden op hoog niveau voor elke parameter {#high-level-values-for-each-parameter}
 
@@ -69,4 +69,4 @@ fakewebsite.com/
 
 Let op: termen/kanalen worden niet gedupliceerd en in dit geval wordt utm_term niet gebruikt.
 
-Als er om het even welke vragen zijn, bereik uit aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Als er om het even welke vragen zijn, bereik uit aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

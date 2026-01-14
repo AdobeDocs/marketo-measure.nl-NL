@@ -1,15 +1,14 @@
 ---
-description: Kosten CRM-campagne
+description: Richtlijnen voor CRM-campagnes voor Marketo Measure-gebruikers
 title: Kosten CRM-campagne
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
-
 
 # Kosten CRM-campagne {#crm-campaign-costs}
 
@@ -31,7 +30,7 @@ Als in een van de drie velden een waarde ontbreekt, importeert [!DNL Marketo Mea
 
 [!DNL Marketo Measure] bepaalt de verdeling van een campagne over maanden door de begin- en einddatum van de campagne te gebruiken om het bedrag gelijkmatig per dag te verdelen.
 
-![&#x200B; voorbeeld van de de campagnekostendistributie van CRM door maand &#x200B;](assets/1.jpg)
+![](assets/spend-management-3.jpg)
 
 In dit voorbeeld duurt een campagne 109 dagen, dus met een totale kosten van $18.000, komt de uitgave per dag aan ~$165.14.
 
@@ -75,7 +74,7 @@ Elke wijziging van de kosten of de verdeling moet plaatsvinden in de BCR, zodat 
 
 **ik heb de begindatum, de einddatum, en de gevulde kosten maar waarom worden mijn kosten nog niet getoond in [!DNL Marketo Measure]?**
 
-Controleer of u de waarde &quot;Buyer Touchpoint inschakelen&quot; hebt ingesteld op &quot;Alle campagneleden opnemen&quot; of op zijn minst &quot;Alle leden van campagne opnemen die zijn gereageerd&quot;, of dat u een aangepaste regel voor campagnecorrectie hebt gemaakt die deze campagne omvat. Als u dit hebt bevestigd en nog niet de Campagne ziet, reik uit naar [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} zodat kunnen wij controleren dat uw Campagnes behoorlijk invoeren.
+Controleer of u de waarde &quot;Buyer Touchpoint inschakelen&quot; hebt ingesteld op &quot;Alle campagneleden opnemen&quot; of op zijn minst &quot;Alle leden van campagne opnemen die zijn gereageerd&quot;, of dat u een aangepaste regel voor campagnecorrectie hebt gemaakt die deze campagne omvat. Als u dit hebt bevestigd en nog niet de Campagne ziet, reik uit naar [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} zodat kunnen wij controleren dat uw Campagnes behoorlijk invoeren.
 
 **ik moet de distributie van mijn Campagne veranderen zodat ik het in bepaalde maanden kan zwaarder wegen. Hoe doe ik dat?**
 

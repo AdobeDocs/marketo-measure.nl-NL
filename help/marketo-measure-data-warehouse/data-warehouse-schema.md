@@ -1,46 +1,47 @@
 ---
-description: Data Warehouse Schema
+description: Referentie voor het Marketo Measure-gegevensopslagschema met gedetailleerde tabellen en kolommen
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '21106'
+source-wordcount: '21115'
 ht-degree: 1%
 
 ---
-
 
 # Data Warehouse Schema {#data-warehouse-schema}
 
 Met Data Warehouse kunt u zo veel bijhouden als u wilt, gegevens rapporteren over uw toewijzingsgegevens op de gewenste locatie en deze koppelen aan andere gegevenssets.
 
 >[!IMPORTANT]
-> Rijen met een waarde voor _DELETED_DATE worden 7 dagen bewaard en vervolgens uit Snowflake verwijderd.
-> De tijdzones die in Snowflake worden gebruikt, voldoen aan de UTC (Coordinated Universal Time).
+>
+>* Rijen met een waarde voor _DELETED_DATE worden 7 dagen bewaard en vervolgens uit Snowflake verwijderd.
+>* De tijdzones die in Snowflake worden gebruikt, voldoen aan de UTC (Coordinated Universal Time).
 
 >[!NOTE]
->[&#x200B; klik hier &#x200B;](#sample-queries) om steekproefvragen bij de bodem van dit artikel te zien.
+>
+>[ klik hier ](#sample-queries) om steekproefvragen bij de bodem van dit artikel te zien.
 
 ## Relatiediagrammen voor entiteiten {#entity-relationship-diagrams}
 
 Het _Model van de Gegevens van Data Warehouse_ ERD toont hoe de gegevens in het gegevenspakhuis bedoeld zijn om te stromen en samen worden verbonden. Dit diagram omvat niet alle lijsten beschikbaar in het gegevenspakhuis omdat sommige van hen kaartlijsten, meningen van andere reeds aanwezige lijsten, of afgekeurde lijsten vertegenwoordigen wij niet meer het gebruiken adviseren. Zie de gedetailleerde beschrijvingen van lijsten en kolommen aanwezig in het gegevenspakhuis hieronder. Veel van deze lijsten bevatten gedenormaliseerde gebieden, echter, is dit diagram het geadviseerde gegevensmodel, leveraging gegevens van dimensionele lijsten in plaats daarvan.
 
-Extra _voegt het Model van Gegevens 1&rbrace; ERD van Dimensionele Gegevens van Gegevens toe &lbrace;stelt een mening van voor hoe de lijsten voor advertenties specifieke dimensies het best terug naar de lijsten in het belangrijkste gegevensmodel kunnen worden verbonden._ Hoewel de afmetingen van advertenties ook in andere lijsten worden gedenormaliseerd, vertegenwoordigt dit het geadviseerde model om zich bij deze dimensies aan te sluiten.
+Extra _voegt het Model van Gegevens 1} ERD van Dimensionele Gegevens van Gegevens toe {stelt een mening van voor hoe de lijsten voor advertenties specifieke dimensies het best terug naar de lijsten in het belangrijkste gegevensmodel kunnen worden verbonden._ Hoewel de afmetingen van advertenties ook in andere lijsten worden gedenormaliseerd, vertegenwoordigt dit het geadviseerde model om zich bij deze dimensies aan te sluiten.
 
 _klik een beeld voor zijn full-size versie_
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <th>Data Warehouse-gegevensmodel</th>
-   <th>Hiermee voegt u een dimensionaal gegevensmodel toe</th>
+   <th>Data Warehouse-gegevensmodel</th> 
+   <th>Hiermee voegt u een dimensionaal gegevensmodel toe</th> 
   </tr> 
   <tr> 
-   <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
-   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td>
-  </tr>
- </tbody>
+   <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-thumb-1.png"></a></td>
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-thumb-1.png"></a></td> 
+  </tr> 
+ </tbody> 
 </table>
 
 ## Weergaven {#views}
@@ -78,7 +79,7 @@ Accounts die uit het bronsysteem zijn geïmporteerd.
     <tr>
       <td>NAAM</td>
       <td>varchar</td>
-      <td>De accountnaam van het bronsysteem.</td>
+      <td>De accountnaam, van het bronsysteem.</td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
@@ -3066,7 +3067,7 @@ Gegevens die zijn gegenereerd door de integratie van Attribution AI. Deze velden
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>original MM event id for the conversion event
+    <td>original MM event id for the conversion event 
     <br> kaarten aan een gebruiker touchpoint of een werkgebiedovergang</td>
     <td>00U0Z0000pCZmyUAG</td>
   </tr>
@@ -5789,7 +5790,8 @@ Toewijzingstabel voor e-mailadressen en bezoekersidentiteiten.
 Unies verenigen afbeeldingen, paginaweergaven, bezoeken, verzenden van formulieren, aanraakpunten voor gebruikers, aanraakpunten (BT), aanraakpunten (BAT) en kostengegevens. Wordt intern gebruikt ter ondersteuning van [!DNL Marketo Measure] -rapportage.
 
 >[!IMPORTANT]
->Marketo Measure zal deze tabel medio 2024 afschaffen. Als u wenst om het op uw kant tot stand te brengen, stel [&#x200B; deze SQL vraag &#x200B;](/help/data-warehouse/assets/BIZ_FACTS.sql) in werking.
+>
+>Marketo Measure zal deze tabel medio 2024 afschaffen. Als u wenst om het op uw kant tot stand te brengen, stel [ deze SQL vraag ](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql) in werking.
 
 <table>
   <tbody>
@@ -6661,7 +6663,7 @@ Vastgelegde formulierverzendingen.
         <p>URL waar het formulier is verzonden, inclusief eventuele queryparameters.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZd PdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZd PdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6915,7 +6917,7 @@ Afgevoerde en opgenomen indrukkingen. Voor deze tabel is een DoubleClick-verbind
       <td>
         <p>URL waar de Indrukking werd gediend, met inbegrip van om het even welke vraagparameters.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZd PdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZd PdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -9330,7 +9332,7 @@ Paginaweergaven verzameld bij webbezoeken. Weergaven met meerdere pagina&#39;s k
         <p>URL waarvan de paginaweergave afkomstig is, inclusief queryparameters.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9909,7 +9911,7 @@ Sessies zijn verwerkt vanuit paginaweergaven. Weergaven met meerdere pagina&#39;
         <p>URL van de eerste paginaweergave van de sessie, inclusief queryparameters.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -11610,7 +11612,7 @@ Aanraakpunten voor kopers, alle aanraakpunten die zijn gekoppeld aan een lead of
         <p>De eerste openingspagina van de sessie die tot een aanraakpunt heeft geleid. Een onbewerkte bestemmingspagina bevat alle queryparameters in de URL. In de CRM aangeduid als "Landing Page - Raw".</p>
       </td>
       <td>
-        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -12625,7 +12627,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>De eerste openingspagina van de sessie die tot een aanraakpunt heeft geleid. Een onbewerkte bestemmingspagina bevat alle queryparameters in de URL. In de CRM aangeduid als "Landing Page - Raw".</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ markto+%maat%27s+Pipeline+Marketing+blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ markto+%maat%27s+Pipeline+Marketing+blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12673,7 +12675,7 @@ Alle aanraakpunten die zijn gemaakt op basis van een gebeurtenis die aan een e-m
         <p>Het eerste formulier dat is opgenomen in een sessie en dat heeft geresulteerd in een aanraakpunt. Verdere formulierverzendingen worden niet weergegeven in de tabel Attribution_Touchpoints, maar in de tabel Form_Submits. Een onbewerkte formulierpagina kan queryparameters in de URL bevatten. Wordt in de CRM aangeduid als "Form URL - Raw".</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm_campagne=Content%20-%20adWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm_campagne=Content%20-%20adWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -13262,7 +13264,7 @@ Tabel toewijzen om sessie-id [!DNL Marketo Measure] toe te wijzen aan Adobe ECID
       <td>varchar</td>
       <td>URL van de paginaweergave, inclusief queryparameters.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>
@@ -13358,7 +13360,7 @@ Tabel toewijzen om sessie-id [!DNL Marketo Measure] toe te wijzen aan Adobe ECID
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
-
+ 
 select trim(split(ch.name,'.')[0])  as channel
       ,trim(split(ch.name,'.')[1])  as subchannel
       ,count(bt.id)                 as buyer_touchpoint_count
@@ -13380,7 +13382,7 @@ group by 1,2
 
 ```
 --Note: This query does not perform any currency conversion.  If your data contains multiple currencies, you will need to add in logic to perform the conversion to the desired currency using the biz_conversion_rates table.
-
+ 
 select trim(split(ch.name,'.')[0])  as channel
       ,sum(opp.amount*(bat.full_path_percentage/100))   as attributed_revenue
   from biz_user_touchpoints         ut
@@ -13403,7 +13405,7 @@ select trim(split(ch.name,'.')[0])  as channel
 group by 1
 ```
 
-**wat is de volledige reis voor één persoon? (Alle aanraakpunten weergeven voor één e-mailadres.)**
+**wat is de volledige reis voor één persoon?  (Alle aanraakpunten weergeven voor één e-mailadres.)**
 
 ```
 select ut.touchpoint_date
@@ -13447,6 +13449,7 @@ order by 1
 **toon alle Aanraakpunten van de Attributie van de Koper (BBTs) en hun Toegewezen Ontvangsten voor één enkele kans.**
 
 >[!NOTE]
+>
 >Deze vraag keert bestemmingsopbrengst voor het model van de W vorm terug. Wijzig het model door het veld bij te werken in de berekening van de toegerekende opbrengsten.
 
 ```

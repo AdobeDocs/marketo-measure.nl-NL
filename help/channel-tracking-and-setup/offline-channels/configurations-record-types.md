@@ -1,15 +1,14 @@
 ---
-description: Configuraties voor de Veelvoudige Types van Verslag van de Campagne -  [!DNL Marketo Measure]
+description: Configuraties voor de Meerdere richtlijnen voor het opnemen van records voor Marketo Measure-gebruikers
 title: Configuraties voor meerdere soorten campagnerecopnamen
 exl-id: 10499556-a591-4630-9149-ae676e6494af
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
-
 
 # Configuraties voor meerdere soorten campagnerecopnamen {#configurations-for-multiple-campaign-record-types}
 
@@ -19,18 +18,18 @@ Als op uw SFDC-org meerdere typen campagnemerecords worden gebruikt, moeten de k
 
 1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Record Types]** .
 
-   ![&#x200B; de lijst van de Types van Verslag van de Campagne van Salesforce &#x200B;](assets/1.jpg)
+   ![](assets/offline-channels-19.jpg)
 
 1. Selecteer de types van Verslag van de Campagne door **[!UICONTROL Record Type Label]** te klikken, niet de [!UICONTROL edit] knoop.
 
-   ![&#x200B; het type detailpagina van het verslagtype van de Campagne &#x200B;](assets/2.jpg)
+   ![](assets/offline-channels-15.jpg)
 
 1. Hier wordt u gebracht aan het scherm met de beschikbare picklists voor dat verslagtype. Selecteer **[!UICONTROL Edit]** naast het veld Aanraakpunten koper inschakelen.
 
-   ![&#x200B; Picklists sectie die Enable het gebied van Aanraakpunten van de Koper &#x200B;](assets/3.jpg) tonen
+   ![](assets/offline-channels-18.jpg)
 
 1. Voeg alle drie waarden uit de groep Beschikbare waarden toe aan de groep Geselecteerde waarden.
 
-   ![&#x200B; het uitgeven laat de waarden van de de pluklijst van Aanraakpunten van de Koper toe &#x200B;](assets/4.jpg)
+   ![](assets/offline-channels-10.jpg)
 
 1. Stel de standaardwaarde in op Geen en klik op **[!UICONTROL Save]** . Herhaal deze bewerking voor alle extra typen campagneopnamen.

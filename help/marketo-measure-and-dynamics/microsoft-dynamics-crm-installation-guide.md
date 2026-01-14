@@ -1,19 +1,20 @@
 ---
-description: '[!DNL Microsoft Dynamics] Installatiehandleiding voor CRM'
+description: Stapsgewijze handleiding voor de installatie en configuratie van het Marketo Measure-pakket in Microsoft Dynamics CRM
 title: '[!DNL Microsoft Dynamics] Installatiehandleiding voor CRM'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
-
 # [!DNL Microsoft Dynamics] Installatiehandleiding voor CRM {#microsoft-dynamics-crm-installation-guide}
 
 >[!NOTE]
+>
 >U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
 
 ## Ondersteunde versies {#supported-versions}
@@ -30,18 +31,19 @@ Voor verbinding en authentificatie, steunt [!DNL Marketo Measure] de volgende Ac
 
 ## De beheerde oplossing installeren {#install-the-managed-solution}
 
-[&#x200B; Download en installeer &#x200B;](assets/marketo-measure-dynamics-extension.zip) het zip dossier binnen Dynamica CRM.
+[ Download en installeer ](assets/marketo-measure-dynamics-extension.zip) het zip dossier binnen Dynamica CRM.
 
 **[!UICONTROL Settings]** > **[!UICONTROL Customizations]** > **[!UICONTROL Solutions]** > **[!UICONTROL Import]** (knop) > **[!UICONTROL Choose File]** .
 
-![&#x200B; de invoer van de Oplossingen van CRM van de Dynamiek scherm met de knoop van de Invoer &#x200B;](assets/1.png)
+![](assets/getting-dynamics-11.png)
 
 >[!NOTE]
+>
 >De volgende twee schermafbeeldingen kunnen van u lichtjes variëren, aangezien zij tijdens een oplossingsverbetering werden genomen.
 
-![&#x200B; de invoertovenaar van de Oplossing die pakketselectie toont &#x200B;](assets/2.png)
+![](assets/getting-dynamics-9.png)
 
-![&#x200B; de invoer van de Oplossing bevestigingsscherm &#x200B;](assets/3.png)
+![](assets/getting-dynamics-10.png)
 
 ## Een [!DNL Marketo Measure] gebruiker maken {#creating-a-marketo-measure-user}
 
@@ -58,9 +60,10 @@ Voor [!DNL Marketo Measure] aangepaste entiteiten hebben we volledige machtiging
 Campagne &quot;Maken&quot;-machtigingen zijn ook vereist, naast de lees- en schrijfmachtigingen voor standaardentiteiten.
 
 >[!NOTE]
+>
 >De gebruikers die kansen sluiten hebben ook de volledige toestemming nodig.
 
-![&#x200B; het configuratiescherm van de Rollen van de Veiligheid van de Dynamica die toestemmingen tonen &#x200B;](assets/4.png)
+![](assets/bizible-taxonomy-1.png)
 
 Raadpleeg het document over het dynamicaschema van [!DNL Marketo Measure] voor dynamische standaardeenheden. Op hoog niveau leest [!DNL Marketo Measure] in bepaalde entiteiten om de juiste gegevens te verzamelen en naar aangepaste velden te schrijven die met de beheerde oplossing zijn geïnstalleerd. Er worden geen standaardrecords gemaakt en standaardvelden worden niet bijgewerkt.
 
@@ -72,20 +75,20 @@ Raadpleeg het document over het dynamicaschema van [!DNL Marketo Measure] voor d
 
    * Als u campagnes wilt configureren, moet u de optie Campagnesynchronisatie inschakelen in **[!UICONTROL CRM]** > **[!UICONTROL Campaigns]** .
 
-   ![&#x200B; knevel van de Synchronisatie van de Campagne in de montages van Marketo Measure &#x200B;](assets/5.png)
+   ![](assets/creating-2e-1.png)
 
 1. Pagina-indelingen: voeg eerst een tegel &quot;[!UICONTROL One Column]&quot; toe in de sectie die u wilt gebruiken voor de aanraakpunten. Binnen die nieuwe kolom moeten we een subraster toevoegen aan elk formulier binnen uw account-, opportunity-, contact- en leidende entiteiten.
 
-   ![&#x200B; de redacteur van de Vorm die Één lay-out van de kolomsectie toont &#x200B;](assets/6.png)
+   ![](assets/getting-dynamics-8.png)
 
-   ![&#x200B; Subgrid component die wordt toegevoegd aan vormlay-out &#x200B;](assets/7.png)
+   ![](assets/getting-dynamics-7.png)
 
 1. Selecteer het object (Aanraakpunten voor koperkenmerken of Aanraakpunten voor koper) dat in het subraster moet worden weergegeven. Dit is afhankelijk van de objectrelatie. Wijzig desgewenst de kolommen die worden weergegeven door op de knop Bewerken te klikken. De standaardlay-out wordt geplaatst door de beheerde oplossing.
 
-   Buyer Attribution Touchpoint Subgrid - Accounts, Opportunity, and Contact
-Buyer Touchpoint Subgrid - Leads en contactpersonen
+   Buyer Attribution Touchpoint Subgrid - Accounts, Opportunity, and Contact\
+   Buyer Touchpoint Subgrid - Leads en contactpersonen
 
-   ![&#x200B; Subgrid eigenschappen dialoog die objecten selectieopties tonen &#x200B;](assets/8.png)
+   ![](assets/getting-dynamics-1.png)
 
 1. Wanneer u het formulier hebt bijgewerkt, publiceert u de wijzigingen en slaat u deze op.
 
@@ -107,26 +110,27 @@ Nadat u zich hebt aangemeld bij de [!DNL Marketo Measure] -toepassing en u bent 
 
 1. Klik in uw [!DNL Marketo Measure] -account op de vervolgkeuzelijst **[!UICONTROL My Account]** en selecteer **[!UICONTROL Settings]** .
 
-   ![&#x200B; Marketo Measure Mijn die drop-down menu van de Rekening met de optie van Montages wordt benadrukt &#x200B;](assets/microsoft-dynamics-crm-installation-guide-16.png)
+   ![](assets/getting-dynamics-10.png)
 
 1. Klik onder [!UICONTROL Integrations] in de linkernav op **[!UICONTROL Connections]** .
 
-   ![&#x200B; pagina van Montages met de optie van Verbindingen in linkernavigatie &#x200B;](assets/microsoft-dynamics-crm-installation-guide-17.png)
+   ![](assets/getting-dynamics-11.png)
 
 1. Klik op **[!UICONTROL Set Up New CRM Connection]** .
 
-   ![&#x200B; pagina van Verbindingen met de Nieuwe knoop van de Verbinding van CRM van de Opstelling &#x200B;](assets/microsoft-dynamics-crm-installation-guide-18.png)
+   ![](assets/getting-dynamics-2.png)
 
 1. Klik op de knop [!UICONTROL Microsoft Dynamics CRM] naast **[!UICONTROL Connect]** .
 
-   ![&#x200B; de verbindingsopties van CRM die Microsoft Dynamics CRM met Connect knoop tonen &#x200B;](assets/microsoft-dynamics-crm-installation-guide-19.png)
+   ![](assets/getting-dynamics-3.png)
 
 1. Selecteer [!UICONTROL Credentials] of [!UICONTROL OAuth] .
 
-   ![&#x200B; het selectiescherm van de de authentificatiemethode van Microsoft Dynamics CRM &#x200B;](assets/microsoft-dynamics-crm-installation-guide-20.png)
+   ![](assets/microsoft-guide-8.png)
 
    >[!NOTE]
-   >Voor meer informatie over OAuth, bezoek [&#x200B; dit artikel &#x200B;](/help/marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). Neem contact op met uw [!DNL Marketo Measure] accountvertegenwoordiger als u vragen hebt over het proces.
+   >
+   >Voor meer informatie over OAuth, bezoek [ dit artikel ](/help/marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). Neem contact op met uw [!DNL Marketo Measure] accountvertegenwoordiger als u vragen hebt over het proces.
 
 1. In dit voorbeeld hebben we Credentials gekozen. Voer uw referenties in en klik op **[!UICONTROL Next]** .
 
@@ -140,11 +144,11 @@ Als u een verbinding wilt maken met Advertentierekeningen met [!DNL Marketo Meas
 
 1. Klik op **[!UICONTROL Set up New CRM Connection]** .
 
-   ![&#x200B; pagina van Verbindingen die de Nieuwe knoop van de Verbinding van CRM van Opstelling tonen &#x200B;](assets/microsoft-dynamics-crm-installation-guide-21.png)
+   ![](assets/microsoft-guide-9.png)
 
 1. Selecteer het gewenste platform.
 
-   ![&#x200B; het selectiescherm van het rekeningsplatform van de Advertentie met diverse het advertentieplatformopties &#x200B;](assets/microsoft-dynamics-crm-installation-guide-22.png)
+   ![](assets/getting-dynamics-4.png)
 
 **[!DNL Marketo Measure]JavaScript**
 
@@ -152,23 +156,28 @@ Als u een verbinding wilt maken met Advertentierekeningen met [!DNL Marketo Meas
 
 1. Klik op de vervolgkeuzelijst **[!UICONTROL My Account]** en selecteer **[!UICONTROL Account Configuration]** .
 
-   ![&#x200B; Mijn drop-down Rekening met de optie van de Configuratie van de Rekening &#x200B;](assets/microsoft-dynamics-crm-installation-guide-23.png)
+   ![](assets/getting-dynamics-5.png)
 
 1. Voer uw telefoonnummer in. Voer bij Website het primaire hoofddomein in dat wordt gebruikt voor [!DNL Marketo Measure] tracking op uw website. Klik op **[!UICONTROL Save]** als u klaar bent.
 
-   ![&#x200B; pagina van de Configuratie van de Rekening met telefoonaantal en websitegebieden &#x200B;](assets/microsoft-dynamics-crm-installation-guide-24.png)
+   ![](assets/getting-dynamics-6.png)
 
    >[!NOTE]
+   >
    >Neem contact op met uw [!DNL Marketo Measure] accountvertegenwoordiger als u meerdere hoofddomeinen wilt toevoegen.
 
-1. [[!DNL Marketo Measure]  JavaScript &#x200B;](/help/marketo-measure-tracking/adding-marketo-measure-script.md) dan moet over de volledige plaats en landende pagina&#39;s worden geplaatst. Wij adviseren hardcoding het manuscript binnen het hoofd van uw landende pagina&#39;s of het toevoegen door een Systeem van Tag Management zoals [&#x200B; de Manager van de Markering van Google &#x200B;](/help/marketo-measure-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
+1. [[!DNL Marketo Measure]  JavaScript ](/help/marketo-measure-tracking/adding-marketo-measure-script.md) dan moet over de volledige plaats en landende pagina&#39;s worden geplaatst. Wij adviseren hardcoding het manuscript binnen het hoofd van uw landende pagina&#39;s of het toevoegen door een Systeem van Tag Management zoals [ de Manager van de Markering van Google ](/help/marketo-measure-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
 
    >[!NOTE]
+   >
    >Standaard exporteert [!DNL Marketo Measure] 200 records per API-credit telkens wanneer een taak gegevens naar uw CRM verzendt. Voor de meeste klanten biedt dit de optimale balans tussen API-credits die door [!DNL Marketo Measure] worden verbruikt en CPU-bronvereisten voor de CRM. Voor klanten met complexe CRM-configuraties, zoals workflows en triggers, kan een kleinere batch-omvang echter nuttig zijn om de CRM-prestaties te verbeteren. Met het oog hierop kunnen klanten in [!DNL Marketo Measure] de grootte van de CRM-exportbatch configureren. Deze instelling is beschikbaar op de pagina Instellingen > CRM > Algemeen in de [!DNL Marketo Measure] -webtoepassing. Klanten kunnen kiezen uit batchgrootten 200 (standaard), 100, 50 of 25.
+   >
    >Houd er bij het wijzigen van deze instelling rekening mee dat kleinere batchformaten meer API-credits van uw CRM verbruiken. Het wordt aangeraden de batch alleen te verkleinen als u een CPU-time-out of een hoge CPU-belasting in uw CRM-systeem hebt.
 
    >[!NOTE]
+   >
    >Wanneer u het exporteren van gegevens naar Dynamics uitschakelt, worden bestaande gegevens niet verwijderd. Voor hulp bij het verwijderen van bestaande gegevens, contacteer de Steun van de Dynamiek.
 
    >[!MORELIKETHIS]
-   >[&#x200B; Meldingen van de Fout &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+   >
+   >[ Meldingen van de Fout ](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

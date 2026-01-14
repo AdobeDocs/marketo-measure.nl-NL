@@ -1,15 +1,14 @@
 ---
-description: Waarom u geen aanraakpunten zou moeten schrappen -  [!DNL Marketo Measure]
+description: Waarom u de richtlijnen voor aanraakpunten nooit wilt verwijderen voor Marketo Measure-gebruikers
 title: Waarom u geen aanraakpunten wilt verwijderen
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
-
 
 # Waarom u geen aanraakpunten wilt verwijderen {#why-you-should-never-delete-touchpoints}
 
@@ -19,6 +18,6 @@ Het [!DNL Marketo Measure] -verwerkingssysteem registreert niet dat een aanraakp
 
 Wanneer een aanraakpunt wordt verwijderd, ontstaat een gat in de toewijzingsgegevens. Typisch, zal dit in attributie aanraakpunten op een Kans duidelijk worden. In de onderstaande afbeelding is het aanraakpunt dat de Opportunity Creation-aanraking zou hebben gekregen, verwijderd. Als gevolg hiervan ontbreekt deze kans aan het aanraakpunt van de OC en zal het toewijzingspercentage voor deze Opp niet oplopen tot 100%.
 
-![&#x200B; Ontbrekende Kans van de Aanmaak van de Kans touchpoint na schrapping &#x200B;](assets/1.png)
+![](assets/touchpoint-settings-10.png)
 
-Als de touchpoints van uw SFDC zijn geschrapt, reik uit aan [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om een herinvoer van uw gegevens te verzoeken.
+Als de touchpoints van uw SFDC zijn geschrapt, reik uit aan [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om een herinvoer van uw gegevens te verzoeken.

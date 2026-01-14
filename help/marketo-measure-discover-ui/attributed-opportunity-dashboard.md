@@ -1,15 +1,15 @@
 ---
-description: Attributed Opportunity Dashboard - [!DNL Marketo Measure]  - Product
+description: Behandelt het Attributed dashboard van de Kans dat opportuniteitsbedragen en tellingen door kanaal subchannel en campagne in tijd toont
 title: Toegewezen opportuniteitsdashboard
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
-
 
 # Toegewezen opportuniteitsdashboard {#attributed-opportunity-dashboard}
 
@@ -39,7 +39,7 @@ Gestapelde staafgrafiek met het Totaal toegewezen bedrag van de Kans, die door K
 * Welke kanalen produceerden het meest toegeschreven opportuniteitsbedrag elk kwartaal?
 * Wat was de uitsplitsing van toegewezen opportuniteitsbedrag per kanaal vorige maand?
 
-![&#x200B; Attributed opportuniteitsbedrag door kanaal over tijdgrafiek &#x200B;](assets/attributed-opportunity-dashboard-1.png)
+![](assets/attributed-dashboard-3.png)
 
 ### Tabel met toegewezen opportuniteitsbedrag {#attributed-opportunity-amount-table}
 
@@ -56,7 +56,7 @@ De tabellarische weergave biedt duidelijke en georganiseerde inzichten in de ver
 
 Klik op het pictogram **+** naast elk kanaal om de uitsplitsing naar subkanaal en campagne weer te geven.
 
-![&#x200B; Attributed opportuniteitsbedrag tabelvormige mening door kanaal en campagne &#x200B;](assets/attributed-opportunity-dashboard-2.png)
+![](assets/attributed-dashboard-1.png)
 
 #### Boomstructuurweergave {#tree-view}
 
@@ -64,7 +64,7 @@ De boomweergave maakt een interactieve en korrelere gegevensverkenning mogelijk,
 
 Klik op een vertakking om dieper naar de volgende hiërarchische laag te gaan.
 
-![&#x200B; Attributed de hiërarchie van de opportuniteitswaarde boommening &#x200B;](assets/attributed-opportunity-dashboard-3.png)
+![](assets/attributed-dashboard-2.png)
 
 ### Filtervenster
 

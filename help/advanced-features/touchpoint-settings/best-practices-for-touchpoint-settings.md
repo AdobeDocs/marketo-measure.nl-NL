@@ -1,15 +1,14 @@
 ---
-description: Beste praktijken voor de Montages van het Aanraakpunt -  [!DNL Marketo Measure]
+description: Tips en trucs voor Marketo Measure-gebruikers bij het instellen van aanraakpunten
 title: Aanbevolen werkwijzen voor aanraakpuntinstellingen
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
-
 
 # Aanbevolen werkwijzen voor aanraakpuntinstellingen {#best-practices-for-touchpoint-settings}
 
@@ -55,7 +54,8 @@ Redenen om uw [!UICONTROL Touchpoint] -instellingen te bekijken zijn...
 * Wijzigingen in de velden die worden gebruikt om de onderdrukking- of verwijderingsregels te definiëren
 
 >[!MORELIKETHIS]
-> [&#x200B; het Overzicht van de Verwijdering en van de Onderdrukking van het Aanraakpunt &#x200B;](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
-> [Waarom aanraakpunten nooit mogen worden verwijderd &#x200B;](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
-> [Aanraakpunten koper (BT) vs Aanraakpunten koper (BAT) &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-differences.md)
+>
+>* [ het Overzicht van de Verwijdering en van de Onderdrukking van het Aanraakpunt ](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
+>* [ waarom de Aanraakpunten nooit zouden moeten worden geschrapt ](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+>* [ Aanraakpunten van de Koper (BT) vs Aanraakpunten van de Attributie van de Koper (BAT) ](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 

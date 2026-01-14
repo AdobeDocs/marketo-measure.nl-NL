@@ -1,15 +1,14 @@
 ---
-description: Definitie van  [!DNL Marketo Measure]  zittingen van het Web -  [!DNL Marketo Measure]
+description: Definitie van  [!DNL Marketo Measure]  de richtlijnen van de Zittingen van het Web voor de gebruikers van Marketo Measure
 title: Definitie van  [!DNL Marketo Measure]  zittingen van het Web
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
-
 
 # Definitie van [!DNL Marketo Measure] websessies {#definition-of-marketo-measure-web-sessions}
 
@@ -30,29 +29,13 @@ Er zijn een paar dingen die bepalen wanneer een zitting beëindigt, en wanneer e
 
 ## Vervaldatum op basis van tijd {#time-based-expiration}
 
-### Verouderd gedrag {#legacy-behavior}
-
 **hoe lang een zitting het laatst?**
 
-[!UICONTROL Marketo Measure] -sessies eindigen na 30 minuten inactiviteit op de website. Bijvoorbeeld:
+[!DNL Marketo Measure] -sessies eindigen na 30 minuten inactiviteit op de website. Bijvoorbeeld:
 
 Wanneer Haley adobe.com bezoekt, wordt een sessie gestart. Ze verkent de website een paar minuten en stapt weg van haar computer, maar laat de website open. Na 30 minuten inactiviteit eindigt de sessie.
 
-Momenteel beschouwt [!UICONTROL Marketo Measure] paginanavigatie en formulierverzendingen alleen als activiteit. Schuiven door de webpagina of het boven een element op de pagina plaatsen wordt niet als activiteit beschouwd. Dus als Haley een bezoek brengt aan adobe.com om een blogbericht te lezen, en haar één uur nodig heeft om te lezen, eindigt haar websessie nog steeds na 30 minuten, zelfs als ze door de inhoud op de pagina scrolt.
-
-### Nieuw gedrag {#new-behavior}
-
-Voor nieuwe gebruikers is dit het standaardgedrag.
-
-De bestaande gebruikers kunnen het nieuwe gedrag goedkeuren door de knevel onder **Montages** aan te zetten > **de Attributie van de Knoop** > **Kanaal van de Zitting Overdracht**. Zodra geactiveerd, kan deze instelling niet worden omgekeerd.
-
-Wanneer een nieuwe sessie wordt gemaakt na 30 minuten inactiviteit, wordt het kanaal van de vorige sessie overgedragen als de nieuwe sessie binnen zeven dagen start. Deze overdracht geldt alleen voor rechtstreekse bezoeken (geen referentie of interne referentie). Als de inactiviteit meer dan zeven dagen duurt, wordt het kanaal voor de nieuwe sessie standaard ingesteld op Direct/Overige. Als Haley bijvoorbeeld landingpage.com uit Google bezoekt, meer dan 30 minuten inactief is en binnen zeven dagen terugkeert, behoudt de nieuwe sessie het Google-kanaal. Als dezelfde gebruiker de pagina echter via een ander kanaal terugkeert, wordt het niet-directe kanaal niet overschreven door het vorige Google-kanaal.
-
-Alleen het kanaal wordt overgedragen, met uitzondering van de details van de campagne of de referentie. De reden hiervoor is dat de kanaalclassificatie wordt afgehandeld door Marketo Measure, terwijl andere gegevenspunten afzonderlijk worden verzameld.
-
-**sociaal Sign-In**
-
-Wanneer een bezoeker gebruikmaakt van aanmelden via een sociaal netwerk via Google, Microsoft of Apple, wordt de sessie samengevoegd tot één doorlopende sessie. Als een bezoeker bijvoorbeeld op een pagina van LinkedIn landt, een Google sociale aanmelding voltooit en een pagina voor bedankt bereikt, telt deze allemaal als één sessie. Zonder de overdrachtschakelaar van het sessiekanaal aan te schakelen, zou het sociale inloggen afzonderlijke sessies maken die aan de externe referentie zijn toe te schrijven.
+Momenteel beschouwt [!DNL Marketo Measure] paginanavigatie en formulierverzendingen alleen als activiteit. Schuiven door de webpagina of het boven een element op de pagina plaatsen wordt niet als activiteit beschouwd. Dus als Haley een bezoek brengt aan adobe.com om een blogbericht te lezen, en haar één uur nodig heeft om te lezen, eindigt haar websessie nog steeds na 30 minuten, zelfs als ze door de inhoud op de pagina scrolt.
 
 ## Vervaldatum op basis van kanalen {#channel-based-expiration}
 
@@ -82,4 +65,4 @@ _Nochtans_, als de eerste Webzitting van Haley van Web Direct voortkwam, en dan 
 
 ## Google Analytics-sessies {#google-analytics-sessions}
 
-Er zijn enkele overeenkomsten met de manier waarop sessies door [!DNL Marketo Measure] en Google Analytics worden gedefinieerd. Voor meer informatie over hoe Google Analytics zittingen bepaalt, bezoek: [&#x200B; https://support.google.com/analytics/answer/2731565?hl=en &#x200B;](https://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}
+Er zijn enkele overeenkomsten met de manier waarop sessies door [!DNL Marketo Measure] en Google Analytics worden gedefinieerd. Voor meer informatie over hoe Google Analytics zittingen bepaalt, bezoek: [ https://support.google.com/analytics/answer/2731565?hl=en ](https://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}

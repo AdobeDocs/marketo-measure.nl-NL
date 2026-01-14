@@ -1,11 +1,11 @@
 ---
-description: Privacy-verzoeken -  [!DNL Marketo Measure]
+description: Richtlijnen voor privacyverzoeken voor Marketo Measure-gebruikers
 title: Privacyverzoeken
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,10 @@ Dit document biedt een overzicht van het beheer van individuele privacyverzoeken
 
 U kunt afzonderlijke aanvragen voor toegang tot en verwijdering van consumentengegevens uit [!DNL Marketo Measure] op twee manieren verzenden:
 
-* Door [[!DNL Privacy Service]  UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=nl-NL){target="_blank"}.
-* Via de **[!DNL Privacy Service]API** . Zie hier de documentatie [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=nl-NL){target="_blank"} en API verwijzing [&#x200B; &#x200B;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Door [[!DNL Privacy Service]  UI ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Via de **[!DNL Privacy Service]API** . Zie hier de documentatie [ ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} en API verwijzing [ ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-[&#x200B; Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL){target="_blank"} steunt twee soorten verzoeken: gegevenstoegang en gegevensschrapping.
+[ Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} steunt twee soorten verzoeken: gegevenstoegang en gegevensschrapping.
 
 Zie hoe u verzoeken van de Toegang en van de Schrapping kunt tot stand brengen.
 
@@ -65,7 +65,7 @@ Als u aanvragen wilt indienen voor toegang tot gegevens en gegevens wilt verwijd
 
 JSON-aanvraag
 
-```text
+```json
 {
   "companyContexts": [
     {
@@ -96,7 +96,7 @@ JSON-aanvraag
 
 JSON-reactie
 
-```text
+```json
 {
   "requestId": "16331241037112570RX-245",
   "totalRecords": 1,
@@ -128,7 +128,7 @@ JSON-reactie
 
 JSON-aanvraag
 
-```text
+```json
 {
   "companyContexts": [
     {
@@ -159,7 +159,7 @@ JSON-aanvraag
 
 JSON-reactie
 
-```text
+```json
 {
   "requestId": "16329573462631890RX-207",
   "totalRecords": 1,

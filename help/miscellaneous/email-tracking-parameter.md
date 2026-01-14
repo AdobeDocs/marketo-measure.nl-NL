@@ -1,15 +1,14 @@
 ---
-description: Parameter voor bijhouden van e-mail - [!DNL Marketo Measure]
+description: Richtlijnen voor het bijhouden van parameters voor Marketo Measure-gebruikers
 title: Parameter voor bijhouden van e-mail
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
-
 
 # Parameter voor bijhouden van e-mail {#email-tracking-parameter}
 
@@ -31,47 +30,13 @@ Marketo Measure accepteert de volgende waarden: E-mailadres, Salesforce Lead-id 
 
 ## Voorbeelden van tags {#tag-examples}
 
-<table>
- <colgroup>
-  <col>
-  <col>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th><p>Marketingautomatisering</p></th>
-   <th><p>Token/Tag/macro </p></th>
-   <th><p>Voorbeeld</p></th>
-   <th><p>Ondersteunend materiaal</p></th>
-  </tr>
-  <tr>
-   <td><p>Marketo</p></td>
-   <td><p> {lead.Email Address} </p></td>
-   <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}</p></td>
-   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=nl-NL</p></td>
-  </tr>
-  <tr>
-   <td><p>Pardot</p></td>
-   <td><p>%%email% </p><p>of</p><p>%%user_crm_id%%</p></td>
-   <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%</p></td>
-   <td><p>https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5</p></td>
-  </tr>
-  <tr>
-   <td><p>Hubspot</p></td>
-   <td><p>(ingevoegd via de Editor)</p></td>
-   <td><p>nvt</p></td>
-   <td><p>https://knowledge.hubspot.com/website-pages/personalize-your-content</p></td>
-  </tr>
-  <tr>
-   <td><p>Act-On</p></td>
-   <td><p>(ingevoegd via Message Composer)</p></td>
-   <td><p>nvt</p></td>
-   <td><p>https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data</p></td>
-  </tr>
- </tbody>
-</table>
+| Marketingautomatisering | Token/Tag/macro | Voorbeeld | Ondersteunend materiaal |
+| --- | --- | --- | --- |
+| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [ Tokens overzicht ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html) |
+| Pardot | %%email% of %%user_crm_id% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [ Pardot veranderlijke de markeringsverwijzing ](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
+| Hubspot | (ingevoegd via de Editor) | nvt | [ HubSpot personaliseert inhoud ](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
+| Act-On | (ingevoegd via Message Composer) | nvt | [ handeling-op personaliseer e-mailinhoud ](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |
 
 Tot slot moet u binnen [!DNL Marketo Measure] de parameter tracking opgeven, zodat [!DNL Marketo Measure] de waarde van de e-mail of id kan vinden. Het gebrek is &quot;mailId&quot;zoals aangetoond in de bovenstaande voorbeelden en het hieronder opgenomen scherm. Voer de waarde in uw instellingen in [!DNL Marketo Measure] in en klik op **[!UICONTROL Save]** .
 
-![&#x200B; de optie van het E-mail Volgen &#x200B;](assets/one.png)
+![](assets/one-one-1.png)

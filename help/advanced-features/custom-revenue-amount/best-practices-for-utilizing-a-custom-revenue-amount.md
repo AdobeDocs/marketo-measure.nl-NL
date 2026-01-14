@@ -1,15 +1,14 @@
 ---
-description: Beste praktijken voor het Gebruiken van een Bedrag van de Inkomsten van de Douane -  [!DNL Marketo Measure]
+description: Aanbevolen procedures voor het gebruik van een leidraad voor Aangepaste inkomstenbedragen voor Marketo Measure-gebruikers
 title: Aanbevolen werkwijzen voor het gebruik van een aangepaste opbrengstwaarde
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
-
 
 # Aanbevolen werkwijzen voor het gebruik van een aangepaste opbrengstwaarde {#best-practices-for-utilizing-a-custom-revenue-amount}
 
@@ -50,7 +49,8 @@ Naast een jaarlijkse evaluatie, kunnen bepaalde organisatorische veranderingen d
 * Wijzigingen in de manier waarop inkomsten worden gerapporteerd door de organisatie
 
 >[!MORELIKETHIS]
-> [&#x200B; Gebruikend een Gebied van de Bedrag van de Opbrengst van de Douane &#x200B;](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
-> [Het gebruiken van de Lader van Gegevens om het Gebied van het Bedrag van de Douane bij te werken &#x200B;](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
-> [Overzicht van Multi-Currency &#x200B;](/help/advanced-features/multi-currency/overview.md)
-> [Instellingen voor meerdere valuta&#39;s &#x200B;](/help/advanced-features/multi-currency/settings.md)
+>
+>* [ Gebruikend een Gebied van de Bedrag van de Opbrengst van de Douane ](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [ Gebruikend de Lader van Gegevens om het Gebied van het Bedrag van de Douane bij te werken ](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [ Overzicht van multi-Valuta ](/help/advanced-features/multi-currency/overview.md)
+>* [ multi-Currency Montages ](/help/advanced-features/multi-currency/settings.md)

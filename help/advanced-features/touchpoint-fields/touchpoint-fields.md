@@ -1,41 +1,40 @@
 ---
-description: Aanraakpuntvelden - [!DNL Marketo Measure]
+description: Richtlijnen voor aanraakpuntvelden voor Marketo Measure-gebruikers
 title: Aanraakpuntvelden
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
-
 
 # Aanraakpuntvelden {#touchpoint-fields}
 
 In het verleden, wanneer klanten aan boord met [!DNL Marketo Measure] zijn en in het geval dat wij geen directe codering hebben, richt ons team van Klantsucces onze klanten op hoe zij hun landingspagina&#39;s op de juiste manier kunnen labelen zodat zij de juiste UTM-indeling gebruiken en wij hun advertenties kunnen oplossen. Sommige van deze klanten gebruiken geen UTMs maar gebruiken eerder hun eigen etiketterende parameters, wat het zeer tijdrovend kan zijn om al hun landende pagina&#39;s over al hun advertentienetwerken met een nieuwe etiketteringsstructuur uit te geven die [!DNL Marketo Measure] handhaaft. Om zich aan hun het etiketteren structuur aan te passen, aanvaarden wij nu douaneparameters die met onze regeldefinities kunnen worden in kaart gebracht. Het doel is om aan het gebruik van klanten van hun douane het volgen parameters aan te passen zodat moeten wij hen niet vereisen om hun structuur URL te veranderen.
 
 >[!AVAILABILITY]
->Beschikbaar nu met volledige segmentering in Tier 2 en Tier 3.
 >
->Beschikbaar met volledige segmentering in Tier 2-abonnementen.
+>Beschikbaar nu met volledige segmentering in Tier 2 en Tier 3.
 
 >[!NOTE]
+>
 >Dit is een geavanceerde functie die alleen door Professional Services moet worden ingesteld.
 
 ## De functie inschakelen {#enabling-the-feature}
 
 Navigeer in het menu Instellingen van [!DNL Marketo Measure] naar de pagina Aanraakpuntvelden. Van daar, kunt u de eigenschap toelaten door **ja** te selecteren onder **laat Berekende Gebieden** toe. Nadat de functie is ingeschakeld, kunt u aanraakpuntvelden maken.
 
-![&#x200B; de montagespagina van de Gebieden van het Aanraakpunt met toelaat de Berekende optie van Gebieden &#x200B;](assets/one.png)
+![](assets/touchpoint-fields-1.png)
 
 ## Procedure {#how-to}
 
 Houd er rekening mee dat een gebruiker drie verschillende handelingen kan uitvoeren om een berekend veld te maken: extraheren, toewijzen en aaneenschakelen. Deze worden ook wel de operatoren voor het definiëren van een berekend veld genoemd.
 
-### Extracten {#extracts}
+Extracten
 
-De operator [!UICONTROL extracts] haalt de waarde uit een veld van een andere locatie, zoals: een Campagneveld, Lead-veld of, in een geavanceerder gebruiksgeval, aangepaste parameters uit de bestemmingspagina. Vervolgens wordt het op een aanraakpuntveld geplaatst.
+De [!UICONTROL extracts] exploitant trekt de waarde uit een gebied van een andere plaats, zoals: een gebied van de Campagne, het gebied van het Lood, of in een geavanceerder gebruiksgeval, [ trekt douaneparameters van de het landen pagina ](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. Het plaatst het dan op een Gebied van het Aanraakpunt (zie [ Kaarten aan Voorbeeld ](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Voorbeeld #1**
 
@@ -52,7 +51,7 @@ Doel: gebruik de waarde van een aangepast veld en plaats dit in het Touchpoint-o
    * **)** merkt het eind van de extractie
    * **.&#42;** vertelt ons dat we de volledige tekenreeks extraheren
 
-![&#x200B; Berekende configuratie van het Gebied voor het gebiedsextractie van Source van de Campagne &#x200B;](assets/two.png)
+![](assets/touchpoint-fields-10.png)
 
 **Voorbeeld #2**
 
@@ -72,7 +71,7 @@ Een veel voorkomend geval waarin deze functie wordt ingeschakeld, is het uittrek
    * **+** extraheert de volledige waarde van de parameter zonder limiet voor tekens
    * Let op: u gebruikt een slash in plaats van een slash
 
-![&#x200B; het gebiedsconfiguratie die van de Code van de Korting promo parameter uit URL haalt &#x200B;](assets/three.png)
+![](assets/touchpoint-fields-11.png)
 
 **Voorbeeld #3**
 
@@ -90,7 +89,7 @@ Laten we een vergelijkbaar voorbeeld proberen waarbij we een trackingcode extrah
    * **\ d** vertelt ons dat wij een &quot;cijfer&quot;halen
    * **{6}** is het aantal karakters wij extraheren
 
-![&#x200B; het gebied van identiteitskaart van Adobe Campaign die 6-cijferig cid parameter haalt &#x200B;](assets/four.png)
+![](assets/touchpoint-fields-12.png)
 
 **Voorbeeld #4**
 
@@ -119,9 +118,9 @@ Aangezien uw landingspagina&#39;s ingewikkelder worden en u veelvoudige het volg
    * **\ d** vertelt ons dat wij een &quot;cijfer&quot;halen
    * **{6}** is het aantal karakters wij extraheren
 
-![&#x200B; Veelvoudige berekende gebieden die land en campagneID parameters &#x200B;](assets/five.png) halen
+![](assets/touchpoint-fields-13.png)
 
-### Kaarten aan {#maps-to}
+**Kaarten aan**
 
 De operator [!UICONTROL maps to] maakt een tabel met waarden die moeten worden omgezet of opgenomen in een andere waarde. Gewoonlijk heeft dit de vorm van een sleutelwaarde waarbij een code een vriendelijke naam vertegenwoordigt en aan die vriendelijke naam moet worden toegewezen.
 
@@ -129,7 +128,7 @@ De operator [!UICONTROL maps to] maakt een tabel met waarden die moeten worden o
 
 Er zijn campagnes die je hebt gemaakt voor een &#39;Aanbieding voor einde zomer&#39; en &#39;Aanbieding voor Zwarte Vrijdag&#39; die via meerdere kanalen lopen. U wilt een Berekend Gebied tot stand brengen genoemd &quot;Initiatief&quot;en u wilt om het even welke aanraakpunten met een &quot;Bevordering van het Eind van de zomer&quot;of &quot;Zwarte Vrijdag&quot;aan een waarde van het Initiatief zoals &quot;Bevorderingen,&quot;naast andere mogelijke waarden in kaart brengen.
 
-![&#x200B; het gebied van het Initiatief in kaart brengende campagnes aan promotiecategorieën &#x200B;](assets/six.png)
+![](assets/touchpoint-fields-2.png)
 
 **Voorbeeld #2**
 
@@ -151,6 +150,8 @@ Nu we hebben geleerd hoe we die acties kunnen extraheren en toewijzen aan velden
    * **\ d** vertelt ons dat wij een &quot;cijfer&quot;halen
    * **\{2 \}** is het aantal karakters wij extraheren
 
+
+
 * Klik op [!UICONTROL Save]. U moet het nieuwe veld opslaan voordat het beschikbaar is voor de volgende regel.
 * Vervolgens willen we alle mogelijke waarden voor de eerste cijfers toewijzen aan de vriendelijke namen
 * Een berekend veld maken en dit veld het label Regio_Naam geven
@@ -165,9 +166,9 @@ Nu we hebben geleerd hoe we die acties kunnen extraheren en toewijzen aan velden
    * Als u 03 wilt extraheren, definieert u de waarde als &quot;BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}&quot;
    * Als u de 10-waarde wilt extraheren, definieert u deze als &quot;BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**&quot;
 
-![&#x200B; de toewijzingstabel van de Naam van het Gebied met numerieke codes aan gebiedsnamen &#x200B;](assets/seven.png)
+![](assets/touchpoint-fields-3.png)
 
-### Concatenaten {#concatenates}
+**samenvoegt**
 
 De operator [!UICONTROL concatenates] combineert waarden van meerdere velden tot één veld. Dit is handig om een aangepaste waarde te maken die gegevens in verschillende velden ophaalt om
 
@@ -175,7 +176,7 @@ De operator [!UICONTROL concatenates] combineert waarden van meerdere velden tot
 
 Er zijn afzonderlijke velden in het object Opportunity voor Segment__c en Grade__c die de gebruiker voor rapportagedoeleinden in één veld op het Touchpoint-object wil combineren. Door de velden samen te voegen, ziet u waarden zoals Enterprise_A of Mid-Market_B.
 
-![&#x200B; samenvoegen configuratie die de gebieden van het Segment en van de Grade combineert &#x200B;](assets/eight.png)
+![](assets/touchpoint-fields-4.png)
 
 ## Aanraakpuntvelden en -segmenten {#touchpoint-fields-and-segments}
 
@@ -183,17 +184,17 @@ Nu de waarden van uw URL zijn geparseerd en aanwezig zijn op het aanraakpunt, zi
 
 De mogelijkheid om segmenten te maken met aanraakpuntvelden is beschikbaar in deze productrelease. Segmenten konden niet eerder met aanraakpuntvelden worden gemaakt.
 
-![&#x200B; de aanmaakinterface die van het Segment beschikbare touchpoint gebieden toont &#x200B;](assets/nine.png)
+![](assets/touchpoint-fields-5.png)
 
 Om de bouw van Segmenten gemakkelijker te maken, is het nu mogelijk om dynamische Segmenten van de Gebieden te creëren Touchpoint die werden gecreeerd. Als u bijvoorbeeld een aanraakpuntveld hebt gemaakt dat een geografisch gebied heeft geparseerd in plaats van een segment te maken voor elk mogelijk gebied, kunt u één segment instellen en maken we voor elke instantie een nieuwe waarde. Dit is bijzonder nuttig als een attribuut zoals postcode moest worden ontleed en als segment worden gebruikt!
 
 Uw setup zou er ongeveer als de onderstaande schermafbeelding uitzien. De segmentnaam vult dynamisch de waarde van het aanraakpuntveld met de accolades naar het veld.
 
-![&#x200B; Dynamische segmentconfiguratie met de krullende verwijzing van het steungebied &#x200B;](assets/ten.png)
+![](assets/touchpoint-fields-6.png)
 
 De regel verwijst naar hetzelfde aanraakpuntveld en zoekt naar waarden die niet gelijk zijn aan null.
 
-![&#x200B; regel van het Segment met niet gelijk aan ongeldige voorwaarde &#x200B;](assets/eleven.png)
+![](assets/touchpoint-fields-7.png)
 
 ## Veelgestelde vragen {#faq}
 
@@ -206,6 +207,7 @@ Er geldt een limiet van 100 velden.
 Vergeet niet uw regels op te slaan nadat u deze hebt gemaakt. Als u het nieuwe veld niet ziet, controleert u of u het hebt opgeslagen. U moet het nieuwe veld opslaan voordat u het kunt gebruiken voor de volgende regel.
 
 >[!NOTE]
+>
 >Vanwege de complexiteit is een aanraakpuntveld dat de operator &quot;maps to&quot; gebruikt, niet beschikbaar voor gebruik in een ander aanraakpuntveld.
 
 **welke uitdrukking ik gebruik om veelvoudige parameters uit één enkele het landen pagina te halen?**
@@ -220,6 +222,6 @@ Er is extra werk nodig om de nieuwe gebieden in het schema van Data Warehouse va
 
 Er is een online hulpmiddel ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) dat u kunt lopen en uittesten de uitdrukking. De expressie wordt groen weergegeven als deze geldig is of rood als deze ongeldig is. Het vak [!UICONTROL explanation] rechtsboven is bovendien handig en vertelt u wat u wilt extraheren.
 
-![&#x200B; Regex bevestigingshulpmiddel dat geldige uitdrukking in groen toont &#x200B;](assets/twelve.png)
+![](assets/touchpoint-fields-8.png)
 
-![&#x200B; Regex bevestigingshulpmiddel dat ongeldige uitdrukking in rood toont &#x200B;](assets/thirteen.png)
+![](assets/touchpoint-fields-9.png)

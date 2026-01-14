@@ -1,15 +1,15 @@
 ---
-description: Het verlenen van  [!DNL Salesforce]  Toegang tot  [!DNL Marketo Measure]  Steun -  [!DNL Marketo Measure]
+description: Het verlenen van  [!DNL Salesforce]  Toegang tot de begeleiding van de Steun van Marketo Measure voor de gebruikers van Marketo Measure
 title: Het verlenen van  [!DNL Salesforce]  Toegang tot de Steun van Marketo Measure
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '166'
 ht-degree: 3%
 
 ---
-
 
 # [!DNL Salesforce] Toegang tot Marketo Measure-ondersteuning verlenen {#granting-salesforce-access-to-marketo-measure-support}
 

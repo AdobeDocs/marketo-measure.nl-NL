@@ -1,15 +1,14 @@
 ---
-description: '[!DNL Salesforce] Pakketconsolidatie -  [!DNL Marketo Measure]'
+description: '''[!DNL Salesforce] Pakketconsolidatie -  [!DNL Marketo Measure]'''
 title: '[!DNL Salesforce] Pakketconsolidatie'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Salesforce] Pakketconsolidatie {#salesforce-package-consolidation}
 
@@ -30,7 +29,7 @@ Er zijn twee nieuwe gebieden om uw rapporteringsmogelijkheden te verbeteren:
 
 ## Ondersteuning en overgang {#support-and-transition}
 
-Het [&#x200B; team van de Steun &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} is beschikbaar om het even welke vragen te beantwoorden en met het verzekeren van een vlotte overgang aan het nieuwe geconsolideerde pakket bij te wonen.
+Het [ team van de Steun ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} is beschikbaar om het even welke vragen te beantwoorden en met het verzekeren van een vlotte overgang aan het nieuwe geconsolideerde pakket bij te wonen.
 
 ## Vereiste handelingen {#retired-actions}
 
@@ -42,13 +41,13 @@ Het [&#x200B; team van de Steun &#x200B;](https://nation.marketo.com/t5/support/
       * V2_EXT-query:
          * bizible2_ext__Ad_Content_FT__c contains Outreach
 
-![&#x200B; het rapportfilter van de Steekproef gebruikend V2_EXT en het gebied van FT van de Inhoud &#x200B;](assets/package-consolidation-1.png)
+![](assets/bizible-full-1.png)
 
 * Overeenkomende query in het geconsolideerde pakket:
    * bizible2__Touchpoint_Position__c bevat FT AND
    * bizible2__Ad_Content__c bevat Outreach
 
-![&#x200B; Equivalent rapportfilter gebruikend geconsolideerde touchpoint gebieden &#x200B;](assets/salesforce-package-consolidation-2.png)
+![](assets/bizible-taxonomy-1.png)
 
 ## Veelgestelde vragen {#faq}
 
@@ -58,7 +57,7 @@ U hoeft het pakket niet te verwijderen voordat u het geconsolideerde pakket inst
 
 **Hoe kan ik backfill de gegevens van mijn huidige pakketten?**
 
-U kunt een kaartje [&#x200B; met Steun &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} voor het terugvullen en het opwerken van gegevens van BT/BAT dossier om identiteitskaart van het Aanraakpunt en de gebieden van identiteitskaart van de Vorm in te vullen.
+U kunt een kaartje [ met Steun ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} voor het terugvullen en het opwerken van gegevens van BT/BAT dossier om identiteitskaart van het Aanraakpunt en de gebieden van identiteitskaart van de Vorm in te vullen.
 
 **zullen de gebieden in V1 en V2_EXT pakketten in het geconsolideerde pakket beschikbaar zijn?**
 
@@ -66,4 +65,4 @@ Ja. Het geconsolideerde pakket bevat dezelfde velden in V1 met verdere uitsplits
 
 **kan rapporten die V2_EXT gebieden gebruiken in het geconsolideerde pakket worden opnieuw gecreeerd?**
 
-Ja. Volg de stappen in de [&#x200B; Vereiste sectie van Acties &#x200B;](#retired-actions).
+Ja. Volg de stappen in de [ Vereiste sectie van Acties ](#retired-actions).

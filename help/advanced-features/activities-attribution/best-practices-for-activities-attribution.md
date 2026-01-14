@@ -1,15 +1,14 @@
 ---
-description: Beste praktijken voor de Attributie van Activiteiten -  [!DNL Marketo Measure]
+description: Beste praktijken voor Activiteiten - Richtlijnen voor de Attributie voor de gebruikers van Marketo Measure
 title: Aanbevolen procedures voor kenmerk Activiteiten
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
-
 
 # Aanbevolen procedures voor kenmerk Activiteiten {#best-practices-for-activities-attribution}
 
@@ -30,6 +29,7 @@ Of u de regels van de Activiteit voor het eerst bepaalt of enkel het herzien van
    * Zoals vermeld, is het primaire gebruiksgeval van deze eigenschap touchpoints te creëren die de doeltreffendheid van uw team van de Ontwikkeling van de Verkoop, specifiek de Uitgaande Vraag van de Telefoon en Uitgaande E-mail volgen
 
 >[!NOTE]
+>
 >Het wordt **NIET** geadviseerd om de Activiteiten van de Verkoop te volgen die nadat de Kans wordt gecreeerd gebeuren, aangezien het volgen van een proces van de Uitvoering van de Verkoop niet veel insight aanbiedt. Het doel is de invloed van de Verkoop naast de invloed van de Marketing te volgen, hoofdzakelijk in de ontwikkeling van een nieuwe Kans/pijpleiding productie
 
 * Gebruik geen formulervelden om uw regels te definiëren
@@ -51,5 +51,6 @@ Andere redenen die kunnen leiden tot een herziening van de activiteitenregels zi
 * Wijzigingen of updates van de tools voor verkoopactivering
 
 >[!MORELIKETHIS]
-> [&#x200B; Attributie van Activiteiten &#x200B;](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [Veelgestelde vragen over kenmerken van verkoopactiviteiten &#x200B;](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+>
+>* [ Attributie van Activiteiten ](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
+>* [ Veelgestelde vragen van de Attributie van de Activiteiten van de Verkoop ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)

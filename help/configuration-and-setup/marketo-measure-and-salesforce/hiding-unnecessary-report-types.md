@@ -1,15 +1,14 @@
 ---
-description: Het verbergen van Onnoodzakelijke Types van Rapport -  [!DNL Marketo Measure]
+description: Het verbergen van de Onnoodzakelijke Richtlijnen van de Types van Rapport voor de gebruikers van Marketo Measure
 title: Onnodige rapporttypen verbergen
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
-
 
 # Onnodige rapporttypen verbergen {#hiding-unnecessary-report-types}
 
@@ -25,7 +24,8 @@ Nadat u de installatie hebt voltooid en rapporten hebt gebruikt, wordt niet elk 
 
 1. Klik op de onderstaande rapporten met een oranje X om de rapportlijst er hetzelfde te laten uitzien als de onderstaande afbeelding.
 
-   ![&#x200B; 4 &#x200B;](assets/1-4.png)
+   ![](assets/bizible-full-1.png)
 
 >[!MORELIKETHIS]
->[&#x200B; Salesforce - verberg Ongebruikte Types van Rapport &#x200B;](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)
+>
+>[ Salesforce - verberg Ongebruikte Types van Rapport ](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

@@ -1,15 +1,15 @@
 ---
-description: OAuth met  [!DNL Azure Active Directory]  voor Dynamica CRM -  [!DNL Marketo Measure]
+description: OAuth met  [!DNL Azure Active Directory]  voor de begeleiding van CRM van de Dynamica voor de gebruikers van Marketo Measure
 title: OAuth met  [!DNL Azure Active Directory]  voor Dynamica CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
-
 
 # OAuth met [!DNL Azure Active Directory] voor Dynamics CRM {#oauth-with-azure-active-directory-for-dynamics-crm}
 
@@ -18,29 +18,30 @@ ht-degree: 0%
 Deze setup is bedoeld voor nieuwe [!DNL Marketo Measure] -klanten die Dynamics CRM gebruiken met een [!DNL Azure Active Directory] (AAD)-account, of voor klanten die van hun oudere gebruikersnaam en wachtwoord naar [!DNL Azure Active Directory] willen migreren met OAuth.
 
 >[!NOTE]
+>
 >Voor beide scenario&#39;s, wordt AAD opstelling hier om het verbinden van uw instantie van de Dynamiek in [!DNL Marketo Measure] als Leverancier van Gegevens te vergemakkelijken.
 
 ## Nieuwe toepassing instellen {#set-up-new-application}
 
-1. Teken binnen aan uw [&#x200B; Azure Portaal &#x200B;](https://portal.azure.com/#home).
+1. Teken binnen aan uw [ Azure Portaal ](https://portal.azure.com/#home).
 
 1. Kies de Azure AD-huurder door op uw account in de rechterbovenhoek van de pagina te klikken, gevolgd door op de navigatie Switch Directory te klikken en vervolgens de juiste huurder te selecteren. Sla deze stap over als u slechts één Azure AD-huurder onder uw account hebt of als u al de juiste Azure AD-huurder hebt geselecteerd.
 
-   ![&#x200B; Azure Poorthuurselectie drop-down menu &#x200B;](assets/setup-2.png)
+   ![](assets/bizible-taxonomy-1.png)
 
 1. Zoek naar &quot;[!DNL Azure Active Directory]&quot;in de onderzoeksbar en klik de naam om te openen.
 
-   ![&#x200B; Azure Portal onderzoeksresultaten die Azure Actieve Folder tonen &#x200B;](assets/setup-3.png)
+   ![](assets/creating-2e-1.png)
 
 1. Klik op **[!UICONTROL App Registrations]** in het menu aan de linkerkant.
 
-   ![&#x200B; Azure Active Directory navigatiemenu met App Registrations &#x200B;](assets/setup-4.png)
+   ![](assets/getting-dynamics-1.png)
 
 1. Klik op **[!UICONTROL New Registration]** boven.
 
-   ![&#x200B; pagina van de Registratie van de Toepassing met de Nieuwe knoop van de Registratie &#x200B;](assets/setup-5.png)
+   ![](assets/getting-dynamics-10.png)
 
-1. Volg de aanwijzingen en maak een toepassing. Het maakt niet uit als het een Webtoepassing of een openbare cliënt (mobiel &amp; Desktop) toepassing is, maar als u specifieke voorbeelden voor Webtoepassingen of openbare cliënttoepassingen zou willen, controleer uit [&#x200B; quickstart &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview).\
+1. Volg de aanwijzingen en maak een toepassing. Het maakt niet uit als het een Webtoepassing of een openbare cliënt (mobiel &amp; Desktop) toepassing is, maar als u specifieke voorbeelden voor Webtoepassingen of openbare cliënttoepassingen zou willen, controleer uit [ quickstart ](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview).\
    a. De naam is de toepassingsnaam en beschrijft de toepassing die u voor de eindgebruikers wilt gebruiken.\
    b. Selecteer onder Ondersteunde accounttypen de optie Accounts in een willekeurige organisatiemap en persoonlijke Microsoft-accounts.\
    c. Geef de Redirect URI op. Voor webtoepassingen is dit de basis-URL van uw app waar gebruikers zich kunnen aanmelden. Bijvoorbeeld `http://localhost:12345` . Azure AD gebruikt deze voor openbare clients (mobiel en bureaublad) om tokenreacties te retourneren. Voer een waarde in die specifiek is voor uw toepassing. Bijvoorbeeld `http://MyFirstAADApp` .
@@ -51,33 +52,33 @@ Deze setup is bedoeld voor nieuwe [!DNL Marketo Measure] -klanten die Dynamics C
 
 1. Klik op **[!UICONTROL Authentication]** in het menu aan de linkerkant.
 
-   ![&#x200B; het menu van de Toepassing met benadrukte optie van de Authentificatie &#x200B;](assets/setup-9.png)
+   ![](assets/getting-dynamics-11.png)
 
 1. Voeg de URL&#39;s [!DNL Marketo Measure] redirect: `https://apps.bizible.com/OAuth2` en `https://apps.bizible.com/OAuth2?identityOnly=true` toe aan de lijst met URL&#39;s omleiden.
 
-   ![&#x200B; de montages die van de Authentificatie Marketo Measure redirect URLs tonen &#x200B;](assets/setup-10.png)
+   ![](assets/getting-dynamics-2.png)
 
 1. Navigeer naar het tabblad API-machtigingen en controleer of de juiste machtigingen aan de toepassing zijn toegewezen.
 
-   ![&#x200B; API het lusje van Toestemmingen die toegewezen toestemmingen tonen &#x200B;](assets/setup-10a.png)
+   ![](assets/getting-dynamics-3.png)
 
 1. Van hier, ga &quot;[!UICONTROL enterprise]&quot;in het onderzoeksvakje in en klik **[!UICONTROL Enterprise Applications]**.
 
-   ![&#x200B; Azure Portal onderzoek dat de Toepassingen van de Onderneming &#x200B;](assets/setup-11.png) toont
+   ![](assets/getting-dynamics-4.png)
 
 1. Zoek en open de nieuwe toepassing opnieuw vanuit de lijst met toepassingen.
 
 1. Klik op **[!UICONTROL Grant Admin Consent for (instance name)]** op het tabblad Machtigingen.
 
-   ![&#x200B; het lusje van Toestemmingen met de knoop van de Toestemming Admin van de Verlening &#x200B;](assets/setup-13a.png)
+   ![](assets/getting-dynamics-5.png)
 
 1. Klik op **[!UICONTROL Accept]**.
 
-   ![&#x200B; Admin dialoog van de bevestigingsbevestiging met Accepteren knoop &#x200B;](assets/setup-13b.png)
+   ![](assets/getting-dynamics-6.png)
 
 1. Van het &quot;[!UICONTROL Users and Groups]&quot;lusje, zorg ervoor dat de geldige &quot;Gebruikers en de Groepen&quot;aan de Toepassing worden toegewezen.
 
-   ![&#x200B; Gebruikers en het lusje van Groepen die toegewezen gebruikers &#x200B;](assets/setup-14.png) tonen
+   ![](assets/getting-dynamics-7.png)
 
 ## Een toepassingsgebruiker maken {#creating-an-application-user}
 
@@ -94,8 +95,10 @@ Wanneer de toepassingsregistratie is voltooid, kan een toepassingsgebruiker word
 1. Voer in het formulier Application User de vereiste gegevens in.
 
    >[!NOTE]
-   > De gegevens van de gebruikersnaam mogen niet overeenkomen met een gebruiker die in de [!DNL Azure Active Directory] voorkomt.
-   > Voer in het veld Toepassings-id de toepassings-id in van de toepassing die u eerder hebt geregistreerd in de Azure AD.
+   >
+   >* De gegevens van de gebruikersnaam mogen niet overeenkomen met een gebruiker die in de [!DNL Azure Active Directory] voorkomt.
+   >
+   >* Voer in het veld Toepassings-id de toepassings-id in van de toepassing die u eerder hebt geregistreerd in de Azure AD.
 
 1. Als de instelling juist is, wordt de waarde automatisch ingevuld in de velden **[!UICONTROL Save]** en **[!UICONTROL Application ID URI]** nadat u **[!UICONTROL Azure AD Object Id]** hebt geselecteerd.
 
@@ -103,7 +106,7 @@ Wanneer de toepassingsregistratie is voltooid, kan een toepassingsgebruiker word
 
 ## De instantie van de Dynamiek verbinden via OAuth {#connecting-your-dynamics-instance-via-oAuth}
 
-1. Wanneer vestiging uw verbinding van de Dynamiek voor het eerst, volg stappen 1-5 van &quot;CRM als sectie van de Leverancier van Gegevens&quot;in [&#x200B; dit artikel &#x200B;](/help/marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
+1. Wanneer vestiging uw verbinding van de Dynamiek voor het eerst, volg stappen 1-5 van &quot;CRM als sectie van de Leverancier van Gegevens&quot;in [ dit artikel ](/help/marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
 1. Wanneer ertoe aangezet voor OAuth geloofsbrieven, vul identiteitskaart van de Cliënt, Geheime cliënt, en identiteitskaart URI in van de Toepassing die opstelling in de sectie hierboven waren.
 
@@ -111,7 +114,7 @@ a. Client-id is de id uit stap 7 in de bovenstaande sectie. Als u het niet hebt 
 
 b. Client Secret is het toepassingsgeheim dat in de Azure Portal voor uw toepassing is gemaakt onder Certificates &amp; Secrets.
 
-![&#x200B; Certificaten en geheimen pagina die cliënt geheime waarde tonen &#x200B;](assets/creating-2e.png)
+![](assets/getting-dynamics-8.png)
 
 c. De URI van de toepassings-id is de URL van de doel-API (beveiligde bron). Als u de URL van de toepassings-id wilt zoeken, klikt u in de Azure Portal op [!DNL Azure Active Directory] , klikt u op Toepassingsregistraties, opent u de pagina Instellingen van de toepassing en klikt u vervolgens op Eigenschappen. Het kan ook een externe bron zijn zoals `https://graph.microsoft.com` . Dit is normaal de URL van de instantie Dynamics.
 
@@ -125,6 +128,6 @@ c. De URI van de toepassings-id is de URL van de doel-API (beveiligde bron). Als
 
 1. Wanneer op de toets wordt geklikt, wordt een pop-up weergegeven en wordt u gevraagd om de URI voor de client-id, clientgeheim en toepassings-id in te voeren, vergelijkbaar met de aanmeldstroom.
 
-   ![&#x200B; de dialoog van de authentificatie met OAuth credential gebieden &#x200B;](assets/re-authenticating-3.png)
+   ![](assets/getting-dynamics-9.png)
 
 1. Nadat u op **[!UICONTROL Submit]** hebt geklikt, wordt u gevraagd u aan te melden bij [!DNL Azure Active Directory] . Wanneer de verificatie is gelukt, wordt uw Dynamics-account opnieuw geautoriseerd binnen [!DNL Marketo Measure] .

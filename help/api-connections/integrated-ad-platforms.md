@@ -1,15 +1,15 @@
 ---
-description: Geïntegreerde AD-platforms -  [!DNL Marketo Measure]
+description: Richtlijnen voor geïntegreerde ad-hocplatforms voor Marketo Measure-gebruikers
 title: Geïntegreerde AD-platforms
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
-
 
 # Geïntegreerde AD-platforms {#integrated-ad-platforms}
 
@@ -21,11 +21,11 @@ Voordat we details van elk platform bekijken, gaan we na hoe we een van deze acc
 
 Zoals in de onderstaande afbeelding wordt weergegeven, ziet u een knop om nieuwe advertentieverbindingen in te stellen.
 
-![&#x200B; pagina van Verbindingen met de knoop van de Verbinding van Opstelling Nieuwe Advertenties &#x200B;](assets/2.png)
+![](assets/bizible-guide-1.png)
 
 Nadat u op de knop [!UICONTROL Set up New Ads Connection] hebt geklikt, wordt een venster (dat hieronder wordt weergegeven) weergegeven met vier pictogramtypen. [!UICONTROL connect] Klik op Verbinding maken en een ander venster verschijnt met de vraag naar referenties. Voer de gegevens in en klik op [!UICONTROL authorize] om de account te verbinden met [!DNL Marketo Measure] .
 
-![&#x200B; Marketo Measure adverteert verbinding modaal met beschikbare rekeningstypes &#x200B;](assets/select-account-type.png)
+![](assets/five-five-1.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -38,13 +38,13 @@ De het Volgen Malplaatje is een hulpmiddel Google verstrekt om toe te voegen wat
 [!DNL Marketo Measure] Zoekt naar Sjablonen bijhouden in uw [!DNL AdWords] -account:
 
 * *Optie A*: Het Volgen Malplaatje wordt gevonden. [!DNL Marketo Measure] voegt de parameters ervan toe aan de sjabloon.
-* *Optie B*: De herleiding van de derde wordt gevonden. Als er een doorverwijzing van derden wordt gevonden in de sjabloon voor reeksspatiëring, kan [!DNL Marketo Measure] geen actie ondernemen. U moet de [!DNL Marketo Measure] -tags handmatig toevoegen aan het systeem van derden. Een voorbeeld van omleiding door derden zou een instrument voor het beheren van biedingen zijn, zoals Kenshoo of Marin. Leer meer over hoe [&#x200B; de hulpmiddelen van het biedingsbeheer  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} beïnvloeden.
+* *Optie B*: De herleiding van de derde wordt gevonden. Als er een doorverwijzing van derden wordt gevonden in de sjabloon voor reeksspatiëring, kan [!DNL Marketo Measure] geen actie ondernemen. U moet de [!DNL Marketo Measure] -tags handmatig toevoegen aan het systeem van derden. Een voorbeeld van omleiding door derden zou een instrument voor het beheren van biedingen zijn, zoals Kenshoo of Marin. Leer meer over hoe [ de hulpmiddelen van het biedingsbeheer  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} beïnvloeden.
 
 * *Optie C*: Geen het Volgen Malplaatje wordt gevonden. [!DNL Marketo Measure] doorzoekt al uw URL&#39;s voor advertentiebestemming naar de [!DNL Marketo Measure] -parameters. Gebaseerd op de scan, indien:
    * Er zijn parameters gevonden: de installatie is voltooid!
    * Parameters worden niet gevonden: [!DNL Marketo Measure] voegt de parameters toe aan het einde van de URL&#39;s voor het toevoegen van doelen. [!DNL Marketo Measure] voegt nieuwe advertenties toe binnen twee uur nadat deze zijn gemaakt. Onthoud dat de parameters niet aan een sjabloon worden toegevoegd.
 
-Leer meer over onze [[!DNL AdWords]  auto-etiketterende functionaliteit &#x200B;](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
+Leer meer over onze [[!DNL AdWords]  auto-etiketterende functionaliteit ](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## [!DNL Marketo Measure] Automatisch labelen voor Adwords inschakelen {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -52,23 +52,23 @@ Alvorens [!DNL Marketo Measure] auto-etiketteren toe te laten, **zorg ervoor dat
 
 Als u een sjabloon voor bijhouden hebt, volgt u de onderstaande instructies om [!DNL Marketo Measure] Automatisch labelen in te schakelen. Opmerking: in [!DNL Marketo Measure] worden ook eventuele gepauzeerde advertenties in uw account automatisch van tags voorzien.
 
-1. Teken binnen aan uw [!DNL Marketo Measure] rekening in [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}.
+1. Teken binnen aan uw [!DNL Marketo Measure] rekening in [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 1. Ga naar [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections] .
 
-   ![&#x200B; lijst van Verbindingen met bestaande advertentierekeningen &#x200B;](assets/4.png)
+   ![](assets/utilizing-connections-8.png)
 
 1. Klik op het potloodpictogram naast het account Adwords waarvoor automatische labeling is ingeschakeld voor [!DNL Marketo Measure] .
 
-   ![&#x200B; het paneel van de rekeningsmontages van de Advertentie met automatische knevel &#x200B;](assets/5.png)
+   ![](assets/utilizing-connections-9.png)
 
 1. Schakel in de rechterbovenhoek de **[!UICONTROL Autotagging]** -schakelaar in op **[!UICONTROL Yes]** . Klik onder aan de pagina op **[!UICONTROL Learn More]** om het tekstvak uit te vouwen en klik op **[!UICONTROL Save]** . Setup voor automatisch labelen is voltooid.
 
-   ![&#x200B; Autotagging bevestigingsmodaal in Marketo Measure &#x200B;](assets/6.png)
+   ![](assets/utilizing-connections-10.png)
 
 ## Hoe te opstelling een het Volgen Malplaatje in AdvertentieWoorden met [!DNL Marketo Measure] Parameters {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-Houd er rekening mee dat u volgsjablonen op het niveau [!UICONTROL Account] , [!UICONTROL Campaign] of Groep toevoegen aan Advertentie-woorden moet toevoegen. Als u volgsjablonen toevoegt aan het trefwoord-, sitelink- of advertentieniveau, moet uw advertentie het revisie- en goedkeuringsproces doorlopen en loopt u het risico dat de prestatiegeschiedenis van uw advertenties opnieuw wordt gestart. Leer meer over [&#x200B; het creëren van het volgen malplaatjes &#x200B;](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
+Houd er rekening mee dat u volgsjablonen op het niveau [!UICONTROL Account] , [!UICONTROL Campaign] of Groep toevoegen aan Advertentie-woorden moet toevoegen. Als u volgsjablonen toevoegt aan het trefwoord-, sitelink- of advertentieniveau, moet uw advertentie het revisie- en goedkeuringsproces doorlopen en loopt u het risico dat de prestatiegeschiedenis van uw advertenties opnieuw wordt gestart. Leer meer over [ het creëren van het volgen malplaatjes ](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Meld u aan bij uw [!DNL Google AdWords] -account.
 1. Ga naar de [!UICONTROL Campaigns] -weergave op de linkernavigatiebalk
@@ -88,6 +88,7 @@ Houd er rekening mee dat u volgsjablonen op het niveau [!UICONTROL Account] , [!
    Om te voorkomen dat fouten optreden wanneer u uw URL&#39;s handmatig labelt, wordt doorgaans aanbevolen de UTM-parameters automatisch te genereren. Dit hoeft niet automatisch labelen met ADWoorden of [!DNL Marketo Measure] -parameters te betekenen, er zijn meerdere gereedschappen die het proces vereenvoudigen door de parameters voor de URL automatisch te genereren op basis van de informatie die u opgeeft.
 
    >[!TIP]
+   >
    >Als er een fout optreedt met de mededeling dat de sjabloon voor bijhouden ongeldig is, probeert u de cache van de browser te wissen en het opnieuw te proberen. Dit lost het probleem vaak op.
 
 ## UTM-tags automatisch genereren voor [!DNL Google AdWords] {#how-to-automatically-generate-utm-tags-for-google-adwords}
@@ -96,21 +97,21 @@ UTM-tags kunnen in eerste instantie moeilijk worden gemaakt, maar er zijn veel g
 
 **[!DNL Google URL]Builder**
 
-Google URL Builder is een standaardprogramma voor het maken van correct opgemaakte URL&#39;s met UTM-tags. Ga URL en de gewenste waarde van elke parameter in en klik &quot;[!UICONTROL Generate URL]&quot;. Dit is een ideaal hulpmiddel om te gebruiken als u slechts een paar URLs aan markering hebt. Heb toegang tot het hulpmiddel [&#x200B; hier &#x200B;](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
+Google URL Builder is een standaardprogramma voor het maken van correct opgemaakte URL&#39;s met UTM-tags. Ga URL en de gewenste waarde van elke parameter in en klik &quot;[!UICONTROL Generate URL]&quot;. Dit is een ideaal hulpmiddel om te gebruiken als u slechts een paar URLs aan markering hebt. Heb toegang tot het hulpmiddel [ hier ](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
 
 **Google Spreadsheet die door EpikOne** wordt geproduceerd
 
-Dit spreadsheet heeft een formule die geëtiketteerde bestemmingsURLs automatisch zal produceren. Dit is een handig gereedschap als u een groot aantal koppelingen van tags wilt voorzien. Heb toegang tot spreadsheet [&#x200B; hier &#x200B;](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&hl=en){target="_blank"}.
+Dit spreadsheet heeft een formule die geëtiketteerde bestemmingsURLs automatisch zal produceren. Dit is een handig gereedschap als u een groot aantal koppelingen van tags wilt voorzien. Heb toegang tot spreadsheet [ hier ](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&hl=en){target="_blank"}.
 
 **Rafflecopter het Tags toevoegen Hulpmiddel van de Verbinding**
 
 Het spreadsheet dat door Rafflecopter wordt gecreeerd is een gewijzigde versie van [!DNL EpikOne's] spreadsheet. Het bevat ook een formule die automatisch geëtiketteerde bestemmingsverbindingen voor u aan gebruik zal produceren.
 
-Elk van deze hulpmiddelen heeft gedetailleerde instructies op hoe te om het te gebruiken en te wijzigen om aan uw behoeften te passen. Het hulpmiddel is beschikbaar [&#x200B; hier &#x200B;](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}.
+Elk van deze hulpmiddelen heeft gedetailleerde instructies op hoe te om het te gebruiken en te wijzigen om aan uw behoeften te passen. Het hulpmiddel is beschikbaar [ hier ](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}.
 
 **efficiënt het Ongelofelijke Bouwer UTM**
 
-Dit gereedschap is een Chrome-extensie waarmee u snel UTM-tags kunt genereren. Vind het [&#x200B; hier &#x200B;](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target="_blank"}.
+Dit gereedschap is een Chrome-extensie waarmee u snel UTM-tags kunt genereren. Vind het [ hier ](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target="_blank"}.
 
 ## Bing Ads {#bing-ads}
 
@@ -121,6 +122,7 @@ Onze integratie ondersteunt de volgende advertentietypen:
 * Tekst toevoegen
 * Mobiele advertentie
 * Toegevoegde tekst uitgebreid
+
 
 De functie voor automatische labeling van Bing Ads voegt de volgende UTM-parameters toe:
 
@@ -142,17 +144,17 @@ U kunt desgewenst een sjabloon voor bijhouden gebruiken, maar [!DNL Bing Ads] en
 
 Automatisch labelen moet zijn ingeschakeld via [!DNL Marketo Measure] , zodat de aangepaste [!DNL Marketo Measure] -parameters automatisch kunnen worden toegevoegd. Er bestaat geen risico dat de geschiedenis van eerdere advertenties met Bing Ads verloren gaat.
 
-Ga naar de [[!DNL Bing Ads] &#x200B;](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls){target="_blank"} website voor meer informatie over het toevoegen van markeringen op hun platform.
+Ga naar de [[!DNL Bing Ads] ](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls){target="_blank"} website voor meer informatie over het toevoegen van markeringen op hun platform.
 
 ## Facebook-advertenties {#facebook-ads}
 
-Dankzij de [!DNL Marketo Measure] -integratie met [!DNL Facebook] kan de URL automatisch worden gedownload en informatie worden toegevoegd en kunnen de parameters van de URL worden voorzien van tags. [!DNL Marketo Measure] haalt de gegevens voor Campagne en Advertentieset door middel van automatische labeling aan. In het veld Naam advertentieset wordt het veld Naam advertentiegroep ingevuld. Voor meer informatie bij vestigingURL markeringen op het [!DNL Facebook] platform, bezoek de [!DNL Facebook] [&#x200B; zaken &#x200B;](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} pagina.
+Dankzij de [!DNL Marketo Measure] -integratie met [!DNL Facebook] kan de URL automatisch worden gedownload en informatie worden toegevoegd en kunnen de parameters van de URL worden voorzien van tags. [!DNL Marketo Measure] haalt de gegevens voor Campagne en Advertentieset door middel van automatische labeling aan. In het veld Naam advertentieset wordt het veld Naam advertentiegroep ingevuld. Voor meer informatie bij vestigingURL markeringen op het [!DNL Facebook] platform, bezoek de [!DNL Facebook] [ zaken ](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} pagina.
 
 Voordat u automatische labeling met [!DNL Facebook Ads] inschakelt, is het belangrijk dat u de vorige prestatiegeschiedenis exporteert als een CSV-bestand. Wanneer [!DNL Marketo Measure] tags [!DNL Facebook Ads] nu met de parameter _bf heeft, leest [!DNL Facebook] de advertenties als gloednieuw en wordt de prestatiegeschiedenis gewist. Daarom is het belangrijk om een verslag van de vorige prestaties uit te voeren als dat iets van waarde aan u en uw organisatie is.
 
 U kunt uw [!DNL Facebook] -account op elk gewenst moment verbinden met de [!DNL Marketo Measure] -app en er gaan geen gegevens verloren. De prestatiegeschiedenis wordt alleen gewist wanneer automatische labeling is ingeschakeld.
 
-Zie [&#x200B; dit artikel &#x200B;](https://www.facebook.com/business/help/393890194130036){target="_blank"} van Facebook voor meer informatie over het uitvoeren [!DNL Facebook] Ad- rapporten.
+Zie [ dit artikel ](https://www.facebook.com/business/help/393890194130036){target="_blank"} van Facebook voor meer informatie over het uitvoeren [!DNL Facebook] Ad- rapporten.
 
 ## GekoppeldIn gesponsorde inhoud {#linkedin-sponsored-content}
 

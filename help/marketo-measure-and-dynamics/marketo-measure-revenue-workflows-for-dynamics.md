@@ -1,15 +1,14 @@
 ---
-description: '[!DNL Marketo Measure] Workflows voor inkomsten voor dynamiek -  [!DNL Marketo Measure]'
+description: Workflows om inkomsten uit dynamiek uit te lijnen en datumvelden te sluiten voor Marketo Measure-rapportage
 title: '[!DNL Marketo Measure] Workflows voor inkomsten voor dynamiek'
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] Workflows voor inkomsten voor dynamiek {#marketo-measure-revenue-workflows-for-dynamics}
 
@@ -20,11 +19,13 @@ ht-degree: 0%
 Stap 1: Een veld voor een aangepaste opportuniteitshoeveelheid maken in Dynamics
 
 >[!NOTE]
+>
 >Alle velden voor inkomsten uit dynamiek hebben een basisveld en een regulier veld. Negeer het basisveld.
 
 Stap 2: Maak een werkstroom die het veld Aangepaste opportuniteitshoeveelheid dat in stap 1 is gemaakt en het veld [!DNL Marketo Measure] Aantal kansen bijwerkt.
 
 >[!NOTE]
+>
 >We kunnen niet verwijzen naar het veld [!DNL Marketo Measure] Opportunity Amount (bizible2_bizible_opportunity_amount) in Discover met Dynamics-accounts. De klanten van de dynamiek moeten een gebied van de het bedrag van de douanekans tot stand brengen [!DNL Marketo Measure] om aan in Discover te richten. Zodra volledig, moet de klant een werkschema tot stand brengen dat **zowel** het [!DNL Marketo Measure] Bedrag van de Kans (bizible2_bizible_Opportunity_amount) **als** het gebied van het het bedrag van de douaneopportuniteit bijwerkt. Het veld [!DNL Marketo Measure] Opportunity Amount wordt bij het pakket geleverd, maar er moet een aangepast veld worden gemaakt.
 
 Workflowinstructies voor het bedrag:
@@ -65,6 +66,8 @@ De gesloten mogelijkheden bijwerken...
 1. Controleren op fouten bij het importeren van bestanden.
 
 >[!NOTE]
+>
 >De workflows die in dit document worden beschreven, zijn slechts één manier om de velden bij te werken, zodat [!DNL Marketo Measure] de juiste gegevens kan weergeven in Discover. Als u een andere manier hebt om dezelfde taak uit te voeren, kunt u ervoor kiezen. Wat we van hen nodig hebben, is een soort workflow die het volgende bereikt:
+>
 > * Als Opp = Open, werk het gebied van de douanevervaldatum, het gebied van het douaneopp bedrag, en het gebied van het [!DNL Marketo Measure] opp- bedrag aan gelijke Geschatte Dichte Datum en Geraamde Ontvangsten, respectievelijk bij.
 > * Als Opp = Gesloten Won, werk het gebied van de de dichte datum van de douane, het gebied van het douaneopp bedrag, en het gebied van het [!DNL Marketo Measure] opp bedrag aan gelijke Duur van de Duur en Ware Opbrengst bij.

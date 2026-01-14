@@ -1,15 +1,14 @@
 ---
-description: Beste praktijken voor Segmentatie -  [!DNL Marketo Measure]
+description: Best practices voor segmentatiebegeleiding voor Marketo Measure-gebruikers
 title: Beste praktijken voor Segmentatie
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # Beste praktijken voor Segmentatie {#best-practices-for-segmentation}
 
@@ -31,7 +30,7 @@ Of u segmentatie voor het eerst bepaalt of enkel de segmentatie herziet die eerd
 * Richt uw segmentnaam aan de nomenclatuur van uw organisatie, d.w.z., de categorie = filternaam, segment = filterwaarde
 * Gebruik geen formulervelden in uw regels
 * Maak waar mogelijk de segmentatie op zowel de lead/contactpersoon als de opportunity, zodat u deze voor de hele funnel kunt gebruiken
-   * Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([&#x200B; leert meer hier &#x200B;](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([ leert meer hier ](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
    * Niet elke categorie Segment wordt uitgelijnd op de gehele funnel
@@ -49,4 +48,5 @@ Andere redenen aan dat zouden een overzicht kunnen teweegbrengen uw Segmentatie 
 * Toevoegingen of wijzigingen aan de segmenten die al zijn ingesteld
 
 >[!MORELIKETHIS]
->[&#x200B; hoe te de Segmentatie van de Douane van de Opstelling &#x200B;](/help/advanced-features/segmentation/custom-segmentation.md)
+>
+>[ hoe te de Segmentatie van de Douane van de Opstelling ](/help/advanced-features/segmentation/custom-segmentation.md)

@@ -1,22 +1,22 @@
 ---
-description: Offlinecampagnes synchroniseren -  [!DNL Marketo Measure]
+description: Advisering voor offlinecampagnes synchroniseren voor Marketo Measure-gebruikers
 title: Offlinecampagnes synchroniseren
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
-
 
 # Offlinecampagnes synchroniseren {#syncing-offline-campaigns}
 
 Het kan moeilijk zijn om offline campagnes nauwkeurig te volgen en te begrijpen hoe zij met uw digitale marketing inspanningen vergelijken. Met [!DNL Marketo Measure] kunt u aanraakpunten bijhouden en koppelen aan uw offlinecampagnes in [!DNL Salesforce] , zelfs in situaties waarin een [!DNL Salesforce] -campagne pas enkele weken na de gebeurtenis wordt gemaakt.
 
 >[!NOTE]
->Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [&#x200B; nieuwe, verbeterde in-app proces &#x200B;](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
+>
+>Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [ nieuwe, verbeterde in-app proces ](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
 
 ## Voordat u gaat synchroniseren {#before-you-sync}
 
@@ -36,7 +36,7 @@ Waarom is dit belangrijk? Stel je voor dat je bedrijf een poot heeft gesponsord 
 
 Uw uploaddatum zou drie weken later zijn dan de conferentiedatum. U kunt dit verschil corrigeren door op de knop [!UICONTROL Bulk Update Touchpoint Date] de juiste datum in te stellen. De knop wordt afgebeeld in de onderstaande afbeelding.
 
-![&#x200B; 3 &#x200B;](assets/1-3.png)
+![](assets/dynamics-lists-1.png)
 
 In dit geval wordt de uploaddatum drie weken later ingevuld. Deze stap zou vóór het plaatsen van het &quot;[!UICONTROL Enable Buyer Touchpoints]&quot;gebied moeten worden gedaan.
 
@@ -45,19 +45,20 @@ Samenvattend, als u de [!UICONTROL Bulk Update Touchpoint Date] knoop gebruikt e
 U kunt ook de datums voor alle leden van de campagne bijwerken op een bestaande campagne. Zorg er daarbij voor dat de datum van het aanraakpunt de datum van de interactie van het lid is. Klik de Datum van Buyer Touchpoint van de Update van het Bulk, filter de lijst van campagnegeleden zoals aangewezen, en in de &quot;[!UICONTROL Select Date]&quot;optie boven de lijst van campagneleden, voeg de zelfde datum toe zoals de datum de gebeurtenis plaatsvond.
 
 >[!CAUTION]
+>
 >Zorg ervoor u de datum van het Aanraakpunt _vóór_ bijwerkt u aanraakpunten voor alle campagnegeleden toelaat.
 
-![&#x200B; 3 &#x200B;](assets/2-3.png)
+![](assets/dynamics-lists-10.png)
 
 ## Een campagne maken en aanraakpunten voor kopers synchroniseren {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
 Om een Campagne in [!DNL Salesforce] tot stand te brengen, navigeer aan het [!UICONTROL Campaigns] lusje en selecteer &quot;[!UICONTROL New]&quot;zoals aangetoond in het hieronder beeld. Afhankelijk van de instelling van [!DNL Salesforce] moet u mogelijk campagnes toevoegen aan de bovenste balk door op de plusknop (+) te klikken.
 
-![&#x200B; 3 &#x200B;](assets/3-3.png)
+![](assets/dynamics-lists-2.png)
 
 Wanneer u deze campagne creeert, klik het &quot;[!UICONTROL Enable Buyer Touchpoints]&quot;gebied en selecteer één van de volgende opties van picklist:
 
-![&#x200B; 3 &#x200B;](assets/4-3.png)
+![](assets/dynamics-lists-3.png)
 
 * **omvat alle campagneleden**
    * Met deze optie kan in [!DNL Marketo Measure] een aanraakpunt worden toegewezen aan elk lid van de campagne.
@@ -71,5 +72,7 @@ Wanneer u deze campagne creeert, klik het &quot;[!UICONTROL Enable Buyer Touchpo
 Nadat u een van deze selecties hebt gekozen, wijst [!DNL Marketo Measure] aan elk campagnetelid indien van toepassing een aanraakpunt toe. De Lood of het Contact dat aan de campagne _wordt toegevoegd moet_ een e-mailadres hebben verbonden aan hun verslag opdat [!DNL Marketo Measure] om een touchpoint tot stand te brengen. Zonder een e-mailadres wijst [!DNL Marketo Measure] geen aanraakpunt toe aan het lid van de campagne.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
->[[!DNL Marketo Measure] Zelfstudies: Objectvelden voor campagne uitlijnen &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Gebieden van de Objecten van de campagne ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

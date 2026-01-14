@@ -1,15 +1,14 @@
 ---
-description: '[!DNL Marketo Measure] Overzicht Ultimate -  [!DNL Marketo Measure]'
+description: '''[!DNL Marketo Measure] Overzicht Ultimate -  [!DNL Marketo Measure]'''
 title: '[!DNL Marketo Measure] Overzicht van Ultimate'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] Overzicht van Ultimate {#marketo-measure-ultimate-overview}
 
@@ -30,11 +29,11 @@ ht-degree: 0%
 
 **[!DNL Marketo Measure]Niveaus 1-3**
 
-![&#x200B; diagram van de Architectuur dat Marketo Measure Tiers 1-3 gegevensstroom en verbindingen toont &#x200B;](assets/marketo-measure-ultimate-overview-1.png)
+![](assets/marketo-overview-1.png)
 
 **[!DNL Marketo Measure Ultimate]**
 
-![&#x200B; diagram van de Architectuur dat Marketo Measure Ultimate met de integratie van AEP toont &#x200B;](assets/marketo-measure-ultimate-overview-2.png)
+![](assets/marketo-overview-3.png)
 
 ## Nieuwe functies in [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
@@ -42,26 +41,27 @@ ht-degree: 0%
 
 Van markeerders wordt verwacht dat zij hun B2B-gegevens (bijvoorbeeld account, opportunity, Contact, lead, campagne, campagnemiddel, campagnelid, activiteit) via AEP doorgeven. De directe verbindingen CRM en Marketo Engage zijn niet meer beschikbaar voor Ultimate. Marketers blijven gegevens van het Advertentieplatform leveren via directe verbindingen en webactiviteiten volgen via [!DNL Marketo Measure] javascript.
 
-![&#x200B; het stroomdiagram van Gegevens die B2B- gegevensinvoer door het platform van AEP tonen &#x200B;](assets/marketo-measure-ultimate-overview-3.png)
+![](assets/marketo-overview-2.png)
 
 **StandaardInstelling van de Valuta**
 
 [!DNL Marketo Measure Ultimate] stelt de standaardvaluta in op USD totdat de gebruiker deze wijzigt. Als u een nieuwe standaardvaluta instelt, worden de gegevens bijgewerkt zonder dat ze opnieuw worden verwerkt. Zolang de geselecteerde valuta als doel-ISO-code aanwezig is, is het niet nodig conversiekoersen in te dienen.
 
-![&#x200B; interface van de Standaard muntmontages met USD muntoptie &#x200B;](assets/marketo-measure-ultimate-overview-4.png)
+![](assets/marketo-overview-7.png)
 
 **[!DNL Marketo Measure Ultimate]Sandbox**
 
 [!DNL Marketo Measure Ultimate] -instantie moet worden toegewezen aan een AEP-sandbox voordat de [!DNL Marketo Measure] -doelgegevensstromen in AEP worden gemaakt.
 
 >[!NOTE]
+>
 >Een [!DNL Marketo Measure Ultimate] -productieinstantie moet worden toegewezen aan een AEP-productiestandaard, een [!DNL Marketo Measure Ultimate] -ontwikkelingsinstantie moet worden toegewezen aan een AEP-ontwikkelaarssandbox.
 
-Wanneer de selectie van de sandboxtoewijzing is opgeslagen, kunt u deze niet meer wijzigen in de toepassing. Om het te veranderen, reik uit aan [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Wanneer de selectie van de sandboxtoewijzing is opgeslagen, kunt u deze niet meer wijzigen in de toepassing. Om het te veranderen, reik uit aan [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 De gegevens voor een bepaalde entiteit (bijvoorbeeld, Rekening) van een bepaalde gegevensbron kunnen slechts in één dataset gaan. Elke dataset kan slechts in één gegevensstroom worden omvat. Overtredingen stoppen de gegevensstroom bij uitvoering.
 
-![&#x200B; Sandbox kaartconfiguratie die dataset en dataflow verhoudingen &#x200B;](assets/marketo-measure-ultimate-overview-5.png) toont
+![](assets/marketo-overview-6.png)
 
 **Toewijzing van het Stadium**
 
@@ -92,13 +92,13 @@ De voorwaarden van de regel zijn datasetspecifiek. Er moeten regels voor werkgeb
 
 Geen selectie voor funnel versus boemerang versus aangepast model. Alle stadia worden geselecteerd voor funnel, boemerang, en douanemodel. Er is een limiet voor het aantal fasen dat we ondersteunen: 15 aangepaste plus 6 ingebouwde stappen.
 
-![&#x200B; de kaartinterface van het Stadium die ingebouwde en configuraties van het douanestadium tonen &#x200B;](assets/marketo-measure-ultimate-overview-6.png)
+![](assets/marketo-overview-4.png)
 
 De de aanraakpuntregels van het Lid van de campagne en van het aanraakpunt van de Activiteit zijn datasetspecifiek.
 
-![&#x200B; de configuratie van de de toepassingsregels van het Lid van de campagne door dataset &#x200B;](assets/marketo-measure-ultimate-overview-7.png)
+![](assets/marketo-overview-5.png)
 
-![&#x200B; de configuratie van de aanrakingsregels van de Activiteit touchpoint door dataset &#x200B;](assets/marketo-measure-ultimate-overview-8.png)
+![](assets/marketo-overview-8.png)
 
 Attribution Touchpoints worden niet naar CRM geschreven omdat Ultimate geen directe CRM-verbinding heeft.
 
@@ -110,5 +110,7 @@ Attribution Touchpoints worden niet naar CRM geschreven omdat Ultimate geen dire
 * Er is geen migratiepad voor bestaande gebruikers van niveau 1/2/3. Vereist nieuwe implementatie, maar wij helpen de bijgehouden webactiviteitsgegevens van het bestaande exemplaar te migreren.
 
 >[!MORELIKETHIS]
-> [&#x200B; Ultimate van Marketo Measure Bestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=nl-NL){target="_blank"}
-> [VIDEO: Marketo Measure Ultimate - Overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+>
+>* [ Ultimate van Marketo Measure Bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
+>
+>* [ VIDEO: Het Overzicht van Marketo Measure Ultimate ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

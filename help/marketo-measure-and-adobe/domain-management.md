@@ -1,37 +1,37 @@
 ---
-description: Domeinbeheer - [!DNL Marketo Measure]
+description: Richtlijnen voor domeinbeheer voor Marketo Measure-gebruikers
 title: Domeinbeheer
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
 
-
 # Domeinbeheer {#domain-management}
 
-Voor IMS-huurders die [!DNL Marketo Measure] uitvoeren in de Experience Cloud Interface, biedt [!DNL Marketo Measure] een interface waarmee gebruikers hun eigen lijst met domeinen kunnen beheren. [!DNL Marketo Measure] de gebruikers moeten eerst om het even welke domeinen verifiëren die zij om in [&#x200B; Adobe Admin Console &#x200B;](https://adminconsole.adobe.com/) wensen te volgen. Zodra domeinen in de Admin Console worden geverifieerd, kunnen gebruikers beheren als [!DNL Marketo Measure] deze domeinen gebruikt voor het bijhouden van websiteverkeer.
+Voor IMS-huurders die [!DNL Marketo Measure] uitvoeren in de Experience Cloud Interface, biedt [!DNL Marketo Measure] een interface waarmee gebruikers hun eigen lijst met domeinen kunnen beheren. [!DNL Marketo Measure] de gebruikers moeten eerst om het even welke domeinen verifiëren die zij om in [ Adobe Admin Console ](https://adminconsole.adobe.com/) wensen te volgen. Zodra domeinen in de Admin Console worden geverifieerd, kunnen gebruikers beheren als [!DNL Marketo Measure] deze domeinen gebruikt voor het bijhouden van websiteverkeer.
 
 ## Domeinen toevoegen in Admin Console {#adding-domains-in-admin-console}
 
 IMS-gebruikers met toegang tot de Adobe Admin Console kunnen domeinen die ze bezitten, toevoegen en valideren. De bevestiging van het domein impliceert het toevoegen van een DNS verslag voor elk domein en dan het toestaan van Admin Console om dat verslag te verifiëren.
 
-![&#x200B; Adobe Admin Console domeinlijst die bevestigingsstatus tonen &#x200B;](assets/domain-management-1.png)
+![](assets/domain-management-4.png)
 
-De instructies voor het toevoegen van domeinen kunnen in de [&#x200B; documentatie van Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/add-domains-directories.html) worden gevonden. Zodra een domein wordt toegevoegd, moet het [&#x200B; met een folder &#x200B;](https://helpx.adobe.com/nl/enterprise/using/add-domains-directories.html#link-domains-to-directoies) worden verbonden.
+De instructies voor het toevoegen van domeinen kunnen in de [ documentatie van Admin Console ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html) worden gevonden. Zodra een domein wordt toegevoegd, moet het [ met een folder ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies) worden verbonden.
 
 ## Domeinen beheren in [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
 Nadat een domein in de Admin Console is toegevoegd, synchroniseert [!DNL Marketo Measure] deze record regelmatig in de database. Deze synchronisatie vindt elke avond plaats, en ook telkens wanneer een gebruiker de pagina **[!UICONTROL Domains]** in de gebruikersinterface van [!DNL Marketo Measure] bezoekt. Door gebrek, om het even welke verslagen die [!DNL Marketo Measure] invoert worden onbruikbaar gemaakt, en de huurder moet elk domein manueel toelaten.
 
-![&#x200B; de pagina van Domeinen van Marketo Measure die van domeinen de lijst verifieerde met toelaten knevels &#x200B;](assets/domain-management-2.png)
+![](assets/domain-management-2.png)
 
 Op de pagina **[!UICONTROL Integration]** > **[!UICONTROL Domains]** ziet de gebruiker alle domeinen die hij of zij in de Admin Console heeft geregistreerd, samen met zijn of haar status. Elk domein kan worden in- of uitgeschakeld. Als een domein wordt toegelaten, verzamelt het [!DNL Marketo Measure] volgen om het even welk verkeer dat op dat domein wordt gezien. Wanneer een domein is uitgeschakeld, negeert [!DNL Marketo Measure] elk verkeer dat uit dat domein komt en worden er geen aanraakpunten of andere gegevens gemaakt. [!DNL Marketo Measure] bevestigt de uitschakeling van een domein en waarschuwt voor mogelijke vertakkingen:
 
-![&#x200B; de dialoog van de Bevestiging wanneer het onbruikbaar maken van een domein in Marketo Measure &#x200B;](assets/domain-management-3.png)
+![](assets/domain-management-3.png)
 
 Het effect van het schakelen van een domein is onmiddellijk en de wijzigingen zijn niet retroactief. In de toekomst verwijdert [!DNL Marketo Measure] gegevens uit uitgeschakelde domeinen na een ingestelde periode.
 

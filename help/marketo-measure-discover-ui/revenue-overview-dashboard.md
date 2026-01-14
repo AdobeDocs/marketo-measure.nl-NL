@@ -1,15 +1,15 @@
 ---
-description: Het Overzicht Dashboard van de Inkomsten -  [!DNL Marketo Measure]  - Product
+description: vat het dashboard van het Overzicht van Ontvangsten samen die totale en toegeschreven opbrengst en overeenkomstentellingen in tijd tonen
 title: Dashboard overzicht van inkomsten
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
 
 # Dashboard overzicht van inkomsten {#revenue-overview-dashboard}
 
@@ -41,7 +41,7 @@ Deze side-by-side grafiek van de tijdreeksgrafiek contrasteert Total Revenue met
 * Welk percentage van onze inkomsten uit augustus 2022 kan worden toegeschreven aan onze marketinginitiatieven?
 * Hoe stapelen de toegerekende ontvangsten in het derde kwartaal van vorig jaar zich op ten opzichte van het vierde kwartaal?
 
-![&#x200B; Overzicht van de Ontvangsten grafiek die totaal en toegeschreven opbrengst in tijd vergelijkt &#x200B;](assets/revenue-overview-dashboard-1.png)
+![](assets/revenue-dashboard-1.png)
 
 ### Attribuutdekking {#attribution-coverage-chart}
 
@@ -51,7 +51,7 @@ Dit cirkeldiagram visualiseert duidelijk uw attributiedekking door totale opbren
 
 * Wat was het percentage van de inkomstendekking dat vorig jaar aan onze marketinginspanningen werd toegeschreven?
 
-![&#x200B; de cirkeldiagramsplitsing van de het dekking van de Attributie toegeschreven versus niet toegeschreven opbrengst &#x200B;](assets/revenue-overview-dashboard-2.png)
+![](assets/revenue-dashboard-2.png)
 
 ## Filtervenster {#filter-pane}
 
@@ -60,5 +60,6 @@ Dit dashboard is uitgerust met de volgende instellingen en filters:
 * Datum (gebaseerd op einddatum)
 
 >[!MORELIKETHIS]
-> [&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Zichtbaarheidsbeleid voor dashboardgegevens &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [ ontdekt de Grondbeginselen van het Dashboard ](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [ Beleid van de Zichtbaarheid van Gegevens van het Dashboard ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

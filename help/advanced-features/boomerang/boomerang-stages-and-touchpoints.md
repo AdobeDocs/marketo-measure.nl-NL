@@ -1,19 +1,19 @@
 ---
-description: Boomerang Stages and Touchpoints - [!DNL Marketo Measure]
+description: Boomerang-fasen en aanraakpunten voor Marketo Measure-gebruikers
 title: Boomerang Stages en Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
 
-
 # Boomerang Stages en Touchpoints {#boomerang-stages-and-touchpoints}
 
 >[!AVAILABILITY]
+>
 >De functie Boomerang is alleen ingeschakeld voor klanten van Tier 2 en 3. Neem contact op met het Adobe-accountteam (uw accountmanager) als u een hogere accountlaag wilt aanvragen.
 
 [!DNL Marketo Measure] heeft de functie Boemerang Stage uitgebracht! De functie van het Stadium van Boemerang werd gecreeerd om grotere zicht in de reis van de klant voor [!DNL Marketo Measure] klanten met lange verkoopcycli te verstrekken. Met deze functie kunnen marketers aanraakpunten maken voor alle werkgebiedovergangen die zich tijdens de Opportunity-reis voordoen, zoals wanneer een contactpersoon MQL&#39;s, vervolgens naar SAL gaat en vervolgens terugkeert naar het MQL-werkgebied. Wanneer contacten &quot;het stadium van MQL&quot;of &quot;re-MQL&#39;s&quot;opnieuw ingaan, wordt MQL beschouwd als een boemerangstadium. De functie voor het werkgebied van Boomerang werkt naast de [!DNL Marketo Measure] Aangepaste werkfasen.
@@ -26,13 +26,14 @@ ht-degree: 0%
 * Als u een gebruiker van het Model van de Douane bent, kunt u de attributieweging en percentagekrediet bepalen u aan elk van deze stadia (b.v. wilt toewijzen. toewijzingsgewicht toewijzen aan het eerste of laatste MQL-exemplaar, of toewijzingsgewicht gelijkmatig verdelen over alle voorvallen)
 
 >[!NOTE]
->[&#x200B; Instructies op hoe te opstelling Boommeren Stages &#x200B;](/help/advanced-features/boomerang/setting-up-boomerang-stages.md).
+>
+>[ Instructies op hoe te opstelling Boommeren Stages ](/help/advanced-features/boomerang/setting-up-boomerang-stages.md).
 
 ## Hoe ziet Boommeren en aanraakpunten eruit in uw CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
 Zonder Boomerang-stappen (de &quot;voor&quot;) ziet u alleen het meest recente MQL- of meest recente SQL-aanraakpunt dat is gekoppeld aan een lijst met leads/contactpersonen.
 
-![&#x200B; verslag van de Kans dat slechts recentste stadium aanraakpunten zonder boemerang toont &#x200B;](assets/1.png)
+![](assets/boomerang-boomerang-18.png)
 
 Met de Stages en aanraakpunten van Boemerang ziet u aanraakpunten die voor elke overgang van het werkgebied voorkomen. De naamgevingsconventie voor deze boemerang-aanraakpunten is:
 
@@ -40,7 +41,7 @@ Met de Stages en aanraakpunten van Boemerang ziet u aanraakpunten die voor elke 
 
 In het onderstaande voorbeeld heeft deze [!DNL Marketo Measure] -account MQL en SQL in hun boemerangfasen opgenomen en ervoor gekozen om 2 boemerang-aanraakpunten per werkgebied weer te geven.
 
-![&#x200B; Boomerang die touchpoints voor veelvoudige MQL en SQL werkgebiedovergangen &#x200B;](assets/2.png) worden vermeld
+![](assets/boomerang-boomerang-19.png)
 
 **MQL-01** is de eerste MQL stadium overgang.
 

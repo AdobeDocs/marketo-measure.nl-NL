@@ -1,15 +1,14 @@
 ---
-description: Overzicht Adobe Experience Cloud Interface -  [!DNL Marketo Measure]
+description: Adobe Experience Cloud Interface Overview guidance for Marketo Measure users
 title: Overzicht Adobe Experience Cloud Interface
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht Adobe Experience Cloud Interface {#experience-cloud-interface-overview}
 
@@ -19,12 +18,13 @@ Met Adobe Experience Cloud Interface wordt de vormgeving van Adobe Experience Cl
 
 Als u al bent aangemeld bij een Adobe Experience Cloud-product, klikt u op het menupictogram en selecteert u **[!DNL Marketo Measure]** .
 
-![&#x200B; het menu van Adobe Experience Cloud met de selectieoptie van Marketo Measure &#x200B;](assets/unified-shell-overview-4.png)
+![](assets/unified-overview-6.png)
 
 >[!NOTE]
+>
 >Het vervolgkeuzemenu ziet er mogelijk anders uit, afhankelijk van de Adobe Experience Cloud-producten waarop u zich hebt geabonneerd.
 
-Als u _niet_ reeds het programma wordt geopend aan een product van Adobe Experience Cloud, login direct aan [!DNL Marketo Measure] hier: [&#x200B; https://experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure).
+Als u _niet_ reeds het programma wordt geopend aan een product van Adobe Experience Cloud, login direct aan [!DNL Marketo Measure] hier: [ https://experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure).
 
 ## Nieuwe functies {#new-features}
 
@@ -32,35 +32,35 @@ Naast de bijgewerkte look and feel, ziet u de volgende functies:
 
 **Beheer van het Domein**
 
-[&#x200B; beheer uw  [!DNL Marketo Measure]  domeinen &#x200B;](/help/marketo-measure-and-adobe/domain-management.md) zonder hulp van [!DNL Marketo Measure].
+[ beheer uw  [!DNL Marketo Measure]  domeinen ](/help/marketo-measure-and-adobe/domain-management.md) zonder hulp van [!DNL Marketo Measure].
 
-![&#x200B; interface van het Beheer van het Domein die de opties van de domeinconfiguratie toont &#x200B;](assets/unified-shell-overview-5.png)
+![](assets/unified-overview-9.png)
 
 **Geïntegreerd Centrum van de Hulp**
 
 Zoek naar ondersteuningsartikelen, verzend tickets, geef feedback vanuit de [!DNL Marketo Measure] -toepassing.
 
-![&#x200B; Geïntegreerd Centrum van de Hulp met onderzoek en steunopties &#x200B;](assets/unified-shell-overview-6.png)
+![](assets/unified-overview-5.png)
 
 **Schakelaar van de Toepassing**
 
 Diegenen die toegang hebben tot meerdere Adobe-producten kunnen gemakkelijk van elkaar wisselen.
 
-![&#x200B; de Schakelaar van de Toepassing die beschikbare producten van Adobe toont &#x200B;](assets/unified-shell-overview-7.png)
+![](assets/unified-overview-4.png)
 
 **Meldingen en Mededelingen**
 
 Bekijk en communiceer rechtstreeks met productspecifieke meldingen en algemene Adobe-productaankondigingen in de toepassing.
 
-![&#x200B; pictogram van Meldingen met waakzame indicatoren &#x200B;](assets/unified-shell-overview-8.png)
+![](assets/unified-overview-10.png)
 
-![&#x200B; het paneel van Meldingen die productaankondigingen en updates tonen &#x200B;](assets/unified-shell-overview-9.png)
+![](assets/unified-overview-11.png)
 
 **de Montages van Adobe**
 
 Klik op het profielpictogram als u uw taal of andere voorkeuren voor de hele Adobe wilt wijzigen. U kunt [!DNL Marketo Measure] - specifieke veranderingen ook aanbrengen door **Mijn Montages** te klikken.
 
-![&#x200B; het menu van het Profiel met de Montages van Adobe en Mijn opties van Montages &#x200B;](assets/unified-shell-overview-10.png)
+![](assets/unified-overview-8.png)
 
 ## Veelgestelde vragen {#faq}
 
@@ -72,6 +72,6 @@ Bladwijzers worden omgeleid. Als u bijvoorbeeld naar https://apps.marketo-measur
 
 Als u zich kunt aanmelden bij Adobe Experience Cloud, maar een pagina zoals deze ziet, kan het probleem zich voordoen op de zijde van [!DNL Marketo Measure] :
 
-![&#x200B; pagina van de Fout die de verbindingskwestie van Marketo Measure toont &#x200B;](assets/unified-shell-overview-11.png)
+![](assets/unified-overview-7.png)
 
-Als u de bovengenoemde fout ontvangt, [&#x200B; contactSteun &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support) voor hulp.
+Als u de bovengenoemde fout ontvangt, [ contactSteun ](https://nation.marketo.com/t5/support/ct-p/Support) voor hulp.

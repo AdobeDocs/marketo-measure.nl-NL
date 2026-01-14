@@ -1,15 +1,14 @@
 ---
-description: Salesforce Sandbox to Production Migration - [!DNL Marketo Measure]
+description: Salesforce Sandbox to Production Migration guidance for Marketo Measure users
 title: Salesforce-sandbox naar productie-migratie
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
-
 
 # Salesforce-sandbox naar productie-migratie {#salesforce-sandbox-to-production-migration}
 
@@ -19,10 +18,10 @@ Als u ervoor kiest om [!DNL Marketo Measure] te testen in een [!DNL Salesforce] 
 
 * Installeer het [!DNL Marketo Measure] -pakket in Production met de instelling &quot;[!UICONTROL All Users]&quot;
 
-   * [&#x200B; Pakket van de Basis &#x200B;](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [ Pakket van de Basis ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
-* Voor meer informatie over de [!DNL Marketo Measure] verhouding met [!DNL Salesforce], bekijk [&#x200B; dit artikel &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
-* Een beetje van [!DNL Salesforce] configuratie is noodzakelijk. De specifieke actiepunten worden hieronder geschetst in [&#x200B; Stap 4 hieronder &#x200B;](#salesforce-configuration)
+* Voor meer informatie over de [!DNL Marketo Measure] verhouding met [!DNL Salesforce], bekijk [ dit artikel ](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
+* Een beetje van [!DNL Salesforce] configuratie is noodzakelijk. De specifieke actiepunten worden hieronder geschetst in [ Stap 4 hieronder ](#salesforce-configuration)
 
 ## Stap 2: Verwijder de huidige sandbox CRM-verbinding in de app [!DNL Marketo Measure] {#delete-the-current-sandbox-crm-connection-in-marketo-measure-app}
 
@@ -31,7 +30,7 @@ Als u ervoor kiest om [!DNL Marketo Measure] te testen in een [!DNL Salesforce] 
 * Klik op het prullenbakpictogram naast de SFDC-verbinding om deze te verwijderen
 * U wordt gevraagd uw verwijdering te bevestigen. Zorg ervoor dat u de vraag zorgvuldig leest en begrijp de gevolgen van het verwijderen
 
-  ![&#x200B; de verbindingspagina die van Marketo Measure schrapping van een zandbak van Salesforce bevestigen &#x200B;](assets/salesforce-sandbox-to-production-migration-1.png)
+  ![](assets/salesforce-migration-1.png)
 
    * Typ de naam van het bedrijf zoals gevraagd in het bevestigingsmodel en klik op &quot;Ik begrijp de gevolgen, verwijder deze verbinding&quot;
 * Dit leidt tot het schrappingsproces en zal wat tijd vergen om te beëindigen
@@ -51,7 +50,7 @@ Als u ervoor kiest om [!DNL Marketo Measure] te testen in een [!DNL Salesforce] 
 
 [Machtigingssets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[&#x200B; het Delen rapporten &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
+[ het Delen rapporten ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
 
 [Overbodige rapporttypen verbergen](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

@@ -1,15 +1,15 @@
 ---
-description: Excluding  [!DNL Marketo Measure]  van Specifieke Forms -  [!DNL Marketo Measure]
+description: Exclusief  [!DNL Marketo Measure]  van de Specifieke begeleiding van Forms voor de gebruikers van Marketo Measure
 title: Exclusief  [!DNL Marketo Measure]  van Specifieke Forms
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] uitsluiten van specifieke Forms {#excluding-marketo-measure-from-specific-forms}
 

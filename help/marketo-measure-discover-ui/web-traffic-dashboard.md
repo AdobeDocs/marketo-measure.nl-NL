@@ -1,15 +1,15 @@
 ---
-description: Web Traffic Dashboard -  [!DNL Marketo Measure]  - Product
+description: Beschrijft het dashboard van het Verkeer van het Web voor bezoekerspagina bekijkt vormen en kanaalprestaties in tijd
 title: Webverkeersdashboard
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
-
 
 # Webverkeersdashboard {#web-traffic-dashboard}
 
@@ -25,36 +25,14 @@ Hiermee wordt het volgende dashboard beantwoord:
 
 **KPI Tegels**
 
-<table>
-<thead>
-  <tr>
-    <td>Bezoeken</td>
-    <td>Het totale aantal sitebezoeken (sessies) dat is gestart vanaf externe pagina's die bekende en anonieme gebruikers omvatten.</td>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Bezoekers</td>
-    <td>Het totale aantal unieke bezoekers.</td>
-  </tr>
-  <tr>
-    <td>Paginaweergaven</td>
-    <td>The total number of views across website pages.</td>
-  </tr>
-  <tr>
-    <td>Forms</td>
-    <td>Het totale aantal verzonden formulieren, inclusief LinkedIn Lead Gen Forms.</td>
-  </tr>
-  <tr>
-    <td>Unieke e-mails van Forms</td>
-    <td>Het totale aantal unieke e-mails dat is verzonden door een formulier.</td>
-  </tr>
-  <tr>
-    <td>Uit Forms gemaakte leads</td>
-    <td>Het totale aantal nieuwe leads dat wordt gegenereerd door formulierverzendingen.</td>
-  </tr>
-</tbody>
-</table>
+| KPI | Definitie |
+| --- | --- |
+| Bezoeken | Het totale aantal sitebezoeken (sessies) dat is gestart vanaf externe pagina&#39;s die bekende en anonieme gebruikers omvatten. |
+| Bezoekers | Het totale aantal unieke bezoekers. |
+| Paginaweergaven | The total number of views across website pages. |
+| Forms | Het totale aantal verzonden formulieren, inclusief LinkedIn Lead Gen Forms. |
+| Unieke e-mails van Forms | Het totale aantal unieke e-mails dat is verzonden door een formulier. |
+| Uit Forms gemaakte leads | Het totale aantal nieuwe leads dat wordt gegenereerd door formulierverzendingen. |
 
 ## Webverkeer in de tijd {#web-traffic-over-time}
 
@@ -68,7 +46,7 @@ Vragen in de grafiek:
 * Hoe verhouden trends in Totaal aantal bezoeken zich met Unieke Bezoekers en Formulierverzendingen gedurende de weergegeven tijdlijn?
 * In welke periode heeft de website het hoogste aantal unieke bezoekers gezien in vergelijking met het totale aantal bezoeken en het aantal ingediende formulieren?
 
-![&#x200B; verkeer van het Web over tijdgrafiek voor bezoeken, bezoekers, en vormvoorlegging &#x200B;](assets/web-traffic-dashboard-1.png)
+![](assets/web-dashboard-1.png)
 
 ## Overzicht van webverkeer {#web-traffic-summary-table}
 
@@ -85,7 +63,7 @@ Tabel met paginaweergaven, bezoeken, bezoekers, Forms, unieke e-mails van formul
 * Unieke e-mails van formulieren
 * Maken van leads via formulieren
 
-![&#x200B; het verkeerssummiere lijst van het Web door paginatitel en URL &#x200B;](assets/web-traffic-dashboard-2.png)
+![](assets/web-dashboard-2.png)
 
 ## Refererentabel {#referrer-table}
 
@@ -97,7 +75,7 @@ Tabel met totale bezoeken en unieke bezoekers per referentie.
 * Bezoeken
 * Unieke bezoekers
 
-![&#x200B; lijst van de Referateur die bezoeken en unieke bezoekers tonen &#x200B;](assets/web-traffic-dashboard-3.png)
+![](assets/web-dashboard-3.png)
 
 ## Bezoeken/Bezoekers via het Kanaal {#visits-visitors-by-channel}
 
@@ -111,7 +89,7 @@ Vragen in de grafiek:
 * Welk kanaal/subkanaal/campagne trekt het hoogste aantal bezoeken of unieke bezoekers aan?
 * Hoe verhoudt het aantal unieke bezoekers zich tot het totale aantal bezoeken binnen een specifiek kanaal/subkanaal/campagne?
 
-![&#x200B; bezoeken en unieke bezoekers door grafiek van de kanaalbar &#x200B;](assets/web-traffic-dashboard-4.png)
+![](assets/web-dashboard-4.png)
 
 ## Filtervenster {#filter-pane}
 

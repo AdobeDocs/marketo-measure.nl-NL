@@ -1,15 +1,14 @@
 ---
-description: Data Warehouse Access - Reader-account
+description: Beschrijft hoe te opstelling en een lezerrekening te gebruiken om tot het gegevenspakje van Marketo Measure toegang te hebben
 title: Data Warehouse Access - Reader-account
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
-
 
 # Data Warehouse Access - Reader-account {#data-warehouse-access-reader-account}
 
@@ -19,42 +18,44 @@ Als u toegang wilt tot uw Snowflake-gegevenspaket, moet u naar de specifieke URL
 
 1. Klik in [!DNL Marketo Measure] boven aan de pagina op **[!UICONTROL My Account]** > **[!UICONTROL Settings]** .
 
-   ![&#x200B; Marketo Measure navigatiemenu met Mijn Rekening en de opties van Montages &#x200B;](assets/data-warehouse-access-reader-account-1.png)
+   ![](assets/data-account-7.png)
 
 1. Klik in het linkermenu onder Beveiliging op **[!UICONTROL Data Warehouse]** .
 
-   ![&#x200B; sidebar van Montages met de optie van Data Warehouse onder de sectie van de Veiligheid &#x200B;](assets/data-warehouse-access-reader-account-2.png)
+   ![](assets/data-account-8.png)
 
 1. Deze pagina heeft de verbinding aan uw Snowflake gegevenspakhuis en uw gebruikersbenaming.
 
-   ![&#x200B; de informatiepagina die van Data Warehouse Snowflake URL en gebruikersbenaming toont &#x200B;](assets/data-warehouse-access-reader-account-3.png)
+   ![](assets/data-account-9.png)
 
    >[!NOTE]
+   >
    >Dit is een alleen-lezen account dat beschikbaar is voor uw organisatie, en niet alleen voor een individuele gebruiker. Elke gebruiker binnen uw organisatie die toegang heeft tot [!DNL Marketo Measure] , kan dit account gebruiken om u aan te melden bij het Snowflake Data Warehouse-lezeraccount.
 
 1. Klik op de koppeling in de URL van Snowflake. Hiermee gaat u naar de aanmeldingspagina van Snowflake waar u uw gebruikersnaam en wachtwoord invoert. _als u uw wachtwoord niet hebt, zie de stappen hieronder om het_ terug te stellen.
 
-   ![&#x200B; Snowflake login pagina met gebruikersbenaming en wachtwoordgebieden &#x200B;](assets/data-warehouse-access-reader-account-4.png)
+   ![](assets/data-account-5.png)
 
 1. Klik op **[!UICONTROL Worksheets]** boven aan de pagina als u zich hebt aangemeld.
 
-   ![&#x200B; de interface van Snowflake met de navigatieoptie van Werkbladen &#x200B;](assets/data-warehouse-access-reader-account-5.png)
+   ![](assets/data-account-6.png)
 
 1. De BIZIBLE_ROI_V3-databaseobjecten bevinden zich aan de linkerkant van het scherm. Ga het Warehouse, het Gegevensbestand, en het Schema van de dropdown opties bij de bovenkant van het vraagvenster in. Er mag slechts één optie voor elke optie zijn. Nu kunt u query&#39;s uitvoeren in de Snowflake-query-editor.
 
-   ![&#x200B; Snowflake vraagredacteur met BIZIBLE_ROI_V3 gegevensbestand en dropdown selecteurs &#x200B;](assets/data-warehouse-access-reader-account-6.png)
+   ![](assets/data-account-4.png)
 
 ## Wachtwoord opnieuw instellen {#reset-your-password}
 
 [!DNL Marketo Measure] heeft geen toegang tot uw Snowflake-wachtwoord. Als u het wachtwoord opnieuw moet instellen, klikt u op de knop [!UICONTROL Reset Password] op de pagina Data Warehouse-informatie en volgt u de instructies. Een tijdelijk wachtwoord wordt onmiddellijk getoond in UI. U zal worden ertoe aangezet om uw eigen wachtwoord op uw volgende login van het gegevenspakhuis tot stand te brengen.
 
 >[!NOTE]
-> Als u het wachtwoord opnieuw instelt, wordt dit opnieuw ingesteld voor alle [!DNL Marketo Measure] -gebruikers in uw organisatie, en niet alleen voor de gebruiker die momenteel is aangemeld.
-> Het tijdelijke wachtwoord wordt alleen weergegeven in de gebruikersinterface. Er wordt geen e-mail verzonden.
+>
+>* Als u het wachtwoord opnieuw instelt, wordt dit opnieuw ingesteld voor alle [!DNL Marketo Measure] -gebruikers in uw organisatie, en niet alleen voor de gebruiker die momenteel is aangemeld.
+>* Het tijdelijke wachtwoord wordt alleen weergegeven in de gebruikersinterface. Er wordt geen e-mail verzonden.
 
-![&#x200B; Data Warehouse pagina met de knoop van het Wachtwoord van het Terugstellen &#x200B;](assets/data-warehouse-access-reader-account-7.png)
+![](assets/data-account-3.png)
 
-![&#x200B; Tijdelijke wachtwoordvertoning na wachtwoordteruggestelde &#x200B;](assets/data-warehouse-access-reader-account-8.png)
+![](assets/data-account-1.png)
 
 ## Verbinding maken met Snowflake via tools van derden {#connecting-to-snowflake-via-third-party-tools}
 
@@ -62,7 +63,7 @@ U moet een paar stukken informatie ingaan om uw Snowflake gegevenspakhuis met ee
 
 >[!NOTE]
 >
->Elk hulpmiddel heeft verschillende verbindingsvereisten; het wordt geadviseerd u de documentatie voor het specifieke hulpmiddel raadpleegt u probeert om te verbinden.
+>Elk hulpmiddel heeft verschillende verbindingsvereisten; het wordt geadviseerd u de documentatie voor het specifieke hulpmiddel raadplegen u probeert om te verbinden.
 
 * **URI** (altijd vereist)
    * Dit is de domeinnaam van de Snowflake-account. Het bevindt zich in een gedeelte van de Snowflake-aanmeldkoppeling.
@@ -75,4 +76,4 @@ U moet een paar stukken informatie ingaan om uw Snowflake gegevenspakhuis met ee
 * **Naam van het Warehouse** (niet altijd vereist)
    * Het pakhuis is wat vragen in Snowflake uitvoert. Het is de berekende bron. De pakhuisnaam wordt vermeld op de Data Warehouse informatiepagina in [!DNL Marketo Measure].
 
-  ![&#x200B; de informatiepagina die van Data Warehouse gegevensbestand en de details van de pakhuisnaam toont &#x200B;](assets/data-warehouse-access-reader-account-9.png)
+  ![](assets/data-account-2.png)

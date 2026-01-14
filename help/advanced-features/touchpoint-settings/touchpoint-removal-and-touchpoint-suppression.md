@@ -1,15 +1,14 @@
 ---
-description: Aanraakpunt verwijderen en onderdrukking aanraakpunt -  [!DNL Marketo Measure]
+description: Richtlijnen voor het verwijderen van aanraakpunten en het onderdrukken van aanraakpunten voor Marketo Measure-gebruikers
 title: Aanraakpunt verwijderen en onderdrukking aanraakpunt
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
-
 
 # Aanraakpunt verwijderen en onderdrukking aanraakpunt {#touchpoint-removal-and-touchpoint-suppression}
 
@@ -34,38 +33,41 @@ Begin met het toevoegen van een regel en het selecteren van het Gebied dat uw cr
 
 Maak een keuze in een lijst met operatoren die betrekking hebben op de volgende reeks waarden die u in de volgende kolom toevoegt.
 
-![&#x200B; 1 &#x200B;](assets/1-1.png)
+![](assets/touchpoint-settings-10.png)
 
 >[!TIP]
+>
 >Als u meerdere waarden in een veld wilt toevoegen, gebruikt u de operator &quot;Komt overeen met een&quot; met komma&#39;s die elke waarde scheiden.
 
 >[!TIP]
+>
 >Als u een lege of NULL-waarde in een veld wilt verwerken, laat u het vak [!UICONTROL Value] leeg. Hierbij wordt rekening gehouden met scenario&#39;s zoals het evalueren tegen een aanraakpunt zonder URL van formulier.
 
 >[!NOTE]
+>
 >Formulervelden kunnen niet worden gebruikt binnen uw regels en worden niet weergegeven in de keuzelijst. Omdat formules op de achtergrond berekenen en een record niet wijzigen, kan [!DNL Marketo Measure] niet bepalen of een record op een regel past of niet.
 
 `2)` Voeg regels binnen dezelfde groep toe om de logica AND in uw instructie te gebruiken.
 U kunt ook nieuwe instructies buiten de groep toevoegen om de logica &quot;OR&quot; in uw instructie te gebruiken.
 
-![&#x200B; Bouwer van de Regel van de Onderdrukking die gegroepeerde EN/OF logica &#x200B;](assets/2.png) toont
+![](assets/touchpoint-settings-11.png)
 
 `3)` Als uw regels complex worden en u groepen opnieuw moet maken en kleine wijzigingen in elke instructie moet aanbrengen, gebruikt u de optie [!UICONTROL Clone] om de regels eenvoudiger te maken.
 
-![&#x200B; optie van de Kloon om de groepen van de onderdrukkingsregel te dupliceren &#x200B;](assets/3.png)
+![](assets/touchpoint-settings-6.png)
 
 Als je een fout maakt, maak je dan geen zorgen. U kunt ook afzonderlijke rijen van uw instructie of volledige groepen verwijderen.
 
-![&#x200B; schrapt pictogrammen voor individuele verklaringen en regelgroepen &#x200B;](assets/4.png)
+![](assets/touchpoint-settings-7.png)
 
 `4)` Stel regels in voor de aanraakpunten voor koperkenmerken als u deze op beide objecten wilt toepassen. Met onze flexibiliteit kunt u regels instellen voor één object of beide objecten en deze voor beide instellen als deze van toepassing zijn.
 
-![&#x200B; de Configuratie van de de suppressieregels van de Attributie van de Koper Touchpoints &#x200B;](assets/5.png)
+![](assets/touchpoint-settings-8.png)
 
 Om te voltooien, [!UICONTROL Save and Process] uw regels. Als u veel wijzigingen aanbrengt, moet u uw wijzigingen onderweg opslaan. [!DNL Marketo Measure] verwijdert uw aanraakpunten pas wanneer u klikt
 [!UICONTROL **sparen en Proces**].
 
-| Operator | Gebruiksscenario |
+| **Exploitant** | **Geval van het Gebruik** |
 |---|---|
 | Is gelijk aan | Enkele waarde - exact overeenkomend |
 | Bevat | Enkele waarde - bevat waarde |

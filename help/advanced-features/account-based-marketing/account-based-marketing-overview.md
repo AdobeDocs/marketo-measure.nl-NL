@@ -3,19 +3,18 @@ description: Meer informatie over Account-Based Marketing (ABM) en hoe Adobe Mar
 title: Overzicht van accountgebaseerde marketing
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
 
-
 # Overzicht van accountgebaseerde marketing {#account-based-marketing-overview}
 
-In de volgende secties vindt u een kort overzicht van ABM, de componenten van de functie [!DNL Marketo Measure] ABM en hoe u deze kunt toevoegen aan de pagina-indeling van [!DNL Salesforce] . Om meer over ABM te lezen, herzie Adobe [&#x200B; ABM blog &#x200B;](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
+In de volgende secties vindt u een kort overzicht van ABM, de componenten van de functie [!DNL Marketo Measure] ABM en hoe u deze kunt toevoegen aan de pagina-indeling van [!DNL Salesforce] . Om meer over ABM te lezen, herzie Adobe [ ABM blog ](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
 
-Voor gedetailleerde instructies voor vestiging ABM binnen uw [!DNL Salesforce] instantie, ga [&#x200B; Vestiging ABM paginalay-out in Salesforce &#x200B;](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
+Voor gedetailleerde instructies voor vestiging ABM binnen uw [!DNL Salesforce] instantie, ga [ Vestiging ABM paginalay-out in Salesforce ](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## Wat is ABM {#what-is-abm}
 
@@ -27,6 +26,7 @@ Als u wilt dat ons marketingmodel op basis van account uw CRM invult, moet u in 
 * Aan de andere kant van de munt heeft uw CRM minstens 25 Accounts nodig zonder gesloten won Opportunity (alle opps moeten ofwel in de categorie &quot;Open&quot; staan, ofwel in de categorie &quot;Closed Lost&quot;) - dit helpt ons om te bepalen wat een lagere account in uw organisatie maakt.
 
 >[!NOTE]
+>
 >Bovenstaande &quot;slechte&quot; rekeningen moeten ten minste twaalf maanden geopend zijn zonder dat er een &quot;closed-on&quot;-opp is geaccumuleerd; dat is de basisrichtsnoer voor de vraag of een opp voor de doeleinden van het model al dan niet stallend is.
 
 ## Toewijzing van regel naar account {#lead-to-account-mapping}
@@ -45,6 +45,7 @@ Het in kaart brengen van leads naar accounts is een cruciaal onderdeel van een e
 De leads/contactpersonen van de accounts worden gevalideerd door hun e-mail-/websitedomeinen en overeenkomen met het domein of subdomein van de hoofd-e-mail/website. De account met de meeste overeenkomsten wordt gebruikt.
 
 >[!NOTE]
+>
 >Elke lead probeert overeen te komen met een account in de bovenstaande voorkeursvolgorde van methoden. Zodra een gelijke wordt gemaakt, wordt AccountId onmiddellijk geplaatst op Lood en zal niet aangepast worden gebruikend een andere methode.
 
 ## Predictieve betrokkenheidsscore {#predictive-engagement-score}
@@ -64,6 +65,7 @@ Er zijn vele componenten die in het algoritme gaan dat de ODA berekent. Recentie
 * Hoe waarschijnlijk het gesloten verloren/gewonnen is
 
 >[!NOTE]
+>
 >Het is mogelijk dat u een score van &#39;N.v.t.&#39; of &#39;-&#39; (het dash-symbool) opmerkt in de Score voor voorspellende betrokkenheid voor sommige accounts.
 
 _de rang van A van &quot;N.v.t.&quot;betekent eenvoudig dat er niet voldoende gegevens over die rekening voor het model zijn om een ware kwaliteit te produceren - met meer gegevens, wordt een graad uiteindelijk gegeven._
@@ -76,16 +78,16 @@ Als u de ODA&#39;s wilt gaan gebruiken, moet u het veld ODA&#39;s en de lijst Ve
 1. Navigeer naar **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Accounts]** > **[!UICONTROL Page Layout]** . Selecteer vervolgens de pagina-indeling die u wilt bewerken.
 1. Ga naar [!UICONTROL Fields] en verplaats het veld &quot;Predictive Engagement Score&quot; in de sectie Accountinformatie.
 
-   ![&#x200B; de paginalay-out van de Rekening die het Voorspelende gebied van de Score van de Betrokkenheid toont &#x200B;](assets/1.png)
+   ![](assets/account-marketing-3.png)
 
 1. Ga ten slotte naar [!UICONTROL Related Lists] en verplaats de lijst met verwante leads naar uw paginalay-out.
 
-   ![&#x200B; het Toevoegen van Leidingen verwante lijst aan de paginalay-out van de Rekening &#x200B;](assets/2.png)
+   ![](assets/account-marketing-4.jpg)
 
 1. Navigeer vervolgens naar **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Leads]** > **[!UICONTROL Page Layout]** en selecteer de gewenste paginalay-outs die u wilt bewerken.
 1. Klik op **[!UICONTROL Fields]** en voeg het veld [!UICONTROL Account] toe waar u de pagina ziet passen.
 
-   ![&#x200B; Lead paginalay-out met toegevoegd gebied van de Rekening &#x200B;](assets/3.png)
+   ![](assets/account-marketing-5.png)
 
 U bent klaar!
 

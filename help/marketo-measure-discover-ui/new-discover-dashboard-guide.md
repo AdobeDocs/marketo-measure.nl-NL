@@ -1,17 +1,17 @@
 ---
-description: Nieuwe Discover Dashboard Guide - [!DNL Marketo Measure]  - Product
-title: Nieuwe Discover-dashboardgids
+description: Wijst erfenis Discover dashboards aan de herontworpen versies toe en benadrukt zeer belangrijke veranderingen in navigatie en metriek
+title: Dashboardgids detecteren
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
 
-
-# Nieuwe Discover-dashboardgids {#new-discover-dashboard-guide}
+# Dashboardgids detecteren {#new-discover-dashboard-guide}
 
 We zijn blij dat we het dashboard van Discover opnieuw ontwerpen. Ons primaire doel is om u een meer gestroomlijnde en intuïtieve ervaring te bieden. Met schonere beelden en eenvoudigere navigatie, handhaaft deze revamp niet alleen het grootste deel van bestaande metriek, maar introduceert ook nieuwe inzichten. Duik in en ontdek de verbeterde helderheid en toegevoegde waarde.
 
@@ -497,13 +497,14 @@ We zijn blij dat we het dashboard van Discover opnieuw ontwerpen. Ons primaire d
 
 ## Nieuwe toevoegingen en verbeteringen {#new-additions-and-improvements}
 
-De nieuwe eigenschappen kunnen in [&#x200B; worden gevonden ontdekken het artikel van de Grondbeginselen van het Dashboard &#x200B;](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}.
+De nieuwe eigenschappen kunnen in [ worden gevonden ontdekken het artikel van de Grondbeginselen van het Dashboard ](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}.
 
 ## Feedback {#feedback}
 
 Omdat we voortdurend proberen uw ervaring te verbeteren, stellen we uw feedback over deze laatste update zeer op prijs. Uw gedachten zullen toekomstige verfijningen direct beïnvloeden, die ervoor zorgen ons platform altijd op uw behoeften richt. Houd rekening met een feedbackformulier in Marketo Measure.
 
 >[!MORELIKETHIS]
->[&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
->[Zichtbaarheidsbeleid voor dashboardgegevens &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [ ontdekt de Grondbeginselen van het Dashboard ](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [ Beleid van de Zichtbaarheid van Gegevens van het Dashboard ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

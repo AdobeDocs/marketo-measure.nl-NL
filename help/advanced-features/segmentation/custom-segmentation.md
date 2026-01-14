@@ -1,15 +1,14 @@
 ---
-description: Aangepaste segmentatie -  [!DNL Marketo Measure]
+description: Richtlijnen voor aangepaste segmentatie voor Marketo Measure-gebruikers
 title: Aangepaste segmentatie
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
-
 
 # Aangepaste segmentatie {#custom-segmentation}
 
@@ -26,6 +25,7 @@ De Segmentatie van de douane kan worden gebruikt om gegevens voor een bepaald ve
 **hoe ik opstelling het?**
 
 >[!NOTE]
+>
 >Bij het bijwerken van segmentregels worden historische gegevens opnieuw verwerkt.
 
 Stap 1 - Bepaal welke informatie u wilt zien.
@@ -34,7 +34,7 @@ Voordat u deze functie gebruikt, moet u uitzoeken op welke aanraakpuntinformatie
 
 Stap 2 - Meld u aan en zoek de functie [!UICONTROL Segments] .
 
-* Ga naar [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en login
+* Ga naar [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en login
 * Selecteer onder de tab [!UICONTROL My Account] de optie [!UICONTROL Settings]
 * Selecteer [!UICONTROL Segments] in de opties op de zijbalk links, onder de sectie [!UICONTROL Reporting] .
 
@@ -42,7 +42,7 @@ Stap 3 - begrijp de componenten.
 
 * Met deze legenda krijgt u inzicht in de verschillende pictogrammen op deze pagina
 
-![&#x200B; legenda van Segmenten die pictogrammen tonen in admin &#x200B;](assets/1.png) worden gebruikt
+![](assets/segmentation-segmentation-2.png)
 
 Stap 4 - voeg de Regels van de Filter toe.
 
@@ -50,13 +50,14 @@ Stap 4 - voeg de Regels van de Filter toe.
 * Klik op het plusteken om een segment toe te voegen
 * Voer een segmentnaam in. Bijvoorbeeld, kon u één segment voor Nieuwe Onderneming, Partners, Vernieuwen, of Upsell hebben
 
-![&#x200B; Toevoegend een segmentcategorie en een naam in Marketo Measure &#x200B;](assets/2.png)
+![](assets/segmentation-segmentation-3.png)
 
 * Klik op het plusteken om de velden voor regelinvoer weer te geven. Met de opties in de keuzelijst Veld worden velden rechtstreeks van uw CRM opgehaald
 
-![&#x200B; de inputgebieden van de Regel voor het bepalen van een segmentfilter &#x200B;](assets/3.png)
+![](assets/segmentation-segmentation-4.png)
 
 >[!NOTE]
+>
 >Formulervelden kunnen niet worden gebruikt binnen uw regels en worden niet weergegeven in de keuzelijst. Omdat formules op de achtergrond berekenen en een record niet wijzigen, kan [!DNL Marketo Measure] niet bepalen of een record op een regel past of niet.
 
 * De optie [!UICONTROL Value] is geen vervolgkeuzelijst en de waarde ervan moet handmatig worden ingevoerd. Controleer de waarden op je Salesforce org
@@ -75,7 +76,7 @@ Als de regels niet opstelling voor zowel Leads/Contacten als Kansen zijn, zult u
 
 Wanneer u klaar bent, klikt u eerst op [!UICONTROL Save] , dubbelklikt u op alles en klikt u vervolgens op [!UICONTROL Save and Process] . U kunt de instellingen zeven dagen na het opslaan en verwerken niet bewerken, omdat [!DNL Marketo Measure] de gegevens tijdens deze periode opnieuw opmaakt.
 
-Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([&#x200B; leert meer &#x200B;](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([ leert meer ](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

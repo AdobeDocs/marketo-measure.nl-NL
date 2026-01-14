@@ -1,20 +1,24 @@
 ---
-description: Single Sign On -  [!DNL Marketo Measure]
+description: Richtlijnen voor Single Sign On voor Marketo Measure-gebruikers
 title: Single Sign On
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
-
 
 # Single Sign On {#single-sign-on}
 
 Met SAML (security assertion markup language) voor SSO (Single Sign-On) kunnen gebruikers zich via de identiteitsprovider van een bedrijf verifiëren wanneer ze zich aanmelden bij de [!DNL Marketo Measure] -app. Met SSO kan een gebruiker één keer verifiëren, zonder dat aparte apps hoeven te worden geverifieerd. SAML is een vereiste voor zakelijke klanten omdat niet alle gebruikers een [!DNL Salesforce] - of [!DNL Google] -account binnen hun organisatie hebben. Om te schrapen, heeft [!DNL Marketo Measure] een oplossing van SAML ontwikkeld die de leveranciers van de bedrijfsidentiteit kan steunen.
 
+>[!CAUTION]
+>
+>In dit artikel worden Single Sign On (SSO) en het geavanceerde CRM-gebruikersbeheer beschreven. Als uw rekening **na 9/10/2020** werd voorzien, negeert dit artikel, aangezien SSO en Identity Management binnen [ Adobe Admin Console voor uw  [!DNL Marketo Measure]  integratie ](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md) zullen worden geplaatst.
+
 >[!NOTE]
+>
 >Het is waarschijnlijk dat bedrijven verschillende identiteitsproviders gebruiken (bijvoorbeeld Ping Identity, Okta). De termen die worden gebruikt in de volgende instellingsinstructies en in de gebruikersinterface komen mogelijk niet direct overeen met de termen die worden gebruikt door uw identiteitsprovider.
 
 ## Vereisten {#requirements}
@@ -26,7 +30,7 @@ Met SAML (security assertion markup language) voor SSO (Single Sign-On) kunnen g
 
 Ga om aan de slag te gaan naar Instellingen > Beveiliging > Verificatie in de [!DNL Marketo Measure] -toepassing. Dan schakelaar het Login Type aan Douane SSO om de configuratieopties te zien. De wijzigingen worden van kracht voordat u de verificatie test en onder aan de pagina op de knop **[!UICONTROL Save]** klikt.
 
-![&#x200B; de montagespagina van de Authentificatie met login van Douane SSO typeoptie &#x200B;](assets/single-sign-on-1.png)
+![](assets/compliance-resources-1.png)
 
 ## Proces {#process}
 
@@ -68,7 +72,7 @@ Stel uw gebruikerskenmerkinstellingen in en wijs deze toe aan de respectievelijk
     
      b. Tip: Als u uw configuratie van SAML nu test, zullen wij uit de attributen e-mail, Voornaam, en Achternaam parseren die u voor deze sectie kunt gebruiken.
 
-![&#x200B; de configuratievorm van SAML met de gebieden van de gebruikersattributenafbeelding &#x200B;](assets/single-sign-on-2.png)
+![](assets/discover-control-1.png)
 
 Opstelling en kaart uw montages van de Rol van de Gebruiker aan de respectieve rollen of de groepen die van uw IdP worden geclassificeerd.
 
@@ -82,7 +86,7 @@ Opstelling en kaart uw montages van de Rol van de Gebruiker aan de respectieve r
     
      c. Als de veelvoudige rollen of de groepen aan een rol zouden moeten worden in kaart gebracht, ga elke waarde in die door een komma wordt gescheiden.
 
-![&#x200B; configuratie van de roltoewijzing van de Gebruiker met StandaardGebruiker en Admin opties &#x200B;](assets/single-sign-on-3.png)
+![](assets/discover-control-2.png)
 
 Test de Single Sign On configuratie
 
@@ -90,25 +94,26 @@ Test de Single Sign On configuratie
     
      b. Als u een fout ziet &quot;mislukken&quot;, volgt u het bericht en probeert u het opnieuw.
 
-![&#x200B; de knoop van de Authentificatie van SAML van de Test en bevestiging statusbericht &#x200B;](assets/single-sign-on-4.png)
+![](assets/discover-control-3.png)
 
 Sla uw instellingen op en geef uw collega&#39;s de opdracht om [!UICONTROL Single Sign On] te gebruiken met de nieuwe aangepaste URL voor aanmelden.
 
      a. Belangrijk: Zodra u uw nieuwe montages van de Authentificatie opslaat, is het mogelijk uw zitting zal eindigen zodra u aan een nieuwe pagina navigeert omdat u login door de Gebruikers van CRM en toegelaten Douane SSO hebt onbruikbaar gemaakt.
 
-![&#x200B; sparen knoop voor authentificatiemontages en bevestigingsbericht &#x200B;](assets/single-sign-on-5.png)
+![](assets/discover-control-3.png)
 
 Probeer het uit!
 
      a. Gebruik uw nieuw douanelogin URL van het Teken en poging om terug binnen aan de  [!DNL Marketo Measure]  Toepassing met uw geloofsbrieven van de Leverancier van de Identiteit te registreren.
     
-     b. Het formaat zal als &quot;https://apps.adobe.com/business/[accountName] &grave; kijken 
+     b. Het formaat zal als &quot;https://apps.adobe.com/business/[accountName] ` kijken 
     
      c. Gefeliciteerd! U hebt met succes opstelling het Enige Teken in de  [!DNL Marketo Measure]  Toepassing voor uw rekening!
 
-![&#x200B; Successful SSO login bevestigingsscherm &#x200B;](assets/single-sign-on-6.png)
+![](assets/discover-control-3.png)
 
 >[!NOTE]
+>
 >Nadat u SSO hebt geconfigureerd, hoeft u geen gebruikers meer toe te voegen binnen de [!DNL Marketo Measure] -toepassing. De levering van de gebruiker zou direct binnen uw Leverancier van de Identiteit moeten worden behandeld.
 
 ## CRM-gebruikers (Geavanceerde instellingen) {#crm-users-advanced-setup}
@@ -126,27 +131,27 @@ Als meerdere rollen of groepen moeten worden toegewezen aan een rol, voert u elk
 
 Gebruik voor [!DNL Salesforce] Rollen de naam van elke rol. Alle rollen kunnen onder [!UICONTROL Setup] worden gevonden > [!UICONTROL Manage Users] > [!UICONTROL Roles] menu.
 
-![&#x200B; het menu dat van de Opstelling van Salesforce Roles toont onder Manage Gebruikers &#x200B;](assets/6.png)
+![](assets/discover-control-3.png)
 
 **Rollen van de Dynamiek**
 
 Gebruik voor [!DNL Dynamics] Rollen de naam van elke beveiligingsrol. Alle Rollen van de Veiligheid kunnen onder [!UICONTROL Settings] worden gevonden > [!UICONTROL Security] > [!UICONTROL Security Roles] menu.
 
-![&#x200B; het menunavigatie van Montages van de Dynamiek aan de Rollen van de Veiligheid &#x200B;](assets/7.png)
+![](assets/discover-control-3.png)
 
-{de lijst van de Rollen van de Veiligheid van de Dynamiek van 0} die beschikbare rolopties tonen ![](assets/8.png)
+![](assets/discover-control-3.png)
 
 **de Gebruikers van Google**
 
 Zodra de aangepaste SSO is ingesteld, wordt de pagina [!UICONTROL Users] bijgewerkt zodat alleen externe gebruikers worden weergegeven die zijn toegevoegd met Google-aanmeldingen. Omdat alle gebruikers met toegang door de configuratie worden bepaald SSO, zijn de extra externe gebruikers hier vermeld.
 
-![&#x200B; pagina die van Gebruikers externe Google login gebruikers tonen &#x200B;](assets/9.png)
+![](assets/discover-control-3.png)
 
 Alleen geldige [!DNL Google] -accounts kunnen worden toegevoegd en er moet een gebruikersrol zijn gedefinieerd.
 
 ## Externe koppelingen {#external-links}
 
-* [&#x200B; Okta &#x200B;](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
-* [&#x200B; pingelt Identiteit &#x200B;](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
-* [&#x200B; OneLogin &#x200B;](https://onelogin.service-now.com/support?id=kb_article&sys_id=b2c91143db109700d5505eea4b9619d5)
-* [&#x200B; Actieve Folder &#x200B;](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [ Okta ](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
+* [ pingelt Identiteit ](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
+* [ OneLogin ](https://onelogin.service-now.com/support?id=kb_article&sys_id=b2c91143db109700d5505eea4b9619d5)
+* [ Actieve Folder ](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)

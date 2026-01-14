@@ -3,13 +3,12 @@ description: '[!DNL Marketo Measure] Insights Configuration -  [!DNL Marketo Mea
 title: '[!DNL Marketo Measure] Configuratie van inzichten'
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] Configuratie van inzichten {#marketo-measure-insights-configuration}
 
@@ -21,10 +20,10 @@ De app [!DNL Marketo Measure] Insights Canvas moet worden toegevoegd aan de pagi
 
 1. Wijzig in de sectie [!UICONTROL OAuth] Beleid de instelling voor toegestane gebruikers in &quot;Gebruikers met beheerdersrechten zijn vooraf geautoriseerd.&quot; Er wordt een pop-up weergegeven. Klik vervolgens op **[!UICONTROL OK]** en **[!UICONTROL Save]** .
 
-   ![&#x200B; 1 &#x200B;](assets/1-1.png)
+   ![](assets/marketo-app-1.png)
 
 1. Nadat de pagina is opgeslagen, kunt u op de knop **[!UICONTROL Manage Profiles]** klikken.
 
-   ![&#x200B; 1 &#x200B;](assets/2-1.png)
+   ![](assets/marketo-app-2.png)
 
 1. Selecteer alle profielen die toegang moeten hebben tot [!DNL Marketo Measure] Inzichten en klik op **[!UICONTROL Save]** .
