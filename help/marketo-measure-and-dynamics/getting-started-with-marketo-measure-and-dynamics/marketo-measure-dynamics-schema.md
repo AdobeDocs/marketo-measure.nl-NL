@@ -1,0 +1,1510 @@
+---
+unique-page-id: 18874523
+description: '[!DNL Marketo Measure] Dynamisch schema -  [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Dynamisch schema'
+exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
+feature: Microsoft Dynamics
+source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+workflow-type: tm+mt
+source-wordcount: '1084'
+ht-degree: 5%
+
+---
+
+# [!DNL Marketo Measure] Dynamisch schema {#marketo-measure-dynamics-schema}
+
+>[!NOTE]
+>
+>U kunt instructies zien die &quot;[!DNL Marketo Measure]&quot;in de documentatie specificeren, maar nog zie &quot;Bizible&quot;in uw CRM. We werken eraan dat dit wordt bijgewerkt en de herbranding wordt binnenkort weerspiegeld in uw CRM.
+
+Hieronder ziet u het vereiste dynamiekschema om met [!DNL Marketo Measure] aan de slag te gaan. Alle entiteiten en velden worden vermeld, samen met de vereiste lees- en/of schrijftoegang.
+
+## Aanraakpunten koper {#buyer-touchpoints}
+
+De Buyer Touchpoint is een [!DNL Marketo Measure] aangepaste entiteit die de marketinginteracties voor contactpersonen en leads inkapselt.
+
+## Buyer Touchpoint-relaties {#buyer-touchpoint-relationships}
+
+Dit diagram is een verregaande visualisatie van de relaties tussen de Dynamics Stock-entiteiten en de Buyer Touchpoint.
+
+## Buyer Touchpoint {#buyer-touchpoint}
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ad_Campaign_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ad_Campaign_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Ad_Content</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ad_Destination_URL</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ad_Group_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Ad_Group_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ad_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Bizible_TouchpointId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Browser</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_CampaignId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ContactId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Count_First_Touch</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Count_lead_conversion_touch</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Count_U_Shaped</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Form_URL</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Form_URL_Raw</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Geo_City</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Geo_Country</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Geo_Region</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_trefwoord_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Keyword_MatchType</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Keyword_Text</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Landing_Page</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Landing_Page_Raw</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_LeadId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Marketing_Channel</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Marketing_Channel_Path</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Medium</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Placement_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Placement_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Platform</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Referrer_Page</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Referrer_Page_Raw</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Search_Phrase</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Segment</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_site_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Site_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Date</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Position</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Source</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Type</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_UniqueId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Account</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
+
+De Buyer Attribution Touchpoint is een [!DNL Marketo Measure] aangepaste entiteit die de invloed van marketing op Opportunity inkapselt.
+
+## Buyer Attribution Touchpoint-relaties {#buyer-attribution-touchpoint-relationships}
+
+Dit diagram is een verregaande visualisatie van de relaties tussen de Dynamics Stock-entiteiten en de Buyer Attribution Touchpoint.
+
+## Aanraakpunten voor koperkenmerk {#buyer-attribution-touchpoints}
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_AccountId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ad_Campaign_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ad_Campaign_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Ad_Content</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ad_Destination_URL</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ad_Group_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Ad_Group_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ad_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Attribution_Custom_Model</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Attribution_Custom_Model_2</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Attribution_First_Touch</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Attribution_Lead_Conversion_Touch</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Attribution_U_Shaped</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Attribution_W_Shaped</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Bizible_Attribution_TouchpointId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Browser</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_CampaignId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ContactId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Count_Custom_Model</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Count_Custom_Model_2</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Count_First_Touch</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Count_Lead_Creation_Touch</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Count_U_Shaped</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Count_W_Shaped</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Form_URL</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Form_URL_Raw</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Geo_City</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Geo_Country</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Geo_Region</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_trefwoord_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Keyword_MatchType</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Keyword_Text</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Landing_Page</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Landing_Page_Raw</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Marketing_Channel</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Marketing_Channel_Path</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Medium</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_OpportunityId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Placement_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Placement_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Platform</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Referrer_Page</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Referrer_Page_Raw</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Revenue_Custom_Model</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Revenue_Custom_Model_2</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Reven_custom_model_2_Base</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Reven_custom_model_Base</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Revenue_First_Touch</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Reven_first_touch_Base</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Revenue_Lead_Conversion_Touch</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Reven_lead_conversion_Base</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Revenue_U_Shaped</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Reven_u_shaped_Base</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Revenue_W_Shaped</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_opbrengst_w_shaped_Base</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Search_Phrase</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Segment</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_site_id</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Site_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Date</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Position</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Source</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Type</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_UniqueId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## [!DNL Marketo Measure] AB-tests {#marketo-measure-ab-tests}
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Bizible_ABTestId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_BizibleId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ContactId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_DateReported</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Experiment</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ExperimentId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_LeadId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_OpportunityId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_UserId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Variation</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_VariationId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## [!DNL Marketo Measure] Gebeurtenissen {#marketo-measure-events}
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Bizible_EventId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_BizibleId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_ContactId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_DateReported</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_EventName</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_EventValue</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_LeadId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_OpportunityId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## [!DNL Marketo Measure] Historie {#marketo-measure-history}
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Bizible_HistoryId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Entiteit_Type</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_EntiteitId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_EntiteitLogicalName</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Name</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Dynamics Standard Entities {#dynamics-standard-entities}
+
+In deze lijst vindt u informatie over de instanties van de dynamische standaard waarmee [!DNL Marketo Measure] werkt en de aangepaste velden die we aan deze entiteiten toevoegen.
+
+**Lood**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>leed</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>e-mailadres1</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>statecode</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>statuscode</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gemaakt</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gewijzigd</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>aanhangen</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>kwalificerende opportuniteit</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>website</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>bedrijfsnaam</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Account</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_BizibleId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Contact**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>aanhangen</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>e-mailadres1</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>verantwoording</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gemaakt</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gewijzigd</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_BizibleId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Rekening**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>verantwoording</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>website</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gemaakt</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gewijzigd</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Engagement_Score</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Kans**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>opportuniteit</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>verantwoording</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gemaakt</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gewijzigd</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>statecode</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>statecodenaam</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>verkoopster</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>salesstagecode</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>geschat</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>actualvalue</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Bizible_Opportunity_Amount</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_bizible_opportunity_amount_Base</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Campaign**
+
+Campagne &quot;Maken&quot;-machtigingen zijn ook vereist, naast de hieronder vermelde lees- en schrijfmachtigingen.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>campagne</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>typecode</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>typecodenaam</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gemaakt</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gewijzigd</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Bizible_Attribution_SyncType</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Marketing_Lists_Sync</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_UniqueId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_End_Date</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Start_Date</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Reactie van de Campagne**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>activiteitsid</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>activityTypeCode</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>activiteittypecodenaam</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gemaakt</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gewijzigd</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>responsecode</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>responsecodenaam</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>klant</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>betreffende object</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Bizible_Touchpoint_Date</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Status_Date</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Status_Contact</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Status_Leade</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Touchpoint_Status_Opportunity</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Lijst**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>listid</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gemaakt metFormCode</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>lidtype</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gemaakt</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gewijzigd</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Bizible_Touchpoint_Date</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**ListMember**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>listid</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>recht</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>listlidid</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gemaakt</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gewijzigd</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Vraag van de Telefoon**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th><p>Schemanaam</p></th> 
+   <th><p>Standaard/Aangepast</p></th> 
+   <th><p>Lezen</p></th> 
+   <th><p>Schrijven</p></th> 
+  </tr> 
+  <tr> 
+   <td><p>activiteitsid</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>activityTypeCode</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>activiteittypecodenaam</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gemaakt</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>gewijzigd</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>klant</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>betreffende object</p></td> 
+   <td><p>Standard</p></td> 
+   <td><p>x</p></td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_Bizible_Touchpoint_Date</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>bizible2_BizibleId</p></td> 
+   <td><p>Aangepast</p></td> 
+   <td><p>x</p></td> 
+   <td><p>x</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+[] = alleen v1 verouderde klanten

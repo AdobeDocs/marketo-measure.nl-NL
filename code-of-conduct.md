@@ -1,5 +1,5 @@
 ---
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -8,6 +8,7 @@ ht-degree: 0%
 # Adobe-gedragscode
 
 ## Onze belofte
+
 
 In het belang van het bevorderen van een open en welkome omgeving,
 contribuanten en onderhoudsgerechtigden verbinden zich ertoe aan ons project deel te nemen en
@@ -74,5 +75,5 @@ leden van de leiding van het project.
 
 ## Attributie
 
-Deze Gedragscode wordt aangepast van het [&#x200B; Medewerkersconvenant &#x200B;](https://contributor-covenant.org), versie 1.4,
-beschikbaar in [&#x200B; https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Deze Gedragscode wordt aangepast van het [ Medewerkersconvenant ](https://contributor-covenant.org), versie 1.4,
+beschikbaar in [ https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
