@@ -35,4 +35,4 @@ Dit rapport behandelt het aantal kansen die door uw Kanalen van de Marketing wor
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
