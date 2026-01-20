@@ -24,7 +24,7 @@ Net als bij onze integratie van Advertentiewoorden en -[!DNL Bing Ads] doet onze
 
 Voor de installatie moeten er zeven stappen worden uitgevoerd in de app [!DNL Marketo Measure] .
 
-1. Navigeer aan [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en login.
+1. Navigeer aan [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en login.
 1. Selecteer onder Mijn account **[!UICONTROL Settings]** .
 1. Selecteer onder Integraties **[!UICONTROL Connections]** .
 1. Selecteer **[!UICONTROL Set Up New Ads Connection]** en er verschijnt een pop-up. Selecteer **[!UICONTROL Facebook]** en meld u aan met uw Facebook-referenties.
@@ -44,7 +44,7 @@ Voor de installatie moeten er zeven stappen worden uitgevoerd in de app [!DNL Ma
 
 >[!NOTE]
 >
->Als u automatische labeling inschakelt, stellen we de omzetgeschiedenis en het sociale bewijs van alle advertenties die we labelen opnieuw in. Wij adviseren hoogst [ het uitvoeren van deze gegevens als CSV ](https://www.facebook.com/business/help/205067636197240) alvorens u auto-etiketteren toelaat.
+>Als u automatische labeling inschakelt, stellen we de omzetgeschiedenis en het sociale bewijs van alle advertenties die we labelen opnieuw in. Wij adviseren hoogst [&#x200B; het uitvoeren van deze gegevens als CSV &#x200B;](https://www.facebook.com/business/help/205067636197240) alvorens u auto-etiketteren toelaat.
 
 ![](assets/2-2.png)
 

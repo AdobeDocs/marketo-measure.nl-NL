@@ -30,7 +30,7 @@ Of u segmentatie voor het eerst bepaalt of enkel de segmentatie herziet die eerd
 * Richt uw segmentnaam aan de nomenclatuur van uw organisatie, d.w.z., de categorie = filternaam, segment = filterwaarde
 * Gebruik geen formulervelden in uw regels
 * Maak waar mogelijk de segmentatie op zowel de lead/contactpersoon als de opportunity, zodat u deze voor de hele funnel kunt gebruiken
-   * Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([ leert meer hier ](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([&#x200B; leert meer hier &#x200B;](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
    * Niet elke categorie Segment wordt uitgelijnd op de gehele funnel
@@ -49,4 +49,4 @@ Andere redenen aan dat zouden een overzicht kunnen teweegbrengen uw Segmentatie 
 
 >[!MORELIKETHIS]
 >
->[ hoe te de Segmentatie van de Douane van de Opstelling ](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md)
+>[&#x200B; hoe te de Segmentatie van de Douane van de Opstelling &#x200B;](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md)

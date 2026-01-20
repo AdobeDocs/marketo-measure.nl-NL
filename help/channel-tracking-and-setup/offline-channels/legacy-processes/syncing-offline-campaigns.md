@@ -17,7 +17,7 @@ Het kan moeilijk zijn om offline campagnes nauwkeurig te volgen en te begrijpen 
 
 >[!NOTE]
 >
->Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [ nieuwe, verbeterde in-app proces ](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
+>Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [&#x200B; nieuwe, verbeterde in-app proces &#x200B;](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
 
 ## Voordat u gaat synchroniseren {#before-you-sync}
 
@@ -74,6 +74,6 @@ Nadat u een van deze selecties hebt gekozen, wijst [!DNL Marketo Measure] aan el
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Gebieden van de Objecten van de campagne ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Gebieden van de Objecten van de campagne &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

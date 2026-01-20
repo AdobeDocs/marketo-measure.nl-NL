@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Kosten marketingkanaal {#marketing-channel-costs}
 
-Een van de meest fundamentele voordelen van het gebruik van [!DNL Marketo Measure] is de mogelijkheid om marketinginspanningen rechtstreeks te koppelen aan de invloed op de inkomsten, met zo veel granulariteit als u wilt. Het rendement van investeringen kan op het niveau van de aanspreekpunten worden gezien. Als u van dit voordeel wilt profiteren, moeten de kanaalkosten naar de app [!DNL Marketo Measure] worden geüpload. ROI de rapporten worden automatisch gecreeerd en beschikbaar in het **Op de markt brengend ROI Dashboard** in [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}.
+Een van de meest fundamentele voordelen van het gebruik van [!DNL Marketo Measure] is de mogelijkheid om marketinginspanningen rechtstreeks te koppelen aan de invloed op de inkomsten, met zo veel granulariteit als u wilt. Het rendement van investeringen kan op het niveau van de aanspreekpunten worden gezien. Als u van dit voordeel wilt profiteren, moeten de kanaalkosten naar de app [!DNL Marketo Measure] worden geüpload. ROI de rapporten worden automatisch gecreeerd en beschikbaar in het **Op de markt brengend ROI Dashboard** in [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Klik hier om rechtstreeks naar de instructies te navigeren.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 

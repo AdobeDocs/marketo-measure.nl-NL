@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Dit artikel bevat een woordenlijst met alle Marketo Measure-velden die vanuit het Marketo Measure Base Package aan uw Salesforce zijn toegevoegd. U zult ook informatie vinden over welk Voorwerp het Gebied kan worden gevonden en hoe elk Gebied met informatie wordt bevolkt.
 
-Voor een kaart waarvan Voorwerp elk gebied van Marketo Measure op betrekking heeft, [ klik hier ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Voor een kaart waarvan Voorwerp elk gebied van Marketo Measure op betrekking heeft, [&#x200B; klik hier &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
-[ A ](#a) ・ [ B ](#b) ・ [ C ](#c) ・ [ D ](#d) ・ [ E ](#e) ・ [ F ](#f) ・ [ G ](#g) ・ H ・ I ・ J ・ J ・ [ K ](#k) ・ [ L ](#l) ・ M [ ・ N ・ ](#m) O [ ・ ](#o) P [ ・ Q ・ ](#p) R [ ・ ](#r) S [ ・ ](#s) T [ ・ ](#t) U [ ・ ](#u) V [ ・ X ・ Y Z](#v)
+[&#x200B; A &#x200B;](#a) ・ [&#x200B; B &#x200B;](#b) ・ [&#x200B; C &#x200B;](#c) ・ [&#x200B; D &#x200B;](#d) ・ [&#x200B; E &#x200B;](#e) ・ [&#x200B; F &#x200B;](#f) ・ [&#x200B; G &#x200B;](#g) ・ H ・ I ・ J ・ J ・ [&#x200B; K &#x200B;](#k) ・ [&#x200B; L &#x200B;](#l) ・ M [&#x200B; ・ N ・ &#x200B;](#m) O [&#x200B; ・ &#x200B;](#o) P [&#x200B; ・ Q ・ &#x200B;](#p) R [&#x200B; ・ &#x200B;](#r) S [&#x200B; ・ &#x200B;](#s) T [&#x200B; ・ &#x200B;](#t) U [&#x200B; ・ &#x200B;](#u) V [&#x200B; ・ X ・ Y Z](#v)
 
 ## A {#a}
 
@@ -299,7 +299,7 @@ In dit veld wordt de naam weergegeven van de lead waartoe een aanraakpunt behoor
 
 **het Marketing Kanaal** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-In dit veld ziet u de algemene groep marketingactiviteiten of het marketingkanaal waartoe het aanraakpunt behoort (d.w.z. Betaalde zoekopdracht, Direct, Sociaal, enz.). Aanraakpunten worden gegroepeerd op basis van de manier waarop uw kanalen zijn ingesteld in de Marketo Measure App. Voor meer informatie over marketing kanalen, of hoe te opstelling uw kanalen, [ klik hier ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+In dit veld ziet u de algemene groep marketingactiviteiten of het marketingkanaal waartoe het aanraakpunt behoort (d.w.z. Betaalde zoekopdracht, Direct, Sociaal, enz.). Aanraakpunten worden gegroepeerd op basis van de manier waarop uw kanalen zijn ingesteld in de Marketo Measure App. Voor meer informatie over marketing kanalen, of hoe te opstelling uw kanalen, [&#x200B; klik hier &#x200B;](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **het Marketing Kanaal - Weg** | Buyer Touchpoint, Buyer Attribution Touchpoint
 

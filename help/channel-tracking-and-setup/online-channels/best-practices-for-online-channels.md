@@ -55,7 +55,7 @@ Als een van de bovenstaande problemen zich onlangs in uw team heeft voorgedaan, 
 
 >[!MORELIKETHIS]
 >
->* [ Online Opstelling van het Kanaal ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [ parameters UTM ](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
->* [ het Marketing Kanaal en Subchannel ](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
->* [ Beste praktijken UTM ](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
+>* [&#x200B; Online Opstelling van het Kanaal &#x200B;](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+>* [&#x200B; parameters UTM &#x200B;](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
+>* [&#x200B; het Marketing Kanaal en Subchannel &#x200B;](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
+>* [&#x200B; Beste praktijken UTM &#x200B;](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Aan de slag {#getting-started}
 
-U kunt tot het [!DNL Tableau] rapportmalplaatje [ hier ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} toegang hebben.
+U kunt tot het [!DNL Tableau] rapportmalplaatje [&#x200B; hier &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} toegang hebben.
 
 Open het werkboekbestand voor de [!DNL Adobe Marketo Measure] rapportsjabloon.
 
@@ -24,7 +24,7 @@ U moet de bestaande verbindingsgegevens bijwerken naar uw specifieke Snowflake-v
 
 ## Gegevensverbinding {#data-connection}
 
-U moet een gegevensverbinding instellen met uw Snowflake-exemplaar. Voor dit, hebt u de naam van de Server samen met uw Gebruikersnaam en Wachtwoord nodig. De details op waar te om deze informatie te vinden en uw wachtwoord terug te stellen, indien nodig, worden gedocumenteerd [ hier ](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+U moet een gegevensverbinding instellen met uw Snowflake-exemplaar. Voor dit, hebt u de naam van de Server samen met uw Gebruikersnaam en Wachtwoord nodig. De details op waar te om deze informatie te vinden en uw wachtwoord terug te stellen, indien nodig, worden gedocumenteerd [&#x200B; hier &#x200B;](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -82,7 +82,7 @@ Tabellen en kolommen hebben een andere naam gekregen om ze gebruiksvriendelijker
 
 ### Rijen toegevoegd {#rows-added}
 
-Om de mogelijkheden van de valutaconversie aan de berekeningen in het model toe te voegen, hebben wij een collectieve omrekeningskoers en een kolom van de doelwisselkoers aan zowel de lijsten van de Mogelijkheid als van de Kosten toegevoegd. De waarde in deze kolommen wordt toegevoegd op rijniveau en door zich bij de lijst van het Tarief van de Omzetting op zowel datum als muntidentiteitskaart aan te sluiten geëvalueerd. Aangezien in Tableau geen gegevens kunnen worden uitgewisseld in tabellen die meer dan één dimensietabel delen, zijn de conversietarieven rechtstreeks toegevoegd aan de tabellen die deze tabel gebruiken. Voor meer details op hoe de muntomzetting in dit model werkt, zie de [ sectie van de Omzetting van de Valuta 0} {in deze documentatie.](#currency-conversion)
+Om de mogelijkheden van de valutaconversie aan de berekeningen in het model toe te voegen, hebben wij een collectieve omrekeningskoers en een kolom van de doelwisselkoers aan zowel de lijsten van de Mogelijkheid als van de Kosten toegevoegd. De waarde in deze kolommen wordt toegevoegd op rijniveau en door zich bij de lijst van het Tarief van de Omzetting op zowel datum als muntidentiteitskaart aan te sluiten geëvalueerd. Aangezien in Tableau geen gegevens kunnen worden uitgewisseld in tabellen die meer dan één dimensietabel delen, zijn de conversietarieven rechtstreeks toegevoegd aan de tabellen die deze tabel gebruiken. Voor meer details op hoe de muntomzetting in dit model werkt, zie de [&#x200B; sectie van de Omzetting van de Valuta 0&rbrace; &lbrace;in deze documentatie.](#currency-conversion)
 
 ![](assets/marketo-measure-report-template-tableau-6.png)
 
@@ -153,7 +153,7 @@ Er zijn definities toegevoegd aan de [!DNL Tableau model] voor parameters, aange
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-Om definities voor kolommen te bekijken die direct uit [!DNL Snowflake] komen, zie de [ documentatie van het gegevenspakhuis ](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
+Om definities voor kolommen te bekijken die direct uit [!DNL Snowflake] komen, zie de [&#x200B; documentatie van het gegevenspakhuis &#x200B;](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Verschillen tussen sjablonen en ontdekken {#discrepancies-between-templates-and-discover}
 
@@ -179,7 +179,7 @@ Deze metriek, zoals aangetoond in de rapporteringsmalplaatjes, wordt niet weersp
 
 ### Webverkeer {#web-traffic}
 
-Het gegevensmodel van het rapportmalplaatje normaliseert kanaal, subchannel, en campagnedimensionele gegevens via het verband tussen Zitting en Aanraakpunt. Dit is anders dan het gegevensmodel Discover, dat deze dimensies aan Zitting ontleedt. Wegens dit onderscheid, zouden de totale aantallen voor bezoeken en bezoekers tussen Discover en het rapporteringsmalplaatje moeten aanpassen, echter, zodra getoond of gefilterd door dimensie, worden deze aantallen niet verwacht om op te zetten. De reden hiervoor is dat de dimensionale gegevens in de sjabloon alleen beschikbaar zijn voor webgebeurtenissen die tot een aanraakpunt hebben geleid (dat wil zeggen, niet-anonieme gebeurtenissen). Voor meer details, verwijs het [ Model van Gegevens ](#data-model) sectie van deze documentatie.
+Het gegevensmodel van het rapportmalplaatje normaliseert kanaal, subchannel, en campagnedimensionele gegevens via het verband tussen Zitting en Aanraakpunt. Dit is anders dan het gegevensmodel Discover, dat deze dimensies aan Zitting ontleedt. Wegens dit onderscheid, zouden de totale aantallen voor bezoeken en bezoekers tussen Discover en het rapporteringsmalplaatje moeten aanpassen, echter, zodra getoond of gefilterd door dimensie, worden deze aantallen niet verwacht om op te zetten. De reden hiervoor is dat de dimensionale gegevens in de sjabloon alleen beschikbaar zijn voor webgebeurtenissen die tot een aanraakpunt hebben geleid (dat wil zeggen, niet-anonieme gebeurtenissen). Voor meer details, verwijs het [&#x200B; Model van Gegevens &#x200B;](#data-model) sectie van deze documentatie.
 
 Er kunnen kleine verschillen zijn in het totale aantal sitevormen tussen [!DNL Discover] en de sjabloon. Dit komt omdat het gegevensmodel in het rapporteringsmalplaatje dimensionele gegevens voor de Vorm van de Plaats via een verhouding aan Zitting en dan Aanraakpunt verkrijgt; er zijn een paar gevallen waar de gegevens van de plaatvorm geen gecorreleerde zitting hebben.
 

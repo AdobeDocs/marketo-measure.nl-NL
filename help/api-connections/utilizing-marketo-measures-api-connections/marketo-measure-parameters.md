@@ -42,10 +42,10 @@ Voorbeeld van een URL met [!DNL Marketo Measure] -parameters:
 
 >[!TIP]
 >
->Voor meer informatie over gelijketypes, [ is hier een relevant artikel AdWords ](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
+>Voor meer informatie over gelijketypes, [&#x200B; is hier een relevant artikel AdWords &#x200B;](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
 * `_bn={network}`
-   * Vertegenwoordigt het type van advertentienetwerk - [ vertoning of onderzoek ](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"}.
+   * Vertegenwoordigt het type van advertentienetwerk - [&#x200B; vertoning of onderzoek &#x200B;](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"}.
    * Dit lijkt op de UTM Source-parameter.
 
 * `_bg={adgroupID}`

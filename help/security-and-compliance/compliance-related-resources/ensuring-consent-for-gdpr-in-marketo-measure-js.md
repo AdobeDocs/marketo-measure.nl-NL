@@ -48,7 +48,7 @@ Optie 2 - Vervang de standaard [!DNL bizible.js] -scripttag door:
 
 Dit vertelt [!DNL bizible.js] om niet te volgen tot de toestemming wordt bereikt, die met volgende JS API kan worden gedaan:
 
-*venster [ &quot;Bizible&quot;] = venster [ &quot;Bizible&quot;] || {_queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); };*
+*venster [ &quot;Bizible&quot;] = venster [ &quot;Bizible&quot;] || &lbrace;_queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); };*
 
 *Bizible. Push(&#39;Consent&#39;, true);*
 

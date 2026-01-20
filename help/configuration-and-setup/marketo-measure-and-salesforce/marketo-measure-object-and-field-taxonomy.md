@@ -17,9 +17,9 @@ Hieronder ziet u een stroomdiagram dat aangeeft hoe [!DNL Marketo Measure] Aange
 
 ![](assets/1-2.png)
 
-Voor het volledig-gerangschikte beeld, [ klik hier ](assets/bizible-object-and-field-taxonomy-graph-full.png).
+Voor het volledig-gerangschikte beeld, [&#x200B; klik hier &#x200B;](assets/bizible-object-and-field-taxonomy-graph-full.png).
 
-De definities van de [!DNL Marketo Measure] gebieden die in elk voorwerp [ leven kunnen hier ](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) worden gevonden.
+De definities van de [!DNL Marketo Measure] gebieden die in elk voorwerp [&#x200B; leven kunnen hier &#x200B;](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) worden gevonden.
 
 ## Veelgestelde vragen {#faq}
 

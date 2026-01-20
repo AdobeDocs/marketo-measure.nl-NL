@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [ nieuwe, verbeterde in-app proces ](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
+>Dit artikel behandelt een verouderd proces. Wij moedigen gebruikers aan om het [&#x200B; nieuwe, verbeterde in-app proces &#x200B;](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} te gebruiken.
 
 ## Te overwegen factoren {#factors-to-consider}
 
@@ -95,7 +95,7 @@ Als de gegevens ergens anders worden gehuisvest (bijvoorbeeld nog steeds in Mark
 
 Dientengevolge, kunt u massa plaatsen de datum voor iedereen in die Lijst van de Marketing die voor de Datum van het Aanraakpunt zal worden gebruikt. Als u nauwkeuriger historische datums wilt, maakt u meerdere marketinglijsten voor dezelfde campagne, elk met een eigen aanraakpuntdatum. Als de Campagne een korte tijdspanne heeft, misschien zou het nuttig zijn om een Lijst van de Marketing voor elke dag tot stand te brengen. Als de Campagne een langere tijdspanne heeft, zou het steek kunnen zijn om een Lijst van de Marketing op een wekelijkse basis tot stand te brengen.
 
-Meer informatie bij het Synceren van de Lijst van de Marketing kan hier worden gevonden: [[!DNL Dynamics]  Campagnes en de Lijst van de Marketing ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
+Meer informatie bij het Synceren van de Lijst van de Marketing kan hier worden gevonden: [[!DNL Dynamics]  Campagnes en de Lijst van de Marketing &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
 >

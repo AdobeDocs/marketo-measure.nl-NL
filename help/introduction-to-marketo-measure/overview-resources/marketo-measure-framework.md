@@ -28,7 +28,7 @@ De Marketo Measure JavaScript volgt alle online marketinginteracties, ook wel aa
 
 >[!NOTE]
 >
->Voor instructies op hoe te om Marketo Measure JS toe te voegen, [ klik hier ](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
+>Voor instructies op hoe te om Marketo Measure JS toe te voegen, [&#x200B; klik hier &#x200B;](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
 Marketo Measure JS legt gegevens vast van webbezoeken (inclusief anonieme webbezoeken), algemene navigatie in het verkeer/de pagina, het downloaden van inhoud en het verzenden van formulieren. Deze gegevens worden in uw CRM geduwd en elke marketing interactie wordt getoond als touchpoint.
 

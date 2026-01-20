@@ -16,7 +16,7 @@ Met SAML (security assertion markup language) voor SSO (Single Sign-On) kunnen g
 
 >[!CAUTION]
 >
->In dit artikel worden Single Sign On (SSO) en het geavanceerde CRM-gebruikersbeheer beschreven. Als uw rekening **na 9/10/2020** werd voorzien, negeert dit artikel, aangezien SSO en Identity Management binnen [ Adobe Admin Console voor uw  [!DNL Marketo Measure]  integratie ](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md) zullen worden geplaatst.
+>In dit artikel worden Single Sign On (SSO) en het geavanceerde CRM-gebruikersbeheer beschreven. Als uw rekening **na 9/10/2020** werd voorzien, negeert dit artikel, aangezien SSO en Identity Management binnen [&#x200B; Adobe Admin Console voor uw  [!DNL Marketo Measure]  integratie &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md) zullen worden geplaatst.
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ Probeer het uit!
 
      a. Gebruik uw nieuw douanelogin URL van het Teken en poging om terug binnen aan de  [!DNL Marketo Measure]  Toepassing met uw geloofsbrieven van de Leverancier van de Identiteit te registreren.
     
-     b. Het formaat zal als &quot;https://apps.adobe.com/business/[accountName] ` kijken 
+     b. Het formaat zal als &quot;https://apps.adobe.com/business/[accountName] &grave; kijken 
     
      c. Gefeliciteerd! U hebt met succes opstelling het Enige Teken in de  [!DNL Marketo Measure]  Toepassing voor uw rekening!
 
@@ -152,7 +152,7 @@ Alleen geldige [!DNL Google] -accounts kunnen worden toegevoegd en er moet een g
 
 ## Externe koppelingen {#external-links}
 
-* [ Okta ](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
-* [ pingelt Identiteit ](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
-* [ OneLogin ](https://onelogin.service-now.com/support?id=kb_article&sys_id=b2c91143db109700d5505eea4b9619d5)
-* [ Actieve Folder ](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [&#x200B; Okta &#x200B;](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
+* [&#x200B; pingelt Identiteit &#x200B;](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
+* [&#x200B; OneLogin &#x200B;](https://onelogin.service-now.com/support?id=kb_article&sys_id=b2c91143db109700d5505eea4b9619d5)
+* [&#x200B; Actieve Folder &#x200B;](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)

@@ -31,11 +31,11 @@ Om ervoor te zorgen dat alle gegevens behoorlijk van uw CRM trekken, vereisen wi
 
 Sla in de onderstaande handleidingen de stappen over om het [!DNL Salesforce] -pakket of de [!DNL Microsoft Dynamics] Beheerde oplossing te installeren en volg alleen de machtigingen en integratie-instructies.
 
-[!DNL Salesforce] klanten klik [ hier ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md).
+[!DNL Salesforce] klanten klik [&#x200B; hier &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md).
 
-[!DNL Microsoft Dynamics] klanten klik [ hier ](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
+[!DNL Microsoft Dynamics] klanten klik [&#x200B; hier &#x200B;](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-Nadat u deze stappen voltooit, zou de integratie operationeel moeten zijn. Als u in om het even welke kwesties loopt, contacteer uw [!DNL Marketo Measure] vertegenwoordiger of [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Nadat u deze stappen voltooit, zou de integratie operationeel moeten zijn. Als u in om het even welke kwesties loopt, contacteer uw [!DNL Marketo Measure] vertegenwoordiger of [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >

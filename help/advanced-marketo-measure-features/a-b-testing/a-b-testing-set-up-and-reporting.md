@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # A/B Testen en rapporteren {#a-b-testing-set-up-and-reporting}
 
-De [!DNL Marketo Measure] integratie van de Test A/B staat u toe om het opbrengsteffect van uw [ Optimizely ](https://www.optimizely.com/){target="_blank"} en de plaatsexperimenten van VWO te volgen. In dit artikel vindt u instructies voor het toevoegen van [!DNL Marketo Measure] A/B-testsecties aan de paginalay-outs Lead, [!UICONTROL Contact] , Case en [!UICONTROL Opportunity] . Hier worden ook algemene rapportpraktijken en aanbevelingen voor het uitvoeren van [!DNL Marketo Measure] A/B-rapporttypen besproken.
+De [!DNL Marketo Measure] integratie van de Test A/B staat u toe om het opbrengsteffect van uw [&#x200B; Optimizely &#x200B;](https://www.optimizely.com/){target="_blank"} en de plaatsexperimenten van VWO te volgen. In dit artikel vindt u instructies voor het toevoegen van [!DNL Marketo Measure] A/B-testsecties aan de paginalay-outs Lead, [!UICONTROL Contact] , Case en [!UICONTROL Opportunity] . Hier worden ook algemene rapportpraktijken en aanbevelingen voor het uitvoeren van [!DNL Marketo Measure] A/B-rapporttypen besproken.
 
 ## Instellen {#set-up}
 
-Voeg de sectie [!DNL Marketo Measure] A/B-test toe op Lood, Contact, Hoofd-kleine letter en Opportunity. [!DNL Marketo Measure] A/B de integratie van de Test staat u toe om het opbrengsteffect van uw [ Optimizely ](https://www.optimizely.com/){target="_blank"} en [ VWO ](https://vwo.com/){target="_blank"} plaatsexperimenten te volgen.
+Voeg de sectie [!DNL Marketo Measure] A/B-test toe op Lood, Contact, Hoofd-kleine letter en Opportunity. [!DNL Marketo Measure] A/B de integratie van de Test staat u toe om het opbrengsteffect van uw [&#x200B; Optimizely &#x200B;](https://www.optimizely.com/){target="_blank"} en [&#x200B; VWO &#x200B;](https://vwo.com/){target="_blank"} plaatsexperimenten te volgen.
 
 1. Controleer of u pakket [!DNL Marketo Measure] v3.9 of hoger gebruikt. U kunt dit doen door naar [!UICONTROL Salesforce] > [!UICONTROL Set Up] > [!UICONTROL Installed packages] te gaan.
 1. Bewerk de paginalay-out Lead en voeg de **[!DNL Marketo Measure]Verwante lijst van A/B-tests** toe aan de pagina.
@@ -32,7 +32,7 @@ Voeg de sectie [!DNL Marketo Measure] A/B-test toe op Lood, Contact, Hoofd-klein
 
    ![](assets/3.png)
 
-1. Contacteer uw [!DNL Marketo Measure] rep of [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om de eigenschap toe te laten.
+1. Contacteer uw [!DNL Marketo Measure] rep of [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om de eigenschap toe te laten.
 
 ## Rapportage {#reporting}
 

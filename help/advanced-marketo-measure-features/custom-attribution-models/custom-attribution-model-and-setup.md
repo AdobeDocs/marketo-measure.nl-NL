@@ -25,7 +25,7 @@ Met het [!DNL Marketo Measure] Aangepaste kenmerkingsmodel kunnen gebruikers kie
 
    Om uw model van de douaneattributie te beginnen bouwen, zult u moeten selecteren welke stadia voor uw team van de Marketing belangrijk zijn. Naast de [!DNL Marketo Measure] mijlpaalfasen (FT, LC, OC, Gesloten) kunt u maximaal zes extra statussen van de Lood/van het Contact of stadia van de Kans in uw douanemodel toevoegen. Het is bijvoorbeeld gebruikelijk dat het MQL-werkgebied wordt opgenomen in het aangepaste model. Marketing teams willen vaak weten welke inspanningen of kanalen de overgang naar het MQL-stadium stimuleren.
 
-   Teken binnen aan [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}. Ga naar [!UICONTROL My Account] > [!UICONTROL Settings] > en selecteer **[!UICONTROL Stage Mapping]** onder de sectie CRM.
+   Teken binnen aan [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}. Ga naar [!UICONTROL My Account] > [!UICONTROL Settings] > en selecteer **[!UICONTROL Stage Mapping]** onder de sectie CRM.
 
    Selecteer vervolgens het vak **[!UICONTROL Include in Model]** om aan te geven welke stappen u wilt opnemen voor leads/contactpersonen en opportunity.
 
@@ -51,7 +51,7 @@ Met het [!DNL Marketo Measure] Aangepaste kenmerkingsmodel kunnen gebruikers kie
    >
    >Vergeet niet het bijhouden van historie in te schakelen voor aangepaste velden.
 
-Als een aangepast veld wordt gebruikt in uw aangepaste model, MOET het bijhouden van veldgeschiedenis zijn ingeschakeld in CRM. Voor instructies om het volgen van de gebiedsgeschiedenis toe te laten, verwijs naar [ de ModelOpstelling van de Douane: laat het Volgen van de Geschiedenis van het Gebied ](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md) toe.
+Als een aangepast veld wordt gebruikt in uw aangepaste model, MOET het bijhouden van veldgeschiedenis zijn ingeschakeld in CRM. Voor instructies om het volgen van de gebiedsgeschiedenis toe te laten, verwijs naar [&#x200B; de ModelOpstelling van de Douane: laat het Volgen van de Geschiedenis van het Gebied &#x200B;](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md) toe.
 
 1. Bepaal de toewijzingspercentages voor het aangepaste model.
 
@@ -59,7 +59,7 @@ Als een aangepast veld wordt gebruikt in uw aangepaste model, MOET het bijhouden
 
    In de uiterst juiste kolom geëtiketteerd &quot;**[!UICONTROL Custom]**,&quot;kunt u het percentageweging voor elk stadium in uw model van de douaneattributie plaatsen. Voer de waarden voor elk werkgebied in onder de kolom Aangepast en klik op **[!UICONTROL Save and Reprocess]** wanneer dit is voltooid.
 
-   Links van de _kolom van de Douane_ is het **[!DNL Marketo Measure]het Leren van de Machine model**. Het leren van de machine model berekent attributieweging die op het relatieve belang wordt gebaseerd om een overeenkomst te winnen afhankelijk van wat in elk douanestadium gebeurde. Voor meer informatie over de machine die model leren, verwijs naar [ het Leren van de Machine ModelVeelgestelde Veelgestelde vragen ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+   Links van de _kolom van de Douane_ is het **[!DNL Marketo Measure]het Leren van de Machine model**. Het leren van de machine model berekent attributieweging die op het relatieve belang wordt gebaseerd om een overeenkomst te winnen afhankelijk van wat in elk douanestadium gebeurde. Voor meer informatie over de machine die model leren, verwijs naar [&#x200B; het Leren van de Machine ModelVeelgestelde Veelgestelde vragen &#x200B;](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 

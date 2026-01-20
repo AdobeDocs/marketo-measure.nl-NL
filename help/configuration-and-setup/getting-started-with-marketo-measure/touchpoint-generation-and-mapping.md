@@ -46,10 +46,10 @@ Het toewijzingsproces voor aanraakpunten beantwoordt de vraag: &quot;Hoe weet [!
 
 >[!MORELIKETHIS]
 >
->* [ het In kaart brengen Online Touchpoints aan  [!DNL Marketo Measure]  Kanalen/Subkanalen ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [ het synchroniseren van de Campagnes van CRM van binnen SFDC ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
->* [ het synchroniseren van de Campagnes van CRM van binnen  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [ het In kaart brengen van CRM Campagnes aan  [!DNL Marketo Measure]  Kanalen/Subkanalen ](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
->* [ Creërend Touchpoints van de Activiteiten van de Verkoop ](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
->* [ Veelgestelde vragen van Activiteiten en de Activiteiten van de Afbeelding richt aan Kanalen/Subkanalen ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>* [&#x200B; het In kaart brengen Online Touchpoints aan  [!DNL Marketo Measure]  Kanalen/Subkanalen &#x200B;](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+>* [&#x200B; het synchroniseren van de Campagnes van CRM van binnen SFDC &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+>* [&#x200B; het synchroniseren van de Campagnes van CRM van binnen  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
+>* [&#x200B; het In kaart brengen van CRM Campagnes aan  [!DNL Marketo Measure]  Kanalen/Subkanalen &#x200B;](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+>* [&#x200B; Creërend Touchpoints van de Activiteiten van de Verkoop &#x200B;](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
+>* [&#x200B; Veelgestelde vragen van Activiteiten en de Activiteiten van de Afbeelding richt aan Kanalen/Subkanalen &#x200B;](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
 

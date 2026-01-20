@@ -23,7 +23,7 @@ Als de verbinding met uw CRM-platform wordt verbroken, kan [!DNL Marketo Measure
 
 ## Ongekoppelde accounts opnieuw autoriseren {#re-authorizing-disconnected-accounts}
 
-1. Ga naar [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en login.
+1. Ga naar [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en login.
 1. Selecteer **[!UICONTROL Settings]** onder het tabblad [!UICONTROL My Account] in de linkerbovenhoek.
 1. Zoek de sectie Integraties aan de linkerkant en klik op **[!UICONTROL Connections]** .
 1. Selecteer het symbool Rode sleutel naast het account dat opnieuw moet worden verbonden.

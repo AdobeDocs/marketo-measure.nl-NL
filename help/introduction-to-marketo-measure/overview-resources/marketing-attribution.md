@@ -36,7 +36,7 @@ Deze milestone aanrakingen zijn de stichting van Marketo Measure **attributiemod
 
 >[!NOTE]
 >
->[ leer meer over elk attributiemodel ](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md).
+>[&#x200B; leer meer over elk attributiemodel &#x200B;](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md).
 
 ## Waarom kenmerk belangrijk is {#why-attribution-is-important}
 

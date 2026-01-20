@@ -60,5 +60,5 @@ Dit dashboard is uitgerust met de volgende instellingen en filters:
 
 >[!MORELIKETHIS]
 >
->* [ ontdekt de Grondbeginselen van het Dashboard ](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [ Beleid van de Zichtbaarheid van Gegevens van het Dashboard ](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [&#x200B; Beleid van de Zichtbaarheid van Gegevens van het Dashboard &#x200B;](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}

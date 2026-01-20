@@ -29,4 +29,4 @@ Nadat u de installatie hebt voltooid en rapporten hebt gebruikt, wordt niet elk 
 
 >[!MORELIKETHIS]
 >
->[ Salesforce - verberg Ongebruikte Types van Rapport ](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)
+>[&#x200B; Salesforce - verberg Ongebruikte Types van Rapport &#x200B;](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

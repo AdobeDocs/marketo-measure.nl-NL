@@ -23,4 +23,4 @@ Het wordt aanbevolen de JavaScript in het hoofd van het IFrame te plaatsen en va
 
 ![](assets/1-1.png)
 
-Als u om het even welke vragen rond het toevoegen van onze JavaScript aan IFrame vormen hebt, reek uit aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [ de Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Als u om het even welke vragen rond het toevoegen van onze JavaScript aan IFrame vormen hebt, reek uit aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

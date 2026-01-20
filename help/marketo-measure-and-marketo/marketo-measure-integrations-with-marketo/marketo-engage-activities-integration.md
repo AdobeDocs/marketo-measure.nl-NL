@@ -159,9 +159,9 @@ Aangepaste activiteit (xxx)
 
 ## Kanaaltoewijzing {#channel-mapping}
 
-Voor om het even welke regels van een Type van Activiteit met een Identiteitskaart van het Programma, wordt het Kanaal van het Programma van Marketo bepaald van het Programma. Wij gebruiken het Kanaal van het Programma om aan uw douane Offline Kanalen in kaart te brengen, zodat moet u ervoor zorgen uw kanalen behoorlijk [ zoals hier geïnstrueerd ](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"} worden gevormd.
+Voor om het even welke regels van een Type van Activiteit met een Identiteitskaart van het Programma, wordt het Kanaal van het Programma van Marketo bepaald van het Programma. Wij gebruiken het Kanaal van het Programma om aan uw douane Offline Kanalen in kaart te brengen, zodat moet u ervoor zorgen uw kanalen behoorlijk [&#x200B; zoals hier geïnstrueerd &#x200B;](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"} worden gevormd.
 
-En voor om het even welke regels van een Type van Activiteit zonder Programma Id, was uw eerste stap een Naam van de Campagne te creëren. Gebruik deze Naam van de Campagne aan opstelling uw douane Online Kanalen [ hier opgemaakt ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}.
+En voor om het even welke regels van een Type van Activiteit zonder Programma Id, was uw eerste stap een Naam van de Campagne te creëren. Gebruik deze Naam van de Campagne aan opstelling uw douane Online Kanalen [&#x200B; hier opgemaakt &#x200B;](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}.
 
 Als de Kanalen voor uw Activiteiten van Marketo niet behoorlijk worden gevormd, is het waarschijnlijk uw nieuwe aanraakpunten onder het &quot;Andere&quot;kanaal vallen.
 

@@ -50,11 +50,11 @@ Andere redenen daarvoor kunnen aanleiding geven tot een herziening...
 
 >[!NOTE]
 >
->Als u het exporteren van gegevens naar Salesforce uitschakelt, worden bestaande gegevens niet verwijderd. Om het te verwijderen, volg de stappen in [ dit Salesforce hulpartikel ](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
+>Als u het exporteren van gegevens naar Salesforce uitschakelt, worden bestaande gegevens niet verwijderd. Om het te verwijderen, volg de stappen in [&#x200B; dit Salesforce hulpartikel &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
->* [ Update Buyer Touchpoint Package ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
->* [[!DNL Marketo Measure]  Reeksen van de Toestemming ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [ het Delen van de Omslag van Rapporten en van Dashboards ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
->* [ verbind Marketo Measure met Salesforce ](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+>* [&#x200B; Update Buyer Touchpoint Package &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
+>* [[!DNL Marketo Measure]  Reeksen van de Toestemming &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+>* [&#x200B; het Delen van de Omslag van Rapporten en van Dashboards &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+>* [&#x200B; verbind Marketo Measure met Salesforce &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

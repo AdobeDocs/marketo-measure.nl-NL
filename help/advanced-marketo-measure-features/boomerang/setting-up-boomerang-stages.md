@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >De Boomerang-functie wordt alleen ingeschakeld voor Tier 2-klanten. Neem contact op met het Adobe-accountteam (uw accountmanager) als u een hogere accountlaag wilt aanvragen.
 
-Als u [!UICONTROL Boomerang] -fasen wilt inschakelen voor uw account, moet u een accountbeheerder zijn. Of, kan het worden toegelaten door uit te gaan naar [ de Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Nadat de functie is ingeschakeld, volgt u deze instructies om deze in te stellen.
+Als u [!UICONTROL Boomerang] -fasen wilt inschakelen voor uw account, moet u een accountbeheerder zijn. Of, kan het worden toegelaten door uit te gaan naar [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Nadat de functie is ingeschakeld, volgt u deze instructies om deze in te stellen.
 
 ## Boomerang Stage Setup {#boomerang-stage-setup}
 

@@ -24,7 +24,7 @@ Als u al bent aangemeld bij een Adobe Experience Cloud-product, klikt u op het m
 >
 >Het vervolgkeuzemenu ziet er mogelijk anders uit, afhankelijk van de Adobe Experience Cloud-producten waarop u zich hebt geabonneerd.
 
-Als u _niet_ reeds het programma wordt geopend aan een product van Adobe Experience Cloud, login direct aan [!DNL Marketo Measure] hier: [ https://experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure).
+Als u _niet_ reeds het programma wordt geopend aan een product van Adobe Experience Cloud, login direct aan [!DNL Marketo Measure] hier: [&#x200B; https://experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure).
 
 ## Nieuwe functies {#new-features}
 
@@ -32,7 +32,7 @@ Naast de bijgewerkte look and feel, ziet u de volgende functies:
 
 **Beheer van het Domein**
 
-[ beheer uw  [!DNL Marketo Measure]  domeinen ](/help/marketo-measure-and-adobe/domain-management.md) zonder hulp van [!DNL Marketo Measure].
+[&#x200B; beheer uw  [!DNL Marketo Measure]  domeinen &#x200B;](/help/marketo-measure-and-adobe/domain-management.md) zonder hulp van [!DNL Marketo Measure].
 
 ![](assets/unified-shell-overview-5.png)
 
@@ -74,4 +74,4 @@ Als u zich kunt aanmelden bij Adobe Experience Cloud, maar een pagina zoals deze
 
 ![](assets/unified-shell-overview-11.png)
 
-Als u de bovengenoemde fout ontvangt, [ contactSteun ](https://nation.marketo.com/t5/support/ct-p/Support) voor hulp.
+Als u de bovengenoemde fout ontvangt, [&#x200B; contactSteun &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support) voor hulp.

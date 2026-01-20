@@ -52,5 +52,5 @@ Andere redenen die kunnen leiden tot een herziening van de activiteitenregels zi
 
 >[!MORELIKETHIS]
 >
->* [ Attributie van Activiteiten ](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
->* [ Veelgestelde vragen van de Attributie van de Activiteiten van de Verkoop ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>* [&#x200B; Attributie van Activiteiten &#x200B;](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
+>* [&#x200B; Veelgestelde vragen van de Attributie van de Activiteiten van de Verkoop &#x200B;](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
