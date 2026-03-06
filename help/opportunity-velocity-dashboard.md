@@ -38,7 +38,7 @@ Vragen in de grafiek:
 >
 >Fases vóór &#39;Opportunity Creation&#39; gebruiken de meest recente aanraakpuntdatum als de &#39;transitiedatum&#39;.
 
-![ De Stages vóór &quot;Aanmaak van de Kanaal&quot;zullen de meest recente aanraakpuntdatum als ](assets/lead-dashboard-1.png) gebruiken
+![&#x200B; De Stages vóór &quot;Aanmaak van de Kanaal&quot;zullen de meest recente aanraakpuntdatum als &#x200B;](assets/lead-dashboard-1.png) gebruiken
 
 ### Opportunity-snelheid in de tijd {#opportunity-velocity-over-time}
 
@@ -52,7 +52,7 @@ Vragen in de grafiek:
 * Wat zijn de trends in de tijd die in elk stadium wordt doorgebracht voor kansen gedurende de waargenomen maanden?
 * In welke maand hebben de kansen de snelste vooruitgang door de verkoopstadia ervaren?
 
-![ waarin de maand kansen de snelste vooruitgang door de verkoop ](assets/lead-dashboard-2.png) ervaart
+![&#x200B; waarin de maand kansen de snelste vooruitgang door de verkoop &#x200B;](assets/lead-dashboard-2.png) ervaart
 
 ### Snelheid van opportunity door Kanaal {#opportunity-velocity-by-channel}
 
@@ -65,7 +65,7 @@ Vragen in de grafiek:
 * Welk kanaal toont de snelste vooruitgang door de stadia van funnel?
 * Hoe varieert de opportuniteitssnelheid in het stadium &#39;prospect&#39; per kanaal?
 
-![ hoe varieert de opportuniteitssnelheid in het &quot;Vooruitzichten&quot;stadium over verschillende ](assets/lead-dashboard-3.png)
+![&#x200B; hoe varieert de opportuniteitssnelheid in het &quot;Vooruitzichten&quot;stadium over verschillende &#x200B;](assets/lead-dashboard-3.png)
 
 ## Filtervenster {#filter-pane}
 

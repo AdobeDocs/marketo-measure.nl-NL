@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Hieronder ziet u een stroomdiagram dat aangeeft hoe [!DNL Marketo Measure] Aangepaste objecten zijn gerelateerd aan [!DNL Salesforce] Standaardobjecten.
 
-![ hieronder is een stroomdiagram dat vertegenwoordigt hoe de Douane van Marketo Measure ](assets/bizible-full-1.png)
+![&#x200B; hieronder is een stroomdiagram dat vertegenwoordigt hoe de Douane van Marketo Measure &#x200B;](assets/bizible-full-1.png)
 
-Voor het volledig-gerangschikte beeld, [ klik hier ](assets/bizible-full-1.png).
+Voor het volledig-gerangschikte beeld, [&#x200B; klik hier &#x200B;](assets/bizible-full-1.png).
 
-De definities van de [!DNL Marketo Measure] gebieden die in elk voorwerp [ leven kunnen hier ](/help/glossary.md) worden gevonden.
+De definities van de [!DNL Marketo Measure] gebieden die in elk voorwerp [&#x200B; leven kunnen hier &#x200B;](/help/glossary.md) worden gevonden.
 
 ## Veelgestelde vragen {#faq}
 

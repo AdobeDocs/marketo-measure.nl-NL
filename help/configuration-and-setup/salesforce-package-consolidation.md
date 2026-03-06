@@ -29,7 +29,7 @@ Er zijn twee nieuwe gebieden om uw rapporteringsmogelijkheden te verbeteren:
 
 ## Ondersteuning en overgang {#support-and-transition}
 
-Het [ team van de Steun ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} is beschikbaar om het even welke vragen te beantwoorden en met het verzekeren van een vlotte overgang aan het nieuwe geconsolideerde pakket bij te wonen.
+Het [&#x200B; team van de Steun &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} is beschikbaar om het even welke vragen te beantwoorden en met het verzekeren van een vlotte overgang aan het nieuwe geconsolideerde pakket bij te wonen.
 
 ## Vereiste handelingen {#retired-actions}
 
@@ -41,13 +41,13 @@ Het [ team van de Steun ](https://nation.marketo.com/t5/support/ct-p/Support){ta
       * V2_EXT-query:
          * bizible2_ext__Ad_Content_FT__c contains Outreach
 
-![ bizible2extAdContentFTc bevat Outreach ](assets/bizible-full-1.png)
+![&#x200B; bizible2extAdContentFTc bevat Outreach &#x200B;](assets/bizible-full-1.png)
 
 * Overeenkomende query in het geconsolideerde pakket:
    * bizible2__Touchpoint_Position__c bevat FT AND
    * bizible2__Ad_Content__c bevat Outreach
 
-![ bizible2AdContentc bevat Outreach ](assets/bizible-taxonomy-1.png)
+![&#x200B; bizible2AdContentc bevat Outreach &#x200B;](assets/bizible-taxonomy-1.png)
 
 ## Veelgestelde vragen {#faq}
 
@@ -57,7 +57,7 @@ U hoeft het pakket niet te verwijderen voordat u het geconsolideerde pakket inst
 
 **Hoe kan ik backfill de gegevens van mijn huidige pakketten?**
 
-U kunt een kaartje [ met Steun ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} voor het terugvullen en het opwerken van gegevens van BT/BAT dossier om identiteitskaart van het Aanraakpunt en de gebieden van identiteitskaart van de Vorm in te vullen.
+U kunt een kaartje [&#x200B; met Steun &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} voor het terugvullen en het opwerken van gegevens van BT/BAT dossier om identiteitskaart van het Aanraakpunt en de gebieden van identiteitskaart van de Vorm in te vullen.
 
 **zullen de gebieden in V1 en V2_EXT pakketten in het geconsolideerde pakket beschikbaar zijn?**
 
@@ -65,4 +65,4 @@ Ja. Het geconsolideerde pakket bevat dezelfde velden in V1 met verdere uitsplits
 
 **kan rapporten die V2_EXT gebieden gebruiken in het geconsolideerde pakket worden opnieuw gecreeerd?**
 
-Ja. Volg de stappen in de [ Vereiste sectie van Acties ](#retired-actions).
+Ja. Volg de stappen in de [&#x200B; Vereiste sectie van Acties &#x200B;](#retired-actions).

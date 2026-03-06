@@ -18,13 +18,13 @@ Met Adobe Experience Cloud Interface wordt de vormgeving van Adobe Experience Cl
 
 Als u al bent aangemeld bij een Adobe Experience Cloud-product, klikt u op het menupictogram en selecteert u **[!DNL Marketo Measure]** .
 
-![ als u reeds aan een product van Adobe Experience Cloud wordt het programma geopend, ](assets/unified-overview-6.png)
+![&#x200B; als u reeds aan een product van Adobe Experience Cloud wordt het programma geopend, &#x200B;](assets/unified-overview-6.png)
 
 >[!NOTE]
 >
 >Het vervolgkeuzemenu ziet er mogelijk anders uit, afhankelijk van de Adobe Experience Cloud-producten waarop u zich hebt geabonneerd.
 
-Als u _niet_ reeds het programma wordt geopend aan een product van Adobe Experience Cloud, login direct aan [!DNL Marketo Measure] hier: [ https://experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure).
+Als u _niet_ reeds het programma wordt geopend aan een product van Adobe Experience Cloud, login direct aan [!DNL Marketo Measure] hier: [&#x200B; https://experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure).
 
 ## Nieuwe functies {#new-features}
 
@@ -32,35 +32,35 @@ Naast de bijgewerkte look and feel, ziet u de volgende functies:
 
 **Beheer van het Domein**
 
-[ beheer uw  [!DNL Marketo Measure]  domeinen ](/help/domain-management.md) zonder hulp van [!DNL Marketo Measure].
+[&#x200B; beheer uw  [!DNL Marketo Measure]  domeinen &#x200B;](/help/domain-management.md) zonder hulp van [!DNL Marketo Measure].
 
-![ beheer uw domeinen van Marketo Measure (/help/domain-management.md) zonder hulp van Marketo Measure.](assets/unified-overview-9.png)
+![&#x200B; beheer uw domeinen van Marketo Measure (/help/domain-management.md) zonder hulp van Marketo Measure.](assets/unified-overview-9.png)
 
 **Geïntegreerd Centrum van de Hulp**
 
 Zoek naar ondersteuningsartikelen, verzend tickets, geef feedback vanuit de [!DNL Marketo Measure] -toepassing.
 
-![ Onderzoek naar steunartikelen, voorlegt kaartjes, verstrekt terugkoppelen, allen van binnen ](assets/unified-overview-5.png)
+![&#x200B; Onderzoek naar steunartikelen, voorlegt kaartjes, verstrekt terugkoppelen, allen van binnen &#x200B;](assets/unified-overview-5.png)
 
 **Schakelaar van de Toepassing**
 
 Diegenen die toegang hebben tot meerdere Adobe-producten kunnen gemakkelijk van elkaar wisselen.
 
-![ die met toegang tot de veelvoudige producten van Adobe kunnen gemakkelijk van een knevel voorzien ](assets/unified-overview-4.png)
+![&#x200B; die met toegang tot de veelvoudige producten van Adobe kunnen gemakkelijk van een knevel voorzien &#x200B;](assets/unified-overview-4.png)
 
 **Meldingen en Mededelingen**
 
 Bekijk en communiceer rechtstreeks met productspecifieke meldingen en algemene Adobe-productaankondigingen in de toepassing.
 
-![ Mening en interactie direct met product-specifieke berichten en algemene het productaankondigingen van Adobe ](assets/unified-overview-10.png)
+![&#x200B; Mening en interactie direct met product-specifieke berichten en algemene het productaankondigingen van Adobe &#x200B;](assets/unified-overview-10.png)
 
-![ Mening en interactie direct met product-specifieke berichten en algemene het productaankondigingen van Adobe ](assets/unified-overview-11.png)
+![&#x200B; Mening en interactie direct met product-specifieke berichten en algemene het productaankondigingen van Adobe &#x200B;](assets/unified-overview-11.png)
 
 **de Montages van Adobe**
 
 Klik op het profielpictogram als u uw taal of andere voorkeuren voor de hele Adobe wilt wijzigen. U kunt [!DNL Marketo Measure] - specifieke veranderingen ook aanbrengen door **Mijn Montages** te klikken.
 
-![ om uw taal of andere Adobe-brede voorkeur te veranderen, klik uw profielpictogram.](assets/unified-overview-8.png)
+![&#x200B; om uw taal of andere Adobe-brede voorkeur te veranderen, klik uw profielpictogram.](assets/unified-overview-8.png)
 
 ## Veelgestelde vragen {#faq}
 
@@ -72,6 +72,6 @@ Bladwijzers worden omgeleid. Als u bijvoorbeeld naar https://apps.marketo-measur
 
 Als u zich kunt aanmelden bij Adobe Experience Cloud, maar een pagina zoals deze ziet, kan het probleem zich voordoen op de zijde van [!DNL Marketo Measure] :
 
-![ als u aan login aan Adobe Experience Cloud kunt, maar a ](assets/unified-overview-7.png) zien
+![&#x200B; als u aan login aan Adobe Experience Cloud kunt, maar a &#x200B;](assets/unified-overview-7.png) zien
 
-Als u de bovengenoemde fout ontvangt, [ contactSteun ](https://nation.marketo.com/t5/support/ct-p/Support) voor hulp.
+Als u de bovengenoemde fout ontvangt, [&#x200B; contactSteun &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support) voor hulp.

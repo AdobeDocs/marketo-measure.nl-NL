@@ -16,7 +16,7 @@ Leer hoe u de machtiging voor het bewerken van geconverteerde lead records insch
 
 1. Ga naar [!UICONTROL Setup] en vouw de [!UICONTROL Manage Users] groepering uit om Profielen te selecteren.
 
-   ![1. Ga naar Opstelling en breid de Manage Groep van Gebruikers uit ](assets/additional-functionality-1.png)
+   ![1. Ga naar Opstelling en breid de Manage Groep van Gebruikers uit &#x200B;](assets/additional-functionality-1.png)
 
 1. Selecteer het profiel van de gebruiker waarmee we verbinding hebben.
 
@@ -26,6 +26,6 @@ Leer hoe u de machtiging voor het bewerken van geconverteerde lead records insch
 
 1. Schakel het selectievakje in om de machtiging voor het weergeven en bewerken van omgezette leads in te schakelen.
 
-   ![1. Schakel het selectievakje in om de machtiging voor weergave en bewerken in te schakelen ](assets/additional-functionality-3.png)
+   ![1. Schakel het selectievakje in om de machtiging voor weergave en bewerken in te schakelen &#x200B;](assets/additional-functionality-3.png)
 
 En je bent klaar!

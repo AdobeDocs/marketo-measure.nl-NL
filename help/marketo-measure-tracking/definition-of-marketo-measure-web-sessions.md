@@ -65,4 +65,4 @@ _Nochtans_, als de eerste Webzitting van Haley van Web Direct voortkwam, en dan 
 
 ## Google Analytics-sessies {#google-analytics-sessions}
 
-Er zijn enkele overeenkomsten met de manier waarop sessies door [!DNL Marketo Measure] en Google Analytics worden gedefinieerd. Voor meer informatie over hoe Google Analytics zittingen bepaalt, bezoek: [ https://support.google.com/analytics/answer/2731565?hl=en ](https://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}
+Er zijn enkele overeenkomsten met de manier waarop sessies door [!DNL Marketo Measure] en Google Analytics worden gedefinieerd. Voor meer informatie over hoe Google Analytics zittingen bepaalt, bezoek: [&#x200B; https://support.google.com/analytics/answer/2731565?hl=en &#x200B;](https://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}

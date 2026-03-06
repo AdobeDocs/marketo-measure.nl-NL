@@ -19,7 +19,7 @@ In vergelijking met de manier waarop [!DNL Marketo Measure] de regels voor onlin
 
 Het werkblad heeft drie kolommen:
 
-![ spreadsheet heeft drie kolommen:](assets/offline-channels-1.png)
+![&#x200B; spreadsheet heeft drie kolommen:](assets/offline-channels-1.png)
 
 **[!UICONTROL Salesforce]Campagneringstype** - voeg de Types van Campagne toe die in [!DNL Salesforce] hier worden geïdentificeerd
 
@@ -35,11 +35,11 @@ Het werkblad heeft drie kolommen:
 
 De SFDC-campagneretypen worden weergegeven op het tabblad Offline kanaal, dat wordt weergegeven onder [!DNL Salesforce] Campagneringstype. Houd er rekening mee dat [!DNL Marketo Measure] alleen SFDC-cameratypen kan importeren voor campagnes waaraan wel aanraakpunten met kopers zijn gekoppeld.
 
-![ de campagneretypes van SFDC zullen in het Off-line lusje van het Kanaal verschijnen, vermeld ](assets/offline-channels-10.jpg)
+![&#x200B; de campagneretypes van SFDC zullen in het Off-line lusje van het Kanaal verschijnen, vermeld &#x200B;](assets/offline-channels-10.jpg)
 
 Hier kunt u de Kanaal/Subchannel-toewijzing maken in de app [!DNL Marketo Measure] . Hiervoor moeten waarschijnlijk nieuwe kanalen en subkanalen worden gemaakt in de app [!DNL Marketo Measure] , die wordt uitgevoerd in de sectie Kanalen maken van de app (zie de onderstaande afbeelding). Er moeten nieuwe kanalen en subkanalen worden gemaakt om in [!DNL Marketo Measure] te begrijpen waar aanraakpunten moeten worden geplaatst. U kunt bepalen hoe u de soorten campagnes wilt toewijzen.
 
-![ dit is waar u de afbeelding van het Kanaal/Subchannel in ](assets/offline-channels-11.png) kunt tot stand brengen
+![&#x200B; dit is waar u de afbeelding van het Kanaal/Subchannel in &#x200B;](assets/offline-channels-11.png) kunt tot stand brengen
 
 ## Voorbeeld van kanaaltoewijzing {#channel-mapping-example}
 
@@ -49,17 +49,17 @@ Nu wilt u hetzelfde doen voor de conferentie van juni. Omdat dit ook een confere
 
 Hieronder ziet u een voorbeeld van logica die [!DNL Marketo Measure] niet kan lezen:
 
-![ hieronder is een voorbeeld van logica dat Marketo Measure niet ](assets/offline-channels-12.png) zou zijn
+![&#x200B; hieronder is een voorbeeld van logica dat Marketo Measure niet &#x200B;](assets/offline-channels-12.png) zou zijn
 
 In het bovenstaande scenario wilt u een uniek campagnetype maken, omdat u niet hetzelfde type campagne aan twee verschillende subkanalen kunt toewijzen. In plaats daarvan wilt u unieke typen instellen, zoals:
 
-![ in het scenario hierboven, zult u een unieke Campagne ](assets/offline-channels-13.png) willen creëren
+![&#x200B; in het scenario hierboven, zult u een unieke Campagne &#x200B;](assets/offline-channels-13.png) willen creëren
 
 Alle bestaande campagneretypen moeten in uw kanaalkaart worden opgenomen en &quot;NULL&quot; moet als kanaal worden toegevoegd.
 
 Neem de tijd om in [!DNL Salesforce] te gaan om het aantal en de aard van uw bestaande recordtypen te bepalen, die u wilt opnemen, en of u aanvullende campagnes moet maken op basis van de bovenstaande informatie. Als u alle benodigde gegevens hebt ingevuld, kunt u deze uploaden.
 
-Leer meer over [ synchroniserend off-line  [!DNL Salesforce]  Campagnes met  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/syncing-offline-campaigns.md).
+Leer meer over [&#x200B; synchroniserend off-line  [!DNL Salesforce]  Campagnes met  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/syncing-offline-campaigns.md).
 
 ## SFDC-campagnes verwerken voor online marketinginspanningen {#handling-sfdc-campaigns-for-online-marketing-efforts}
 
@@ -67,13 +67,13 @@ Het is gebruikelijk dat marketingteams [!DNL Salesforce] -campagnes maken om ver
 
 Een andere tip voor het verwerken van campagnes voor online activiteiten is het toewijzen van het type campagne van [!DNL Salesforce] aan NULL. Hiertoe maakt u eerst een kanaal in de app [!DNL Marketo Measure] NULL, zoals in de onderstaande afbeelding wordt getoond. Dit wordt gevonden in [!DNL Marketo Measure] app onder **creeer Kanalen** sectie. Dit is handig als een campagne die niet mag worden gesynchroniseerd per ongeluk wordt gesynchroniseerd. Het is gemakkelijk om de campagne te vinden en de synchronisatiestatus te verbeteren door alles te bekijken die onder ONGELDIG wordt gevangen.
 
-![ Een andere uiteinde voor het behandelen van campagnes voor online activiteiten moet in kaart brengen ](assets/offline-channels-14.png)
+![&#x200B; Een andere uiteinde voor het behandelen van campagnes voor online activiteiten moet in kaart brengen &#x200B;](assets/offline-channels-14.png)
 
 ## Uw regels voor offlinekanalen invoeren in de app {#entering-your-offline-channel-rules-to-the-app}
 
 Nadat u het spreadsheet hebt bewerkt en bijgewerkt met uw aangepaste regels, kunt u deze kanaaltoewijzing opnieuw maken in de app [!DNL Marketo Measure] . In dat geval uploadt u geen spreadsheet voor offlinekanalen. In plaats daarvan voert u de informatie in de keuzelijsten in die in de onderstaande afbeelding worden weergegeven. U vindt dit door te klikken op **[!UICONTROL Offline Channels]** onder de sectie **[!UICONTROL Channels]** .
 
-![ Zodra u hebt uitgegeven en het spreadsheet met uw douaneregels bijgewerkt, ](assets/offline-channels-20.png)
+![&#x200B; Zodra u hebt uitgegeven en het spreadsheet met uw douaneregels bijgewerkt, &#x200B;](assets/offline-channels-20.png)
 
 >[!TIP]
 >
@@ -83,8 +83,8 @@ Klik op **[!UICONTROL Save]** als u klaar bent en [!DNL Marketo Measure] uploadt
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het synchroniseren Offline Campagnes ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het synchroniseren Offline Campagnes &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
->* [ de Integratie van de Programma&#39;s van Marketo Engage ](/help/marketo-engage-programs-integration.md){target="_blank"}
+>* [&#x200B; de Integratie van de Programma&#39;s van Marketo Engage &#x200B;](/help/marketo-engage-programs-integration.md){target="_blank"}

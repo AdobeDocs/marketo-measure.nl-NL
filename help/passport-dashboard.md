@@ -31,7 +31,7 @@ Het Paspoort-dashboard biedt marketers een dynamische weergave van leads, contac
 * Eindfasen zoals &quot;Closed Won&quot; en &quot;Closed Lost&quot; zijn uitgesloten.
 * Zowel begin- als einddatum zijn inclusief.
 
-![ zowel begin als einddata zijn inclusief.](assets/passport-dashboard-1.png)
+![&#x200B; zowel begin als einddata zijn inclusief.](assets/passport-dashboard-1.png)
 
 ### Leads of contactpersonen in werkgebied op werkgebiednaam {#leads-or-contacts-in-stage-by-stage-name}
 
@@ -41,7 +41,7 @@ Het Paspoort-dashboard biedt marketers een dynamische weergave van leads, contac
 * Eindfasen zoals &quot;Closed Won&quot; en &quot;Closed Lost&quot; zijn uitgesloten.
 * Zowel begin- als einddatum zijn inclusief.
 
-![ zowel begin als einddata zijn inclusief.](assets/passport-dashboard-2.png)
+![&#x200B; zowel begin als einddata zijn inclusief.](assets/passport-dashboard-2.png)
 
 ## Filtervenster {#filter-pane}
 
@@ -54,5 +54,5 @@ Dit dashboard is uitgerust met de volgende instellingen en filters:
 
 >[!MORELIKETHIS]
 >
->* [ ontdekt de Grondbeginselen van het Dashboard ](/help/discover-dashboard-basics.md){target="_blank"}
->* [ Beleid van de Zichtbaarheid van Gegevens van het Dashboard ](/help/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/discover-dashboard-basics.md){target="_blank"}
+>* [&#x200B; Beleid van de Zichtbaarheid van Gegevens van het Dashboard &#x200B;](/help/dashboard-data-visibility-policy.md){target="_blank"}

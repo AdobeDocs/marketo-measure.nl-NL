@@ -31,11 +31,11 @@ Leer hoe u een [!DNL Marketo Measure] -profiel maakt. Als u een [!DNL Marketo Me
 1. Sluit dit profiel uit van alle triggers, workflows en processen.
 1. Meld u aan bij uw [!DNL Marketo Measure] -account en autoriseer de [!DNL Salesforce] -verbinding met de nieuwe gebruiker opnieuw:
 
-   * Ga naar [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en login met de nieuwe gebruikersproductie Salesforce geloofsbrieven
+   * Ga naar [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en login met de nieuwe gebruikersproductie Salesforce geloofsbrieven
    * Selecteer &quot;[!UICONTROL Settings]&quot; in de vervolgkeuzelijst &quot;[!UICONTROL My Account]&quot;
    * Selecteer &quot;[!UICONTROL Connections]&quot;binnen de &quot;[!UICONTROL Integrations]&quot;groepering
    * Klik op het pictogram Key rechts van de huidige verbonden [!DNL Salesforce] verbinding en selecteer Opnieuw autoriseren met productie. Meld u vervolgens opnieuw aan met de nieuwe gebruikersgegevens als hierom wordt gevraagd
 
    Gereed!
 
-   Als u om het even welke vragen rond het creëren van een specifiek [!DNL Marketo Measure] profiel hebt, bereik uit aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [ de Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   Als u om het even welke vragen rond het creëren van een specifiek [!DNL Marketo Measure] profiel hebt, bereik uit aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [&#x200B; de Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

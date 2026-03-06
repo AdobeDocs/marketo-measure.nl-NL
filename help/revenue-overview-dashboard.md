@@ -41,7 +41,7 @@ Deze side-by-side grafiek van de tijdreeksgrafiek contrasteert Total Revenue met
 * Welk percentage van onze inkomsten uit augustus 2022 kan worden toegeschreven aan onze marketinginitiatieven?
 * Hoe stapelen de toegerekende ontvangsten in het derde kwartaal van vorig jaar zich op ten opzichte van het vierde kwartaal?
 
-![ hoe de toegeschreven opbrengst in Q3 van vorig jaar stapelt omhoog ](assets/revenue-dashboard-1.png)
+![&#x200B; hoe de toegeschreven opbrengst in Q3 van vorig jaar stapelt omhoog &#x200B;](assets/revenue-dashboard-1.png)
 
 ### Attribuutdekking {#attribution-coverage-chart}
 
@@ -51,7 +51,7 @@ Dit cirkeldiagram visualiseert duidelijk uw attributiedekking door totale opbren
 
 * Wat was het percentage van de inkomstendekking dat vorig jaar aan onze marketinginspanningen werd toegeschreven?
 
-![ wat was % van opbrengstdekking die aan onze marketing inspanningen wordt toegeschreven ](assets/revenue-dashboard-2.png)
+![&#x200B; wat was % van opbrengstdekking die aan onze marketing inspanningen wordt toegeschreven &#x200B;](assets/revenue-dashboard-2.png)
 
 ## Filtervenster {#filter-pane}
 
@@ -61,5 +61,5 @@ Dit dashboard is uitgerust met de volgende instellingen en filters:
 
 >[!MORELIKETHIS]
 >
->* [ ontdekt de Grondbeginselen van het Dashboard ](/help/discover-dashboard-basics.md){target="_blank"}
->* [ Beleid van de Zichtbaarheid van Gegevens van het Dashboard ](/help/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ontdekt de Grondbeginselen van het Dashboard &#x200B;](/help/discover-dashboard-basics.md){target="_blank"}
+>* [&#x200B; Beleid van de Zichtbaarheid van Gegevens van het Dashboard &#x200B;](/help/dashboard-data-visibility-policy.md){target="_blank"}

@@ -28,7 +28,7 @@ Nadat u zich hebt aangemeld bij uw [!DNL Pardot] -account, voert u de onderstaan
 
 1. Bepaal de juiste lay-outsjabloon en klik rechts op **[!UICONTROL Edit]** .
 
-   ![1. Bepaal het aangewezen Malplaatje van de Lay-out en klik uitgeven aan ](assets/adding-pages-1.png)
+   ![1. Bepaal het aangewezen Malplaatje van de Lay-out en klik uitgeven aan &#x200B;](assets/adding-pages-1.png)
 
 1. Kopieer en plak de [!DNL Marketo Measure] JavaScript-code net voor de eindkoptag op de HTML-pagina.
 

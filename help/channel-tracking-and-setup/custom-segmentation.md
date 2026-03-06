@@ -34,7 +34,7 @@ Voordat u deze functie gebruikt, moet u uitzoeken op welke aanraakpuntinformatie
 
 Stap 2 - Meld u aan en zoek de functie [!UICONTROL Segments] .
 
-* Ga naar [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en login
+* Ga naar [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en login
 * Selecteer onder de tab [!UICONTROL My Account] de optie [!UICONTROL Settings]
 * Selecteer [!UICONTROL Segments] in de opties op de zijbalk links, onder de sectie [!UICONTROL Reporting] .
 
@@ -42,7 +42,7 @@ Stap 3 - begrijp de componenten.
 
 * Met deze legenda krijgt u inzicht in de verschillende pictogrammen op deze pagina
 
-![ Gebruik deze legenda om de diverse pictogrammen te begrijpen die op deze pagina worden gevonden ](assets/custom-segmentation-1.png)
+![&#x200B; Gebruik deze legenda om de diverse pictogrammen te begrijpen die op deze pagina worden gevonden &#x200B;](assets/custom-segmentation-1.png)
 
 Stap 4 - voeg de Regels van de Filter toe.
 
@@ -50,11 +50,11 @@ Stap 4 - voeg de Regels van de Filter toe.
 * Klik op het plusteken om een segment toe te voegen
 * Voer een segmentnaam in. Bijvoorbeeld, kon u één segment voor Nieuwe Onderneming, Partners, Vernieuwen, of Upsell hebben
 
-![ ga een naam van het Segment in. Bijvoorbeeld, kon u één segment voor ](assets/custom-segmentation-2.png) hebben
+![&#x200B; ga een naam van het Segment in. Bijvoorbeeld, kon u één segment voor &#x200B;](assets/custom-segmentation-2.png) hebben
 
 * Klik op het plusteken om de velden voor regelinvoer weer te geven. Met de opties in de keuzelijst Veld worden velden rechtstreeks van uw CRM opgehaald
 
-![ klik het plus pictogram om de gebieden van de regelinput te openbaren. De opties ](assets/custom-segmentation-3.png)
+![&#x200B; klik het plus pictogram om de gebieden van de regelinput te openbaren. De opties &#x200B;](assets/custom-segmentation-3.png)
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ Als de regels niet opstelling voor zowel Leads/Contacten als Kansen zijn, zult u
 
 Wanneer u klaar bent, klikt u eerst op [!UICONTROL Save] , dubbelklikt u op alles en klikt u vervolgens op [!UICONTROL Save and Process] . U kunt de instellingen zeven dagen na het opslaan en verwerken niet bewerken, omdat [!DNL Marketo Measure] de gegevens tijdens deze periode opnieuw opmaakt.
 
-Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([ leert meer ](/help/data-integrity-requirement.md){target="_blank"}).
+Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([&#x200B; leert meer &#x200B;](/help/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

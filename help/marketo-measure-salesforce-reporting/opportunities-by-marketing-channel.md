@@ -18,15 +18,15 @@ Dit rapport behandelt het aantal kansen die door uw Kanalen van de Marketing wor
 
 1. Zoek snel naar het type &quot;Bizible Attribution&quot;, selecteer het rapporttype **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** en selecteer **[!UICONTROL Create]** .
 
-   ![1. In snel vind type in &quot;Bizible Attribution&quot;en selecteer ](assets/bizible-guide-1.png)
+   ![1. In snel vind type in &quot;Bizible Attribution&quot;en selecteer &#x200B;](assets/bizible-guide-1.png)
 
 1. Begin vanaf de bovenkant van het rapport, toon **[!UICONTROL All Bizible Attribution Touchpoints]** en pas het datumgebied volgens tijdkader aan u wilt melden. In ons voorbeeld kijken we naar All Time. Wijzig bovendien de rapportindeling van [!UICONTROL Tabular] in **[!UICONTROL Summary]** .
 
-   ![1. Beginnend van de bovenkant van het rapport, toon Alle Bizible ](assets/bizible-guide-2.png)
+   ![1. Beginnend van de bovenkant van het rapport, toon Alle Bizible &#x200B;](assets/bizible-guide-2.png)
 
 1. Nu zullen we velden toevoegen aan het verslag. In snel vinden op de linkerzijde, typ in &quot;het Kanaal van de Marketing&quot;en voeg het aan de summiere groepering in het rapport toe.
 
-   ![1. Nu zullen we velden toevoegen aan het verslag. In de ](assets/marketo-reports-10.jpg)
+   ![1. Nu zullen we velden toevoegen aan het verslag. In de &#x200B;](assets/marketo-reports-10.jpg)
 
 1. Voer nu het rapport uit en analyseer het!
 
@@ -34,4 +34,4 @@ Dit rapport behandelt het aantal kansen die door uw Kanalen van de Marketing wor
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De Rapporten van SFDC van de voorraad &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

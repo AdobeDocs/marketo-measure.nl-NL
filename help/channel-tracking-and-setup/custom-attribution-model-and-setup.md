@@ -24,7 +24,7 @@ Met het [!DNL Marketo Measure] Aangepaste kenmerkingsmodel kunnen gebruikers kie
 
    Om uw model van de douaneattributie te beginnen bouwen, zult u moeten selecteren welke stadia voor uw team van de Marketing belangrijk zijn. Naast de [!DNL Marketo Measure] mijlpaalfasen (FT, LC, OC, Gesloten) kunt u maximaal zes extra statussen van de Lood/van het Contact of stadia van de Kans in uw douanemodel toevoegen. Het is bijvoorbeeld gebruikelijk dat het MQL-werkgebied wordt opgenomen in het aangepaste model. Marketing teams willen vaak weten welke inspanningen of kanalen de overgang naar het MQL-stadium stimuleren.
 
-   Teken binnen aan [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}. Ga naar [!UICONTROL My Account] > [!UICONTROL Settings] > en selecteer **[!UICONTROL Stage Mapping]** onder de sectie CRM.
+   Teken binnen aan [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}. Ga naar [!UICONTROL My Account] > [!UICONTROL Settings] > en selecteer **[!UICONTROL Stage Mapping]** onder de sectie CRM.
 
    Selecteer vervolgens het vak **[!UICONTROL Include in Model]** om aan te geven welke stappen u wilt opnemen voor leads/contactpersonen en opportunity.
 
@@ -32,7 +32,7 @@ Met het [!DNL Marketo Measure] Aangepaste kenmerkingsmodel kunnen gebruikers kie
    >
    >U kunt maximaal zes aangepaste stappen uitvoeren (exclusief de standaardinstellingen: FT, LC, OC, Closed).
 
-   ![ u wordt toegestaan tot zes douanestadia (zonder de gebreken:](assets/custom-models-1.png)
+   ![&#x200B; u wordt toegestaan tot zes douanestadia (zonder de gebreken:](assets/custom-models-1.png)
 
    >[!NOTE]
    >
@@ -44,13 +44,13 @@ Met het [!DNL Marketo Measure] Aangepaste kenmerkingsmodel kunnen gebruikers kie
 
    In het onderstaande voorbeeld wordt een aangepast &#39;MQL&#39;-werkgebied gedefinieerd met behulp van een datumveld. De regel bepaalt eenvoudig dat als het veld MQL-datum niet leeg is, dit als een MQL moet worden beschouwd en in het aangepaste model moet worden opgenomen. Het is ook belangrijk om de douaneframes te sorteren zodra zij zijn gecreeerd zodat het de vooruitgang van uw verkoopcyclus volgt.
 
-   ![ In het voorbeeld hieronder, wordt een douane &quot;MQL&quot;stadium bepaald gebruikend a ](assets/custom-models-10.png)
+   ![&#x200B; In het voorbeeld hieronder, wordt een douane &quot;MQL&quot;stadium bepaald gebruikend a &#x200B;](assets/custom-models-10.png)
 
    >[!CAUTION]
    >
    >Vergeet niet het bijhouden van historie in te schakelen voor aangepaste velden.
 
-Als een aangepast veld wordt gebruikt in uw aangepaste model, MOET het bijhouden van veldgeschiedenis zijn ingeschakeld in CRM. Voor instructies om het volgen van de gebiedsgeschiedenis toe te laten, verwijs naar [ de ModelOpstelling van de Douane: laat het Volgen van de Geschiedenis van het Gebied ](/help/channel-tracking-and-setup/custom-model-setup-enable-field-history-tracking.md) toe.
+Als een aangepast veld wordt gebruikt in uw aangepaste model, MOET het bijhouden van veldgeschiedenis zijn ingeschakeld in CRM. Voor instructies om het volgen van de gebiedsgeschiedenis toe te laten, verwijs naar [&#x200B; de ModelOpstelling van de Douane: laat het Volgen van de Geschiedenis van het Gebied &#x200B;](/help/channel-tracking-and-setup/custom-model-setup-enable-field-history-tracking.md) toe.
 
 1. Bepaal de toewijzingspercentages voor het aangepaste model.
 
@@ -58,15 +58,15 @@ Als een aangepast veld wordt gebruikt in uw aangepaste model, MOET het bijhouden
 
    In de uiterst juiste kolom geëtiketteerd &quot;**[!UICONTROL Custom]**,&quot;kunt u het percentageweging voor elk stadium in uw model van de douaneattributie plaatsen. Voer de waarden voor elk werkgebied in onder de kolom Aangepast en klik op **[!UICONTROL Save and Reprocess]** wanneer dit is voltooid.
 
-   Links van de _kolom van de Douane_ is het **[!DNL Marketo Measure]het Leren van de Machine model**. Het leren van de machine model berekent attributieweging die op het relatieve belang wordt gebaseerd om een overeenkomst te winnen afhankelijk van wat in elk douanestadium gebeurde. Voor meer informatie over de machine die model leren, verwijs naar [ het Leren van de Machine ModelVeelgestelde Veelgestelde vragen ](/help/channel-tracking-and-setup/machine-learning-model-faq.md).
+   Links van de _kolom van de Douane_ is het **[!DNL Marketo Measure]het Leren van de Machine model**. Het leren van de machine model berekent attributieweging die op het relatieve belang wordt gebaseerd om een overeenkomst te winnen afhankelijk van wat in elk douanestadium gebeurde. Voor meer informatie over de machine die model leren, verwijs naar [&#x200B; het Leren van de Machine ModelVeelgestelde Veelgestelde vragen &#x200B;](/help/channel-tracking-and-setup/machine-learning-model-faq.md).
 
-   ![ links van de kolom van de Douane is Marketo Measure ](assets/custom-models-2.png)
+   ![&#x200B; links van de kolom van de Douane is Marketo Measure &#x200B;](assets/custom-models-2.png)
 
 ## Aanraakpuntposities {#touchpoint-positions}
 
 Nadat de toewijzingspercentages zijn opgeslagen en verwerkt, worden de aanraakpunten bijgewerkt en worden de nieuwe fasen en posities weergegeven. Het aanraakpunt dat het laatst, vóór een overgangsfase, heeft plaatsgevonden, krijgt krediet voor die fase (zoals hieronder wordt weergegeven). De aangepaste weging en de inkomsten worden ook herverdeeld.
 
-![ nadat de attributiepercentages zijn bewaard en verwerkt, zullen de aanraakpunten ](assets/custom-models-3.png) zijn
+![&#x200B; nadat de attributiepercentages zijn bewaard en verwerkt, zullen de aanraakpunten &#x200B;](assets/custom-models-3.png) zijn
 
 ## Het verschil tussen Funnel-fasen en aangepaste modelfasen {#the-difference-between-funnel-stages-and-custom-model-stages}
 
@@ -76,7 +76,7 @@ Funnel-werkruimten worden nog steeds bijgehouden als aanraakpunten en verschijne
 
 Zoals je hieronder kunt zien, hebben we de &#39;Diligence&#39;-fase opgenomen als een scheiding tussen onze Funnel-fasen. Dit betekent dat we aanraakpunten hebben waar de positie Diligence bevat, maar die aanraakpunten krijgen alleen een Midden-Touch-attributiekrediet als Aangepast model niet is ingeschakeld (maximaal 10%).
 
-![ Zoals u hieronder kunt zien, hebben wij het stadium van de Opkomst als apart ](assets/custom-models-7.png) opgenomen
+![&#x200B; Zoals u hieronder kunt zien, hebben wij het stadium van de Opkomst als apart &#x200B;](assets/custom-models-7.png) opgenomen
 
 >[!NOTE]
 >

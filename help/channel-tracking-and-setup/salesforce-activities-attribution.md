@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Kenmerk Salesforce-activiteiten {#salesforce-activities-attribution}
 
-De integratie van [!DNL Marketo Measure] Salesforce-activiteiten maakt specifieke taak- en gebeurtenisrecords in uw toewijzingsmodel. Begin met het volgen van zaken zoals verkoope-mails of telefoongesprekken die geen creditering kregen. Om uw activiteitenregel te vormen, ga [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}. Ga vervolgens naar de tab **[!UICONTROL Settings]** en klik op de tab **[!UICONTROL Activities]** .
+De integratie van [!DNL Marketo Measure] Salesforce-activiteiten maakt specifieke taak- en gebeurtenisrecords in uw toewijzingsmodel. Begin met het volgen van zaken zoals verkoope-mails of telefoongesprekken die geen creditering kregen. Om uw activiteitenregel te vormen, ga [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}. Ga vervolgens naar de tab **[!UICONTROL Settings]** en klik op de tab **[!UICONTROL Activities]** .
 
-![ de integratie van de Activiteiten van Marketo Measure Salesforce brengt in specifieke Taak en ](assets/activities-attribution-10.png)
+![&#x200B; de integratie van de Activiteiten van Marketo Measure Salesforce brengt in specifieke Taak en &#x200B;](assets/activities-attribution-10.png)
 
 Om te beginnen introduceren we een nieuw concept: een [!DNL Marketo Measure] campagne. Voor elke regel die u definieert, gaat u de records vastzetten in een [!DNL Marketo Measure] -campagne die u een naam kunt geven. Voeg zo nodig meerdere campagnes toe. Stel je voor dat je de effectiviteit van een campagne voor uitgaande verkoop naast een campagne voor betaalde media meet!
 
@@ -33,13 +33,13 @@ Bekend maken met deze hiërarchie:
 >
 >Als u bijvoorbeeld een unieke campagne voor elke vertegenwoordiger wilt instellen, gebruikt u dynamische vervangingsparameters om de [!DNL Marketo Measure] naam van de campagne in te vullen. In hetzelfde voorbeeld kunt u `"Outbound Sales - {AssignedTo}"` invoeren en wijzigen in iets als `"Outbound Sales - Jill"` of `"Outbound Sales - Jack."`
 
-![ Als u een unieke Campagne voor elke Verkoper wilt plaatsen ](assets/activities-attribution-11.png)
+![&#x200B; Als u een unieke Campagne voor elke Verkoper wilt plaatsen &#x200B;](assets/activities-attribution-11.png)
 
 Zodra uw [!DNL Marketo Measure] Naam van de Campagne wordt geplaatst, is het tijd aan opstelling uw regels van de Activiteit.
 
 De regels fungeren als een filter om ons te vertellen welke records in aanmerking komen voor toekenning. Stel u een rapport in uw CRM creeert gebruikend gelijkaardige logica om dat rapport te produceren. U hebt de flexibiliteit om een combinatie van instructies en/of instructies en verschillende operatoren zoals `matches any` , `contains` , `starts with` , `ends with` en `is equal to` te gebruiken. Definieer `and` -instructies binnen een regel- of laaginstructies in een vak `or` buiten het vak.
 
-![ de regels handelen als filter om ons te vertellen welke verslagen ](assets/activities-attribution-12.png) zijn
+![&#x200B; de regels handelen als filter om ons te vertellen welke verslagen &#x200B;](assets/activities-attribution-12.png) zijn
 
 >[!NOTE]
 >
@@ -53,13 +53,13 @@ Kies ten slotte een van de datum- of datum-/tijdvelden die u wilt gebruiken als 
 >
 >Bij de pakketinstallatie neemt [!DNL Marketo Measure] een aangepast Buyer Touchpoint-datumveld op in de activiteitenrecord. Als u een dynamische datum wilt gebruiken, zoals de datum waarop een status verandert, is het mogelijk om een CRM-workflow te gebruiken om de &quot;Buyer Touchpoint Date&quot; in te stellen en vervolgens de Buyer Touchpoint Date hier in deze stap te selecteren.
 
-![ met uw pakketinstallatie, omvat Marketo Measure een douaneBuyer Touchpoint ](assets/activities-attribution-13.png)
+![&#x200B; met uw pakketinstallatie, omvat Marketo Measure een douaneBuyer Touchpoint &#x200B;](assets/activities-attribution-13.png)
 
 Vergeet niet verschillende regels voor Taken of Gebeurtenissen in te stellen. Je moet weten welk object je verkoopteam gebruikt om hun activiteiten vast te leggen.
 
-![ vergeet niet om verschillende regels voor Taken of Gebeurtenissen te plaatsen. U](assets/activities-attribution-5.png)
+![&#x200B; vergeet niet om verschillende regels voor Taken of Gebeurtenissen te plaatsen. U](assets/activities-attribution-5.png)
 
-U zult waarschijnlijk deze nieuwe aanraakpunten in hun aangewezen [ het In de handel brengen Kanaal ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20 Kanalen){target="_blank"} willen plaatsen. Doe dat door het Kanaal met zijn nieuwe afbeelding van de Campagne te bepalen die enkel werd gecreeerd.
+U zult waarschijnlijk deze nieuwe aanraakpunten in hun aangewezen [&#x200B; het In de handel brengen Kanaal &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20 Kanalen){target="_blank"} willen plaatsen. Doe dat door het Kanaal met zijn nieuwe afbeelding van de Campagne te bepalen die enkel werd gecreeerd.
 
 >[!TIP]
 >
@@ -80,12 +80,12 @@ U zult waarschijnlijk deze nieuwe aanraakpunten in hun aangewezen [ het In de ha
 | Komt overeen met alles | Meerdere waarden - Exacte overeenkomst |
 | Komt overeen met alle items (bevat) | Veelvoudige waarden - &#42; waarde &#42;, &#42; waarde, &#42; waarde &#42; |
 
-![| Komt overeen met alle items (bevat) | Meerdere waarden - &amp;42;waarde&amp;42;, &amp;42;waarde, &amp;42;waarde&amp;42; |](assets/activities-attribution-8.png)
+![| Komt overeen met alle items (bevat) | Meerdere waarden - &42;waarde&42;, &42;waarde, &42;waarde&42; |](assets/activities-attribution-8.png)
 
-En last but not least, hebt u de optie om kosten voor uw nieuwe kanalen in te voeren. De [ Marketing besteedt uploadt ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} staat u toe om uw uitgaven op het niveau van het Kanaal, Subchannel niveau, of het niveau van de Campagne in te gaan. Met uw nieuwe [!DNL Marketo Measure] Campagnes, kunt u die verwante kosten per maand toevoegen, dan het ROI voor elke Campagne zien!
+En last but not least, hebt u de optie om kosten voor uw nieuwe kanalen in te voeren. De [&#x200B; Marketing besteedt uploadt &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} staat u toe om uw uitgaven op het niveau van het Kanaal, Subchannel niveau, of het niveau van de Campagne in te gaan. Met uw nieuwe [!DNL Marketo Measure] Campagnes, kunt u die verwante kosten per maand toevoegen, dan het ROI voor elke Campagne zien!
 
-![ en last maar niet minst belangrijk, hebt u de optie om kosten in te gaan ](assets/activities-attribution-9.png)
+![&#x200B; en last maar niet minst belangrijk, hebt u de optie om kosten in te gaan &#x200B;](assets/activities-attribution-9.png)
 
 >[!MORELIKETHIS]
 >
->[ Veelgestelde vragen van de Attributie van de Activiteit ](/help/channel-tracking-and-setup/activities-attribution-faq.md)
+>[&#x200B; Veelgestelde vragen van de Attributie van de Activiteit &#x200B;](/help/channel-tracking-and-setup/activities-attribution-faq.md)

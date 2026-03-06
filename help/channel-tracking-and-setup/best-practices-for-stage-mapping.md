@@ -31,7 +31,7 @@ Of u nu voor het eerst de Stage Mapping evalueert of alleen de funnel-bestelling
    * Een Booleaans veld is de aanbevolen werkwijze
 * Merk op dat de sectie Lood of Contactgebied is onderverdeeld in Verloren, Openen en Omgezet; controleer of de stappen zich in hun juiste werkgebiedsectie bevinden
    * Een werkgebied in de onjuiste werkgebiedsectie kan resulteren in zeer onjuiste [!DNL Marketo Measure] -gegevens
-   * Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([ leert meer ](/help/data-integrity-requirement.md){target="_blank"}).
+   * Als u een klant van Marketo Measure Ultimate bent en uw StandaardVoorwerp Dashboard als Contact hebt geplaatst, gebruik niet de hieronder twee gebieden specifiek voor Lood ([&#x200B; leert meer &#x200B;](/help/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Merk op dat de sectie van het stadium van de Kans in Verloren, Open, en Won wordt verdeeld; bevestigt dat de stadia in hun aangewezen werkgebiedsectie zijn
@@ -52,4 +52,4 @@ Andere redenen die een revisie van de werkgebiedtoewijzing kunnen activeren, zij
 
 >[!MORELIKETHIS]
 >
->[ het Verschil tussen de Stages van Funnel en de Stages van het Model van de Douane ](/help/channel-tracking-and-setup/custom-attribution-model-and-setup.md)
+>[&#x200B; het Verschil tussen de Stages van Funnel en de Stages van het Model van de Douane &#x200B;](/help/channel-tracking-and-setup/custom-attribution-model-and-setup.md)

@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # [!DNL Marketo Measure] Script toevoegen via [!DNL Google Tag Manager] {#adding-marketo-measure-script-via-google-tag-manager}
 
-Wanneer het installeren van [!DNL Marketo Measure] JavaScript, wordt het geadviseerd dat u [ hard-code het manuscript ](/help/marketo-measure-tracking/adding-marketo-measure-script.md){target="_blank"} direct in de plaats. Als dat niet mogelijk is, kunt u ook [!DNL Google Tag Manager] (GTM) gebruiken om de [!DNL Marketo Measure] JS te laden. [!DNL Marketo Measure] JS die via GTM wordt geladen, is gevoelig voor latentie. Latentie veroorzaakt een vertraging in de laadtijden van scripts, waardoor ongeveer 3-5% van alle ingevulde formulieren kan ontbreken.
+Wanneer het installeren van [!DNL Marketo Measure] JavaScript, wordt het geadviseerd dat u [&#x200B; hard-code het manuscript &#x200B;](/help/marketo-measure-tracking/adding-marketo-measure-script.md){target="_blank"} direct in de plaats. Als dat niet mogelijk is, kunt u ook [!DNL Google Tag Manager] (GTM) gebruiken om de [!DNL Marketo Measure] JS te laden. [!DNL Marketo Measure] JS die via GTM wordt geladen, is gevoelig voor latentie. Latentie veroorzaakt een vertraging in de laadtijden van scripts, waardoor ongeveer 3-5% van alle ingevulde formulieren kan ontbreken.
 
 Als u besluit om ons script toe te voegen via GTM, stelt u het script van [!DNL Marketo Measure] in op de hoogste prioriteit in de volgorde waarin het wordt gemaakt en zorgt u ervoor dat er geen synchrone scripts staan vóór de tag [!DNL Marketo Measure] om effecten van GTM-latentie te beperken.
 
 >[!NOTE]
 >
->Gebruik dit [ steunartikel door Google ](https://support.google.com/tagmanager/answer/2772421?hl=en){target="_blank"} om meer te leren.
+>Gebruik dit [&#x200B; steunartikel door Google &#x200B;](https://support.google.com/tagmanager/answer/2772421?hl=en){target="_blank"} om meer te leren.
 
 ## [!DNL Marketo Measure] JS toevoegen via [!DNL Google Tag Manager] {#how-to-add-marketo-measure-js-via-google-tag-manager}
 

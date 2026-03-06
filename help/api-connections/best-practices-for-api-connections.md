@@ -88,10 +88,10 @@ Als uw team een van de bovenstaande scenario&#39;s heeft ervaren, controleert u 
 
 >[!MORELIKETHIS]
 >
->* [ Geïntegreerde Ad Platforms (APIs) ](/help/api-connections/integrated-ad-platforms.md)
->* [ hoe Bodmanager de Hulpmiddelen beïnvloedt  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
->* [[!DNL Marketo Measure]  Verklaarde API Parameters ](/help/api-connections/marketo-measure-parameters.md)
->* [ Facebook API Overzicht ](/help/api-connections/facebook-api.md)
->* [[!DNL LinkedIn]  Overzicht van de Integratie ](/help/api-connections/linkedin-integration.md)
->* [ het Overzicht van de Integratie AdWords ](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
->* [ opnieuw goedkeurend Verbonden API Rekeningen ](/help/api-connections/reauthorizing-connected-accounts.md)
+>* [&#x200B; Geïntegreerde Ad Platforms (APIs) &#x200B;](/help/api-connections/integrated-ad-platforms.md)
+>* [&#x200B; hoe Bodmanager de Hulpmiddelen beïnvloedt  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [[!DNL Marketo Measure]  Verklaarde API Parameters &#x200B;](/help/api-connections/marketo-measure-parameters.md)
+>* [&#x200B; Facebook API Overzicht &#x200B;](/help/api-connections/facebook-api.md)
+>* [[!DNL LinkedIn]  Overzicht van de Integratie &#x200B;](/help/api-connections/linkedin-integration.md)
+>* [&#x200B; het Overzicht van de Integratie AdWords &#x200B;](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
+>* [&#x200B; opnieuw goedkeurend Verbonden API Rekeningen &#x200B;](/help/api-connections/reauthorizing-connected-accounts.md)

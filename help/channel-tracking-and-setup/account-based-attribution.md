@@ -20,10 +20,10 @@ Als er meerdere mogelijkheden zijn onder één account, delen de verschillende m
 
 De onderstaande account heeft bijvoorbeeld twee mogelijkheden. Voor de eerste Kans, heeft het slechts één Aanraakpunt. Dat aanraakpunt omvat het aanraakpunt FT, LC en Opportunity Creation (OC). De tweede Kans heeft zelfde FT &amp; LC als de eerste Kans, maar het Aanraakpunt OC is verschillend. Ook, heeft de tweede Kans extra Touchpoints die niet aan de eerste Kans worden geassocieerd, toe te schrijven aan hen die na de eerste sluitingsdatum van Kansen voorkomen.
 
-![ bijvoorbeeld, heeft de rekening hieronder twee Kansen. Voor de eerste Kans, ](assets/account-marketing-4.jpg)
+![&#x200B; bijvoorbeeld, heeft de rekening hieronder twee Kansen. Voor de eerste Kans, &#x200B;](assets/account-marketing-4.jpg)
 
 ## Hoe helpt dit? {#how-does-this-help}
 
 Aangezien [!DNL Marketo Measure] alle marketinginteracties die aan uw accounts zijn gekoppeld, aan de kaak stelt, krijgen marketers een beter inzicht in welke accounts waarschijnlijk zullen worden afgesloten, hoe vaak ze contact hebben gehad met uw bedrijf, wat die overeenkomsten zijn, hoeveel omzet elke service waard is, enzovoort.
 
-Met [!DNL Marketo Measure] en een ABM-benadering zijn marketingprestaties gebaseerd op inkomsten. Als u aan het bewegen van naar een Rekening Gebaseerde benadering van de Marketing overweegt, controleer de [ Gids van de GMO aan ABM Orchestration ](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf), die u door de planning, de uitvoering, en de metingsfasen van het Orchestration van ABM loopt.
+Met [!DNL Marketo Measure] en een ABM-benadering zijn marketingprestaties gebaseerd op inkomsten. Als u aan het bewegen van naar een Rekening Gebaseerde benadering van de Marketing overweegt, controleer de [&#x200B; Gids van de GMO aan ABM Orchestration &#x200B;](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf), die u door de planning, de uitvoering, en de metingsfasen van het Orchestration van ABM loopt.

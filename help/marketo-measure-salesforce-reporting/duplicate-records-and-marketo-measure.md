@@ -22,7 +22,7 @@ Hoe ziet dit eruit in [!DNL Marketo Measure] Reporting?
 
 _Rapport van het Voorbeeld: [!DNL Marketo Measure] Personen met de Aanraakpunten van de Koper._
 
-![ Rapport van het Voorbeeld: De Personen van Marketo Measure met de Aanraakpunten van de Koper.](assets/additional-functionality-1.png)
+![&#x200B; Rapport van het Voorbeeld: De Personen van Marketo Measure met de Aanraakpunten van de Koper.](assets/additional-functionality-1.png)
 
 Voor de [!DNL Marketo Measure] persoon-id van kelsey@adobe.com ziet u dat er zowel een lead als een contactpersoon bestaat met dat e-mailadres. In dit rapport worden 2 First Touches gerapporteerd, twee Lead Creation Touches en twee PostLC-interacties. Deze dubbele gegevens delen de datum van het aanraakpunt en de informatie van het aanraakpunt, wat tot de conclusie zou kunnen leiden dat zij twee verschillende personen zijn, hoewel zij dezelfde persoon zijn.
 

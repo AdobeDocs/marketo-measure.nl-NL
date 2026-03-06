@@ -32,11 +32,11 @@ Denk aan de volgende zaken:
 
 De eerste stap bestaat uit het downloaden van de aangepaste kanaalspreadsheet van de app [!DNL Marketo Measure] . Navigeer aan **Montages** onder **Mijn Account** tabel en selecteer **Online**. U kunt of **Originele Malplaatje van de Download** selecteren of **Huidige Regels van de Download**.
 
-![ de eerste stap moet het spreadsheet van het douanekanaal van ](assets/online-channels-1.png) downloaden
+![&#x200B; de eerste stap moet het spreadsheet van het douanekanaal van &#x200B;](assets/online-channels-1.png) downloaden
 
 Het werkblad heeft zeven kolommen:
 
-![ spreadsheet heeft zeven kolommen:](assets/online-channels-2.png)
+![&#x200B; spreadsheet heeft zeven kolommen:](assets/online-channels-2.png)
 
 * **Kanaal:** voeg hier uw diverse marketing kanalen toe
 * **Subchannel:** voeg hier de overeenkomstige subkanalen toe
@@ -50,11 +50,11 @@ In de achtste kolom wordt aangegeven welke regels u niet uit het werkblad kunt v
 
 De rijen vertegenwoordigen regels en de volgorde waarin [!DNL Marketo Measure] de gegevens prioriteert. De eerste rij heeft prioriteit over de tweede rij, de tweede rij heeft prioriteit over de derde rij, etc. Wanneer het bepalen van welk Kanaal van de Marketing en Subchannel aan emmertouchpoints in, [!DNL Marketo Measure] top-down, links aan recht leest, tot het een rij vindt die aan de criteria van touchpoint voldoet. (Als een aanraakpunt een `utm_source=Facebook` heeft, wordt het aanraakpunt naar het kanaal Social.Facebook verplaatst vanwege regel 15 in de schermafbeelding).
 
-![ de rijen vertegenwoordigen regels en de orde waarin Marketo Measure ](assets/online-channels-3.png)
+![&#x200B; de rijen vertegenwoordigen regels en de orde waarin Marketo Measure &#x200B;](assets/online-channels-3.png)
 
 [!DNL Marketo Measure] wordt geleverd met 12 standaardkanalen voor uw gebruik. Deze kanalen hebben betrekking op platforms waarmee [!DNL Marketo Measure] volledig is geïntegreerd. Verwijder ze niet, of u ze nu gebruikt of niet. Als u wel een van deze platformen gebruikt, bijvoorbeeld Bing Ads, maar liever een andere naamgevingsconventie gebruikt voor het kanaal of subkanaal, kunt u de naam bijwerken. In de onderstaande afbeelding ziet u een voorbeeld.
 
-![ Marketo Measure komt met 12 standaardkanalen voor uw gebruik. Deze ](assets/online-channels-4.png)
+![&#x200B; Marketo Measure komt met 12 standaardkanalen voor uw gebruik. Deze &#x200B;](assets/online-channels-4.png)
 
 De structuur van de regels is ook belangrijk. De regels kunnen op herhaalde informatie en ontbrekende gegevens kijken maar deze structuur is opzettelijk. Voor nauwkeurige gegevenssortering, is het noodzakelijk om elke individuele bron aan het aangewezen kanaal afzonderlijk-zelfs bronnen in kaart te brengen die subkanalen en kanalen delen. Hoe gedetailleerder en korter de regels zijn, des te duidelijker de resultaten zijn. In feite is het aan te raden een gedetailleerde regel te schrijven voor elke marketinginspanning die u wilt bijhouden.
 
@@ -62,13 +62,13 @@ Denk aan de volgende situatie: u hebt andere advertenties die u om een of andere
 
 Elke parameter of component van de regel wordt afzonderlijk toegewezen aan het kanaal. Wanneer [!DNL Marketo Measure] bijvoorbeeld [!DNL Facebook] -gegevens moet sorteren, zoekt het naar regels die betrekking hebben op [!DNL Facebook] . Het scant van boven naar beneden. In het onderstaande voorbeeld zou [!DNL Marketo Measure] begrijpen dat voor het eerste [!DNL Facebook] -subkanaal alleen de bronparameter hoeft te worden gelezen om gegevens in het emmertje van die regel te plaatsen.
 
-![ Elke parameter of component van de regel wordt afzonderlijk in kaart gebracht aan ](assets/online-channels-5.png)
+![&#x200B; Elke parameter of component van de regel wordt afzonderlijk in kaart gebracht aan &#x200B;](assets/online-channels-5.png)
 
 De volgende regel vraagt alleen om de parameter medium, zodat alle gegevens met die parameter in dit kanaal worden gebundeld. Ten slotte worden voor [!DNL Facebook] alle gegevens die afkomstig zijn van de Facebook-URL in het laatste Facebook-emmertje geplaatst.
 
 Het standaardkanaal &#39;Overige&#39; bestaat voor het afvangen van gegevens die niet aan de criteria van een regel voldoen. Merk op dat sommige emmers in het Andere kanaal sterretjes (&#42;) bevatten. Deze sterretjes vertegenwoordigen jokertekens die als &#39;catch-all&#39; fungeren.
 
-![ het standaardkanaal &quot;Andere&quot;bestaat om gegevens te vangen die niet ](assets/online-channels-6.jpg) ontmoeten
+![&#x200B; het standaardkanaal &quot;Andere&quot;bestaat om gegevens te vangen die niet &#x200B;](assets/online-channels-6.jpg) ontmoeten
 
 Wegens [!DNL Marketo Measure] logica die van boven tot onder werkt, zou de vervangingsregel, met een asterisk (&#42; wordt vermeld), aan het zeer eind van uw regelblad moeten worden geplaatst. Alle gegevens die niet door de andere regels worden gevangen of gesorteerd, worden toegevoegd aan dit jokertekenemmertje.
 

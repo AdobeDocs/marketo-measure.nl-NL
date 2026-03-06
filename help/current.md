@@ -20,7 +20,7 @@ Zie hieronder voor alle nieuwe en bijgewerkte functies voor onze 2024-releases.
 
 U kunt nu segmenten maken met de velden Campagne en Campagne-lid, in aanvulling op de velden Aanraakpunt en Contactpersoon. Op deze manier kunt u uw gegevens effectiever analyseren en ontleden in Discover.
 
-![ u kunt segmenten nu creëren gebruikend de gebieden van het Lid van de Campagne en van de Campagne ](assets/release-notes-2.png)
+![&#x200B; u kunt segmenten nu creëren gebruikend de gebieden van het Lid van de Campagne en van de Campagne &#x200B;](assets/release-notes-2.png)
 
 ### Update: instelling voor foutafhandeling voor CRM-export
 
@@ -42,14 +42,14 @@ Functie tijdens pauzeren op 1 oktober: Vanaf 1 oktober 2024 wordt de taak onderb
 
 Om u aan deze verandering te helpen aanpassen, hebben wij documentatie over de nieuwe eigenschap en duidelijke foutenbeschrijvingen met uitvoerige het oplossen van problemenstappen gecreeerd.
 
-* Nieuwe documentatie: [ de Behandeling van de Fout die voor CRM uitvoert ](/help/configuration-and-setup/crm-error-handling.md)
+* Nieuwe documentatie: [&#x200B; de Behandeling van de Fout die voor CRM uitvoert &#x200B;](/help/configuration-and-setup/crm-error-handling.md)
 * [Foutmeldingen](/help/configuration-and-setup/error-notifications.md)
 
 ## Q3 Release {#q3-release}
 
 **Herinnering: Afschrijvingen van het Gebied van Salesforce - 14 Juni**
 
-Zoals vorig jaar aangekondigd, zullen wij [ geleidelijk aan onze uitvoerbanen aan Lood/de voorwerpen van het Contact ](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} zijn om onze integratie te vereenvoudigen en de behoefte te elimineren om naar Salesforce standaardvoorwerpen uit te voeren. U kunt de zelfde gegevens uit uw voorwerpen verkrijgen Touchpoint door de stappen te volgen [ hier wordt gedocumenteerd ](/help/2023.md){target="_blank"}. We delen ook documentatie over het maken van workflows om deze gegevens toe te voegen aan het object Lead/Contact. De afschrijving wordt van kracht op 14 juni 2024.
+Zoals vorig jaar aangekondigd, zullen wij [&#x200B; geleidelijk aan onze uitvoerbanen aan Lood/de voorwerpen van het Contact &#x200B;](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} zijn om onze integratie te vereenvoudigen en de behoefte te elimineren om naar Salesforce standaardvoorwerpen uit te voeren. U kunt de zelfde gegevens uit uw voorwerpen verkrijgen Touchpoint door de stappen te volgen [&#x200B; hier wordt gedocumenteerd &#x200B;](/help/2023.md){target="_blank"}. We delen ook documentatie over het maken van workflows om deze gegevens toe te voegen aan het object Lead/Contact. De afschrijving wordt van kracht op 14 juni 2024.
 
 Deze wijziging zal twee belangrijke voordelen opleveren:
 
@@ -58,7 +58,7 @@ Deze wijziging zal twee belangrijke voordelen opleveren:
 
 **Attributed het Dashboard van de Opportunity**
 
-Wij zijn opgetogen om het nieuwe [ Attributed Dashboard van de Kans ](/help/attributed-opportunity-dashboard.md){target="_blank"} te introduceren, die wordt ontworpen om u een uitvoerige mening van te geven hoe uw marketing inspanningen aan zowel ontluikende als volwassen pijpleidingskansen bijdragen. Met dit dashboard kunt u de details bekijken van elke open en gesloten kans die aan uw strategieën is toe te schrijven, met de flexibiliteit om per opportuniteitsfase te filteren. Het biedt inzicht in welke kanalen, subkanalen, of campagnes het hoogst in termen van toegewezen opportuniteitsbedrag zijn, en toont het totale toegewezen opportuniteitsbedrag samen met het aantal toegewezen open en gesloten kansen.
+Wij zijn opgetogen om het nieuwe [&#x200B; Attributed Dashboard van de Kans &#x200B;](/help/attributed-opportunity-dashboard.md){target="_blank"} te introduceren, die wordt ontworpen om u een uitvoerige mening van te geven hoe uw marketing inspanningen aan zowel ontluikende als volwassen pijpleidingskansen bijdragen. Met dit dashboard kunt u de details bekijken van elke open en gesloten kans die aan uw strategieën is toe te schrijven, met de flexibiliteit om per opportuniteitsfase te filteren. Het biedt inzicht in welke kanalen, subkanalen, of campagnes het hoogst in termen van toegewezen opportuniteitsbedrag zijn, en toont het totale toegewezen opportuniteitsbedrag samen met het aantal toegewezen open en gesloten kansen.
 
 **de Synchronisatie van het Koekje van Marketo Engage voor Marketo Measure Ultimate**
 
@@ -99,7 +99,7 @@ Onmiddellijke zichtbaarheid: de introductie van pulsmeldingen maakt een snelle r
 
 _ondersteunend Uw Overgang_
 
-Om u aan deze verandering aan te passen, [ hebben wij documentatie ](/help/configuration-and-setup/error-notifications.md){target="_blank"} met duidelijke foutenbeschrijvingen en uitvoerige het oplossen van problemenstappen gecreeerd.
+Om u aan deze verandering aan te passen, [&#x200B; hebben wij documentatie &#x200B;](/help/configuration-and-setup/error-notifications.md){target="_blank"} met duidelijke foutenbeschrijvingen en uitvoerige het oplossen van problemenstappen gecreeerd.
 
 **Actie die voor Integratie LinkedIn** wordt vereist
 

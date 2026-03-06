@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!DNL Marketo Measure] Post-Lead Creation (PostLC)-aanraakpunten zijn beschikbaar voor klanten die gebruikmaken van multitouch-attributiemodellen (W-Shape en hoger). Wanneer een lead of contactpersoon terugkeert naar uw website en door blijft gaan met het invullen van formulieren, worden deze formulierverzendingen geregistreerd als PostLC-aanraakpunten. Met deze aanraakpunten kunt u zien welke inhoud de Leads ertoe brengt om lang na de eerste conversie door te gaan met uw site. PostLC-aanraakpunten delen toewijzingskrediet met alle intermediaire aanraakpunten binnen een Opportunity; 10% toewijzingskrediet wordt toegewezen aan intermediaire aanraakpunten en wordt gelijkelijk verdeeld over alle aanraakpunten.
 
-![ Aanraakpunten van de Aanmaak van de Post-Lead van Marketo Measure (PostLC) zijn beschikbaar voor klanten die ](assets/additional-functionality-1.png) gebruiken
+![&#x200B; Aanraakpunten van de Aanmaak van de Post-Lead van Marketo Measure (PostLC) zijn beschikbaar voor klanten die &#x200B;](assets/additional-functionality-1.png) gebruiken
 
 U kunt het aantal PostLC-aanraakpunten aanpassen dat wordt weergegeven in [!DNL SFDC] . Doorgaans raden we u aan maximaal vijf PostLC-aanraakpunten in te drukken. Elk aanraakpunt neemt 1 kB in beslag [!DNL SFDC] .
 
@@ -24,7 +24,7 @@ U kunt het aantal PostLC-aanraakpunten aanpassen dat wordt weergegeven in [!DNL 
 
 PostLC-aanraakpunten zijn dynamisch. Aangezien een lead of contactpersoon PostLC-formulieren blijft verzenden, werkt [!DNL Marketo Measure] de PostLC-aanraakpunten in uw CRM bij om hun meest recente formulierverzendingen weer te geven. Specifiek, als u een grens van 5 aanraakpunten PostLC hebt geplaatst, [!DNL Marketo Measure] duw altijd vijf _meest recente_ aanraakpunten aan uw CRM.  In dit voorbeeld heeft dit account de PostLC-limiet ingesteld op vier aanraakpunten. Deze lead heeft al het maximum aantal PostLC-aanraakpunten bereikt dat deze in uw CRM kan hebben. De laatste PostLC touch was op 6-2-2018. Als deze persoon de volgende dag een ander formulier invult, verwijdert [!DNL Marketo Measure] het eerste PostLC-aanraakpunt van 11-9-2017 om het laatste aanraakpunt toe te voegen van 2-7-2018.
 
-![ PostLC touchpoints zijn dynamisch. Als Leider of Contact blijft voorleggen ](assets/additional-functionality-2.png)
+![&#x200B; PostLC touchpoints zijn dynamisch. Als Leider of Contact blijft voorleggen &#x200B;](assets/additional-functionality-2.png)
 
 >[!NOTE]
 >
@@ -36,20 +36,20 @@ Volg onderstaande instructies om de PostLC-aanraakpuntinstellingen voor uw leads
 
 **Leads**
 
-1. Login aan uw [!DNL Marketo Measure] rekening in [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
+1. Login aan uw [!DNL Marketo Measure] rekening in [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
 
 1. Selecteer **[!UICONTROL Leads]** onder CRM.
 
 1. Voer het aantal PostLC-aanraakpunten in dat u op uw leads wilt drukken en klik op **[!UICONTROL Save]** .
 
-   ![1. Voer het aantal postLC-aanraakpunten in waarnaar u wilt duwen ](assets/additional-functionality-3.png)
+   ![1. Voer het aantal postLC-aanraakpunten in waarnaar u wilt duwen &#x200B;](assets/additional-functionality-3.png)
 
 **Contacten**
 
-1. Login aan uw [!DNL Marketo Measure] rekening in [ experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
+1. Login aan uw [!DNL Marketo Measure] rekening in [&#x200B; experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} en ga naar [!UICONTROL Settings].
 
 1. Selecteer **[!UICONTROL Contacts]** onder CRM.
 
 1. Voer het aantal postLC-aanraakpunten in dat u op uw contactpersonen wilt toepassen en klik op **[!UICONTROL Save]** .
 
-   ![1. Voer het aantal postLC-aanraakpunten in waarnaar u wilt duwen ](assets/additional-functionality-4.png)
+   ![1. Voer het aantal postLC-aanraakpunten in waarnaar u wilt duwen &#x200B;](assets/additional-functionality-4.png)

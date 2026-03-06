@@ -50,7 +50,7 @@ Naast een jaarlijkse evaluatie, kunnen bepaalde organisatorische veranderingen d
 
 >[!MORELIKETHIS]
 >
->* [ Gebruikend een Gebied van de Bedrag van de Opbrengst van de Douane ](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md)
->* [ Gebruikend de Lader van Gegevens om het Gebied van het Bedrag van de Douane bij te werken ](/help/channel-tracking-and-setup/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
->* [ Overzicht van multi-Valuta ](/help/channel-tracking-and-setup/overview.md)
->* [ multi-Currency Montages ](/help/channel-tracking-and-setup/settings.md)
+>* [&#x200B; Gebruikend een Gebied van de Bedrag van de Opbrengst van de Douane &#x200B;](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md)
+>* [&#x200B; Gebruikend de Lader van Gegevens om het Gebied van het Bedrag van de Douane bij te werken &#x200B;](/help/channel-tracking-and-setup/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [&#x200B; Overzicht van multi-Valuta &#x200B;](/help/channel-tracking-and-setup/overview.md)
+>* [&#x200B; multi-Currency Montages &#x200B;](/help/channel-tracking-and-setup/settings.md)

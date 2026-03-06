@@ -18,7 +18,7 @@ Onze integratie met [!DNL CallTrackingMetrics] is bedoeld om een Webzitting met 
 
 &#39;Call Tracking&#39; in de algemene zin is een product van bedrijven zoals [!DNL CallTrackingMetrics] , [!DNL DiaglogTech] , [!DNL Invoca] of [!DNL CallRail] , om er een paar te noemen. De unieke telefoonaantallen worden getoond aan gebruikers die op de verschillende marketing kanalen of de campagnes worden gebaseerd die zij uit komen. Op deze manier kunnen marketeers zien hoe die kanalen of campagnes presteren.
 
-![ &quot;Vraag het Volgen&quot;in de algemene zin is een product van bedrijven zoals ](assets/other-resources-6.png)
+![&#x200B; &quot;Vraag het Volgen&quot;in de algemene zin is een product van bedrijven zoals &#x200B;](assets/other-resources-6.png)
 
 ## Voor en Na {#before-and-after}
 
@@ -26,7 +26,7 @@ Bekijk het stroomschema hieronder om te zien hoe [!DNL Marketo Measure] gebruikt
 
 Met de integratie, kunt u zien dat de Webzitting eigenlijk aan een telefoongesprek werd gebonden. De volgende invulling van het formulier wordt dan een PostLC-aanraking en wordt nog steeds bijgehouden tijdens de reis.
 
-![ met de integratie, kunt u zien dat de Webzitting eigenlijk ](assets/other-resources-4.png) was
+![&#x200B; met de integratie, kunt u zien dat de Webzitting eigenlijk &#x200B;](assets/other-resources-4.png) was
 
 ## Hoe het werkt {#how-it-works}
 
@@ -38,7 +38,7 @@ Wanneer een bezoeker naar uw plaats komt en een telefoongesprek voert, is het de
 
 Hieronder ziet u een voorbeeld van een taakrecord met de map [!DNL BizibleId] .
 
-![ hieronder is een voorbeeld van een verslag van de Taak met BizibleId ](assets/other-resources-5.png)
+![&#x200B; hieronder is een voorbeeld van een verslag van de Taak met BizibleId &#x200B;](assets/other-resources-5.png)
 
 Wanneer [!DNL Marketo Measure] een taakrecord zoekt waarvan de bekende [!DNL BizibleId] waarde is ingevuld, kan [!DNL Marketo Measure] die gebruiker toewijzen aan een websessie met dezelfde [!DNL BizibleId] en die sessie toewijzen aan een telefoongesprek in plaats van een webbezoek.
 
@@ -48,13 +48,13 @@ Wanneer [!DNL Marketo Measure] de taak kan importeren/downloaden, verwerken we d
 
 Het [!UICONTROL Touchpoint] Type &quot;Vraag&quot;wordt getrokken uit de Taak, van het hierboven geschetste scherm, dat ook door CallTrackingMetrics wordt bevolkt wanneer de Taak wordt gecreeerd.
 
-![ het Type van Aanraakpunt &quot;Vraag&quot;wordt getrokken van de Taak, van ](assets/marketo-engage-activities-01.png)
+![&#x200B; het Type van Aanraakpunt &quot;Vraag&quot;wordt getrokken van de Taak, van &#x200B;](assets/marketo-engage-activities-01.png)
 
 ## Rapportage {#reporting}
 
 De waarden van het Type van aanraakpunt die [!DNL Marketo Measure] typisch duikt zijn het Bezoek van het Web, de Vorm van het Web, of het Praatje van het Web, maar in het geval van CallTrackingMetrics touchpoints, is het aanraakpunttype de Vraag van de Telefoon. Dit helpt marketers zien welke kanalen in de meeste telefoongesprekken trekken en opbrengst voor hun organisatie produceren.
 
-![ waarden van het Type van Aanraakpunt die Marketo Measure typisch duwt zijn het Bezoek van het Web, ](assets/other-resources-1.png)
+![&#x200B; waarden van het Type van Aanraakpunt die Marketo Measure typisch duwt zijn het Bezoek van het Web, &#x200B;](assets/other-resources-1.png)
 
 ## Veelgestelde vragen {#faq}
 
@@ -72,7 +72,7 @@ Controleer eerst de taak of er een [!DNL BizibleId] is ingevuld. Als er geen waa
 
 Als er een waarde is, merken wij op dat wij slechts alle Webzittingen als 30 minuten beschouwen. Als een Ad van Google bij 12 :17pm (begin van de zitting op de website) werd geklikt, maar het telefoongesprek kwam niet voor tot 1 :05pm, zullen wij niet de Webzitting en telefoongesprek samenvoegen. In plaats daarvan maakt [!DNL Marketo Measure] een apart [!DNL Salesforce Task] -aanraakpunt om het telefoongesprek bij te houden, maar heeft het geen websessiegegevens.
 
-![ als er een waarde is, merk op dat wij slechts al Web ](assets/other-resources-2.png) overwegen
+![&#x200B; als er een waarde is, merk op dat wij slechts al Web &#x200B;](assets/other-resources-2.png) overwegen
 
 ## Partnerschappen {#partnerships}
 

@@ -32,12 +32,12 @@ Maak een nieuw rapporttype waarin alle mogelijkheden worden opgenomen met of zon
    * Gebruik het zelfde noemen voor de Naam van het Type van Rapport. Binnen de ingevoerde beschrijving &quot;Opportunity with or without Buyer Attribution Touchpoints&quot;.
    * Sparen het Rapport binnen &quot;[!UICONTROL Other]&quot;en plaats het rapport aan &quot;[!UICONTROL Deployed]&quot;.
 
-   ![ sparen het Rapport binnen &quot;Andere&quot;en plaats het rapport aan ](assets/bizible-guide-3.png)
+   ![&#x200B; sparen het Rapport binnen &quot;Andere&quot;en plaats het rapport aan &#x200B;](assets/bizible-guide-3.png)
 
 1. Hierna koppelt u het Opportunity-object aan het object Aanraakpunten voor koperkenmerk. Zorg ervoor dat u de knop A-records kiest, maar dat deze al dan niet gerelateerde B-records hebben. Klik op **[!UICONTROL Save]** als u klaar bent.
 
-   ![1. Van daar, zult u het Voorwerp van Kansen aan de Koper verbinden ](assets/bizible-guide-4.png)
+   ![1. Van daar, zult u het Voorwerp van Kansen aan de Koper verbinden &#x200B;](assets/bizible-guide-4.png)
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  Leerprogramma&#39;s: De extra Rapporten van SFDC ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  Leerprogramma&#39;s: De extra Rapporten van SFDC &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

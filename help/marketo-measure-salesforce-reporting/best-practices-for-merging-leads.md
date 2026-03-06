@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Bij het samenvoegen van leads in [!DNL Salesforce] is het altijd het beste voorzichtig te zijn om ervoor te zorgen dat er geen gegevens verloren gaan.
 
-Voor uw verwijzing, hier is onderbreking van [ hoe te om Leads ](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5) van [!DNL Salesforce] Steun samen te voegen.
+Voor uw verwijzing, hier is onderbreking van [&#x200B; hoe te om Leads &#x200B;](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5) van [!DNL Salesforce] Steun samen te voegen.
 
 Waar [!DNL Marketo Measure] in komt is wanneer het tijd is om gebieden te selecteren die op het samengevoegde verslag bevolken. Nadat u Stramienrecord hebt geselecteerd, controleert u of de [!DNL Marketo Measure] -velden zijn geselecteerd om door te gaan naar de nieuwe record.
 
@@ -22,6 +22,6 @@ Als er meerdere records met [!DNL Marketo Measure] -gegevens zijn, controleert u
 
 Daarna kunt u de Leads samenvoegen en worden de gegevens van [!DNL Marketo Measure] overgebracht naar de nieuwe record.
 
-Mocht u om het even welke vragen hebben, aarzel niet om uit te reiken aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Mocht u om het even welke vragen hebben, aarzel niet om uit te reiken aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-![ zou u om het even welke vragen hebben, aarzel niet om uit te reiken aan ](assets/additional-functionality-8.jpg)
+![&#x200B; zou u om het even welke vragen hebben, aarzel niet om uit te reiken aan &#x200B;](assets/additional-functionality-8.jpg)

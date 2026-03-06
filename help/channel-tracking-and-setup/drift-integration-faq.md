@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Veelgestelde vragen over driverintegratie {#drift-integration-faq}
 
-In het kader van de [!DNL Marketo Measure] -integratie met Drift stelt u enkele van de meest gestelde vragen. Als er om het even welke vragen zijn die hieronder niet worden geschetst, bereik aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [ Steun van Marketo ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+In het kader van de [!DNL Marketo Measure] -integratie met Drift stelt u enkele van de meest gestelde vragen. Als er om het even welke vragen zijn die hieronder niet worden geschetst, bereik aan het Team van de Rekening van Adobe (uw Manager van de Rekening) of [&#x200B; Steun van Marketo &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **hoe wordt de integratie toegelaten?**
 
@@ -40,4 +40,4 @@ Als er campagnes CRM op zijn plaats zijn om touchpoints voor de praatjeinteracti
 
 Als er activiteitsregels op zijn plaats zijn om touchpoints voor de praatjeinteractie van de Drijving tot stand te brengen, moet een extra stuk van logica aan de regels worden toegevoegd. Voeg logica toe gebruikend het Taak Gemaakte gebied van de Datum om dubbel aanraakpunten te verhinderen worden gecreeerd (IE CrmTask.CreatedDate is minder dan de datum waarin het eigenschapbeetje werd toegelaten). Zie onderstaande schermafbeelding.
 
-![ als er activiteitenregels op zijn plaats zijn om touchpoints voor Drift ](assets/chat-integration-1.png) tot stand te brengen
+![&#x200B; als er activiteitenregels op zijn plaats zijn om touchpoints voor Drift &#x200B;](assets/chat-integration-1.png) tot stand te brengen

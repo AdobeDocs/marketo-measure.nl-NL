@@ -29,9 +29,9 @@ Wanneer u een bezoeker aan één van uw pagina&#39;s van de Inhoud op uw plaats 
 * Openingspagina
 * Verwijzen naar website
 
-Als u wilt aanpassen in welk segment uw leads worden geplaatst op basis van hun UTM-parameters, kunt u Kanaalregels gebruiken. Voor meer bij vestiging en het handhaven van uw Regels van het Kanaal, [ klik hier ](/help/channel-tracking-and-setup/online-custom-channel-setup.md).
+Als u wilt aanpassen in welk segment uw leads worden geplaatst op basis van hun UTM-parameters, kunt u Kanaalregels gebruiken. Voor meer bij vestiging en het handhaven van uw Regels van het Kanaal, [&#x200B; klik hier &#x200B;](/help/channel-tracking-and-setup/online-custom-channel-setup.md).
 
-Leer hoe te opstelling uw [ Online Kanalen ](/help/channel-tracking-and-setup/online-custom-channel-setup.md) en [ Offlinekanalen ](/help/channel-tracking-and-setup/offline-custom-channel-setup.md), evenals het verschil tussen hen.
+Leer hoe te opstelling uw [&#x200B; Online Kanalen &#x200B;](/help/channel-tracking-and-setup/online-custom-channel-setup.md) en [&#x200B; Offlinekanalen &#x200B;](/help/channel-tracking-and-setup/offline-custom-channel-setup.md), evenals het verschil tussen hen.
 
 **het Marketing Kanaal**
 
@@ -45,11 +45,11 @@ Subkanalen zijn het tweede stuk van de puzzel wanneer het knippen van uw inkomen
 
 In het onderstaande diagram ziet u een voorbeeld van een marketingkanaal, subkanaal en inhoud op basis van een webpagina met de volgende URL:
 
-* [ http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
+* [&#x200B; http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
 In dit geval is de inhoud waartoe de gebruiker toegang probeert te krijgen de Intro Guide naar B2B Marketing Attribution. [!DNL Marketo Measure] zal de URL die tot deze Inhoud leidt analyseren gebruikend de Regels van het Kanaal die in deze org worden opgesteld, en zal hen gebruiken om &quot;te emmeren&quot;dit lood in het Kanaal van de Marketing &quot;Betaalde Sociale&quot;en Subkanaal &quot;LinkedIn&quot;te leiden.
 
-![ In dit geval, is de Inhoud de gebruiker probeert toegang te hebben ](assets/online-channels-1.png)
+![&#x200B; In dit geval, is de Inhoud de gebruiker probeert toegang te hebben &#x200B;](assets/online-channels-1.png)
 
 Andere voorbeelden...
 
