@@ -16,7 +16,7 @@ Hieronder wordt beschreven hoe u verbinding maakt met Marketo.
 
 >[!PREREQUISITES]
 >
->[&#x200B; creeer een slechts rol van de Gebruiker van API &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) voor de [!DNL Marketo Measure]/verbinding van Marketo Engage.
+>[&#x200B; creeer een slechts rol van de Gebruiker van API &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=nl-NL) voor de [!DNL Marketo Measure]/verbinding van Marketo Engage.
 
 1. Klik in [!DNL Marketo Measure] op de vervolgkeuzelijst **[!UICONTROL My Account]** en selecteer **[!UICONTROL Settings]** .
 

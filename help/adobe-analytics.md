@@ -20,7 +20,7 @@ Dankzij de integratie van B2B-klantkenmerken kunnen wederzijdse gebruikers van [
 
 ## De integratie configureren {#configuring-the-integration}
 
-1. Maak een nieuwe Customer Attributes Data Source in uw Experience Cloud-console. De gedetailleerde instructies [&#x200B; kunnen hier &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html) worden gevonden.
+1. Maak een nieuwe Customer Attributes Data Source in uw Experience Cloud-console. De gedetailleerde instructies [&#x200B; kunnen hier &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=nl-NL) worden gevonden.
 
    Neem nota van de volgende informatie, nodig in de recentere stappen:
 
@@ -34,11 +34,11 @@ Dankzij de integratie van B2B-klantkenmerken kunnen wederzijdse gebruikers van [
 
    Voer uw Adobe IMS-organisatie-id in. Deze id wordt weergegeven in de rechterbenedenhoek van uw Adobe Experience Cloud Admin Console. Neem contact op met het Adobe-accountteam (uw accountmanager) voor meer hulp bij het vinden van deze id.
 
-1. Nadat u klaar bent met het creëren van de verbinding in uw [!DNL Marketo Measure] rekening, moet u naar uw console van Experience Cloud terugleiden om [&#x200B; het schema &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en) te bevestigen. U hoeft zich geen zorgen te maken over het uploaden van FTP-bestanden. [!DNL Marketo Measure] heeft dat onderdeel voor u geautomatiseerd. Ga naar het schema &quot;Weergeven/bewerken&quot; voor de Source van klantkenmerken die u in Stap 1 hebt gemaakt en vertel Adobe wat de gegevenstypen zijn voor elk van de kenmerken die [!DNL Marketo Measure] namens u heeft geüpload. U kunt desgewenst ook nieuwe weergavefuncties voor de geüploade kenmerken maken.
+1. Nadat u klaar bent met het creëren van de verbinding in uw [!DNL Marketo Measure] rekening, moet u naar uw console van Experience Cloud terugleiden om [&#x200B; het schema &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=nl-NL) te bevestigen. U hoeft zich geen zorgen te maken over het uploaden van FTP-bestanden. [!DNL Marketo Measure] heeft dat onderdeel voor u geautomatiseerd. Ga naar het schema &quot;Weergeven/bewerken&quot; voor de Source van klantkenmerken die u in Stap 1 hebt gemaakt en vertel Adobe wat de gegevenstypen zijn voor elk van de kenmerken die [!DNL Marketo Measure] namens u heeft geüpload. U kunt desgewenst ook nieuwe weergavefuncties voor de geüploade kenmerken maken.
 
    Als u ervoor hebt gekozen om kenmerken van uw CRM-accountobject te synchroniseren, wordt u ten zeerste aangeraden nieuwe weergavenamen voor deze kenmerken te kiezen, aangezien [!DNL Marketo Measure] alleen de namen op API-niveau voor deze kenmerken vult, die gewoonlijk niet rapportvriendelijk zijn.
 
-1. De laatste stap bestaat uit het configureren van kenmerkabonnementen voor de Experience Cloud-toepassingen waarin u de kenmerken wilt gebruiken. U kunt Abonnementen configureren voor [!DNL Adobe Analytics] of [!DNL Adobe Target] .  Meer informatie over hoe te om dat te doen [&#x200B; kan hier worden gevonden &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
+1. De laatste stap bestaat uit het configureren van kenmerkabonnementen voor de Experience Cloud-toepassingen waarin u de kenmerken wilt gebruiken. U kunt Abonnementen configureren voor [!DNL Adobe Analytics] of [!DNL Adobe Target] .  Meer informatie over hoe te om dat te doen [&#x200B; kan hier worden gevonden &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html?lang=nl-NL).
 
 ## Kenmerkbeschrijvingen {#attribute-descriptions}
 

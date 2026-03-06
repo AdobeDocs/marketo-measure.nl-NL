@@ -83,8 +83,8 @@ Klik op **[!UICONTROL Save]** als u klaar bent en [!DNL Marketo Measure] uploadt
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het in kaart brengen van Off-line Kanalen &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het synchroniseren Offline Campagnes &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure]  Leerprogramma&#39;s: Het synchroniseren Offline Campagnes &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
 >* [&#x200B; de Integratie van de Programma&#39;s van Marketo Engage &#x200B;](/help/marketo-engage-programs-integration.md){target="_blank"}
