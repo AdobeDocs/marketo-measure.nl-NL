@@ -1,12 +1,12 @@
 ---
-unique-page-id: 18874594
-description: Geïntegreerde AD-platforms -  [!DNL Marketo Measure]
+description: Richtlijnen voor geïntegreerde ad-hocplatforms voor Marketo Measure-gebruikers
 title: Geïntegreerde AD-platforms
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
+hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1823'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->U kunt maximaal 300 Advertentieplatformverbindingen gebruiken.
+>Het maximumaantal Advertentieplatformverbindingen dat u kunt verbinden is 300.
 
 Voordat we details van elk platform bekijken, gaan we na hoe we een van deze accounts kunnen verbinden met [!DNL Marketo Measure] . Meld u eerst aan bij [!DNL Marketo Measure] en navigeer naar de optie **[!UICONTROL Settings]** onder de tab **[!UICONTROL My Account]** linksboven in het scherm. Selecteer vervolgens **[!UICONTROL Connections]** onder de sectie **[!UICONTROL Integrations]** aan de linkerkant.
 
 Zoals in de onderstaande afbeelding wordt weergegeven, ziet u een knop om nieuwe advertentieverbindingen in te stellen.
 
-![](assets/2.png)
+![ zoals aangetoond in het beeld hieronder, zult u een knoop aan ](assets/bizible-guide-1.png) zien
 
 Nadat u op de knop [!UICONTROL Set up New Ads Connection] hebt geklikt, wordt een venster (dat hieronder wordt weergegeven) weergegeven met vier pictogramtypen. [!UICONTROL connect] Klik op Verbinding maken en een ander venster verschijnt met de vraag naar referenties. Voer de gegevens in en klik op [!UICONTROL authorize] om de account te verbinden met [!DNL Marketo Measure] .
 
-![](assets/select-account-type.png)
+![ nadat u de Opstelling Nieuwe knoop van de Verbinding van Advertenties klikt, a ](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -42,13 +42,13 @@ De het Volgen Malplaatje is een hulpmiddel Google verstrekt om toe te voegen wat
 [!DNL Marketo Measure] Zoekt naar Sjablonen bijhouden in uw [!DNL AdWords] -account:
 
 * *Optie A*: Het Volgen Malplaatje wordt gevonden. [!DNL Marketo Measure] voegt de parameters ervan toe aan de sjabloon.
-* *Optie B*: De herleiding van de derde wordt gevonden. Als er een doorverwijzing van derden wordt gevonden in de sjabloon voor reeksspatiëring, kan [!DNL Marketo Measure] geen actie ondernemen. U moet de [!DNL Marketo Measure] -tags handmatig toevoegen aan het systeem van derden. Een voorbeeld van omleiding door derden zou een instrument voor het beheren van biedingen zijn, zoals Kenshoo of Marin. Leer meer over hoe [ de hulpmiddelen van het biedingsbeheer  [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} beïnvloeden.
+* *Optie B*: De herleiding van de derde wordt gevonden. Als er een doorverwijzing van derden wordt gevonden in de sjabloon voor reeksspatiëring, kan [!DNL Marketo Measure] geen actie ondernemen. U moet de [!DNL Marketo Measure] -tags handmatig toevoegen aan het systeem van derden. Een voorbeeld van omleiding door derden zou een instrument voor het beheren van biedingen zijn, zoals Kenshoo of Marin. Leer meer over hoe [ de hulpmiddelen van het biedingsbeheer  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} beïnvloeden.
 
 * *Optie C*: Geen het Volgen Malplaatje wordt gevonden. [!DNL Marketo Measure] doorzoekt alle URL&#39;s van uw advertentie-bestemming voor de parameters [!DNL Marketo Measure] . Gebaseerd op de scan, indien:
    * Er zijn parameters gevonden: de installatie is voltooid!
    * Parameters worden niet gevonden: [!DNL Marketo Measure] voegt de parameters toe aan het einde van de URL&#39;s voor het toevoegen van doelen. [!DNL Marketo Measure] voegt nieuwe advertenties toe binnen twee uur nadat deze zijn gemaakt. Onthoud dat de parameters niet aan een sjabloon worden toegevoegd.
 
-Leer meer over onze [[!DNL AdWords]  auto-etiketterende functionaliteit ](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
+Leer meer over onze [[!DNL AdWords]  auto-etiketterende functionaliteit ](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## [!DNL Marketo Measure] Automatisch labelen voor Adwords inschakelen {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -60,15 +60,15 @@ Als u een sjabloon voor bijhouden hebt, volgt u de onderstaande instructies om [
 
 1. Ga naar [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections] .
 
-   ![](assets/4.png)
+   ![1. Ga naar Integrations Connections voor Mijn accountinstellingen.](assets/utilizing-connections-8.png)
 
 1. Klik op het potloodpictogram naast het account Adwords waarvoor automatische labeling is ingeschakeld voor [!DNL Marketo Measure] .
 
-   ![](assets/5.png)
+   ![1. Klik op het potloodpictogram naast de Adwords-account die wordt geactiveerd ](assets/utilizing-connections-9.png)
 
 1. Schakel in de rechterbovenhoek de **[!UICONTROL Autotagging]** -schakelaar in op **[!UICONTROL Yes]** . Klik onder aan de pagina op **[!UICONTROL Learn More]** om het tekstvak uit te vouwen en klik op **[!UICONTROL Save]** . Setup voor automatisch labelen is voltooid.
 
-   ![](assets/6.png)
+   ![1. Schakel in de rechterbovenhoek de schakeloptie Autotagging in op ](assets/utilizing-connections-10.png)
 
 ## Hoe te opstelling een het Volgen Malplaatje in AdvertentieWoorden met [!DNL Marketo Measure] Parameters {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
